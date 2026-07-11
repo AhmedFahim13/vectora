@@ -81,7 +81,8 @@ def upsert(con, table: str, rows: list[dict]) -> int:
     """INSERT OR REPLACE a list of same-shaped dicts. Returns row count."""
     if not rows:
         return 0
-    # de-duplicate within the batch (last wins) to avoid PK clash inside one insert
+    # collapse byte-identical duplicate rows within the batch; same-PK rows with
+    # different values are fine as-is (INSERT OR REPLACE handles them, last wins)
     cols = list(rows[0].keys())
     seen: dict = {}
     for r in rows:
@@ -89,5 +90,11 @@ def upsert(con, table: str, rows: list[dict]) -> int:
     rows = list(seen.values())
     placeholders = ", ".join("?" for _ in cols)
     sql = f"INSERT OR REPLACE INTO {table} ({', '.join(cols)}) VALUES ({placeholders})"
-    con.executemany(sql, [[r[c] for c in cols] for r in rows])
+    con.execute("BEGIN TRANSACTION")
+    try:
+        con.executemany(sql, [[r[c] for c in cols] for r in rows])
+        con.execute("COMMIT")
+    except Exception:
+        con.execute("ROLLBACK")
+        raise
     return len(rows)
