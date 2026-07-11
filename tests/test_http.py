@@ -23,6 +23,21 @@ def test_get_retries_on_5xx_then_succeeds():
 
 
 @responses.activate
+def test_get_retries_on_connection_error_then_succeeds():
+    import requests
+
+    responses.add(
+        responses.GET,
+        "https://www.dsebd.org/net.php",
+        body=requests.ConnectionError(),
+    )
+    responses.get("https://www.dsebd.org/net.php", body="ok")
+    s = PoliteSession(delay_s=0, backoff_s=0)
+    assert s.get("https://www.dsebd.org/net.php") == "ok"
+    assert len(responses.calls) == 2
+
+
+@responses.activate
 def test_get_raises_after_max_retries():
     import pytest
     import requests

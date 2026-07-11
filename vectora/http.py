@@ -41,7 +41,8 @@ class PoliteSession:
                 return resp.text
             except (requests.HTTPError, requests.ConnectionError, requests.Timeout) as exc:
                 last_exc = exc
-                time.sleep(self.backoff_s * (attempt + 1))
+                if attempt < self.max_retries - 1:
+                    time.sleep(self.backoff_s * (attempt + 1))
         raise last_exc  # type: ignore[misc]
 
     def _throttle(self) -> None:
