@@ -15,11 +15,11 @@ def test_holiday_is_not_trading_day():
     assert not cal.is_trading_day(eid, holidays={eid})
 
 
-def test_last_trading_day_skips_weekend_and_holidays():
+def test_previous_trading_day_skips_weekend_and_holidays():
     # From Sunday 2026-07-12, previous trading day is Thursday 2026-07-09
-    assert cal.last_trading_day(date(2026, 7, 12), holidays=set()) == date(2026, 7, 9)
+    assert cal.previous_trading_day(date(2026, 7, 12), holidays=set()) == date(2026, 7, 9)
     # If Thursday were a holiday, it must skip to Wednesday
-    assert cal.last_trading_day(
+    assert cal.previous_trading_day(
         date(2026, 7, 12), holidays={date(2026, 7, 9)}
     ) == date(2026, 7, 8)
 
@@ -35,3 +35,12 @@ def test_load_holidays_parses_csv(tmp_path):
 
 def test_load_holidays_missing_file_returns_empty(tmp_path):
     assert cal.load_holidays(tmp_path / "nope.csv") == set()
+
+
+def test_load_holidays_skips_malformed_rows(tmp_path):
+    p = tmp_path / "holidays.csv"
+    p.write_text(
+        "date,description\n2026-12-16,Victory Day\nnot-a-date,typo row\n,empty\n",
+        encoding="utf-8",
+    )
+    assert cal.load_holidays(p) == {date(2026, 12, 16)}
