@@ -1,0 +1,47 @@
+name: eod-pipeline
+
+on:
+  schedule:
+    # 15:30 Dhaka (UTC+6, no DST) = 09:30 UTC, Sun-Thu trading days.
+    # The calendar module skips holidays; cron only filters weekends.
+    - cron: "30 9 * * 0,1,2,3,4"
+  workflow_dispatch:
+    inputs:
+      date:
+        description: "Run date YYYY-MM-DD (default: today, Dhaka)"
+        required: false
+        default: ""
+
+concurrency:
+  group: pipeline-writes
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  eod:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v5
+        with:
+          python-version: "3.12"
+      - name: Install
+        run: uv sync --frozen
+      - name: Run EOD pipeline
+        run: |
+          if [ -n "${{ github.event.inputs.date }}" ]; then
+            uv run python -m vectora run eod --date "${{ github.event.inputs.date }}"
+          else
+            uv run python -m vectora run eod --date "$(TZ=Asia/Dhaka date +%F)"
+          fi
+      - name: Commit data
+        run: |
+          git config user.name "vectora-bot"
+          git config user.email "vectora-bot@users.noreply.github.com"
+          git pull --rebase
+          git add -f data/raw data/vectora.duckdb data/reference
+          git diff --cached --quiet || git commit -m "data: eod $(TZ=Asia/Dhaka date +%F)"
+          git push
