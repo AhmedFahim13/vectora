@@ -51,3 +51,21 @@ def test_market_totals(fixtures_dir):
 
 def test_empty_page():
     assert dse_indices.parse_homepage("<html></html>") == {"indices": [], "totals": None}
+
+
+def test_totals_anchored_on_header_labels_not_position():
+    # An Advanced/Declined/Unchanged-style numeric row BEFORE the labeled
+    # totals header must not be mistaken for market totals
+    html = (
+        '<div class="midrow"><div class="m_col-wid">214</div>'
+        '<div class="m_col-wid1">116</div><div class="m_col-wid2">62</div></div>'
+        '<div class="midrow"><div class="m_col-wid">Total Trade</div>'
+        '<div class="m_col-wid1">Total Volume</div>'
+        '<div class="m_col-wid2">Total Value in Taka (mn)</div></div>'
+        '<div class="midrow"><div class="m_col-wid">324776</div>'
+        '<div class="m_col-wid1">428342460</div>'
+        '<div class="m_col-wid2">14284.684</div></div>'
+    )
+    t = dse_indices.parse_homepage(html)["totals"]
+    assert t == {"total_trades": 324776, "total_volume": 428342460,
+                 "total_value_mn": 14284.684}

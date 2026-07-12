@@ -39,6 +39,7 @@ def parse_homepage(html: str) -> dict:
     indices = []
     seen: set[str] = set()
     totals = None
+    expect_totals_values = False
     for row in soup.find_all("div", class_="midrow"):
         name_div = row.find("div", class_="m_col-1")
         val_div = row.find("div", class_="m_col-2")
@@ -51,9 +52,18 @@ def parse_homepage(html: str) -> dict:
                 seen.add(name)
                 indices.append({"index_name": name, "value": value, "change": change})
             continue
-        # totals values row: three m_col-wid* divs holding plain numbers
+        # totals are anchored on the labeled header row: other 3-number
+        # m_col-wid rows exist (e.g. Issues Advanced/Declined/Unchanged),
+        # so numeric shape alone is not diagnostic
         wid_divs = row.find_all("div", class_=re.compile(r"^m_col-wid"))
-        if len(wid_divs) == 3 and totals is None:
+        if not wid_divs:
+            continue
+        row_text = row.get_text(" ", strip=True)
+        if "Total Trade" in row_text and "Total Volume" in row_text:
+            expect_totals_values = True
+            continue
+        if expect_totals_values and len(wid_divs) == 3 and totals is None:
+            expect_totals_values = False
             nums = [_float(d.get_text()) for d in wid_divs]
             if all(n is not None for n in nums):
                 totals = {
