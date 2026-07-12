@@ -39,6 +39,21 @@ def test_loads_unadjusted_csvs(test_db, tmp_path):
     assert rows[0][4] == "mendeley"
 
 
+def test_combined_dump_files_are_skipped(test_db, tmp_path):
+    # the real zip ships combined all-instrument dumps (UNADJUSTED.csv)
+    # alongside per-company files — loading both would double the data and
+    # inject a bogus 'UNADJUSTED' symbol
+    z = _zip(tmp_path, {
+        "Data/Company Separated UnAdjusted Data/GP.csv": GP_CSV,
+        "Data/UnAdjusted Data/UNADJUSTED.csv": GP_CSV,
+    })
+    result = bf.load_zip(test_db, z)
+    assert result["files"] == 1
+    syms = [r[0] for r in test_db.execute(
+        "SELECT DISTINCT symbol FROM prices_raw").fetchall()]
+    assert syms == ["GP"]
+
+
 def test_index_series_files_are_skipped(test_db, tmp_path):
     # 00-prefixed files are index series (00DSEX, 00DSMEX), not instruments
     z = _zip(tmp_path, {"00DSMEX.csv": GP_CSV, "GP.csv": GP_CSV})
