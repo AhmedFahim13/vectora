@@ -83,7 +83,9 @@ def _extract_facts(soup: BeautifulSoup, symbol: str) -> dict:
             continue
         raw = value_cell.get_text(" ", strip=True)
         if key == "category":
-            facts[key] = raw.strip()[:1] or None
+            # some pages render "-" for uncategorized instruments (bonds etc.)
+            c = raw.strip()[:1]
+            facts[key] = c if c.isalpha() else None
         elif kind == "str":
             facts[key] = raw or None
         elif kind == "num":

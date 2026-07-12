@@ -25,19 +25,21 @@ _SNAPSHOT_KEYS = ("symbol", "sector", "category", "instrument_type",
 
 
 def bootstrap_symbols(con) -> int:
-    rows = con.execute(
+    # merge, don't replace: re-runs extend first/last_seen from new price
+    # history but must preserve metadata a prior company sweep filled in
+    con.execute(
         """
-        SELECT symbol, min(date) AS first_seen, max(date) AS last_seen
-        FROM prices_raw GROUP BY symbol
+        INSERT OR REPLACE INTO symbols
+        SELECT p.symbol, s.name, s.sector, s.instrument_type, s.category,
+               coalesce(s.listing_status, 'active'), p.first_seen, p.last_seen
+        FROM (
+            SELECT symbol, min(date) AS first_seen, max(date) AS last_seen
+            FROM prices_raw GROUP BY symbol
+        ) p
+        LEFT JOIN symbols s USING (symbol)
         """
-    ).fetchall()
-    payload = [
-        {"symbol": r[0], "name": None, "sector": None, "instrument_type": None,
-         "category": None, "listing_status": "active",
-         "first_seen": str(r[1]), "last_seen": str(r[2])}
-        for r in rows
-    ]
-    return vdb.upsert(con, "symbols", payload)
+    )
+    return con.execute("SELECT count(*) FROM symbols").fetchone()[0]
 
 
 def sweep_companies(con, session, symbols: list[str], as_of: str,

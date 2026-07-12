@@ -47,6 +47,25 @@ def test_bootstrap_symbols_from_prices(test_db):
     assert str(rows[0][1]) == "2026-07-08" and str(rows[0][2]) == "2026-07-09"
 
 
+def test_rebootstrap_preserves_swept_metadata(test_db):
+    _seed_prices(test_db)
+    boot.bootstrap_symbols(test_db)
+    test_db.execute(
+        "UPDATE symbols SET sector = 'Bank', category = 'A' WHERE symbol = 'GP'")
+    # new history arrives (backfill) -> re-bootstrap must extend dates,
+    # not clobber sector/category with NULLs
+    vdb.upsert(test_db, "prices_raw", [dict(
+        symbol="GP", date="2013-01-02", open=1.0, high=1.0, low=1.0, close=1.0,
+        ltp=None, ycp=None, trades=None, value_mn=None, volume=1,
+        source="mendeley")])
+    boot.bootstrap_symbols(test_db)
+    row = test_db.execute(
+        "SELECT sector, category, first_seen, last_seen FROM symbols "
+        "WHERE symbol = 'GP'").fetchone()
+    assert row[0] == "Bank" and row[1] == "A"
+    assert str(row[2]) == "2013-01-02" and str(row[3]) == "2026-07-09"
+
+
 def test_sweep_upserts_snapshot_holdings_and_symbol_meta(test_db, tmp_path):
     _seed_prices(test_db)
     boot.bootstrap_symbols(test_db)
