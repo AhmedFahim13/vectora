@@ -23,6 +23,16 @@ def test_row_shape_and_types(fixtures_dir):
     assert r["high"] is None or r["high"] >= 0
 
 
+def test_zero_trade_rows_parse_as_zero_not_none(fixtures_dir):
+    # DSE renders genuine no-trade instruments (bonds etc.) with literal "0";
+    # only dash/blank cells mean "missing" and become None
+    zero_rows = [r for r in _rows(fixtures_dir) if r["trades"] == 0]
+    assert len(zero_rows) > 100  # fixture has ~248 no-trade bond rows
+    assert all(isinstance(r["volume"], int) for r in zero_rows)
+    assert dse_eod._int("-") is None
+    assert dse_eod._int("0") == 0
+
+
 def test_all_symbols_unique_per_date(fixtures_dir):
     rows = _rows(fixtures_dir)
     keys = [(r["symbol"], r["date"]) for r in rows]

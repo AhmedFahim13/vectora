@@ -31,9 +31,11 @@ def _num(text: str) -> float | None:
         return None
 
 
-def _int(text: str) -> int:
+def _int(text: str) -> int | None:
+    # None preserves "data missing" vs a genuine zero-volume day, which
+    # matters for liquidity analytics; DSE renders real zeros as literal "0"
     v = _num(text)
-    return int(v) if v is not None else 0
+    return int(v) if v is not None else None
 
 
 def parse_day_end(html: str) -> list[dict]:
