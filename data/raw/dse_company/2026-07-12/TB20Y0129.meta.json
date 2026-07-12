@@ -1,0 +1,9 @@
+{
+ "source": "dse_company",
+ "run_date": "2026-07-12",
+ "url": "https://www.dsebd.org/displayCompany.php",
+ "fetched_at": "2026-07-12T05:54:28.698723+00:00",
+ "bytes": 301059,
+ "compressed_bytes": 23144,
+ "sha256": "2021e7b0c83e7514e3a757ca039bf518005bd8693a9660ef65c003f16bfe855d"
+}
