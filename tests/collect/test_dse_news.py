@@ -8,7 +8,12 @@ def _items(fixtures_dir):
 
 
 def test_parses_many_items(fixtures_dir):
-    assert len(_items(fixtures_dir)) >= 40
+    # exact pin against the checked-in fixture; update if fixtures are re-recorded
+    assert len(_items(fixtures_dir)) == 57
+
+
+def test_empty_page_yields_no_items():
+    assert dse_news.parse_news("<html></html>") == []
 
 
 def test_item_shape(fixtures_dir):
@@ -47,6 +52,6 @@ def test_symbol_comes_from_trading_code(fixtures_dir):
     # Trading Code recovers company-scoped "DSE NEWS:" withdrawal notices
     # (OSL/KDS/PIS/ASE/IBB) that the title regex misses
     with_symbol = [i for i in items if i["symbol"]]
-    assert len(with_symbol) > 45  # title-regex baseline was 45
+    assert len(with_symbol) == 49  # title-regex baseline was 45; Trading Code adds 4
     withdrawals = [i for i in items if i["title"].startswith("DSE NEWS: Withdrawal")]
     assert any(i["symbol"] is not None for i in withdrawals)
