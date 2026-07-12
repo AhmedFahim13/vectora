@@ -4,6 +4,11 @@ The homepage (verified 2026-07-12) shows current index values in
 div.midrow blocks: m_col-1 = name (split by <font> tags), m_col-2 = value,
 m_col-3 = signed change. Market totals follow in m_col-wid* divs.
 Names normalize to bare index codes: "DSEX Index" -> "DSEX".
+
+The page repeats the index blocks further down in a "Preceding Trade Date"
+section with the prior day's values; only the FIRST occurrence of each
+index name (current day) is kept, matching the first-values-row rule
+already applied to totals.
 """
 import re
 
@@ -32,6 +37,7 @@ def _float(text: str) -> float | None:
 def parse_homepage(html: str) -> dict:
     soup = BeautifulSoup(html, "lxml")
     indices = []
+    seen: set[str] = set()
     totals = None
     for row in soup.find_all("div", class_="midrow"):
         name_div = row.find("div", class_="m_col-1")
@@ -41,7 +47,8 @@ def parse_homepage(html: str) -> dict:
             value = _float(val_div.get_text())
             change = _float(chg_div.get_text()) if chg_div else None
             name = _clean_name(name_div.get_text())
-            if name and value is not None:
+            if name and value is not None and name not in seen:
+                seen.add(name)
                 indices.append({"index_name": name, "value": value, "change": change})
             continue
         # totals values row: three m_col-wid* divs holding plain numbers

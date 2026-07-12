@@ -20,9 +20,26 @@ def test_index_values_plausible(fixtures_dir):
     assert isinstance(dsex["change"], float)
 
 
-def test_negative_change_preserved(fixtures_dir):
-    idx = {i["index_name"]: i for i in _parsed(fixtures_dir)["indices"]}
-    assert any(i["change"] < 0 for i in idx.values())  # DSMEX is negative in fixture
+def test_one_entry_per_index_and_current_day_wins(fixtures_dir):
+    idx = _parsed(fixtures_dir)["indices"]
+    names = [i["index_name"] for i in idx]
+    assert len(names) == len(set(names))  # no duplicates
+    # first occurrence (current day, +33.78998) must win over the later
+    # "Preceding Trade Date" section (-11.00069)
+    dsex = next(i for i in idx if i["index_name"] == "DSEX")
+    assert dsex["change"] == 33.78998
+
+
+def test_signed_change_parsing():
+    # DSMEX-style negative change (comment-wrapped in the fixture, so pinned
+    # here with a synthetic midrow instead)
+    html = (
+        '<div class="midrow"><div class="m_col-1"><font size="+1">D</font>SME'
+        '<font size="+1">X</font> Index</div><div class="m_col-2"> 1318.86324 '
+        '</div><div class="m_col-3">-23.05349 </div></div>'
+    )
+    idx = dse_indices.parse_homepage(html)["indices"]
+    assert idx == [{"index_name": "DSMEX", "value": 1318.86324, "change": -23.05349}]
 
 
 def test_market_totals(fixtures_dir):
