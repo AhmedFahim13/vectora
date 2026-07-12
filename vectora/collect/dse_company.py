@@ -1,10 +1,15 @@
 """DSE company page parser (displayCompany.php?name=SYMBOL).
 
-Facts are label/value pairs in mixed th/td and td/td tables; shareholding
-percentages appear in "Share Holding Percentage [as on <date>]" blocks with
-cells like "Sponsor/Director:<br>90.00". Multiple blocks exist (year-end and
-one or more later months); the block with the most recent parseable date
-wins.
+Facts are label/value pairs in mixed th/td and td/td tables; all seven fact
+keys are always present (None when missing/unparseable) plus the caller's
+symbol, so downstream upserts see a stable schema keyed on symbol.
+
+Shareholding percentages appear in "Share Holding Percentage [as on <date>]"
+blocks with cells like "Sponsor/Director:<br>90.00". Pages carry multiple
+blocks (year-end plus one or more later months — GP shows three), a free
+historical time series: ALL valid blocks are returned, sorted ascending by
+as_of, each tagged with the symbol to match the (symbol, as_of) holdings PK.
+A block is valid when at least 3 of the 5 percentages actually parse.
 """
 import re
 from datetime import datetime
@@ -61,20 +66,25 @@ def _parse_as_of(text: str) -> str | None:
     return None
 
 
-def _extract_facts(soup: BeautifulSoup) -> dict:
-    facts: dict = {}
+def _extract_facts(soup: BeautifulSoup, symbol: str) -> dict:
+    facts: dict = {"symbol": symbol}
+    facts.update({key: None for key, _ in _FACT_LABELS.values()})
+    seen: set[str] = set()
     for cell in soup.find_all(["th", "td"]):
         label = cell.get_text(strip=True)
         if label not in _FACT_LABELS:
             continue
         key, kind = _FACT_LABELS[label]
-        if key in facts:
+        if key in seen:
             continue  # first occurrence wins
+        seen.add(key)
         value_cell = cell.find_next_sibling("td")
         if value_cell is None:
             continue
         raw = value_cell.get_text(" ", strip=True)
-        if kind == "str":
+        if key == "category":
+            facts[key] = raw.strip()[:1] or None
+        elif kind == "str":
             facts[key] = raw or None
         elif kind == "num":
             facts[key] = _num(raw)
@@ -84,8 +94,8 @@ def _extract_facts(soup: BeautifulSoup) -> dict:
     return facts
 
 
-def _extract_holdings(soup: BeautifulSoup) -> dict | None:
-    best: dict | None = None
+def _extract_holdings(soup: BeautifulSoup, symbol: str) -> list[dict]:
+    blocks: list[dict] = []
     for node in soup.find_all(string=re.compile(r"Share Holding Percentage")):
         label_cell = node.find_parent("td")
         if label_cell is None:
@@ -96,21 +106,25 @@ def _extract_holdings(soup: BeautifulSoup) -> dict | None:
         if row is None:
             continue
         text = row.get_text(" ", strip=True)
-        holdings: dict = {"as_of": as_of}
-        found = 0
+        holdings: dict = {"symbol": symbol, "as_of": as_of}
+        parsed = 0
         for label, key in _HOLDING_KEYS.items():
             m = re.search(rf"{re.escape(label)}\s*:\s*([\d.,]+)", text)
-            holdings[key] = _num(m.group(1)) if m else None
-            found += 1 if m else 0
-        if found < 3:
+            value = _num(m.group(1)) if m else None
+            holdings[key] = value
+            parsed += 1 if value is not None else 0
+        if parsed < 3:
             continue  # not a real holdings block
-        if best is None or (holdings["as_of"] or "") > (best["as_of"] or ""):
-            best = holdings
-    return best
+        blocks.append(holdings)
+    blocks.sort(key=lambda h: h["as_of"] or "")
+    return blocks
 
 
-def parse_company(html: str) -> dict:
+def parse_company(html: str, symbol: str) -> dict:
     soup = BeautifulSoup(html, "lxml")
     if soup.find("table") is None:
-        return {"facts": {}, "holdings": None}
-    return {"facts": _extract_facts(soup), "holdings": _extract_holdings(soup)}
+        return {"facts": {}, "holdings": []}
+    return {
+        "facts": _extract_facts(soup, symbol),
+        "holdings": _extract_holdings(soup, symbol),
+    }
