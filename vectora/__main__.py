@@ -1,14 +1,27 @@
 """CLI: python -m vectora run eod [--date YYYY-MM-DD]
 
-Exit codes: 0 = success or clean skip; 1 = unusable day (quality 0) or
-unknown command. Stage errors surface in output but only zero-quality
-days fail the run — CI treats exit 1 as "investigate now".
+Without --date, gap-fills every trading day since the last successful
+collection. Exit codes: 0 = all runs clean (or clean skip); 1 = any run had
+stage errors, a crashed validation, or quality below settings.MIN_QUALITY_SCORE.
+CI treats exit 1 as "investigate now" — data is still committed either way.
 """
 import argparse
 import json
 import sys
 
 from vectora import orchestrator
+from vectora.settings import MIN_QUALITY_SCORE
+
+
+def _run_failed(summary: dict) -> bool:
+    if summary.get("skipped"):
+        return False
+    quality = summary.get("quality_score")
+    return (
+        quality is None            # validation crashed or never ran
+        or quality < MIN_QUALITY_SCORE
+        or bool(summary.get("errors"))
+    )
 
 
 def main(argv: list[str] | None = None) -> int:
@@ -16,15 +29,14 @@ def main(argv: list[str] | None = None) -> int:
     sub = parser.add_subparsers(dest="command", required=True)
     run = sub.add_parser("run", help="run a pipeline stage")
     run.add_argument("stage", choices=["eod"])
-    run.add_argument("--date", default=None, help="YYYY-MM-DD (default: today)")
+    run.add_argument("--date", default=None,
+                     help="YYYY-MM-DD (default: gap-fill up to today)")
     args = parser.parse_args(argv)
 
     if args.command == "run" and args.stage == "eod":
-        summary = orchestrator.run_eod_live(args.date)
-        print(json.dumps(summary, indent=1))
-        if summary.get("skipped"):
-            return 0
-        return 1 if summary.get("quality_score") == 0 else 0
+        summaries = orchestrator.run_eod_live(args.date)
+        print(json.dumps(summaries, indent=1))
+        return 1 if any(_run_failed(s) for s in summaries) else 0
     return 1
 
 

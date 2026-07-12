@@ -84,6 +84,7 @@ def main() -> int:
             return 0
         if cmd == "sweep":
             limit = int(sys.argv[2]) if len(sys.argv) > 2 else None
+            bootstrap_symbols(con)  # sweep updates symbols rows; ensure they exist
             syms = [r[0] for r in con.execute(
                 "SELECT symbol FROM symbols ORDER BY symbol").fetchall()]
             if limit:

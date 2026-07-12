@@ -8,7 +8,7 @@ on:
   workflow_dispatch:
     inputs:
       date:
-        description: "Run date YYYY-MM-DD (default: today, Dhaka)"
+        description: "Run date YYYY-MM-DD (default: gap-fill up to today, Dhaka)"
         required: false
         default: ""
 
@@ -18,6 +18,9 @@ concurrency:
 
 permissions:
   contents: write
+
+env:
+  TZ: Asia/Dhaka
 
 jobs:
   eod:
@@ -31,17 +34,29 @@ jobs:
       - name: Install
         run: uv sync --frozen
       - name: Run EOD pipeline
+        id: pipeline
+        # continue-on-error so a red day still commits its raw evidence and
+        # no_trade_days marker; the last step re-surfaces the failure
+        continue-on-error: true
         run: |
           if [ -n "${{ github.event.inputs.date }}" ]; then
             uv run python -m vectora run eod --date "${{ github.event.inputs.date }}"
           else
-            uv run python -m vectora run eod --date "$(TZ=Asia/Dhaka date +%F)"
+            uv run python -m vectora run eod
           fi
       - name: Commit data
+        if: always()
         run: |
           git config user.name "vectora-bot"
           git config user.email "vectora-bot@users.noreply.github.com"
-          git pull --rebase
+          # commit BEFORE pull: a dirty tracked file (the DuckDB) makes
+          # `git pull --rebase` exit 128 before even checking freshness
           git add -f data/raw data/vectora.duckdb data/reference
-          git diff --cached --quiet || git commit -m "data: eod $(TZ=Asia/Dhaka date +%F)"
+          git diff --cached --quiet || git commit -m "data: eod $(date +%F)"
+          git pull --rebase --autostash
           git push
+      - name: Surface pipeline failure
+        if: steps.pipeline.outcome == 'failure'
+        run: |
+          echo "pipeline exited non-zero (low quality, stage errors, or crash)"
+          exit 1

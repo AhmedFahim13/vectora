@@ -5,7 +5,7 @@ the real session, database, and calendar for the CLI and CI. A stage failure
 is recorded and the remaining stages still run — a broken news page must not
 cost us the day's prices. The quality score decides usability downstream.
 """
-from datetime import date
+from datetime import date, timedelta
 from pathlib import Path
 
 from vectora import calendar as cal
@@ -53,13 +53,37 @@ def run_eod(con, session, run_date: date, raw_dir: Path = RAW_DIR,
     return summary
 
 
-def run_eod_live(date_str: str | None) -> dict:
-    """Wire real dependencies and run one EOD cycle (used by CLI/CI)."""
+def _dates_to_run(watermark: str | None, target: date,
+                  holidays: set[date], explicit: bool) -> list[date]:
+    """Trading days needing collection: (watermark, target], oldest first.
+
+    An explicit --date always runs exactly that date; scheduled runs
+    gap-fill so a missed CI day self-heals on the next run (spec §24.7).
+    """
+    if explicit or not watermark:
+        return [target]
+    d = date.fromisoformat(watermark) + timedelta(days=1)
+    out = []
+    while d <= target:
+        if cal.is_trading_day(d, holidays):
+            out.append(d)
+        d += timedelta(days=1)
+    return out
+
+
+def run_eod_live(date_str: str | None) -> list[dict]:
+    """Wire real dependencies and run pending EOD cycles (used by CLI/CI)."""
     holidays = cal.load_holidays()
-    run_date = date.fromisoformat(date_str) if date_str else date.today()
+    target = date.fromisoformat(date_str) if date_str else date.today()
     con = vdb.connect(DB_PATH)
     try:
         vdb.init_schema(con)
-        return run_eod(con, PoliteSession(), run_date, holidays=holidays)
+        watermark = vdb.get_watermark(con, "collect", "eod")
+        dates = _dates_to_run(watermark, target, holidays, explicit=bool(date_str))
+        if not dates:
+            return [{"date": target.isoformat(),
+                     "skipped": f"nothing new since watermark {watermark}"}]
+        session = PoliteSession()
+        return [run_eod(con, session, d, holidays=holidays) for d in dates]
     finally:
         con.close()

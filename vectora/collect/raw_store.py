@@ -25,6 +25,8 @@ def save_raw(
     # doesn't produce a new git blob on re-runs
     compressed = gzip.compress(data, mtime=0)
     path = day_dir / f"{name}.html.gz"
+    if path.exists() and path.read_bytes() == compressed:
+        return path  # unchanged content: keep original meta, no new git blobs
     path.write_bytes(compressed)
     meta = {
         "source": source,

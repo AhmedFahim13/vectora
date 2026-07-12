@@ -81,13 +81,44 @@ def test_run_eod_continues_past_stage_failure(test_db, tmp_path, monkeypatch):
     assert test_db.execute("SELECT count(*) FROM prices_raw").fetchone()[0] == 1
 
 
+def test_dates_to_run_gap_fills_from_watermark():
+    # watermark Sunday 07-05, target Thursday 07-09 -> Mon/Tue/Wed/Thu
+    dates = orchestrator._dates_to_run(
+        "2026-07-05", date(2026, 7, 9), holidays=set(), explicit=False)
+    assert [d.isoformat() for d in dates] == [
+        "2026-07-06", "2026-07-07", "2026-07-08", "2026-07-09"]
+
+
+def test_dates_to_run_skips_weekend_and_holiday():
+    dates = orchestrator._dates_to_run(
+        "2026-07-08", date(2026, 7, 12),  # Thu watermark -> Sun target
+        holidays={date(2026, 7, 12)}, explicit=False)
+    assert dates == [date(2026, 7, 9)]  # Fri/Sat weekend, Sun holiday
+
+
+def test_dates_to_run_nothing_new():
+    assert orchestrator._dates_to_run(
+        "2026-07-09", date(2026, 7, 9), holidays=set(), explicit=False) == []
+
+
+def test_dates_to_run_explicit_date_bypasses_gap_fill():
+    assert orchestrator._dates_to_run(
+        "2026-07-05", date(2026, 7, 9), holidays=set(), explicit=True
+    ) == [date(2026, 7, 9)]
+
+
+def _summary(**overrides):
+    base = {"date": "2026-07-09", "skipped": None, "quality_score": 100,
+            "eod_rows": 5, "news_items": 2, "index_rows": 3}
+    return {**base, **overrides}
+
+
 def test_cli_dispatch(monkeypatch, capsys):
     calls = {}
 
     def fake_run(date_str):
         calls["date"] = date_str
-        return {"date": date_str or "auto", "skipped": None, "quality_score": 100,
-                "eod_rows": 5, "news_items": 2, "index_rows": 3}
+        return [_summary(date=date_str or "auto")]
 
     monkeypatch.setattr(orchestrator, "run_eod_live", fake_run)
     from vectora.__main__ import main
@@ -98,11 +129,41 @@ def test_cli_dispatch(monkeypatch, capsys):
 
 
 def test_cli_fails_on_unusable_day(monkeypatch):
-    def fake_run(date_str):
-        return {"date": date_str, "skipped": None, "quality_score": 0,
-                "eod_rows": 0, "news_items": 0, "index_rows": 0,
-                "errors": ["eod: no rows"]}
-
-    monkeypatch.setattr(orchestrator, "run_eod_live", fake_run)
+    monkeypatch.setattr(orchestrator, "run_eod_live",
+                        lambda d: [_summary(quality_score=0, eod_rows=0,
+                                            errors=["eod: no rows"])])
     from vectora.__main__ import main
     assert main(["run", "eod", "--date", "2026-07-09"]) == 1
+
+
+def test_cli_fails_below_quality_floor(monkeypatch):
+    monkeypatch.setattr(orchestrator, "run_eod_live",
+                        lambda d: [_summary(quality_score=79)])
+    from vectora.__main__ import main
+    assert main(["run", "eod", "--date", "2026-07-09"]) == 1
+
+
+def test_cli_fails_on_stage_errors_even_with_good_quality(monkeypatch):
+    monkeypatch.setattr(orchestrator, "run_eod_live",
+                        lambda d: [_summary(errors=["news: markup changed"])])
+    from vectora.__main__ import main
+    assert main(["run", "eod", "--date", "2026-07-09"]) == 1
+
+
+def test_cli_fails_when_validation_crashed(monkeypatch):
+    monkeypatch.setattr(orchestrator, "run_eod_live",
+                        lambda d: [_summary(quality_score=None)])
+    from vectora.__main__ import main
+    assert main(["run", "eod", "--date", "2026-07-09"]) == 1
+
+
+def test_cli_ok_on_clean_skip_and_worst_run_wins(monkeypatch):
+    monkeypatch.setattr(orchestrator, "run_eod_live",
+                        lambda d: [_summary(skipped="not a trading day",
+                                            quality_score=None)])
+    from vectora.__main__ import main
+    assert main(["run", "eod"]) == 0
+
+    monkeypatch.setattr(orchestrator, "run_eod_live",
+                        lambda d: [_summary(), _summary(quality_score=40)])
+    assert main(["run", "eod"]) == 1
