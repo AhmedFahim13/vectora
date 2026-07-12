@@ -7,9 +7,11 @@ All items on the page live inside a single <table class="table-news">, not
 one table per item. Each item is a run of label/value rows in this order:
   "Trading Code:" / "News Title:" / "News:" / "Post Date:"
 followed by separator rows (<th colspan="2"><hr/></th> and a "&nbsp;" row)
-before the next item's "Trading Code:" row starts. Company news titles
-follow "SYMBOL: Subject"; exchange-level notices use "DSE NEWS: ..." (no
-symbol extracted for those).
+before the next item's "Trading Code:" row starts.
+
+Symbol source: the "Trading Code:" field is authoritative — exchange/regulator
+notices carry synthetic bucket codes (EXCH, REGL) which map to None. The
+"SYMBOL: Subject" title prefix is only a fallback when the field is absent.
 """
 import hashlib
 import re
@@ -36,9 +38,20 @@ def symbol_from_title(title: str) -> str | None:
     if not m:
         return None
     sym = m.group(1)
-    if sym in ("DSE", "BSEC"):  # exchange/regulator notices, not tickers
+    # exchange/regulator notices, not tickers ("DSE", "DSENEWS", "BSECNEWS", ...)
+    if sym in ("DSE", "BSEC") or sym.endswith("NEWS"):
         return None
     return sym
+
+
+_SYNTHETIC_CODES = {"EXCH", "REGL", "", "-"}
+
+
+def _symbol(fields: dict[str, str]) -> str | None:
+    if "Trading Code" in fields:
+        code = fields["Trading Code"].strip()
+        return None if code in _SYNTHETIC_CODES else code
+    return symbol_from_title(fields.get("News Title", ""))
 
 
 def _build_item(fields: dict[str, str]) -> dict | None:
@@ -51,7 +64,7 @@ def _build_item(fields: dict[str, str]) -> dict | None:
     return {
         "id": digest,
         "post_date": post_date,
-        "symbol": symbol_from_title(title),
+        "symbol": _symbol(fields),
         "title": title,
         "body": body[:5000],
         "source": "dse_news",

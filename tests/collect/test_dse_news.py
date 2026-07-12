@@ -24,6 +24,7 @@ def test_symbol_extraction():
     assert dse_news.symbol_from_title("DSE NEWS: Daily Turnover of Main Board") is None
     assert dse_news.symbol_from_title("No colon here") is None
     assert dse_news.symbol_from_title("lowercase: not a ticker") is None
+    assert dse_news.symbol_from_title("DSENEWS: Withdrawal of Authorized Representatives") is None
 
 
 def test_ids_are_stable_and_unique(fixtures_dir):
@@ -37,3 +38,15 @@ def test_company_news_has_symbol(fixtures_dir):
     items = _items(fixtures_dir)
     with_symbol = [i for i in items if i["symbol"]]
     assert len(with_symbol) > 10
+
+
+def test_symbol_comes_from_trading_code(fixtures_dir):
+    items = _items(fixtures_dir)
+    # synthetic bucket codes and title-regex leaks must never surface as symbols
+    assert not any(i["symbol"] in {"DSENEWS", "EXCH", "REGL"} for i in items)
+    # Trading Code recovers company-scoped "DSE NEWS:" withdrawal notices
+    # (OSL/KDS/PIS/ASE/IBB) that the title regex misses
+    with_symbol = [i for i in items if i["symbol"]]
+    assert len(with_symbol) > 45  # title-regex baseline was 45
+    withdrawals = [i for i in items if i["title"].startswith("DSE NEWS: Withdrawal")]
+    assert any(i["symbol"] is not None for i in withdrawals)
