@@ -1,0 +1,39 @@
+# tests/collect/test_dse_news.py
+from vectora.collect import dse_news
+
+
+def _items(fixtures_dir):
+    html = (fixtures_dir / "old_news.html").read_text(encoding="utf-8")
+    return dse_news.parse_news(html)
+
+
+def test_parses_many_items(fixtures_dir):
+    assert len(_items(fixtures_dir)) >= 40
+
+
+def test_item_shape(fixtures_dir):
+    it = _items(fixtures_dir)[0]
+    assert set(it) == {"id", "post_date", "symbol", "title", "body", "source"}
+    assert it["source"] == "dse_news"
+    assert len(it["id"]) == 64  # sha256 hex
+    assert len(it["post_date"]) == 10
+
+
+def test_symbol_extraction():
+    assert dse_news.symbol_from_title("MERCANBANK: Credit Rating Result") == "MERCANBANK"
+    assert dse_news.symbol_from_title("DSE NEWS: Daily Turnover of Main Board") is None
+    assert dse_news.symbol_from_title("No colon here") is None
+    assert dse_news.symbol_from_title("lowercase: not a ticker") is None
+
+
+def test_ids_are_stable_and_unique(fixtures_dir):
+    a = _items(fixtures_dir)
+    b = _items(fixtures_dir)
+    assert [x["id"] for x in a] == [x["id"] for x in b]  # deterministic
+    assert len({x["id"] for x in a}) == len(a)           # unique in fixture
+
+
+def test_company_news_has_symbol(fixtures_dir):
+    items = _items(fixtures_dir)
+    with_symbol = [i for i in items if i["symbol"]]
+    assert len(with_symbol) > 10
