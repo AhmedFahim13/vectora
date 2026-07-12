@@ -59,7 +59,9 @@ def load_zip(con, zip_path: Path) -> dict:
     with zipfile.ZipFile(zip_path) as z:
         for member in _select_members(z):
             symbol = Path(member).stem.strip().upper()
-            if not symbol:
+            # 00-prefixed files are index series (00DSEX, 00DSMEX), not
+            # instruments; indices live in the indices table via the scraper
+            if not symbol or symbol.startswith("00"):
                 continue
             with z.open(member) as fh:
                 reader = csv.DictReader(io.TextIOWrapper(fh, encoding="utf-8-sig"))

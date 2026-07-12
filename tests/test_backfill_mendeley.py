@@ -39,6 +39,16 @@ def test_loads_unadjusted_csvs(test_db, tmp_path):
     assert rows[0][4] == "mendeley"
 
 
+def test_index_series_files_are_skipped(test_db, tmp_path):
+    # 00-prefixed files are index series (00DSEX, 00DSMEX), not instruments
+    z = _zip(tmp_path, {"00DSMEX.csv": GP_CSV, "GP.csv": GP_CSV})
+    result = bf.load_zip(test_db, z)
+    assert result["files"] == 1
+    syms = [r[0] for r in test_db.execute(
+        "SELECT DISTINCT symbol FROM prices_raw").fetchall()]
+    assert syms == ["GP"]
+
+
 def test_flat_zip_without_folders_loads_everything(test_db, tmp_path):
     z = _zip(tmp_path, {"ACI.csv": GP_CSV})
     result = bf.load_zip(test_db, z)
