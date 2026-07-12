@@ -11,13 +11,13 @@ from pathlib import Path
 from vectora import db as vdb
 from vectora.collect import dse_eod, dse_indices, dse_news
 from vectora.collect.raw_store import save_raw
-from vectora.settings import RAW_DIR
+from vectora.settings import DSE_BASE, RAW_DIR
 
 
 def collect_eod(con, session, run_date: date, raw_dir: Path = RAW_DIR) -> int:
     ds = run_date.isoformat()
     html = dse_eod.fetch_day_end(session, ds, ds)
-    save_raw(raw_dir, "dse_eod", ds, "day_end_archive", html)
+    save_raw(raw_dir, "dse_eod", ds, "day_end_archive", html, url=dse_eod.URL)
     rows = dse_eod.parse_day_end(html)
     if not rows:
         vdb.upsert(con, "no_trade_days", [{"date": ds, "reason": "no day-end table"}])
@@ -32,7 +32,7 @@ def collect_eod(con, session, run_date: date, raw_dir: Path = RAW_DIR) -> int:
 def collect_news(con, session, run_date: date, raw_dir: Path = RAW_DIR) -> int:
     ds = run_date.isoformat()
     html = dse_news.fetch_news(session, ds, ds)
-    save_raw(raw_dir, "dse_news", ds, "old_news", html)
+    save_raw(raw_dir, "dse_news", ds, "old_news", html, url=dse_news.URL)
     items = dse_news.parse_news(html)
     n = vdb.upsert(con, "events", items) if items else 0
     vdb.set_watermark(con, "collect", "news", ds)
@@ -42,13 +42,15 @@ def collect_news(con, session, run_date: date, raw_dir: Path = RAW_DIR) -> int:
 def collect_indices(con, session, run_date: date, raw_dir: Path = RAW_DIR) -> int:
     ds = run_date.isoformat()
     html = dse_indices.fetch_homepage(session)
-    save_raw(raw_dir, "dse_indices", ds, "homepage", html)
+    save_raw(raw_dir, "dse_indices", ds, "homepage", html, url=f"{DSE_BASE}/")
     parsed = dse_indices.parse_homepage(html)
     idx_rows = [{**i, "date": ds} for i in parsed["indices"]]
-    if idx_rows:
-        vdb.upsert(con, "indices", idx_rows)
+    # indices and market_totals are separate transactions: a totals failure
+    # leaves committed index rows, which is benign — the watermark hasn't
+    # advanced and re-runs are idempotent (INSERT OR REPLACE on the same PKs)
+    n = vdb.upsert(con, "indices", idx_rows) if idx_rows else 0
     if parsed["totals"] is not None:
         vdb.upsert(con, "market_totals", [{**parsed["totals"], "date": ds}])
     if idx_rows or parsed["totals"]:
         vdb.set_watermark(con, "collect", "indices", ds)
-    return 1 if idx_rows else 0
+    return n

@@ -1,6 +1,8 @@
 # tests/collect/test_runner.py
 from datetime import date
 
+import pytest
+
 from vectora import db as vdb
 from vectora.collect import runner
 
@@ -38,6 +40,8 @@ NEWS_HTML = """
 HOME_HTML = """
 <div class="midrow"><div class="m_col-1">DSEX Index</div>
 <div class="m_col-2">5804.06</div><div class="m_col-3">33.79</div></div>
+<div class="midrow"><div class="m_col-1">DS30 Index</div>
+<div class="m_col-2">2177.76</div><div class="m_col-3">8.52</div></div>
 <div class="midrow"><div class="m_col-wid">Total Trade</div>
 <div class="m_col-wid1">Total Volume</div>
 <div class="m_col-wid2">Total Value in Taka (mn)</div></div>
@@ -82,11 +86,24 @@ def test_collect_eod_empty_day_records_no_trade(test_db, tmp_path):
 
 def test_collect_eod_writes_raw_file(test_db, tmp_path):
     runner.collect_eod(test_db, _session(), date(2026, 7, 9), raw_dir=tmp_path)
-    saved = list(tmp_path.rglob("*.html"))
+    saved = list(tmp_path.rglob("*.html.gz"))
     assert len(saved) == 1
     assert "dse_eod" in str(saved[0])
     meta = list(tmp_path.rglob("*.meta.json"))
     assert len(meta) == 1
+
+
+def test_collect_eod_parse_crash_leaves_raw_and_no_watermark(
+        test_db, tmp_path, monkeypatch):
+    def boom(html):
+        raise ValueError("markup changed")
+
+    monkeypatch.setattr(runner.dse_eod, "parse_day_end", boom)
+    with pytest.raises(ValueError):
+        runner.collect_eod(test_db, _session(), date(2026, 7, 9), raw_dir=tmp_path)
+    # raw payload landed on disk before the parser ran
+    assert len(list(tmp_path.rglob("*.html.gz"))) == 1
+    assert vdb.get_watermark(test_db, "collect", "eod") is None
 
 
 def test_collect_news_upserts_events(test_db, tmp_path):
@@ -99,10 +116,10 @@ def test_collect_news_upserts_events(test_db, tmp_path):
 
 def test_collect_indices_upserts_values_and_totals(test_db, tmp_path):
     n = runner.collect_indices(test_db, _session(), date(2026, 7, 9), raw_dir=tmp_path)
-    assert n == 1
+    assert n == 2
     idx = test_db.execute(
-        "SELECT index_name, value, change FROM indices").fetchone()
-    assert idx == ("DSEX", 5804.06, 33.79)
+        "SELECT index_name, value, change FROM indices ORDER BY index_name").fetchall()
+    assert idx == [("DS30", 2177.76, 8.52), ("DSEX", 5804.06, 33.79)]
     tot = test_db.execute(
         "SELECT total_trades, total_volume, total_value_mn FROM market_totals").fetchone()
     assert tot == (324776, 428342460, 14284.684)
