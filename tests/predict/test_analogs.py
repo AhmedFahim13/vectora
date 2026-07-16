@@ -54,3 +54,15 @@ def test_fit_drops_rows_without_labels():
                                   fwdmax_col="fwdmax_h10",
                                   fwdmin_col="fwdmin_h10")
     assert idx.n_rows == 250
+
+
+def test_fit_caps_rows_to_most_recent():
+    import datetime as dt
+    hist = _history(n=300).with_columns(
+        pl.date_range(dt.date(2025, 1, 1), dt.date(2025, 10, 27),
+                      eager=True).alias("date"))
+    idx = analogs.AnalogIndex.fit(hist, feature_names=["f1", "f2"],
+                                  label_col="y_g5_h10",
+                                  fwdmax_col="fwdmax_h10",
+                                  fwdmin_col="fwdmin_h10", max_rows=100)
+    assert idx.n_rows == 100

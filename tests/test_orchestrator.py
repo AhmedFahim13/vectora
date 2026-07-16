@@ -107,6 +107,22 @@ def test_dates_to_run_explicit_date_bypasses_gap_fill():
     ) == [date(2026, 7, 9)]
 
 
+def test_cli_predict_dispatch(monkeypatch, capsys):
+    from vectora.predict import engine as pengine
+
+    def fake_predict(con, date_str=None):
+        return {"date": date_str or "auto", "predictions": 12, "signals": 2,
+                "targets": ["g5_h10", "g10_h30"]}
+
+    monkeypatch.setattr(pengine, "run_predict",
+                        lambda con, date_str=None: fake_predict(con, date_str))
+    from vectora.__main__ import main
+    rc = main(["run", "predict", "--date", "2026-07-16"])
+    assert rc == 0
+    out = capsys.readouterr().out
+    assert '"signals": 2' in out
+
+
 def _summary(**overrides):
     base = {"date": "2026-07-09", "skipped": None, "quality_score": 100,
             "eod_rows": 5, "news_items": 2, "index_rows": 3}

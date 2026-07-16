@@ -21,11 +21,19 @@ class AnalogIndex:
 
     @classmethod
     def fit(cls, history: pl.DataFrame, feature_names: list[str],
-            label_col: str, fwdmax_col: str, fwdmin_col: str) -> "AnalogIndex":
+            label_col: str, fwdmax_col: str, fwdmin_col: str,
+            max_rows: int = 150_000) -> "AnalogIndex":
         usable = history.filter(
             pl.col(label_col).is_not_null()
             & pl.col(fwdmax_col).is_not_null()
             & pl.col(fwdmin_col).is_not_null())
+        if usable.height > max_rows:
+            # cap memory (NearestNeighbors over 1M x 40 float64 OOMs) and
+            # bias toward recency: old-regime analogs are less relevant anyway
+            if "date" in usable.columns:
+                usable = usable.sort("date").tail(max_rows)
+            else:
+                usable = usable.tail(max_rows)
         X = usable.select(feature_names).to_numpy().astype(np.float64)
         imputer = SimpleImputer(strategy="median").fit(X)
         scaler = StandardScaler().fit(imputer.transform(X))
