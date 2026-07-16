@@ -48,6 +48,11 @@ jobs:
         id: predict
         continue-on-error: true
         run: uv run python -m vectora run predict
+      - name: Digest
+        continue-on-error: true
+        env:
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+        run: uv run python -m vectora run digest
       - name: Commit data
         if: always()
         run: |
