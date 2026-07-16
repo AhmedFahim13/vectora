@@ -10,6 +10,7 @@ import datetime as dt
 import json
 import re
 import uuid
+from pathlib import Path
 
 import numpy as np
 import polars as pl
@@ -101,6 +102,12 @@ def run(con, target: str = "g5_h10",
         model_id = f"{target}_{fam}_{run_id}_{uuid.uuid4().hex[:6]}"
         art = models_dir / model_id
         art.mkdir(parents=True, exist_ok=True)
+        # registry stores a cwd-relative path: absolute local paths break on
+        # any other machine (e.g. the Linux CI runner loading artifacts)
+        try:
+            registry_dir = str(art.relative_to(Path.cwd()))
+        except ValueError:
+            registry_dir = str(art)
         if fam == "lgbm":
             last_models["lgbm"].booster_.save_model(str(art / "lgbm.txt"))
             import pickle
@@ -120,7 +127,7 @@ def run(con, target: str = "g5_h10",
             "trained_at": dt.datetime.now().isoformat(),
             "train_end": str(last_models["train_end"]),
             "metrics": json.dumps(metrics[fam] | {"reliability": None}),
-            "artifact_dir": str(art), "active": False,
+            "artifact_dir": registry_dir, "active": False,
         }])
 
     report = _render_report(target, folds, metrics)
