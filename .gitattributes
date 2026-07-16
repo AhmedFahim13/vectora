@@ -1,0 +1,5 @@
+# LightGBM text-format model dumps are parsed by an offset-based reader that
+# assumes LF line endings; autocrlf=true checkouts on Windows corrupt them to
+# CRLF, which crashes lgb.Booster.predict() at runtime ("Model format error,
+# expect a tree here"). Force git to leave these bytes untouched everywhere.
+models/**/*.txt -text
