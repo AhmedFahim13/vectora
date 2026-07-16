@@ -72,7 +72,16 @@ def init_schema(con: duckdb.DuckDBPyConnection,
         from vectora.settings import BACKFILL_PARQUET
         backfill_parquet = BACKFILL_PARQUET
     if Path(backfill_parquet).exists():
-        pq = str(Path(backfill_parquet)).replace("\\", "/")
+        # bake a cwd-relative path into the view when possible: the view
+        # definition persists inside the committed .duckdb, and an absolute
+        # local path would break any other machine that queries `prices`
+        # before init_schema recreates it (all entry points run from repo root)
+        p = Path(backfill_parquet)
+        try:
+            p = p.relative_to(Path.cwd())
+        except ValueError:
+            pass
+        pq = str(p).replace("\\", "/")
         con.execute(f"""
             CREATE OR REPLACE VIEW prices AS
             SELECT * FROM prices_raw
