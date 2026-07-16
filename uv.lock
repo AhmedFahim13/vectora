@@ -651,6 +651,7 @@ dependencies = [
     { name = "lxml" },
     { name = "polars" },
     { name = "pyarrow" },
+    { name = "pyyaml" },
     { name = "requests" },
     { name = "scikit-learn" },
 ]
@@ -670,6 +671,7 @@ requires-dist = [
     { name = "lxml", specifier = ">=5.2" },
     { name = "polars", specifier = ">=1.10" },
     { name = "pyarrow", specifier = ">=17.0" },
+    { name = "pyyaml", specifier = ">=6.0" },
     { name = "requests", specifier = ">=2.32" },
     { name = "scikit-learn", specifier = ">=1.5" },
 ]

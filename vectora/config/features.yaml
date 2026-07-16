@@ -1,0 +1,89 @@
+features:
+  # ---- momentum (spec: retail herding -> short-horizon persistence, sharp reversals)
+  - {name: ret_1d,  family: momentum, fn: ret_nd, params: {days: 1},
+     reasoning: one-day return is the base momentum unit and mean-reversion input on a retail-driven exchange}
+  - {name: ret_3d,  family: momentum, fn: ret_nd, params: {days: 3},
+     reasoning: three-day compounded return captures the start of herding runs documented in DSE pump episodes}
+  - {name: ret_5d,  family: momentum, fn: ret_nd, params: {days: 5},
+     reasoning: one-trading-week momentum aligns with the Sun-Thu week and weekly retail cycle}
+  - {name: ret_10d, family: momentum, fn: ret_nd, params: {days: 10},
+     reasoning: two-week momentum is where DSE herding historically peaks before reversal risk rises}
+  - {name: ret_21d, family: momentum, fn: ret_nd, params: {days: 21},
+     reasoning: one-month momentum is the classic cross-sectional momentum horizon in emerging markets}
+  - {name: ret_63d, family: momentum, fn: ret_nd, params: {days: 63},
+     reasoning: one-quarter momentum separates persistent trends from short speculative bursts}
+  - {name: rsi_14, family: momentum, fn: rsi, params: {days: 14},
+     reasoning: retail participants trade RSI signals making them partly self-fulfilling on the DSE}
+  - {name: dist_high_63d, family: momentum, fn: dist_from_rolling_max, params: {days: 63},
+     reasoning: distance below the quarterly high measures breakout proximity which retail flows chase}
+  - {name: dist_low_63d, family: momentum, fn: dist_from_rolling_min, params: {days: 63},
+     reasoning: distance above the quarterly low flags capitulation levels where reversals start}
+  # ---- volatility (spec: circuit bands truncate moves; limit-lock frequency beats raw vol)
+  - {name: vol_21d, family: volatility, fn: ret_std, params: {days: 21},
+     reasoning: one-month realized volatility is the base risk scale for position sizing and labels}
+  - {name: vol_63d, family: volatility, fn: ret_std, params: {days: 63},
+     reasoning: quarterly volatility anchors the regime a stock trades in versus its recent burst}
+  - {name: vol_ratio_21_63, family: volatility, fn: ratio_of_stds, params: {short: 21, long: 63},
+     reasoning: short-over-long volatility ratio detects fresh volatility expansion preceding large moves}
+  - {name: atr_14, family: volatility, fn: atr, params: {days: 14},
+     reasoning: average true range in price units feeds stop distance and expected-move estimates}
+  - {name: range_pct_5d, family: volatility, fn: avg_range_pct, params: {days: 5},
+     reasoning: weekly average high-low range as percent of close measures intraday heat within the band}
+  - {name: limit_lock_21d, family: volatility, fn: limit_lock_count, params: {days: 21, band: 0.095},
+     reasoning: count of near-circuit closes is the DSE-specific heat gauge since bands truncate raw volatility}
+  # ---- liquidity (spec: illiquidity is the top practical risk and manipulation fuel)
+  - {name: value_mn_med_21d, family: liquidity, fn: rolling_median_col, params: {col: value_mn, days: 21},
+     reasoning: median daily traded value is the tradability floor input used in the universe filter}
+  - {name: amihud_21d, family: liquidity, fn: amihud, params: {days: 21},
+     reasoning: Amihud illiquidity prices the impact per taka traded which dominates execution risk on thin books}
+  - {name: zero_vol_21d, family: liquidity, fn: zero_volume_days, params: {days: 21},
+     reasoning: count of zero-volume days flags dormant names where any print can gap the price}
+  - {name: turnover_z_21d, family: liquidity, fn: zscore_col, params: {col: value_mn, days: 21},
+     reasoning: value z-score highlights unusual money inflow relative to a name's own norm}
+  - {name: volume_z_21d, family: liquidity, fn: zscore_col, params: {col: volume, days: 21},
+     reasoning: volume z-score is the classic accumulation signal preceding price in DSE pump patterns}
+  # ---- volume/flow (spec: volume precedes price in accumulation phases)
+  - {name: vol_ratio_5_21, family: volume, fn: volume_ratio, params: {short: 5, long: 21},
+     reasoning: five-over-twentyone-day volume ratio measures fresh participation buildup}
+  - {name: obv_slope_21d, family: volume, fn: obv_slope, params: {days: 21},
+     reasoning: on-balance-volume slope captures directional flow persistence beyond raw volume}
+  - {name: updown_vol_21d, family: volume, fn: updown_volume_ratio, params: {days: 21},
+     reasoning: up-day versus down-day volume split separates accumulation from distribution}
+  - {name: trades_z_21d, family: volume, fn: zscore_col, params: {col: trades, days: 21},
+     reasoning: trade-count z-score proxies breadth of participation versus a few large prints}
+  - {name: vwap_dev_5d, family: volume, fn: vwap_deviation, params: {days: 5},
+     reasoning: deviation from rolling value-weighted price shows who is paying up for inventory}
+  # ---- cross-sectional (spec: small market -> violent observable sector rotation)
+  - {name: ret_21d_xrank, family: cross_sectional, fn: cross_rank, params: {of: ret_21d},
+     reasoning: cross-sectional momentum rank is the tradable signal form robust to market-wide moves}
+  - {name: vol_21d_xrank, family: cross_sectional, fn: cross_rank, params: {of: vol_21d},
+     reasoning: volatility rank positions a name within the day's risk spectrum for regime-aware gating}
+  - {name: turnover_xrank, family: cross_sectional, fn: cross_rank, params: {of: value_mn_med_21d},
+     reasoning: liquidity rank distinguishes market darlings from dormant names in the same market state}
+  - {name: sector_ret_21d, family: cross_sectional, fn: sector_mean, params: {of: ret_21d},
+     reasoning: sector momentum captures the rotation flows that dominate a 22-sector market}
+  - {name: ret_vs_sector_21d, family: cross_sectional, fn: minus_sector_mean, params: {of: ret_21d},
+     reasoning: return relative to own sector isolates idiosyncratic strength from rotation beta}
+  - {name: breadth_above_ma50, family: cross_sectional, fn: market_breadth_above_ma, params: {days: 50},
+     reasoning: share of names above their 50-day average is the market-wide regime thermometer}
+  # ---- calendar/structure (spec: event proximity and DSE-specific calendar)
+  - {name: dow, family: calendar, fn: day_of_week, params: {},
+     reasoning: Sunday and Thursday carry systematic open-of-week and pre-weekend retail flow effects}
+  - {name: month, family: calendar, fn: month_of_year, params: {},
+     reasoning: June-July budget season and December closing drive seasonal flows in Dhaka}
+  - {name: days_listed, family: calendar, fn: days_since_first_seen, params: {},
+     reasoning: newly listed names trade under different rules and speculative attention than seasoned ones}
+  - {name: px_level_log, family: structure, fn: log_close, params: {},
+     reasoning: low-priced shares attract disproportionate retail speculation on the DSE}
+  - {name: gap_open_1d, family: structure, fn: overnight_gap, params: {},
+     reasoning: open-versus-yesterday-close gap measures overnight information or manipulation pressure}
+  - {name: hl_position_1d, family: structure, fn: close_in_range, params: {},
+     reasoning: where the close sits in the day's range reveals end-of-session buying or selling urgency}
+  - {name: ma20_dist, family: structure, fn: dist_from_sma, params: {days: 20},
+     reasoning: distance from the 20-day average is the mean-reversion anchor retail chartists watch}
+  - {name: ma50_dist, family: structure, fn: dist_from_sma, params: {days: 50},
+     reasoning: the 50-day average is the trend line separating accumulation from markdown phases}
+  - {name: ma20_above_ma50, family: structure, fn: sma_cross_state, params: {short: 20, long: 50},
+     reasoning: moving-average cross state is a self-fulfilling regime flag among local technical traders}
+  - {name: ycp_gap_flag, family: structure, fn: ycp_adjustment_flag, params: {},
+     reasoning: days where ycp diverges from prior close mark corporate-action ex-dates the model must know about}
