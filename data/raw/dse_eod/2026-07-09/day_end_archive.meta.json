@@ -2,8 +2,8 @@
  "source": "dse_eod",
  "run_date": "2026-07-09",
  "url": "https://www.dsebd.org/day_end_archive.php",
- "fetched_at": "2026-07-12T07:47:40.858810+00:00",
- "bytes": 714213,
- "compressed_bytes": 45526,
- "sha256": "5a307b00d113b43eed9812eae926a59e632f0761022ad2eb38b480f9bb37b0de"
+ "fetched_at": "2026-07-16T06:42:04.102505+00:00",
+ "bytes": 714691,
+ "compressed_bytes": 45266,
+ "sha256": "adb2a66436fc151c37000636a324e0fce53b407663f9644f6a3f55a8d5525a7a"
 }

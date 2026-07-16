@@ -8,6 +8,11 @@ dependencies = [
     "beautifulsoup4>=4.12",
     "lxml>=5.2",
     "duckdb>=1.0",
+    "polars>=1.10",
+    "pyarrow>=17.0",
+    "lightgbm>=4.5",
+    "scikit-learn>=1.5",
+    "pyyaml>=6.0",
 ]
 
 [build-system]
@@ -23,6 +28,7 @@ dev = ["pytest>=8.0", "responses>=0.25", "ruff>=0.5"]
 [tool.pytest.ini_options]
 testpaths = ["tests"]
 addopts = "-q"
+markers = ["slow: multi-minute tests (real model fits); deselect with -m 'not slow'"]
 
 [tool.ruff]
 line-length = 100

@@ -28,15 +28,30 @@ def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(prog="vectora")
     sub = parser.add_subparsers(dest="command", required=True)
     run = sub.add_parser("run", help="run a pipeline stage")
-    run.add_argument("stage", choices=["eod"])
+    run.add_argument("stage", choices=["eod", "train"])
     run.add_argument("--date", default=None,
                      help="YYYY-MM-DD (default: gap-fill up to today)")
+    run.add_argument("--target", default="g5_h10",
+                     help="label target for train, e.g. g5_h10")
     args = parser.parse_args(argv)
 
     if args.command == "run" and args.stage == "eod":
         summaries = orchestrator.run_eod_live(args.date)
         print(json.dumps(summaries, indent=1))
         return 1 if any(_run_failed(s) for s in summaries) else 0
+
+    if args.command == "run" and args.stage == "train":
+        from vectora import db as vdb
+        from vectora.settings import DB_PATH
+        from vectora.train import trainer
+        con = vdb.connect(DB_PATH)
+        try:
+            vdb.init_schema(con)
+            result = trainer.run(con, target=args.target)
+        finally:
+            con.close()
+        print(json.dumps(result, indent=1))
+        return 0 if result["lgbm_brier"] < result["logistic_brier"] else 1
     return 1
 
 

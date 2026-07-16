@@ -16,3 +16,8 @@ MAX_RETRIES = 3
 
 # Data-quality alert floor (spec §5.3)
 MIN_QUALITY_SCORE = 80
+
+BACKFILL_PARQUET = REFERENCE_DIR / "backfill_2012_2026.parquet"
+FEATURES_DIR = DATA_DIR / "features"
+MODELS_DIR = REPO_ROOT / "models"
+REPORTS_DIR = REPO_ROOT / "reports"

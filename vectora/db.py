@@ -51,6 +51,12 @@ CREATE TABLE IF NOT EXISTS watermarks (
     stage TEXT, key TEXT, value TEXT, updated_at TIMESTAMP DEFAULT current_timestamp,
     PRIMARY KEY (stage, key)
 );
+CREATE TABLE IF NOT EXISTS model_registry (
+    model_id TEXT PRIMARY KEY, family TEXT, target TEXT,
+    trained_at TIMESTAMP DEFAULT current_timestamp,
+    train_end DATE, metrics TEXT,          -- metrics: JSON
+    artifact_dir TEXT, active BOOLEAN DEFAULT false
+);
 """
 
 
@@ -59,8 +65,30 @@ def connect(path: str | Path) -> duckdb.DuckDBPyConnection:
     return duckdb.connect(str(path))
 
 
-def init_schema(con: duckdb.DuckDBPyConnection) -> None:
+def init_schema(con: duckdb.DuckDBPyConnection,
+                backfill_parquet: str | Path | None = None) -> None:
     con.execute(SCHEMA)
+    if backfill_parquet is None:
+        from vectora.settings import BACKFILL_PARQUET
+        backfill_parquet = BACKFILL_PARQUET
+    if Path(backfill_parquet).exists():
+        # bake a cwd-relative path into the view when possible: the view
+        # definition persists inside the committed .duckdb, and an absolute
+        # local path would break any other machine that queries `prices`
+        # before init_schema recreates it (all entry points run from repo root)
+        p = Path(backfill_parquet)
+        try:
+            p = p.relative_to(Path.cwd())
+        except ValueError:
+            pass
+        pq = str(p).replace("\\", "/")
+        con.execute(f"""
+            CREATE OR REPLACE VIEW prices AS
+            SELECT * FROM prices_raw
+            UNION ALL SELECT * FROM read_parquet('{pq}')
+        """)
+    else:
+        con.execute("CREATE OR REPLACE VIEW prices AS SELECT * FROM prices_raw")
 
 
 def get_watermark(con, stage: str, key: str) -> str | None:
