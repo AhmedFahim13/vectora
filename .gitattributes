@@ -1,5 +1,30 @@
+# --- line endings ------------------------------------------------------------
+# Source is stored AND checked out as LF everywhere: kills the perpetual
+# "LF will be replaced by CRLF" warnings and makes checkouts identical on
+# Windows and the Linux CI runner.
+*.py   text eol=lf
+*.yml  text eol=lf
+*.yaml text eol=lf
+*.toml text eol=lf
+*.md   text eol=lf
+*.csv  text eol=lf
+
 # LightGBM text-format model dumps are parsed by an offset-based reader that
 # assumes LF line endings; autocrlf=true checkouts on Windows corrupt them to
 # CRLF, which crashes lgb.Booster.predict() at runtime ("Model format error,
 # expect a tree here"). Force git to leave these bytes untouched everywhere.
 models/**/*.txt -text
+
+# --- binaries ----------------------------------------------------------------
+*.duckdb  binary
+*.parquet binary
+*.gz      binary
+*.pkl     binary
+
+# --- merge rules -------------------------------------------------------------
+# The DuckDB file mutates on both CI (bot data commits) and locally, and
+# binaries can't be merged. Rule: local side wins the merge, then the
+# idempotent gap-fill re-ingests anything the discarded side had
+# (`uv run python -m vectora run eod`). Requires once per clone:
+#   git config merge.ours.driver true
+data/vectora.duckdb merge=ours
