@@ -15,12 +15,16 @@ def _fwd_extreme(h: int, kind: str) -> pl.Expr:
 
 
 def make_labels(panel: pl.DataFrame, thresholds=(0.03, 0.05, 0.10, 0.20),
-                horizons=(1, 3, 5, 10, 30), downside: bool = False) -> pl.DataFrame:
+                horizons=(1, 3, 5, 10, 30), downside: bool = False,
+                continuous: bool = False) -> pl.DataFrame:
     df = panel.sort(["symbol", "date"])
     cols = []
     for h in horizons:
         fwd_max = _fwd_extreme(h, "max")
         fwd_min = _fwd_extreme(h, "min")
+        if continuous:
+            cols.append((fwd_max / pl.col("close") - 1).alias(f"fwdmax_h{h}"))
+            cols.append((fwd_min / pl.col("close") - 1).alias(f"fwdmin_h{h}"))
         for x in thresholds:
             pct = round(x * 100)
             cols.append(
