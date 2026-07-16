@@ -8,6 +8,10 @@ dependencies = [
     "beautifulsoup4>=4.12",
     "lxml>=5.2",
     "duckdb>=1.0",
+    "polars>=1.10",
+    "pyarrow>=17.0",
+    "lightgbm>=4.5",
+    "scikit-learn>=1.5",
 ]
 
 [build-system]
