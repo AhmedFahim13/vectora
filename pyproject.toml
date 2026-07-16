@@ -28,6 +28,7 @@ dev = ["pytest>=8.0", "responses>=0.25", "ruff>=0.5"]
 [tool.pytest.ini_options]
 testpaths = ["tests"]
 addopts = "-q"
+markers = ["slow: multi-minute tests (real model fits); deselect with -m 'not slow'"]
 
 [tool.ruff]
 line-length = 100

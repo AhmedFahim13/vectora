@@ -1,0 +1,44 @@
+name: train
+
+on:
+  workflow_dispatch:
+    inputs:
+      target:
+        description: "Label target, e.g. g5_h10"
+        required: false
+        default: "g5_h10"
+
+concurrency:
+  group: pipeline-writes
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  train:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v5
+        with:
+          python-version: "3.12"
+      - name: Install
+        run: uv sync --frozen
+      - name: Train
+        id: train
+        continue-on-error: true
+        run: uv run python -m vectora run train --target "${{ github.event.inputs.target }}"
+      - name: Commit artifacts
+        if: always()
+        run: |
+          git config user.name "vectora-bot"
+          git config user.email "vectora-bot@users.noreply.github.com"
+          git add -f models reports data/vectora.duckdb
+          git diff --cached --quiet || git commit -m "train: ${{ github.event.inputs.target }} $(TZ=Asia/Dhaka date +%F)"
+          git pull --rebase --autostash
+          git push
+      - name: Surface training failure
+        if: steps.train.outcome == 'failure'
+        run: exit 1
