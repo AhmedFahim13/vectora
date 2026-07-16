@@ -28,7 +28,7 @@ def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(prog="vectora")
     sub = parser.add_subparsers(dest="command", required=True)
     run = sub.add_parser("run", help="run a pipeline stage")
-    run.add_argument("stage", choices=["eod", "train"])
+    run.add_argument("stage", choices=["eod", "train", "predict"])
     run.add_argument("--date", default=None,
                      help="YYYY-MM-DD (default: gap-fill up to today)")
     run.add_argument("--target", default="g5_h10",
@@ -52,6 +52,19 @@ def main(argv: list[str] | None = None) -> int:
             con.close()
         print(json.dumps(result, indent=1))
         return 0 if result["lgbm_brier"] < result["logistic_brier"] else 1
+
+    if args.command == "run" and args.stage == "predict":
+        from vectora import db as vdb
+        from vectora.predict import engine as pengine
+        from vectora.settings import DB_PATH
+        con = vdb.connect(DB_PATH)
+        try:
+            vdb.init_schema(con)
+            result = pengine.run_predict(con, date_str=args.date)
+        finally:
+            con.close()
+        print(json.dumps(result, indent=1))
+        return 0
     return 1
 
 

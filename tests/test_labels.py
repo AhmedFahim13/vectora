@@ -42,3 +42,14 @@ def test_downside_label():
     row3 = df.filter(pl.col("date") == dt.date(2026, 1, 4))  # close 111
     # next 3 closes: 108,104,100 -> min 100 = -9.9% -> 5% drawdown hit
     assert row3["y_d5_h3"][0] == 1
+
+
+def test_continuous_forward_outcomes():
+    df = labels.make_labels(_panel(), thresholds=(0.05,), horizons=(3,),
+                            continuous=True)
+    row0 = df.filter(pl.col("date") == dt.date(2026, 1, 1))  # close 100
+    # next 3 closes: 101,103,111 -> max +11%, min +1%
+    assert abs(row0["fwdmax_h3"][0] - 0.11) < 1e-9
+    assert abs(row0["fwdmin_h3"][0] - 0.01) < 1e-9
+    # incomplete horizon -> null
+    assert df.sort("date").tail(3)["fwdmax_h3"].null_count() == 3

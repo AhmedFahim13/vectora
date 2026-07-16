@@ -21,3 +21,9 @@ BACKFILL_PARQUET = REFERENCE_DIR / "backfill_2012_2026.parquet"
 FEATURES_DIR = DATA_DIR / "features"
 MODELS_DIR = REPO_ROOT / "models"
 REPORTS_DIR = REPO_ROOT / "reports"
+
+# Signal admission (spec §9.3). g10_h30 excluded: overconfident tail
+# (training report 2026-07-16) until Phase 5 recalibration.
+SIGNAL_THRESHOLDS = {"g5_h10": 0.55}
+ANALOG_K = 20
+POSITION_TAKA = 500_000  # assumed position size for exit-days liquidity risk

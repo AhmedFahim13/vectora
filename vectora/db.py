@@ -57,6 +57,26 @@ CREATE TABLE IF NOT EXISTS model_registry (
     train_end DATE, metrics TEXT,          -- metrics: JSON
     artifact_dir TEXT, active BOOLEAN DEFAULT false
 );
+CREATE TABLE IF NOT EXISTS predictions (
+    id TEXT PRIMARY KEY,               -- <date>_<target>_<symbol>
+    created_at TIMESTAMP DEFAULT current_timestamp,
+    symbol TEXT, date DATE, target TEXT,
+    probability DOUBLE, model_id TEXT, quality_score INTEGER,
+    is_signal BOOLEAN, suppressed_reason TEXT
+);
+CREATE TABLE IF NOT EXISTS risk_blocks (
+    prediction_id TEXT PRIMARY KEY,
+    vol_21d DOUBLE, expected_up DOUBLE, expected_down DOUBLE,
+    rr_ratio DOUBLE, exit_days DOUBLE, analog_max_drawdown DOUBLE,
+    analog_hit_rate DOUBLE, analog_n INTEGER,
+    category TEXT, liquidity_value_mn DOUBLE
+);
+CREATE TABLE IF NOT EXISTS explanations (
+    prediction_id TEXT PRIMARY KEY,
+    drivers TEXT,      -- JSON list of {feature, contribution, value}
+    analogs TEXT,      -- JSON {hit_rate, n, median_up, median_down}
+    rendered TEXT
+);
 """
 
 

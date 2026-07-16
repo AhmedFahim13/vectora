@@ -44,6 +44,10 @@ jobs:
           else
             uv run python -m vectora run eod
           fi
+      - name: Predict
+        id: predict
+        continue-on-error: true
+        run: uv run python -m vectora run predict
       - name: Commit data
         if: always()
         run: |
@@ -56,7 +60,7 @@ jobs:
           git pull --rebase --autostash
           git push
       - name: Surface pipeline failure
-        if: steps.pipeline.outcome == 'failure'
+        if: steps.pipeline.outcome == 'failure' || steps.predict.outcome == 'failure'
         run: |
-          echo "pipeline exited non-zero (low quality, stage errors, or crash)"
+          echo "pipeline or predict exited non-zero"
           exit 1
