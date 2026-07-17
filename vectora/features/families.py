@@ -1,7 +1,8 @@
 # vectora/features/families.py
 """Feature computation functions. Contract: every fn takes the panel frame
 (sorted by symbol,date; includes symbol/date/open/high/low/close/ycp/trades/
-value_mn/volume/ret and joined sector/first_seen) plus params, and returns
+value_mn/volume/ret, joined sector/first_seen, and engine-prepared base
+columns days_since_event/board_meeting_soon/regime_code) plus params, and returns
 the frame with ONE new column named `name`. Per-symbol ops use .over("symbol");
 per-date (cross-sectional) ops use .over("date"). All windows are trailing —
 the leakage test (Task 7) enforces it."""
@@ -189,6 +190,13 @@ def ycp_adjustment_flag(df, name):
     return df.with_columns(diverges.cast(pl.Int8).alias(name))
 
 
+def col_passthrough(df, name, col):
+    """Expose an engine-prepared base column under its registry name."""
+    if name == col:
+        return df
+    return df.with_columns(pl.col(col).alias(name))
+
+
 FNS = {f.__name__: f for f in [
     ret_nd, rsi, dist_from_rolling_max, dist_from_rolling_min,
     ret_std, ratio_of_stds, atr, avg_range_pct, limit_lock_count,
@@ -197,7 +205,7 @@ FNS = {f.__name__: f for f in [
     cross_rank, sector_mean, minus_sector_mean, market_breadth_above_ma,
     day_of_week, month_of_year, days_since_first_seen, log_close,
     overnight_gap, close_in_range, dist_from_sma, sma_cross_state,
-    ycp_adjustment_flag,
+    ycp_adjustment_flag, col_passthrough,
 ]}
 
 

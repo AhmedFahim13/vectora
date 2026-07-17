@@ -87,3 +87,13 @@ features:
      reasoning: moving-average cross state is a self-fulfilling regime flag among local technical traders}
   - {name: ycp_gap_flag, family: structure, fn: ycp_adjustment_flag, params: {},
      reasoning: days where ycp diverges from prior close mark corporate-action ex-dates the model must know about}
+  # ---- event/regime (spec §8 event family; added Phase 5A with data to stand on)
+  - {name: days_since_event, family: calendar, fn: col_passthrough,
+     params: {col: days_since_event},
+     reasoning: announcement-driven drift persists for days where information diffuses slowly}
+  - {name: board_meeting_soon, family: calendar, fn: col_passthrough,
+     params: {col: board_meeting_soon},
+     reasoning: a board meeting notice under LR 16(1) means dividends or earnings land within days}
+  - {name: regime_code, family: cross_sectional, fn: col_passthrough,
+     params: {col: regime_code},
+     reasoning: the same setup carries different odds in Panic versus Bull markets per spec regime gating}
