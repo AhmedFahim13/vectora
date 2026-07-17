@@ -11,6 +11,7 @@ Purely descriptive of public data; a warning surface, never an accusation.
 import polars as pl
 
 RUNUP = 0.25
+FAST_RUNUP = 0.20   # 10-day; DSE pumps often complete inside two weeks
 VOL_EXPAND = 1.3
 COLLAPSE_DROP = -0.15
 COLLAPSE_PRIOR_RUN = 0.20
@@ -29,9 +30,12 @@ def phase_and_score(day: pl.DataFrame, categories: dict) -> pl.DataFrame:
         pl.when((pl.col("ret_10d") < COLLAPSE_DROP)
                 & (pl.col("ret_63d") > COLLAPSE_PRIOR_RUN))
         .then(pl.lit("collapse"))
-        .when((pl.col("ret_21d") > RUNUP) & (pl.col("obv_slope_21d") < 0))
+        .when(((pl.col("ret_21d") > RUNUP)
+               | (pl.col("ret_10d") > FAST_RUNUP))
+              & (pl.col("obv_slope_21d") < 0))
         .then(pl.lit("distribution"))
-        .when((pl.col("ret_21d") > RUNUP)
+        .when(((pl.col("ret_21d") > RUNUP)
+               | (pl.col("ret_10d") > FAST_RUNUP))
               & (pl.col("vol_ratio_5_21") > VOL_EXPAND))
         .then(pl.lit("markup"))
         .otherwise(pl.lit("quiet"))

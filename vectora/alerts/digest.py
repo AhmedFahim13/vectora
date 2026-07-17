@@ -58,6 +58,15 @@ def build(con, date_str: str) -> str:
                       rendered or "(no explanation stored)"]
     else:
         lines.append("No signals today - no setup cleared the admission gates.")
+    zwatch = con.execute(
+        "SELECT symbol, kind, score, phase FROM zwatch WHERE date = ? "
+        "ORDER BY kind, score DESC", [date_str]).fetchall()
+    if zwatch:
+        lines.append("")
+        lines.append("## Z-watch (warnings, not signals)")
+        for sym, kind, score, phase in zwatch:
+            tag = f"pump {score:.0f} ({phase})" if kind == "pump"                 else f"pre-announcement footprint (vol_z {score})"
+            lines.append(f"- {sym}: {tag}")
     lines += ["", "## Suppressions"]
     lines += [f"- {reason}: {cnt}" for reason, cnt in suppressed]
     lines += ["", "_Research tool, not investment advice._", ""]

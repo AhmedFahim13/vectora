@@ -149,3 +149,18 @@ def test_panic_regime_suppresses_all_signals(test_db, tmp_path):
     reasons = {r[0] for r in test_db.execute(
         "SELECT DISTINCT suppressed_reason FROM predictions").fetchall()}
     assert "panic-regime-gate" in reasons
+
+
+def test_signal_on_pump_flagged_name_gets_warning(test_db, tmp_path):
+    last = _seed_market(test_db)
+    _train_and_register(test_db, tmp_path)
+    vdb.upsert(test_db, "zwatch", [dict(
+        date=last, symbol="S1", kind="pump", score=90.0,
+        phase="markup", detail="{}")])
+    pengine.run_predict(test_db, date_str=last,
+                        features_path=tmp_path / "f2.parquet",
+                        min_median_value_mn=0.1)
+    rendered = test_db.execute(
+        "SELECT rendered FROM explanations WHERE prediction_id LIKE ?",
+        [f"%{last}_g5_h10_S1"]).fetchone()[0]
+    assert "pump-phase" in rendered

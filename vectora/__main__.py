@@ -30,7 +30,7 @@ def main(argv: list[str] | None = None) -> int:
     run = sub.add_parser("run", help="run a pipeline stage")
     run.add_argument("stage",
                      choices=["eod", "train", "predict", "digest", "outcomes",
-                              "vault", "regime", "events"])
+                              "vault", "regime", "events", "zscan"])
     run.add_argument("--date", default=None,
                      help="YYYY-MM-DD (default: gap-fill up to today)")
     run.add_argument("--target", default="g5_h10",
@@ -138,6 +138,19 @@ def main(argv: list[str] | None = None) -> int:
         try:
             vdb.init_schema(con)
             result = classifier.classify_new(con)
+        finally:
+            con.close()
+        print(json.dumps(result, indent=1))
+        return 0
+
+    if args.command == "run" and args.stage == "zscan":
+        from vectora import db as vdb
+        from vectora.settings import DB_PATH
+        from vectora.zmod import scan
+        con = vdb.connect(DB_PATH)
+        try:
+            vdb.init_schema(con)
+            result = scan.run_zscan(con, date_str=args.date)
         finally:
             con.close()
         print(json.dumps(result, indent=1))

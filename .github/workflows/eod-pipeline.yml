@@ -50,6 +50,9 @@ jobs:
       - name: Regime
         continue-on-error: true
         run: uv run python -m vectora run regime
+      - name: Zscan
+        continue-on-error: true
+        run: uv run python -m vectora run zscan
       - name: Predict
         id: predict
         continue-on-error: true

@@ -78,3 +78,12 @@ def test_digest_shows_regime(test_db):
          "method": "rules"}])
     body = digest.build(test_db, "2026-07-16")
     assert "regime Bull" in body
+
+
+def test_digest_zwatch_section(test_db):
+    _seed(test_db)
+    vdb.upsert(test_db, "zwatch", [dict(
+        date="2026-07-16", symbol="FOOTSYM", kind="footprint", score=3.4,
+        phase=None, detail='{"threshold": 2.0, "ret_5d": 0.04}')])
+    body = digest.build(test_db, "2026-07-16")
+    assert "Z-watch" in body and "FOOTSYM" in body

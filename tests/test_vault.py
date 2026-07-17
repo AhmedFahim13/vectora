@@ -87,3 +87,13 @@ def test_journal_types_material_events(test_db, tmp_path):
     gen.generate(test_db, "2026-07-16", vault_dir=tmp_path)
     journal = (tmp_path / "Journal" / "2026-07-16.md").read_text(encoding="utf-8")
     assert "dividend_declared" in journal
+
+
+def test_journal_zwatch_section(test_db, tmp_path):
+    _seed(test_db)
+    vdb.upsert(test_db, "zwatch", [dict(
+        date="2026-07-16", symbol="ZPUMP", kind="pump", score=88.0,
+        phase="markup", detail="{}")])
+    gen.generate(test_db, "2026-07-16", vault_dir=tmp_path)
+    journal = (tmp_path / "Journal" / "2026-07-16.md").read_text(encoding="utf-8")
+    assert "Z-watch" in journal and "ZPUMP" in journal and "88" in journal
