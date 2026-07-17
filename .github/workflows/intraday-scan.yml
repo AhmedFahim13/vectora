@@ -1,0 +1,47 @@
+name: intraday-scan
+
+on:
+  schedule:
+    # DSE publishes hourly chart data 4x/day; 11:00-14:00 Dhaka = 05-08 UTC
+    - cron: "0 5,6,7,8 * * 0,1,2,3,4"
+  workflow_dispatch:
+
+concurrency:
+  group: pipeline-writes
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+env:
+  TZ: Asia/Dhaka
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v5
+        with:
+          python-version: "3.12"
+      - name: Install
+        run: uv sync --frozen
+      - name: Intraday scan
+        id: scan
+        continue-on-error: true
+        env:
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+        run: uv run python -m vectora run intraday
+      - name: Commit data
+        if: always()
+        run: |
+          git config user.name "vectora-bot"
+          git config user.email "vectora-bot@users.noreply.github.com"
+          git add -f data/raw data/vectora.duckdb reports
+          git diff --cached --quiet || git commit -m "data: intraday $(date '+%F %H:%M')"
+          git pull --rebase --autostash
+          git push
+      - name: Surface failure
+        if: steps.scan.outcome == 'failure'
+        run: exit 1
