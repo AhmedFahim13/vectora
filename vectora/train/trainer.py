@@ -54,6 +54,7 @@ def run(con, target: str = "g5_h10",
         raise ValueError("not enough history for a single walk-forward fold")
 
     pooled = {"logistic": ([], []), "lgbm": ([], [])}  # (y, p)
+    pooled_raw_lgbm: list = []
     last_models = {}
     for split in folds:
         tr = df.filter((pl.col("date") >= split.train_start)
@@ -83,8 +84,10 @@ def run(con, target: str = "g5_h10",
 
         pooled["logistic"][0].extend(y_te)
         pooled["logistic"][1].extend(M.predict(logit, X_te))
+        raw_te = M.predict(lgbm, X_te)
         pooled["lgbm"][0].extend(y_te)
-        pooled["lgbm"][1].extend(M.apply_calibrator(cal, M.predict(lgbm, X_te)))
+        pooled["lgbm"][1].extend(M.apply_calibrator(cal, raw_te))
+        pooled_raw_lgbm.extend(raw_te)
         last_models = {"logistic": logit, "lgbm": lgbm, "cal": cal,
                        "train_end": split.train_end}
 
@@ -98,6 +101,7 @@ def run(con, target: str = "g5_h10",
         }
 
     run_id = dt.date.today().isoformat()
+    registered: list[tuple[str, str]] = []
     for fam in ("logistic", "lgbm"):
         model_id = f"{target}_{fam}_{run_id}_{uuid.uuid4().hex[:6]}"
         art = models_dir / model_id
@@ -110,9 +114,10 @@ def run(con, target: str = "g5_h10",
             registry_dir = str(art)
         if fam == "lgbm":
             last_models["lgbm"].booster_.save_model(str(art / "lgbm.txt"))
+            deploy_cal = fit_deploy_calibrator(
+                pooled_raw_lgbm, pooled["lgbm"][0])
             import pickle
-            (art / "calibrator.pkl").write_bytes(
-                pickle.dumps(last_models["cal"]))
+            (art / "calibrator.pkl").write_bytes(pickle.dumps(deploy_cal))
         else:
             import pickle
             (art / "logistic.pkl").write_bytes(
@@ -120,8 +125,10 @@ def run(con, target: str = "g5_h10",
         (art / "meta.json").write_text(json.dumps({
             "model_id": model_id, "family": fam, "target": target,
             "features": feat_names, "train_end": str(last_models["train_end"]),
+            "calibration": "pooled-oos" if fam == "lgbm" else None,
             "metrics": metrics[fam] | {"reliability": None},
         }, indent=1), encoding="utf-8")
+        registered.append((model_id, fam))
         vdb.upsert(con, "model_registry", [{
             "model_id": model_id, "family": fam, "target": target,
             "trained_at": dt.datetime.now().isoformat(),
@@ -130,7 +137,17 @@ def run(con, target: str = "g5_h10",
             "artifact_dir": registry_dir, "active": False,
         }])
 
+    lgbm_id = next(mid for mid, fam in registered if fam == "lgbm")
+    promoted = promote_if_better(con, target, lgbm_id,
+                                 metrics["lgbm"]["brier"])
+
     report = _render_report(target, folds, metrics)
+    deploy_probs = deploy_cal.predict(np.asarray(pooled_raw_lgbm))
+    report += "\n## Reliability (deployment calibrator, in-sample on pooled OOS)\n\n"
+    report += "| bin | n | predicted | realized |\n|---|---|---|---|\n"
+    for b in M.reliability_table(pooled["lgbm"][0], deploy_probs):
+        report += (f"| {b['bin_lo']:.1f}-{b['bin_hi']:.1f} | {b['n']} "
+                   f"| {b['p_mean']:.3f} | {b['y_rate']:.3f} |\n")
     reports_dir.mkdir(parents=True, exist_ok=True)
     (reports_dir / f"train_{target}_{run_id}.md").write_text(
         report, encoding="utf-8")
@@ -139,7 +156,39 @@ def run(con, target: str = "g5_h10",
             "lgbm_brier": metrics["lgbm"]["brier"],
             "logistic_brier": metrics["logistic"]["brier"],
             "lgbm_auc": metrics["lgbm"]["auc"],
-            "logistic_auc": metrics["logistic"]["auc"]}
+            "logistic_auc": metrics["logistic"]["auc"],
+            "promoted": promoted}
+
+
+def fit_deploy_calibrator(raw_pooled, y_pooled):
+    """Deployment calibrator fit on ALL pooled OOS raw predictions —
+    orders of magnitude more tail data than one fold's validation slice
+    (the g10_h30 tail overconfidence root cause, training report
+    2026-07-16)."""
+    return M.fit_calibrator(np.asarray(raw_pooled), np.asarray(y_pooled))
+
+
+def promote_if_better(con, target: str, model_id: str,
+                      new_brier: float) -> bool:
+    """Challenger guard (spec §17.5): activate the new lgbm model only if
+    its pooled-OOS Brier is <= the incumbent's stored metric."""
+    row = con.execute(
+        """
+        SELECT model_id, metrics FROM model_registry
+        WHERE target = ? AND family = 'lgbm' AND active
+        ORDER BY trained_at DESC LIMIT 1
+        """, [target]).fetchone()
+    if row is not None:
+        incumbent_brier = json.loads(row[1]).get("brier")
+        if incumbent_brier is not None and new_brier > incumbent_brier:
+            return False
+        con.execute(
+            "UPDATE model_registry SET active = false WHERE model_id = ?",
+            [row[0]])
+    con.execute(
+        "UPDATE model_registry SET active = true WHERE model_id = ?",
+        [model_id])
+    return True
 
 
 def _render_report(target, folds, metrics) -> str:
