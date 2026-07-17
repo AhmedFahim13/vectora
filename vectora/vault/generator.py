@@ -49,6 +49,9 @@ def generate(con, date_str: str, vault_dir: Path = VAULT_DIR) -> dict:
         ORDER BY coalesce(l.materiality, 1) DESC
         LIMIT 20
         """, [date_str]).fetchall()
+    zwatch = con.execute(
+        "SELECT symbol, kind, score, phase FROM zwatch WHERE date = ? "
+        "ORDER BY kind, score DESC", [date_str]).fetchall()
 
     # Journal ---------------------------------------------------------------
     regime = con.execute(
@@ -68,6 +71,12 @@ def generate(con, date_str: str, vault_dir: Path = VAULT_DIR) -> dict:
         lines.append("## Company events")
         lines += [f"- [[{sym}]] ({etype}): {title}"
                   for sym, title, etype in events]
+    if zwatch:
+        lines.append("")
+        lines.append("## Z-watch")
+        for sym, kind, score, phase in zwatch:
+            tag = f"pump {score:.0f} ({phase})" if kind == "pump"                 else f"pre-announcement footprint (vol_z {score})"
+            lines.append(f"- [[{sym}]] {tag}")
     _write_machine(vault_dir / "Journal" / f"{date_str}.md", "\n".join(lines))
     n += 1
 

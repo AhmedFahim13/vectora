@@ -103,6 +103,16 @@ CREATE TABLE IF NOT EXISTS event_studies (
     computed_at TIMESTAMP DEFAULT current_timestamp,
     PRIMARY KEY (event_type, horizon)
 );
+CREATE TABLE IF NOT EXISTS zwatch (
+    date DATE, symbol TEXT, kind TEXT,       -- 'pump' | 'footprint'
+    score DOUBLE, phase TEXT, detail TEXT,   -- detail: JSON
+    PRIMARY KEY (date, symbol, kind)
+);
+CREATE TABLE IF NOT EXISTS event_footprints (
+    event_id TEXT PRIMARY KEY,
+    pre_vol_z DOUBLE, pre_ret DOUBLE,
+    computed_at TIMESTAMP DEFAULT current_timestamp
+);
 """
 
 

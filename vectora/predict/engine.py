@@ -50,6 +50,9 @@ def run_predict(con, date_str: str | None = None, features_path=None,
         & pl.col("symbol").is_in(sorted(universe)))
     categories = dict(con.execute(
         "SELECT symbol, category FROM symbols").fetchall())
+    pump_flagged = {r[0] for r in con.execute(
+        "SELECT symbol FROM zwatch WHERE date = ? AND kind = 'pump'",
+        [run_date]).fetchall()}
 
     n_pred = n_sig = 0
     for model in active:
@@ -97,6 +100,10 @@ def run_predict(con, date_str: str | None = None, features_path=None,
                 "rendered": explain.render(symbol, target, p, d, stats,
                                            block, quality),
             })
+            if symbol in pump_flagged:
+                expls[-1]["rendered"] += (
+                    "\nWarning: elevated pump-phase score today - treat "
+                    "momentum in this name as suspect.")
             n_pred += 1
             n_sig += 1 if suppressed is None else 0
         vdb.upsert(con, "predictions", preds)
