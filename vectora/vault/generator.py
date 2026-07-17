@@ -41,8 +41,14 @@ def generate(con, date_str: str, vault_dir: Path = VAULT_DIR) -> dict:
         "SELECT score FROM data_quality WHERE date = ? AND source='dse_eod'",
         [date_str]).fetchone()
     events = con.execute(
-        "SELECT symbol, title FROM events WHERE post_date = ? "
-        "AND symbol IS NOT NULL LIMIT 20", [date_str]).fetchall()
+        """
+        SELECT e.symbol, e.title, coalesce(l.event_type, 'unclassified')
+        FROM events e LEFT JOIN event_labels l ON l.event_id = e.id
+        WHERE e.post_date = ? AND e.symbol IS NOT NULL
+          AND coalesce(l.materiality, 1) >= 1
+        ORDER BY coalesce(l.materiality, 1) DESC
+        LIMIT 20
+        """, [date_str]).fetchall()
 
     # Journal ---------------------------------------------------------------
     regime = con.execute(
@@ -60,7 +66,8 @@ def generate(con, date_str: str, vault_dir: Path = VAULT_DIR) -> dict:
     if events:
         lines.append("")
         lines.append("## Company events")
-        lines += [f"- [[{sym}]]: {title}" for sym, title in events]
+        lines += [f"- [[{sym}]] ({etype}): {title}"
+                  for sym, title, etype in events]
     _write_machine(vault_dir / "Journal" / f"{date_str}.md", "\n".join(lines))
     n += 1
 

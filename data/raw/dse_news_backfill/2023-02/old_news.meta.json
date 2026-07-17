@@ -1,0 +1,9 @@
+{
+ "source": "dse_news_backfill",
+ "run_date": "2023-02",
+ "url": "https://www.dsebd.org/old_news.php",
+ "fetched_at": "2026-07-17T07:44:47.648509+00:00",
+ "bytes": 294445,
+ "compressed_bytes": 21268,
+ "sha256": "0e488bd9e469ef1b2fd3681b3a22a067c11eb623d430fc0eca5306781822d2ef"
+}

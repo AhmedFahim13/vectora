@@ -78,3 +78,12 @@ def test_journal_shows_regime(test_db, tmp_path):
     gen.generate(test_db, "2026-07-16", vault_dir=tmp_path)
     journal = (tmp_path / "Journal" / "2026-07-16.md").read_text(encoding="utf-8")
     assert "regime Sideways" in journal
+
+
+def test_journal_types_material_events(test_db, tmp_path):
+    _seed(test_db)
+    vdb.upsert(test_db, "event_labels", [dict(
+        event_id="e1", event_type="dividend_declared", materiality=3)])
+    gen.generate(test_db, "2026-07-16", vault_dir=tmp_path)
+    journal = (tmp_path / "Journal" / "2026-07-16.md").read_text(encoding="utf-8")
+    assert "dividend_declared" in journal
