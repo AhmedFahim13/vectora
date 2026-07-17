@@ -78,10 +78,13 @@ def main(argv: list[str] | None = None) -> int:
             date_str = args.date or str(con.execute(
                 "SELECT max(date) FROM predictions").fetchone()[0])
             body = digest.build(con, date_str)
+            from vectora.alerts import signals as sig
+            new_symbols = sig.log_signal_alerts(con, date_str)
         finally:
             con.close()
         n_signals = body.count("### ")
-        subject = f"Vectora digest {date_str} - {n_signals} signal(s)"
+        prefix = f"[{len(new_symbols)} NEW] " if new_symbols else ""
+        subject = f"{prefix}Vectora digest {date_str} - {n_signals} signal(s)"
         result = digest.send_or_save(subject, body)
         print(json.dumps(result, indent=1))
         return 0
