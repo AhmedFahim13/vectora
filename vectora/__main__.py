@@ -28,7 +28,9 @@ def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(prog="vectora")
     sub = parser.add_subparsers(dest="command", required=True)
     run = sub.add_parser("run", help="run a pipeline stage")
-    run.add_argument("stage", choices=["eod", "train", "predict", "digest"])
+    run.add_argument("stage",
+                     choices=["eod", "train", "predict", "digest", "outcomes",
+                              "vault"])
     run.add_argument("--date", default=None,
                      help="YYYY-MM-DD (default: gap-fill up to today)")
     run.add_argument("--target", default="g5_h10",
@@ -76,11 +78,42 @@ def main(argv: list[str] | None = None) -> int:
             date_str = args.date or str(con.execute(
                 "SELECT max(date) FROM predictions").fetchone()[0])
             body = digest.build(con, date_str)
+            from vectora.alerts import signals as sig
+            new_symbols = sig.log_signal_alerts(con, date_str)
         finally:
             con.close()
         n_signals = body.count("### ")
-        subject = f"Vectora digest {date_str} - {n_signals} signal(s)"
+        prefix = f"[{len(new_symbols)} NEW] " if new_symbols else ""
+        subject = f"{prefix}Vectora digest {date_str} - {n_signals} signal(s)"
         result = digest.send_or_save(subject, body)
+        print(json.dumps(result, indent=1))
+        return 0
+
+    if args.command == "run" and args.stage == "outcomes":
+        from vectora import db as vdb
+        from vectora.outcomes import resolver
+        from vectora.settings import DB_PATH
+        con = vdb.connect(DB_PATH)
+        try:
+            vdb.init_schema(con)
+            result = resolver.resolve(con)
+        finally:
+            con.close()
+        print(json.dumps(result, indent=1))
+        return 0
+
+    if args.command == "run" and args.stage == "vault":
+        from vectora import db as vdb
+        from vectora.settings import DB_PATH
+        from vectora.vault import generator
+        con = vdb.connect(DB_PATH)
+        try:
+            vdb.init_schema(con)
+            date_str = args.date or str(con.execute(
+                "SELECT max(date) FROM predictions").fetchone()[0])
+            result = generator.generate(con, date_str)
+        finally:
+            con.close()
         print(json.dumps(result, indent=1))
         return 0
     return 1
