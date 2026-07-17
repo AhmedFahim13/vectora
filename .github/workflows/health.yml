@@ -1,0 +1,29 @@
+name: health
+
+on:
+  schedule:
+    # 17:30 Dhaka daily = 11:30 UTC, after the eod pipeline settles
+    - cron: "30 11 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+env:
+  TZ: Asia/Dhaka
+
+jobs:
+  health:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v5
+        with:
+          python-version: "3.12"
+      - name: Install
+        run: uv sync --frozen
+      - name: Health check
+        env:
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+        run: uv run python -m vectora run health

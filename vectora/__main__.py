@@ -30,7 +30,8 @@ def main(argv: list[str] | None = None) -> int:
     run = sub.add_parser("run", help="run a pipeline stage")
     run.add_argument("stage",
                      choices=["eod", "train", "predict", "digest", "outcomes",
-                              "vault", "regime", "events", "zscan", "intraday", "evaluate"])
+                              "vault", "regime", "events", "zscan", "intraday", "evaluate",
+                              "health"])
     run.add_argument("--date", default=None,
                      help="YYYY-MM-DD (default: gap-fill up to today)")
     run.add_argument("--target", default="g5_h10",
@@ -186,6 +187,28 @@ def main(argv: list[str] | None = None) -> int:
                             if k2 != "reliability"}
                         for t, m in result.get("targets", {}).items()}},
               indent=1, default=str))
+        return 0
+
+    if args.command == "run" and args.stage == "health":
+        from vectora import db as vdb
+        from vectora import health
+        from vectora.alerts.digest import send_or_save
+        from vectora.http import PoliteSession
+        from vectora.settings import DB_PATH
+        con = vdb.connect(DB_PATH)
+        try:
+            vdb.init_schema(con)
+            result = health.check(con, session=PoliteSession())
+        finally:
+            con.close()
+        print(json.dumps(result, indent=1, default=str))
+        if not result["ok"]:
+            failing = [c for c in result["checks"] if not c["ok"]]
+            body = "
+".join(f"- {c['name']}: {c['detail']}" for c in failing)
+            send_or_save(f"[HEALTH] Vectora: {len(failing)} check(s) failing",
+                         body)
+            return 1
         return 0
     return 1
 
