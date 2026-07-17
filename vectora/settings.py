@@ -28,3 +28,5 @@ VAULT_DIR = REPO_ROOT / "vault"
 SIGNAL_THRESHOLDS = {"g5_h10": 0.55}
 ANALOG_K = 20
 POSITION_TAKA = 500_000  # assumed position size for exit-days liquidity risk
+
+ADJUSTED_PARQUET = REFERENCE_DIR / "backfill_adjusted_2012_2026.parquet"

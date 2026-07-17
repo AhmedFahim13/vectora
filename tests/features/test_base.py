@@ -50,3 +50,32 @@ def test_panel_sorted_by_symbol_date(test_db):
     for _, g in df.group_by("symbol"):
         ds = g.sort("date")["date"].to_list()
         assert ds == sorted(ds)
+
+
+def test_backfill_return_prefers_adjusted_chain(test_db, tmp_path, monkeypatch):
+    # unadjusted closes show a fake 2:1 split gap; adjusted chain is smooth
+    vdb.upsert(test_db, "prices_raw", [
+        dict(symbol="SPL", date="2026-07-05", open=100, high=100, low=100,
+             close=100.0, ltp=None, ycp=None, trades=None, value_mn=None,
+             volume=1, source="mendeley"),
+        dict(symbol="SPL", date="2026-07-06", open=51, high=51, low=51,
+             close=51.0, ltp=None, ycp=None, trades=None, value_mn=None,
+             volume=1, source="mendeley"),
+    ])
+    adj = tmp_path / "adj.parquet"
+    pl.DataFrame({
+        "symbol": ["SPL", "SPL"],
+        "date": ["2026-07-05", "2026-07-06"],
+        "adj_close": [50.0, 51.0],
+    }).with_columns(pl.col("date").cast(pl.Date)).write_parquet(adj)
+    monkeypatch.setattr(base, "ADJUSTED_PARQUET", adj)
+    df = base.load_panel(test_db).filter(pl.col("symbol") == "SPL").sort("date")
+    # adjusted chain: 51/50 - 1 = +2%, NOT the clipped -12% the raw gap gives
+    assert abs(df["ret"][1] - 0.02) < 1e-9
+
+
+def test_backfill_without_adjusted_falls_back(test_db, tmp_path, monkeypatch):
+    monkeypatch.setattr(base, "ADJUSTED_PARQUET", tmp_path / "missing.parquet")
+    _seed(test_db)   # existing helper: ACI rows incl. the 50% gap day
+    df = base.load_panel(test_db).filter(pl.col("symbol") == "ACI").sort("date")
+    assert abs(df["ret"][2] - base.RET_CLIP) < 1e-9   # old clipped behavior

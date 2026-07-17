@@ -65,7 +65,8 @@ def build(con, date_str: str) -> str:
         lines.append("")
         lines.append("## Z-watch (warnings, not signals)")
         for sym, kind, score, phase in zwatch:
-            tag = f"pump {score:.0f} ({phase})" if kind == "pump"                 else f"pre-announcement footprint (vol_z {score})"
+            tag = (f"pump {score:.0f} ({phase})" if kind == "pump"
+                   else f"pre-announcement footprint (vol_z {score})")
             lines.append(f"- {sym}: {tag}")
     lines += ["", "## Suppressions"]
     lines += [f"- {reason}: {cnt}" for reason, cnt in suppressed]

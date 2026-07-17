@@ -19,7 +19,7 @@ def test_phases():
         {"symbol": "COLLAPSE", "ret_10d": -0.25, "ret_63d": 0.5},
     ])
     out = pump.phase_and_score(df, categories={})
-    phases = dict(zip(out["symbol"].to_list(), out["phase"].to_list()))
+    phases = dict(zip(out["symbol"].to_list(), out["phase"].to_list(), strict=True))
     assert phases == {"QUIET": "quiet", "MARKUP": "markup",
                       "DIST": "distribution", "COLLAPSE": "collapse"}
 
@@ -31,7 +31,7 @@ def test_score_ranks_runners_highest_and_boosts_z():
     rows.append({"symbol": "APUMP", "ret_21d": 0.45, "vol_ratio_5_21": 3.0})
     out = pump.phase_and_score(_frame(rows),
                                categories={"ZPUMP": "Z", "APUMP": "A"})
-    scores = dict(zip(out["symbol"].to_list(), out["score"].to_list()))
+    scores = dict(zip(out["symbol"].to_list(), out["score"].to_list(), strict=True))
     assert scores["ZPUMP"] > scores["APUMP"] > scores["S5"]
     assert scores["ZPUMP"] <= 100.0
     assert scores["S0"] < 20
