@@ -88,6 +88,10 @@ CREATE TABLE IF NOT EXISTS alerts_log (
     alert_type TEXT, symbol TEXT, alert_date DATE,
     prediction_id TEXT
 );
+CREATE TABLE IF NOT EXISTS regimes (
+    date DATE PRIMARY KEY, regime TEXT, confidence DOUBLE,
+    method TEXT, computed_at TIMESTAMP DEFAULT current_timestamp
+);
 """
 
 
