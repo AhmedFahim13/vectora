@@ -45,10 +45,13 @@ def generate(con, date_str: str, vault_dir: Path = VAULT_DIR) -> dict:
         "AND symbol IS NOT NULL LIMIT 20", [date_str]).fetchall()
 
     # Journal ---------------------------------------------------------------
+    regime = con.execute(
+        "SELECT regime FROM regimes WHERE date = ?", [date_str]).fetchone()
     q = quality[0] if quality else "n/a"
+    reg = regime[0] if regime else "unclassified"
     lines = [f"# Journal {date_str}", "",
              f"{len(preds)} predictions | {len(signals)} signal(s) | "
-             f"quality {q}", ""]
+             f"quality {q} | regime {reg}", ""]
     if signals:
         lines.append("## Signals")
         lines += [f"- [[{s[1]}]] {s[2]} at {s[3]:.0%} "

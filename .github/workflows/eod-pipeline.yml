@@ -44,6 +44,9 @@ jobs:
           else
             uv run python -m vectora run eod
           fi
+      - name: Regime
+        continue-on-error: true
+        run: uv run python -m vectora run regime
       - name: Predict
         id: predict
         continue-on-error: true

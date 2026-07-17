@@ -132,3 +132,20 @@ def test_no_active_model_returns_zero(test_db, tmp_path):
                                  features_path=tmp_path / "f.parquet",
                                  min_median_value_mn=0.1)
     assert result["predictions"] == 0 and result["targets"] == []
+
+
+def test_panic_regime_suppresses_all_signals(test_db, tmp_path):
+    last = _seed_market(test_db)
+    _train_and_register(test_db, tmp_path)
+    vdb.upsert(test_db, "regimes", [
+        {"date": last, "regime": "Panic", "confidence": 0.8,
+         "method": "rules"}])
+    pengine.run_predict(test_db, date_str=last,
+                        features_path=tmp_path / "f2.parquet",
+                        min_median_value_mn=0.1)
+    n_signals = test_db.execute(
+        "SELECT count(*) FROM predictions WHERE is_signal").fetchone()[0]
+    assert n_signals == 0
+    reasons = {r[0] for r in test_db.execute(
+        "SELECT DISTINCT suppressed_reason FROM predictions").fetchall()}
+    assert "panic-regime-gate" in reasons
