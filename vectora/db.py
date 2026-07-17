@@ -119,6 +119,10 @@ CREATE TABLE IF NOT EXISTS intraday_snapshots (
     value_mn DOUBLE, volume BIGINT,
     PRIMARY KEY (symbol, ts)
 );
+CREATE TABLE IF NOT EXISTS outcome_tags (
+    prediction_id TEXT PRIMARY KEY, tag TEXT,
+    tagged_at TIMESTAMP DEFAULT current_timestamp
+);
 """
 
 
