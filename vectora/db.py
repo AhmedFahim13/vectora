@@ -77,6 +77,11 @@ CREATE TABLE IF NOT EXISTS explanations (
     analogs TEXT,      -- JSON {hit_rate, n, median_up, median_down}
     rendered TEXT
 );
+CREATE TABLE IF NOT EXISTS outcomes (
+    prediction_id TEXT PRIMARY KEY,
+    resolved_at TIMESTAMP DEFAULT current_timestamp,
+    realized_max DOUBLE, realized_min DOUBLE, hit BOOLEAN
+);
 """
 
 
