@@ -69,3 +69,12 @@ def test_send_with_password_uses_smtp(monkeypatch, tmp_path):
     assert sent["subject"] == "Vectora digest"
     assert sent["pw"] == "test-pw"
     assert sent["host"] == "smtp.gmail.com"
+
+
+def test_digest_shows_regime(test_db):
+    _seed(test_db)
+    vdb.upsert(test_db, "regimes", [
+        {"date": "2026-07-16", "regime": "Bull", "confidence": 0.8,
+         "method": "rules"}])
+    body = digest.build(test_db, "2026-07-16")
+    assert "regime Bull" in body

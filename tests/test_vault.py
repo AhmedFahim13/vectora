@@ -68,3 +68,13 @@ def test_no_data_day_still_writes_journal(test_db, tmp_path):
     assert result["notes"] >= 2   # journal + home always written
     journal = (tmp_path / "Journal" / "2026-07-16.md").read_text(encoding="utf-8")
     assert "0 predictions" in journal
+
+
+def test_journal_shows_regime(test_db, tmp_path):
+    _seed(test_db)
+    vdb.upsert(test_db, "regimes", [
+        {"date": "2026-07-16", "regime": "Sideways", "confidence": 0.5,
+         "method": "rules"}])
+    gen.generate(test_db, "2026-07-16", vault_dir=tmp_path)
+    journal = (tmp_path / "Journal" / "2026-07-16.md").read_text(encoding="utf-8")
+    assert "regime Sideways" in journal

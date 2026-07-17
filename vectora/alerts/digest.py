@@ -40,11 +40,15 @@ def build(con, date_str: str) -> str:
         WHERE date = ? AND NOT is_signal GROUP BY 1 ORDER BY 2 DESC
         """, [date_str]).fetchall()
 
+    regime = con.execute(
+        "SELECT regime FROM regimes WHERE date = ?", [date_str]).fetchone()
     q = quality[0] if quality else "unknown"
+    reg = regime[0] if regime else "unclassified"
     lines = [
         f"# Vectora digest {date_str}",
         "",
-        f"{n} predictions | {len(signals)} signal(s) | data quality {q}",
+        f"{n} predictions | {len(signals)} signal(s) | data quality {q} | "
+        f"regime {reg}",
         "",
     ]
     if signals:

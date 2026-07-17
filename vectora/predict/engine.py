@@ -16,6 +16,7 @@ from vectora import labels as lab
 from vectora.features import engine as fengine
 from vectora.predict import analogs, explain, loaders, risk
 from vectora.predict.explain import drivers as shap_drivers
+from vectora.regime import rules as regime_rules
 from vectora.settings import ANALOG_K, MIN_QUALITY_SCORE, SIGNAL_THRESHOLDS
 from vectora.train import models as M
 from vectora.universe import tradable_universe
@@ -33,6 +34,7 @@ def run_predict(con, date_str: str | None = None, features_path=None,
         "SELECT score FROM data_quality WHERE date = ? AND source = 'dse_eod'",
         [run_date]).fetchone()
     quality = quality_row[0] if quality_row else 0
+    regime = regime_rules.regime_on(con, run_date)
 
     active = [m for m in (loaders.active_model(con, t) for t in TARGETS)
               if m is not None]
@@ -77,7 +79,7 @@ def run_predict(con, date_str: str | None = None, features_path=None,
                 vol_21d=row.get("vol_21d"),
                 value_mn_med_21d=row.get("value_mn_med_21d"),
                 category=categories.get(symbol), analog_stats=stats)
-            suppressed = _gate(p, target, block["category"], quality)
+            suppressed = _gate(p, target, block["category"], quality, regime)
             pid = f"{run_date}_{target}_{symbol}"
             preds.append({
                 "id": pid, "symbol": symbol, "date": run_date,
@@ -106,7 +108,7 @@ def run_predict(con, date_str: str | None = None, features_path=None,
 
 
 def _gate(p: float, target: str, category: str | None,
-          quality: int) -> str | None:
+          quality: int, regime: str | None = None) -> str | None:
     """First failing gate wins; None means the prediction is a signal."""
     if quality < MIN_QUALITY_SCORE:
         return "quality-below-floor"
@@ -115,6 +117,8 @@ def _gate(p: float, target: str, category: str | None,
             else "target-not-enabled"
     if category == "Z":
         return "z-category-gate"
+    if regime == "Panic":
+        return "panic-regime-gate"
     if p < SIGNAL_THRESHOLDS[target]:
         return "below-probability-threshold"
     return None
