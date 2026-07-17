@@ -113,6 +113,12 @@ CREATE TABLE IF NOT EXISTS event_footprints (
     pre_vol_z DOUBLE, pre_ret DOUBLE,
     computed_at TIMESTAMP DEFAULT current_timestamp
 );
+CREATE TABLE IF NOT EXISTS intraday_snapshots (
+    symbol TEXT, ts TIMESTAMP, ltp DOUBLE, high DOUBLE, low DOUBLE,
+    closep DOUBLE, ycp DOUBLE, change DOUBLE, trades BIGINT,
+    value_mn DOUBLE, volume BIGINT,
+    PRIMARY KEY (symbol, ts)
+);
 """
 
 
