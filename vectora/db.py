@@ -92,6 +92,17 @@ CREATE TABLE IF NOT EXISTS regimes (
     date DATE PRIMARY KEY, regime TEXT, confidence DOUBLE,
     method TEXT, computed_at TIMESTAMP DEFAULT current_timestamp
 );
+CREATE TABLE IF NOT EXISTS event_labels (
+    event_id TEXT PRIMARY KEY,
+    event_type TEXT, materiality INTEGER,        -- 0 noise .. 3 price-sensitive
+    classified_at TIMESTAMP DEFAULT current_timestamp
+);
+CREATE TABLE IF NOT EXISTS event_studies (
+    event_type TEXT, horizon INTEGER, n INTEGER,
+    mean_abn_ret DOUBLE, median_abn_ret DOUBLE, pos_share DOUBLE,
+    computed_at TIMESTAMP DEFAULT current_timestamp,
+    PRIMARY KEY (event_type, horizon)
+);
 """
 
 
