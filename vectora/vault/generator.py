@@ -75,7 +75,8 @@ def generate(con, date_str: str, vault_dir: Path = VAULT_DIR) -> dict:
         lines.append("")
         lines.append("## Z-watch")
         for sym, kind, score, phase in zwatch:
-            tag = f"pump {score:.0f} ({phase})" if kind == "pump"                 else f"pre-announcement footprint (vol_z {score})"
+            tag = (f"pump {score:.0f} ({phase})" if kind == "pump"
+                   else f"pre-announcement footprint (vol_z {score})")
             lines.append(f"- [[{sym}]] {tag}")
     _write_machine(vault_dir / "Journal" / f"{date_str}.md", "\n".join(lines))
     n += 1

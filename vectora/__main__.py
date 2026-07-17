@@ -204,8 +204,8 @@ def main(argv: list[str] | None = None) -> int:
         print(json.dumps(result, indent=1, default=str))
         if not result["ok"]:
             failing = [c for c in result["checks"] if not c["ok"]]
-            body = "
-".join(f"- {c['name']}: {c['detail']}" for c in failing)
+            body = "\n".join(
+                f"- {c['name']}: {c['detail']}" for c in failing)
             send_or_save(f"[HEALTH] Vectora: {len(failing)} check(s) failing",
                          body)
             return 1
