@@ -48,6 +48,12 @@ jobs:
         id: predict
         continue-on-error: true
         run: uv run python -m vectora run predict
+      - name: Outcomes
+        continue-on-error: true
+        run: uv run python -m vectora run outcomes
+      - name: Vault
+        continue-on-error: true
+        run: uv run python -m vectora run vault
       - name: Digest
         continue-on-error: true
         env:
@@ -60,7 +66,7 @@ jobs:
           git config user.email "vectora-bot@users.noreply.github.com"
           # commit BEFORE pull: a dirty tracked file (the DuckDB) makes
           # `git pull --rebase` exit 128 before even checking freshness
-          git add -f data/raw data/vectora.duckdb data/reference
+          git add -f data/raw data/vectora.duckdb data/reference vault reports
           git diff --cached --quiet || git commit -m "data: eod $(date +%F)"
           git pull --rebase --autostash
           git push
