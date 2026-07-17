@@ -15,10 +15,14 @@ def _panel():
                          low=99 + i, close=100 + i, ycp=99 + i, trades=100,
                          value_mn=10.0, volume=1000 + 10 * i,
                          sector="Bank", first_seen="2020-01-01",
+                         days_since_event=3, board_meeting_soon=0,
+                         regime_code=4,
                          ret=(100 + i) / (99 + i) - 1))
         rows.append(dict(symbol="BBB", date=d, open=50, high=50.5, low=49.5,
                          close=50.0, ycp=50.0, trades=10, value_mn=0.5,
                          volume=200, sector="Bank", first_seen="2024-01-01",
+                         days_since_event=None, board_meeting_soon=0,
+                         regime_code=4,
                          ret=0.0))
     return pl.DataFrame(rows).with_columns(
         pl.col("date").str.to_date(), pl.col("first_seen").str.to_date())
