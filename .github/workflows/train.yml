@@ -1,6 +1,9 @@
 name: train
 
 on:
+  schedule:
+    # Friday 16:00 Dhaka = 10:00 UTC; market closed, weekly retrain (spec §17.5)
+    - cron: "0 10 * * 5"
   workflow_dispatch:
     inputs:
       target:
@@ -29,7 +32,13 @@ jobs:
       - name: Train
         id: train
         continue-on-error: true
-        run: uv run python -m vectora run train --target "${{ github.event.inputs.target }}"
+        run: uv run python -m vectora run train --target "${{ github.event.inputs.target || 'g5_h10' }}"
+      - name: Train g10_h30
+        continue-on-error: true
+        run: uv run python -m vectora run train --target g10_h30
+      - name: Evaluate
+        continue-on-error: true
+        run: uv run python -m vectora run evaluate
       - name: Commit artifacts
         if: always()
         run: |
