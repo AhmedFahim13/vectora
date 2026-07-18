@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Vectora — DSE Market Intelligence</title>
+<style>
+:root {
+  --bg:#f7f8fa; --surface:#ffffff; --ink:#12151b; --ink2:#4a5568;
+  --muted:#8a94a6; --line:#e6e9ef; --accent:#2563c9; --sig:#1f9d6b;
+  --good:#1f9d6b; --warning:#c2820a; --serious:#c0563a; --critical:#c0392b;
+  --pos:#1f9d6b; --neg:#c0392b;
+}
+@media (prefers-color-scheme: dark) {
+  :root { --bg:#0e1116; --surface:#161b22; --ink:#e6edf3; --ink2:#aab4c2;
+    --muted:#7d8794; --line:#242c37; --accent:#5b9cf6; --sig:#3fb984; }
+}
+:root[data-theme="dark"] { --bg:#0e1116; --surface:#161b22; --ink:#e6edf3;
+  --ink2:#aab4c2; --muted:#7d8794; --line:#242c37; --accent:#5b9cf6;
+  --sig:#3fb984; }
+:root[data-theme="light"] { --bg:#f7f8fa; --surface:#ffffff; --ink:#12151b;
+  --ink2:#4a5568; --muted:#8a94a6; --line:#e6e9ef; --accent:#2563c9;
+  --sig:#1f9d6b; }
+* { box-sizing:border-box; }
+body { margin:0; background:var(--bg); color:var(--ink);
+  font:15px/1.5 -apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif; }
+.wrap { max-width:1000px; margin:0 auto; padding:28px 20px 60px; }
+header { display:flex; justify-content:space-between; align-items:flex-start;
+  flex-wrap:wrap; gap:12px; }
+h1 { font-size:24px; margin:0; letter-spacing:-.3px; }
+h1 .dot { color:var(--accent); }
+.tag { color:var(--ink2); font-size:13px; margin-top:3px; }
+.badge { padding:6px 12px; border-radius:999px; font-size:13px;
+  font-weight:600; border:1px solid var(--line); background:var(--surface); }
+.badge-good { color:var(--good); } .badge-warning { color:var(--warning); }
+.badge-serious { color:var(--serious); } .badge-critical { color:var(--critical); }
+.badge-muted { color:var(--ink2); }
+.paper { margin:18px 0; padding:12px 16px; border-radius:10px;
+  border:1px solid var(--warning); background:color-mix(in srgb,var(--warning) 8%,transparent);
+  color:var(--ink); font-size:13.5px; }
+.paper b { color:var(--warning); }
+.kpis { display:grid; grid-template-columns:repeat(auto-fit,minmax(160px,1fr));
+  gap:12px; margin:18px 0; }
+.kpi { background:var(--surface); border:1px solid var(--line);
+  border-radius:12px; padding:14px 16px; }
+.kpi-val { font-size:26px; font-weight:700; letter-spacing:-.5px; }
+.kpi-lbl { color:var(--ink2); font-size:13px; margin-top:2px; }
+.kpi-sub { color:var(--muted); font-size:11.5px; margin-top:4px; }
+.kpi-good .kpi-val { color:var(--good); }
+.kpi-warning .kpi-val { color:var(--warning); }
+.kpi-serious .kpi-val { color:var(--serious); }
+.kpi-critical .kpi-val { color:var(--critical); }
+section { background:var(--surface); border:1px solid var(--line);
+  border-radius:14px; padding:20px 22px; margin:16px 0; }
+h2 { font-size:17px; margin:0 0 4px; }
+h2 .small { font-size:12.5px; font-weight:400; }
+.note { color:var(--ink2); font-size:13.5px; margin:2px 0 14px; }
+.chart { width:100%; height:auto; max-width:620px; display:block; margin:8px 0 6px; }
+.bar-lbl { fill:var(--ink2); font-size:12px; font-weight:600; }
+.bar-val { fill:var(--ink2); font-size:12px; }
+.bar-sig { fill:var(--sig); } .bar-plain { fill:var(--accent); opacity:.55; }
+.thr { stroke:var(--serious); stroke-width:2; stroke-dasharray:4 3; }
+.thr-lbl { fill:var(--serious); font-size:11px; }
+.tbl { width:100%; border-collapse:collapse; font-size:13.5px; margin-top:6px; }
+.tbl th { text-align:left; color:var(--muted); font-weight:600;
+  font-size:12px; text-transform:uppercase; letter-spacing:.4px;
+  padding:6px 10px; border-bottom:1px solid var(--line); }
+.tbl td { padding:7px 10px; border-bottom:1px solid var(--line); }
+.tbl tr:last-child td { border-bottom:none; }
+.num { text-align:right; font-variant-numeric:tabular-nums; }
+.sym { font-weight:600; }
+.pos { color:var(--pos); } .neg { color:var(--neg); }
+.pill { font-size:10.5px; font-weight:700; padding:2px 7px; border-radius:999px;
+  vertical-align:middle; }
+.pill-sig { background:var(--sig); color:#fff; }
+.expl { margin-top:16px; border-top:1px solid var(--line); padding-top:14px; }
+.expl h3 { font-size:14px; margin:0 0 8px; color:var(--ink2); }
+.expl pre { white-space:pre-wrap; font:12.5px/1.55 ui-monospace,Menlo,Consolas,monospace;
+  color:var(--ink2); background:var(--bg); border:1px solid var(--line);
+  border-radius:8px; padding:12px 14px; margin:0; }
+.muted { color:var(--muted); } .small { font-size:12.5px; }
+footer { color:var(--muted); font-size:12px; margin-top:26px; line-height:1.7; }
+footer b { color:var(--ink2); }
+</style></head>
+<body>
+<div class="wrap">
+<header>
+  <div>
+    <h1>Vectora<span class="dot">.</span></h1>
+    <div class="tag">Dhaka Stock Exchange market intelligence &middot; as of 2026-07-16</div>
+  </div>
+  <div class="badge badge-muted">Regime: Sideways</div>
+</header>
+
+<div class="paper">
+  <b>PAPER — unvalidated.</b> Every prediction here is calibrated
+  probability with documented uncertainty, generated by a deterministic
+  model on public data. The live track record (hit rates, realized
+  calibration) begins <b>2026-07-30</b> once predictions mature.
+  This is a research tool, <b>not investment advice</b>.
+</div>
+
+<div class="kpis"><div class='kpi kpi-muted'><div class='kpi-val'>Sideways</div><div class='kpi-lbl'>Market regime</div></div><div class='kpi kpi-muted'><div class='kpi-val'>0</div><div class='kpi-lbl'>Signals today</div><div class='kpi-sub'>admitted through all gates</div></div><div class='kpi kpi-muted'><div class='kpi-val'>332</div><div class='kpi-lbl'>Watchlist</div><div class='kpi-sub'>664 scored predictions</div></div><div class='kpi kpi-good'><div class='kpi-val'>100/100</div><div class='kpi-lbl'>Data quality</div></div><div class='kpi kpi-muted'><div class='kpi-val'>0.203</div><div class='kpi-lbl'>Model Brier</div><div class='kpi-sub'>walk-forward, lower=better</div></div></div>
+
+<section>
+  <h2>Top-ranked setups</h2>
+  <div class="note">No setup cleared the signal bar today — a quiet, disciplined market read. Highest-ranked candidates below, shown for transparency (not signals).</div>
+  <svg viewBox='0 0 616 296' role='img' class='chart'><text x='88' y='25.0' text-anchor='end' class='bar-lbl'>TECHNODRUG</text><rect x='96' y='8' width='240.5' height='26' rx='4' class='bar-plain'/><text x='342.5' y='25.0' class='bar-val'>52%</text><text x='88' y='59.0' text-anchor='end' class='bar-lbl'>NAHEEACP</text><rect x='96' y='42' width='228.8' height='26' rx='4' class='bar-plain'/><text x='330.8' y='59.0' class='bar-val'>50%</text><text x='88' y='93.0' text-anchor='end' class='bar-lbl'>ILFSL</text><rect x='96' y='76' width='227.2' height='26' rx='4' class='bar-plain'/><text x='329.2' y='93.0' class='bar-val'>49%</text><text x='88' y='127.0' text-anchor='end' class='bar-lbl'>FARCHEM</text><rect x='96' y='110' width='218.0' height='26' rx='4' class='bar-plain'/><text x='320.0' y='127.0' class='bar-val'>47%</text><text x='88' y='161.0' text-anchor='end' class='bar-lbl'>OIMEX</text><rect x='96' y='144' width='218.0' height='26' rx='4' class='bar-plain'/><text x='320.0' y='161.0' class='bar-val'>47%</text><text x='88' y='195.0' text-anchor='end' class='bar-lbl'>MLDYEING</text><rect x='96' y='178' width='218.0' height='26' rx='4' class='bar-plain'/><text x='320.0' y='195.0' class='bar-val'>47%</text><text x='88' y='229.0' text-anchor='end' class='bar-lbl'>GHCL</text><rect x='96' y='212' width='218.0' height='26' rx='4' class='bar-plain'/><text x='320.0' y='229.0' class='bar-val'>47%</text><text x='88' y='263.0' text-anchor='end' class='bar-lbl'>SKTRIMS</text><rect x='96' y='246' width='218.0' height='26' rx='4' class='bar-plain'/><text x='320.0' y='263.0' class='bar-val'>47%</text><line x1='349.0' y1='4' x2='349.0' y2='272' class='thr'/><text x='349.0' y='288' text-anchor='middle' class='thr-lbl'>signal bar 55%</text></svg>
+  <table class='tbl'><thead><tr><th>Symbol</th><th>Prob</th><th>Exp. up</th><th>Exp. down</th><th>R/R</th><th>Exit</th><th>Cat</th></tr></thead><tbody><tr><td class='sym'>TECHNODRUG</td><td class='num'>52.3%</td><td class='num pos'>+4.2%</td><td class='num neg'>-6.1%</td><td class='num'>0.7</td><td class='num'>&ndash;</td><td>A</td></tr><tr><td class='sym'>NAHEEACP</td><td class='num'>49.7%</td><td class='num pos'>+2.7%</td><td class='num neg'>-9.5%</td><td class='num'>0.3</td><td class='num'>&ndash;</td><td>B</td></tr><tr><td class='sym'>ILFSL</td><td class='num'>49.4%</td><td class='num pos'>+0.2%</td><td class='num neg'>-16.1%</td><td class='num'>0.0</td><td class='num'>&ndash;</td><td>Z</td></tr><tr><td class='sym'>FARCHEM</td><td class='num'>47.4%</td><td class='num pos'>+3.5%</td><td class='num neg'>-6.9%</td><td class='num'>0.5</td><td class='num'>&ndash;</td><td>B</td></tr><tr><td class='sym'>OIMEX</td><td class='num'>47.4%</td><td class='num pos'>+1.6%</td><td class='num neg'>-10.1%</td><td class='num'>0.2</td><td class='num'>&ndash;</td><td>Z</td></tr><tr><td class='sym'>MLDYEING</td><td class='num'>47.4%</td><td class='num pos'>+1.5%</td><td class='num neg'>-6.1%</td><td class='num'>0.2</td><td class='num'>&ndash;</td><td>B</td></tr><tr><td class='sym'>GHCL</td><td class='num'>47.4%</td><td class='num pos'>+4.7%</td><td class='num neg'>-3.6%</td><td class='num'>1.3</td><td class='num'>&ndash;</td><td>Z</td></tr><tr><td class='sym'>SKTRIMS</td><td class='num'>47.4%</td><td class='num pos'>+3.6%</td><td class='num neg'>-6.3%</td><td class='num'>0.6</td><td class='num'>&ndash;</td><td>Z</td></tr></tbody></table>
+  <div class='expl'><h3>Why TECHNODRUG?</h3><pre>TECHNODRUG: 52% calibrated probability of the g5_h10 move.
+- ret_1d = 0.0984 supports the setup (contribution +0.326)
+- vol_63d = 0.0274 supports the setup (contribution +0.164)
+- volume_z_21d = 4.1823 supports the setup (contribution +0.140)
+- month = 7.0 supports the setup (contribution +0.094)
+- hl_position_1d = 1.0 supports the setup (contribution +0.076)
+- dist_high_63d = 0.0 supports the setup (contribution +0.073)
+Similar past setups: 8 of 20 hit the target; median outcome +4.2% / -6.1%; worst analog drawdown -16.2%.
+Warnings: thin book - exiting may take days and move the price.
+Downside scenario: median analog loss -6.1%; this prediction can fail if market regime shifts or an unannounced corporate event lands inside the horizon.</pre></div>
+</section>
+
+<section><h2>Z-watch <span class='muted small'>&mdash; unusual public activity, warnings not signals</span></h2><table class='tbl'><thead><tr><th>Symbol</th><th>Kind</th><th>Score</th><th>Phase</th></tr></thead><tbody><tr><td class='sym'>ATLASBANG</td><td>pump</td><td class='num'>100</td><td>markup</td></tr><tr><td class='sym'>DGIC</td><td>pump</td><td class='num'>100</td><td>markup</td></tr><tr><td class='sym'>FARCHEM</td><td>pump</td><td class='num'>100</td><td>quiet</td></tr><tr><td class='sym'>RENWICKJA</td><td>pump</td><td class='num'>100</td><td>markup</td></tr><tr><td class='sym'>SHARPIND</td><td>pump</td><td class='num'>100</td><td>markup</td></tr><tr><td class='sym'>SICL</td><td>pump</td><td class='num'>100</td><td>markup</td></tr><tr><td class='sym'>JUTESPINN</td><td>pre-announce footprint</td><td class='num'>3</td><td>–</td></tr><tr><td class='sym'>BSRMLTD</td><td>pre-announce footprint</td><td class='num'>3</td><td>–</td></tr><tr><td class='sym'>LHB</td><td>pre-announce footprint</td><td class='num'>3</td><td>–</td></tr><tr><td class='sym'>KOHINOOR</td><td>pre-announce footprint</td><td class='num'>3</td><td>–</td></tr><tr><td class='sym'>AMCL(PRAN)</td><td>pre-announce footprint</td><td class='num'>3</td><td>–</td></tr><tr><td class='sym'>TAMIJTEX</td><td>pre-announce footprint</td><td class='num'>3</td><td>–</td></tr></tbody></table></section>
+<section><h2>Event-impact studies <span class='muted small'>&mdash; market-adjusted return after each announcement type</span></h2><table class='tbl'><thead><tr><th>Event</th><th>Horizon</th><th>n</th><th>Mean abnormal</th><th>Share &gt;0</th></tr></thead><tbody><tr><td>board_meeting</td><td class='num'>h5</td><td class='num'>2268</td><td class='num pos'>+0.56%</td><td class='num'>52%</td></tr><tr><td>board_meeting</td><td class='num'>h10</td><td class='num'>2196</td><td class='num pos'>+0.34%</td><td class='num'>48%</td></tr><tr><td>category_change</td><td class='num'>h5</td><td class='num'>176</td><td class='num neg'>-2.49%</td><td class='num'>43%</td></tr><tr><td>category_change</td><td class='num'>h10</td><td class='num'>174</td><td class='num neg'>-2.44%</td><td class='num'>39%</td></tr><tr><td>dividend_declared</td><td class='num'>h5</td><td class='num'>1022</td><td class='num pos'>+0.44%</td><td class='num'>47%</td></tr><tr><td>dividend_declared</td><td class='num'>h10</td><td class='num'>1020</td><td class='num pos'>+1.06%</td><td class='num'>51%</td></tr><tr><td>dividend_disbursement</td><td class='num'>h5</td><td class='num'>421</td><td class='num pos'>+0.47%</td><td class='num'>54%</td></tr><tr><td>dividend_disbursement</td><td class='num'>h10</td><td class='num'>407</td><td class='num pos'>+1.62%</td><td class='num'>56%</td></tr><tr><td>earnings_release</td><td class='num'>h5</td><td class='num'>2443</td><td class='num neg'>-0.23%</td><td class='num'>42%</td></tr><tr><td>earnings_release</td><td class='num'>h10</td><td class='num'>2436</td><td class='num pos'>+0.12%</td><td class='num'>43%</td></tr></tbody></table></section>
+
+<footer>
+  <b>Methodology.</b> Calibrated LightGBM over ~330 liquid DSE equities,
+  walk-forward validated with an embargo; signals admitted only above the
+  probability bar, in a compatible regime, on non-Z names, at adequate
+  liquidity and data quality. Explanations are SHAP feature attributions
+  with historical analogs.<br>
+  <b>Lifetime.</b> 664 predictions generated, 0 resolved
+  against realized prices.<br>
+  Generated 2026-07-18 09:29. Zero-cost pipeline &middot; research use only &middot;
+  not investment advice.
+</footer>
+</div>
+</body></html>
