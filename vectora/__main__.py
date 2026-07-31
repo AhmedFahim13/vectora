@@ -31,7 +31,7 @@ def main(argv: list[str] | None = None) -> int:
     run.add_argument("stage",
                      choices=["eod", "train", "predict", "digest", "outcomes",
                               "vault", "regime", "events", "zscan", "intraday", "evaluate",
-                              "health"])
+                              "health", "dashboard"])
     run.add_argument("--date", default=None,
                      help="YYYY-MM-DD (default: gap-fill up to today)")
     run.add_argument("--target", default="g5_h10",
@@ -209,6 +209,21 @@ def main(argv: list[str] | None = None) -> int:
             send_or_save(f"[HEALTH] Vectora: {len(failing)} check(s) failing",
                          body)
             return 1
+        return 0
+    if args.command == "run" and args.stage == "dashboard":
+        from vectora import dashboard
+        from vectora import db as vdb
+        from vectora.settings import DB_PATH, REPO_ROOT
+        con = vdb.connect(DB_PATH)
+        try:
+            vdb.init_schema(con)
+            html = dashboard.build_html(con, date_str=args.date)
+        finally:
+            con.close()
+        out = REPO_ROOT / "docs" / "dashboard" / "index.html"
+        out.parent.mkdir(parents=True, exist_ok=True)
+        out.write_text(html, encoding="utf-8")
+        print(json.dumps({"bytes": len(html), "path": str(out)}, indent=1))
         return 0
     return 1
 
