@@ -141,8 +141,8 @@ def build_html(con, date_str: str | None = None) -> str:
             + _cell(rr, "{:.1f}", "num")
             + _cell(exitd, "{:.1f}d", "num")
             + f"<td>{_esc(cat or '–')}</td></tr>")
-    exit_note = ("&middot; <b>Exit</b> shows &ndash; until 21 trading days of "
-                 "turnover history accumulate (live collection started "
+    exit_note = ("(shown as &ndash; until 21 trading days of turnover "
+                 "history accumulate &mdash; live collection began "
                  "2026-07-12) ") if any(r[6] is None for r in top) else ""
     setups_table = (
         "<table class='tbl'><thead><tr><th>Symbol</th><th>Prob</th>"

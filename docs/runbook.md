@@ -43,3 +43,30 @@
   data before 2026-07); they activate as live history accumulates.
 - Manual `run eod` during market hours (10:00-14:30 Dhaka) can mark a
   live day as no-trade; the CI schedule avoids this by design.
+
+## Sharing the dashboard with a client
+
+`docs/dashboard/index.html` is regenerated and committed by the eod pipeline
+every trading day. It is one self-contained file — no external assets, no
+server, works offline. Three ways to get it in front of someone:
+
+| Path | Effort | Stays current? | Use when |
+|---|---|---|---|
+| Email/send the file | none | no (snapshot) | one-off look, or a client who wants a copy |
+| claude.ai artifact | none | no (re-publish to refresh) | quick shareable link today |
+| Cloudflare Pages | ~5 min setup | **yes, auto** | the real client-facing URL |
+
+**Cloudflare Pages (free, works with this private repo):**
+
+1. dash.cloudflare.com → Workers & Pages → Create → Pages → Connect to Git.
+2. Authorize GitHub, select `AhmedFahim13/vectora`.
+3. Build settings: framework preset **None**, build command **empty**,
+   build output directory **`docs/dashboard`**.
+4. Deploy. You get a `*.pages.dev` URL.
+
+Every bot commit to `main` (one per trading day) triggers a redeploy, so the
+client URL is never stale. To restrict it to the client only, add Cloudflare
+Access (free tier) with their email — they get a one-time code to view.
+
+GitHub Pages is NOT an option here: it requires a public repo on the free
+plan, and this repo holds scraped market data that should stay private.
