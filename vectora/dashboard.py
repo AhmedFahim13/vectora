@@ -241,6 +241,7 @@ def build_html(con, date_str: str | None = None) -> str:
         ev_html = ""
 
     return _TEMPLATE.format(
+        style=STYLE,
         date=_esc(date_str), regime=_esc(regime),
         regime_tone=_REGIME_TONE.get(regime, "muted"),
         paper_note=paper_note,
@@ -251,91 +252,95 @@ def build_html(con, date_str: str | None = None) -> str:
         life_pred=life_pred, life_res=life_res)
 
 
+STYLE = """
+:root {
+  --bg:#f7f8fa; --surface:#ffffff; --ink:#12151b; --ink2:#4a5568;
+  --muted:#8a94a6; --line:#e6e9ef; --accent:#2563c9; --sig:#1f9d6b;
+  --good:#1f9d6b; --warning:#c2820a; --serious:#c0563a; --critical:#c0392b;
+  --pos:#1f9d6b; --neg:#c0392b;
+}
+@media (prefers-color-scheme: dark) {
+  :root { --bg:#0e1116; --surface:#161b22; --ink:#e6edf3; --ink2:#aab4c2;
+    --muted:#7d8794; --line:#242c37; --accent:#5b9cf6; --sig:#3fb984; }
+}
+:root[data-theme="dark"] { --bg:#0e1116; --surface:#161b22; --ink:#e6edf3;
+  --ink2:#aab4c2; --muted:#7d8794; --line:#242c37; --accent:#5b9cf6;
+  --sig:#3fb984; }
+:root[data-theme="light"] { --bg:#f7f8fa; --surface:#ffffff; --ink:#12151b;
+  --ink2:#4a5568; --muted:#8a94a6; --line:#e6e9ef; --accent:#2563c9;
+  --sig:#1f9d6b; }
+* { box-sizing:border-box; }
+body { margin:0; background:var(--bg); color:var(--ink);
+  font:15px/1.5 -apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif; }
+.wrap { max-width:1000px; margin:0 auto; padding:28px 20px 60px; }
+header { display:flex; justify-content:space-between; align-items:flex-start;
+  flex-wrap:wrap; gap:12px; }
+h1 { font-size:24px; margin:0; letter-spacing:-.3px; }
+h1 .dot { color:var(--accent); }
+.tag { color:var(--ink2); font-size:13px; margin-top:3px; }
+.badge { padding:6px 12px; border-radius:999px; font-size:13px;
+  font-weight:600; border:1px solid var(--line); background:var(--surface); }
+.badge-good { color:var(--good); } .badge-warning { color:var(--warning); }
+.badge-serious { color:var(--serious); } .badge-critical { color:var(--critical); }
+.badge-muted { color:var(--ink2); }
+.paper { margin:18px 0; padding:12px 16px; border-radius:10px;
+  border:1px solid var(--warning); background:color-mix(in srgb,var(--warning) 8%,transparent);
+  color:var(--ink); font-size:13.5px; }
+.paper b { color:var(--warning); }
+.kpis { display:grid; grid-template-columns:repeat(auto-fit,minmax(160px,1fr));
+  gap:12px; margin:18px 0; }
+.kpi { background:var(--surface); border:1px solid var(--line);
+  border-radius:12px; padding:14px 16px; }
+.kpi-val { font-size:26px; font-weight:700; letter-spacing:-.5px; }
+.kpi-lbl { color:var(--ink2); font-size:13px; margin-top:2px; }
+.kpi-sub { color:var(--muted); font-size:11.5px; margin-top:4px; }
+.kpi-good .kpi-val { color:var(--good); }
+.kpi-warning .kpi-val { color:var(--warning); }
+.kpi-serious .kpi-val { color:var(--serious); }
+.kpi-critical .kpi-val { color:var(--critical); }
+section { background:var(--surface); border:1px solid var(--line);
+  border-radius:14px; padding:20px 22px; margin:16px 0; }
+h2 { font-size:17px; margin:0 0 4px; }
+h2 .small { font-size:12.5px; font-weight:400; }
+.note { color:var(--ink2); font-size:13.5px; margin:2px 0 14px; }
+.legend { color:var(--muted); font-size:12px; line-height:1.65;
+  margin-top:12px; padding-top:10px; border-top:1px dashed var(--line); }
+.legend b { color:var(--ink2); font-weight:600; }
+.chart { width:100%; height:auto; max-width:620px; display:block; margin:8px 0 6px; }
+.bar-lbl { fill:var(--ink2); font-size:12px; font-weight:600; }
+.bar-val { fill:var(--ink2); font-size:12px; }
+.bar-sig { fill:var(--sig); } .bar-plain { fill:var(--accent); opacity:.55; }
+.thr { stroke:var(--serious); stroke-width:2; stroke-dasharray:4 3; }
+.thr-lbl { fill:var(--serious); font-size:11px; }
+.tbl { width:100%; border-collapse:collapse; font-size:13.5px; margin-top:6px; }
+.tbl th { text-align:left; color:var(--muted); font-weight:600;
+  font-size:12px; text-transform:uppercase; letter-spacing:.4px;
+  padding:6px 10px; border-bottom:1px solid var(--line); }
+.tbl td { padding:7px 10px; border-bottom:1px solid var(--line); }
+.tbl tr:last-child td { border-bottom:none; }
+.num { text-align:right; font-variant-numeric:tabular-nums; }
+.sym { font-weight:600; }
+.pos { color:var(--pos); } .neg { color:var(--neg); }
+.pill { font-size:10.5px; font-weight:700; padding:2px 7px; border-radius:999px;
+  vertical-align:middle; }
+.pill-sig { background:var(--sig); color:#fff; }
+.expl { margin-top:16px; border-top:1px solid var(--line); padding-top:14px; }
+.expl h3 { font-size:14px; margin:0 0 8px; color:var(--ink2); }
+.expl pre { white-space:pre-wrap; font:12.5px/1.55 ui-monospace,Menlo,Consolas,monospace;
+  color:var(--ink2); background:var(--bg); border:1px solid var(--line);
+  border-radius:8px; padding:12px 14px; margin:0; }
+.muted { color:var(--muted); } .small { font-size:12.5px; }
+footer { color:var(--muted); font-size:12px; margin-top:26px; line-height:1.7; }
+footer b { color:var(--ink2); }
+.navlink { color:var(--accent); text-decoration:none; font-size:13px; }
+"""
+
 _TEMPLATE = """<!doctype html>
 <html lang="en"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Vectora — DSE Market Intelligence</title>
 <style>
-:root {{
-  --bg:#f7f8fa; --surface:#ffffff; --ink:#12151b; --ink2:#4a5568;
-  --muted:#8a94a6; --line:#e6e9ef; --accent:#2563c9; --sig:#1f9d6b;
-  --good:#1f9d6b; --warning:#c2820a; --serious:#c0563a; --critical:#c0392b;
-  --pos:#1f9d6b; --neg:#c0392b;
-}}
-@media (prefers-color-scheme: dark) {{
-  :root {{ --bg:#0e1116; --surface:#161b22; --ink:#e6edf3; --ink2:#aab4c2;
-    --muted:#7d8794; --line:#242c37; --accent:#5b9cf6; --sig:#3fb984; }}
-}}
-:root[data-theme="dark"] {{ --bg:#0e1116; --surface:#161b22; --ink:#e6edf3;
-  --ink2:#aab4c2; --muted:#7d8794; --line:#242c37; --accent:#5b9cf6;
-  --sig:#3fb984; }}
-:root[data-theme="light"] {{ --bg:#f7f8fa; --surface:#ffffff; --ink:#12151b;
-  --ink2:#4a5568; --muted:#8a94a6; --line:#e6e9ef; --accent:#2563c9;
-  --sig:#1f9d6b; }}
-* {{ box-sizing:border-box; }}
-body {{ margin:0; background:var(--bg); color:var(--ink);
-  font:15px/1.5 -apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif; }}
-.wrap {{ max-width:1000px; margin:0 auto; padding:28px 20px 60px; }}
-header {{ display:flex; justify-content:space-between; align-items:flex-start;
-  flex-wrap:wrap; gap:12px; }}
-h1 {{ font-size:24px; margin:0; letter-spacing:-.3px; }}
-h1 .dot {{ color:var(--accent); }}
-.tag {{ color:var(--ink2); font-size:13px; margin-top:3px; }}
-.badge {{ padding:6px 12px; border-radius:999px; font-size:13px;
-  font-weight:600; border:1px solid var(--line); background:var(--surface); }}
-.badge-good {{ color:var(--good); }} .badge-warning {{ color:var(--warning); }}
-.badge-serious {{ color:var(--serious); }} .badge-critical {{ color:var(--critical); }}
-.badge-muted {{ color:var(--ink2); }}
-.paper {{ margin:18px 0; padding:12px 16px; border-radius:10px;
-  border:1px solid var(--warning); background:color-mix(in srgb,var(--warning) 8%,transparent);
-  color:var(--ink); font-size:13.5px; }}
-.paper b {{ color:var(--warning); }}
-.kpis {{ display:grid; grid-template-columns:repeat(auto-fit,minmax(160px,1fr));
-  gap:12px; margin:18px 0; }}
-.kpi {{ background:var(--surface); border:1px solid var(--line);
-  border-radius:12px; padding:14px 16px; }}
-.kpi-val {{ font-size:26px; font-weight:700; letter-spacing:-.5px; }}
-.kpi-lbl {{ color:var(--ink2); font-size:13px; margin-top:2px; }}
-.kpi-sub {{ color:var(--muted); font-size:11.5px; margin-top:4px; }}
-.kpi-good .kpi-val {{ color:var(--good); }}
-.kpi-warning .kpi-val {{ color:var(--warning); }}
-.kpi-serious .kpi-val {{ color:var(--serious); }}
-.kpi-critical .kpi-val {{ color:var(--critical); }}
-section {{ background:var(--surface); border:1px solid var(--line);
-  border-radius:14px; padding:20px 22px; margin:16px 0; }}
-h2 {{ font-size:17px; margin:0 0 4px; }}
-h2 .small {{ font-size:12.5px; font-weight:400; }}
-.note {{ color:var(--ink2); font-size:13.5px; margin:2px 0 14px; }}
-.legend {{ color:var(--muted); font-size:12px; line-height:1.65;
-  margin-top:12px; padding-top:10px; border-top:1px dashed var(--line); }}
-.legend b {{ color:var(--ink2); font-weight:600; }}
-.chart {{ width:100%; height:auto; max-width:620px; display:block; margin:8px 0 6px; }}
-.bar-lbl {{ fill:var(--ink2); font-size:12px; font-weight:600; }}
-.bar-val {{ fill:var(--ink2); font-size:12px; }}
-.bar-sig {{ fill:var(--sig); }} .bar-plain {{ fill:var(--accent); opacity:.55; }}
-.thr {{ stroke:var(--serious); stroke-width:2; stroke-dasharray:4 3; }}
-.thr-lbl {{ fill:var(--serious); font-size:11px; }}
-.tbl {{ width:100%; border-collapse:collapse; font-size:13.5px; margin-top:6px; }}
-.tbl th {{ text-align:left; color:var(--muted); font-weight:600;
-  font-size:12px; text-transform:uppercase; letter-spacing:.4px;
-  padding:6px 10px; border-bottom:1px solid var(--line); }}
-.tbl td {{ padding:7px 10px; border-bottom:1px solid var(--line); }}
-.tbl tr:last-child td {{ border-bottom:none; }}
-.num {{ text-align:right; font-variant-numeric:tabular-nums; }}
-.sym {{ font-weight:600; }}
-.pos {{ color:var(--pos); }} .neg {{ color:var(--neg); }}
-.pill {{ font-size:10.5px; font-weight:700; padding:2px 7px; border-radius:999px;
-  vertical-align:middle; }}
-.pill-sig {{ background:var(--sig); color:#fff; }}
-.expl {{ margin-top:16px; border-top:1px solid var(--line); padding-top:14px; }}
-.expl h3 {{ font-size:14px; margin:0 0 8px; color:var(--ink2); }}
-.expl pre {{ white-space:pre-wrap; font:12.5px/1.55 ui-monospace,Menlo,Consolas,monospace;
-  color:var(--ink2); background:var(--bg); border:1px solid var(--line);
-  border-radius:8px; padding:12px 14px; margin:0; }}
-.muted {{ color:var(--muted); }} .small {{ font-size:12.5px; }}
-footer {{ color:var(--muted); font-size:12px; margin-top:26px; line-height:1.7; }}
-footer b {{ color:var(--ink2); }}
-</style></head>
+{style}</style></head>
 <body>
 <div class="wrap">
 <header>
@@ -343,7 +348,11 @@ footer b {{ color:var(--ink2); }}
     <h1>Vectora<span class="dot">.</span></h1>
     <div class="tag">Dhaka Stock Exchange market intelligence &middot; as of {date}</div>
   </div>
-  <div class="badge badge-{regime_tone}">Regime: {regime}</div>
+  <div style="text-align:right">
+    <div class="badge badge-{regime_tone}">Regime: {regime}</div>
+    <div style="margin-top:8px"><a class="navlink"
+       href="screener.html">Technical screener &rarr;</a></div>
+  </div>
 </header>
 
 <div class="paper">

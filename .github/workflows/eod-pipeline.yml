@@ -63,6 +63,9 @@ jobs:
       - name: Vault
         continue-on-error: true
         run: uv run python -m vectora run vault
+      - name: Technical ratings
+        continue-on-error: true
+        run: uv run python -m vectora run ta
       - name: Dashboard
         continue-on-error: true
         run: uv run python -m vectora run dashboard
