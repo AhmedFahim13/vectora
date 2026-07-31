@@ -141,10 +141,21 @@ def build_html(con, date_str: str | None = None) -> str:
             + _cell(rr, "{:.1f}", "num")
             + _cell(exitd, "{:.1f}d", "num")
             + f"<td>{_esc(cat or '–')}</td></tr>")
+    exit_note = ("&middot; <b>Exit</b> shows &ndash; until 21 trading days of "
+                 "turnover history accumulate (live collection started "
+                 "2026-07-12) ") if any(r[6] is None for r in top) else ""
     setups_table = (
         "<table class='tbl'><thead><tr><th>Symbol</th><th>Prob</th>"
         "<th>Exp. up</th><th>Exp. down</th><th>R/R</th><th>Exit</th>"
-        "<th>Cat</th></tr></thead><tbody>" + "".join(rows_html) + "</tbody></table>")
+        "<th>Cat</th></tr></thead><tbody>" + "".join(rows_html)
+        + "</tbody></table>"
+        "<div class='legend'><b>Prob</b> = calibrated probability of a +5% "
+        "move within 10 trading days &middot; <b>Exp. up/down</b> = median "
+        "gain/loss of the 20 most similar historical setups &middot; "
+        "<b>R/R</b> = reward-to-risk &middot; <b>Exit</b> = days to unwind a "
+        "position without moving the price " + exit_note
+        + "&middot; <b>Cat</b> = DSE category (Z names are scored but never "
+        "signalled).</div>")
 
     # top explanation
     expl = next((r[8] for r in top if r[8]), None)
@@ -200,7 +211,14 @@ def build_html(con, date_str: str | None = None) -> str:
             "market-adjusted return after each announcement type</span></h2>"
             "<table class='tbl'><thead><tr><th>Event</th><th>Horizon</th>"
             "<th>n</th><th>Mean abnormal</th><th>Share &gt;0</th></tr></thead>"
-            "<tbody>" + erows + "</tbody></table>")
+            "<tbody>" + erows + "</tbody></table>"
+            "<div class='legend'><b>h</b> = trading days measured after the "
+            "announcement &middot; <b>n</b> = how many past announcements of "
+            "that type went into the number (bigger = more trustworthy) "
+            "&middot; <b>mean abnormal</b> = the stock's return minus the "
+            "market's over the same window &middot; <b>share &gt;0</b> = how "
+            "often the outcome was positive at all. A high mean with a low "
+            "share means a few large winners carry the average.</div>")
     else:
         ev_html = ""
 
@@ -270,6 +288,9 @@ section {{ background:var(--surface); border:1px solid var(--line);
 h2 {{ font-size:17px; margin:0 0 4px; }}
 h2 .small {{ font-size:12.5px; font-weight:400; }}
 .note {{ color:var(--ink2); font-size:13.5px; margin:2px 0 14px; }}
+.legend {{ color:var(--muted); font-size:12px; line-height:1.65;
+  margin-top:12px; padding-top:10px; border-top:1px dashed var(--line); }}
+.legend b {{ color:var(--ink2); font-weight:600; }}
 .chart {{ width:100%; height:auto; max-width:620px; display:block; margin:8px 0 6px; }}
 .bar-lbl {{ fill:var(--ink2); font-size:12px; font-weight:600; }}
 .bar-val {{ fill:var(--ink2); font-size:12px; }}
