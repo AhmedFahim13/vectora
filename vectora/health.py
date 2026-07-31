@@ -44,6 +44,14 @@ def check(con, today: dt.date | None = None,
     else:
         checks.append({"name": "tables", "ok": True, "detail": "core ok"})
 
+    # predictions must keep pace with prices: the predict stage failing is
+    # invisible to a freshness check on prices alone (real outage 2026-07-19)
+    pred_max = con.execute("SELECT max(date) FROM predictions").fetchone()[0]
+    checks.append({
+        "name": "predictions",
+        "ok": pred_max is not None and str(pred_max) >= str(expected),
+        "detail": f"latest prediction {pred_max}, expected {expected}"})
+
     from vectora import db as vdb
     wm = vdb.get_watermark(con, "collect", "eod")
     checks.append({

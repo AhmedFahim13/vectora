@@ -112,6 +112,10 @@ def run(con, target: str = "g5_h10",
             registry_dir = str(art.relative_to(Path.cwd()))
         except ValueError:
             registry_dir = str(art)
+        # POSIX separators always: a Windows-trained "models\x" path is
+        # relative but unresolvable on the Linux CI runner, which silently
+        # killed the predict stage for five days (2026-07-19..23)
+        registry_dir = registry_dir.replace("\\", "/")
         if fam == "lgbm":
             last_models["lgbm"].booster_.save_model(str(art / "lgbm.txt"))
             deploy_cal = fit_deploy_calibrator(

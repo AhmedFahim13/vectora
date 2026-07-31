@@ -67,3 +67,13 @@ def test_canaries_with_fake_session(test_db):
     bad = health.check(test_db, today=dt.date(2026, 7, 18), holidays=set(),
                        session=BrokenSession())
     assert bad["ok"] is False
+
+
+def test_stale_predictions_fail_even_when_prices_fresh(test_db):
+    """The 2026-07-19 outage: prices kept flowing while predict was dead."""
+    _seed_fresh(test_db)
+    test_db.execute("DELETE FROM predictions")
+    result = health.check(test_db, today=dt.date(2026, 7, 18), holidays=set())
+    assert result["ok"] is False
+    assert next(c for c in result["checks"]
+                if c["name"] == "predictions")["ok"] is False

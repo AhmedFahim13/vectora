@@ -158,10 +158,29 @@ def build(con, date_str: str | None = None,
         top = all_rows[:board_n]
         bottom = ranked(con, date_str, limit=board_n, ascending=True)
         sections.append(
-            "<section><h2>Whole board</h2>"
-            f"<div class='grp'><h3>Strongest {board_n}</h3>" + _table(top) + "</div>"
-            f"<div class='grp'><h3>Weakest {board_n}</h3>" + _table(bottom) + "</div>"
-            "</section>")
+            "<section><h2>Quick scan</h2>"
+            f"<div class='grp'><h3>Strongest {board_n}</h3>" + _table(top)
+            + "</div>"
+            f"<div class='grp'><h3>Weakest {board_n}</h3>" + _table(bottom)
+            + "</div></section>")
+
+        # every rated symbol on the exchange, grouped by sector
+        by_sector: dict = {}
+        for r in all_rows:
+            by_sector.setdefault(r.get("sector") or "Unclassified", []).append(r)
+        blocks = []
+        for sector in sorted(by_sector):
+            rows = sorted(by_sector[sector], key=lambda x: -x["score"])
+            blocks.append(f"<div class='grp'><h3>{_esc(sector)} "
+                          f"<span class='muted'>({len(rows)})</span></h3>"
+                          + _table(rows) + "</div>")
+        sections.append(
+            f"<section><h2>Every listed security &mdash; {len(all_rows)} "
+            "rated today</h2><div class='note'>Complete coverage of the "
+            "exchange, grouped by sector and ranked by technical score within "
+            "each. Every row opens its own rationale.</div>"
+            + "".join(blocks) + "</section>")
+
         body = "".join(sections)
 
     page = _TEMPLATE.format(

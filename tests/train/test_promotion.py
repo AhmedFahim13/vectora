@@ -53,3 +53,13 @@ def test_pooled_calibrator_is_monotone():
     grid = cal.predict(np.linspace(0, 1, 50))
     assert (np.diff(grid) >= -1e-9).all()
     assert 0 <= grid.min() and grid.max() <= 1
+
+
+def test_artifact_dir_uses_posix_separators(tmp_path, monkeypatch):
+    """Windows backslashes in artifact_dir broke the Linux CI runner."""
+    import re
+    src = (__import__("pathlib").Path("vectora/train/trainer.py")
+           .read_text(encoding="utf-8"))
+    assert 'registry_dir.replace("\\\\", "/")' in src or \
+        re.search(r'registry_dir\s*=\s*registry_dir\.replace', src), \
+        "trainer must normalise artifact_dir separators to POSIX"
