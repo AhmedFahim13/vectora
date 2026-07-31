@@ -123,6 +123,18 @@ CREATE TABLE IF NOT EXISTS outcome_tags (
     prediction_id TEXT PRIMARY KEY, tag TEXT,
     tagged_at TIMESTAMP DEFAULT current_timestamp
 );
+CREATE TABLE IF NOT EXISTS ta_ratings (
+    date DATE, symbol TEXT, score INTEGER, band TEXT,
+    votes TEXT,                     -- JSON list of {indicator, vote, reason}
+    rsi DOUBLE, macd_hist DOUBLE, bb_pos DOUBLE, st_dir INTEGER,
+    PRIMARY KEY (date, symbol)
+);
+CREATE TABLE IF NOT EXISTS ta_band_stats (
+    band TEXT, horizon INTEGER, n INTEGER,
+    hit_rate DOUBLE, base_rate DOUBLE, mean_fwd DOUBLE,
+    computed_at TIMESTAMP DEFAULT current_timestamp,
+    PRIMARY KEY (band, horizon)
+);
 """
 
 
