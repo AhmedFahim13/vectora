@@ -31,7 +31,7 @@ def main(argv: list[str] | None = None) -> int:
     run.add_argument("stage",
                      choices=["eod", "train", "predict", "digest", "outcomes",
                               "vault", "regime", "events", "zscan", "intraday", "evaluate",
-                              "health", "dashboard"])
+                              "health", "dashboard", "ta"])
     run.add_argument("--date", default=None,
                      help="YYYY-MM-DD (default: gap-fill up to today)")
     run.add_argument("--target", default="g5_h10",
@@ -224,6 +224,21 @@ def main(argv: list[str] | None = None) -> int:
         out.parent.mkdir(parents=True, exist_ok=True)
         out.write_text(html, encoding="utf-8")
         print(json.dumps({"bytes": len(html), "path": str(out)}, indent=1))
+        return 0
+
+    if args.command == "run" and args.stage == "ta":
+        from vectora import db as vdb
+        from vectora.settings import DB_PATH
+        from vectora.ta import page, screener, validate
+        con = vdb.connect(DB_PATH)
+        try:
+            vdb.init_schema(con)
+            result = screener.run(con, date_str=args.date)
+            result["validation"] = validate.run(con)
+            result["page"] = str(page.build(con, result.get("date")))
+        finally:
+            con.close()
+        print(json.dumps(result, indent=1, default=str))
         return 0
     return 1
 

@@ -37,7 +37,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -177,5 +179,8 @@
     }
   },
   "active": "5828099ac9d88163",
-  "lastOpenFiles": []
+  "lastOpenFiles": [
+    "Journal/2026-07-28.md",
+    "Companies/ONEBANKPLC.md"
+  ]
 }
