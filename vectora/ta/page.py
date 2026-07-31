@@ -120,7 +120,7 @@ def _evidence(con, horizon: int = 10) -> str:
 
 
 def build(con, date_str: str | None = None,
-          out_path: Path = DEFAULT_OUT) -> Path:
+          out_path: Path = DEFAULT_OUT, board_n: int = 20) -> Path:
     date_str = date_str or str(con.execute(
         "SELECT max(date) FROM ta_ratings").fetchone()[0])
     groups = load_watchlist()
@@ -155,12 +155,12 @@ def build(con, date_str: str | None = None,
             "exactly which indicators voted and in which direction.</div>"
             + "".join(wl) + "</section>")
 
-        top = all_rows[:20]
-        bottom = ranked(con, date_str, limit=20, ascending=True)
+        top = all_rows[:board_n]
+        bottom = ranked(con, date_str, limit=board_n, ascending=True)
         sections.append(
             "<section><h2>Whole board</h2>"
-            "<div class='grp'><h3>Strongest 20</h3>" + _table(top) + "</div>"
-            "<div class='grp'><h3>Weakest 20</h3>" + _table(bottom) + "</div>"
+            f"<div class='grp'><h3>Strongest {board_n}</h3>" + _table(top) + "</div>"
+            f"<div class='grp'><h3>Weakest {board_n}</h3>" + _table(bottom) + "</div>"
             "</section>")
         body = "".join(sections)
 

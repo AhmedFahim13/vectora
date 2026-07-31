@@ -70,3 +70,35 @@ Access (free tier) with their email — they get a one-time code to view.
 
 GitHub Pages is NOT an option here: it requires a public repo on the free
 plan, and this repo holds scraped market data that should stay private.
+
+## Vercel deployment (live client site)
+
+Project **vectora** → https://vectora-amber.vercel.app (public; SSO disabled
+2026-07-31 so clients can open it without a Vercel account).
+
+### Connect the repo for daily auto-deploys (one-time, ~1 minute)
+
+1. vercel.com → project **vectora** → **Settings → Git**.
+2. **Connect Git Repository** → GitHub → `AhmedFahim13/vectora`
+   (authorize Vercel for the private repo if prompted).
+3. **Settings → Build & Deployment**:
+   - Framework preset: **Other**
+   - Build command: *(leave empty)*
+   - Output directory: **`docs/dashboard`**
+   - Install command: *(leave empty)*
+4. Save. Vercel now redeploys on every push to `main`.
+
+Why this is the right cadence: the eod pipeline commits once per trading day
+after the market closes, so the site refreshes exactly once per day, on a
+real data change — event-driven, no polling, no scheduled rebuilds burning
+minutes. Intraday scans do not touch `docs/dashboard`, so they do not
+trigger deploys.
+
+### Locking it down later
+
+Free plan has no password protection. Options when the demo is over:
+- Re-enable **Settings → Deployment Protection → Vercel Authentication**
+  (only your Vercel account can view).
+- Vercel **Pro**: password-protect the production URL.
+- Custom domain behind **Cloudflare Access** (free): email-code login for
+  named client addresses.
