@@ -135,6 +135,27 @@ CREATE TABLE IF NOT EXISTS ta_band_stats (
     computed_at TIMESTAMP DEFAULT current_timestamp,
     PRIMARY KEY (band, horizon)
 );
+CREATE TABLE IF NOT EXISTS ta_gauges (
+    date DATE, symbol TEXT,
+    ma_mean DOUBLE, ma_band TEXT, ma_buy INTEGER, ma_neutral INTEGER, ma_sell INTEGER,
+    osc_mean DOUBLE, osc_band TEXT, osc_buy INTEGER, osc_neutral INTEGER, osc_sell INTEGER,
+    summary_mean DOUBLE, summary_band TEXT,
+    votes TEXT,                     -- JSON {ma: [...], osc: [...]}
+    PRIMARY KEY (date, symbol)
+);
+CREATE TABLE IF NOT EXISTS ta_gauge_stats (
+    gauge TEXT, band TEXT, horizon INTEGER, n INTEGER,
+    hit_rate DOUBLE, base_rate DOUBLE, mean_fwd DOUBLE,
+    computed_at TIMESTAMP DEFAULT current_timestamp,
+    PRIMARY KEY (gauge, band, horizon)
+);
+CREATE TABLE IF NOT EXISTS fundamentals (
+    symbol TEXT, as_of DATE,
+    market_cap_mn DOUBLE, free_float_mcap_mn DOUBLE, reserve_surplus_mn DOUBLE,
+    trailing_pe DOUBLE, latest_dividend_pct DOUBLE, dividend_year INTEGER,
+    face_value DOUBLE, listing_year INTEGER, year_end TEXT,
+    PRIMARY KEY (symbol, as_of)
+);
 """
 
 

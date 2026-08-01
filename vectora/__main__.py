@@ -235,6 +235,14 @@ def main(argv: list[str] | None = None) -> int:
             vdb.init_schema(con)
             result = screener.run(con, date_str=args.date)
             result["validation"] = validate.run(con)
+            # the 26-component replay costs another full pass over 1M+ rows and
+            # its band statistics move by fractions of a pp per day — refresh
+            # weekly instead of daily, and whenever it is missing entirely
+            stale = con.execute(
+                "SELECT count(*) = 0 OR max(computed_at) < now() - INTERVAL 7 DAY "
+                "FROM ta_gauge_stats").fetchone()[0]
+            result["gauge_validation"] = (
+                validate.run_gauges(con) if stale else "fresh, skipped")
             result["page"] = str(page.build(con, result.get("date")))
         finally:
             con.close()

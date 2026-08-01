@@ -61,6 +61,9 @@ def sweep_companies(con, session, symbols: list[str], as_of: str,
             dated_blocks = [h for h in parsed["holdings"] if h["as_of"]]
             if dated_blocks:
                 vdb.upsert(con, "holdings", dated_blocks)
+            # fundamentals ride along on the same page fetch (no extra request)
+            fund = dse_company.parse_fundamentals(html, sym)
+            vdb.upsert(con, "fundamentals", [{**fund, "as_of": as_of}])
             con.execute(
                 "UPDATE symbols SET sector = ?, category = ?, instrument_type = ? "
                 "WHERE symbol = ?",

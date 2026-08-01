@@ -17,7 +17,7 @@ import polars as pl
 from vectora import db as vdb
 from vectora import labels as lab
 from vectora.features import base
-from vectora.ta import indicators, rating
+from vectora.ta import gauges, indicators, rating
 
 BANDS = ("Strong Sell", "Sell", "Hold", "Buy", "Strong Buy")
 
@@ -68,3 +68,49 @@ def run(con, horizons=(5, 10), threshold: float = 0.05) -> dict:
     if rows:
         vdb.upsert(con, "ta_band_stats", rows)
     return {"rows_scored": rated.height, "bands": len(rows)}
+
+
+def run_gauges(con, horizons=(5, 10), threshold: float = 0.05) -> dict:
+    """Same measurement for the 26-component TradingView gauges.
+
+    The point is the comparison: three gauges are stored separately so we can
+    see whether the moving-average group, the oscillator group, or their
+    summary carries the edge — and whether any of them beats the six-family
+    score already in ta_band_stats. More indicators is a hypothesis, not an
+    improvement, until this says otherwise.
+    """
+    panel = base.load_panel(con).select(
+        ["symbol", "date", "open", "high", "low", "close", "volume"])
+    ind = indicators.add_tradingview_set(indicators.add_all(panel))
+    ind = ind.filter(pl.col("ma_slow").is_not_null())
+    voted = gauges.vote_frame(ind).select(
+        ["symbol", "date", "ma_band", "osc_band", "summary_band"])
+
+    labeled = lab.make_labels(panel, thresholds=(threshold,),
+                              horizons=tuple(horizons), continuous=True)
+    pct = round(threshold * 100)
+    rows = []
+    for h in horizons:
+        col = f"y_g{pct}_h{h}"
+        joined = (voted.join(labeled.select(["symbol", "date", col]),
+                             on=["symbol", "date"], how="inner")
+                  .filter(pl.col(col).is_not_null()))
+        if joined.height == 0:
+            continue
+        base_rate = float(joined[col].mean())
+        for gauge_name, band_col in (("moving_averages", "ma_band"),
+                                     ("oscillators", "osc_band"),
+                                     ("summary", "summary_band")):
+            for band in BANDS:
+                sub = joined.filter(pl.col(band_col) == band)
+                if sub.height == 0:
+                    continue
+                rows.append({
+                    "gauge": gauge_name, "band": band, "horizon": h,
+                    "n": int(sub.height), "hit_rate": float(sub[col].mean()),
+                    "base_rate": base_rate,
+                    "mean_fwd": float(sub[col].mean()) - base_rate,
+                })
+    if rows:
+        vdb.upsert(con, "ta_gauge_stats", rows)
+    return {"rows_scored": voted.height, "gauge_bands": len(rows)}

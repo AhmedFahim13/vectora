@@ -130,3 +130,71 @@ def parse_company(html: str, symbol: str) -> dict:
         "facts": _extract_facts(soup, symbol),
         "holdings": _extract_holdings(soup, symbol),
     }
+
+# --- fundamentals (Phase 6C) -------------------------------------------------
+# All of these live on the same company page the sweep already fetches, so
+# they cost no extra requests. DSE quotes dividends as a percentage of the
+# FACE value (usually 10 taka), never of the market price — the derived
+# yield below applies that convention rather than the naive pct/100.
+_FUND_LABELS = {
+    "Market Capitalization (mn)": ("market_cap_mn", "num"),
+    "Free Float Market Cap. (mn)": ("free_float_mcap_mn", "num"),
+    "Reserve & Surplus without OCI (mn)": ("reserve_surplus_mn", "num"),
+    "Trailing P/E Ratio": ("trailing_pe", "num"),
+    "Listing Year": ("listing_year", "int"),
+    "Year End": ("year_end", "str"),
+    "Latest Dividend Status (%)": ("_dividend_raw", "str"),
+}
+_FUND_KEYS = ("market_cap_mn", "free_float_mcap_mn", "reserve_surplus_mn",
+              "trailing_pe", "listing_year", "year_end",
+              "latest_dividend_pct", "dividend_year", "face_value")
+_DIV_RE = re.compile(r"([\d.]+)\s*(?:%)?\s*(?:for\s*(\d{4}))?")
+
+
+def parse_fundamentals(html: str, symbol: str) -> dict:
+    """Headline fundamentals from the company page; missing fields stay None."""
+    soup = BeautifulSoup(html, "lxml")
+    out: dict = {k: None for k in _FUND_KEYS}
+    out["symbol"] = symbol
+    seen: set = set()
+    for cell in soup.find_all(["th", "td"]):
+        label = cell.get_text(strip=True)
+        spec = _FUND_LABELS.get(label)
+        if spec is None or label in seen:
+            continue
+        seen.add(label)
+        key, kind = spec
+        value_cell = cell.find_next_sibling("td")
+        if value_cell is None:
+            continue
+        raw = value_cell.get_text(" ", strip=True)
+        if kind == "num":
+            out[key] = _num(raw)
+        elif kind == "int":
+            v = _num(raw)
+            out[key] = int(v) if v is not None else None
+        else:
+            out[key] = raw or None
+    # face value feeds the dividend conversion; reuse the facts parser
+    facts = _extract_facts(soup, symbol)
+    out["face_value"] = facts.get("face_value")
+    raw_div = out.pop("_dividend_raw", None)
+    if raw_div:
+        m = _DIV_RE.search(raw_div)
+        if m:
+            out["latest_dividend_pct"] = _num(m.group(1))
+            out["dividend_year"] = int(m.group(2)) if m.group(2) else None
+    return out
+
+
+def derive_metrics(fund: dict, close: float | None) -> dict:
+    """Metrics that need the live price: dividend per share, yield, EPS."""
+    face = fund.get("face_value") or 10.0
+    pct = fund.get("latest_dividend_pct")
+    dps = (pct / 100.0) * face if pct is not None else None
+    pe = fund.get("trailing_pe")
+    return {
+        "dividend_per_share": dps,
+        "dividend_yield": (dps / close) if (dps and close) else None,
+        "eps_trailing": (close / pe) if (close and pe) else None,
+    }

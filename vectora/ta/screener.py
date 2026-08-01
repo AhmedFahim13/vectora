@@ -13,7 +13,7 @@ import yaml
 
 from vectora import db as vdb
 from vectora.features import base
-from vectora.ta import indicators, rating
+from vectora.ta import gauges, indicators, rating
 
 WATCHLIST_PATH = (Path(__file__).resolve().parent.parent / "config"
                   / "watchlist.yaml")
@@ -25,12 +25,17 @@ def load_watchlist(path: Path = WATCHLIST_PATH) -> dict:
 
 def run(con, date_str: str | None = None) -> dict:
     panel = base.load_panel(con).select(
-        ["symbol", "date", "open", "high", "low", "close"])
-    ind = indicators.add_all(panel).filter(pl.col("ma_slow").is_not_null())
+        ["symbol", "date", "open", "high", "low", "close", "volume"])
+    ind = indicators.add_tradingview_set(indicators.add_all(panel))
+    ind = ind.filter(pl.col("ma_slow").is_not_null())
     run_date = date_str or str(ind["date"].max())
+    # the gauge rules need yesterday's oscillator readings, so shift BEFORE
+    # slicing to the run date rather than after (a one-row slice has no prior)
+    ind = gauges.add_prev(ind)
     today = ind.filter(pl.col("date") == pl.lit(run_date).str.to_date())
     if today.height == 0:
         return {"date": run_date, "rated": 0}
+    _store_gauges(con, today, run_date)
     rated = rating.rate_frame(today)
     rated = rated.with_columns(
         ((pl.col("ta_score").rank("average") / pl.len() * 10)
@@ -47,6 +52,45 @@ def run(con, date_str: str | None = None) -> dict:
         bands[r["band"]] = bands.get(r["band"], 0) + 1
     return {"date": run_date, "rated": len(rows), "bands": bands,
             "watchlist_groups": len(load_watchlist())}
+
+
+def _store_gauges(con, today: pl.DataFrame, run_date: str) -> int:
+    """Persist the 26-component TradingView gauges alongside the 6-family score."""
+    rows = []
+    for r in today.iter_rows(named=True):
+        g = gauges.rate_row(r)
+        rows.append({
+            "date": run_date, "symbol": r["symbol"],
+            "ma_mean": g["ma"]["mean"], "ma_band": g["ma"]["band"],
+            "ma_buy": g["ma"]["buy"], "ma_neutral": g["ma"]["neutral"],
+            "ma_sell": g["ma"]["sell"],
+            "osc_mean": g["osc"]["mean"], "osc_band": g["osc"]["band"],
+            "osc_buy": g["osc"]["buy"], "osc_neutral": g["osc"]["neutral"],
+            "osc_sell": g["osc"]["sell"],
+            "summary_mean": g["summary_mean"], "summary_band": g["summary_band"],
+            "votes": json.dumps({"ma": g["ma_votes"], "osc": g["osc_votes"]}),
+        })
+    return vdb.upsert(con, "ta_gauges", rows)
+
+
+def gauges_for(con, date_str: str, symbols: list[str] | None = None) -> dict:
+    """{symbol: gauge dict} for one date — used by the screener page."""
+    q = ("SELECT symbol, ma_mean, ma_band, ma_buy, ma_neutral, ma_sell, "
+         "osc_mean, osc_band, osc_buy, osc_neutral, osc_sell, "
+         "summary_mean, summary_band, votes FROM ta_gauges WHERE date = ?")
+    params: list = [date_str]
+    if symbols:
+        q += " AND symbol IN (" + ",".join("?" * len(symbols)) + ")"
+        params += symbols
+    cols = ("ma_mean", "ma_band", "ma_buy", "ma_neutral", "ma_sell",
+            "osc_mean", "osc_band", "osc_buy", "osc_neutral", "osc_sell",
+            "summary_mean", "summary_band")
+    out = {}
+    for row in con.execute(q, params).fetchall():
+        d = dict(zip(cols, row[1:-1], strict=True))
+        d["votes"] = json.loads(row[-1])
+        out[row[0]] = d
+    return out
 
 
 def ranked(con, date_str: str, symbols: list[str] | None = None,
