@@ -34,6 +34,37 @@ def test_derived_metrics_use_dse_conventions(fixtures_dir):
     assert abs(d["eps_trailing"] - 256.70 / 11.68) < 0.01
 
 
+def test_bonus_shares_are_not_counted_as_cash_dividend():
+    """'5%B for 2024' is a stock dividend. Treating it as cash would invent a
+    yield for a company that paid its holders no money at all."""
+    got = dc.parse_dividend_status("5%B for 2024")
+    assert got["latest_dividend_pct"] is None
+    assert got["latest_bonus_pct"] == 5.0
+    assert got["dividend_year"] == 2024
+    assert dc.derive_metrics(got, close=100.0)["dividend_yield"] is None
+
+
+def test_mixed_cash_and_bonus_dividend_splits_correctly():
+    got = dc.parse_dividend_status("175.00, 10%B for 2025")
+    assert got["latest_dividend_pct"] == 175.0
+    assert got["latest_bonus_pct"] == 10.0
+    assert got["dividend_year"] == 2025
+
+
+def test_plain_cash_dividend():
+    got = dc.parse_dividend_status("25.00 for 2025")
+    assert got["latest_dividend_pct"] == 25.0
+    assert got["latest_bonus_pct"] is None
+    assert got["dividend_year"] == 2025
+
+
+def test_no_dividend_declared():
+    for text in ("", "-", "n/a", "No Dividend"):
+        got = dc.parse_dividend_status(text)
+        assert got["latest_dividend_pct"] is None, text
+        assert got["latest_bonus_pct"] is None, text
+
+
 def test_missing_fields_are_none_not_crash():
     f = dc.parse_fundamentals("<html><body>nothing</body></html>", "XYZ")
     assert f["symbol"] == "XYZ"

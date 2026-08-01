@@ -147,8 +147,37 @@ _FUND_LABELS = {
 }
 _FUND_KEYS = ("market_cap_mn", "free_float_mcap_mn", "reserve_surplus_mn",
               "trailing_pe", "listing_year", "year_end",
-              "latest_dividend_pct", "dividend_year", "face_value")
-_DIV_RE = re.compile(r"([\d.]+)\s*(?:%)?\s*(?:for\s*(\d{4}))?")
+              "latest_dividend_pct", "latest_bonus_pct", "dividend_year",
+              "face_value")
+# "215.00 for 2025" | "5%B for 2024" | "175.00, 10%B for 2025" | "n/a"
+# A trailing B marks a BONUS (stock) dividend. It must never be folded into
+# the cash figure: bonus shares pay the holder nothing, and a yield computed
+# from them would be fabricated income.
+_DIV_YEAR_RE = re.compile(r"for\s*(\d{4})")
+_DIV_PART_RE = re.compile(r"([\d.]+)\s*%?\s*(B)?", re.IGNORECASE)
+
+
+def parse_dividend_status(text: str | None) -> dict:
+    """Split DSE's 'Latest Dividend Status (%)' into cash, bonus and year."""
+    out = {"latest_dividend_pct": None, "latest_bonus_pct": None,
+           "dividend_year": None}
+    if not text:
+        return out
+    head = text.split("for")[0]
+    for part in head.split(","):
+        m = _DIV_PART_RE.search(part)
+        if not m:
+            continue
+        value = _num(m.group(1))
+        if value is None:
+            continue
+        key = "latest_bonus_pct" if m.group(2) else "latest_dividend_pct"
+        if out[key] is None:
+            out[key] = value
+    year = _DIV_YEAR_RE.search(text)
+    if year:
+        out["dividend_year"] = int(year.group(1))
+    return out
 
 
 def parse_fundamentals(html: str, symbol: str) -> dict:
@@ -178,17 +207,16 @@ def parse_fundamentals(html: str, symbol: str) -> dict:
     # face value feeds the dividend conversion; reuse the facts parser
     facts = _extract_facts(soup, symbol)
     out["face_value"] = facts.get("face_value")
-    raw_div = out.pop("_dividend_raw", None)
-    if raw_div:
-        m = _DIV_RE.search(raw_div)
-        if m:
-            out["latest_dividend_pct"] = _num(m.group(1))
-            out["dividend_year"] = int(m.group(2)) if m.group(2) else None
+    out.update(parse_dividend_status(out.pop("_dividend_raw", None)))
     return out
 
 
 def derive_metrics(fund: dict, close: float | None) -> dict:
-    """Metrics that need the live price: dividend per share, yield, EPS."""
+    """Metrics that need the live price: dividend per share, yield, EPS.
+
+    Cash only — a bonus issue changes the share count, not the holder's
+    income, so it is reported separately and never enters the yield.
+    """
     face = fund.get("face_value") or 10.0
     pct = fund.get("latest_dividend_pct")
     dps = (pct / 100.0) * face if pct is not None else None

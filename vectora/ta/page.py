@@ -100,13 +100,19 @@ def _fund_list(f: dict) -> str:
         if v is None:
             return ""
         return (f"<li><b>{label}:</b> {v * scale:,.{dp}f}{suffix}</li>")
+    # cash and bonus are shown separately on purpose: a bonus issue changes
+    # the share count, not the holder's income
+    yr = f" for {f['dividend_year']}" if f.get("dividend_year") else ""
     div = ""
     if f.get("latest_dividend_pct") is not None:
-        yr = f" for {f['dividend_year']}" if f.get("dividend_year") else ""
-        div = (f"<li><b>Latest dividend:</b> {f['latest_dividend_pct']:,.2f}% of "
-               f"face{yr}"
-               + (f" (৳{f['dividend_per_share']:,.2f}/share)"
-                  if f.get("dividend_per_share") else "") + "</li>")
+        div += (f"<li><b>Cash dividend:</b> {f['latest_dividend_pct']:,.2f}% of "
+                f"face{yr}"
+                + (f" (৳{f['dividend_per_share']:,.2f}/share)"
+                   if f.get("dividend_per_share") else "") + "</li>")
+    if f.get("latest_bonus_pct") is not None:
+        div += (f"<li><b>Bonus issue:</b> {f['latest_bonus_pct']:,.2f}%"
+                f"{yr} <span class='muted'>&mdash; stock, not income; "
+                "excluded from the yield</span></li>")
     return ("<ul>"
             + fmt("trailing_pe", "Trailing P/E")
             + fmt("eps_trailing", "Trailing EPS", " ৳")
@@ -208,7 +214,8 @@ def _fundamentals(con, date_str: str) -> dict:
             SELECT symbol, max(as_of) AS as_of FROM fundamentals GROUP BY 1)
         SELECT f.symbol, f.market_cap_mn, f.free_float_mcap_mn,
                f.reserve_surplus_mn, f.trailing_pe, f.latest_dividend_pct,
-               f.dividend_year, f.face_value, f.listing_year, f.year_end,
+               f.latest_bonus_pct, f.dividend_year, f.face_value,
+               f.listing_year, f.year_end,
                (SELECT p.close FROM prices p
                  WHERE p.symbol = f.symbol AND p.date <= ?
                  ORDER BY p.date DESC LIMIT 1) AS close
@@ -217,7 +224,8 @@ def _fundamentals(con, date_str: str) -> dict:
     """, [date_str]).fetchall()
     cols = ("symbol", "market_cap_mn", "free_float_mcap_mn",
             "reserve_surplus_mn", "trailing_pe", "latest_dividend_pct",
-            "dividend_year", "face_value", "listing_year", "year_end", "close")
+            "latest_bonus_pct", "dividend_year", "face_value", "listing_year",
+            "year_end", "close")
     out = {}
     for row in rows:
         d = dict(zip(cols, row, strict=True))

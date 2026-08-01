@@ -152,7 +152,8 @@ CREATE TABLE IF NOT EXISTS ta_gauge_stats (
 CREATE TABLE IF NOT EXISTS fundamentals (
     symbol TEXT, as_of DATE,
     market_cap_mn DOUBLE, free_float_mcap_mn DOUBLE, reserve_surplus_mn DOUBLE,
-    trailing_pe DOUBLE, latest_dividend_pct DOUBLE, dividend_year INTEGER,
+    trailing_pe DOUBLE, latest_dividend_pct DOUBLE, latest_bonus_pct DOUBLE,
+    dividend_year INTEGER,
     face_value DOUBLE, listing_year INTEGER, year_end TEXT,
     PRIMARY KEY (symbol, as_of)
 );
