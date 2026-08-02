@@ -234,6 +234,9 @@ def main(argv: list[str] | None = None) -> int:
         try:
             vdb.init_schema(con)
             result = screener.run(con, date_str=args.date)
+            # sector rotation shares the screener's date and price panel
+            from vectora import sectors
+            result["sectors"] = sectors.run(con, date_str=result.get("date"))
             result["validation"] = validate.run(con)
             # the 26-component replay costs another full pass over 1M+ rows and
             # its band statistics move by fractions of a pp per day — refresh

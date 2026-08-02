@@ -149,6 +149,22 @@ CREATE TABLE IF NOT EXISTS ta_gauge_stats (
     computed_at TIMESTAMP DEFAULT current_timestamp,
     PRIMARY KEY (gauge, band, horizon)
 );
+CREATE TABLE IF NOT EXISTS ta_levels (
+    date DATE, symbol TEXT,
+    pivot_point DOUBLE, r1 DOUBLE, r2 DOUBLE, r3 DOUBLE,
+    s1 DOUBLE, s2 DOUBLE, s3 DOUBLE,
+    fib_r1 DOUBLE, fib_r2 DOUBLE, fib_s1 DOUBLE, fib_s2 DOUBLE,
+    hi_20d DOUBLE, lo_20d DOUBLE, hi_60d DOUBLE, lo_60d DOUBLE,
+    hi_252d DOUBLE, lo_252d DOUBLE,
+    nearest_res DOUBLE, nearest_sup DOUBLE, room_up DOUBLE, room_dn DOUBLE,
+    PRIMARY KEY (date, symbol)
+);
+CREATE TABLE IF NOT EXISTS sector_rs (
+    date DATE, sector TEXT, n_symbols INTEGER,
+    ret_5d DOUBLE, ret_21d DOUBLE, ret_63d DOUBLE, ret_126d DOUBLE,
+    rs_21d DOUBLE, rs_63d DOUBLE, rs_momentum DOUBLE, quadrant TEXT,
+    PRIMARY KEY (date, sector)
+);
 CREATE TABLE IF NOT EXISTS fundamentals (
     symbol TEXT, as_of DATE,
     market_cap_mn DOUBLE, free_float_mcap_mn DOUBLE, reserve_surplus_mn DOUBLE,

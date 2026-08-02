@@ -9,10 +9,12 @@ import datetime as dt
 import html
 from pathlib import Path
 
+from vectora import sectors
 from vectora.collect import dse_company
 from vectora.dashboard import STYLE
 from vectora.settings import REPO_ROOT
-from vectora.ta.screener import gauges_for, load_watchlist, ranked
+from vectora.ta import overlay
+from vectora.ta.screener import gauges_for, levels_for, load_watchlist, ranked
 
 DEFAULT_OUT = REPO_ROOT / "docs" / "dashboard" / "screener.html"
 _TONE = {"Strong Buy": "good", "Buy": "sig", "Hold": "muted",
@@ -47,6 +49,11 @@ details ul { margin:6px 0 10px; padding-left:18px; color:var(--ink2);
    layout for sector blocks that are off-screen */
 .grp { content-visibility:auto; contain-intrinsic-size:auto 700px; }
 .scroll table { min-width:900px; }
+.pill-screen { font-size:10px; font-weight:700; padding:2px 7px; margin:0 3px 0 0;
+  border-radius:999px; color:#fff; white-space:nowrap; display:inline-block; }
+.ps-good { background:var(--good); } .ps-sig { background:var(--sig); }
+.ps-warning { background:var(--warning); } .ps-critical { background:var(--critical); }
+.ps-muted { background:var(--muted); }
 """
 
 
@@ -77,9 +84,11 @@ def _tally(g: dict, prefix: str) -> str:
 
 
 def _votes_details(votes: list[dict], g: dict | None = None,
-                   fund: dict | None = None) -> str:
+                   fund: dict | None = None, lv: dict | None = None,
+                   entry: dict | None = None) -> str:
     """The drop-down rationale: six-family votes always, and when the full
-    26-component gauges are available, each one named with its own reason."""
+    26-component gauges are available, each one named with its own reason,
+    followed by the price levels and fundamental screens for that stock."""
     parts = ["<div class='dhead'>Six-family posture</div>", _vote_list(votes)]
     if g:
         parts += [
@@ -89,6 +98,12 @@ def _votes_details(votes: list[dict], g: dict | None = None,
             f"<div class='dhead'>Oscillators &mdash; {_esc(g['osc_band'])} "
             f"<span class='muted'>({_tally(g, 'osc')})</span></div>",
             _vote_list(g["votes"]["osc"])]
+    if lv is not None:
+        parts += ["<div class='dhead'>Levels</div>",
+                  _levels_list(lv, (fund or {}).get("close"))]
+    if entry is not None:
+        parts += ["<div class='dhead'>Fundamental screens</div>",
+                  _screens_list(entry)]
     if fund:
         parts += ["<div class='dhead'>Fundamentals</div>", _fund_list(fund)]
     return "<details><summary></summary>" + "".join(parts) + "</details>"
@@ -132,7 +147,7 @@ def _num_or_dash(v, fmt: str = "{:.0f}") -> str:
     return fmt.format(v) if v is not None else "&ndash;"
 
 
-def _rows(entries: list[dict], gmap: dict, fmap: dict,
+def _rows(entries: list[dict], gmap: dict, fmap: dict, lmap: dict,
           full: bool = False) -> str:
     out = []
     for e in entries:
@@ -147,10 +162,12 @@ def _rows(entries: list[dict], gmap: dict, fmap: dict,
         yld = ("{:.1f}%".format((f or {}).get("dividend_yield") * 100)
                if (f or {}).get("dividend_yield") is not None else "&ndash;")
         cap = _num_or_dash((f or {}).get("market_cap_mn"), "{:,.0f}")
+        detail = _votes_details(
+            e["votes"], g if full else None, f if full else None,
+            lmap.get(e["symbol"]) if full else None, e if full else None)
         out.append(
-            f"<tr><td class='sym'>{_esc(e['symbol'])}"
-            f"{_votes_details(e['votes'], g if full else None, f if full else None)}"
-            "</td>"
+            f"<tr><td class='sym'>{_esc(e['symbol'])}{detail}"
+            f"{_screen_badges(e) if not full else ''}</td>"
             f"<td>{summary}</td><td>{ma}</td><td>{osc}</td>"
             f"<td>{_band_pill(e['band'])}</td>"
             f"<td class='num'>{e['score']:+d}</td>"
@@ -163,7 +180,8 @@ def _rows(entries: list[dict], gmap: dict, fmap: dict,
 
 
 def _table(entries: list[dict], gmap: dict | None = None,
-           fmap: dict | None = None, full: bool = False) -> str:
+           fmap: dict | None = None, lmap: dict | None = None,
+           full: bool = False) -> str:
     if not entries:
         return "<p class='muted'>No ratings for these symbols.</p>"
     return ("<div class='scroll'><table class='tbl'><thead><tr><th>Symbol</th>"
@@ -171,7 +189,7 @@ def _table(entries: list[dict], gmap: dict | None = None,
             "<th>Six-family</th><th>Score</th><th>RSI</th><th>Trend</th>"
             "<th>P/E</th><th>Yield</th><th>Mkt cap (mn)</th><th>Cat</th>"
             "</tr></thead><tbody>"
-            + _rows(entries, gmap or {}, fmap or {}, full)
+            + _rows(entries, gmap or {}, fmap or {}, lmap or {}, full)
             + "</tbody></table></div>")
 
 
@@ -216,6 +234,9 @@ def _fundamentals(con, date_str: str) -> dict:
                f.reserve_surplus_mn, f.trailing_pe, f.latest_dividend_pct,
                f.latest_bonus_pct, f.dividend_year, f.face_value,
                f.listing_year, f.year_end,
+               (SELECT c.paid_up_capital_mn FROM company_snapshot c
+                 WHERE c.symbol = f.symbol
+                 ORDER BY c.as_of DESC LIMIT 1) AS paid_up_capital_mn,
                (SELECT p.close FROM prices p
                  WHERE p.symbol = f.symbol AND p.date <= ?
                  ORDER BY p.date DESC LIMIT 1) AS close
@@ -225,11 +246,13 @@ def _fundamentals(con, date_str: str) -> dict:
     cols = ("symbol", "market_cap_mn", "free_float_mcap_mn",
             "reserve_surplus_mn", "trailing_pe", "latest_dividend_pct",
             "latest_bonus_pct", "dividend_year", "face_value", "listing_year",
-            "year_end", "close")
+            "year_end", "paid_up_capital_mn", "close")
     out = {}
     for row in rows:
         d = dict(zip(cols, row, strict=True))
-        d.update(dse_company.derive_metrics(d, d.pop("close")))
+        close = d.pop("close")
+        d.update(dse_company.derive_metrics(d, close))
+        d["close"] = close
         out[d["symbol"]] = d
     return out
 
@@ -269,6 +292,131 @@ def _gauge_evidence(con, horizon: int = 10) -> str:
         + body + "</tbody></table></div></section>")
 
 
+_QUAD_TONE = {"Leading": "good", "Improving": "sig",
+              "Weakening": "warning", "Lagging": "critical"}
+_SCREEN_TONE = {"Value": "good", "Income": "sig", "Quality": "good",
+                "Impaired": "critical", "Thin float": "warning"}
+
+
+def _screen_badges(entry: dict) -> str:
+    return "".join(
+        f"<span class='pill-screen ps-{_SCREEN_TONE.get(s['screen'], 'muted')}'>"
+        f"{_esc(s['screen'])}</span>" for s in entry.get("screens", []))
+
+
+def _levels_list(lv: dict, close: float | None) -> str:
+    if not lv or lv.get("pivot_point") is None:
+        return ("<ul><li class='muted'>No completed prior month yet, so no "
+                "pivot levels.</li></ul>")
+
+    def row(label: str, key: str) -> str:
+        v = lv.get(key)
+        if v is None:
+            return ""
+        gap = (f" <span class='muted'>({(v / close - 1) * 100:+.1f}%)</span>"
+               if close else "")
+        return f"<li><b>{label}:</b> {v:,.2f}{gap}</li>"
+
+    room = ""
+    if lv.get("room_up") is not None:
+        room += (f"<li><b>Room to resistance:</b> {lv['room_up'] * 100:.1f}% "
+                 f"(at {lv['nearest_res']:,.2f})</li>")
+    if lv.get("room_dn") is not None:
+        room += (f"<li><b>Room to support:</b> {lv['room_dn'] * 100:.1f}% "
+                 f"(at {lv['nearest_sup']:,.2f})</li>")
+    return ("<ul>" + room + row("R2", "r2") + row("R1", "r1")
+            + row("Pivot", "pivot_point") + row("S1", "s1") + row("S2", "s2")
+            + row("60-day high", "hi_60d") + row("60-day low", "lo_60d")
+            + row("52-week high", "hi_252d") + row("52-week low", "lo_252d")
+            + "</ul>")
+
+
+def _screens_list(entry: dict) -> str:
+    if not entry.get("screens"):
+        return "<ul><li class='muted'>No fundamental screen matched.</li></ul>"
+    return ("<ul>" + "".join(
+        f"<li><b>{_esc(s['screen'])}:</b> {_esc(s['detail'])}</li>"
+        for s in entry["screens"]) + "</ul>")
+
+
+def _rotation(con, date_str: str) -> str:
+    rows = [r for r in sectors.load(con, date_str)
+            if r["ret_21d"] is not None]
+    if not rows:
+        return ""
+    body = "".join(
+        f"<tr><td>{_esc(r['sector'])}</td>"
+        f"<td><span class='pill-band pb-{_QUAD_TONE.get(r['quadrant'], 'muted')}'>"
+        f"{_esc(r['quadrant'])}</span></td>"
+        f"<td class='num'>{r['n_symbols']}</td>"
+        f"<td class='num'>{r['ret_21d'] * 100:+.1f}%</td>"
+        f"<td class='num {'edge-pos' if r['rs_21d'] > 0 else 'edge-neg'}'>"
+        f"{r['rs_21d'] * 100:+.1f} pp</td>"
+        f"<td class='num {'edge-pos' if (r['rs_momentum'] or 0) > 0 else 'edge-neg'}'>"
+        f"{(r['rs_momentum'] or 0) * 100:+.1f} pp</td>"
+        f"<td class='num'>{(r['ret_63d'] or 0) * 100:+.1f}%</td></tr>"
+        for r in rows)
+    return (
+        "<section><h2>Sector rotation <span class='muted small'>"
+        "&mdash; relative strength, not raw return</span></h2>"
+        "<div class='note'>In a rising market almost every sector goes up, so "
+        "raw return says little. <b>Relative strength</b> is the sector&rsquo;s "
+        "21-day return minus the market&rsquo;s over the same window, and "
+        "<b>momentum</b> is whether that lead is still growing. A sector ahead "
+        "but decelerating (<i>Weakening</i>) and one behind but accelerating "
+        "(<i>Improving</i>) are usually the two that matter. Sectors are "
+        "equal-weighted so a few giants cannot stand in for the whole group."
+        "</div>"
+        "<div class='scroll'><table class='tbl'><thead><tr><th>Sector</th>"
+        "<th>Phase</th><th>n</th><th>21d return</th><th>vs market</th>"
+        "<th>Momentum</th><th>63d return</th></tr></thead><tbody>"
+        + body + "</tbody></table></div>"
+        "<div class='legend'>Relative strength across sectors does not sum to "
+        "zero: compounding is convex, so compounded sector returns average "
+        "slightly above the compounded market return. The residual is small "
+        "next to the spread being measured.</div></section>")
+
+
+def _confluence(entries: list[dict], gmap: dict) -> str:
+    picks = overlay.confluence(entries, gmap)
+    tally = overlay.counts(entries)
+    counts_txt = ", ".join(f"{k} {v}" for k, v in sorted(tally.items()))
+    caveat = (
+        "<div class='legend'>These screens rank the PRESENT only. Vectora "
+        "holds a single fundamentals snapshot, so this data is deliberately "
+        "kept out of model training &mdash; attaching today&rsquo;s P/E to a "
+        "2015 row would let the model see which companies later turned out "
+        "profitable.</div></section>")
+    if not picks:
+        return ("<section><h2>Technicals and fundamentals together</h2>"
+                "<div class='note'>No stock currently clears both a bullish "
+                "posture and a supporting fundamental screen. That is a real "
+                "answer rather than a gap, so it is printed instead of padded."
+                f"<br><span class='muted'>Board-wide screen hits: "
+                f"{_esc(counts_txt)}</span></div>" + caveat)
+    body = "".join(
+        f"<tr><td class='sym'>{_esc(e['symbol'])}</td>"
+        f"<td>{_band_pill(e['band'])}</td>"
+        f"<td>{_screen_badges(e)}</td>"
+        f"<td>{_esc(e.get('sector') or '?')}</td>"
+        f"<td class='small'>"
+        f"{'; '.join(_esc(s['detail']) for s in e['screens'])}</td></tr>"
+        for e in picks[:40])
+    return (
+        "<section><h2>Technicals and fundamentals together <span class='muted "
+        f"small'>&mdash; {len(picks)} of {len(entries)}</span></h2>"
+        "<div class='note'>Stocks whose technical posture is bullish "
+        "<i>and</i> that clear at least one of the value, income or quality "
+        "screens &mdash; with anything carrying accumulated losses or a thin "
+        "free float excluded outright. A technical Strong Buy on a hollow "
+        "company is a different proposition and does not belong ranked beside "
+        f"these.<br><span class='muted'>Board-wide screen hits: "
+        f"{_esc(counts_txt)}</span></div>"
+        "<div class='scroll'><table class='tbl'><thead><tr><th>Symbol</th>"
+        "<th>Posture</th><th>Screens</th><th>Sector</th><th>Why</th>"
+        "</tr></thead><tbody>" + body + "</tbody></table></div>" + caveat)
+
+
 def build(con, date_str: str | None = None,
           out_path: Path = DEFAULT_OUT, board_n: int = 20) -> Path:
     date_str = date_str or str(con.execute(
@@ -279,6 +427,7 @@ def build(con, date_str: str | None = None,
     all_rows = ranked(con, date_str, limit=10000)
     gmap = gauges_for(con, date_str)
     fmap = _fundamentals(con, date_str)
+    lmap = levels_for(con, date_str)
     if not all_rows:
         body = "<section><p>No technical ratings for this date.</p></section>"
     else:
@@ -291,8 +440,11 @@ def build(con, date_str: str | None = None,
             f"<div class='kpi-lbl'>{_esc(b)}</div></div>"
             for b in ("Strong Buy", "Buy", "Hold", "Sell", "Strong Sell"))
         sections.append(f"<div class='kpis'>{kpi}</div>")
+        overlay.annotate(all_rows, fmap)
         sections.append(_evidence(con))
         sections.append(_gauge_evidence(con))
+        sections.append(_rotation(con, date_str))
+        sections.append(_confluence(all_rows, gmap))
 
         wl = []
         for name, syms in groups.items():
@@ -301,7 +453,7 @@ def build(con, date_str: str | None = None,
             note = (f"<div class='legend'>Not rated today: "
                     f"{', '.join(missing)}</div>" if missing else "")
             wl.append(f"<div class='grp'><h3>{_esc(name)}</h3>"
-                      + _table(entries, gmap, fmap) + note + "</div>")
+                      + _table(entries, gmap, fmap, lmap) + note + "</div>")
         sections.append(
             "<section><h2>Your watchlist</h2><div class='note'>Ranked within "
             "each group by technical score. Open <i>why</i> on any row to see "
@@ -313,9 +465,9 @@ def build(con, date_str: str | None = None,
         sections.append(
             "<section><h2>Quick scan</h2>"
             f"<div class='grp'><h3>Strongest {board_n}</h3>"
-            + _table(top, gmap, fmap) + "</div>"
+            + _table(top, gmap, fmap, lmap) + "</div>"
             f"<div class='grp'><h3>Weakest {board_n}</h3>"
-            + _table(bottom, gmap, fmap) + "</div></section>")
+            + _table(bottom, gmap, fmap, lmap) + "</div></section>")
 
         # every rated symbol on the exchange, grouped by sector
         by_sector: dict = {}
@@ -326,7 +478,8 @@ def build(con, date_str: str | None = None,
             rows = sorted(by_sector[sector], key=lambda x: -x["score"])
             blocks.append(f"<div class='grp'><h3>{_esc(sector)} "
                           f"<span class='muted'>({len(rows)})</span></h3>"
-                          + _table(rows, gmap, fmap, full=True) + "</div>")
+                          + _table(rows, gmap, fmap, lmap, full=True)
+                          + "</div>")
         sections.append(
             f"<section><h2>Every listed security &mdash; {len(all_rows)} "
             "rated today</h2><div class='note'>Complete coverage of the "

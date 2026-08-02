@@ -13,7 +13,7 @@ import yaml
 
 from vectora import db as vdb
 from vectora.features import base
-from vectora.ta import gauges, indicators, rating
+from vectora.ta import gauges, indicators, levels, rating
 
 WATCHLIST_PATH = (Path(__file__).resolve().parent.parent / "config"
                   / "watchlist.yaml")
@@ -27,7 +27,7 @@ def run(con, date_str: str | None = None) -> dict:
     panel = base.load_panel(con).select(
         ["symbol", "date", "open", "high", "low", "close", "volume"])
     ind = indicators.add_tradingview_set(indicators.add_all(panel))
-    ind = ind.filter(pl.col("ma_slow").is_not_null())
+    ind = levels.add_all(ind).filter(pl.col("ma_slow").is_not_null())
     run_date = date_str or str(ind["date"].max())
     # the gauge rules need yesterday's oscillator readings, so shift BEFORE
     # slicing to the run date rather than after (a one-row slice has no prior)
@@ -36,6 +36,7 @@ def run(con, date_str: str | None = None) -> dict:
     if today.height == 0:
         return {"date": run_date, "rated": 0}
     _store_gauges(con, today, run_date)
+    _store_levels(con, today, run_date)
     rated = rating.rate_frame(today)
     rated = rated.with_columns(
         ((pl.col("ta_score").rank("average") / pl.len() * 10)
@@ -71,6 +72,25 @@ def _store_gauges(con, today: pl.DataFrame, run_date: str) -> int:
             "votes": json.dumps({"ma": g["ma_votes"], "osc": g["osc_votes"]}),
         })
     return vdb.upsert(con, "ta_gauges", rows)
+
+
+_LEVEL_COLS = ("pivot_point", "r1", "r2", "r3", "s1", "s2", "s3",
+               "fib_r1", "fib_r2", "fib_s1", "fib_s2",
+               "hi_20d", "lo_20d", "hi_60d", "lo_60d", "hi_252d", "lo_252d",
+               "nearest_res", "nearest_sup", "room_up", "room_dn")
+
+
+def _store_levels(con, today: pl.DataFrame, run_date: str) -> int:
+    rows = [{"date": run_date, "symbol": r["symbol"],
+             **{c: r.get(c) for c in _LEVEL_COLS}}
+            for r in today.iter_rows(named=True)]
+    return vdb.upsert(con, "ta_levels", rows)
+
+
+def levels_for(con, date_str: str) -> dict:
+    q = (f"SELECT symbol, {', '.join(_LEVEL_COLS)} FROM ta_levels WHERE date = ?")
+    return {r[0]: dict(zip(_LEVEL_COLS, r[1:], strict=True))
+            for r in con.execute(q, [date_str]).fetchall()}
 
 
 def gauges_for(con, date_str: str, symbols: list[str] | None = None) -> dict:
