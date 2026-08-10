@@ -3,5 +3,5 @@
 
 sector: Financial Institutions | category: Z
 
-Prediction scorecard: 1/1 resolved hits
+Prediction scorecard: 2/2 resolved hits
 <!-- vectora:end -->

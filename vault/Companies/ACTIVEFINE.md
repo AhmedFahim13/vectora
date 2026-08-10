@@ -3,5 +3,5 @@
 
 sector: Pharmaceuticals & Chemicals | category: Z
 
-Prediction scorecard: 0/1 resolved hits
+Prediction scorecard: 0/2 resolved hits
 <!-- vectora:end -->
