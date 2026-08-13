@@ -3,5 +3,5 @@
 
 sector: Textile | category: B
 
-Prediction scorecard: 0/3 resolved hits
+Prediction scorecard: 0/5 resolved hits
 <!-- vectora:end -->
