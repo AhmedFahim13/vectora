@@ -14,6 +14,7 @@ import datetime as dt
 import html
 import json
 
+from vectora.evaluate.report import cohort_stats
 from vectora.settings import SIGNAL_THRESHOLDS
 
 _TRACK_RECORD_START = "2026-07-30"
@@ -96,12 +97,37 @@ def build_html(con, date_str: str | None = None) -> str:
         FROM outcomes o JOIN predictions p ON p.id = o.prediction_id
         """).fetchone()
     if life_res:
-        paper_note = (
-            f"The live track record has begun: <b>{life_res}</b> predictions "
-            f"resolved against realized prices across <b>{cohorts}</b> "
-            f"maturity date{'s' if (cohorts or 0) != 1 else ''}, "
-            f"hit rate <b>{hit_rate:.0%}</b>. That is still a small, highly "
-            "correlated sample — read it as a first reading, not a record.")
+        # the honest interval comes from the spread BETWEEN dates: rows
+        # sharing a date share a market, so a row-wise interval is fiction
+        pairs = con.execute(
+            """
+            SELECT p.date, CASE WHEN o.hit THEN 1 ELSE 0 END
+            FROM outcomes o JOIN predictions p ON p.id = o.prediction_id
+            """).fetchall()
+        cs = cohort_stats(pairs)
+        mean_p = con.execute(
+            """
+            SELECT avg(p.probability) FROM outcomes o
+            JOIN predictions p ON p.id = o.prediction_id
+            """).fetchone()[0] or 0.0
+        head = (f"The live track record: <b>{life_res}</b> predictions "
+                f"resolved against realized prices across <b>{cohorts}</b> "
+                f"maturity date{'s' if (cohorts or 0) != 1 else ''}, "
+                f"hit rate <b>{hit_rate:.0%}</b>. ")
+        if cs["cohorts"] >= 2:
+            lo, hi = cs["ci95"]
+            paper_note = (
+                head + f"Measured across dates rather than rows, that is "
+                f"<b>{lo:.0%} to {hi:.0%}</b> with 95% confidence — the "
+                f"row-wise interval would be {cs['se_inflation']:.1f}x too "
+                f"narrow, because predictions made on the same day share the "
+                f"same market. The model predicted <b>{mean_p:.0%}</b> on "
+                f"average against <b>{hit_rate:.0%}</b> realized, so it "
+                "remains overconfident.")
+        else:
+            paper_note = (
+                head + "That is still a small, highly correlated sample — "
+                "read it as a first reading, not a record.")
     else:
         paper_note = ("The live track record (hit rates, realized "
                       f"calibration) begins <b>{_TRACK_RECORD_START}</b> "
