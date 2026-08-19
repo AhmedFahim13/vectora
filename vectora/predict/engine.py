@@ -19,6 +19,7 @@ from vectora.predict.explain import drivers as shap_drivers
 from vectora.regime import rules as regime_rules
 from vectora.settings import ANALOG_K, MIN_QUALITY_SCORE, SIGNAL_THRESHOLDS
 from vectora.train import models as M
+from vectora.train import recalibrate
 from vectora.universe import tradable_universe
 
 TARGETS = ("g5_h10", "g10_h30")
@@ -72,6 +73,14 @@ def run_predict(con, date_str: str | None = None, features_path=None,
         X = today.select(feat_names).to_numpy().astype(np.float64)
         raw = booster.predict(X)
         probs = M.apply_calibrator(calibrator, raw)
+        # live correction, if one has earned installation (see
+        # vectora/train/recalibrate.py). It is only valid in the regimes it
+        # was fitted under: a correction learned entirely in Sideways would
+        # be actively harmful in a Panic, so it is skipped rather than
+        # extrapolated.
+        corr = recalibrate.load_correction(target)
+        if corr and regime in corr["regimes"]:
+            probs = recalibrate.apply_correction(corr["model"], probs)
 
         preds, risks, expls = [], [], []
         for i, symbol in enumerate(today["symbol"].to_list()):

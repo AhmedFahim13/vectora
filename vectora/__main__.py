@@ -175,10 +175,17 @@ def main(argv: list[str] | None = None) -> int:
         from vectora import db as vdb
         from vectora.evaluate import report
         from vectora.settings import DB_PATH
+        from vectora.train import recalibrate
         con = vdb.connect(DB_PATH)
         try:
             vdb.init_schema(con)
             result = report.evaluate(con)
+            # re-test the live calibration correction every evaluation: it
+            # installs itself only when it beats doing nothing on cohorts it
+            # has never seen, so this is safe to run unattended
+            result["recalibration"] = {
+                t: recalibrate.run(con, t)["verdict"]
+                for t in sorted(result.get("targets", {}))}
         finally:
             con.close()
         print(json.dumps({k: v for k, v in result.items()

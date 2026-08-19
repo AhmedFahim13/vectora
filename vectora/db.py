@@ -149,6 +149,16 @@ CREATE TABLE IF NOT EXISTS ta_gauge_stats (
     computed_at TIMESTAMP DEFAULT current_timestamp,
     PRIMARY KEY (gauge, band, horizon)
 );
+CREATE TABLE IF NOT EXISTS calibration_log (
+    fitted_at TIMESTAMP DEFAULT current_timestamp,
+    target TEXT, cohorts INTEGER, n INTEGER,
+    brier_base DOUBLE, brier_corrected DOUBLE,
+    delta_mean DOUBLE, delta_se DOUBLE, t_stat DOUBLE, t_critical DOUBLE,
+    cohorts_improved INTEGER, installed BOOLEAN,
+    fit_regimes TEXT,               -- JSON list; a correction is only valid
+    verdict TEXT,                   -- in regimes it was actually fitted under
+    PRIMARY KEY (fitted_at, target)
+);
 CREATE TABLE IF NOT EXISTS ta_levels (
     date DATE, symbol TEXT,
     pivot_point DOUBLE, r1 DOUBLE, r2 DOUBLE, r3 DOUBLE,

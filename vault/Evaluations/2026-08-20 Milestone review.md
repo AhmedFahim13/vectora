@@ -96,3 +96,51 @@ Claiming the system is validated. Nine cohorts in a single *Sideways* regime
 is not evidence about Bull, Bear, Panic or Recovery — every segment row in
 today's report reads `regime=Sideways`. The regime taxonomy is still
 completely untested live.
+
+---
+
+## Recalibration attempt (same day)
+
+Acting on point 1 above: fit an isotonic correction `g` on live outcomes and
+compose it after the existing calibrator, `p_final = g(calibrator(raw))`.
+Composing rather than refitting keeps the backtest calibrator — thirteen
+years, every regime — and corrects only the deployment bias on top. Both
+maps are monotone, so this cannot reorder the book. It addresses the
+calibration failure and does nothing for the compression failure.
+
+**The guard refused it.**
+
+Leave-one-cohort-out across all 9 dates:
+
+| | |
+|---|---|
+| pooled Brier | 0.2050 → 0.2036 |
+| cohorts improved | 7 of 9 |
+| per-cohort delta | −0.00140 (SE 0.00458) |
+| 95% CI | −0.0104 to **+0.0076** |
+| t | **−0.31** vs critical −1.86 |
+| worst cohort | **+0.0344** |
+
+Pooled Brier improves, so a naive check would have installed this. The
+paired test across cohorts says it is noise. The shape is worse than the
+average suggests: seven ordinary days improve by about 0.007 each, and the
+26 July cohort — the anomalous day that hit 52% — degrades by 0.034, roughly
+five times the typical gain. The correction pulls probabilities down, so it
+is most wrong exactly when the market delivers more than expected.
+
+Small consistent gains against rare large losses is the payoff shape of
+something that eventually blows up. Not installed.
+
+I had to fix my own guard to reach this answer: `cross_validate` originally
+returned `improved=True` off pooled Brier, which is the same row-pooling
+error the weekly report was making this morning. The verdict is now a paired
+t-test across cohorts.
+
+The machinery ships anyway. `vectora/train/recalibrate.py` re-runs on every
+`evaluate`, and installs itself the moment the evidence clears the bar
+without anyone deciding to trust it. If installed, it applies only in the
+regimes it was fitted under — a correction learned entirely in Sideways
+would be actively harmful in a Panic, so it is skipped rather than
+extrapolated.
+
+Every attempt is recorded in `calibration_log`, refusals included.
