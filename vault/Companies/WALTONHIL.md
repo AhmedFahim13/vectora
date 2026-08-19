@@ -3,5 +3,5 @@
 
 sector: Engineering | category: A
 
-Prediction scorecard: 0/4 resolved hits
+Prediction scorecard: 0/9 resolved hits
 <!-- vectora:end -->
