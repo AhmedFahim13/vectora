@@ -38,7 +38,12 @@ jobs:
         run: |
           git config user.name "vectora-bot"
           git config user.email "vectora-bot@users.noreply.github.com"
-          git add -f data/raw data/vectora.duckdb reports
+          # deliberately NOT data/vectora.duckdb: this workflow runs four
+          # times a day and the database is ~42 MB, so committing it here
+          # added four whole blobs to git history daily. Intraday state that
+          # must survive lives in data/archive (snapshots) and the EOD run
+          # commits the database once.
+          git add -f data/raw data/archive reports
           git diff --cached --quiet || git commit -m "data: intraday $(date '+%F %H:%M')"
           git pull --rebase --autostash
           git push

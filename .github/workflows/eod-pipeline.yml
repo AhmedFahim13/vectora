@@ -74,6 +74,14 @@ jobs:
         env:
           GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
         run: uv run python -m vectora run digest
+      - name: Database maintenance
+        if: always()
+        run: |
+          # archives unregenerable history to immutable monthly Parquet and
+          # compacts the file. Without this the committed binary grows every
+          # run and every run adds a whole new blob to git history.
+          uv run python -m vectora run maintenance
+
       - name: Commit data
         if: always()
         run: |
@@ -81,7 +89,7 @@ jobs:
           git config user.email "vectora-bot@users.noreply.github.com"
           # commit BEFORE pull: a dirty tracked file (the DuckDB) makes
           # `git pull --rebase` exit 128 before even checking freshness
-          git add -f data/raw data/vectora.duckdb data/reference vault reports docs/dashboard
+          git add -f data/raw data/vectora.duckdb data/reference data/archive vault reports docs/dashboard
           git diff --cached --quiet || git commit -m "data: eod $(date +%F)"
           git pull --rebase --autostash
           git push

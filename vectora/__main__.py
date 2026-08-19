@@ -31,7 +31,7 @@ def main(argv: list[str] | None = None) -> int:
     run.add_argument("stage",
                      choices=["eod", "train", "predict", "digest", "outcomes",
                               "vault", "regime", "events", "zscan", "intraday", "evaluate",
-                              "health", "dashboard", "ta"])
+                              "health", "dashboard", "ta", "maintenance"])
     run.add_argument("--date", default=None,
                      help="YYYY-MM-DD (default: gap-fill up to today)")
     run.add_argument("--target", default="g5_h10",
@@ -165,7 +165,18 @@ def main(argv: list[str] | None = None) -> int:
         con = vdb.connect(DB_PATH)
         try:
             vdb.init_schema(con)
+            # this workflow no longer commits the database, so today's
+            # alerts must be restored before the dedup check runs and
+            # persisted again afterwards
+            import datetime as _dt
+
+            from vectora import maintenance
+            today = args.date or _dt.date.today().isoformat()
+            restored = maintenance.restore_alerts(con, today)
             result = intraday.run_intraday(con, PoliteSession())
+            result["alerts_restored"] = restored
+            result["archived_snapshots"] = maintenance.archive_intraday(con)
+            result["archived_alerts"] = maintenance.archive_alerts(con)
         finally:
             con.close()
         print(json.dumps(result, indent=1))
@@ -194,6 +205,21 @@ def main(argv: list[str] | None = None) -> int:
                             if k2 != "reliability"}
                         for t, m in result.get("targets", {}).items()}},
               indent=1, default=str))
+        return 0
+
+    if args.command == "run" and args.stage == "maintenance":
+        from vectora import db as vdb
+        from vectora import maintenance
+        from vectora.settings import DB_PATH
+        con = vdb.connect(DB_PATH)
+        try:
+            vdb.init_schema(con)
+            result = {"archived": maintenance.archive_and_prune(con),
+                      "pruned": maintenance.prune_regenerable(con)}
+        finally:
+            con.close()
+        result["compact"] = maintenance.compact()
+        print(json.dumps(result, indent=1))
         return 0
 
     if args.command == "run" and args.stage == "health":
