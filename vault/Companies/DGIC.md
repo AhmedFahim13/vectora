@@ -3,5 +3,5 @@
 
 sector: Insurance | category: B
 
-Prediction scorecard: 3/4 resolved hits
+Prediction scorecard: 5/10 resolved hits
 <!-- vectora:end -->

@@ -3,5 +3,5 @@
 
 sector: Bank | category: A
 
-Prediction scorecard: 0/9 resolved hits
+Prediction scorecard: 0/10 resolved hits
 <!-- vectora:end -->
