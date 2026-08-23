@@ -3,5 +3,5 @@
 
 sector: Pharmaceuticals & Chemicals | category: B
 
-Prediction scorecard: 0/0 resolved hits
+Prediction scorecard: 7/11 resolved hits
 <!-- vectora:end -->
