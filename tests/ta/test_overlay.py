@@ -88,3 +88,18 @@ def test_counts_tallies_each_screen():
         {"A": {"trailing_pe": 5.0, "dividend_yield": 0.08},
          "B": {"trailing_pe": 6.0}})
     assert overlay.counts(entries) == {"Value": 2, "Income": 1}
+
+
+def test_unreported_free_float_is_not_a_thin_float_flag():
+    """DSE reports free float 0 for all 35 mutual funds and 22 bonds — that
+    means 'not applicable', not 'nothing can trade'. Flagging them produced
+    the line 'only 0% of the company can trade'."""
+    assert overlay._screen(_entry(free_float_mcap_mn=0.0,
+                                  market_cap_mn=1130.7)) == []
+    assert overlay._screen(_entry(free_float_mcap_mn=None,
+                                  market_cap_mn=1130.7)) == []
+    # a genuinely thin equity still flags
+    flags = overlay._screen(_entry(free_float_mcap_mn=35038.0,
+                                   market_cap_mn=350133.0))
+    assert flags[0]["screen"] == "Thin float"
+    assert "10%" in flags[0]["detail"]

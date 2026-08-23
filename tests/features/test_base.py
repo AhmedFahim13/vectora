@@ -79,3 +79,28 @@ def test_backfill_without_adjusted_falls_back(test_db, tmp_path, monkeypatch):
     _seed(test_db)   # existing helper: ACI rows incl. the 50% gap day
     df = base.load_panel(test_db).filter(pl.col("symbol") == "ACI").sort("date")
     assert abs(df["ret"][2] - base.RET_CLIP) < 1e-9   # old clipped behavior
+
+
+def test_zero_prices_become_a_zero_range_day_not_a_zero_price(test_db):
+    """A zero low is a scrape gap. As 0 it becomes the lowest low in every
+    window it touches; as null it blanks those windows for a year. Neither
+    is right — the day's close is."""
+    vdb.upsert(test_db, "prices_raw", [dict(
+        symbol="BAD", date="2026-07-06", open=0.0, high=0.0, low=0.0,
+        close=42.0, ltp=None, ycp=None, trades=1, value_mn=1.0, volume=10,
+        source="dse_eod")])
+    df = base.load_panel(test_db).filter(pl.col("symbol") == "BAD")
+    row = df.row(0, named=True)
+    assert row["low"] == 42.0
+    assert row["high"] == 42.0
+    assert row["open"] == 42.0
+
+
+def test_good_prices_are_left_alone(test_db):
+    vdb.upsert(test_db, "prices_raw", [dict(
+        symbol="OK", date="2026-07-06", open=10.0, high=12.0, low=9.0,
+        close=11.0, ltp=None, ycp=None, trades=1, value_mn=1.0, volume=10,
+        source="dse_eod")])
+    row = base.load_panel(test_db).filter(
+        pl.col("symbol") == "OK").row(0, named=True)
+    assert (row["open"], row["high"], row["low"]) == (10.0, 12.0, 9.0)

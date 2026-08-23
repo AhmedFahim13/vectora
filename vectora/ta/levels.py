@@ -58,13 +58,19 @@ def add_pivots(df: pl.DataFrame) -> pl.DataFrame:
 def add_swing_levels(df: pl.DataFrame) -> pl.DataFrame:
     """Trailing swing highs/lows. Today is excluded from its own window."""
     d = df.sort(["symbol", "date"])
+    # min_periods matters more than it looks. Bad scrape rows are nulled at
+    # the panel (a zero low is a gap, not a price), and polars propagates a
+    # null through a rolling window by default — so one missing day would
+    # erase a symbol's 52-week high and low for the next 252 sessions. The
+    # honest reading of a window with a hole in it is the extreme of the days
+    # that ARE present, not "unknown".
     exprs = []
     for n in SWING_WINDOWS:
         exprs += [
-            pl.col("high").shift(1).rolling_max(n).over("symbol")
-            .alias(f"hi_{n}d"),
-            pl.col("low").shift(1).rolling_min(n).over("symbol")
-            .alias(f"lo_{n}d")]
+            pl.col("high").shift(1).rolling_max(n, min_periods=2)
+            .over("symbol").alias(f"hi_{n}d"),
+            pl.col("low").shift(1).rolling_min(n, min_periods=2)
+            .over("symbol").alias(f"lo_{n}d")]
     return d.with_columns(exprs)
 
 

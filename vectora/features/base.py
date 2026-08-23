@@ -18,8 +18,27 @@ from vectora.settings import ADJUSTED_PARQUET
 
 RET_CLIP = 0.12
 
+# A zero or negative open/high/low is never a real price — it is a gap in the
+# scrape wearing a number, and 7,654 rows across 282 symbols carry one.
+#
+# Left as 0 it becomes the lowest low in every window it touches: one bad row
+# on 2026-08-12 gave GP a 52-week low of 0.00, a "room to support" of 100%,
+# and a Stochastic %K of 95 on a day it closed at a new low — the zero had
+# stretched the 14-day range. In the backtester it triggers a stop at a
+# nonsense price.
+#
+# Nulling it instead is correct but not sufficient: polars propagates a null
+# through a rolling window, so one bad day would blank Stochastic, Williams
+# %R, Ichimoku and the 52-week levels for the following year. The bad row is
+# therefore treated as a zero-range day at that day's close, which is the
+# most defensible reading of "the price existed, the range did not survive
+# the scrape" and keeps every downstream window intact.
 _PANEL_SQL = """
-    SELECT symbol, date, open, high, low, close, ycp, trades, value_mn, volume
+    SELECT symbol, date,
+           coalesce(CASE WHEN open > 0 THEN open END, close) AS open,
+           coalesce(CASE WHEN high > 0 THEN high END, close) AS high,
+           coalesce(CASE WHEN low  > 0 THEN low  END, close) AS low,
+           close, ycp, trades, value_mn, volume
     FROM prices
     WHERE close IS NOT NULL AND close > 0
     ORDER BY symbol, date

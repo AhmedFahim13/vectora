@@ -9,7 +9,7 @@ import argparse
 import json
 import sys
 
-from vectora import orchestrator
+from vectora import orchestrator, state
 from vectora.settings import MIN_QUALITY_SCORE
 
 
@@ -50,7 +50,9 @@ def main(argv: list[str] | None = None) -> int:
         con = vdb.connect(DB_PATH)
         try:
             vdb.init_schema(con)
+            state.restore_state(con)
             result = trainer.run(con, target=args.target)
+            state.export_state(con)
         finally:
             con.close()
         print(json.dumps(result, indent=1))
@@ -63,6 +65,9 @@ def main(argv: list[str] | None = None) -> int:
         con = vdb.connect(DB_PATH)
         try:
             vdb.init_schema(con)
+            # a discarded merge can leave the registry pointing at an older
+            # model; heal it before anything is predicted with it
+            state.restore_state(con)
             result = pengine.run_predict(con, date_str=args.date)
         finally:
             con.close()

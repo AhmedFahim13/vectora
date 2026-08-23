@@ -89,3 +89,33 @@ def test_room_metrics_are_fractions_of_price():
     if up is not None:
         assert 0 < up < 1        # R1 at 120 vs close 100 -> 0.20
         assert abs(up - 0.20) < 1e-9
+
+
+def test_one_missing_day_does_not_erase_the_window():
+    """Bad scrape rows are nulled at the panel. Polars propagates a null
+    through a rolling window by default, which would blank a symbol's
+    52-week high and low for the next year over a single gap."""
+    days = [dt.date(2026, 1, 1) + dt.timedelta(days=i) for i in range(40)]
+    rows = [("A", d, 100.0, 90.0, 95.0) for d in days]
+    frame = _frame(rows)
+    holed = frame.with_columns(
+        pl.when(pl.col("date") == days[5]).then(None)
+        .otherwise(pl.col("low")).alias("low"))
+    out = levels.add_swing_levels(holed).sort("date")
+    assert out["lo_20d"][-1] == 90.0        # not null
+    assert out["hi_20d"][-1] == 100.0
+
+
+def test_zero_prices_never_become_support():
+    """A zero low is a gap in the scrape wearing a number. Left in, it makes
+    every 'room to support' read 100%."""
+    days = [dt.date(2026, 1, 1) + dt.timedelta(days=i) for i in range(40)]
+    rows = [("A", d, 100.0, 90.0, 95.0) for d in days]
+    frame = _frame(rows).with_columns(
+        pl.when(pl.col("date") == days[5]).then(None)
+        .otherwise(pl.col("low")).alias("low"))
+    out = levels.add_all(frame).sort("date")
+    sup = out["nearest_sup"][-1]
+    assert sup is None or sup > 0
+    room = out["room_dn"][-1]
+    assert room is None or room < 1.0

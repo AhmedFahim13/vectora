@@ -53,7 +53,12 @@ def _screen(entry: dict) -> list[dict]:
             flags.append({"screen": "Impaired", "detail":
                           f"accumulated losses of {abs(reserve):,.0f} mn"})
     free, mcap = f.get("free_float_mcap_mn"), f.get("market_cap_mn")
-    if free is not None and mcap:
+    # A reported free float of exactly zero is DSE saying "not applicable",
+    # not "nothing can trade": every one of the 35 mutual funds and 22 bonds
+    # reports 0. Flagging those as thin float produced the nonsense line
+    # "only 0% of the company can trade" on instruments the screen was never
+    # about. Unknown is not the same as dangerous.
+    if free and mcap:
         share = free / mcap
         if share <= _LOW_FLOAT:
             flags.append({"screen": "Thin float", "detail":

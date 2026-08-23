@@ -38,7 +38,7 @@ def test_generate_writes_journal_prediction_company_home(test_db, tmp_path):
             "2026-07-16_g5_h10_GP.md").read_text(encoding="utf-8")
     assert "61%" in pred and "[[GP]]" in pred
     company = (tmp_path / "Companies" / "GP.md").read_text(encoding="utf-8")
-    assert "Telecommunication" in company and "category: A" in company
+    assert "Telecommunication" in company and "category A" in company
     home = (tmp_path / "Home.md").read_text(encoding="utf-8")
     assert "2026-07-16" in home
 
@@ -97,3 +97,84 @@ def test_journal_zwatch_section(test_db, tmp_path):
     gen.generate(test_db, "2026-07-16", vault_dir=tmp_path)
     journal = (tmp_path / "Journal" / "2026-07-16.md").read_text(encoding="utf-8")
     assert "Z-watch" in journal and "ZPUMP" in journal and "88" in journal
+
+
+def test_every_rated_symbol_gets_a_company_note(test_db, tmp_path):
+    """The screener analyses 400+ securities a day. Writing notes only for
+    the handful that signalled threw that work away."""
+    from vectora import db as vdb
+    from vectora.vault import generator
+    d = "2026-08-23"
+    vdb.upsert(test_db, "symbols", [
+        {"symbol": s, "sector": "Bank", "category": "A"}
+        for s in ("AAA", "BBB", "CCC")])
+    vdb.upsert(test_db, "ta_ratings", [
+        {"date": d, "symbol": s, "score": i, "band": "Buy", "votes": "[]",
+         "rsi": 55.0, "macd_hist": 0.1, "bb_pos": 0.5, "st_dir": 1}
+        for i, s in enumerate(("AAA", "BBB", "CCC"))])
+    generator.generate(test_db, d, vault_dir=tmp_path)
+    notes = sorted(p.name for p in (tmp_path / "Companies").glob("*.md"))
+    assert notes == ["AAA.md", "BBB.md", "CCC.md"]
+    body = (tmp_path / "Companies" / "AAA.md").read_text(encoding="utf-8")
+    assert "Technical posture" in body
+    assert "Sectors/Bank" in body          # links into the sector note
+
+
+def test_sector_notes_link_their_members(test_db, tmp_path):
+    from vectora import db as vdb
+    from vectora.vault import generator
+    d = "2026-08-23"
+    vdb.upsert(test_db, "symbols", [
+        {"symbol": "AAA", "sector": "Bank", "category": "A"}])
+    vdb.upsert(test_db, "ta_ratings", [
+        {"date": d, "symbol": "AAA", "score": 3, "band": "Buy", "votes": "[]",
+         "rsi": 55.0, "macd_hist": 0.1, "bb_pos": 0.5, "st_dir": 1}])
+    vdb.upsert(test_db, "sector_rs", [
+        {"date": d, "sector": "Bank", "n_symbols": 1, "ret_5d": 0.01,
+         "ret_21d": 0.05, "ret_63d": 0.1, "ret_126d": 0.2, "rs_21d": 0.02,
+         "rs_63d": 0.03, "rs_momentum": 0.01, "quadrant": "Leading"}])
+    generator.generate(test_db, d, vault_dir=tmp_path)
+    note = (tmp_path / "Sectors" / "Bank.md").read_text(encoding="utf-8")
+    assert "Leading" in note
+    assert "[[AAA]]" in note
+
+
+def test_company_note_survives_human_edits(test_db, tmp_path):
+    """A note the user has annotated must keep their text byte-identical."""
+    from vectora import db as vdb
+    from vectora.vault import generator
+    d = "2026-08-23"
+    vdb.upsert(test_db, "symbols", [
+        {"symbol": "AAA", "sector": "Bank", "category": "A"}])
+    vdb.upsert(test_db, "ta_ratings", [
+        {"date": d, "symbol": "AAA", "score": 1, "band": "Buy", "votes": "[]",
+         "rsi": 50.0, "macd_hist": 0.0, "bb_pos": 0.5, "st_dir": 1}])
+    generator.generate(test_db, d, vault_dir=tmp_path)
+    path = tmp_path / "Companies" / "AAA.md"
+    path.write_text(path.read_text(encoding="utf-8") + "\nMy own note.\n",
+                    encoding="utf-8")
+    generator.generate(test_db, d, vault_dir=tmp_path)
+    assert "My own note." in path.read_text(encoding="utf-8")
+
+
+def test_backfilling_an_old_journal_does_not_rewrite_current_notes(test_db,
+                                                                   tmp_path):
+    """Company notes describe where a stock stands NOW. Regenerating a
+    journal from six weeks ago must not overwrite them with that day's
+    posture — the vault would silently go stale."""
+    from vectora import db as vdb
+    from vectora.vault import generator
+    vdb.upsert(test_db, "symbols", [
+        {"symbol": "AAA", "sector": "Bank", "category": "A"}])
+    vdb.upsert(test_db, "ta_ratings", [
+        {"date": "2026-08-23", "symbol": "AAA", "score": 5, "band": "Buy",
+         "votes": "[]", "rsi": 60.0, "macd_hist": 0.2, "bb_pos": 0.8,
+         "st_dir": 1}])
+    generator.generate(test_db, "2026-08-23", vault_dir=tmp_path)
+    fresh = (tmp_path / "Companies" / "AAA.md").read_text(encoding="utf-8")
+    assert "+5" in fresh
+
+    generator.generate(test_db, "2026-07-21", vault_dir=tmp_path)
+    assert (tmp_path / "Journal" / "2026-07-21.md").exists()
+    after = (tmp_path / "Companies" / "AAA.md").read_text(encoding="utf-8")
+    assert after == fresh, "backfill rewrote a current-state note"

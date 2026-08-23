@@ -89,7 +89,7 @@ jobs:
           git config user.email "vectora-bot@users.noreply.github.com"
           # commit BEFORE pull: a dirty tracked file (the DuckDB) makes
           # `git pull --rebase` exit 128 before even checking freshness
-          git add -f data/raw data/vectora.duckdb data/reference data/archive vault reports docs/dashboard
+          git add -f data/raw data/vectora.duckdb data/state data/reference data/archive vault reports docs/dashboard
           git diff --cached --quiet || git commit -m "data: eod $(date +%F)"
           git pull --rebase --autostash
           git push

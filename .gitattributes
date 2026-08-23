@@ -22,9 +22,19 @@ models/**/*.txt -text
 *.pkl     binary
 
 # --- merge rules -------------------------------------------------------------
-# The DuckDB file mutates on both CI (bot data commits) and locally, and
-# binaries can't be merged. Rule: local side wins the merge, then the
-# idempotent gap-fill re-ingests anything the discarded side had
-# (`uv run python -m vectora run eod`). Requires once per clone:
-#   git config merge.ours.driver true
-data/vectora.duckdb merge=ours
+# The DuckDB file mutates on both CI and locally and git cannot merge a
+# binary. It used to carry `merge=ours`, which resolved that SILENTLY by
+# keeping one side, on the assumption that the idempotent gap-fill would
+# re-ingest whatever was discarded.
+#
+# That holds for prices and events. It does not hold for state no amount of
+# re-scraping rebuilds — above all model_registry, which records which model
+# is live. On 2026-08-23 a rebase discarded a freshly promoted model and the
+# system quietly went back to one trained through 2024-11-21. No error, no
+# failed build, nothing to notice.
+#
+# The rule is gone: a concurrent change now CONFLICTS, loudly, and a human
+# decides. The state that cannot be re-derived is additionally mirrored to
+# sorted JSON in data/state/, which merges as text and is restored on every
+# run (vectora/state.py), so the binary is a cache rather than the only copy.
+data/vectora.duckdb -merge

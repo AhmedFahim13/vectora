@@ -51,7 +51,7 @@ jobs:
         run: |
           git config user.name "vectora-bot"
           git config user.email "vectora-bot@users.noreply.github.com"
-          git add -f models reports data/vectora.duckdb
+          git add -f models reports data/vectora.duckdb data/state
           git diff --cached --quiet || git commit -m "train: ${{ github.event.inputs.target }} $(TZ=Asia/Dhaka date +%F)"
           git pull --rebase --autostash
           git push

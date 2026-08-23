@@ -56,6 +56,21 @@ def _rising(r, col) -> bool | None:
     return now > prev
 
 
+def _idle(value: float, lo: float, hi: float, label: str) -> str:
+    """Why a component abstained.
+
+    These rules are contrarian: an oscillator only votes when it is at an
+    extreme AND turning back. Saying "mid-range" when the reading is 8 out
+    of 100 is simply wrong, and a reader checking the number against the
+    prose loses trust in everything else on the page.
+    """
+    if value < lo:
+        return f"{label} {value:.0f} is oversold but still falling - no signal yet"
+    if value > hi:
+        return f"{label} {value:.0f} is overbought but still rising - no signal yet"
+    return f"{label} {value:.0f} is mid-range"
+
+
 def _vote(indicator: str, vote: int, reason: str) -> dict:
     return {"indicator": indicator, "vote": vote, "reason": reason}
 
@@ -141,7 +156,7 @@ def osc_votes(r: dict) -> list[dict]:
     elif c > 100 and _rising(r, "cci20") is False:
         out.append(_vote("CCI(20)", -1, f"CCI {c:.0f} is stretched high and falling"))
     else:
-        out.append(_vote("CCI(20)", 0, f"CCI {c:.0f} is mid-range"))
+        out.append(_vote("CCI(20)", 0, _idle(c, -100, 100, "CCI")))
 
     adx, dp, dm = r.get("adx14"), r.get("di_plus"), r.get("di_minus")
     if adx is None or dp is None or dm is None:
@@ -195,7 +210,7 @@ def osc_votes(r: dict) -> list[dict]:
         out.append(_vote("Stochastic RSI(14)", -1,
                          f"StochRSI {sr:.0f} is overbought and turning down"))
     else:
-        out.append(_vote("Stochastic RSI(14)", 0, f"StochRSI {sr:.0f} is mid-range"))
+        out.append(_vote("Stochastic RSI(14)", 0, _idle(sr, 20, 80, "StochRSI")))
 
     w = r.get("willr14")
     if w is None:
@@ -205,7 +220,7 @@ def osc_votes(r: dict) -> list[dict]:
     elif w > -20 and _rising(r, "willr14") is False:
         out.append(_vote("Williams %R(14)", -1, f"%R {w:.0f} is overbought and fading"))
     else:
-        out.append(_vote("Williams %R(14)", 0, f"%R {w:.0f} is mid-range"))
+        out.append(_vote("Williams %R(14)", 0, _idle(w, -80, -20, "%R")))
 
     bbp = r.get("bbp")
     if bbp is None:

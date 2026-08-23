@@ -10,9 +10,12 @@ import datetime as dt
 from vectora import calendar as cal
 from vectora.settings import DSE_BASE, MIN_QUALITY_SCORE
 
+MODEL_STALE_DAYS = 120   # weekly retrain; a quarter with no change is wrong
+
 
 def check(con, today: dt.date | None = None,
-          holidays: set | None = None, session=None) -> dict:
+          holidays: set | None = None, session=None,
+          state_root=None) -> dict:
     today = today or dt.date.today()
     hs = cal.load_holidays() if holidays is None else holidays
     expected = today if cal.is_trading_day(today, hs) \
@@ -51,6 +54,48 @@ def check(con, today: dt.date | None = None,
         "name": "predictions",
         "ok": pred_max is not None and str(pred_max) >= str(expected),
         "detail": f"latest prediction {pred_max}, expected {expected}"})
+
+    # the active model must be trained on recent data. Weekly retraining can
+    # run for a month and change nothing — a promotion guard that refuses
+    # every challenger, or a lost registry row, both leave a stale model
+    # serving predictions while every other check stays green. On 2026-08-23
+    # the live model's training data ended 2024-11-21, 21 months earlier.
+    # every target, not just the headline one: pinning this to g5_h10 hid
+    # that g10_h30 was still serving a model trained through 2024-11-21
+    rows = con.execute(
+        """
+        SELECT target, model_id, train_end FROM model_registry
+        WHERE family = 'lgbm' AND active ORDER BY target
+        """).fetchall()
+    if not rows:
+        checks.append({"name": "model_freshness", "ok": False,
+                       "detail": "no active model for any target"})
+    else:
+        stale = []
+        for target, _mid, train_end in rows:
+            age = (today - train_end).days if train_end else None
+            if age is None or age > MODEL_STALE_DAYS:
+                stale.append(f"{target} trained through {train_end} "
+                             f"({age} days ago)")
+        checks.append({
+            "name": "model_freshness",
+            "ok": not stale,
+            "detail": "; ".join(stale) if stale
+            else f"{len(rows)} active model(s) within "
+                 f"{MODEL_STALE_DAYS} days"})
+
+    # the mirror in data/state must agree with the database. A discarded
+    # binary merge shows up here and nowhere else — every other check stays
+    # green while an older model quietly serves predictions.
+    try:
+        from vectora import state as vstate
+        problems = vstate.divergence(con, state_root)
+    except Exception as exc:  # noqa: BLE001 - a broken mirror IS the finding
+        problems = [f"state mirror unreadable: {exc}"]
+    checks.append({
+        "name": "state_mirror",
+        "ok": not problems,
+        "detail": "; ".join(problems) if problems else "database matches mirror"})
 
     from vectora import db as vdb
     wm = vdb.get_watermark(con, "collect", "eod")

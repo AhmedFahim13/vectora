@@ -1,0 +1,36 @@
+<!-- vectora:begin -->
+# EGEN
+
+**IT Sector** | category B | as of [[Journal/2026-08-23|2026-08-23]]
+
+Sector view: [[Sectors/IT Sector|IT Sector]]
+
+## Technical posture
+
+| gauge | verdict | detail |
+|---|---|---|
+| Summary (26 indicators) | **Sell** | |
+| Moving averages | Hold | 7 up / 8 down |
+| Oscillators | Sell | 1 up / 5 down |
+| Six-family score | Buy | +3 |
+
+RSI 46 | SuperTrend up
+
+## Levels
+
+- Monthly pivot: 27.03
+- Nearest resistance: 27.03 (+5.2% away)
+- Nearest support: 25.37 (1.3% away)
+- 52-week range: 16.50 to 33.00
+
+## Fundamentals
+
+- Trailing P/E: 35.68
+- Latest cash dividend: 2.25% of face for 2025
+- Market cap: 1,972 mn
+- Free float: 70% of market cap
+
+## Track record
+
+2/11 resolved predictions reached their target
+<!-- vectora:end -->

@@ -135,3 +135,21 @@ def test_rate_frame_adds_columns_and_prev_shift_is_per_symbol():
         assert col in out.columns
     # row 2 (symbol B, first row) must not inherit symbol A's prior RSI
     assert out["osc_mean"][2] == 0.0
+
+
+def test_abstaining_at_an_extreme_says_so():
+    """A reading of 8 is not 'mid-range'. A reader who checks the number
+    against the prose and finds it wrong stops trusting the whole page."""
+    v = next(x for x in gauges.osc_votes(_row(stochrsi=8.0, prev_stochrsi=12.0))
+             if x["indicator"] == "Stochastic RSI(14)")
+    assert v["vote"] == 0
+    assert "oversold but still falling" in v["reason"]
+
+    v = next(x for x in gauges.osc_votes(_row(cci20=180.0, prev_cci20=150.0))
+             if x["indicator"] == "CCI(20)")
+    assert v["vote"] == 0
+    assert "overbought but still rising" in v["reason"]
+
+    v = next(x for x in gauges.osc_votes(_row(willr14=-50.0, prev_willr14=-55.0))
+             if x["indicator"] == "Williams %R(14)")
+    assert "mid-range" in v["reason"]
