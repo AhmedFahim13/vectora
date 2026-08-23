@@ -39,6 +39,13 @@ jobs:
       - name: Evaluate
         continue-on-error: true
         run: uv run python -m vectora run evaluate
+      - name: Backtest
+        if: always()
+        run: |
+          # profitability after costs, beside Brier. A better-calibrated
+          # model that loses money is not a better model.
+          uv run python -m vectora run backtest
+
       - name: Commit artifacts
         if: always()
         run: |

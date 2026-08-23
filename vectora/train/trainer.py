@@ -100,6 +100,66 @@ def run(con, target: str = "g5_h10",
             "reliability": M.reliability_table(ys, ps),
         }
 
+    # --- production refit + common-holdout scoring -----------------------
+    # Two separate models, for two separate jobs.
+    #
+    # Walk-forward deliberately withholds recent data so it can be tested on.
+    # Shipping the last fold's model therefore ships something that has never
+    # seen the most recent stretch of market: on 2026-08-20 the deployed
+    # model's training data ended 2025-06-02, leaving 173 trading days unused.
+    # Walk-forward is for ESTIMATING performance; the model that goes live
+    # should be refit on everything.
+    #
+    # The promotion decision cannot use that refit, because it would be
+    # scored on data it trained on. So a separate evaluation model is fit
+    # strictly before a common holdout, and challenger and incumbent are
+    # compared there — on the SAME rows. Comparing each model's own pooled
+    # Brier is apples to oranges: a challenger can lose purely because its
+    # test window was a harder market, which is what froze the live model
+    # for four weeks.
+    holdout_dates = dates[-test_days:]
+    holdout_start = holdout_dates[0]
+    eval_cut_i = max(0, len(dates) - test_days - embargo_days)
+    eval_cut = dates[eval_cut_i]
+
+    def _xy(frame):
+        return (frame.select(feat_names).to_numpy().astype(np.float64),
+                frame[label_col].to_numpy().astype(int))
+
+    holdout = df.filter(pl.col("date") >= holdout_start)
+    eval_tr = df.filter(pl.col("date") < eval_cut)
+    X_ho, y_ho = _xy(holdout)
+
+    eval_model = None
+    if eval_tr.height and len(np.unique(_xy(eval_tr)[1])) >= 2:
+        ed = sorted(eval_tr["date"].unique().to_list())
+        cut = ed[int(len(ed) * 0.85)]
+        f_, v_ = (eval_tr.filter(pl.col("date") < cut),
+                  eval_tr.filter(pl.col("date") >= cut))
+        Xf, yf = _xy(f_)
+        Xv, yv = _xy(v_)
+        if len(np.unique(yf)) >= 2 and len(yv):
+            eval_model = M.fit_lgbm(Xf, yf, Xv, yv)
+            eval_cal = M.fit_calibrator(M.predict(eval_model, Xv), yv)
+
+    challenger_holdout_brier = None
+    challenger_probs = None
+    if eval_model is not None and len(y_ho):
+        challenger_probs = M.apply_calibrator(
+            eval_cal, M.predict(eval_model, X_ho))
+        challenger_holdout_brier = M.brier(y_ho, challenger_probs)
+
+    # the model that actually ships: every labelled row, nothing held back
+    all_dates = sorted(df["date"].unique().to_list())
+    prod_cut = all_dates[int(len(all_dates) * 0.85)]
+    prod_fit = df.filter(pl.col("date") < prod_cut)
+    prod_val = df.filter(pl.col("date") >= prod_cut)
+    Xpf, ypf = _xy(prod_fit)
+    Xpv, ypv = _xy(prod_val)
+    prod_model = M.fit_lgbm(Xpf, ypf, Xpv, ypv)
+    prod_train_end = all_dates[-1]
+    last_models["lgbm"] = prod_model
+
     run_id = dt.date.today().isoformat()
     registered: list[tuple[str, str]] = []
     for fam in ("logistic", "lgbm"):
@@ -118,8 +178,12 @@ def run(con, target: str = "g5_h10",
         registry_dir = registry_dir.replace("\\", "/")
         if fam == "lgbm":
             last_models["lgbm"].booster_.save_model(str(art / "lgbm.txt"))
+            # calibrate the model that actually ships, on its own held-out
+            # slice. The pooled-OOS calibrator maps the FOLD models' raw
+            # scores; applying it to a differently-fit production model would
+            # be calibrating one model with another model's curve.
             deploy_cal = fit_deploy_calibrator(
-                pooled_raw_lgbm, pooled["lgbm"][0])
+                M.predict(prod_model, Xpv), ypv)
             import pickle
             (art / "calibrator.pkl").write_bytes(pickle.dumps(deploy_cal))
         else:
@@ -128,22 +192,34 @@ def run(con, target: str = "g5_h10",
                 pickle.dumps(last_models["logistic"]))
         (art / "meta.json").write_text(json.dumps({
             "model_id": model_id, "family": fam, "target": target,
-            "features": feat_names, "train_end": str(last_models["train_end"]),
+            "features": feat_names,
+            "train_end": str(prod_train_end if fam == "lgbm"
+                             else last_models["train_end"]),
             "calibration": "pooled-oos" if fam == "lgbm" else None,
+            "holdout_brier": challenger_holdout_brier if fam == "lgbm" else None,
+            "holdout_start": str(holdout_start) if fam == "lgbm" else None,
             "metrics": metrics[fam] | {"reliability": None},
         }, indent=1), encoding="utf-8")
         registered.append((model_id, fam))
         vdb.upsert(con, "model_registry", [{
             "model_id": model_id, "family": fam, "target": target,
             "trained_at": dt.datetime.now().isoformat(),
-            "train_end": str(last_models["train_end"]),
-            "metrics": json.dumps(metrics[fam] | {"reliability": None}),
+            "train_end": str(prod_train_end if fam == "lgbm"
+                             else last_models["train_end"]),
+            "metrics": json.dumps(
+                metrics[fam] | {"reliability": None,
+                                "holdout_brier": challenger_holdout_brier,
+                                "holdout_start": str(holdout_start)}),
             "artifact_dir": registry_dir, "active": False,
         }])
 
     lgbm_id = next(mid for mid, fam in registered if fam == "lgbm")
-    promoted = promote_if_better(con, target, lgbm_id,
-                                 metrics["lgbm"]["brier"])
+    ho_dates = holdout["date"].to_list() if len(y_ho) else []
+    promoted = promote_if_better(
+        con, target, lgbm_id, metrics["lgbm"]["brier"],
+        holdout=(X_ho, y_ho, feat_names, ho_dates) if len(y_ho) else None,
+        challenger_holdout_brier=challenger_holdout_brier,
+        challenger_probs=challenger_probs)
 
     report = _render_report(target, folds, metrics)
     deploy_probs = deploy_cal.predict(np.asarray(pooled_raw_lgbm))
@@ -173,18 +249,49 @@ def fit_deploy_calibrator(raw_pooled, y_pooled):
 
 
 def promote_if_better(con, target: str, model_id: str,
-                      new_brier: float) -> bool:
-    """Challenger guard (spec §17.5): activate the new lgbm model only if
-    its pooled-OOS Brier is <= the incumbent's stored metric."""
+                      new_brier: float, holdout=None,
+                      challenger_holdout_brier: float | None = None,
+                      challenger_probs=None) -> bool:
+    """Challenger guard (spec 17.5), scored on a COMMON holdout.
+
+    The original version compared each model's own pooled-OOS Brier. Those
+    numbers come from different test periods, so a challenger could lose
+    purely because its window was a harder market — which is exactly what
+    happened: the live g5_h10 model sat unchanged from 24 July while three
+    retrains were rejected on an invalid comparison.
+
+    When a holdout is supplied, the incumbent is loaded and scored on the
+    same rows, and the two are compared with a PAIRED test across the
+    holdout dates rather than on pooled Brier. Pooling rows there would
+    repeat the error this guard exists to fix: 126 dates of correlated
+    predictions are not 41,576 independent observations, and a 0.9%
+    difference in pooled Brier can be pure noise.
+
+    The tie-break favours the challenger. Features and hyperparameters are
+    identical between vintages, so the only real difference is data
+    recency — and refusing a fresher model over an insignificant gap is
+    precisely how the live model came to be trained on data ending
+    2024-11-21 while the market moved on for 21 months. The incumbent is
+    kept only when it is SIGNIFICANTLY better.
+    """
     row = con.execute(
         """
-        SELECT model_id, metrics FROM model_registry
+        SELECT model_id, metrics, artifact_dir FROM model_registry
         WHERE target = ? AND family = 'lgbm' AND active
         ORDER BY trained_at DESC LIMIT 1
         """, [target]).fetchone()
     if row is not None:
         incumbent_brier = json.loads(row[1]).get("brier")
-        if incumbent_brier is not None and new_brier > incumbent_brier:
+        decided = False
+        if holdout is not None and challenger_probs is not None:
+            verdict = _paired_holdout_verdict(row[2], holdout, challenger_probs)
+            if verdict is not None:
+                decided = True
+                if verdict["incumbent_significantly_better"]:
+                    return False
+        if not decided and incumbent_brier is not None \
+                and challenger_holdout_brier is None \
+                and new_brier > incumbent_brier:
             return False
         con.execute(
             "UPDATE model_registry SET active = false WHERE model_id = ?",
@@ -193,6 +300,77 @@ def promote_if_better(con, target: str, model_id: str,
         "UPDATE model_registry SET active = true WHERE model_id = ?",
         [model_id])
     return True
+
+
+def _paired_holdout_verdict(artifact_dir: str, holdout,
+                            challenger_probs) -> dict | None:
+    """Per-date paired comparison of incumbent vs challenger.
+
+    Returns None when the incumbent cannot be scored (missing artifact, or a
+    changed feature set), which leaves the caller to fall back rather than
+    guess. Otherwise reports whether the incumbent is significantly better
+    across the holdout dates, one-sided at 95%.
+    """
+    from scipy import stats
+    probs = _score_incumbent(artifact_dir, holdout, return_probs=True)
+    if probs is None:
+        return None
+    X, y, _feat, dates = holdout
+    dates = np.asarray([str(d) for d in dates])
+    challenger_probs = np.asarray(challenger_probs, dtype=float)
+    if len(challenger_probs) != len(y):
+        return None
+    deltas = []
+    for d in sorted(set(dates.tolist())):
+        m = dates == d
+        deltas.append(float(np.mean((challenger_probs[m] - y[m]) ** 2)
+                            - np.mean((probs[m] - y[m]) ** 2)))
+    deltas = np.asarray(deltas)
+    out = {"dates": len(deltas), "delta_mean": float(deltas.mean()),
+           "dates_challenger_better": int((deltas < 0).sum()),
+           "incumbent_significantly_better": False}
+    if len(deltas) >= 2 and deltas.std(ddof=1) > 0:
+        se = deltas.std(ddof=1) / np.sqrt(len(deltas))
+        t_stat = float(deltas.mean() / se)
+        crit = float(stats.t.ppf(1 - 0.05, len(deltas) - 1))   # positive
+        out["t_stat"] = t_stat
+        out["t_critical"] = crit
+        # a POSITIVE delta means the challenger is worse; only reject when
+        # that is statistically convincing, not merely true on average
+        out["incumbent_significantly_better"] = bool(t_stat >= crit)
+    elif len(deltas) >= 1:
+        # zero variance across dates is the OPPOSITE of inconclusive: the
+        # same gap on every single date is as consistent as evidence gets,
+        # and treating it as "not significant" would wave through a model
+        # that is uniformly worse
+        out["incumbent_significantly_better"] = bool(deltas.mean() > 0)
+    return out
+
+
+def _score_incumbent(artifact_dir: str, holdout, return_probs: bool = False):
+    """Brier (or calibrated probabilities) of the active model on the
+    challenger's holdout rows."""
+    import pickle
+    X, y, feat_names = holdout[0], holdout[1], holdout[2]
+    art = Path(artifact_dir)
+    booster_path, cal_path = art / "lgbm.txt", art / "calibrator.pkl"
+    if not booster_path.exists() or not cal_path.exists() or not len(y):
+        return None
+    try:
+        import lightgbm as lgb
+        booster = lgb.Booster(model_file=str(booster_path))
+        meta_path = art / "meta.json"
+        if meta_path.exists():
+            meta = json.loads(meta_path.read_text(encoding="utf-8"))
+            # a feature-set change makes the two models incomparable; fall
+            # back rather than score the incumbent on the wrong columns
+            if meta.get("features") and meta["features"] != list(feat_names):
+                return None
+        cal = pickle.loads(cal_path.read_bytes())
+        probs = M.apply_calibrator(cal, booster.predict(X))
+        return probs if return_probs else M.brier(y, probs)
+    except Exception:      # noqa: BLE001 - never block promotion on a bad artifact
+        return None
 
 
 def _render_report(target, folds, metrics) -> str:

@@ -31,7 +31,7 @@ def main(argv: list[str] | None = None) -> int:
     run.add_argument("stage",
                      choices=["eod", "train", "predict", "digest", "outcomes",
                               "vault", "regime", "events", "zscan", "intraday", "evaluate",
-                              "health", "dashboard", "ta", "maintenance"])
+                              "health", "dashboard", "ta", "maintenance", "backtest"])
     run.add_argument("--date", default=None,
                      help="YYYY-MM-DD (default: gap-fill up to today)")
     run.add_argument("--target", default="g5_h10",
@@ -205,6 +205,19 @@ def main(argv: list[str] | None = None) -> int:
                             if k2 != "reliability"}
                         for t, m in result.get("targets", {}).items()}},
               indent=1, default=str))
+        return 0
+
+    if args.command == "run" and args.stage == "backtest":
+        from vectora import db as vdb
+        from vectora.backtest import runner as btrunner
+        from vectora.settings import DB_PATH
+        con = vdb.connect(DB_PATH)
+        try:
+            vdb.init_schema(con)
+            result = btrunner.run(con)
+        finally:
+            con.close()
+        print(json.dumps(result, indent=1, default=str))
         return 0
 
     if args.command == "run" and args.stage == "maintenance":
