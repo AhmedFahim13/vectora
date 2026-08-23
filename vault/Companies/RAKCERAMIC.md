@@ -1,6 +1,8 @@
 <!-- vectora:begin -->
 # RAKCERAMIC
 
+#posture/strong-buy #sector/ceramics-sector #category/a
+
 **Ceramics Sector** | category A | as of [[Journal/2026-08-23|2026-08-23]]
 
 Sector view: [[Sectors/Ceramics Sector|Ceramics Sector]]

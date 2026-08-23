@@ -1,6 +1,8 @@
 <!-- vectora:begin -->
 # IT Sector
 
+#sector-note #phase/improving
+
 Phase: **Improving** | as of [[Journal/2026-08-23|2026-08-23]]
 
 | measure | value |

@@ -1,6 +1,8 @@
 <!-- vectora:begin -->
 # BDTHAIFOOD
 
+#posture/buy #sector/food-allied #category/b
+
 **Food & Allied** | category B | as of [[Journal/2026-08-23|2026-08-23]]
 
 Sector view: [[Sectors/Food & Allied|Food & Allied]]

@@ -1,6 +1,8 @@
 <!-- vectora:begin -->
 # MEGHNACEM
 
+#posture/strong-sell #sector/cement #category/z
+
 **Cement** | category Z | as of [[Journal/2026-08-23|2026-08-23]]
 
 Sector view: [[Sectors/Cement|Cement]]

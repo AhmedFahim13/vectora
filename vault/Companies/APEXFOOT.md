@@ -1,6 +1,8 @@
 <!-- vectora:begin -->
 # APEXFOOT
 
+#posture/hold #sector/tannery-industries #category/a
+
 **Tannery Industries** | category A | as of [[Journal/2026-08-23|2026-08-23]]
 
 Sector view: [[Sectors/Tannery Industries|Tannery Industries]]

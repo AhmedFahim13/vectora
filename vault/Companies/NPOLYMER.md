@@ -1,6 +1,8 @@
 <!-- vectora:begin -->
 # NPOLYMER
 
+#posture/sell #sector/engineering #category/b
+
 **Engineering** | category B | as of [[Journal/2026-08-23|2026-08-23]]
 
 Sector view: [[Sectors/Engineering|Engineering]]

@@ -1,6 +1,8 @@
 <!-- vectora:begin -->
 # HEIDELBCEM
 
+#posture/strong-sell #sector/cement #category/a
+
 **Cement** | category A | as of [[Journal/2026-08-23|2026-08-23]]
 
 Sector view: [[Sectors/Cement|Cement]]

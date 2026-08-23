@@ -1,6 +1,8 @@
 <!-- vectora:begin -->
 # CENTRALPHL
 
+#posture/sell #sector/pharmaceuticals-chemicals #category/z
+
 **Pharmaceuticals & Chemicals** | category Z | as of [[Journal/2026-08-23|2026-08-23]]
 
 Sector view: [[Sectors/Pharmaceuticals & Chemicals|Pharmaceuticals & Chemicals]]

@@ -1,6 +1,8 @@
 <!-- vectora:begin -->
 # BESTHLDNG
 
+#posture/sell #sector/travel-leisure #category/z #risk/thin-float
+
 **Travel & Leisure** | category Z | as of [[Journal/2026-08-23|2026-08-23]]
 
 Sector view: [[Sectors/Travel & Leisure|Travel & Leisure]]

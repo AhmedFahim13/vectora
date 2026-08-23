@@ -1,6 +1,8 @@
 <!-- vectora:begin -->
 # 2026-08-10_g5_h10_NORTHRNINS
 
+#signal
+
 [[NORTHRNINS]] | target g5_h10 | 57% calibrated
 
 NORTHRNINS: 57% calibrated probability of the g5_h10 move.

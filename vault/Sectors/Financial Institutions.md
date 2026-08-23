@@ -1,6 +1,8 @@
 <!-- vectora:begin -->
 # Financial Institutions
 
+#sector-note #phase/weakening
+
 Phase: **Weakening** | as of [[Journal/2026-08-23|2026-08-23]]
 
 | measure | value |

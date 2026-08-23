@@ -1,6 +1,8 @@
 <!-- vectora:begin -->
 # 2026-07-27_g5_h10_DESHBANDHU
 
+#signal
+
 [[DESHBANDHU]] | target g5_h10 | 58% calibrated
 
 DESHBANDHU: 58% calibrated probability of the g5_h10 move.

@@ -1,6 +1,8 @@
 <!-- vectora:begin -->
 # TECHNODRUG
 
+#posture/hold #sector/pharmaceuticals-chemicals #category/a
+
 **Pharmaceuticals & Chemicals** | category A | as of [[Journal/2026-08-23|2026-08-23]]
 
 Sector view: [[Sectors/Pharmaceuticals & Chemicals|Pharmaceuticals & Chemicals]]

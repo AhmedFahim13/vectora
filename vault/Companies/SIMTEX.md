@@ -1,6 +1,8 @@
 <!-- vectora:begin -->
 # SIMTEX
 
+#posture/strong-sell #sector/textile #category/a
+
 **Textile** | category A | as of [[Journal/2026-08-23|2026-08-23]]
 
 Sector view: [[Sectors/Textile|Textile]]

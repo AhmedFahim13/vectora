@@ -1,6 +1,8 @@
 <!-- vectora:begin -->
 # MHSML
 
+#posture/hold #sector/textile #category/b
+
 **Textile** | category B | as of [[Journal/2026-08-23|2026-08-23]]
 
 Sector view: [[Sectors/Textile|Textile]]

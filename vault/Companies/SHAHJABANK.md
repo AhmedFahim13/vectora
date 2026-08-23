@@ -1,6 +1,8 @@
 <!-- vectora:begin -->
 # SHAHJABANK
 
+#posture/buy #sector/bank #category/a
+
 **Bank** | category A | as of [[Journal/2026-08-23|2026-08-23]]
 
 Sector view: [[Sectors/Bank|Bank]]

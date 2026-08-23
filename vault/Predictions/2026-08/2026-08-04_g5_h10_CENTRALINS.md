@@ -1,6 +1,8 @@
 <!-- vectora:begin -->
 # 2026-08-04_g5_h10_CENTRALINS
 
+#signal
+
 [[CENTRALINS]] | target g5_h10 | 58% calibrated
 
 CENTRALINS: 58% calibrated probability of the g5_h10 move.

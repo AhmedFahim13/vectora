@@ -1,6 +1,8 @@
 <!-- vectora:begin -->
 # BPML
 
+#posture/sell #sector/paper-printing #category/z
+
 **Paper & Printing** | category Z | as of [[Journal/2026-08-23|2026-08-23]]
 
 Sector view: [[Sectors/Paper & Printing|Paper & Printing]]

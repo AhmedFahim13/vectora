@@ -32,6 +32,29 @@ def _fmt(v, spec="{:.2f}", dash="-"):
     return dash if v is None else spec.format(v)
 
 
+def _slug(text: str) -> str:
+    """A tag-safe slug: Obsidian tags allow letters, digits, - _ and /."""
+    out = []
+    for ch in str(text).lower():
+        if ch.isalnum():
+            out.append(ch)
+        elif ch in " -_&":
+            out.append("-")
+    return "-".join(filter(None, "".join(out).split("-")))
+
+
+def _tags(*tags: str) -> str:
+    """Inline tag line.
+
+    Graph colour groups are driven by TAGS rather than by searching note
+    text. A query like `"**Strong Buy**"` depends on how the search index
+    treats markdown emphasis; a tag is indexed as a first-class token and
+    matches exactly. Tags also light up the tag pane and make the vault
+    searchable by posture, which note text does not.
+    """
+    return " ".join(f"#{t}" for t in tags if t)
+
+
 def _write_companies(con, date_str: str, vault_dir: Path,
                      extra: set | None = None) -> int:
     """One note per rated symbol, carrying the whole day's analysis.
@@ -87,7 +110,15 @@ def _write_companies(con, date_str: str, vault_dir: Path,
          room_up, room_dn, hi252, lo252) = row
         trend = "up" if (st_dir or 0) > 0 else (
             "down" if (st_dir or 0) < 0 else "flat")
-        body = [f"# {sym}", "",
+        f_early = funds.get(sym)
+        thin_early = False
+        if f_early and f_early[4] and f_early[5]:
+            thin_early = (f_early[5] / f_early[4]) <= 0.20
+        tags = [f"posture/{_slug(summary)}" if summary else "posture/unrated",
+                f"sector/{_slug(sector)}" if sector else "sector/unclassified",
+                f"category/{_slug(cat)}" if cat else None,
+                "risk/thin-float" if thin_early else None]
+        body = [f"# {sym}", "", _tags(*[t for t in tags if t]), "",
                 f"**{sector or 'Unclassified'}** | category {cat or '?'} | "
                 f"as of [[Journal/{date_str}|{date_str}]]", ""]
         if sector:
@@ -276,6 +307,7 @@ def _write_sectors(con, date_str: str, vault_dir: Path) -> int:
             WHERE r.date = ? AND s.sector = ? ORDER BY r.score DESC
             """, [date_str, sector]).fetchall()]
         body = [f"# {sector}", "",
+                _tags("sector-note", f"phase/{_slug(quad)}"), "",
                 f"Phase: **{quad}** | as of [[Journal/{date_str}|{date_str}]]",
                 "", "| measure | value |", "|---|---|",
                 f"| 21-day return | {_fmt(r21, '{:+.2%}')} |",
@@ -327,7 +359,7 @@ def generate(con, date_str: str, vault_dir: Path = VAULT_DIR) -> dict:
         "SELECT regime FROM regimes WHERE date = ?", [date_str]).fetchone()
     q = quality[0] if quality else "n/a"
     reg = regime[0] if regime else "unclassified"
-    lines = [f"# Journal {date_str}", "",
+    lines = [f"# Journal {date_str}", "", _tags("journal"), "",
              f"{len(preds)} predictions | {len(signals)} signal(s) | "
              f"quality {q} | regime {reg}", ""]
     if signals:
@@ -381,7 +413,7 @@ def generate(con, date_str: str, vault_dir: Path = VAULT_DIR) -> dict:
 
     # Prediction notes (signals only) ----------------------------------------
     for pid, symbol, target, prob, _sig, _rea, rendered in signals:
-        body = [f"# {pid}", "",
+        body = [f"# {pid}", "", _tags("signal"), "",
                 f"[[{symbol}]] | target {target} | {prob:.0%} calibrated", "",
                 rendered or "(no explanation stored)", "",
                 "## Outcome", "_pending resolution_"]

@@ -1,6 +1,8 @@
 <!-- vectora:begin -->
 # APEXTANRY
 
+#posture/sell #sector/tannery-industries #category/b
+
 **Tannery Industries** | category B | as of [[Journal/2026-08-23|2026-08-23]]
 
 Sector view: [[Sectors/Tannery Industries|Tannery Industries]]

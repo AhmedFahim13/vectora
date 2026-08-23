@@ -1,6 +1,8 @@
 <!-- vectora:begin -->
 # 2026-08-02_g5_h10_QUEENSOUTH
 
+#signal
+
 [[QUEENSOUTH]] | target g5_h10 | 62% calibrated
 
 QUEENSOUTH: 62% calibrated probability of the g5_h10 move.

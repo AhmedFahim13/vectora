@@ -1,6 +1,8 @@
 <!-- vectora:begin -->
 # NFML
 
+#posture/sell #sector/miscellaneous #category/b
+
 **Miscellaneous** | category B | as of [[Journal/2026-08-23|2026-08-23]]
 
 Sector view: [[Sectors/Miscellaneous|Miscellaneous]]

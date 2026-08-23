@@ -1,6 +1,8 @@
 <!-- vectora:begin -->
 # ACMEPL
 
+#posture/hold #sector/pharmaceuticals-chemicals #category/b
+
 **Pharmaceuticals & Chemicals** | category B | as of [[Journal/2026-08-23|2026-08-23]]
 
 Sector view: [[Sectors/Pharmaceuticals & Chemicals|Pharmaceuticals & Chemicals]]

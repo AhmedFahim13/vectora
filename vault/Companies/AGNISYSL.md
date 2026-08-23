@@ -1,6 +1,8 @@
 <!-- vectora:begin -->
 # AGNISYSL
 
+#posture/hold #sector/it-sector #category/b
+
 **IT Sector** | category B | as of [[Journal/2026-08-23|2026-08-23]]
 
 Sector view: [[Sectors/IT Sector|IT Sector]]

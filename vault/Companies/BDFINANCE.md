@@ -1,6 +1,8 @@
 <!-- vectora:begin -->
 # BDFINANCE
 
+#posture/sell #sector/financial-institutions #category/z
+
 **Financial Institutions** | category Z | as of [[Journal/2026-08-23|2026-08-23]]
 
 Sector view: [[Sectors/Financial Institutions|Financial Institutions]]

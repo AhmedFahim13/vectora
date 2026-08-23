@@ -1,6 +1,8 @@
 <!-- vectora:begin -->
 # GP
 
+#posture/strong-sell #sector/telecommunication #category/a #risk/thin-float
+
 **Telecommunication** | category A | as of [[Journal/2026-08-23|2026-08-23]]
 
 Sector view: [[Sectors/Telecommunication|Telecommunication]]

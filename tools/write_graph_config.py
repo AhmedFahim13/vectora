@@ -5,15 +5,20 @@ every zoom level, and forces tuned for a vault an order of magnitude smaller
 than this one. This is generated rather than hand-edited so it survives a
 vault rebuild and stays in version control with the rest of the system.
 
-The colour groups are the point. They are search queries evaluated live by
+The colour groups are the point. They are tag queries evaluated live by
 Obsidian, so the graph becomes a market state view rather than decoration:
-a company note currently carrying a Strong Buy summary is green tonight and
-red next month if the posture flips, with no regeneration.
+a company tagged #posture/strong-buy tonight is green, and red next month
+when the posture flips, with no regeneration of anything.
 
-The three company queries are mutually exclusive by construction — the
-posture groups exclude "thin float" — so the result does not depend on
-which group Obsidian happens to evaluate first. Risk wins over posture on
-purpose: a Strong Buy you cannot safely exit should not read as green.
+Tags rather than note text is a correctness choice, not a style one. A
+content query such as '"**Strong Buy**"' depends on how the search index
+handles markdown emphasis and quietly matched nothing; a tag is a
+first-class token and matches exactly.
+
+The company queries are mutually exclusive by construction — every posture
+group excludes #risk/thin-float — so the result does not depend on which
+group Obsidian evaluates first. Risk wins over posture on purpose: a Strong
+Buy you cannot safely exit should not read as green.
 """
 import json
 from pathlib import Path
@@ -26,16 +31,25 @@ def _rgb(hex_colour: str) -> int:
 
 
 COLOR_GROUPS = [
-    # risk first in the file for readability; the queries are exclusive
-    {"query": 'path:Companies "thin float"', "color": "#F59E0B"},
-    {"query": 'path:Companies "**Strong Buy**" -"thin float"',
+    # Tags, not note text. A content query like `"**Strong Buy**"` depends on
+    # how the search index treats markdown emphasis; a tag is a first-class
+    # token that matches exactly, every time.
+    #
+    # Risk is listed first and deliberately wins over posture: a Strong Buy
+    # you could not safely exit should not read as green.
+    {"query": "tag:#risk/thin-float", "color": "#F59E0B"},
+    {"query": "tag:#posture/strong-buy -tag:#risk/thin-float",
      "color": "#22C55E"},
-    {"query": 'path:Companies "**Strong Sell**" -"thin float"',
+    {"query": "tag:#posture/buy -tag:#risk/thin-float", "color": "#4ADE80"},
+    {"query": "tag:#posture/strong-sell -tag:#risk/thin-float",
      "color": "#EF4444"},
-    {"query": "path:Sectors", "color": "#14B8A6"},
-    {"query": "path:Predictions", "color": "#A855F7"},
-    {"query": "path:Journal", "color": "#64748B"},
-    {"query": "path:Evaluations", "color": "#3B82F6"},
+    {"query": "tag:#posture/sell -tag:#risk/thin-float", "color": "#FB7185"},
+    {"query": "tag:#posture/hold -tag:#risk/thin-float", "color": "#94A3B8"},
+    {"query": "tag:#sector-note", "color": "#22D3EE"},
+    {"query": "tag:#signal", "color": "#C084FC"},
+    {"query": "tag:#journal", "color": "#475569"},
+    {"query": "path:Screens OR path:Postures OR path:Evaluations",
+     "color": "#FBBF24"},
 ]
 
 GRAPH = {
@@ -52,20 +66,22 @@ GRAPH = {
     ],
     "collapse-display": False,
     "showArrow": False,
-    # -1.4 keeps labels hidden until you zoom in. At 0 every one of 500+
-    # labels draws at once, which is what made the graph unreadable.
-    "textFadeMultiplier": -1.4,
-    "nodeSizeMultiplier": 1.25,   # let sector and journal hubs read as hubs
-    "lineSizeMultiplier": 0.55,   # thousands of links; thin them down
+    # negative keeps labels hidden until you zoom in. At 0, every one of
+    # 540 labels draws at once, which is what made the graph a grey wall.
+    "textFadeMultiplier": -1.1,
+    "nodeSizeMultiplier": 1.45,   # let sector and journal hubs read as hubs
+    "lineSizeMultiplier": 0.35,   # thousands of links; thin them down
     "collapse-forces": False,
-    # Tuned for ~520 nodes with dense sector membership. Weaker centring and
-    # weaker links let sectors separate into their own clusters instead of
-    # collapsing into one ball; stronger repulsion keeps names legible.
-    "centerStrength": 0.32,
-    "repelStrength": 14.5,
-    "linkStrength": 0.55,
-    "linkDistance": 105,
-    "scale": 0.42,
+    # Tuned for ~540 nodes with dense sector membership. The first attempt
+    # (centre 0.32, repel 14.5, link 0.55, distance 105) still produced a
+    # single ball: centring and link strength were both pulling inward
+    # faster than repulsion could push out. Near-zero centring, weak links
+    # and a long rest length let each sector settle into its own lobe.
+    "centerStrength": 0.10,
+    "repelStrength": 20,
+    "linkStrength": 0.25,
+    "linkDistance": 320,
+    "scale": 0.30,
     "close": False,
 }
 

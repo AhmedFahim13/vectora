@@ -1,6 +1,8 @@
 <!-- vectora:begin -->
 # STANCERAM
 
+#posture/sell #sector/ceramics-sector #category/z
+
 **Ceramics Sector** | category Z | as of [[Journal/2026-08-23|2026-08-23]]
 
 Sector view: [[Sectors/Ceramics Sector|Ceramics Sector]]

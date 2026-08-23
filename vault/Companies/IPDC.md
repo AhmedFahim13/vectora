@@ -1,6 +1,8 @@
 <!-- vectora:begin -->
 # IPDC
 
+#posture/buy #sector/financial-institutions #category/a
+
 **Financial Institutions** | category A | as of [[Journal/2026-08-23|2026-08-23]]
 
 Sector view: [[Sectors/Financial Institutions|Financial Institutions]]

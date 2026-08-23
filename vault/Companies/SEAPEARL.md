@@ -1,6 +1,8 @@
 <!-- vectora:begin -->
 # SEAPEARL
 
+#posture/buy #sector/travel-leisure #category/b
+
 **Travel & Leisure** | category B | as of [[Journal/2026-08-23|2026-08-23]]
 
 Sector view: [[Sectors/Travel & Leisure|Travel & Leisure]]

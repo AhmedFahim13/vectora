@@ -1,6 +1,8 @@
 <!-- vectora:begin -->
 # PROGRESLIF
 
+#posture/strong-sell #sector/insurance #category/z
+
 **Insurance** | category Z | as of [[Journal/2026-08-23|2026-08-23]]
 
 Sector view: [[Sectors/Insurance|Insurance]]

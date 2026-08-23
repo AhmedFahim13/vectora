@@ -1,6 +1,8 @@
 <!-- vectora:begin -->
 # SAPORTL
 
+#posture/buy #sector/services-real-estate #category/a
+
 **Services & Real Estate** | category A | as of [[Journal/2026-08-23|2026-08-23]]
 
 Sector view: [[Sectors/Services & Real Estate|Services & Real Estate]]

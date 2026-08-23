@@ -1,6 +1,8 @@
 <!-- vectora:begin -->
 # Ceramics Sector
 
+#sector-note #phase/lagging
+
 Phase: **Lagging** | as of [[Journal/2026-08-23|2026-08-23]]
 
 | measure | value |

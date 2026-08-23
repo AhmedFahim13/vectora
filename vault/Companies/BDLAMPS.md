@@ -1,6 +1,8 @@
 <!-- vectora:begin -->
 # BDLAMPS
 
+#posture/buy #sector/engineering #category/a
+
 **Engineering** | category A | as of [[Journal/2026-08-23|2026-08-23]]
 
 Sector view: [[Sectors/Engineering|Engineering]]

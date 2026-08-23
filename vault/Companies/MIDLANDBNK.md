@@ -1,6 +1,8 @@
 <!-- vectora:begin -->
 # MIDLANDBNK
 
+#posture/strong-sell #sector/bank #category/b #risk/thin-float
+
 **Bank** | category B | as of [[Journal/2026-08-23|2026-08-23]]
 
 Sector view: [[Sectors/Bank|Bank]]

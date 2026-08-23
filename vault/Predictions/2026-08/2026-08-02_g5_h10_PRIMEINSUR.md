@@ -1,6 +1,8 @@
 <!-- vectora:begin -->
 # 2026-08-02_g5_h10_PRIMEINSUR
 
+#signal
+
 [[PRIMEINSUR]] | target g5_h10 | 58% calibrated
 
 PRIMEINSUR: 58% calibrated probability of the g5_h10 move.

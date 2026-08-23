@@ -1,6 +1,8 @@
 <!-- vectora:begin -->
 # JUTESPINN
 
+#posture/sell #sector/jute #category/z
+
 **Jute** | category Z | as of [[Journal/2026-08-23|2026-08-23]]
 
 Sector view: [[Sectors/Jute|Jute]]

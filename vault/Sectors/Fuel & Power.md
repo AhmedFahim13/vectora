@@ -1,6 +1,8 @@
 <!-- vectora:begin -->
 # Fuel & Power
 
+#sector-note #phase/leading
+
 Phase: **Leading** | as of [[Journal/2026-08-23|2026-08-23]]
 
 | measure | value |

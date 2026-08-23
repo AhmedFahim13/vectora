@@ -1,6 +1,8 @@
 <!-- vectora:begin -->
 # SPCERAMICS
 
+#posture/sell #sector/ceramics-sector #category/b
+
 **Ceramics Sector** | category B | as of [[Journal/2026-08-23|2026-08-23]]
 
 Sector view: [[Sectors/Ceramics Sector|Ceramics Sector]]

@@ -1,6 +1,8 @@
 <!-- vectora:begin -->
 # DBLPBOND
 
+#posture/hold #sector/corporate-bond #category/a
+
 **Corporate Bond** | category A | as of [[Journal/2026-08-23|2026-08-23]]
 
 Sector view: [[Sectors/Corporate Bond|Corporate Bond]]

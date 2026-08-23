@@ -1,6 +1,8 @@
 <!-- vectora:begin -->
 # ICB
 
+#posture/strong-sell #sector/financial-institutions #category/b #risk/thin-float
+
 **Financial Institutions** | category B | as of [[Journal/2026-08-23|2026-08-23]]
 
 Sector view: [[Sectors/Financial Institutions|Financial Institutions]]

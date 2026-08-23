@@ -1,6 +1,8 @@
 <!-- vectora:begin -->
 # UNIQUEHRL
 
+#posture/sell #sector/travel-leisure #category/a
+
 **Travel & Leisure** | category A | as of [[Journal/2026-08-23|2026-08-23]]
 
 Sector view: [[Sectors/Travel & Leisure|Travel & Leisure]]

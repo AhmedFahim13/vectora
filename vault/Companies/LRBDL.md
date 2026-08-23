@@ -1,6 +1,8 @@
 <!-- vectora:begin -->
 # LRBDL
 
+#posture/hold #sector/fuel-power #category/z
+
 **Fuel & Power** | category Z | as of [[Journal/2026-08-23|2026-08-23]]
 
 Sector view: [[Sectors/Fuel & Power|Fuel & Power]]

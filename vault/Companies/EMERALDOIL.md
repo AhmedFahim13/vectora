@@ -1,6 +1,8 @@
 <!-- vectora:begin -->
 # EMERALDOIL
 
+#posture/strong-buy #sector/food-allied #category/z
+
 **Food & Allied** | category Z | as of [[Journal/2026-08-23|2026-08-23]]
 
 Sector view: [[Sectors/Food & Allied|Food & Allied]]

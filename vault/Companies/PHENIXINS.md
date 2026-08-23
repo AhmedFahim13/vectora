@@ -1,6 +1,8 @@
 <!-- vectora:begin -->
 # PHENIXINS
 
+#posture/buy #sector/insurance #category/a
+
 **Insurance** | category A | as of [[Journal/2026-08-23|2026-08-23]]
 
 Sector view: [[Sectors/Insurance|Insurance]]

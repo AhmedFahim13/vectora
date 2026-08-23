@@ -1,6 +1,8 @@
 <!-- vectora:begin -->
 # BDCOM
 
+#posture/sell #sector/it-sector #category/a
+
 **IT Sector** | category A | as of [[Journal/2026-08-23|2026-08-23]]
 
 Sector view: [[Sectors/IT Sector|IT Sector]]

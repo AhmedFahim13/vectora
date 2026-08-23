@@ -1,6 +1,8 @@
 <!-- vectora:begin -->
 # HAKKANIPUL
 
+#posture/sell #sector/paper-printing #category/b
+
 **Paper & Printing** | category B | as of [[Journal/2026-08-23|2026-08-23]]
 
 Sector view: [[Sectors/Paper & Printing|Paper & Printing]]

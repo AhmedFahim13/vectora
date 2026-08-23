@@ -1,6 +1,8 @@
 <!-- vectora:begin -->
 # MIRACLEIND
 
+#posture/strong-sell #sector/miscellaneous #category/z
+
 **Miscellaneous** | category Z | as of [[Journal/2026-08-23|2026-08-23]]
 
 Sector view: [[Sectors/Miscellaneous|Miscellaneous]]

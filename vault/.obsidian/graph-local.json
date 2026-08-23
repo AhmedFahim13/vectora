@@ -8,52 +8,73 @@
   "collapse-color-groups": false,
   "colorGroups": [
     {
-      "query": "path:Companies \"thin float\"",
+      "query": "tag:#risk/thin-float",
       "color": {
         "a": 1,
         "rgb": 16096779
       }
     },
     {
-      "query": "path:Companies \"**Strong Buy**\" -\"thin float\"",
+      "query": "tag:#posture/strong-buy -tag:#risk/thin-float",
       "color": {
         "a": 1,
         "rgb": 2278750
       }
     },
     {
-      "query": "path:Companies \"**Strong Sell**\" -\"thin float\"",
+      "query": "tag:#posture/buy -tag:#risk/thin-float",
+      "color": {
+        "a": 1,
+        "rgb": 4906624
+      }
+    },
+    {
+      "query": "tag:#posture/strong-sell -tag:#risk/thin-float",
       "color": {
         "a": 1,
         "rgb": 15680580
       }
     },
     {
-      "query": "path:Sectors",
+      "query": "tag:#posture/sell -tag:#risk/thin-float",
       "color": {
         "a": 1,
-        "rgb": 1357990
+        "rgb": 16478597
       }
     },
     {
-      "query": "path:Predictions",
+      "query": "tag:#posture/hold -tag:#risk/thin-float",
       "color": {
         "a": 1,
-        "rgb": 11032055
+        "rgb": 9741240
       }
     },
     {
-      "query": "path:Journal",
+      "query": "tag:#sector-note",
       "color": {
         "a": 1,
-        "rgb": 6583435
+        "rgb": 2282478
       }
     },
     {
-      "query": "path:Evaluations",
+      "query": "tag:#signal",
       "color": {
         "a": 1,
-        "rgb": 3900150
+        "rgb": 12616956
+      }
+    },
+    {
+      "query": "tag:#journal",
+      "color": {
+        "a": 1,
+        "rgb": 4674921
+      }
+    },
+    {
+      "query": "path:Screens OR path:Postures OR path:Evaluations",
+      "color": {
+        "a": 1,
+        "rgb": 16498468
       }
     }
   ],

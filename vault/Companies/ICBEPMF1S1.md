@@ -1,6 +1,8 @@
 <!-- vectora:begin -->
 # ICBEPMF1S1
 
+#posture/sell #sector/mutual-funds #category/a
+
 **Mutual Funds** | category A | as of [[Journal/2026-08-23|2026-08-23]]
 
 Sector view: [[Sectors/Mutual Funds|Mutual Funds]]

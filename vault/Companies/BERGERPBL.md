@@ -1,6 +1,8 @@
 <!-- vectora:begin -->
 # BERGERPBL
 
+#posture/buy #sector/miscellaneous #category/a #risk/thin-float
+
 **Miscellaneous** | category A | as of [[Journal/2026-08-23|2026-08-23]]
 
 Sector view: [[Sectors/Miscellaneous|Miscellaneous]]

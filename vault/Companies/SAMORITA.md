@@ -1,6 +1,8 @@
 <!-- vectora:begin -->
 # SAMORITA
 
+#posture/buy #sector/services-real-estate #category/b
+
 **Services & Real Estate** | category B | as of [[Journal/2026-08-23|2026-08-23]]
 
 Sector view: [[Sectors/Services & Real Estate|Services & Real Estate]]

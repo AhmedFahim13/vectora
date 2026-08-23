@@ -1,6 +1,8 @@
 <!-- vectora:begin -->
 # GQBALLPEN
 
+#posture/sell #sector/miscellaneous #category/a
+
 **Miscellaneous** | category A | as of [[Journal/2026-08-23|2026-08-23]]
 
 Sector view: [[Sectors/Miscellaneous|Miscellaneous]]
