@@ -3,7 +3,7 @@
 
 #posture/sell #sector/miscellaneous #category/a
 
-**Miscellaneous** | category A | as of [[Journal/2026-08-23|2026-08-23]]
+**Miscellaneous** | category A | as of [[Journal/2026-08-25|2026-08-25]]
 
 Sector view: [[Sectors/Miscellaneous|Miscellaneous]]
 
@@ -12,17 +12,17 @@ Sector view: [[Sectors/Miscellaneous|Miscellaneous]]
 | gauge | verdict | detail |
 |---|---|---|
 | Summary (26 indicators) | **Sell** | |
-| Moving averages | Strong Sell | 3 up / 12 down |
-| Oscillators | Sell | 1 up / 5 down |
-| Six-family score | Sell | -3 |
+| Moving averages | Sell | 4 up / 11 down |
+| Oscillators | Hold | 4 up / 4 down |
+| Six-family score | Sell | -5 |
 
-RSI 36 | SuperTrend down
+RSI 38 | SuperTrend down
 
 ## Levels
 
 - Monthly pivot: 123.57
-- Nearest resistance: 123.57 (+9.5% away)
-- Nearest support: 109.47 (3.0% away)
+- Nearest resistance: 123.57 (+9.2% away)
+- Nearest support: 111.80 (1.2% away)
 - 52-week range: 82.60 to 131.40
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 36 | SuperTrend down
 
 ## Track record
 
-0/11 resolved predictions reached their target
+0/13 resolved predictions reached their target
 <!-- vectora:end -->

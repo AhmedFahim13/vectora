@@ -3,7 +3,7 @@
 
 #posture/sell #sector/travel-leisure #category/b
 
-**Travel & Leisure** | category B | as of [[Journal/2026-08-23|2026-08-23]]
+**Travel & Leisure** | category B | as of [[Journal/2026-08-25|2026-08-25]]
 
 Sector view: [[Sectors/Travel & Leisure|Travel & Leisure]]
 
@@ -12,17 +12,17 @@ Sector view: [[Sectors/Travel & Leisure|Travel & Leisure]]
 | gauge | verdict | detail |
 |---|---|---|
 | Summary (26 indicators) | **Sell** | |
-| Moving averages | Hold | 8 up / 7 down |
-| Oscillators | Sell | 1 up / 4 down |
+| Moving averages | Sell | 4 up / 10 down |
+| Oscillators | Sell | 1 up / 5 down |
 | Six-family score | Sell | -5 |
 
-RSI 43 | SuperTrend down
+RSI 37 | SuperTrend down
 
 ## Levels
 
 - Monthly pivot: 25.03
-- Nearest resistance: 25.03 (+9.8% away)
-- Nearest support: 22.27 (2.3% away)
+- Nearest resistance: 25.03 (+13.8% away)
+- Nearest support: 15.80 (28.2% away)
 - 52-week range: 10.00 to 26.00
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 43 | SuperTrend down
 
 ## Track record
 
-0/11 resolved predictions reached their target
+0/13 resolved predictions reached their target
 <!-- vectora:end -->

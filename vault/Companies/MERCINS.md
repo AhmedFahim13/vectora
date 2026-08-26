@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # MERCINS
 
-#posture/buy #sector/insurance #category/a
+#posture/sell #sector/insurance #category/a
 
-**Insurance** | category A | as of [[Journal/2026-08-23|2026-08-23]]
+**Insurance** | category A | as of [[Journal/2026-08-25|2026-08-25]]
 
 Sector view: [[Sectors/Insurance|Insurance]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Insurance|Insurance]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Buy** | |
-| Moving averages | Buy | 10 up / 5 down |
-| Oscillators | Hold | 2 up / 3 down |
-| Six-family score | Hold | +0 |
+| Summary (26 indicators) | **Sell** | |
+| Moving averages | Hold | 7 up / 8 down |
+| Oscillators | Sell | 0 up / 5 down |
+| Six-family score | Hold | +1 |
 
-RSI 55 | SuperTrend up
+RSI 48 | SuperTrend up
 
 ## Levels
 
 - Monthly pivot: 43.50
-- Nearest resistance: 47.60 (+9.4% away)
-- Nearest support: 40.60 (6.7% away)
+- Nearest resistance: 43.50 (+4.6% away)
+- Nearest support: 41.30 (0.7% away)
 - 52-week range: 21.30 to 47.60
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 55 | SuperTrend up
 
 ## Track record
 
-5/11 resolved predictions reached their target
+5/13 resolved predictions reached their target
 <!-- vectora:end -->

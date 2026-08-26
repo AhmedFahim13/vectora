@@ -3,7 +3,7 @@
 
 #posture/hold #sector/mutual-funds #category/a
 
-**Mutual Funds** | category A | as of [[Journal/2026-08-23|2026-08-23]]
+**Mutual Funds** | category A | as of [[Journal/2026-08-25|2026-08-25]]
 
 Sector view: [[Sectors/Mutual Funds|Mutual Funds]]
 
@@ -13,7 +13,7 @@ Sector view: [[Sectors/Mutual Funds|Mutual Funds]]
 |---|---|---|
 | Summary (26 indicators) | **Hold** | |
 | Moving averages | Hold | 8 up / 7 down |
-| Oscillators | Hold | 2 up / 3 down |
+| Oscillators | Sell | 2 up / 4 down |
 | Six-family score | Sell | -3 |
 
 RSI 48 | SuperTrend down

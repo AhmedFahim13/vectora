@@ -3,17 +3,17 @@
 
 #sector-note #phase/lagging
 
-Phase: **Lagging** | as of [[Journal/2026-08-23|2026-08-23]]
+Phase: **Lagging** | as of [[Journal/2026-08-25|2026-08-25]]
 
 | measure | value |
 |---|---|
-| 21-day return | -5.44% |
-| vs market, 21 days | -4.01% |
-| momentum | -8.14% |
-| 63-day return | +5.64% |
+| 21-day return | -4.62% |
+| vs market, 21 days | -2.52% |
+| momentum | -4.81% |
+| 63-day return | +2.60% |
 | constituents | 6 |
 
 ## Members, strongest first
 
-[[BATASHOE]] · [[SAMATALETH]] · [[APEXFOOT]] · [[APEXTANRY]] · [[LEGACYFOOT]] · [[FORTUNE]]
+[[APEXFOOT]] · [[APEXTANRY]] · [[BATASHOE]] · [[LEGACYFOOT]] · [[SAMATALETH]] · [[FORTUNE]]
 <!-- vectora:end -->

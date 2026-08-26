@@ -3,17 +3,17 @@
 
 #sector-note #phase/leading
 
-Phase: **Leading** | as of [[Journal/2026-08-23|2026-08-23]]
+Phase: **Leading** | as of [[Journal/2026-08-25|2026-08-25]]
 
 | measure | value |
 |---|---|
-| 21-day return | +2.73% |
-| vs market, 21 days | +4.16% |
-| momentum | +9.46% |
-| 63-day return | +6.55% |
+| 21-day return | -0.56% |
+| vs market, 21 days | +1.54% |
+| momentum | +5.41% |
+| 63-day return | +1.96% |
 | constituents | 58 |
 
 ## Members, strongest first
 
-[[MATINSPINN]] · [[DSHGARME]] · [[ENVOYTEX]] · [[TUNGHAI]] · [[NURANI]] · [[MITHUNKNIT]] · [[KTL]] · [[SAIHAMTEX]] · [[PTL]] · [[METROSPIN]] · [[ZAHINTEX]] · [[MALEKSPIN]] · [[SONARGAON]] · [[SAFKOSPINN]] · [[REGENTTEX]] · [[FAMILYTEX]] · [[AIL]] · [[STYLECRAFT]] · [[DELTASPINN]] · [[SHASHADNIM]] · [[DULAMIACOT]] · [[ALLTEX]] · [[PRIMETEX]] · [[ACFL]] · [[HRTEX]] · [[PDL]] · [[RINGSHINE]] · [[ZAHEENSPIN]] · [[ARGONDENIM]] · [[TALLUSPIN]] · [[ESQUIRENIT]] · [[ALIF]] · [[NEWLINE]] · [[ANLIMAYARN]] · [[CNATEX]] · [[HFL]] · [[GENNEXT]] · [[HWAWELLTEX]] · [[APEXSPINN]] · [[AL-HAJTEX]] · [[MAKSONSPIN]] · [[SAIHAMCOT]] · [[SQUARETEXT]] · [[ETL]] · [[QUEENSOUTH]] · [[SHARPIND]] · [[TAMIJTEX]] · [[SIMTEX]] · [[VFSTDL]] · [[FEKDIL]] · [[MONNOFABR]] · [[MLDYEING]] · [[SHEPHERD]] · [[DSSL]] · [[TOSRIFA]] · [[MHSML]] · [[RAHIMTEXT]] · [[DACCADYE]]
+[[KTL]] · [[ENVOYTEX]] · [[SAIHAMTEX]] · [[PTL]] · [[ESQUIRENIT]] · [[ACFL]] · [[MALEKSPIN]] · [[MITHUNKNIT]] · [[MATINSPINN]] · [[STYLECRAFT]] · [[SONARGAON]] · [[DSHGARME]] · [[GENNEXT]] · [[ALLTEX]] · [[ANLIMAYARN]] · [[TALLUSPIN]] · [[REGENTTEX]] · [[ALIF]] · [[DULAMIACOT]] · [[PDL]] · [[APEXSPINN]] · [[NEWLINE]] · [[HRTEX]] · [[ZAHINTEX]] · [[SAFKOSPINN]] · [[VFSTDL]] · [[SHASHADNIM]] · [[NURANI]] · [[METROSPIN]] · [[HWAWELLTEX]] · [[TUNGHAI]] · [[MAKSONSPIN]] · [[CNATEX]] · [[SAIHAMCOT]] · [[PRIMETEX]] · [[FAMILYTEX]] · [[ETL]] · [[RINGSHINE]] · [[AIL]] · [[FEKDIL]] · [[DELTASPINN]] · [[SQUARETEXT]] · [[DACCADYE]] · [[HFL]] · [[MHSML]] · [[ZAHEENSPIN]] · [[SHARPIND]] · [[ARGONDENIM]] · [[QUEENSOUTH]] · [[RAHIMTEXT]] · [[DSSL]] · [[AL-HAJTEX]] · [[MLDYEING]] · [[SHEPHERD]] · [[SIMTEX]] · [[TAMIJTEX]] · [[TOSRIFA]] · [[MONNOFABR]]
 <!-- vectora:end -->

@@ -3,7 +3,7 @@
 
 #posture/sell #sector/bank #category/a
 
-**Bank** | category A | as of [[Journal/2026-08-23|2026-08-23]]
+**Bank** | category A | as of [[Journal/2026-08-25|2026-08-25]]
 
 Sector view: [[Sectors/Bank|Bank]]
 
@@ -22,7 +22,7 @@ RSI 35 | SuperTrend down
 
 - Monthly pivot: 3.00
 - Nearest resistance: 5.20 (+73.3% away)
-- Nearest support: 2.80 (6.7% away)
+- Nearest support: 2.90 (3.3% away)
 - 52-week range: 2.80 to 7.60
 
 ## Fundamentals

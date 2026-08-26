@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # DELTALIFE
 
-#posture/sell #sector/insurance #category/a
+#posture/strong-sell #sector/insurance #category/a
 
-**Insurance** | category A | as of [[Journal/2026-08-23|2026-08-23]]
+**Insurance** | category A | as of [[Journal/2026-08-25|2026-08-25]]
 
 Sector view: [[Sectors/Insurance|Insurance]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Insurance|Insurance]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Sell** | |
-| Moving averages | Sell | 4 up / 10 down |
+| Summary (26 indicators) | **Strong Sell** | |
+| Moving averages | Strong Sell | 2 up / 13 down |
 | Oscillators | Sell | 1 up / 4 down |
 | Six-family score | Sell | -5 |
 
-RSI 41 | SuperTrend down
+RSI 38 | SuperTrend down
 
 ## Levels
 
 - Monthly pivot: 82.03
-- Nearest resistance: 82.03 (+7.7% away)
-- Nearest support: 76.00 (0.3% away)
+- Nearest resistance: 82.03 (+9.5% away)
+- Nearest support: 74.17 (1.0% away)
 - 52-week range: 60.80 to 93.50
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 41 | SuperTrend down
 
 ## Track record
 
-0/11 resolved predictions reached their target
+0/13 resolved predictions reached their target
 <!-- vectora:end -->

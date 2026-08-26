@@ -1,19 +1,19 @@
 <!-- vectora:begin -->
 # Pharmaceuticals & Chemicals
 
-#sector-note #phase/lagging
+#sector-note #phase/improving
 
-Phase: **Lagging** | as of [[Journal/2026-08-23|2026-08-23]]
+Phase: **Improving** | as of [[Journal/2026-08-25|2026-08-25]]
 
 | measure | value |
 |---|---|
-| 21-day return | -5.44% |
-| vs market, 21 days | -4.01% |
-| momentum | -1.76% |
-| 63-day return | -1.99% |
+| 21-day return | -5.04% |
+| vs market, 21 days | -2.94% |
+| momentum | +0.89% |
+| 63-day return | -5.26% |
 | constituents | 34 |
 
 ## Members, strongest first
 
-[[AFCAGRO]] · [[KEYACOSMET]] · [[WATACHEM]] · [[ACMEPL]] · [[ACTIVEFINE]] · [[JMISMDL]] · [[TECHNODRUG]] · [[BXPHARMA]] · [[GHCL]] · [[RENATA]] · [[PHARMAID]] · [[MARICO]] · [[ACIFORMULA]] · [[KOHINOOR]] · [[BEACONPHAR]] · [[AMBEEPHA]] · [[ACMELAB]] · [[ACI]] · [[SQURPHARMA]] · [[SALVO]] · [[ADVENT]] · [[CENTRALPHL]] · [[NAVANAPHAR]] · [[JHRML]] · [[SILVAPHL]] · [[ASIATICLAB]] · [[ORIONINFU]] · [[RECKITTBEN]] · [[IBP]] · [[SILCOPHL]] · [[FARCHEM]] · [[ORIONPHARM]] · [[IBNSINA]] · [[LIBRAINFU]]
+[[ACMEPL]] · [[MARICO]] · [[PHARMAID]] · [[TECHNODRUG]] · [[BXPHARMA]] · [[RENATA]] · [[KEYACOSMET]] · [[KOHINOOR]] · [[AFCAGRO]] · [[SILCOPHL]] · [[GHCL]] · [[ACTIVEFINE]] · [[ADVENT]] · [[ASIATICLAB]] · [[SQURPHARMA]] · [[SILVAPHL]] · [[JMISMDL]] · [[NAVANAPHAR]] · [[ACIFORMULA]] · [[AMBEEPHA]] · [[RECKITTBEN]] · [[JHRML]] · [[ORIONPHARM]] · [[WATACHEM]] · [[ORIONINFU]] · [[IBP]] · [[SALVO]] · [[FARCHEM]] · [[CENTRALPHL]] · [[ACMELAB]] · [[BEACONPHAR]] · [[LIBRAINFU]] · [[IBNSINA]] · [[ACI]]
 <!-- vectora:end -->

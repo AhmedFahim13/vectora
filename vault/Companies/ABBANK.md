@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # ABBANK
 
-#posture/sell #sector/bank #category/z
+#posture/strong-sell #sector/bank #category/z
 
-**Bank** | category Z | as of [[Journal/2026-08-23|2026-08-23]]
+**Bank** | category Z | as of [[Journal/2026-08-25|2026-08-25]]
 
 Sector view: [[Sectors/Bank|Bank]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Bank|Bank]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Sell** | |
-| Moving averages | Sell | 5 up / 10 down |
-| Oscillators | Sell | 1 up / 5 down |
+| Summary (26 indicators) | **Strong Sell** | |
+| Moving averages | Strong Sell | 1 up / 14 down |
+| Oscillators | Sell | 1 up / 6 down |
 | Six-family score | Hold | +1 |
 
-RSI 46 | SuperTrend up
+RSI 34 | SuperTrend up
 
 ## Levels
 
 - Monthly pivot: 5.00
-- Nearest resistance: 5.00 (+4.2% away)
-- Nearest support: 4.60 (4.2% away)
+- Nearest resistance: 5.00 (+8.7% away)
+- Nearest support: 4.40 (4.3% away)
 - 52-week range: 3.40 to 8.20
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 46 | SuperTrend up
 
 ## Track record
 
-0/11 resolved predictions reached their target
+0/13 resolved predictions reached their target
 <!-- vectora:end -->

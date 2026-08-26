@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # SIMTEX
 
-#posture/strong-sell #sector/textile #category/a
+#posture/sell #sector/textile #category/a
 
-**Textile** | category A | as of [[Journal/2026-08-23|2026-08-23]]
+**Textile** | category A | as of [[Journal/2026-08-25|2026-08-25]]
 
 Sector view: [[Sectors/Textile|Textile]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Textile|Textile]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Strong Sell** | |
-| Moving averages | Strong Sell | 2 up / 12 down |
-| Oscillators | Sell | 1 up / 6 down |
-| Six-family score | Sell | -3 |
+| Summary (26 indicators) | **Sell** | |
+| Moving averages | Strong Sell | 3 up / 12 down |
+| Oscillators | Hold | 4 up / 5 down |
+| Six-family score | Sell | -5 |
 
 RSI 36 | SuperTrend down
 
 ## Levels
 
 - Monthly pivot: 28.17
-- Nearest resistance: 28.17 (+13.1% away)
-- Nearest support: 23.83 (4.3% away)
+- Nearest resistance: 28.17 (+14.0% away)
+- Nearest support: 24.40 (1.2% away)
 - 52-week range: 14.40 to 34.50
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 36 | SuperTrend down
 
 ## Track record
 
-1/11 resolved predictions reached their target
+1/13 resolved predictions reached their target
 <!-- vectora:end -->

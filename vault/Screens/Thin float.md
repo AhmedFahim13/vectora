@@ -1,7 +1,7 @@
 <!-- vectora:begin -->
 # Thin float
 
-16 companies | as of [[Journal/2026-08-23|2026-08-23]]
+16 companies | as of [[Journal/2026-08-25|2026-08-25]]
 
 20% or less of the company can actually trade. This is a RISK list, never an opportunity list — a small float is what makes a price easy to push around.
 

@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # TAKAFULINS
 
-#posture/buy #sector/insurance #category/a
+#posture/sell #sector/insurance #category/a
 
-**Insurance** | category A | as of [[Journal/2026-08-23|2026-08-23]]
+**Insurance** | category A | as of [[Journal/2026-08-25|2026-08-25]]
 
 Sector view: [[Sectors/Insurance|Insurance]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Insurance|Insurance]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Buy** | |
-| Moving averages | Buy | 11 up / 4 down |
-| Oscillators | Buy | 3 up / 1 down |
-| Six-family score | Buy | +3 |
+| Summary (26 indicators) | **Sell** | |
+| Moving averages | Hold | 7 up / 8 down |
+| Oscillators | Sell | 0 up / 3 down |
+| Six-family score | Hold | -1 |
 
-RSI 59 | SuperTrend up
+RSI 47 | SuperTrend down
 
 ## Levels
 
 - Monthly pivot: 51.67
-- Nearest resistance: 57.00 (+6.7% away)
-- Nearest support: 51.67 (3.2% away)
+- Nearest resistance: 51.67 (+2.5% away)
+- Nearest support: 48.23 (4.3% away)
 - 52-week range: 30.00 to 57.00
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 59 | SuperTrend up
 
 ## Track record
 
-5/11 resolved predictions reached their target
+5/13 resolved predictions reached their target
 <!-- vectora:end -->

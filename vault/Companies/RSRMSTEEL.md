@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # RSRMSTEEL
 
-#posture/sell #sector/engineering #category/z
+#posture/hold #sector/engineering #category/z
 
-**Engineering** | category Z | as of [[Journal/2026-08-23|2026-08-23]]
+**Engineering** | category Z | as of [[Journal/2026-08-25|2026-08-25]]
 
 Sector view: [[Sectors/Engineering|Engineering]]
 
@@ -11,12 +11,12 @@ Sector view: [[Sectors/Engineering|Engineering]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Sell** | |
-| Moving averages | Sell | 5 up / 10 down |
-| Oscillators | Sell | 0 up / 5 down |
-| Six-family score | Hold | -1 |
+| Summary (26 indicators) | **Hold** | |
+| Moving averages | Sell | 6 up / 9 down |
+| Oscillators | Hold | 4 up / 3 down |
+| Six-family score | Hold | +1 |
 
-RSI 43 | SuperTrend up
+RSI 45 | SuperTrend up
 
 ## Levels
 

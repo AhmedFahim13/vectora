@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # ATLASBANG
 
-#posture/sell #sector/engineering #category/z
+#posture/hold #sector/engineering #category/z
 
-**Engineering** | category Z | as of [[Journal/2026-08-23|2026-08-23]]
+**Engineering** | category Z | as of [[Journal/2026-08-25|2026-08-25]]
 
 Sector view: [[Sectors/Engineering|Engineering]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Engineering|Engineering]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Sell** | |
-| Moving averages | Hold | 7 up / 8 down |
-| Oscillators | Sell | 1 up / 5 down |
-| Six-family score | Hold | +0 |
+| Summary (26 indicators) | **Hold** | |
+| Moving averages | Buy | 9 up / 6 down |
+| Oscillators | Sell | 2 up / 4 down |
+| Six-family score | Hold | +1 |
 
-RSI 46 | SuperTrend up
+RSI 49 | SuperTrend up
 
 ## Levels
 
 - Monthly pivot: 92.10
-- Nearest resistance: 92.10 (+8.1% away)
-- Nearest support: 85.00 (0.2% away)
+- Nearest resistance: 92.10 (+6.8% away)
+- Nearest support: 83.60 (3.0% away)
 - 52-week range: 44.20 to 102.00
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 46 | SuperTrend up
 
 ## Track record
 
-2/11 resolved predictions reached their target
+2/13 resolved predictions reached their target
 <!-- vectora:end -->

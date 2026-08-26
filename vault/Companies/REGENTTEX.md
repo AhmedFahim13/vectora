@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # REGENTTEX
 
-#posture/buy #sector/textile #category/z
+#posture/sell #sector/textile #category/z
 
-**Textile** | category Z | as of [[Journal/2026-08-23|2026-08-23]]
+**Textile** | category Z | as of [[Journal/2026-08-25|2026-08-25]]
 
 Sector view: [[Sectors/Textile|Textile]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Textile|Textile]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Buy** | |
-| Moving averages | Strong Buy | 13 up / 2 down |
-| Oscillators | Hold | 2 up / 1 down |
-| Six-family score | Buy | +3 |
+| Summary (26 indicators) | **Sell** | |
+| Moving averages | Hold | 7 up / 8 down |
+| Oscillators | Sell | 0 up / 4 down |
+| Six-family score | Hold | +1 |
 
-RSI 58 | SuperTrend up
+RSI 46 | SuperTrend up
 
 ## Levels
 
 - Monthly pivot: 6.97
-- Nearest resistance: 6.97 (+2.5% away)
-- Nearest support: 6.23 (8.3% away)
+- Nearest resistance: 6.97 (+12.4% away)
+- Nearest support: 6.10 (1.6% away)
 - 52-week range: 1.30 to 7.70
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 58 | SuperTrend up
 
 ## Track record
 
-4/11 resolved predictions reached their target
+4/13 resolved predictions reached their target
 <!-- vectora:end -->

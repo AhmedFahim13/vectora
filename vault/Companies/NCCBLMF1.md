@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # NCCBLMF1
 
-#posture/buy #sector/mutual-funds #category/a
+#posture/hold #sector/mutual-funds #category/a
 
-**Mutual Funds** | category A | as of [[Journal/2026-08-23|2026-08-23]]
+**Mutual Funds** | category A | as of [[Journal/2026-08-25|2026-08-25]]
 
 Sector view: [[Sectors/Mutual Funds|Mutual Funds]]
 
@@ -11,12 +11,12 @@ Sector view: [[Sectors/Mutual Funds|Mutual Funds]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Buy** | |
+| Summary (26 indicators) | **Hold** | |
 | Moving averages | Hold | 8 up / 7 down |
-| Oscillators | Buy | 4 up / 1 down |
-| Six-family score | Hold | +0 |
+| Oscillators | Hold | 3 up / 2 down |
+| Six-family score | Hold | +1 |
 
-RSI 48 | SuperTrend up
+RSI 49 | SuperTrend up
 
 ## Levels
 

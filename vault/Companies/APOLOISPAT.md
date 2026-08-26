@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # APOLOISPAT
 
-#posture/buy #sector/engineering #category/z
+#posture/hold #sector/engineering #category/z
 
-**Engineering** | category Z | as of [[Journal/2026-08-23|2026-08-23]]
+**Engineering** | category Z | as of [[Journal/2026-08-25|2026-08-25]]
 
 Sector view: [[Sectors/Engineering|Engineering]]
 
@@ -11,19 +11,19 @@ Sector view: [[Sectors/Engineering|Engineering]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Buy** | |
-| Moving averages | Buy | 10 up / 5 down |
-| Oscillators | Hold | 2 up / 2 down |
-| Six-family score | Buy | +2 |
+| Summary (26 indicators) | **Hold** | |
+| Moving averages | Buy | 9 up / 6 down |
+| Oscillators | Sell | 0 up / 4 down |
+| Six-family score | Hold | +1 |
 
-RSI 57 | SuperTrend up
+RSI 49 | SuperTrend up
 
 ## Levels
 
 - Monthly pivot: 3.23
-- Nearest resistance: 3.23 (+1.0% away)
-- Nearest support: 3.00 (6.3% away)
-- 52-week range: 1.30 to 4.60
+- Nearest resistance: 3.23 (+4.3% away)
+- Nearest support: 2.97 (4.3% away)
+- 52-week range: 1.30 to 4.50
 
 ## Fundamentals
 
@@ -34,5 +34,5 @@ RSI 57 | SuperTrend up
 
 ## Track record
 
-3/11 resolved predictions reached their target
+3/13 resolved predictions reached their target
 <!-- vectora:end -->

@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # DULAMIACOT
 
-#posture/buy #sector/textile #category/z
+#posture/hold #sector/textile #category/z
 
-**Textile** | category Z | as of [[Journal/2026-08-23|2026-08-23]]
+**Textile** | category Z | as of [[Journal/2026-08-25|2026-08-25]]
 
 Sector view: [[Sectors/Textile|Textile]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Textile|Textile]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Buy** | |
-| Moving averages | Buy | 10 up / 5 down |
-| Oscillators | Hold | 2 up / 1 down |
-| Six-family score | Buy | +2 |
+| Summary (26 indicators) | **Hold** | |
+| Moving averages | Hold | 8 up / 7 down |
+| Oscillators | Sell | 1 up / 3 down |
+| Six-family score | Hold | +1 |
 
-RSI 56 | SuperTrend up
+RSI 52 | SuperTrend up
 
 ## Levels
 
 - Monthly pivot: 198.57
-- Nearest resistance: 226.80 (+9.1% away)
-- Nearest support: 198.57 (4.4% away)
+- Nearest resistance: 226.00 (+10.8% away)
+- Nearest support: 198.57 (2.7% away)
 - 52-week range: 64.00 to 231.00
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 56 | SuperTrend up
 
 ## Track record
 
-4/11 resolved predictions reached their target
+5/13 resolved predictions reached their target
 <!-- vectora:end -->

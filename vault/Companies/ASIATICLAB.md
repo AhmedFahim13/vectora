@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # ASIATICLAB
 
-#posture/buy #sector/pharmaceuticals-chemicals #category/a
+#posture/sell #sector/pharmaceuticals-chemicals #category/a
 
-**Pharmaceuticals & Chemicals** | category A | as of [[Journal/2026-08-23|2026-08-23]]
+**Pharmaceuticals & Chemicals** | category A | as of [[Journal/2026-08-25|2026-08-25]]
 
 Sector view: [[Sectors/Pharmaceuticals & Chemicals|Pharmaceuticals & Chemicals]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Pharmaceuticals & Chemicals|Pharmaceuticals & Chemicals]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Buy** | |
-| Moving averages | Buy | 9 up / 6 down |
-| Oscillators | Hold | 2 up / 2 down |
-| Six-family score | Sell | -4 |
+| Summary (26 indicators) | **Sell** | |
+| Moving averages | Hold | 8 up / 7 down |
+| Oscillators | Sell | 0 up / 4 down |
+| Six-family score | Sell | -3 |
 
-RSI 54 | SuperTrend down
+RSI 50 | SuperTrend down
 
 ## Levels
 
 - Monthly pivot: 129.90
-- Nearest resistance: 129.90 (+10.8% away)
-- Nearest support: 115.00 (1.9% away)
+- Nearest resistance: 129.90 (+14.3% away)
+- Nearest support: 108.50 (4.5% away)
 - 52-week range: 28.80 to 144.80
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 54 | SuperTrend down
 
 ## Track record
 
-1/11 resolved predictions reached their target
+2/13 resolved predictions reached their target
 <!-- vectora:end -->

@@ -3,7 +3,7 @@
 
 #posture/sell #sector/miscellaneous #category/z
 
-**Miscellaneous** | category Z | as of [[Journal/2026-08-23|2026-08-23]]
+**Miscellaneous** | category Z | as of [[Journal/2026-08-25|2026-08-25]]
 
 Sector view: [[Sectors/Miscellaneous|Miscellaneous]]
 
@@ -21,7 +21,7 @@ RSI 9 | SuperTrend down
 ## Levels
 
 - Monthly pivot: 215.50
-- Nearest resistance: 253.50 (+17.6% away)
+- Nearest resistance: 248.50 (+15.3% away)
 - Nearest support: 214.50 (0.5% away)
 - 52-week range: 167.20 to 294.50
 

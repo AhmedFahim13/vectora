@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # ZAHEENSPIN
 
-#posture/buy #sector/textile #category/z
+#posture/sell #sector/textile #category/z
 
-**Textile** | category Z | as of [[Journal/2026-08-23|2026-08-23]]
+**Textile** | category Z | as of [[Journal/2026-08-25|2026-08-25]]
 
 Sector view: [[Sectors/Textile|Textile]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Textile|Textile]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Buy** | |
-| Moving averages | Buy | 11 up / 4 down |
+| Summary (26 indicators) | **Sell** | |
+| Moving averages | Sell | 5 up / 10 down |
 | Oscillators | Hold | 1 up / 2 down |
-| Six-family score | Hold | +1 |
+| Six-family score | Sell | -3 |
 
-RSI 54 | SuperTrend up
+RSI 46 | SuperTrend down
 
 ## Levels
 
 - Monthly pivot: 5.57
-- Nearest resistance: 5.93 (+2.3% away)
-- Nearest support: 5.57 (4.0% away)
+- Nearest resistance: 5.57 (+3.1% away)
+- Nearest support: 5.33 (1.2% away)
 - 52-week range: 3.30 to 8.90
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 54 | SuperTrend up
 
 ## Track record
 
-8/10 resolved predictions reached their target
+10/12 resolved predictions reached their target
 <!-- vectora:end -->

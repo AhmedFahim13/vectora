@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # STANDBANKL
 
-#posture/strong-sell #sector/bank #category/z
+#posture/sell #sector/bank #category/z
 
-**Bank** | category Z | as of [[Journal/2026-08-23|2026-08-23]]
+**Bank** | category Z | as of [[Journal/2026-08-25|2026-08-25]]
 
 Sector view: [[Sectors/Bank|Bank]]
 
@@ -11,19 +11,19 @@ Sector view: [[Sectors/Bank|Bank]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Strong Sell** | |
-| Moving averages | Strong Sell | 0 up / 15 down |
-| Oscillators | Sell | 0 up / 5 down |
-| Six-family score | Sell | -3 |
+| Summary (26 indicators) | **Sell** | |
+| Moving averages | Strong Sell | 1 up / 14 down |
+| Oscillators | Hold | 4 up / 4 down |
+| Six-family score | Sell | -4 |
 
-RSI 35 | SuperTrend down
+RSI 43 | SuperTrend down
 
 ## Levels
 
 - Monthly pivot: 5.07
-- Nearest resistance: 5.07 (+10.1% away)
-- Nearest support: 4.17 (9.4% away)
-- 52-week range: 4.60 to 7.90
+- Nearest resistance: 5.07 (+7.8% away)
+- Nearest support: 4.63 (1.4% away)
+- 52-week range: 4.50 to 7.90
 
 ## Fundamentals
 
@@ -34,5 +34,5 @@ RSI 35 | SuperTrend down
 
 ## Track record
 
-1/11 resolved predictions reached their target
+1/13 resolved predictions reached their target
 <!-- vectora:end -->

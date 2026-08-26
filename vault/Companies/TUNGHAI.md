@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # TUNGHAI
 
-#posture/buy #sector/textile #category/z
+#posture/hold #sector/textile #category/z
 
-**Textile** | category Z | as of [[Journal/2026-08-23|2026-08-23]]
+**Textile** | category Z | as of [[Journal/2026-08-25|2026-08-25]]
 
 Sector view: [[Sectors/Textile|Textile]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Textile|Textile]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Buy** | |
-| Moving averages | Strong Buy | 13 up / 1 down |
-| Oscillators | Hold | 2 up / 1 down |
-| Six-family score | Strong Buy | +6 |
+| Summary (26 indicators) | **Hold** | |
+| Moving averages | Buy | 10 up / 5 down |
+| Oscillators | Sell | 1 up / 3 down |
+| Six-family score | Sell | -2 |
 
-RSI 68 | SuperTrend up
+RSI 54 | SuperTrend down
 
 ## Levels
 
 - Monthly pivot: 2.77
-- Nearest resistance: 6.00 (+17.6% away)
-- Nearest support: 2.77 (45.8% away)
+- Nearest resistance: 6.00 (+39.5% away)
+- Nearest support: 2.77 (35.7% away)
 - 52-week range: 1.10 to 6.00
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 68 | SuperTrend up
 
 ## Track record
 
-0/0 resolved predictions reached their target
+1/1 resolved predictions reached their target
 <!-- vectora:end -->

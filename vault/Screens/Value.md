@@ -1,7 +1,7 @@
 <!-- vectora:begin -->
 # Value
 
-72 companies | as of [[Journal/2026-08-23|2026-08-23]]
+72 companies | as of [[Journal/2026-08-25|2026-08-25]]
 
 Trailing P/E under 15 on genuinely positive earnings. A negative P/E is a loss, not a bargain, and is excluded.
 

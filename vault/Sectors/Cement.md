@@ -1,19 +1,19 @@
 <!-- vectora:begin -->
 # Cement
 
-#sector-note #phase/lagging
+#sector-note #phase/improving
 
-Phase: **Lagging** | as of [[Journal/2026-08-23|2026-08-23]]
+Phase: **Improving** | as of [[Journal/2026-08-25|2026-08-25]]
 
 | measure | value |
 |---|---|
-| 21-day return | -6.81% |
-| vs market, 21 days | -5.38% |
-| momentum | -5.17% |
-| 63-day return | -1.41% |
+| 21-day return | -4.60% |
+| vs market, 21 days | -2.50% |
+| momentum | +0.21% |
+| 63-day return | -3.15% |
 | constituents | 7 |
 
 ## Members, strongest first
 
-[[PREMIERCEM]] · [[CONFIDCEM]] · [[CROWNCEMNT]] · [[MEGHNACEM]] · [[ARAMITCEM]] · [[LHB]] · [[HEIDELBCEM]]
+[[ARAMITCEM]] · [[PREMIERCEM]] · [[MEGHNACEM]] · [[CROWNCEMNT]] · [[CONFIDCEM]] · [[LHB]] · [[HEIDELBCEM]]
 <!-- vectora:end -->

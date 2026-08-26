@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # RAKCERAMIC
 
-#posture/strong-buy #sector/ceramics-sector #category/a
+#posture/buy #sector/ceramics-sector #category/a
 
-**Ceramics Sector** | category A | as of [[Journal/2026-08-23|2026-08-23]]
+**Ceramics Sector** | category A | as of [[Journal/2026-08-25|2026-08-25]]
 
 Sector view: [[Sectors/Ceramics Sector|Ceramics Sector]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Ceramics Sector|Ceramics Sector]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Strong Buy** | |
-| Moving averages | Strong Buy | 15 up / 0 down |
-| Oscillators | Hold | 3 up / 2 down |
-| Six-family score | Buy | +4 |
+| Summary (26 indicators) | **Buy** | |
+| Moving averages | Strong Buy | 13 up / 2 down |
+| Oscillators | Hold | 1 up / 2 down |
+| Six-family score | Buy | +3 |
 
-RSI 61 | SuperTrend up
+RSI 57 | SuperTrend up
 
 ## Levels
 
 - Monthly pivot: 31.23
-- Nearest resistance: 31.23 (+0.1% away)
-- Nearest support: 29.67 (4.9% away)
+- Nearest resistance: 31.23 (+1.1% away)
+- Nearest support: 29.67 (4.0% away)
 - 52-week range: 17.80 to 32.80
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 61 | SuperTrend up
 
 ## Track record
 
-0/11 resolved predictions reached their target
+0/13 resolved predictions reached their target
 <!-- vectora:end -->

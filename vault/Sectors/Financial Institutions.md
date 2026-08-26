@@ -1,19 +1,19 @@
 <!-- vectora:begin -->
 # Financial Institutions
 
-#sector-note #phase/weakening
+#sector-note #phase/lagging
 
-Phase: **Weakening** | as of [[Journal/2026-08-23|2026-08-23]]
+Phase: **Lagging** | as of [[Journal/2026-08-25|2026-08-25]]
 
 | measure | value |
 |---|---|
-| 21-day return | -1.19% |
-| vs market, 21 days | +0.24% |
-| momentum | -23.95% |
-| 63-day return | +22.17% |
-| constituents | 19 |
+| 21-day return | -3.42% |
+| vs market, 21 days | -1.32% |
+| momentum | -35.10% |
+| 63-day return | +16.72% |
+| constituents | 20 |
 
 ## Members, strongest first
 
-[[BAYLEASING]] · [[FAREASTFIN]] · [[FIRSTFIN]] · [[ILFSL]] · [[IPDC]] · [[UNIONCAP]] · [[UTTARAFIN]] · [[DBH]] · [[PHOENIXFIN]] · [[IDLC]] · [[UNITEDFIN]] · [[MIDASFIN]] · [[FASFIN]] · [[ISLAMICFIN]] · [[LANKABAFIN]] · [[BIFC]] · [[GSPFINANCE]] · [[ICB]] · [[NHFIL]] · [[PLFSL]] · [[PREMIERLEA]] · [[PRIMEFIN]] · [[BDFINANCE]]
+[[FAREASTFIN]] · [[ILFSL]] · [[DBH]] · [[FIRSTFIN]] · [[IPDC]] · [[PHOENIXFIN]] · [[UNIONCAP]] · [[UTTARAFIN]] · [[IDLC]] · [[UNITEDFIN]] · [[FASFIN]] · [[GSPFINANCE]] · [[LANKABAFIN]] · [[PRIMEFIN]] · [[BIFC]] · [[PLFSL]] · [[BAYLEASING]] · [[PREMIERLEA]] · [[BDFINANCE]] · [[ICB]] · [[ISLAMICFIN]] · [[MIDASFIN]] · [[NHFIL]]
 <!-- vectora:end -->

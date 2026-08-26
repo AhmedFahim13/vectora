@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # BENGALWTL
 
-#posture/strong-buy #sector/engineering #category/b
+#posture/hold #sector/engineering #category/b
 
-**Engineering** | category B | as of [[Journal/2026-08-23|2026-08-23]]
+**Engineering** | category B | as of [[Journal/2026-08-25|2026-08-25]]
 
 Sector view: [[Sectors/Engineering|Engineering]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Engineering|Engineering]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Strong Buy** | |
-| Moving averages | Strong Buy | 14 up / 1 down |
-| Oscillators | Buy | 3 up / 1 down |
-| Six-family score | Buy | +4 |
+| Summary (26 indicators) | **Hold** | |
+| Moving averages | Hold | 8 up / 7 down |
+| Oscillators | Sell | 1 up / 3 down |
+| Six-family score | Sell | -3 |
 
-RSI 59 | SuperTrend up
+RSI 49 | SuperTrend down
 
 ## Levels
 
 - Monthly pivot: 24.50
-- Nearest resistance: 25.70 (+0.8% away)
-- Nearest support: 24.50 (3.9% away)
+- Nearest resistance: 24.50 (+1.2% away)
+- Nearest support: 23.60 (2.5% away)
 - 52-week range: 15.60 to 27.50
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 59 | SuperTrend up
 
 ## Track record
 
-9/11 resolved predictions reached their target
+11/13 resolved predictions reached their target
 <!-- vectora:end -->

@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # SEAPEARL
 
-#posture/buy #sector/travel-leisure #category/b
+#posture/strong-sell #sector/travel-leisure #category/b
 
-**Travel & Leisure** | category B | as of [[Journal/2026-08-23|2026-08-23]]
+**Travel & Leisure** | category B | as of [[Journal/2026-08-25|2026-08-25]]
 
 Sector view: [[Sectors/Travel & Leisure|Travel & Leisure]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Travel & Leisure|Travel & Leisure]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Buy** | |
-| Moving averages | Buy | 9 up / 6 down |
-| Oscillators | Hold | 2 up / 2 down |
-| Six-family score | Sell | -2 |
+| Summary (26 indicators) | **Strong Sell** | |
+| Moving averages | Strong Sell | 1 up / 14 down |
+| Oscillators | Sell | 0 up / 4 down |
+| Six-family score | Sell | -5 |
 
-RSI 50 | SuperTrend down
+RSI 43 | SuperTrend down
 
 ## Levels
 
 - Monthly pivot: 41.27
-- Nearest resistance: 41.27 (+6.9% away)
-- Nearest support: 36.83 (4.6% away)
+- Nearest resistance: 41.27 (+11.8% away)
+- Nearest support: 36.83 (0.2% away)
 - 52-week range: 29.30 to 61.70
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 50 | SuperTrend down
 
 ## Track record
 
-0/11 resolved predictions reached their target
+0/13 resolved predictions reached their target
 <!-- vectora:end -->

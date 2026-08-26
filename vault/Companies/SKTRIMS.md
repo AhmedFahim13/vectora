@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # SKTRIMS
 
-#posture/buy #sector/miscellaneous #category/z
+#posture/hold #sector/miscellaneous #category/z
 
-**Miscellaneous** | category Z | as of [[Journal/2026-08-23|2026-08-23]]
+**Miscellaneous** | category Z | as of [[Journal/2026-08-25|2026-08-25]]
 
 Sector view: [[Sectors/Miscellaneous|Miscellaneous]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Miscellaneous|Miscellaneous]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Buy** | |
-| Moving averages | Buy | 9 up / 6 down |
-| Oscillators | Hold | 2 up / 2 down |
+| Summary (26 indicators) | **Hold** | |
+| Moving averages | Hold | 8 up / 7 down |
+| Oscillators | Sell | 1 up / 3 down |
 | Six-family score | Hold | +1 |
 
-RSI 56 | SuperTrend up
+RSI 50 | SuperTrend up
 
 ## Levels
 
 - Monthly pivot: 14.93
-- Nearest resistance: 14.93 (+6.7% away)
-- Nearest support: 13.77 (1.7% away)
+- Nearest resistance: 14.93 (+9.0% away)
+- Nearest support: 12.90 (5.8% away)
 - 52-week range: 6.00 to 16.10
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 56 | SuperTrend up
 
 ## Track record
 
-2/11 resolved predictions reached their target
+2/13 resolved predictions reached their target
 <!-- vectora:end -->

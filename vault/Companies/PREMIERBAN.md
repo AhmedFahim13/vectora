@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # PREMIERBAN
 
-#posture/buy #sector/bank #category/z
+#posture/hold #sector/bank #category/z
 
-**Bank** | category Z | as of [[Journal/2026-08-23|2026-08-23]]
+**Bank** | category Z | as of [[Journal/2026-08-25|2026-08-25]]
 
 Sector view: [[Sectors/Bank|Bank]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Bank|Bank]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Buy** | |
-| Moving averages | Strong Buy | 13 up / 2 down |
+| Summary (26 indicators) | **Hold** | |
+| Moving averages | Hold | 8 up / 7 down |
 | Oscillators | Sell | 1 up / 3 down |
-| Six-family score | Buy | +4 |
+| Six-family score | Buy | +2 |
 
-RSI 66 | SuperTrend up
+RSI 56 | SuperTrend up
 
 ## Levels
 
 - Monthly pivot: 5.40
-- Nearest resistance: 6.00 (+1.7% away)
-- Nearest support: 5.40 (8.5% away)
+- Nearest resistance: 6.00 (+5.3% away)
+- Nearest support: 5.40 (5.3% away)
 - 52-week range: 3.90 to 9.40
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 66 | SuperTrend up
 
 ## Track record
 
-2/11 resolved predictions reached their target
+2/13 resolved predictions reached their target
 <!-- vectora:end -->

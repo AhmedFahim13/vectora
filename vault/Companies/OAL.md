@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # OAL
 
-#posture/buy #sector/engineering #category/z
+#posture/sell #sector/engineering #category/z
 
-**Engineering** | category Z | as of [[Journal/2026-08-23|2026-08-23]]
+**Engineering** | category Z | as of [[Journal/2026-08-25|2026-08-25]]
 
 Sector view: [[Sectors/Engineering|Engineering]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Engineering|Engineering]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Buy** | |
-| Moving averages | Buy | 11 up / 4 down |
-| Oscillators | Hold | 2 up / 2 down |
-| Six-family score | Buy | +2 |
+| Summary (26 indicators) | **Sell** | |
+| Moving averages | Sell | 6 up / 9 down |
+| Oscillators | Sell | 1 up / 4 down |
+| Six-family score | Hold | +1 |
 
-RSI 54 | SuperTrend up
+RSI 46 | SuperTrend up
 
 ## Levels
 
 - Monthly pivot: 6.73
-- Nearest resistance: 6.97 (+2.5% away)
-- Nearest support: 6.73 (1.0% away)
+- Nearest resistance: 6.73 (+2.0% away)
+- Nearest support: 6.50 (1.5% away)
 - 52-week range: 3.80 to 9.40
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 54 | SuperTrend up
 
 ## Track record
 
-6/11 resolved predictions reached their target
+6/13 resolved predictions reached their target
 <!-- vectora:end -->

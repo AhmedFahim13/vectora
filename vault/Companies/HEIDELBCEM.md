@@ -3,7 +3,7 @@
 
 #posture/strong-sell #sector/cement #category/a
 
-**Cement** | category A | as of [[Journal/2026-08-23|2026-08-23]]
+**Cement** | category A | as of [[Journal/2026-08-25|2026-08-25]]
 
 Sector view: [[Sectors/Cement|Cement]]
 
@@ -12,17 +12,17 @@ Sector view: [[Sectors/Cement|Cement]]
 | gauge | verdict | detail |
 |---|---|---|
 | Summary (26 indicators) | **Strong Sell** | |
-| Moving averages | Strong Sell | 0 up / 15 down |
-| Oscillators | Sell | 0 up / 5 down |
-| Six-family score | Strong Sell | -6 |
+| Moving averages | Strong Sell | 1 up / 14 down |
+| Oscillators | Sell | 2 up / 4 down |
+| Six-family score | Strong Sell | -7 |
 
 RSI 36 | SuperTrend down
 
 ## Levels
 
 - Monthly pivot: 232.53
-- Nearest resistance: 232.53 (+9.1% away)
-- Nearest support: 210.07 (1.4% away)
+- Nearest resistance: 229.00 (+7.9% away)
+- Nearest support: 210.07 (1.1% away)
 - 52-week range: 183.00 to 313.80
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 36 | SuperTrend down
 
 ## Track record
 
-0/11 resolved predictions reached their target
+0/13 resolved predictions reached their target
 <!-- vectora:end -->

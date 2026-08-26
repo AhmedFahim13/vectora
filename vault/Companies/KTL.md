@@ -3,7 +3,7 @@
 
 #posture/strong-buy #sector/textile #category/z
 
-**Textile** | category Z | as of [[Journal/2026-08-23|2026-08-23]]
+**Textile** | category Z | as of [[Journal/2026-08-25|2026-08-25]]
 
 Sector view: [[Sectors/Textile|Textile]]
 
@@ -14,9 +14,9 @@ Sector view: [[Sectors/Textile|Textile]]
 | Summary (26 indicators) | **Strong Buy** | |
 | Moving averages | Strong Buy | 14 up / 1 down |
 | Oscillators | Buy | 3 up / 1 down |
-| Six-family score | Strong Buy | +6 |
+| Six-family score | Strong Buy | +7 |
 
-RSI 61 | SuperTrend up
+RSI 59 | SuperTrend up
 
 ## Levels
 
@@ -34,5 +34,5 @@ RSI 61 | SuperTrend up
 
 ## Track record
 
-6/11 resolved predictions reached their target
+8/13 resolved predictions reached their target
 <!-- vectora:end -->

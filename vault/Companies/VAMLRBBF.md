@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # VAMLRBBF
 
-#posture/strong-buy #sector/mutual-funds #category/a
+#posture/sell #sector/mutual-funds #category/a
 
-**Mutual Funds** | category A | as of [[Journal/2026-08-23|2026-08-23]]
+**Mutual Funds** | category A | as of [[Journal/2026-08-25|2026-08-25]]
 
 Sector view: [[Sectors/Mutual Funds|Mutual Funds]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Mutual Funds|Mutual Funds]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Strong Buy** | |
-| Moving averages | Strong Buy | 14 up / 1 down |
-| Oscillators | Buy | 4 up / 1 down |
-| Six-family score | Buy | +3 |
+| Summary (26 indicators) | **Sell** | |
+| Moving averages | Hold | 8 up / 7 down |
+| Oscillators | Sell | 1 up / 4 down |
+| Six-family score | Hold | +1 |
 
-RSI 66 | SuperTrend up
+RSI 55 | SuperTrend up
 
 ## Levels
 
 - Monthly pivot: 8.03
-- Nearest resistance: 8.57 (+4.5% away)
-- Nearest support: 8.03 (2.0% away)
+- Nearest resistance: 8.03 (+0.4% away)
+- Nearest support: 7.57 (5.4% away)
 - 52-week range: 4.20 to 8.60
 
 ## Fundamentals

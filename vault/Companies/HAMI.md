@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # HAMI
 
-#posture/buy #sector/miscellaneous #category/z
+#posture/hold #sector/miscellaneous #category/z
 
-**Miscellaneous** | category Z | as of [[Journal/2026-08-23|2026-08-23]]
+**Miscellaneous** | category Z | as of [[Journal/2026-08-25|2026-08-25]]
 
 Sector view: [[Sectors/Miscellaneous|Miscellaneous]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Miscellaneous|Miscellaneous]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Buy** | |
+| Summary (26 indicators) | **Hold** | |
 | Moving averages | Buy | 9 up / 6 down |
-| Oscillators | Buy | 3 up / 1 down |
+| Oscillators | Hold | 1 up / 2 down |
 | Six-family score | Hold | +1 |
 
-RSI 55 | SuperTrend up
+RSI 54 | SuperTrend up
 
 ## Levels
 
 - Monthly pivot: 156.87
-- Nearest resistance: 156.87 (+0.2% away)
-- Nearest support: 147.20 (6.0% away)
+- Nearest resistance: 156.87 (+0.4% away)
+- Nearest support: 147.20 (5.8% away)
 - 52-week range: 92.30 to 175.90
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 55 | SuperTrend up
 
 ## Track record
 
-5/11 resolved predictions reached their target
+5/13 resolved predictions reached their target
 <!-- vectora:end -->

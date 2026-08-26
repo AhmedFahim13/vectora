@@ -3,7 +3,7 @@
 
 #posture/strong-buy #sector/bank #category/z
 
-**Bank** | category Z | as of [[Journal/2026-08-23|2026-08-23]]
+**Bank** | category Z | as of [[Journal/2026-08-25|2026-08-25]]
 
 Sector view: [[Sectors/Bank|Bank]]
 
@@ -13,7 +13,7 @@ Sector view: [[Sectors/Bank|Bank]]
 |---|---|---|
 | Summary (26 indicators) | **Strong Buy** | |
 | Moving averages | Strong Buy | 14 up / 1 down |
-| Oscillators | Buy | 4 up / 1 down |
+| Oscillators | Buy | 4 up / 0 down |
 | Six-family score | Strong Buy | +7 |
 
 RSI 60 | SuperTrend up
@@ -21,8 +21,8 @@ RSI 60 | SuperTrend up
 ## Levels
 
 - Monthly pivot: 16.97
-- Nearest resistance: 18.13 (+3.0% away)
-- Nearest support: 16.97 (3.6% away)
+- Nearest resistance: 18.13 (+2.4% away)
+- Nearest support: 16.97 (4.1% away)
 - 52-week range: 12.00 to 23.80
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 60 | SuperTrend up
 
 ## Track record
 
-2/11 resolved predictions reached their target
+4/13 resolved predictions reached their target
 <!-- vectora:end -->

@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # TRUSTBANK
 
-#posture/strong-sell #sector/bank #category/a
+#posture/sell #sector/bank #category/a
 
-**Bank** | category A | as of [[Journal/2026-08-23|2026-08-23]]
+**Bank** | category A | as of [[Journal/2026-08-25|2026-08-25]]
 
 Sector view: [[Sectors/Bank|Bank]]
 
@@ -11,19 +11,19 @@ Sector view: [[Sectors/Bank|Bank]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Strong Sell** | |
-| Moving averages | Strong Sell | 0 up / 15 down |
-| Oscillators | Sell | 1 up / 3 down |
+| Summary (26 indicators) | **Sell** | |
+| Moving averages | Strong Sell | 1 up / 14 down |
+| Oscillators | Hold | 4 up / 4 down |
 | Six-family score | Sell | -2 |
 
-RSI 27 | SuperTrend down
+RSI 28 | SuperTrend down
 
 ## Levels
 
 - Monthly pivot: 15.80
-- Nearest resistance: 15.80 (+5.3% away)
-- Nearest support: 15.00 (0.0% away)
-- 52-week range: 15.00 to 23.90
+- Nearest resistance: 15.80 (+6.0% away)
+- Nearest support: 14.80 (0.7% away)
+- 52-week range: 14.80 to 23.90
 
 ## Fundamentals
 
@@ -34,5 +34,5 @@ RSI 27 | SuperTrend down
 
 ## Track record
 
-0/11 resolved predictions reached their target
+0/13 resolved predictions reached their target
 <!-- vectora:end -->

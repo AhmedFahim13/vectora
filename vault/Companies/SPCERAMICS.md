@@ -3,7 +3,7 @@
 
 #posture/sell #sector/ceramics-sector #category/b
 
-**Ceramics Sector** | category B | as of [[Journal/2026-08-23|2026-08-23]]
+**Ceramics Sector** | category B | as of [[Journal/2026-08-25|2026-08-25]]
 
 Sector view: [[Sectors/Ceramics Sector|Ceramics Sector]]
 
@@ -12,18 +12,18 @@ Sector view: [[Sectors/Ceramics Sector|Ceramics Sector]]
 | gauge | verdict | detail |
 |---|---|---|
 | Summary (26 indicators) | **Sell** | |
-| Moving averages | Hold | 7 up / 8 down |
-| Oscillators | Strong Sell | 0 up / 6 down |
-| Six-family score | Buy | +2 |
+| Moving averages | Sell | 4 up / 10 down |
+| Oscillators | Sell | 2 up / 5 down |
+| Six-family score | Sell | -3 |
 
-RSI 40 | SuperTrend up
+RSI 34 | SuperTrend down
 
 ## Levels
 
 - Monthly pivot: 23.73
-- Nearest resistance: 23.73 (+14.7% away)
-- Nearest support: 19.43 (6.1% away)
-- 52-week range: 11.40 to 29.60
+- Nearest resistance: 23.73 (+20.5% away)
+- Nearest support: 19.43 (1.4% away)
+- 52-week range: 11.50 to 29.60
 
 ## Fundamentals
 
@@ -34,5 +34,5 @@ RSI 40 | SuperTrend up
 
 ## Track record
 
-1/11 resolved predictions reached their target
+1/13 resolved predictions reached their target
 <!-- vectora:end -->

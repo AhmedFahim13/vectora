@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # MJLBD
 
-#posture/strong-sell #sector/fuel-power #category/a
+#posture/sell #sector/fuel-power #category/a
 
-**Fuel & Power** | category A | as of [[Journal/2026-08-23|2026-08-23]]
+**Fuel & Power** | category A | as of [[Journal/2026-08-25|2026-08-25]]
 
 Sector view: [[Sectors/Fuel & Power|Fuel & Power]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Fuel & Power|Fuel & Power]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Strong Sell** | |
-| Moving averages | Strong Sell | 0 up / 15 down |
-| Oscillators | Sell | 1 up / 4 down |
-| Six-family score | Sell | -3 |
+| Summary (26 indicators) | **Sell** | |
+| Moving averages | Strong Sell | 3 up / 11 down |
+| Oscillators | Hold | 1 up / 2 down |
+| Six-family score | Strong Sell | -6 |
 
-RSI 34 | SuperTrend down
+RSI 47 | SuperTrend down
 
 ## Levels
 
 - Monthly pivot: 94.47
-- Nearest resistance: 94.47 (+3.9% away)
-- Nearest support: 89.77 (1.2% away)
+- Nearest resistance: 94.47 (+2.5% away)
+- Nearest support: 91.63 (0.6% away)
 - 52-week range: 86.00 to 105.80
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 34 | SuperTrend down
 
 ## Track record
 
-0/11 resolved predictions reached their target
+0/13 resolved predictions reached their target
 <!-- vectora:end -->

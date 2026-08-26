@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # KEYACOSMET
 
-#posture/buy #sector/pharmaceuticals-chemicals #category/z
+#posture/hold #sector/pharmaceuticals-chemicals #category/z
 
-**Pharmaceuticals & Chemicals** | category Z | as of [[Journal/2026-08-23|2026-08-23]]
+**Pharmaceuticals & Chemicals** | category Z | as of [[Journal/2026-08-25|2026-08-25]]
 
 Sector view: [[Sectors/Pharmaceuticals & Chemicals|Pharmaceuticals & Chemicals]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Pharmaceuticals & Chemicals|Pharmaceuticals & Chemicals]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Buy** | |
-| Moving averages | Buy | 10 up / 5 down |
-| Oscillators | Hold | 1 up / 2 down |
-| Six-family score | Buy | +2 |
+| Summary (26 indicators) | **Hold** | |
+| Moving averages | Hold | 8 up / 7 down |
+| Oscillators | Sell | 2 up / 4 down |
+| Six-family score | Hold | +1 |
 
-RSI 56 | SuperTrend up
+RSI 52 | SuperTrend up
 
 ## Levels
 
 - Monthly pivot: 5.50
-- Nearest resistance: 5.90 (+7.3% away)
-- Nearest support: 5.10 (7.3% away)
+- Nearest resistance: 5.50 (+1.9% away)
+- Nearest support: 5.20 (3.7% away)
 - 52-week range: 3.30 to 5.90
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 56 | SuperTrend up
 
 ## Track record
 
-4/11 resolved predictions reached their target
+4/13 resolved predictions reached their target
 <!-- vectora:end -->

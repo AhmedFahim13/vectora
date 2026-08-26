@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # NAHEEACP
 
-#posture/sell #sector/engineering #category/b
+#posture/hold #sector/engineering #category/b
 
-**Engineering** | category B | as of [[Journal/2026-08-23|2026-08-23]]
+**Engineering** | category B | as of [[Journal/2026-08-25|2026-08-25]]
 
 Sector view: [[Sectors/Engineering|Engineering]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Engineering|Engineering]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Sell** | |
+| Summary (26 indicators) | **Hold** | |
 | Moving averages | Hold | 8 up / 7 down |
-| Oscillators | Sell | 1 up / 5 down |
-| Six-family score | Sell | -3 |
+| Oscillators | Sell | 2 up / 4 down |
+| Six-family score | Sell | -4 |
 
 RSI 45 | SuperTrend down
 
 ## Levels
 
 - Monthly pivot: 38.10
-- Nearest resistance: 38.10 (+15.1% away)
-- Nearest support: 32.70 (1.2% away)
+- Nearest resistance: 38.10 (+15.8% away)
+- Nearest support: 32.30 (1.8% away)
 - 52-week range: 13.90 to 42.00
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 45 | SuperTrend down
 
 ## Track record
 
-0/11 resolved predictions reached their target
+0/13 resolved predictions reached their target
 <!-- vectora:end -->

@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # PLFSL
 
-#posture/buy #sector/financial-institutions #category/z
+#posture/hold #sector/financial-institutions #category/z
 
-**Financial Institutions** | category Z | as of [[Journal/2026-08-23|2026-08-23]]
+**Financial Institutions** | category Z | as of [[Journal/2026-08-25|2026-08-25]]
 
 Sector view: [[Sectors/Financial Institutions|Financial Institutions]]
 
@@ -11,19 +11,19 @@ Sector view: [[Sectors/Financial Institutions|Financial Institutions]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Buy** | |
-| Moving averages | Buy | 9 up / 6 down |
-| Oscillators | Hold | 2 up / 1 down |
+| Summary (26 indicators) | **Hold** | |
+| Moving averages | Hold | 8 up / 7 down |
+| Oscillators | Hold | 2 up / 3 down |
 | Six-family score | Sell | -3 |
 
-RSI 53 | SuperTrend down
+RSI 49 | SuperTrend down
 
 ## Levels
 
 - Monthly pivot: 1.80
-- Nearest resistance: 2.40 (+26.3% away)
-- Nearest support: 1.80 (5.3% away)
-- 52-week range: 0.36 to 2.80
+- Nearest resistance: 2.40 (+33.3% away)
+- Nearest support: 1.70 (5.6% away)
+- 52-week range: 0.36 to 2.70
 
 ## Fundamentals
 
@@ -34,5 +34,5 @@ RSI 53 | SuperTrend down
 
 ## Track record
 
-7/10 resolved predictions reached their target
+9/12 resolved predictions reached their target
 <!-- vectora:end -->

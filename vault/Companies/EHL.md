@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # EHL
 
-#posture/sell #sector/services-real-estate #category/a
+#posture/hold #sector/services-real-estate #category/a
 
-**Services & Real Estate** | category A | as of [[Journal/2026-08-23|2026-08-23]]
+**Services & Real Estate** | category A | as of [[Journal/2026-08-25|2026-08-25]]
 
 Sector view: [[Sectors/Services & Real Estate|Services & Real Estate]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Services & Real Estate|Services & Real Estate]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Sell** | |
-| Moving averages | Hold | 7 up / 8 down |
-| Oscillators | Sell | 1 up / 4 down |
-| Six-family score | Sell | -3 |
+| Summary (26 indicators) | **Hold** | |
+| Moving averages | Hold | 8 up / 7 down |
+| Oscillators | Sell | 2 up / 4 down |
+| Six-family score | Sell | -4 |
 
-RSI 47 | SuperTrend down
+RSI 45 | SuperTrend down
 
 ## Levels
 
 - Monthly pivot: 97.03
-- Nearest resistance: 97.03 (+6.9% away)
-- Nearest support: 89.70 (1.2% away)
+- Nearest resistance: 97.03 (+7.9% away)
+- Nearest support: 89.27 (0.7% away)
 - 52-week range: 67.30 to 104.80
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 47 | SuperTrend down
 
 ## Track record
 
-0/11 resolved predictions reached their target
+0/13 resolved predictions reached their target
 <!-- vectora:end -->

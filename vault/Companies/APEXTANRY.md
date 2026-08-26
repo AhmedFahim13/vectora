@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # APEXTANRY
 
-#posture/sell #sector/tannery-industries #category/b
+#posture/hold #sector/tannery-industries #category/b
 
-**Tannery Industries** | category B | as of [[Journal/2026-08-23|2026-08-23]]
+**Tannery Industries** | category B | as of [[Journal/2026-08-25|2026-08-25]]
 
 Sector view: [[Sectors/Tannery Industries|Tannery Industries]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Tannery Industries|Tannery Industries]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Sell** | |
+| Summary (26 indicators) | **Hold** | |
 | Moving averages | Hold | 8 up / 7 down |
-| Oscillators | Sell | 1 up / 4 down |
+| Oscillators | Hold | 4 up / 4 down |
 | Six-family score | Hold | +1 |
 
-RSI 53 | SuperTrend up
+RSI 48 | SuperTrend up
 
 ## Levels
 
 - Monthly pivot: 106.23
-- Nearest resistance: 106.23 (+3.0% away)
-- Nearest support: 100.10 (2.9% away)
+- Nearest resistance: 106.23 (+5.9% away)
+- Nearest support: 99.20 (1.1% away)
 - 52-week range: 51.10 to 117.00
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 53 | SuperTrend up
 
 ## Track record
 
-7/11 resolved predictions reached their target
+9/13 resolved predictions reached their target
 <!-- vectora:end -->

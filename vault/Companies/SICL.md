@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # SICL
 
-#posture/strong-buy #sector/insurance #category/b
+#posture/buy #sector/insurance #category/b
 
-**Insurance** | category B | as of [[Journal/2026-08-23|2026-08-23]]
+**Insurance** | category B | as of [[Journal/2026-08-25|2026-08-25]]
 
 Sector view: [[Sectors/Insurance|Insurance]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Insurance|Insurance]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Strong Buy** | |
-| Moving averages | Strong Buy | 15 up / 0 down |
-| Oscillators | Buy | 4 up / 2 down |
-| Six-family score | Buy | +2 |
+| Summary (26 indicators) | **Buy** | |
+| Moving averages | Strong Buy | 14 up / 1 down |
+| Oscillators | Hold | 1 up / 2 down |
+| Six-family score | Buy | +4 |
 
-RSI 68 | SuperTrend up
+RSI 60 | SuperTrend up
 
 ## Levels
 
 - Monthly pivot: 39.20
-- Nearest resistance: 41.80 (+0.5% away)
-- Nearest support: 39.20 (5.8% away)
+- Nearest resistance: 41.80 (+5.8% away)
+- Nearest support: 39.20 (0.8% away)
 - 52-week range: 16.10 to 43.30
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 68 | SuperTrend up
 
 ## Track record
 
-3/11 resolved predictions reached their target
+5/13 resolved predictions reached their target
 <!-- vectora:end -->

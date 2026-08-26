@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # WATACHEM
 
-#posture/hold #sector/pharmaceuticals-chemicals #category/a
+#posture/sell #sector/pharmaceuticals-chemicals #category/a
 
-**Pharmaceuticals & Chemicals** | category A | as of [[Journal/2026-08-23|2026-08-23]]
+**Pharmaceuticals & Chemicals** | category A | as of [[Journal/2026-08-25|2026-08-25]]
 
 Sector view: [[Sectors/Pharmaceuticals & Chemicals|Pharmaceuticals & Chemicals]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Pharmaceuticals & Chemicals|Pharmaceuticals & Chemicals]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Hold** | |
-| Moving averages | Hold | 7 up / 7 down |
-| Oscillators | Hold | 2 up / 2 down |
-| Six-family score | Buy | +2 |
+| Summary (26 indicators) | **Sell** | |
+| Moving averages | Strong Sell | 3 up / 11 down |
+| Oscillators | Sell | 1 up / 5 down |
+| Six-family score | Sell | -5 |
 
-RSI 48 | SuperTrend up
+RSI 39 | SuperTrend down
 
 ## Levels
 
 - Monthly pivot: 143.50
-- Nearest resistance: 143.50 (+2.1% away)
-- Nearest support: 136.40 (3.0% away)
+- Nearest resistance: 143.50 (+5.8% away)
+- Nearest support: 132.00 (2.7% away)
 - 52-week range: 95.00 to 167.00
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 48 | SuperTrend up
 
 ## Track record
 
-6/11 resolved predictions reached their target
+6/13 resolved predictions reached their target
 <!-- vectora:end -->

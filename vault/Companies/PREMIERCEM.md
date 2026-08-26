@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # PREMIERCEM
 
-#posture/strong-buy #sector/cement #category/a
+#posture/sell #sector/cement #category/a
 
-**Cement** | category A | as of [[Journal/2026-08-23|2026-08-23]]
+**Cement** | category A | as of [[Journal/2026-08-25|2026-08-25]]
 
 Sector view: [[Sectors/Cement|Cement]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Cement|Cement]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Strong Buy** | |
-| Moving averages | Strong Buy | 15 up / 0 down |
-| Oscillators | Hold | 3 up / 2 down |
-| Six-family score | Buy | +4 |
+| Summary (26 indicators) | **Sell** | |
+| Moving averages | Hold | 7 up / 8 down |
+| Oscillators | Sell | 1 up / 3 down |
+| Six-family score | Hold | +1 |
 
-RSI 60 | SuperTrend up
+RSI 48 | SuperTrend up
 
 ## Levels
 
 - Monthly pivot: 51.20
-- Nearest resistance: 51.20 (+0.6% away)
-- Nearest support: 47.70 (6.3% away)
+- Nearest resistance: 51.20 (+6.7% away)
+- Nearest support: 47.70 (0.6% away)
 - 52-week range: 37.00 to 63.00
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 60 | SuperTrend up
 
 ## Track record
 
-2/11 resolved predictions reached their target
+3/13 resolved predictions reached their target
 <!-- vectora:end -->

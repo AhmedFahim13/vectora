@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # APSCLBOND
 
-#posture/strong-sell #sector/corporate-bond #category/a
+#posture/sell #sector/corporate-bond #category/a
 
-**Corporate Bond** | category A | as of [[Journal/2026-08-23|2026-08-23]]
+**Corporate Bond** | category A | as of [[Journal/2026-08-25|2026-08-25]]
 
 Sector view: [[Sectors/Corporate Bond|Corporate Bond]]
 
@@ -11,9 +11,9 @@ Sector view: [[Sectors/Corporate Bond|Corporate Bond]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Strong Sell** | |
+| Summary (26 indicators) | **Sell** | |
 | Moving averages | Strong Sell | 1 up / 14 down |
-| Oscillators | Sell | 1 up / 3 down |
+| Oscillators | Buy | 5 up / 2 down |
 | Six-family score | Sell | -2 |
 
 RSI 17 | SuperTrend down

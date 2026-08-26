@@ -3,17 +3,17 @@
 
 #sector-note #phase/leading
 
-Phase: **Leading** | as of [[Journal/2026-08-23|2026-08-23]]
+Phase: **Leading** | as of [[Journal/2026-08-25|2026-08-25]]
 
 | measure | value |
 |---|---|
-| 21-day return | +8.55% |
-| vs market, 21 days | +9.99% |
-| momentum | +14.80% |
-| 63-day return | +15.84% |
+| 21-day return | +6.10% |
+| vs market, 21 days | +8.20% |
+| momentum | +14.15% |
+| 63-day return | +7.60% |
 | constituents | 4 |
 
 ## Members, strongest first
 
-[[SAMORITA]] · [[SAIFPOWER]] · [[SAPORTL]] · [[EHL]]
+[[SAMORITA]] · [[SAPORTL]] · [[SAIFPOWER]] · [[EHL]]
 <!-- vectora:end -->

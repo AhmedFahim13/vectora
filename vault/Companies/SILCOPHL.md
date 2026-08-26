@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # SILCOPHL
 
-#posture/sell #sector/pharmaceuticals-chemicals #category/b
+#posture/strong-sell #sector/pharmaceuticals-chemicals #category/b
 
-**Pharmaceuticals & Chemicals** | category B | as of [[Journal/2026-08-23|2026-08-23]]
+**Pharmaceuticals & Chemicals** | category B | as of [[Journal/2026-08-25|2026-08-25]]
 
 Sector view: [[Sectors/Pharmaceuticals & Chemicals|Pharmaceuticals & Chemicals]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Pharmaceuticals & Chemicals|Pharmaceuticals & Chemicals]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Sell** | |
-| Moving averages | Sell | 6 up / 9 down |
+| Summary (26 indicators) | **Strong Sell** | |
+| Moving averages | Strong Sell | 3 up / 12 down |
 | Oscillators | Sell | 1 up / 6 down |
-| Six-family score | Sell | -5 |
+| Six-family score | Hold | -1 |
 
-RSI 36 | SuperTrend down
+RSI 29 | SuperTrend down
 
 ## Levels
 
 - Monthly pivot: 21.70
-- Nearest resistance: 21.70 (+19.2% away)
-- Nearest support: 17.30 (4.9% away)
+- Nearest resistance: 21.70 (+26.9% away)
+- Nearest support: 13.00 (24.0% away)
 - 52-week range: 11.10 to 23.30
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 36 | SuperTrend down
 
 ## Track record
 
-0/11 resolved predictions reached their target
+0/13 resolved predictions reached their target
 <!-- vectora:end -->

@@ -3,7 +3,7 @@
 
 #posture/sell #sector/textile #category/z
 
-**Textile** | category Z | as of [[Journal/2026-08-23|2026-08-23]]
+**Textile** | category Z | as of [[Journal/2026-08-25|2026-08-25]]
 
 Sector view: [[Sectors/Textile|Textile]]
 
@@ -12,17 +12,17 @@ Sector view: [[Sectors/Textile|Textile]]
 | gauge | verdict | detail |
 |---|---|---|
 | Summary (26 indicators) | **Sell** | |
-| Moving averages | Hold | 7 up / 8 down |
-| Oscillators | Sell | 1 up / 4 down |
+| Moving averages | Sell | 5 up / 10 down |
+| Oscillators | Sell | 1 up / 5 down |
 | Six-family score | Hold | +1 |
 
-RSI 48 | SuperTrend up
+RSI 41 | SuperTrend up
 
 ## Levels
 
 - Monthly pivot: 8.20
-- Nearest resistance: 8.20 (+2.5% away)
-- Nearest support: 7.90 (1.3% away)
+- Nearest resistance: 8.20 (+6.5% away)
+- Nearest support: 7.60 (1.3% away)
 - 52-week range: 4.30 to 8.90
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 48 | SuperTrend up
 
 ## Track record
 
-2/11 resolved predictions reached their target
+4/13 resolved predictions reached their target
 <!-- vectora:end -->

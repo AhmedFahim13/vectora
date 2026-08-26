@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # SAIHAMTEX
 
-#posture/buy #sector/textile #category/b
+#posture/strong-buy #sector/textile #category/b
 
-**Textile** | category B | as of [[Journal/2026-08-23|2026-08-23]]
+**Textile** | category B | as of [[Journal/2026-08-25|2026-08-25]]
 
 Sector view: [[Sectors/Textile|Textile]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Textile|Textile]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Buy** | |
-| Moving averages | Strong Buy | 14 up / 1 down |
-| Oscillators | Sell | 2 up / 4 down |
+| Summary (26 indicators) | **Strong Buy** | |
+| Moving averages | Strong Buy | 15 up / 0 down |
+| Oscillators | Buy | 4 up / 0 down |
 | Six-family score | Strong Buy | +5 |
 
-RSI 82 | SuperTrend up
+RSI 84 | SuperTrend up
 
 ## Levels
 
 - Monthly pivot: 22.77
-- Nearest resistance: 32.50 (+3.8% away)
-- Nearest support: 22.77 (27.3% away)
+- Nearest resistance: 32.50 (+1.6% away)
+- Nearest support: 22.77 (28.9% away)
 - 52-week range: 12.00 to 32.50
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 82 | SuperTrend up
 
 ## Track record
 
-11/11 resolved predictions reached their target
+13/13 resolved predictions reached their target
 <!-- vectora:end -->

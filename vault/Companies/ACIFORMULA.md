@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # ACIFORMULA
 
-#posture/hold #sector/pharmaceuticals-chemicals #category/a
+#posture/sell #sector/pharmaceuticals-chemicals #category/a
 
-**Pharmaceuticals & Chemicals** | category A | as of [[Journal/2026-08-23|2026-08-23]]
+**Pharmaceuticals & Chemicals** | category A | as of [[Journal/2026-08-25|2026-08-25]]
 
 Sector view: [[Sectors/Pharmaceuticals & Chemicals|Pharmaceuticals & Chemicals]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Pharmaceuticals & Chemicals|Pharmaceuticals & Chemicals]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Hold** | |
-| Moving averages | Hold | 7 up / 8 down |
-| Oscillators | Hold | 2 up / 3 down |
-| Six-family score | Hold | +1 |
+| Summary (26 indicators) | **Sell** | |
+| Moving averages | Hold | 8 up / 7 down |
+| Oscillators | Sell | 1 up / 6 down |
+| Six-family score | Sell | -4 |
 
-RSI 47 | SuperTrend up
+RSI 43 | SuperTrend down
 
 ## Levels
 
 - Monthly pivot: 170.60
-- Nearest resistance: 170.60 (+3.5% away)
-- Nearest support: 152.00 (7.8% away)
+- Nearest resistance: 170.60 (+6.1% away)
+- Nearest support: 159.00 (1.1% away)
 - 52-week range: 115.00 to 189.20
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 47 | SuperTrend up
 
 ## Track record
 
-3/11 resolved predictions reached their target
+3/13 resolved predictions reached their target
 <!-- vectora:end -->

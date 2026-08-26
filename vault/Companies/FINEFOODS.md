@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # FINEFOODS
 
-#posture/sell #sector/food-allied #category/a
+#posture/hold #sector/food-allied #category/a
 
-**Food & Allied** | category A | as of [[Journal/2026-08-23|2026-08-23]]
+**Food & Allied** | category A | as of [[Journal/2026-08-25|2026-08-25]]
 
 Sector view: [[Sectors/Food & Allied|Food & Allied]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Food & Allied|Food & Allied]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Sell** | |
-| Moving averages | Sell | 4 up / 10 down |
-| Oscillators | Sell | 0 up / 4 down |
-| Six-family score | Sell | -5 |
+| Summary (26 indicators) | **Hold** | |
+| Moving averages | Buy | 8 up / 6 down |
+| Oscillators | Hold | 2 up / 2 down |
+| Six-family score | Sell | -3 |
 
-RSI 38 | SuperTrend down
+RSI 46 | SuperTrend down
 
 ## Levels
 
 - Monthly pivot: 488.97
-- Nearest resistance: 488.97 (+13.3% away)
-- Nearest support: 409.53 (5.1% away)
+- Nearest resistance: 488.97 (+11.0% away)
+- Nearest support: 438.27 (0.5% away)
 - 52-week range: 178.90 to 517.70
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 38 | SuperTrend down
 
 ## Track record
 
-0/11 resolved predictions reached their target
+0/13 resolved predictions reached their target
 <!-- vectora:end -->

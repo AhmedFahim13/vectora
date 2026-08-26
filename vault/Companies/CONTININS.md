@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # CONTININS
 
-#posture/buy #sector/insurance #category/b
+#posture/hold #sector/insurance #category/b
 
-**Insurance** | category B | as of [[Journal/2026-08-23|2026-08-23]]
+**Insurance** | category B | as of [[Journal/2026-08-25|2026-08-25]]
 
 Sector view: [[Sectors/Insurance|Insurance]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Insurance|Insurance]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Buy** | |
-| Moving averages | Buy | 11 up / 4 down |
-| Oscillators | Hold | 2 up / 2 down |
+| Summary (26 indicators) | **Hold** | |
+| Moving averages | Hold | 8 up / 7 down |
+| Oscillators | Hold | 3 up / 2 down |
 | Six-family score | Hold | +1 |
 
-RSI 54 | SuperTrend up
+RSI 51 | SuperTrend up
 
 ## Levels
 
 - Monthly pivot: 34.40
-- Nearest resistance: 38.90 (+9.3% away)
-- Nearest support: 34.40 (3.4% away)
+- Nearest resistance: 38.90 (+11.8% away)
+- Nearest support: 34.40 (1.1% away)
 - 52-week range: 19.40 to 39.00
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 54 | SuperTrend up
 
 ## Track record
 
-7/11 resolved predictions reached their target
+7/13 resolved predictions reached their target
 <!-- vectora:end -->

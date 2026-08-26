@@ -1,19 +1,19 @@
 <!-- vectora:begin -->
 # Travel & Leisure
 
-#sector-note #phase/lagging
+#sector-note #phase/improving
 
-Phase: **Lagging** | as of [[Journal/2026-08-23|2026-08-23]]
+Phase: **Improving** | as of [[Journal/2026-08-25|2026-08-25]]
 
 | measure | value |
 |---|---|
-| 21-day return | -7.87% |
-| vs market, 21 days | -6.44% |
-| momentum | -3.36% |
-| 63-day return | -7.71% |
+| 21-day return | -6.43% |
+| vs market, 21 days | -4.33% |
+| momentum | +3.43% |
+| 63-day return | -10.07% |
 | constituents | 4 |
 
 ## Members, strongest first
 
-[[BESTHLDNG]] · [[SEAPEARL]] · [[UNIQUEHRL]] · [[PENINSULA]]
+[[BESTHLDNG]] · [[PENINSULA]] · [[SEAPEARL]] · [[UNIQUEHRL]]
 <!-- vectora:end -->

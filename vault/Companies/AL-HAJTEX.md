@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # AL-HAJTEX
 
-#posture/strong-sell #sector/textile #category/b
+#posture/sell #sector/textile #category/b
 
-**Textile** | category B | as of [[Journal/2026-08-23|2026-08-23]]
+**Textile** | category B | as of [[Journal/2026-08-25|2026-08-25]]
 
 Sector view: [[Sectors/Textile|Textile]]
 
@@ -11,19 +11,19 @@ Sector view: [[Sectors/Textile|Textile]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Strong Sell** | |
-| Moving averages | Strong Sell | 0 up / 15 down |
-| Oscillators | Sell | 2 up / 5 down |
-| Six-family score | Hold | +0 |
+| Summary (26 indicators) | **Sell** | |
+| Moving averages | Strong Sell | 1 up / 14 down |
+| Oscillators | Hold | 5 up / 4 down |
+| Six-family score | Sell | -5 |
 
-RSI 20 | SuperTrend down
+RSI 24 | SuperTrend down
 
 ## Levels
 
 - Monthly pivot: 103.70
-- Nearest resistance: 103.70 (+20.0% away)
-- Nearest support: 84.30 (2.4% away)
-- 52-week range: 91.40 to 187.50
+- Nearest resistance: 103.70 (+19.1% away)
+- Nearest support: 84.30 (3.2% away)
+- 52-week range: 84.00 to 187.50
 
 ## Fundamentals
 
@@ -34,5 +34,5 @@ RSI 20 | SuperTrend down
 
 ## Track record
 
-0/11 resolved predictions reached their target
+0/13 resolved predictions reached their target
 <!-- vectora:end -->

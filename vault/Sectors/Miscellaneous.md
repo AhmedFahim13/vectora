@@ -1,19 +1,19 @@
 <!-- vectora:begin -->
 # Miscellaneous
 
-#sector-note #phase/lagging
+#sector-note #phase/improving
 
-Phase: **Lagging** | as of [[Journal/2026-08-23|2026-08-23]]
+Phase: **Improving** | as of [[Journal/2026-08-25|2026-08-25]]
 
 | measure | value |
 |---|---|
-| 21-day return | -4.71% |
-| vs market, 21 days | -3.28% |
-| momentum | -0.99% |
-| 63-day return | +1.32% |
+| 21-day return | -3.42% |
+| vs market, 21 days | -1.32% |
+| momentum | +2.48% |
+| 63-day return | -2.61% |
 | constituents | 14 |
 
 ## Members, strongest first
 
-[[ARAMIT]] · [[BERGERPBL]] · [[AMANFEED]] · [[HAMI]] · [[INDEXAGRO]] · [[SKTRIMS]] · [[USMANIAGL]] · [[BEXIMCO]] · [[SAVAREFR]] · [[BSC]] · [[NFML]] · [[KBPPWBIL]] · [[GQBALLPEN]] · [[SINOBANGLA]] · [[MIRACLEIND]]
+[[BERGERPBL]] · [[AMANFEED]] · [[ARAMIT]] · [[HAMI]] · [[SKTRIMS]] · [[NFML]] · [[SAVAREFR]] · [[BEXIMCO]] · [[GQBALLPEN]] · [[INDEXAGRO]] · [[USMANIAGL]] · [[BSC]] · [[SINOBANGLA]] · [[KBPPWBIL]] · [[MIRACLEIND]]
 <!-- vectora:end -->

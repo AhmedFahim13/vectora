@@ -1,19 +1,19 @@
 <!-- vectora:begin -->
 # Jute
 
-#sector-note #phase/improving
+#sector-note #phase/leading
 
-Phase: **Improving** | as of [[Journal/2026-08-23|2026-08-23]]
+Phase: **Leading** | as of [[Journal/2026-08-25|2026-08-25]]
 
 | measure | value |
 |---|---|
-| 21-day return | -2.26% |
-| vs market, 21 days | -0.83% |
-| momentum | +2.99% |
-| 63-day return | +1.98% |
+| 21-day return | -1.71% |
+| vs market, 21 days | +0.39% |
+| momentum | +5.50% |
+| 63-day return | -2.08% |
 | constituents | 3 |
 
 ## Members, strongest first
 
-[[SONALIANSH]] · [[JUTESPINN]] · [[NORTHERN]]
+[[JUTESPINN]] · [[NORTHERN]] · [[SONALIANSH]]
 <!-- vectora:end -->

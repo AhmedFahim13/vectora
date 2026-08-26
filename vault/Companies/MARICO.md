@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # MARICO
 
-#posture/sell #sector/pharmaceuticals-chemicals #category/a #risk/thin-float
+#posture/buy #sector/pharmaceuticals-chemicals #category/a #risk/thin-float
 
-**Pharmaceuticals & Chemicals** | category A | as of [[Journal/2026-08-23|2026-08-23]]
+**Pharmaceuticals & Chemicals** | category A | as of [[Journal/2026-08-25|2026-08-25]]
 
 Sector view: [[Sectors/Pharmaceuticals & Chemicals|Pharmaceuticals & Chemicals]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Pharmaceuticals & Chemicals|Pharmaceuticals & Chemicals]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Sell** | |
-| Moving averages | Sell | 4 up / 10 down |
-| Oscillators | Hold | 1 up / 2 down |
-| Six-family score | Hold | +1 |
+| Summary (26 indicators) | **Buy** | |
+| Moving averages | Strong Buy | 12 up / 2 down |
+| Oscillators | Hold | 3 up / 2 down |
+| Six-family score | Buy | +2 |
 
-RSI 47 | SuperTrend up
+RSI 54 | SuperTrend up
 
 ## Levels
 
 - Monthly pivot: 2737.10
-- Nearest resistance: 2737.10 (+0.4% away)
-- Nearest support: 2715.00 (0.4% away)
+- Nearest resistance: 2737.10 (+0.0% away)
+- Nearest support: 2715.00 (0.8% away)
 - 52-week range: 2230.90 to 3000.00
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 47 | SuperTrend up
 
 ## Track record
 
-0/11 resolved predictions reached their target
+0/13 resolved predictions reached their target
 <!-- vectora:end -->

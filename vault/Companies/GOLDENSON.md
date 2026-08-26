@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # GOLDENSON
 
-#posture/sell #sector/engineering #category/b
+#posture/hold #sector/engineering #category/b
 
-**Engineering** | category B | as of [[Journal/2026-08-23|2026-08-23]]
+**Engineering** | category B | as of [[Journal/2026-08-25|2026-08-25]]
 
 Sector view: [[Sectors/Engineering|Engineering]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Engineering|Engineering]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Sell** | |
-| Moving averages | Sell | 6 up / 9 down |
-| Oscillators | Strong Sell | 0 up / 6 down |
-| Six-family score | Sell | -2 |
+| Summary (26 indicators) | **Hold** | |
+| Moving averages | Hold | 7 up / 8 down |
+| Oscillators | Buy | 5 up / 3 down |
+| Six-family score | Sell | -5 |
 
-RSI 34 | SuperTrend down
+RSI 39 | SuperTrend down
 
 ## Levels
 
 - Monthly pivot: 16.67
-- Nearest resistance: 16.67 (+19.0% away)
-- Nearest support: 9.30 (33.6% away)
+- Nearest resistance: 16.67 (+18.2% away)
+- Nearest support: 13.40 (5.0% away)
 - 52-week range: 8.70 to 17.80
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 34 | SuperTrend down
 
 ## Track record
 
-1/11 resolved predictions reached their target
+1/13 resolved predictions reached their target
 <!-- vectora:end -->

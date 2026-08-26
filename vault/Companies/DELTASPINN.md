@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # DELTASPINN
 
-#posture/sell #sector/textile #category/z
+#posture/hold #sector/textile #category/z
 
-**Textile** | category Z | as of [[Journal/2026-08-23|2026-08-23]]
+**Textile** | category Z | as of [[Journal/2026-08-25|2026-08-25]]
 
 Sector view: [[Sectors/Textile|Textile]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Textile|Textile]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Sell** | |
-| Moving averages | Hold | 7 up / 8 down |
-| Oscillators | Sell | 1 up / 5 down |
-| Six-family score | Buy | +2 |
+| Summary (26 indicators) | **Hold** | |
+| Moving averages | Hold | 8 up / 7 down |
+| Oscillators | Sell | 3 up / 5 down |
+| Six-family score | Sell | -3 |
 
-RSI 45 | SuperTrend up
+RSI 47 | SuperTrend down
 
 ## Levels
 
 - Monthly pivot: 7.70
 - Nearest resistance: 7.70 (+6.9% away)
-- Nearest support: 6.50 (9.7% away)
+- Nearest support: 6.90 (4.2% away)
 - 52-week range: 3.50 to 8.20
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 45 | SuperTrend up
 
 ## Track record
 
-1/11 resolved predictions reached their target
+1/13 resolved predictions reached their target
 <!-- vectora:end -->

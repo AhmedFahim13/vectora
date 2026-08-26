@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # FEDERALINS
 
-#posture/strong-buy #sector/insurance #category/a
+#posture/buy #sector/insurance #category/a
 
-**Insurance** | category A | as of [[Journal/2026-08-23|2026-08-23]]
+**Insurance** | category A | as of [[Journal/2026-08-25|2026-08-25]]
 
 Sector view: [[Sectors/Insurance|Insurance]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Insurance|Insurance]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Strong Buy** | |
-| Moving averages | Strong Buy | 13 up / 2 down |
-| Oscillators | Buy | 4 up / 1 down |
+| Summary (26 indicators) | **Buy** | |
+| Moving averages | Buy | 10 up / 5 down |
+| Oscillators | Hold | 2 up / 2 down |
 | Six-family score | Buy | +2 |
 
-RSI 59 | SuperTrend up
+RSI 54 | SuperTrend up
 
 ## Levels
 
 - Monthly pivot: 28.67
-- Nearest resistance: 31.23 (+4.1% away)
-- Nearest support: 28.67 (4.4% away)
+- Nearest resistance: 31.23 (+6.6% away)
+- Nearest support: 28.67 (2.2% away)
 - 52-week range: 16.10 to 32.60
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 59 | SuperTrend up
 
 ## Track record
 
-10/11 resolved predictions reached their target
+12/13 resolved predictions reached their target
 <!-- vectora:end -->

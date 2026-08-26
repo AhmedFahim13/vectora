@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # Strong Sell
 
-58 securities | as of [[Journal/2026-08-23|2026-08-23]]
+66 securities | as of [[Journal/2026-08-25|2026-08-25]]
 
 Summary gauge across all 26 indicators. See [[Evidence]] for what this posture has historically been worth.
 
-[[ADNTEL]] · [[AIL]] · [[AL-HAJTEX]] · [[AMBEEPHA]] · [[APSCLBOND]] · [[BANKASIA]] · [[BEACONPHAR]] · [[BEXIMCO]] · [[BRACBANK]] · [[CAPMBDBLMF]] · [[CLICL]] · [[DBH1STMF]] · [[EASTRNLUB]] · [[EBL]] · [[FAREASTLIF]] · [[FUWANGFOOD]] · [[GEMINISEA]] · [[GP]] · [[GPHISPAT]] · [[HEIDELBCEM]] · [[HRTEX]] · [[ICB]] · [[IFIC]] · [[INTECH]] · [[ISLAMIBANK]] · [[ISNLTD]] · [[KPPL]] · [[LIBRAINFU]] · [[LINDEBD]] · [[MAGURAPLEX]] · [[MEGHNACEM]] · [[MERCANBANK]] · [[MIDLANDBNK]] · [[MIRACLEIND]] · [[MJLBD]] · [[MONNOAGML]] · [[NAVANACNG]] · [[NTC]] · [[OIMEX]] · [[OLYMPIC]] · [[ORIONINFU]] · [[PADMALIFE]] · [[PRAGATILIF]] · [[PROGRESLIF]] · [[RAHIMAFOOD]] · [[RECKITTBEN]] · [[RUPALILIFE]] · [[SIMTEX]] · [[SQUARETEXT]] · [[STANDBANKL]] · [[SUNLIFEINS]] · [[TAMIJTEX]] · [[TILIL]] · [[TITASGAS]] · [[TRUSTBANK]] · [[UCB]] · [[UPGDCL]] · [[UTTARABANK]]
+[[ABBANK]] · [[ACTIVEFINE]] · [[ADNTEL]] · [[ADVENT]] · [[AIL]] · [[AMBEEPHA]] · [[BANKASIA]] · [[BEACHHATCH]] · [[BEACONPHAR]] · [[BRACBANK]] · [[CLICL]] · [[DACCADYE]] · [[DBH1STMF]] · [[DELTALIFE]] · [[DESHBANDHU]] · [[EASTRNLUB]] · [[EBL]] · [[FARCHEM]] · [[FAREASTLIF]] · [[FORTUNE]] · [[FUWANGFOOD]] · [[GEMINISEA]] · [[GPHISPAT]] · [[HEIDELBCEM]] · [[HRTEX]] · [[IBNSINA]] · [[IFADAUTOS]] · [[IFIC]] · [[INDEXAGRO]] · [[INTECH]] · [[ISLAMIBANK]] · [[ISNLTD]] · [[JAMUNAOIL]] · [[KAY&QUE]] · [[KBPPWBIL]] · [[KPPL]] · [[LINDEBD]] · [[LOVELLO]] · [[MEGHNACEM]] · [[MEGHNALIFE]] · [[MERCANBANK]] · [[MIDASFIN]] · [[MIRACLEIND]] · [[MONNOAGML]] · [[NATLIFEINS]] · [[NAVANACNG]] · [[NTLTUBES]] · [[OIMEX]] · [[ORIONINFU]] · [[ORIONPHARM]] · [[PADMALIFE]] · [[PRAGATILIF]] · [[PROGRESLIF]] · [[RAHIMAFOOD]] · [[RDFOOD]] · [[RECKITTBEN]] · [[SALAMCRST]] · [[SEAPEARL]] · [[SILCOPHL]] · [[SINGERBD]] · [[SQUARETEXT]] · [[SUNLIFEINS]] · [[TAMIJTEX]] · [[UCB]] · [[UNILEVERCL]] · [[WALTONHIL]]
 <!-- vectora:end -->

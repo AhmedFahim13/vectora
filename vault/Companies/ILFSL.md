@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # ILFSL
 
-#posture/buy #sector/financial-institutions #category/z
+#posture/hold #sector/financial-institutions #category/z
 
-**Financial Institutions** | category Z | as of [[Journal/2026-08-23|2026-08-23]]
+**Financial Institutions** | category Z | as of [[Journal/2026-08-25|2026-08-25]]
 
 Sector view: [[Sectors/Financial Institutions|Financial Institutions]]
 
@@ -11,9 +11,9 @@ Sector view: [[Sectors/Financial Institutions|Financial Institutions]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Buy** | |
-| Moving averages | Buy | 11 up / 4 down |
-| Oscillators | Hold | 2 up / 2 down |
+| Summary (26 indicators) | **Hold** | |
+| Moving averages | Buy | 10 up / 5 down |
+| Oscillators | Sell | 1 up / 3 down |
 | Six-family score | Buy | +3 |
 
 RSI 66 | SuperTrend up
@@ -22,7 +22,7 @@ RSI 66 | SuperTrend up
 
 - Monthly pivot: 1.77
 - Nearest resistance: 2.43 (+15.9% away)
-- Nearest support: 1.77 (15.9% away)
+- Nearest support: 1.80 (14.3% away)
 - 52-week range: 0.32 to 3.90
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 66 | SuperTrend up
 
 ## Track record
 
-8/11 resolved predictions reached their target
+8/13 resolved predictions reached their target
 <!-- vectora:end -->

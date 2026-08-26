@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # AAMRANET
 
-#posture/strong-buy #sector/it-sector #category/z
+#posture/sell #sector/it-sector #category/z
 
-**IT Sector** | category Z | as of [[Journal/2026-08-23|2026-08-23]]
+**IT Sector** | category Z | as of [[Journal/2026-08-25|2026-08-25]]
 
 Sector view: [[Sectors/IT Sector|IT Sector]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/IT Sector|IT Sector]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Strong Buy** | |
-| Moving averages | Strong Buy | 15 up / 0 down |
-| Oscillators | Hold | 3 up / 2 down |
-| Six-family score | Buy | +4 |
+| Summary (26 indicators) | **Sell** | |
+| Moving averages | Sell | 5 up / 10 down |
+| Oscillators | Sell | 0 up / 4 down |
+| Six-family score | Buy | +2 |
 
-RSI 61 | SuperTrend up
+RSI 43 | SuperTrend up
 
 ## Levels
 
 - Monthly pivot: 21.17
-- Nearest resistance: 21.90 (+1.4% away)
-- Nearest support: 21.17 (2.0% away)
+- Nearest resistance: 21.17 (+7.4% away)
+- Nearest support: 19.33 (1.9% away)
 - 52-week range: 14.50 to 25.10
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 61 | SuperTrend up
 
 ## Track record
 
-0/11 resolved predictions reached their target
+0/13 resolved predictions reached their target
 <!-- vectora:end -->

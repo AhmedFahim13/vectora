@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # MALEKSPIN
 
-#posture/buy #sector/textile #category/a
+#posture/hold #sector/textile #category/a
 
-**Textile** | category A | as of [[Journal/2026-08-23|2026-08-23]]
+**Textile** | category A | as of [[Journal/2026-08-25|2026-08-25]]
 
 Sector view: [[Sectors/Textile|Textile]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Textile|Textile]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Buy** | |
-| Moving averages | Strong Buy | 12 up / 3 down |
-| Oscillators | Hold | 1 up / 2 down |
+| Summary (26 indicators) | **Hold** | |
+| Moving averages | Buy | 10 up / 5 down |
+| Oscillators | Sell | 1 up / 3 down |
 | Six-family score | Buy | +3 |
 
-RSI 62 | SuperTrend up
+RSI 56 | SuperTrend up
 
 ## Levels
 
 - Monthly pivot: 43.97
-- Nearest resistance: 50.07 (+4.3% away)
-- Nearest support: 43.97 (8.4% away)
+- Nearest resistance: 47.13 (+0.9% away)
+- Nearest support: 43.97 (5.9% away)
 - 52-week range: 21.50 to 51.30
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 62 | SuperTrend up
 
 ## Track record
 
-10/11 resolved predictions reached their target
+12/13 resolved predictions reached their target
 <!-- vectora:end -->

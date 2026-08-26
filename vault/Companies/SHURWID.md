@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # SHURWID
 
-#posture/hold #sector/engineering #category/z
+#posture/sell #sector/engineering #category/z
 
-**Engineering** | category Z | as of [[Journal/2026-08-23|2026-08-23]]
+**Engineering** | category Z | as of [[Journal/2026-08-25|2026-08-25]]
 
 Sector view: [[Sectors/Engineering|Engineering]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Engineering|Engineering]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Hold** | |
-| Moving averages | Buy | 10 up / 5 down |
+| Summary (26 indicators) | **Sell** | |
+| Moving averages | Hold | 7 up / 8 down |
 | Oscillators | Sell | 1 up / 3 down |
-| Six-family score | Buy | +2 |
+| Six-family score | Hold | +1 |
 
-RSI 54 | SuperTrend up
+RSI 48 | SuperTrend up
 
 ## Levels
 
 - Monthly pivot: 6.23
-- Nearest resistance: 6.23 (+0.5% away)
-- Nearest support: 5.80 (6.5% away)
+- Nearest resistance: 6.23 (+3.9% away)
+- Nearest support: 5.90 (1.7% away)
 - 52-week range: 3.20 to 10.30
 
 ## Fundamentals

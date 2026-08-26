@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # RDFOOD
 
-#posture/sell #sector/food-allied #category/b
+#posture/strong-sell #sector/food-allied #category/b
 
-**Food & Allied** | category B | as of [[Journal/2026-08-23|2026-08-23]]
+**Food & Allied** | category B | as of [[Journal/2026-08-25|2026-08-25]]
 
 Sector view: [[Sectors/Food & Allied|Food & Allied]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Food & Allied|Food & Allied]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Sell** | |
-| Moving averages | Sell | 5 up / 9 down |
-| Oscillators | Sell | 2 up / 4 down |
+| Summary (26 indicators) | **Strong Sell** | |
+| Moving averages | Strong Sell | 2 up / 13 down |
+| Oscillators | Sell | 0 up / 5 down |
 | Six-family score | Sell | -5 |
 
-RSI 37 | SuperTrend down
+RSI 31 | SuperTrend down
 
 ## Levels
 
 - Monthly pivot: 28.63
-- Nearest resistance: 28.63 (+16.9% away)
-- Nearest support: 23.60 (3.7% away)
+- Nearest resistance: 28.63 (+21.8% away)
+- Nearest support: 22.27 (5.2% away)
 - 52-week range: 15.00 to 30.90
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 37 | SuperTrend down
 
 ## Track record
 
-1/11 resolved predictions reached their target
+1/13 resolved predictions reached their target
 <!-- vectora:end -->

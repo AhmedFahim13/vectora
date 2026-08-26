@@ -3,7 +3,7 @@
 
 #posture/sell #sector/tannery-industries #category/b
 
-**Tannery Industries** | category B | as of [[Journal/2026-08-23|2026-08-23]]
+**Tannery Industries** | category B | as of [[Journal/2026-08-25|2026-08-25]]
 
 Sector view: [[Sectors/Tannery Industries|Tannery Industries]]
 
@@ -12,17 +12,17 @@ Sector view: [[Sectors/Tannery Industries|Tannery Industries]]
 | gauge | verdict | detail |
 |---|---|---|
 | Summary (26 indicators) | **Sell** | |
-| Moving averages | Sell | 5 up / 10 down |
-| Oscillators | Sell | 2 up / 4 down |
-| Six-family score | Buy | +2 |
+| Moving averages | Sell | 4 up / 10 down |
+| Oscillators | Sell | 2 up / 6 down |
+| Six-family score | Sell | -3 |
 
-RSI 42 | SuperTrend up
+RSI 38 | SuperTrend down
 
 ## Levels
 
 - Monthly pivot: 102.80
-- Nearest resistance: 102.80 (+6.3% away)
-- Nearest support: 95.10 (1.7% away)
+- Nearest resistance: 102.80 (+10.1% away)
+- Nearest support: 93.10 (0.3% away)
 - 52-week range: 41.10 to 127.20
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 42 | SuperTrend up
 
 ## Track record
 
-7/11 resolved predictions reached their target
+7/13 resolved predictions reached their target
 <!-- vectora:end -->
