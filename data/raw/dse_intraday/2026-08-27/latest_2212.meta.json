@@ -1,0 +1,9 @@
+{
+ "source": "dse_intraday",
+ "run_date": "2026-08-27",
+ "url": "https://www.dsebd.org/latest_share_price_scroll_l.php",
+ "fetched_at": "2026-08-27T16:13:00.664137+00:00",
+ "bytes": 554651,
+ "compressed_bytes": 41023,
+ "sha256": "f8ea80d3c2dfd972b21332a3e9b791cb43cd740a710426e212cec0fec18461fd"
+}
