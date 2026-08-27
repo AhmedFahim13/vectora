@@ -149,43 +149,39 @@ def add_all(df: pl.DataFrame) -> pl.DataFrame:
     drop = [c for c in d.columns if c.startswith("_")]
     return d.drop(drop)
 
-# --- TradingView-parity indicator set (Phase 6C) -----------------------------
-# TradingView's Technical Rating aggregates 26 components in two groups:
-# 15 moving averages (SMA+EMA at 10/20/30/50/100/200, HullMA 9, VWMA 20,
-# Ichimoku) and 11 oscillators (RSI, Stochastic, CCI, ADX, Awesome, Momentum,
-# MACD, Stochastic RSI, Williams %R, Bull Bear Power, Ultimate). Splitting the
-# groups matters: when trend and oscillators disagree, that disagreement is
-# itself information, which a single blended score hides.
-MA_PERIODS = (10, 20, 30, 50, 100, 200)
+# --- Indicator set (Phase 6C, pruned to the client spec 2026-08-26) ---------
+# Started as TradingView's 26-component rating. The client reviewed the list
+# and kept the components she actually reads, dropping the rest:
+#
+#   kept    MA 10/20/50/100/200, VWMA 10 and 20, Ichimoku, RSI, Stochastic
+#           RSI, CCI 10 and 20, MACD(12,26,9), Ultimate, Awesome, ADX+DI
+#   dropped MA 30, Hull MA 9, Stochastic %K/%D, Momentum 10,
+#           Williams %R, Bull Bear Power
+#
+# Two groups still, because when trend and oscillators disagree that
+# disagreement is itself information a single blended score would hide.
+MA_PERIODS = (10, 20, 50, 100, 200)
+VWMA_PERIODS = (10, 20)
+CCI_PERIODS = (10, 20)
 
 
 def add_tradingview_set(df: pl.DataFrame) -> pl.DataFrame:
-    """Adds the remaining components so the full 26-way rating is available."""
+    """Adds the components the two gauges vote on."""
     d = df.sort(["symbol", "date"])
     close, high, low = pl.col("close"), pl.col("high"), pl.col("low")
 
-    # --- 12 moving averages (SMA + EMA) ---
+    # --- moving averages (SMA + EMA at each period) ---
     for n in MA_PERIODS:
         d = d.with_columns(
             close.rolling_mean(n).over("symbol").alias(f"sma{n}"),
             close.ewm_mean(span=n, adjust=False).over("symbol").alias(f"ema{n}"))
 
-    # --- Hull MA(9): 2*WMA(n/2) - WMA(n), smoothed by WMA(sqrt n) ---
-    # written as an explicit shift-sum rather than rolling_sum(weights=...):
-    # polars refuses weighted rolling windows over columns containing nulls,
-    # and the intermediate 2*WMA(4)-WMA(9) column is null through its warmup
-    def _wma(e: pl.Expr, n: int) -> pl.Expr:
-        return (sum((n - i) * e.shift(i).over("symbol") for i in range(n))
-                / (n * (n + 1) / 2))
-    d = d.with_columns(
-        (2 * _wma(close, 4) - _wma(close, 9)).alias("_hull_raw"))
-    d = d.with_columns(_wma(pl.col("_hull_raw"), 3).alias("hma9"))
-
-    # --- VWMA(20) ---
-    d = d.with_columns(
-        ((close * pl.col("volume")).rolling_sum(20).over("symbol")
-         / (pl.col("volume").rolling_sum(20).over("symbol") + _EPS))
-        .alias("vwma20"))
+    # --- VWMA(10) and VWMA(20) ---
+    for n in VWMA_PERIODS:
+        d = d.with_columns(
+            ((close * pl.col("volume")).rolling_sum(n).over("symbol")
+             / (pl.col("volume").rolling_sum(n).over("symbol") + _EPS))
+            .alias(f"vwma{n}"))
 
     # --- Ichimoku: price vs the cloud (span A/B shifted 26 forward) ---
     conv = ((high.rolling_max(9) + low.rolling_min(9)) / 2).over("symbol")
@@ -197,20 +193,13 @@ def add_tradingview_set(df: pl.DataFrame) -> pl.DataFrame:
         ((high.rolling_max(52) + low.rolling_min(52)) / 2).over("symbol")
         .shift(26).over("symbol").alias("ichi_b"))
 
-    # --- Stochastic %K(14,3) and %D ---
-    ll = low.rolling_min(14).over("symbol")
-    hh = high.rolling_max(14).over("symbol")
-    d = d.with_columns(
-        (100 * (close - ll) / (hh - ll + _EPS)).rolling_mean(3).over("symbol")
-        .alias("stoch_k"))
-    d = d.with_columns(
-        pl.col("stoch_k").rolling_mean(3).over("symbol").alias("stoch_d"))
-
-    # --- CCI(20) ---
+    # --- CCI(10) and CCI(20) ---
     tp = (high + low + close) / 3
-    tp_ma = tp.rolling_mean(20).over("symbol")
-    md = (tp - tp_ma).abs().rolling_mean(20).over("symbol")
-    d = d.with_columns(((tp - tp_ma) / (0.015 * md + _EPS)).alias("cci20"))
+    for n in CCI_PERIODS:
+        tp_ma = tp.rolling_mean(n).over("symbol")
+        md = (tp - tp_ma).abs().rolling_mean(n).over("symbol")
+        d = d.with_columns(
+            ((tp - tp_ma) / (0.015 * md + _EPS)).alias(f"cci{n}"))
 
     # --- ADX(14) with +DI/-DI ---
     up_move = high.diff().over("symbol")
@@ -231,13 +220,11 @@ def add_tradingview_set(df: pl.DataFrame) -> pl.DataFrame:
     d = d.with_columns(
         dx.ewm_mean(alpha=1 / 14, adjust=False).over("symbol").alias("adx14"))
 
-    # --- Awesome Oscillator, Momentum(10), Williams %R(14) ---
+    # --- Awesome Oscillator(5,34) ---
     median_px = (high + low) / 2
     d = d.with_columns(
         (median_px.rolling_mean(5).over("symbol")
-         - median_px.rolling_mean(34).over("symbol")).alias("ao"),
-        (close - close.shift(10).over("symbol")).alias("mom10"),
-        (-100 * (hh - close) / (hh - ll + _EPS)).alias("willr14"))
+         - median_px.rolling_mean(34).over("symbol")).alias("ao"))
 
     # --- Stochastic RSI(14) ---
     rsi = pl.col("rsi14")
@@ -246,10 +233,6 @@ def add_tradingview_set(df: pl.DataFrame) -> pl.DataFrame:
     d = d.with_columns(
         (100 * (rsi - rsi_lo) / (rsi_hi - rsi_lo + _EPS))
         .rolling_mean(3).over("symbol").alias("stochrsi"))
-
-    # --- Bull Bear Power(13) ---
-    ema13 = close.ewm_mean(span=13, adjust=False).over("symbol")
-    d = d.with_columns(((high - ema13) + (low - ema13)).alias("bbp"))
 
     # --- Ultimate Oscillator(7,14,28) ---
     true_low = pl.min_horizontal(low, prev_close)

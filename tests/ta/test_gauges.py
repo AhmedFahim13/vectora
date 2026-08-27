@@ -12,41 +12,47 @@ def _row(**kw) -> dict:
     return base
 
 
-def test_ma_gauge_has_fifteen_components():
-    votes = gauges.ma_votes(_row())
-    assert len(votes) == 15
-    names = [v["indicator"] for v in votes]
-    assert "SMA(200)" in names and "EMA(10)" in names
-    assert "Hull MA(9)" in names and "VWMA(20)" in names
-    assert "Ichimoku Cloud" in names
+def test_ma_gauge_matches_the_client_spec():
+    """Pruned 2026-08-26 to the components the client reads."""
+    names = [v["indicator"] for v in gauges.ma_votes(_row())]
+    assert names == [
+        "SMA(10)", "SMA(20)", "SMA(50)", "SMA(100)", "SMA(200)",
+        "EMA(10)", "EMA(20)", "EMA(50)", "EMA(100)", "EMA(200)",
+        "VWMA(10)", "VWMA(20)", "Ichimoku Cloud"]
 
 
-def test_osc_gauge_has_eleven_components():
-    votes = gauges.osc_votes(_row())
-    assert len(votes) == 11
-    names = [v["indicator"] for v in votes]
-    for expected in ("RSI(14)", "Stochastic(14,3,3)", "CCI(20)", "ADX(14)",
-                     "Awesome Oscillator", "Momentum(10)", "MACD(12,26)",
-                     "Stochastic RSI(14)", "Williams %R(14)",
-                     "Bull Bear Power", "Ultimate Oscillator"):
-        assert expected in names, expected
+def test_osc_gauge_matches_the_client_spec():
+    names = [v["indicator"] for v in gauges.osc_votes(_row())]
+    assert names == [
+        "RSI(14)", "CCI(10)", "CCI(20)", "ADX(14)", "Awesome Oscillator",
+        "MACD(12,26)", "Stochastic RSI(14)", "Ultimate Oscillator"]
+
+
+def test_dropped_components_are_really_gone():
+    """A component left computing but unread is dead weight that still
+    costs a column in every stored vote payload."""
+    names = ({v["indicator"] for v in gauges.ma_votes(_row())}
+             | {v["indicator"] for v in gauges.osc_votes(_row())})
+    for dropped in ("SMA(30)", "EMA(30)", "Hull MA(9)", "Stochastic(14,3,3)",
+                    "Momentum(10)", "Williams %R(14)", "Bull Bear Power"):
+        assert dropped not in names, dropped
 
 
 def test_price_above_every_average_is_strong_buy_on_the_ma_gauge():
     r = _row(**{f"{k}{n}": 50.0 for k in ("sma", "ema")
                 for n in gauges.MA_PERIODS})
-    r |= {"hma9": 50.0, "vwma20": 50.0, "ichi_a": 40.0, "ichi_b": 45.0}
+    r |= {"vwma10": 50.0, "vwma20": 50.0, "ichi_a": 40.0, "ichi_b": 45.0}
     g = gauges.gauge(gauges.ma_votes(r))
-    assert g["buy"] == 15 and g["sell"] == 0
+    assert g["buy"] == 13 and g["sell"] == 0
     assert g["band"] == "Strong Buy"
 
 
 def test_price_below_every_average_is_strong_sell():
     r = _row(**{f"{k}{n}": 150.0 for k in ("sma", "ema")
                 for n in gauges.MA_PERIODS})
-    r |= {"hma9": 150.0, "vwma20": 150.0, "ichi_a": 160.0, "ichi_b": 155.0}
+    r |= {"vwma10": 150.0, "vwma20": 150.0, "ichi_a": 160.0, "ichi_b": 155.0}
     g = gauges.gauge(gauges.ma_votes(r))
-    assert g["sell"] == 15 and g["band"] == "Strong Sell"
+    assert g["sell"] == 13 and g["band"] == "Strong Sell"
 
 
 def test_missing_data_votes_neutral_never_crashes():
@@ -90,7 +96,7 @@ def test_summary_weights_the_two_gauges_equally():
     """15 bullish averages must not drown out 11 bearish oscillators."""
     r = _row(**{f"{k}{n}": 50.0 for k in ("sma", "ema")
                 for n in gauges.MA_PERIODS})
-    r |= {"hma9": 50.0, "vwma20": 50.0, "ichi_a": 40.0, "ichi_b": 45.0}
+    r |= {"vwma10": 50.0, "vwma20": 50.0, "ichi_a": 40.0, "ichi_b": 45.0}
     out = gauges.rate_row(r)
     assert out["ma"]["mean"] == 1.0
     assert out["osc"]["mean"] == 0.0        # no oscillator inputs supplied
@@ -150,6 +156,6 @@ def test_abstaining_at_an_extreme_says_so():
     assert v["vote"] == 0
     assert "overbought but still rising" in v["reason"]
 
-    v = next(x for x in gauges.osc_votes(_row(willr14=-50.0, prev_willr14=-55.0))
-             if x["indicator"] == "Williams %R(14)")
+    v = next(x for x in gauges.osc_votes(_row(cci10=40.0, prev_cci10=20.0))
+             if x["indicator"] == "CCI(10)")
     assert "mid-range" in v["reason"]

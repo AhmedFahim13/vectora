@@ -263,6 +263,27 @@ def _gauge_evidence(con, horizon: int = 10) -> str:
         "WHERE horizon = ? ORDER BY gauge, hit_rate DESC", [horizon]).fetchall()
     if not rows:
         return ""
+    # counts and edges read from the data, never written into the prose: the
+    # component list was pruned on 2026-08-26 and hardcoded copy would have
+    # gone on claiming 26 of them
+    from vectora.ta import gauges as _g
+    probe = {"close": 100.0}
+    n_ma = len(_g.ma_votes(probe))
+    n_osc = len(_g.osc_votes(probe))
+    # sum across one gauge's bands: every symbol-day lands in exactly one
+    # band, so max() would report the largest band rather than the corpus
+    scored = sum(n for g_, _b, n, _h, _base in rows if g_ == "summary")
+    def _edge(gauge, band):
+        for g_, b, _n, h, base in rows:
+            if g_ == gauge and b == band:
+                return (h - base) * 100
+        return None
+    sum_sb, six_sb = _edge("summary", "Strong Buy"), None
+    six = con.execute(
+        "SELECT hit_rate, base_rate FROM ta_band_stats "
+        "WHERE band = 'Strong Buy' AND horizon = ?", [horizon]).fetchone()
+    if six:
+        six_sb = (six[0] - six[1]) * 100
     labels = {"summary": "Summary (all 26)", "moving_averages": "Moving averages (15)",
               "oscillators": "Oscillators (11)"}
     body = "".join(
@@ -273,12 +294,16 @@ def _gauge_evidence(con, horizon: int = 10) -> str:
         f"{(hit - base) * 100:+.1f} pp</td></tr>"
         for g, b, n, hit, base in rows)
     return (
-        "<section><h2>Do the 26 indicators beat the six? "
-        "<span class='muted small'>&mdash; measured on 1,048,534 rows</span></h2>"
-        "<div class='note'>The same replay, applied to the full TradingView "
-        "component set. The summary gauge&rsquo;s Strong Buy carries a larger "
-        "edge than the six-family Strong Buy (+8.1pp vs +5.7pp), so the "
-        "expansion earned its place. Two results deserve scepticism rather "
+        f"<section><h2>Do the {n_ma + n_osc} indicators beat the six? "
+        f"<span class='muted small'>&mdash; measured on {scored:,} "
+        "symbol-days</span></h2>"
+        f"<div class='note'>The same replay, applied to the "
+        f"{n_ma}-average and {n_osc}-oscillator set the client selected. "
+        + (f"The summary gauge&rsquo;s Strong Buy carries a larger edge than "
+           f"the six-family Strong Buy ({sum_sb:+.1f}pp vs {six_sb:+.1f}pp), "
+           "so the second read earns its place. "
+           if (sum_sb is not None and six_sb is not None) else "")
+        + "Two results deserve scepticism rather "
         "than excitement: the oscillator gauge beats the base rate at "
         "<i>both</i> extremes, and its Strong Sell (+12.6pp) reads better than "
         "its Buy. That is not directional skill — a stock whose oscillators "
@@ -417,6 +442,68 @@ def _confluence(entries: list[dict], gmap: dict) -> str:
         "</tr></thead><tbody>" + body + "</tbody></table></div>" + caveat)
 
 
+def _verification(con, symbols: list[str], days: int = 12) -> str:
+    """What we said about each watchlist stock, and what it then did.
+
+    The aggregate evidence table measures the system correctly and convinces
+    nobody: a reader cannot check "+8.2pp across 133,592 cases" against
+    anything. This section is the same claim at a scale a person can verify
+    — one stock, one day, one reading, and the move that followed. Rows too
+    recent to have finished say pending rather than borrowing a number.
+    """
+    from vectora import verify
+    panel = verify.load_panel(con)
+    blocks = []
+    for sym in symbols:
+        rows = verify.history(con, sym, days=days, panel=panel)
+        if not rows:
+            continue
+        card = verify.scorecard(rows, horizon=5)
+        body = []
+        for r in rows:
+            def move(v):
+                if v is None:
+                    return "<td class='num muted'>pending</td>"
+                cls = "pos" if v > 0 else ("neg" if v < 0 else "")
+                return f"<td class='num {cls}'>{v * 100:+.2f}%</td>"
+            rd = r["readings"]
+            body.append(
+                f"<tr><td class='num'>{_esc(r['date'])}</td>"
+                f"<td class='num'>{r['close']:,.2f}</td>"
+                f"<td>{_band_pill(r['summary'])}</td>"
+                f"<td class='num'>{_esc(rd['RSI(14)'] or '-')}</td>"
+                f"<td class='num'>{_esc(rd['MACD hist'] or '-')}</td>"
+                f"<td class='num'>{_esc(rd['CCI(20)'] or '-')}</td>"
+                f"<td class='num'>{_esc(rd['ADX(14)'] or '-')}</td>"
+                f"{move(r['ret_5d'])}{move(r['ret_10d'])}</tr>")
+        note = ""
+        if card["bullish_n"]:
+            note = (f"<div class='legend'>Over these {card['n']} gradable "
+                    f"days, {card['bullish_n']} carried a bullish posture and "
+                    f"{card['bullish_up']:.0%} of those were higher five days "
+                    f"later (mean {card['mean_after_bullish'] * 100:+.2f}%). "
+                    "A dozen days is a spot check, not evidence — the "
+                    "measured edge above rests on 13 years.</div>")
+        blocks.append(
+            f"<div class='grp'><h3>{_esc(sym)}</h3><div class='scroll'>"
+            "<table class='tbl'><thead><tr><th>Date</th><th>Close</th>"
+            "<th>Posture</th><th>RSI</th><th>MACD</th><th>CCI</th>"
+            "<th>ADX</th><th>Next 5d</th><th>Next 10d</th></tr></thead>"
+            f"<tbody>{''.join(body)}</tbody></table></div>{note}</div>")
+    if not blocks:
+        return ""
+    return (
+        "<section><h2>Check it yourself "
+        "<span class='muted small'>&mdash; what we said, and what happened"
+        "</span></h2>"
+        "<div class='note'>For each watchlist stock: the posture and the key "
+        "readings on each of the last twelve trading days, beside the move "
+        "that actually followed. Take any row to your broker's chart and "
+        "confirm it. <b>Nothing here is a trade instruction</b> — no entry, "
+        "no stop, no size. It is a direction and the distance price then "
+        "travelled.</div>" + "".join(blocks) + "</section>")
+
+
 def build(con, date_str: str | None = None,
           out_path: Path = DEFAULT_OUT, board_n: int = 20) -> Path:
     date_str = date_str or str(con.execute(
@@ -454,6 +541,8 @@ def build(con, date_str: str | None = None,
                     f"{', '.join(missing)}</div>" if missing else "")
             wl.append(f"<div class='grp'><h3>{_esc(name)}</h3>"
                       + _table(entries, gmap, fmap, lmap) + note + "</div>")
+        watch = [sym for syms in groups.values() for sym in syms]
+        sections.append(_verification(con, sorted(set(watch))))
         sections.append(
             "<section><h2>Your watchlist</h2><div class='note'>Ranked within "
             "each group by technical score. Open <i>why</i> on any row to see "
@@ -520,8 +609,8 @@ _TEMPLATE = """<!doctype html>
   <b>A technical posture is a mechanical summary of indicator states</b> —
   not a forecast, and <b>not investment advice</b>. Every row carries two
   independent reads: the six-family score (MACD, RSI, Bollinger, MA cross,
-  SuperTrend, candlesticks) and the 26-component TradingView set, split into
-  a 15-average trend gauge and an 11-oscillator gauge. Each band's measured
+  SuperTrend, candlesticks) and the selected indicator set, split into
+  a moving-average trend gauge and an oscillator gauge. Each band's measured
   historical edge is printed below so you can judge it on evidence.
   Vectora's separately-validated model probability lives on the
   <a class="navlink" href="index.html">daily brief</a>.

@@ -1,11 +1,13 @@
-"""TradingView-parity technical gauges: 15 moving averages + 11 oscillators.
+"""Two technical gauges: moving averages, and oscillators.
 
-TradingView splits its rating into two gauges rather than one blended score,
-and that split is the point: trend-followers and oscillators are designed to
-disagree at turning points. A stock above all 15 averages with every
-oscillator screaming overbought is a different animal from one that is
-below its averages with oscillators washed out, even though a single
-blended number can rate them identically.
+Started from TradingView's 26-component rating and pruned on 2026-08-26 to
+the components the client actually reads (see indicators.MA_PERIODS).
+
+The split into two gauges is the point: trend-followers and oscillators are
+designed to disagree at turning points. A stock above every average with
+its oscillators screaming overbought is a different animal from one below
+its averages with oscillators washed out, even though a single blended
+number can rate them identically.
 
 Each component votes exactly -1 / 0 / +1 (TradingView's own convention), the
 gauge is the mean vote, and the summary is the mean of the two gauge means.
@@ -20,14 +22,13 @@ import json
 
 import polars as pl
 
-from vectora.ta.indicators import MA_PERIODS
+from vectora.ta.indicators import CCI_PERIODS, MA_PERIODS, VWMA_PERIODS
 
 BANDS = ["Strong Sell", "Sell", "Hold", "Buy", "Strong Buy"]
 _STRONG, _WEAK = 0.5, 0.1
 
 # columns whose direction (rising/falling) a TradingView rule depends on
-PREV_COLS = ("rsi14", "cci20", "mom10", "willr14", "ao", "bbp", "stochrsi",
-             "stoch_k", "macd_hist")
+PREV_COLS = ("rsi14", "cci10", "cci20", "ao", "stochrsi", "macd_hist")
 
 
 def add_prev(df: pl.DataFrame) -> pl.DataFrame:
@@ -75,7 +76,7 @@ def _vote(indicator: str, vote: int, reason: str) -> dict:
     return {"indicator": indicator, "vote": vote, "reason": reason}
 
 
-# --- moving averages: 15 components -----------------------------------------
+# --- moving averages -------------------------------------------------------
 # Rule is uniform and deliberately dumb: price above the average is a buy
 # vote, below is a sell. Simplicity is what makes the gauge readable.
 def ma_votes(r: dict) -> list[dict]:
@@ -94,7 +95,8 @@ def ma_votes(r: dict) -> list[dict]:
             out.append(_vote(
                 f"{label}({n})", 1 if close > v else (-1 if close < v else 0),
                 f"{side} it ({v:,.2f})"))
-    for col, label in (("hma9", "Hull MA(9)"), ("vwma20", "VWMA(20)")):
+    for n in VWMA_PERIODS:
+        col, label = f"vwma{n}", f"VWMA({n})"
         v = r.get(col)
         if v is None:
             out.append(_vote(label, 0, "not enough history yet"))
@@ -120,7 +122,7 @@ def ma_votes(r: dict) -> list[dict]:
     return out
 
 
-# --- oscillators: 11 components ---------------------------------------------
+# --- oscillators -----------------------------------------------------------
 # These follow TradingView's published rules, which are contrarian at the
 # extremes: an oscillator only votes BUY when it is oversold AND turning up.
 def osc_votes(r: dict) -> list[dict]:
@@ -136,27 +138,19 @@ def osc_votes(r: dict) -> list[dict]:
     else:
         out.append(_vote("RSI(14)", 0, f"RSI {x:.0f} is not at an actionable extreme"))
 
-    k, dline = r.get("stoch_k"), r.get("stoch_d")
-    if k is None or dline is None:
-        out.append(_vote("Stochastic(14,3,3)", 0, "not available"))
-    elif k < 20 and k > dline:
-        out.append(_vote("Stochastic(14,3,3)", 1,
-                         f"%K {k:.0f} is oversold and has crossed above %D"))
-    elif k > 80 and k < dline:
-        out.append(_vote("Stochastic(14,3,3)", -1,
-                         f"%K {k:.0f} is overbought and has crossed below %D"))
-    else:
-        out.append(_vote("Stochastic(14,3,3)", 0, f"%K {k:.0f}, no extreme cross"))
-
-    c = r.get("cci20")
-    if c is None:
-        out.append(_vote("CCI(20)", 0, "not available"))
-    elif c < -100 and _rising(r, "cci20"):
-        out.append(_vote("CCI(20)", 1, f"CCI {c:.0f} is deeply negative and rising"))
-    elif c > 100 and _rising(r, "cci20") is False:
-        out.append(_vote("CCI(20)", -1, f"CCI {c:.0f} is stretched high and falling"))
-    else:
-        out.append(_vote("CCI(20)", 0, _idle(c, -100, 100, "CCI")))
+    for n in CCI_PERIODS:
+        c = r.get(f"cci{n}")
+        label = f"CCI({n})"
+        if c is None:
+            out.append(_vote(label, 0, "not available"))
+        elif c < -100 and _rising(r, f"cci{n}"):
+            out.append(_vote(label, 1,
+                             f"CCI {c:.0f} is deeply negative and rising"))
+        elif c > 100 and _rising(r, f"cci{n}") is False:
+            out.append(_vote(label, -1,
+                             f"CCI {c:.0f} is stretched high and falling"))
+        else:
+            out.append(_vote(label, 0, _idle(c, -100, 100, "CCI")))
 
     adx, dp, dm = r.get("adx14"), r.get("di_plus"), r.get("di_minus")
     if adx is None or dp is None or dm is None:
@@ -181,16 +175,6 @@ def osc_votes(r: dict) -> list[dict]:
     else:
         out.append(_vote("Awesome Oscillator", 0, "AO gives no confirmed signal"))
 
-    m = r.get("mom10")
-    if m is None:
-        out.append(_vote("Momentum(10)", 0, "not available"))
-    elif _rising(r, "mom10"):
-        out.append(_vote("Momentum(10)", 1, "10-day momentum is improving"))
-    elif _rising(r, "mom10") is False:
-        out.append(_vote("Momentum(10)", -1, "10-day momentum is deteriorating"))
-    else:
-        out.append(_vote("Momentum(10)", 0, "momentum is flat"))
-
     h = r.get("macd_hist")
     if h is None:
         out.append(_vote("MACD(12,26)", 0, "not available"))
@@ -211,26 +195,6 @@ def osc_votes(r: dict) -> list[dict]:
                          f"StochRSI {sr:.0f} is overbought and turning down"))
     else:
         out.append(_vote("Stochastic RSI(14)", 0, _idle(sr, 20, 80, "StochRSI")))
-
-    w = r.get("willr14")
-    if w is None:
-        out.append(_vote("Williams %R(14)", 0, "not available"))
-    elif w < -80 and _rising(r, "willr14"):
-        out.append(_vote("Williams %R(14)", 1, f"%R {w:.0f} is oversold and lifting"))
-    elif w > -20 and _rising(r, "willr14") is False:
-        out.append(_vote("Williams %R(14)", -1, f"%R {w:.0f} is overbought and fading"))
-    else:
-        out.append(_vote("Williams %R(14)", 0, _idle(w, -80, -20, "%R")))
-
-    bbp = r.get("bbp")
-    if bbp is None:
-        out.append(_vote("Bull Bear Power", 0, "not available"))
-    elif bbp > 0 and _rising(r, "bbp"):
-        out.append(_vote("Bull Bear Power", 1, "buyers are gaining the upper hand"))
-    elif bbp < 0 and _rising(r, "bbp") is False:
-        out.append(_vote("Bull Bear Power", -1, "sellers are gaining the upper hand"))
-    else:
-        out.append(_vote("Bull Bear Power", 0, "buyers and sellers are balanced"))
 
     uo = r.get("uo")
     if uo is None:
@@ -306,31 +270,25 @@ def vote_frame(df: pl.DataFrame) -> pl.DataFrame:
     """ma_mean / osc_mean / summary_mean + bands, without the reason text."""
     d = add_prev(df)
     ma = [_sign_vs(f"{k}{n}") for k in ("sma", "ema") for n in MA_PERIODS]
-    ma += [_sign_vs("hma9"), _sign_vs("vwma20")]
+    ma += [_sign_vs(f"vwma{n}") for n in VWMA_PERIODS]
     a, b = pl.col("ichi_a"), pl.col("ichi_b")
     top, bot = pl.max_horizontal(a, b), pl.min_horizontal(a, b)
     ma.append(pl.when(a.is_null() | b.is_null()).then(0)
               .when(pl.col("close") > top).then(1)
               .when(pl.col("close") < bot).then(-1).otherwise(0))
 
-    k, dl = pl.col("stoch_k"), pl.col("stoch_d")
     adx, dp, dm = pl.col("adx14"), pl.col("di_plus"), pl.col("di_minus")
     h = pl.col("macd_hist")
     uo = pl.col("uo")
-    osc = [
-        _extreme("rsi14", 30, 70),
-        (pl.when(((k < 20) & (k > dl)).fill_null(False)).then(1)   # noqa: FBT003
-         .when(((k > 80) & (k < dl)).fill_null(False)).then(-1).otherwise(0)),
-        _extreme("cci20", -100, 100),
+    osc = [_extreme("rsi14", 30, 70)]
+    osc += [_extreme(f"cci{n}", -100, 100) for n in CCI_PERIODS]
+    osc += [
         (pl.when(adx.is_null() | dp.is_null() | dm.is_null() | (adx < 20)).then(0)
          .when(dp > dm).then(1).otherwise(-1)),
         _confirmed("ao"),
-        _direction("mom10"),
         pl.when(h.is_null()).then(0).when(h > 0).then(1)
         .when(h < 0).then(-1).otherwise(0),
         _extreme("stochrsi", 20, 80),
-        _extreme("willr14", -80, -20),
-        _confirmed("bbp"),
         pl.when(uo.is_null()).then(0).when(uo > 70).then(1)
         .when(uo < 30).then(-1).otherwise(0),
     ]
