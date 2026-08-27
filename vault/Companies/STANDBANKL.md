@@ -1,7 +1,7 @@
 <!-- vectora:begin -->
 # STANDBANKL
 
-#posture/sell #sector/bank #category/z
+#posture/strong-sell #sector/bank #category/z
 
 **Bank** | category Z | as of [[Journal/2026-08-25|2026-08-25]]
 
@@ -11,9 +11,9 @@ Sector view: [[Sectors/Bank|Bank]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Sell** | |
-| Moving averages | Strong Sell | 1 up / 14 down |
-| Oscillators | Hold | 4 up / 4 down |
+| Summary (26 indicators) | **Strong Sell** | |
+| Moving averages | Strong Sell | 0 up / 13 down |
+| Oscillators | Sell | 3 up / 4 down |
 | Six-family score | Sell | -4 |
 
 RSI 43 | SuperTrend down

@@ -1,7 +1,7 @@
 <!-- vectora:begin -->
 # NRBBANK
 
-#posture/sell #sector/bank #category/z #risk/thin-float
+#posture/strong-sell #sector/bank #category/z #risk/thin-float
 
 **Bank** | category Z | as of [[Journal/2026-08-25|2026-08-25]]
 
@@ -11,9 +11,9 @@ Sector view: [[Sectors/Bank|Bank]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Sell** | |
-| Moving averages | Sell | 4 up / 11 down |
-| Oscillators | Sell | 1 up / 4 down |
+| Summary (26 indicators) | **Strong Sell** | |
+| Moving averages | Strong Sell | 2 up / 11 down |
+| Oscillators | Sell | 0 up / 3 down |
 | Six-family score | Hold | +1 |
 
 RSI 48 | SuperTrend up

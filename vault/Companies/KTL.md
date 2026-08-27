@@ -12,8 +12,8 @@ Sector view: [[Sectors/Textile|Textile]]
 | gauge | verdict | detail |
 |---|---|---|
 | Summary (26 indicators) | **Strong Buy** | |
-| Moving averages | Strong Buy | 14 up / 1 down |
-| Oscillators | Buy | 3 up / 1 down |
+| Moving averages | Strong Buy | 13 up / 0 down |
+| Oscillators | Buy | 2 up / 0 down |
 | Six-family score | Strong Buy | +7 |
 
 RSI 59 | SuperTrend up

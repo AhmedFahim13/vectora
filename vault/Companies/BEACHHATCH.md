@@ -12,8 +12,8 @@ Sector view: [[Sectors/Food & Allied|Food & Allied]]
 | gauge | verdict | detail |
 |---|---|---|
 | Summary (26 indicators) | **Strong Sell** | |
-| Moving averages | Strong Sell | 1 up / 14 down |
-| Oscillators | Sell | 2 up / 5 down |
+| Moving averages | Strong Sell | 0 up / 13 down |
+| Oscillators | Strong Sell | 0 up / 4 down |
 | Six-family score | Sell | -5 |
 
 RSI 26 | SuperTrend down

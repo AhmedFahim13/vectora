@@ -12,8 +12,8 @@ Sector view: [[Sectors/IT Sector|IT Sector]]
 | gauge | verdict | detail |
 |---|---|---|
 | Summary (26 indicators) | **Buy** | |
-| Moving averages | Buy | 9 up / 6 down |
-| Oscillators | Hold | 2 up / 2 down |
+| Moving averages | Buy | 9 up / 4 down |
+| Oscillators | Sell | 1 up / 2 down |
 | Six-family score | Sell | -4 |
 
 RSI 47 | SuperTrend down

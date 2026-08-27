@@ -1,7 +1,7 @@
 <!-- vectora:begin -->
 # RECKITTBEN
 
-#posture/strong-sell #sector/pharmaceuticals-chemicals #category/a #risk/thin-float
+#posture/sell #sector/pharmaceuticals-chemicals #category/a #risk/thin-float
 
 **Pharmaceuticals & Chemicals** | category A | as of [[Journal/2026-08-25|2026-08-25]]
 
@@ -11,9 +11,9 @@ Sector view: [[Sectors/Pharmaceuticals & Chemicals|Pharmaceuticals & Chemicals]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Strong Sell** | |
-| Moving averages | Strong Sell | 0 up / 15 down |
-| Oscillators | Hold | 2 up / 3 down |
+| Summary (26 indicators) | **Sell** | |
+| Moving averages | Strong Sell | 0 up / 13 down |
+| Oscillators | Buy | 2 up / 1 down |
 | Six-family score | Sell | -4 |
 
 RSI 37 | SuperTrend down

@@ -1,7 +1,7 @@
 <!-- vectora:begin -->
 # ZAHEENSPIN
 
-#posture/sell #sector/textile #category/z
+#posture/hold #sector/textile #category/z
 
 **Textile** | category Z | as of [[Journal/2026-08-25|2026-08-25]]
 
@@ -11,9 +11,9 @@ Sector view: [[Sectors/Textile|Textile]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Sell** | |
-| Moving averages | Sell | 5 up / 10 down |
-| Oscillators | Hold | 1 up / 2 down |
+| Summary (26 indicators) | **Hold** | |
+| Moving averages | Sell | 5 up / 8 down |
+| Oscillators | Buy | 2 up / 1 down |
 | Six-family score | Sell | -3 |
 
 RSI 46 | SuperTrend down

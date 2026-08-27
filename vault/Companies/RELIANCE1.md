@@ -12,8 +12,8 @@ Sector view: [[Sectors/Mutual Funds|Mutual Funds]]
 | gauge | verdict | detail |
 |---|---|---|
 | Summary (26 indicators) | **Buy** | |
-| Moving averages | Buy | 10 up / 5 down |
-| Oscillators | Buy | 4 up / 0 down |
+| Moving averages | Buy | 8 up / 5 down |
+| Oscillators | Buy | 2 up / 0 down |
 | Six-family score | Buy | +3 |
 
 RSI 64 | SuperTrend up

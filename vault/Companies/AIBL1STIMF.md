@@ -1,7 +1,7 @@
 <!-- vectora:begin -->
 # AIBL1STIMF
 
-#posture/hold #sector/mutual-funds #category/a
+#posture/sell #sector/mutual-funds #category/a
 
 **Mutual Funds** | category A | as of [[Journal/2026-08-25|2026-08-25]]
 
@@ -11,9 +11,9 @@ Sector view: [[Sectors/Mutual Funds|Mutual Funds]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Hold** | |
-| Moving averages | Hold | 7 up / 8 down |
-| Oscillators | Hold | 2 up / 3 down |
+| Summary (26 indicators) | **Sell** | |
+| Moving averages | Hold | 6 up / 7 down |
+| Oscillators | Sell | 0 up / 3 down |
 | Six-family score | Sell | -5 |
 
 RSI 42 | SuperTrend down

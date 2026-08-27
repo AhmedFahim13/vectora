@@ -1,7 +1,7 @@
 <!-- vectora:begin -->
 # NTC
 
-#posture/sell #sector/food-allied #category/z
+#posture/strong-sell #sector/food-allied #category/z
 
 **Food & Allied** | category Z | as of [[Journal/2026-08-25|2026-08-25]]
 
@@ -11,9 +11,9 @@ Sector view: [[Sectors/Food & Allied|Food & Allied]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Sell** | |
-| Moving averages | Strong Sell | 1 up / 14 down |
-| Oscillators | Buy | 4 up / 2 down |
+| Summary (26 indicators) | **Strong Sell** | |
+| Moving averages | Strong Sell | 0 up / 13 down |
+| Oscillators | Sell | 1 up / 2 down |
 | Six-family score | Strong Sell | -8 |
 
 RSI 38 | SuperTrend down

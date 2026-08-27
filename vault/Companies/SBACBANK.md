@@ -1,7 +1,7 @@
 <!-- vectora:begin -->
 # SBACBANK
 
-#posture/sell #sector/bank #category/z #risk/thin-float
+#posture/hold #sector/bank #category/z #risk/thin-float
 
 **Bank** | category Z | as of [[Journal/2026-08-25|2026-08-25]]
 
@@ -11,9 +11,9 @@ Sector view: [[Sectors/Bank|Bank]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Sell** | |
-| Moving averages | Sell | 6 up / 9 down |
-| Oscillators | Hold | 2 up / 3 down |
+| Summary (26 indicators) | **Hold** | |
+| Moving averages | Sell | 5 up / 8 down |
+| Oscillators | Buy | 2 up / 1 down |
 | Six-family score | Sell | -3 |
 
 RSI 48 | SuperTrend down

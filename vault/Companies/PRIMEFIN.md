@@ -12,8 +12,8 @@ Sector view: [[Sectors/Financial Institutions|Financial Institutions]]
 | gauge | verdict | detail |
 |---|---|---|
 | Summary (26 indicators) | **Buy** | |
-| Moving averages | Buy | 10 up / 5 down |
-| Oscillators | Hold | 4 up / 3 down |
+| Moving averages | Buy | 9 up / 4 down |
+| Oscillators | Sell | 2 up / 3 down |
 | Six-family score | Sell | -2 |
 
 RSI 53 | SuperTrend down

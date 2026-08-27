@@ -12,8 +12,8 @@ Sector view: [[Sectors/Fuel & Power|Fuel & Power]]
 | gauge | verdict | detail |
 |---|---|---|
 | Summary (26 indicators) | **Sell** | |
-| Moving averages | Strong Sell | 3 up / 11 down |
-| Oscillators | Hold | 1 up / 2 down |
+| Moving averages | Sell | 3 up / 9 down |
+| Oscillators | Sell | 0 up / 2 down |
 | Six-family score | Strong Sell | -6 |
 
 RSI 47 | SuperTrend down

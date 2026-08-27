@@ -1,7 +1,7 @@
 <!-- vectora:begin -->
 # AL-HAJTEX
 
-#posture/sell #sector/textile #category/b
+#posture/strong-sell #sector/textile #category/b
 
 **Textile** | category B | as of [[Journal/2026-08-25|2026-08-25]]
 
@@ -11,9 +11,9 @@ Sector view: [[Sectors/Textile|Textile]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Sell** | |
-| Moving averages | Strong Sell | 1 up / 14 down |
-| Oscillators | Hold | 5 up / 4 down |
+| Summary (26 indicators) | **Strong Sell** | |
+| Moving averages | Strong Sell | 0 up / 13 down |
+| Oscillators | Sell | 2 up / 4 down |
 | Six-family score | Sell | -5 |
 
 RSI 24 | SuperTrend down

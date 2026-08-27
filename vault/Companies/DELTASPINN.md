@@ -12,8 +12,8 @@ Sector view: [[Sectors/Textile|Textile]]
 | gauge | verdict | detail |
 |---|---|---|
 | Summary (26 indicators) | **Hold** | |
-| Moving averages | Hold | 8 up / 7 down |
-| Oscillators | Sell | 3 up / 5 down |
+| Moving averages | Hold | 7 up / 6 down |
+| Oscillators | Sell | 2 up / 4 down |
 | Six-family score | Sell | -3 |
 
 RSI 47 | SuperTrend down

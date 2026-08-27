@@ -1,7 +1,7 @@
 <!-- vectora:begin -->
 # SHURWID
 
-#posture/sell #sector/engineering #category/z
+#posture/hold #sector/engineering #category/z
 
 **Engineering** | category Z | as of [[Journal/2026-08-25|2026-08-25]]
 
@@ -11,9 +11,9 @@ Sector view: [[Sectors/Engineering|Engineering]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Sell** | |
-| Moving averages | Hold | 7 up / 8 down |
-| Oscillators | Sell | 1 up / 3 down |
+| Summary (26 indicators) | **Hold** | |
+| Moving averages | Hold | 7 up / 6 down |
+| Oscillators | Sell | 1 up / 2 down |
 | Six-family score | Hold | +1 |
 
 RSI 48 | SuperTrend up

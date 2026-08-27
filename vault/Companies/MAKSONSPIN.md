@@ -1,7 +1,7 @@
 <!-- vectora:begin -->
 # MAKSONSPIN
 
-#posture/buy #sector/textile #category/z
+#posture/hold #sector/textile #category/z
 
 **Textile** | category Z | as of [[Journal/2026-08-25|2026-08-25]]
 
@@ -11,9 +11,9 @@ Sector view: [[Sectors/Textile|Textile]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Buy** | |
-| Moving averages | Hold | 7 up / 8 down |
-| Oscillators | Buy | 4 up / 1 down |
+| Summary (26 indicators) | **Hold** | |
+| Moving averages | Hold | 6 up / 7 down |
+| Oscillators | Buy | 3 up / 1 down |
 | Six-family score | Sell | -2 |
 
 RSI 48 | SuperTrend down

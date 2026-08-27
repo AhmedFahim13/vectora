@@ -12,8 +12,8 @@ Sector view: [[Sectors/Engineering|Engineering]]
 | gauge | verdict | detail |
 |---|---|---|
 | Summary (26 indicators) | **Hold** | |
-| Moving averages | Buy | 10 up / 5 down |
-| Oscillators | Sell | 1 up / 4 down |
+| Moving averages | Buy | 9 up / 4 down |
+| Oscillators | Sell | 0 up / 3 down |
 | Six-family score | Sell | -3 |
 
 RSI 49 | SuperTrend down

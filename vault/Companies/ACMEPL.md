@@ -12,8 +12,8 @@ Sector view: [[Sectors/Pharmaceuticals & Chemicals|Pharmaceuticals & Chemicals]]
 | gauge | verdict | detail |
 |---|---|---|
 | Summary (26 indicators) | **Strong Buy** | |
-| Moving averages | Strong Buy | 15 up / 0 down |
-| Oscillators | Buy | 4 up / 1 down |
+| Moving averages | Strong Buy | 13 up / 0 down |
+| Oscillators | Buy | 2 up / 1 down |
 | Six-family score | Buy | +4 |
 
 RSI 60 | SuperTrend up

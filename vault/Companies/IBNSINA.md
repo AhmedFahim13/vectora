@@ -1,7 +1,7 @@
 <!-- vectora:begin -->
 # IBNSINA
 
-#posture/strong-sell #sector/pharmaceuticals-chemicals #category/a
+#posture/sell #sector/pharmaceuticals-chemicals #category/a
 
 **Pharmaceuticals & Chemicals** | category A | as of [[Journal/2026-08-25|2026-08-25]]
 
@@ -11,9 +11,9 @@ Sector view: [[Sectors/Pharmaceuticals & Chemicals|Pharmaceuticals & Chemicals]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Strong Sell** | |
-| Moving averages | Strong Sell | 3 up / 12 down |
-| Oscillators | Sell | 0 up / 5 down |
+| Summary (26 indicators) | **Sell** | |
+| Moving averages | Strong Sell | 3 up / 10 down |
+| Oscillators | Sell | 0 up / 3 down |
 | Six-family score | Strong Sell | -7 |
 
 RSI 38 | SuperTrend down

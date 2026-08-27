@@ -1,7 +1,7 @@
 <!-- vectora:begin -->
 # BXPHARMA
 
-#posture/buy #sector/pharmaceuticals-chemicals #category/a
+#posture/hold #sector/pharmaceuticals-chemicals #category/a
 
 **Pharmaceuticals & Chemicals** | category A | as of [[Journal/2026-08-25|2026-08-25]]
 
@@ -11,8 +11,8 @@ Sector view: [[Sectors/Pharmaceuticals & Chemicals|Pharmaceuticals & Chemicals]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Buy** | |
-| Moving averages | Buy | 9 up / 6 down |
+| Summary (26 indicators) | **Hold** | |
+| Moving averages | Hold | 7 up / 6 down |
 | Oscillators | Hold | 2 up / 2 down |
 | Six-family score | Hold | +1 |
 

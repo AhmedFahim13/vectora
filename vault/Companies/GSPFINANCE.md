@@ -1,7 +1,7 @@
 <!-- vectora:begin -->
 # GSPFINANCE
 
-#posture/buy #sector/financial-institutions #category/z
+#posture/hold #sector/financial-institutions #category/z
 
 **Financial Institutions** | category Z | as of [[Journal/2026-08-25|2026-08-25]]
 
@@ -11,9 +11,9 @@ Sector view: [[Sectors/Financial Institutions|Financial Institutions]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Buy** | |
-| Moving averages | Buy | 9 up / 6 down |
-| Oscillators | Buy | 5 up / 3 down |
+| Summary (26 indicators) | **Hold** | |
+| Moving averages | Hold | 7 up / 6 down |
+| Oscillators | Sell | 2 up / 3 down |
 | Six-family score | Sell | -2 |
 
 RSI 49 | SuperTrend down

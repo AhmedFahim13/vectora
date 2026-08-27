@@ -12,8 +12,8 @@ Sector view: [[Sectors/Jute|Jute]]
 | gauge | verdict | detail |
 |---|---|---|
 | Summary (26 indicators) | **Sell** | |
-| Moving averages | Sell | 6 up / 9 down |
-| Oscillators | Sell | 0 up / 5 down |
+| Moving averages | Sell | 5 up / 8 down |
+| Oscillators | Sell | 0 up / 3 down |
 | Six-family score | Hold | +1 |
 
 RSI 41 | SuperTrend up

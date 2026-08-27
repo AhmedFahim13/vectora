@@ -1,7 +1,7 @@
 <!-- vectora:begin -->
 # AGRANINS
 
-#posture/hold #sector/insurance #category/a
+#posture/buy #sector/insurance #category/a
 
 **Insurance** | category A | as of [[Journal/2026-08-25|2026-08-25]]
 
@@ -11,9 +11,9 @@ Sector view: [[Sectors/Insurance|Insurance]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Hold** | |
-| Moving averages | Hold | 7 up / 8 down |
-| Oscillators | Hold | 1 up / 2 down |
+| Summary (26 indicators) | **Buy** | |
+| Moving averages | Hold | 7 up / 6 down |
+| Oscillators | Buy | 2 up / 1 down |
 | Six-family score | Hold | +1 |
 
 RSI 45 | SuperTrend up

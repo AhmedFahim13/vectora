@@ -1,7 +1,7 @@
 <!-- vectora:begin -->
 # BATBC
 
-#posture/sell #sector/food-allied #category/a
+#posture/strong-sell #sector/food-allied #category/a
 
 **Food & Allied** | category A | as of [[Journal/2026-08-25|2026-08-25]]
 
@@ -11,9 +11,9 @@ Sector view: [[Sectors/Food & Allied|Food & Allied]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Sell** | |
-| Moving averages | Strong Sell | 2 up / 13 down |
-| Oscillators | Sell | 1 up / 3 down |
+| Summary (26 indicators) | **Strong Sell** | |
+| Moving averages | Strong Sell | 0 up / 13 down |
+| Oscillators | Hold | 1 up / 1 down |
 | Six-family score | Hold | +1 |
 
 RSI 45 | SuperTrend up

@@ -12,8 +12,8 @@ Sector view: [[Sectors/Cement|Cement]]
 | gauge | verdict | detail |
 |---|---|---|
 | Summary (26 indicators) | **Hold** | |
-| Moving averages | Buy | 9 up / 6 down |
-| Oscillators | Hold | 2 up / 3 down |
+| Moving averages | Hold | 7 up / 6 down |
+| Oscillators | Sell | 1 up / 3 down |
 | Six-family score | Sell | -3 |
 
 RSI 51 | SuperTrend down

@@ -12,8 +12,8 @@ Sector view: [[Sectors/Paper & Printing|Paper & Printing]]
 | gauge | verdict | detail |
 |---|---|---|
 | Summary (26 indicators) | **Sell** | |
-| Moving averages | Sell | 4 up / 11 down |
-| Oscillators | Hold | 4 up / 5 down |
+| Moving averages | Strong Sell | 3 up / 10 down |
+| Oscillators | Sell | 3 up / 4 down |
 | Six-family score | Hold | -1 |
 
 RSI 41 | SuperTrend up

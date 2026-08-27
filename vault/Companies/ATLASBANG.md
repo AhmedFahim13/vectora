@@ -1,7 +1,7 @@
 <!-- vectora:begin -->
 # ATLASBANG
 
-#posture/hold #sector/engineering #category/z
+#posture/sell #sector/engineering #category/z
 
 **Engineering** | category Z | as of [[Journal/2026-08-25|2026-08-25]]
 
@@ -11,9 +11,9 @@ Sector view: [[Sectors/Engineering|Engineering]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Hold** | |
-| Moving averages | Buy | 9 up / 6 down |
-| Oscillators | Sell | 2 up / 4 down |
+| Summary (26 indicators) | **Sell** | |
+| Moving averages | Hold | 7 up / 6 down |
+| Oscillators | Sell | 1 up / 4 down |
 | Six-family score | Hold | +1 |
 
 RSI 49 | SuperTrend up

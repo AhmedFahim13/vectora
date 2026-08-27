@@ -1,7 +1,7 @@
 <!-- vectora:begin -->
 # UNITEDFIN
 
-#posture/sell #sector/financial-institutions #category/a
+#posture/hold #sector/financial-institutions #category/a
 
 **Financial Institutions** | category A | as of [[Journal/2026-08-25|2026-08-25]]
 
@@ -11,9 +11,9 @@ Sector view: [[Sectors/Financial Institutions|Financial Institutions]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Sell** | |
-| Moving averages | Hold | 7 up / 8 down |
-| Oscillators | Sell | 0 up / 4 down |
+| Summary (26 indicators) | **Hold** | |
+| Moving averages | Hold | 7 up / 6 down |
+| Oscillators | Sell | 1 up / 2 down |
 | Six-family score | Hold | +0 |
 
 RSI 45 | SuperTrend up

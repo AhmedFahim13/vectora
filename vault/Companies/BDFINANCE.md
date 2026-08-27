@@ -1,7 +1,7 @@
 <!-- vectora:begin -->
 # BDFINANCE
 
-#posture/sell #sector/financial-institutions #category/z
+#posture/strong-sell #sector/financial-institutions #category/z
 
 **Financial Institutions** | category Z | as of [[Journal/2026-08-25|2026-08-25]]
 
@@ -11,9 +11,9 @@ Sector view: [[Sectors/Financial Institutions|Financial Institutions]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Sell** | |
-| Moving averages | Strong Sell | 2 up / 13 down |
-| Oscillators | Sell | 2 up / 4 down |
+| Summary (26 indicators) | **Strong Sell** | |
+| Moving averages | Strong Sell | 1 up / 12 down |
+| Oscillators | Sell | 1 up / 3 down |
 | Six-family score | Sell | -5 |
 
 RSI 39 | SuperTrend down

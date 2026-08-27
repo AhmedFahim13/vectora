@@ -12,8 +12,8 @@ Sector view: [[Sectors/Bank|Bank]]
 | gauge | verdict | detail |
 |---|---|---|
 | Summary (26 indicators) | **Strong Buy** | |
-| Moving averages | Strong Buy | 14 up / 1 down |
-| Oscillators | Buy | 4 up / 0 down |
+| Moving averages | Strong Buy | 12 up / 1 down |
+| Oscillators | Buy | 3 up / 0 down |
 | Six-family score | Strong Buy | +7 |
 
 RSI 60 | SuperTrend up

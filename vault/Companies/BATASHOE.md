@@ -1,7 +1,7 @@
 <!-- vectora:begin -->
 # BATASHOE
 
-#posture/buy #sector/tannery-industries #category/a
+#posture/hold #sector/tannery-industries #category/a
 
 **Tannery Industries** | category A | as of [[Journal/2026-08-25|2026-08-25]]
 
@@ -11,9 +11,9 @@ Sector view: [[Sectors/Tannery Industries|Tannery Industries]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Buy** | |
-| Moving averages | Buy | 10 up / 5 down |
-| Oscillators | Hold | 2 up / 3 down |
+| Summary (26 indicators) | **Hold** | |
+| Moving averages | Buy | 8 up / 5 down |
+| Oscillators | Sell | 1 up / 2 down |
 | Six-family score | Hold | +1 |
 
 RSI 58 | SuperTrend up

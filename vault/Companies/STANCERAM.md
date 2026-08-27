@@ -12,8 +12,8 @@ Sector view: [[Sectors/Ceramics Sector|Ceramics Sector]]
 | gauge | verdict | detail |
 |---|---|---|
 | Summary (26 indicators) | **Sell** | |
-| Moving averages | Sell | 4 up / 10 down |
-| Oscillators | Sell | 2 up / 4 down |
+| Moving averages | Sell | 4 up / 8 down |
+| Oscillators | Sell | 0 up / 3 down |
 | Six-family score | Hold | +1 |
 
 RSI 47 | SuperTrend up

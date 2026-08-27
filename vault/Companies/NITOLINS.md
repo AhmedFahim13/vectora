@@ -1,7 +1,7 @@
 <!-- vectora:begin -->
 # NITOLINS
 
-#posture/strong-buy #sector/insurance #category/a
+#posture/buy #sector/insurance #category/a
 
 **Insurance** | category A | as of [[Journal/2026-08-25|2026-08-25]]
 
@@ -11,9 +11,9 @@ Sector view: [[Sectors/Insurance|Insurance]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Strong Buy** | |
-| Moving averages | Strong Buy | 14 up / 1 down |
-| Oscillators | Buy | 3 up / 1 down |
+| Summary (26 indicators) | **Buy** | |
+| Moving averages | Strong Buy | 11 up / 2 down |
+| Oscillators | Hold | 1 up / 1 down |
 | Six-family score | Buy | +4 |
 
 RSI 67 | SuperTrend up

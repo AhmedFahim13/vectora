@@ -12,8 +12,8 @@ Sector view: [[Sectors/Mutual Funds|Mutual Funds]]
 | gauge | verdict | detail |
 |---|---|---|
 | Summary (26 indicators) | **Sell** | |
-| Moving averages | Hold | 7 up / 8 down |
-| Oscillators | Sell | 2 up / 4 down |
+| Moving averages | Hold | 6 up / 7 down |
+| Oscillators | Strong Sell | 0 up / 4 down |
 | Six-family score | Sell | -5 |
 
 RSI 41 | SuperTrend down

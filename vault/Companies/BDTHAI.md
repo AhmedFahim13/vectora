@@ -1,7 +1,7 @@
 <!-- vectora:begin -->
 # BDTHAI
 
-#posture/hold #sector/engineering #category/b
+#posture/sell #sector/engineering #category/b
 
 **Engineering** | category B | as of [[Journal/2026-08-25|2026-08-25]]
 
@@ -11,9 +11,9 @@ Sector view: [[Sectors/Engineering|Engineering]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Hold** | |
-| Moving averages | Sell | 5 up / 9 down |
-| Oscillators | Hold | 5 up / 4 down |
+| Summary (26 indicators) | **Sell** | |
+| Moving averages | Sell | 4 up / 8 down |
+| Oscillators | Sell | 2 up / 4 down |
 | Six-family score | Sell | -5 |
 
 RSI 33 | SuperTrend down

@@ -1,7 +1,7 @@
 <!-- vectora:begin -->
 # ANLIMAYARN
 
-#posture/sell #sector/textile #category/z
+#posture/hold #sector/textile #category/z
 
 **Textile** | category Z | as of [[Journal/2026-08-25|2026-08-25]]
 
@@ -11,9 +11,9 @@ Sector view: [[Sectors/Textile|Textile]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Sell** | |
-| Moving averages | Hold | 7 up / 8 down |
-| Oscillators | Sell | 2 up / 4 down |
+| Summary (26 indicators) | **Hold** | |
+| Moving averages | Hold | 7 up / 6 down |
+| Oscillators | Sell | 1 up / 2 down |
 | Six-family score | Buy | +2 |
 
 RSI 44 | SuperTrend up

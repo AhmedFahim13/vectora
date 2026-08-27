@@ -12,8 +12,8 @@ Sector view: [[Sectors/Corporate Bond|Corporate Bond]]
 | gauge | verdict | detail |
 |---|---|---|
 | Summary (26 indicators) | **Hold** | |
-| Moving averages | Buy | 9 up / 6 down |
-| Oscillators | Sell | 0 up / 3 down |
+| Moving averages | Hold | 7 up / 6 down |
+| Oscillators | Sell | 0 up / 2 down |
 | Six-family score | Hold | +1 |
 
 RSI 51 | SuperTrend up

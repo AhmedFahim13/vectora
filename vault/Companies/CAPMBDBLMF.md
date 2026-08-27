@@ -1,7 +1,7 @@
 <!-- vectora:begin -->
 # CAPMBDBLMF
 
-#posture/sell #sector/mutual-funds #category/a
+#posture/strong-sell #sector/mutual-funds #category/a
 
 **Mutual Funds** | category A | as of [[Journal/2026-08-25|2026-08-25]]
 
@@ -11,9 +11,9 @@ Sector view: [[Sectors/Mutual Funds|Mutual Funds]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Sell** | |
-| Moving averages | Strong Sell | 1 up / 14 down |
-| Oscillators | Hold | 4 up / 3 down |
+| Summary (26 indicators) | **Strong Sell** | |
+| Moving averages | Strong Sell | 0 up / 13 down |
+| Oscillators | Sell | 2 up / 3 down |
 | Six-family score | Sell | -4 |
 
 RSI 31 | SuperTrend down

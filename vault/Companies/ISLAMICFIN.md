@@ -1,7 +1,7 @@
 <!-- vectora:begin -->
 # ISLAMICFIN
 
-#posture/hold #sector/financial-institutions #category/z
+#posture/sell #sector/financial-institutions #category/z
 
 **Financial Institutions** | category Z | as of [[Journal/2026-08-25|2026-08-25]]
 
@@ -11,9 +11,9 @@ Sector view: [[Sectors/Financial Institutions|Financial Institutions]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Hold** | |
-| Moving averages | Sell | 6 up / 9 down |
-| Oscillators | Hold | 5 up / 4 down |
+| Summary (26 indicators) | **Sell** | |
+| Moving averages | Sell | 5 up / 8 down |
+| Oscillators | Sell | 2 up / 4 down |
 | Six-family score | Sell | -5 |
 
 RSI 38 | SuperTrend down

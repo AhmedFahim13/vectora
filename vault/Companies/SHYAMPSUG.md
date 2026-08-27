@@ -1,7 +1,7 @@
 <!-- vectora:begin -->
 # SHYAMPSUG
 
-#posture/buy #sector/food-allied #category/z
+#posture/strong-buy #sector/food-allied #category/z
 
 **Food & Allied** | category Z | as of [[Journal/2026-08-25|2026-08-25]]
 
@@ -11,9 +11,9 @@ Sector view: [[Sectors/Food & Allied|Food & Allied]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Buy** | |
-| Moving averages | Strong Buy | 13 up / 2 down |
-| Oscillators | Hold | 2 up / 1 down |
+| Summary (26 indicators) | **Strong Buy** | |
+| Moving averages | Strong Buy | 13 up / 0 down |
+| Oscillators | Hold | 1 up / 1 down |
 | Six-family score | Buy | +3 |
 
 RSI 57 | SuperTrend up

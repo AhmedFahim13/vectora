@@ -1,7 +1,7 @@
 <!-- vectora:begin -->
 # MEGCONMILK
 
-#posture/strong-buy #sector/food-allied #category/z
+#posture/buy #sector/food-allied #category/z
 
 **Food & Allied** | category Z | as of [[Journal/2026-08-25|2026-08-25]]
 
@@ -11,9 +11,9 @@ Sector view: [[Sectors/Food & Allied|Food & Allied]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Strong Buy** | |
-| Moving averages | Strong Buy | 15 up / 0 down |
-| Oscillators | Hold | 3 up / 2 down |
+| Summary (26 indicators) | **Buy** | |
+| Moving averages | Strong Buy | 13 up / 0 down |
+| Oscillators | Sell | 1 up / 2 down |
 | Six-family score | Hold | +0 |
 
 RSI 70 | SuperTrend up

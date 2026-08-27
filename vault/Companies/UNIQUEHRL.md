@@ -12,8 +12,8 @@ Sector view: [[Sectors/Travel & Leisure|Travel & Leisure]]
 | gauge | verdict | detail |
 |---|---|---|
 | Summary (26 indicators) | **Sell** | |
-| Moving averages | Sell | 4 up / 11 down |
-| Oscillators | Sell | 2 up / 5 down |
+| Moving averages | Sell | 4 up / 9 down |
+| Oscillators | Sell | 2 up / 3 down |
 | Six-family score | Sell | -5 |
 
 RSI 43 | SuperTrend down

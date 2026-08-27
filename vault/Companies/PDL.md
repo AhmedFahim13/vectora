@@ -12,7 +12,7 @@ Sector view: [[Sectors/Textile|Textile]]
 | gauge | verdict | detail |
 |---|---|---|
 | Summary (26 indicators) | **Hold** | |
-| Moving averages | Hold | 8 up / 7 down |
+| Moving averages | Hold | 6 up / 7 down |
 | Oscillators | Hold | 2 up / 2 down |
 | Six-family score | Hold | +1 |
 

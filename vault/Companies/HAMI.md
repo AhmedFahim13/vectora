@@ -12,8 +12,8 @@ Sector view: [[Sectors/Miscellaneous|Miscellaneous]]
 | gauge | verdict | detail |
 |---|---|---|
 | Summary (26 indicators) | **Hold** | |
-| Moving averages | Buy | 9 up / 6 down |
-| Oscillators | Hold | 1 up / 2 down |
+| Moving averages | Hold | 7 up / 6 down |
+| Oscillators | Hold | 1 up / 1 down |
 | Six-family score | Hold | +1 |
 
 RSI 54 | SuperTrend up

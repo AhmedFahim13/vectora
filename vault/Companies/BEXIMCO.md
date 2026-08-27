@@ -1,7 +1,7 @@
 <!-- vectora:begin -->
 # BEXIMCO
 
-#posture/sell #sector/miscellaneous #category/b
+#posture/strong-sell #sector/miscellaneous #category/b
 
 **Miscellaneous** | category B | as of [[Journal/2026-08-25|2026-08-25]]
 
@@ -11,9 +11,9 @@ Sector view: [[Sectors/Miscellaneous|Miscellaneous]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Sell** | |
-| Moving averages | Strong Sell | 1 up / 14 down |
-| Oscillators | Hold | 1 up / 2 down |
+| Summary (26 indicators) | **Strong Sell** | |
+| Moving averages | Strong Sell | 0 up / 13 down |
+| Oscillators | Hold | 1 up / 1 down |
 | Six-family score | Sell | -2 |
 
 RSI 24 | SuperTrend down

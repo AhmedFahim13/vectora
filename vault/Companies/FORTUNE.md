@@ -12,8 +12,8 @@ Sector view: [[Sectors/Tannery Industries|Tannery Industries]]
 | gauge | verdict | detail |
 |---|---|---|
 | Summary (26 indicators) | **Strong Sell** | |
-| Moving averages | Strong Sell | 2 up / 13 down |
-| Oscillators | Sell | 1 up / 6 down |
+| Moving averages | Strong Sell | 2 up / 11 down |
+| Oscillators | Strong Sell | 0 up / 4 down |
 | Six-family score | Sell | -5 |
 
 RSI 32 | SuperTrend down

@@ -1,7 +1,7 @@
 <!-- vectora:begin -->
 # TITASGAS
 
-#posture/sell #sector/fuel-power #category/b
+#posture/strong-sell #sector/fuel-power #category/b
 
 **Fuel & Power** | category B | as of [[Journal/2026-08-25|2026-08-25]]
 
@@ -11,9 +11,9 @@ Sector view: [[Sectors/Fuel & Power|Fuel & Power]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Sell** | |
-| Moving averages | Strong Sell | 2 up / 13 down |
-| Oscillators | Hold | 5 up / 5 down |
+| Summary (26 indicators) | **Strong Sell** | |
+| Moving averages | Strong Sell | 1 up / 12 down |
+| Oscillators | Sell | 2 up / 4 down |
 | Six-family score | Sell | -5 |
 
 RSI 31 | SuperTrend down

@@ -1,7 +1,7 @@
 <!-- vectora:begin -->
 # NEWLINE
 
-#posture/hold #sector/textile #category/z
+#posture/sell #sector/textile #category/z
 
 **Textile** | category Z | as of [[Journal/2026-08-25|2026-08-25]]
 
@@ -11,9 +11,9 @@ Sector view: [[Sectors/Textile|Textile]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Hold** | |
-| Moving averages | Hold | 7 up / 8 down |
-| Oscillators | Hold | 2 up / 2 down |
+| Summary (26 indicators) | **Sell** | |
+| Moving averages | Hold | 6 up / 7 down |
+| Oscillators | Sell | 0 up / 2 down |
 | Six-family score | Hold | +1 |
 
 RSI 48 | SuperTrend up

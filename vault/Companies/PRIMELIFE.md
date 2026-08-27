@@ -1,7 +1,7 @@
 <!-- vectora:begin -->
 # PRIMELIFE
 
-#posture/sell #sector/insurance #category/b
+#posture/strong-sell #sector/insurance #category/b
 
 **Insurance** | category B | as of [[Journal/2026-08-25|2026-08-25]]
 
@@ -11,9 +11,9 @@ Sector view: [[Sectors/Insurance|Insurance]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Sell** | |
-| Moving averages | Strong Sell | 2 up / 13 down |
-| Oscillators | Hold | 3 up / 4 down |
+| Summary (26 indicators) | **Strong Sell** | |
+| Moving averages | Strong Sell | 1 up / 12 down |
+| Oscillators | Sell | 1 up / 3 down |
 | Six-family score | Sell | -5 |
 
 RSI 36 | SuperTrend down

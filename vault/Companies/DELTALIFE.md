@@ -1,7 +1,7 @@
 <!-- vectora:begin -->
 # DELTALIFE
 
-#posture/strong-sell #sector/insurance #category/a
+#posture/sell #sector/insurance #category/a
 
 **Insurance** | category A | as of [[Journal/2026-08-25|2026-08-25]]
 
@@ -11,9 +11,9 @@ Sector view: [[Sectors/Insurance|Insurance]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Strong Sell** | |
-| Moving averages | Strong Sell | 2 up / 13 down |
-| Oscillators | Sell | 1 up / 4 down |
+| Summary (26 indicators) | **Sell** | |
+| Moving averages | Strong Sell | 2 up / 11 down |
+| Oscillators | Sell | 1 up / 2 down |
 | Six-family score | Sell | -5 |
 
 RSI 38 | SuperTrend down

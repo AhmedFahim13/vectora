@@ -13,7 +13,7 @@ Sector view: [[Sectors/Corporate Bond|Corporate Bond]]
 |---|---|---|
 | Summary (26 indicators) | **Buy** | |
 | Moving averages | Strong Buy | 10 up / 0 down |
-| Oscillators | Sell | 1 up / 5 down |
+| Oscillators | Sell | 1 up / 3 down |
 | Six-family score | Hold | +1 |
 
 RSI 76 | SuperTrend up

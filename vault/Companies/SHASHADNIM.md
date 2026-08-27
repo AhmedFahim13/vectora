@@ -1,7 +1,7 @@
 <!-- vectora:begin -->
 # SHASHADNIM
 
-#posture/sell #sector/textile #category/b
+#posture/hold #sector/textile #category/b
 
 **Textile** | category B | as of [[Journal/2026-08-25|2026-08-25]]
 
@@ -11,9 +11,9 @@ Sector view: [[Sectors/Textile|Textile]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Sell** | |
-| Moving averages | Hold | 8 up / 7 down |
-| Oscillators | Sell | 0 up / 4 down |
+| Summary (26 indicators) | **Hold** | |
+| Moving averages | Hold | 7 up / 6 down |
+| Oscillators | Sell | 1 up / 3 down |
 | Six-family score | Hold | -1 |
 
 RSI 48 | SuperTrend down

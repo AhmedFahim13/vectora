@@ -1,7 +1,7 @@
 <!-- vectora:begin -->
 # GOLDENSON
 
-#posture/hold #sector/engineering #category/b
+#posture/sell #sector/engineering #category/b
 
 **Engineering** | category B | as of [[Journal/2026-08-25|2026-08-25]]
 
@@ -11,9 +11,9 @@ Sector view: [[Sectors/Engineering|Engineering]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Hold** | |
-| Moving averages | Hold | 7 up / 8 down |
-| Oscillators | Buy | 5 up / 3 down |
+| Summary (26 indicators) | **Sell** | |
+| Moving averages | Hold | 6 up / 7 down |
+| Oscillators | Sell | 2 up / 3 down |
 | Six-family score | Sell | -5 |
 
 RSI 39 | SuperTrend down

@@ -1,7 +1,7 @@
 <!-- vectora:begin -->
 # BDWELDING
 
-#posture/sell #sector/fuel-power #category/z
+#posture/hold #sector/fuel-power #category/z
 
 **Fuel & Power** | category Z | as of [[Journal/2026-08-25|2026-08-25]]
 
@@ -11,9 +11,9 @@ Sector view: [[Sectors/Fuel & Power|Fuel & Power]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Sell** | |
-| Moving averages | Sell | 4 up / 10 down |
-| Oscillators | Hold | 2 up / 1 down |
+| Summary (26 indicators) | **Hold** | |
+| Moving averages | Sell | 4 up / 8 down |
+| Oscillators | Buy | 1 up / 0 down |
 | Six-family score | Sell | -4 |
 
 RSI 40 | SuperTrend down

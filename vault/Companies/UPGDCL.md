@@ -1,7 +1,7 @@
 <!-- vectora:begin -->
 # UPGDCL
 
-#posture/sell #sector/fuel-power #category/a #risk/thin-float
+#posture/strong-sell #sector/fuel-power #category/a #risk/thin-float
 
 **Fuel & Power** | category A | as of [[Journal/2026-08-25|2026-08-25]]
 
@@ -11,9 +11,9 @@ Sector view: [[Sectors/Fuel & Power|Fuel & Power]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Sell** | |
-| Moving averages | Strong Sell | 1 up / 14 down |
-| Oscillators | Hold | 2 up / 3 down |
+| Summary (26 indicators) | **Strong Sell** | |
+| Moving averages | Strong Sell | 0 up / 13 down |
+| Oscillators | Sell | 2 up / 3 down |
 | Six-family score | Strong Sell | -8 |
 
 RSI 36 | SuperTrend down

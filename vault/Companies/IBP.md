@@ -1,7 +1,7 @@
 <!-- vectora:begin -->
 # IBP
 
-#posture/hold #sector/pharmaceuticals-chemicals #category/b
+#posture/sell #sector/pharmaceuticals-chemicals #category/b
 
 **Pharmaceuticals & Chemicals** | category B | as of [[Journal/2026-08-25|2026-08-25]]
 
@@ -11,9 +11,9 @@ Sector view: [[Sectors/Pharmaceuticals & Chemicals|Pharmaceuticals & Chemicals]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Hold** | |
-| Moving averages | Hold | 8 up / 7 down |
-| Oscillators | Sell | 3 up / 5 down |
+| Summary (26 indicators) | **Sell** | |
+| Moving averages | Hold | 7 up / 6 down |
+| Oscillators | Sell | 1 up / 4 down |
 | Six-family score | Sell | -5 |
 
 RSI 41 | SuperTrend down

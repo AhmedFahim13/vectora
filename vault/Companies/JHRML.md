@@ -1,7 +1,7 @@
 <!-- vectora:begin -->
 # JHRML
 
-#posture/sell #sector/pharmaceuticals-chemicals #category/b
+#posture/strong-sell #sector/pharmaceuticals-chemicals #category/b
 
 **Pharmaceuticals & Chemicals** | category B | as of [[Journal/2026-08-25|2026-08-25]]
 
@@ -11,9 +11,9 @@ Sector view: [[Sectors/Pharmaceuticals & Chemicals|Pharmaceuticals & Chemicals]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Sell** | |
-| Moving averages | Strong Sell | 1 up / 13 down |
-| Oscillators | Sell | 2 up / 4 down |
+| Summary (26 indicators) | **Strong Sell** | |
+| Moving averages | Strong Sell | 1 up / 11 down |
+| Oscillators | Sell | 1 up / 3 down |
 | Six-family score | Sell | -4 |
 
 RSI 41 | SuperTrend down

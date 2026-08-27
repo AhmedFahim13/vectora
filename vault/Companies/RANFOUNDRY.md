@@ -1,7 +1,7 @@
 <!-- vectora:begin -->
 # RANFOUNDRY
 
-#posture/sell #sector/engineering #category/a
+#posture/strong-sell #sector/engineering #category/a
 
 **Engineering** | category A | as of [[Journal/2026-08-25|2026-08-25]]
 
@@ -11,9 +11,9 @@ Sector view: [[Sectors/Engineering|Engineering]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Sell** | |
-| Moving averages | Strong Sell | 1 up / 14 down |
-| Oscillators | Hold | 5 up / 4 down |
+| Summary (26 indicators) | **Strong Sell** | |
+| Moving averages | Strong Sell | 0 up / 13 down |
+| Oscillators | Hold | 3 up / 3 down |
 | Six-family score | Sell | -5 |
 
 RSI 39 | SuperTrend down

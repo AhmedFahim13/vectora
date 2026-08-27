@@ -1,7 +1,7 @@
 <!-- vectora:begin -->
 # ICBAMCL2ND
 
-#posture/hold #sector/mutual-funds #category/a
+#posture/sell #sector/mutual-funds #category/a
 
 **Mutual Funds** | category A | as of [[Journal/2026-08-25|2026-08-25]]
 
@@ -11,9 +11,9 @@ Sector view: [[Sectors/Mutual Funds|Mutual Funds]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Hold** | |
-| Moving averages | Hold | 8 up / 7 down |
-| Oscillators | Sell | 3 up / 5 down |
+| Summary (26 indicators) | **Sell** | |
+| Moving averages | Hold | 7 up / 6 down |
+| Oscillators | Sell | 1 up / 4 down |
 | Six-family score | Sell | -4 |
 
 RSI 43 | SuperTrend down

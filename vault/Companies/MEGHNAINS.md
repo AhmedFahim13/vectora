@@ -12,8 +12,8 @@ Sector view: [[Sectors/Insurance|Insurance]]
 | gauge | verdict | detail |
 |---|---|---|
 | Summary (26 indicators) | **Hold** | |
-| Moving averages | Hold | 7 up / 8 down |
-| Oscillators | Hold | 3 up / 4 down |
+| Moving averages | Hold | 7 up / 6 down |
+| Oscillators | Sell | 2 up / 3 down |
 | Six-family score | Hold | +1 |
 
 RSI 46 | SuperTrend up

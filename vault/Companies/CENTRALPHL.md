@@ -12,8 +12,8 @@ Sector view: [[Sectors/Pharmaceuticals & Chemicals|Pharmaceuticals & Chemicals]]
 | gauge | verdict | detail |
 |---|---|---|
 | Summary (26 indicators) | **Sell** | |
-| Moving averages | Sell | 4 up / 11 down |
-| Oscillators | Sell | 1 up / 6 down |
+| Moving averages | Sell | 4 up / 9 down |
+| Oscillators | Strong Sell | 0 up / 4 down |
 | Six-family score | Sell | -5 |
 
 RSI 39 | SuperTrend down

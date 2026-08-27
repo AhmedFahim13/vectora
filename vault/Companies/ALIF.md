@@ -1,7 +1,7 @@
 <!-- vectora:begin -->
 # ALIF
 
-#posture/hold #sector/textile #category/z
+#posture/buy #sector/textile #category/z
 
 **Textile** | category Z | as of [[Journal/2026-08-25|2026-08-25]]
 
@@ -11,9 +11,9 @@ Sector view: [[Sectors/Textile|Textile]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Hold** | |
-| Moving averages | Buy | 9 up / 6 down |
-| Oscillators | Sell | 1 up / 3 down |
+| Summary (26 indicators) | **Buy** | |
+| Moving averages | Hold | 7 up / 6 down |
+| Oscillators | Buy | 2 up / 1 down |
 | Six-family score | Hold | +1 |
 
 RSI 50 | SuperTrend up
