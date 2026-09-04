@@ -30,5 +30,21 @@
   "t_stat": -0.5598948908898971,
   "target": "g5_h10",
   "verdict": "refused: 8/10 cohorts improved but t=-0.56 misses -1.83; worst cohort +0.0369"
+ },
+ {
+  "brier_base": 0.1968005936737585,
+  "brier_corrected": 0.19028957710943067,
+  "cohorts": 13,
+  "cohorts_improved": 11,
+  "delta_mean": -0.006489844463428049,
+  "delta_se": 0.005153290833321686,
+  "fit_regimes": "[\"Sideways\"]",
+  "fitted_at": "2026-08-28 21:09:26.117928",
+  "installed": false,
+  "n": 4348,
+  "t_critical": -1.7822875556493194,
+  "t_stat": -1.2593592470007857,
+  "target": "g5_h10",
+  "verdict": "refused: 11/13 cohorts improved but t=-1.26 misses -1.78; worst cohort +0.0495"
  }
 ]
