@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # Vectora
 
-Latest run: [[Journal/2026-09-07|2026-09-07]] | 2 signal(s)
+Latest run: [[Journal/2026-09-08|2026-09-08]] | 7 signal(s)
 
-Lifetime: 19868 predictions, 7336 resolved
+Lifetime: 20512 predictions, 7998 resolved
 
 ## Start here
 
