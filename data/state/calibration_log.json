@@ -46,5 +46,37 @@
   "t_stat": -1.2593592470007857,
   "target": "g5_h10",
   "verdict": "refused: 11/13 cohorts improved but t=-1.26 misses -1.78; worst cohort +0.0495"
+ },
+ {
+  "brier_base": null,
+  "brier_corrected": null,
+  "cohorts": 1,
+  "cohorts_improved": null,
+  "delta_mean": null,
+  "delta_se": null,
+  "fit_regimes": "[\"Sideways\"]",
+  "fitted_at": "2026-09-04 13:55:59.985627",
+  "installed": false,
+  "n": 332,
+  "t_critical": null,
+  "t_stat": null,
+  "target": "g10_h30",
+  "verdict": "refused: 1 cohort(s) is too few to validate anything"
+ },
+ {
+  "brier_base": 0.18330272775715986,
+  "brier_corrected": 0.16442935080598906,
+  "cohorts": 19,
+  "cohorts_improved": 16,
+  "delta_mean": -0.01891739638197107,
+  "delta_se": 0.007853606792785742,
+  "fit_regimes": "[\"Sideways\"]",
+  "fitted_at": "2026-09-04 13:56:00.050688",
+  "installed": true,
+  "n": 6342,
+  "t_critical": -1.7340636066175392,
+  "t_stat": -2.4087526764579597,
+  "target": "g5_h10",
+  "verdict": "installed: 16/19 cohorts improved, t=-2.41"
  }
 ]
