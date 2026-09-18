@@ -121,6 +121,16 @@
  },
  {
   "active": false,
+  "artifact_dir": "models/g10_h30_lgbm_2026-09-18_356797",
+  "family": "lgbm",
+  "metrics": "{\"brier\": 0.21672095396235186, \"auc\": 0.6266045009391522, \"n\": 670667, \"base_rate\": 0.33614595618988263, \"reliability\": null, \"holdout_brier\": 0.21938013362540792, \"holdout_start\": \"2025-08-20\"}",
+  "model_id": "g10_h30_lgbm_2026-09-18_356797",
+  "target": "g10_h30",
+  "train_end": "2026-08-04",
+  "trained_at": "2026-09-18 14:00:57.196953"
+ },
+ {
+  "active": false,
   "artifact_dir": "models/g10_h30_logistic_2026-07-16_1600dc",
   "family": "logistic",
   "metrics": "{\"brier\": 0.23050354075845264, \"auc\": 0.6346085689251564, \"n\": 661710, \"base_rate\": 0.3306720466669689, \"reliability\": null}",
@@ -238,6 +248,16 @@
   "target": "g10_h30",
   "train_end": "2025-06-02",
   "trained_at": "2026-09-11 13:57:49.502699"
+ },
+ {
+  "active": false,
+  "artifact_dir": "models/g10_h30_logistic_2026-09-18_5c5bb8",
+  "family": "logistic",
+  "metrics": "{\"brier\": 0.229899922395106, \"auc\": 0.6331846503817962, \"n\": 670667, \"base_rate\": 0.33614595618988263, \"reliability\": null, \"holdout_brier\": 0.21938013362540792, \"holdout_start\": \"2025-08-20\"}",
+  "model_id": "g10_h30_logistic_2026-09-18_5c5bb8",
+  "target": "g10_h30",
+  "train_end": "2025-06-02",
+  "trained_at": "2026-09-18 14:00:56.973127"
  },
  {
   "active": false,
@@ -361,6 +381,16 @@
  },
  {
   "active": false,
+  "artifact_dir": "models/g5_h10_lgbm_2026-09-18_1e4e82",
+  "family": "lgbm",
+  "metrics": "{\"brier\": 0.20518686846747894, \"auc\": 0.647226029466777, \"n\": 670667, \"base_rate\": 0.3203929819120368, \"reliability\": null, \"holdout_brier\": 0.20554480912568845, \"holdout_start\": \"2025-09-17\"}",
+  "model_id": "g5_h10_lgbm_2026-09-18_1e4e82",
+  "target": "g5_h10",
+  "train_end": "2026-09-03",
+  "trained_at": "2026-09-18 13:58:16.163775"
+ },
+ {
+  "active": false,
   "artifact_dir": "models/g5_h10_logistic_2026-07-16_341f86",
   "family": "logistic",
   "metrics": "{\"brier\": 0.22430641171175159, \"auc\": 0.6615172566498715, \"n\": 661710, \"base_rate\": 0.31730063018542864, \"reliability\": null}",
@@ -478,5 +508,15 @@
   "target": "g5_h10",
   "train_end": "2025-06-02",
   "trained_at": "2026-09-11 13:56:03.865232"
+ },
+ {
+  "active": false,
+  "artifact_dir": "models/g5_h10_logistic_2026-09-18_432e17",
+  "family": "logistic",
+  "metrics": "{\"brier\": 0.22428272992346032, \"auc\": 0.654176725386984, \"n\": 670667, \"base_rate\": 0.3203929819120368, \"reliability\": null, \"holdout_brier\": 0.20554480912568845, \"holdout_start\": \"2025-09-17\"}",
+  "model_id": "g5_h10_logistic_2026-09-18_432e17",
+  "target": "g5_h10",
+  "train_end": "2025-06-02",
+  "trained_at": "2026-09-18 13:58:15.998284"
  }
 ]
