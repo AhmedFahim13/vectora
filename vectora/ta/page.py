@@ -212,8 +212,16 @@ def _evidence(con, horizon: int = 10) -> str:
         f"13 years of DSE history and scored against what actually happened "
         f"next: did the stock gain 5% within {horizon} trading days? "
         "&ldquo;Edge&rdquo; is the band&rsquo;s hit rate minus the market&rsquo;s "
-        "own base rate over the same windows. A band is only worth attention "
-        "if that number is positive.</div>"
+        "own base rate over the same windows.</div>"
+        "<div class='note'><b>How much of that edge is real.</b> This label "
+        "rewards any stock that <i>moves</i>, so part of the edge is simply "
+        "volatility rather than direction. Ranking stocks by trailing "
+        "volatility alone &mdash; which knows nothing about direction &mdash; "
+        "scores <b>+10.8pp</b> against the gauge&rsquo;s <b>+7.9pp</b>: the "
+        "dumb control wins. Comparing each stock only against others of "
+        "similar volatility leaves a genuine <b>+3 to +5pp</b>, steady across "
+        "all ten volatility bands. Treat that as the real number and the "
+        "column below as its flattering upper bound.</div>"
         "<table class='tbl evidence'><thead><tr><th>Posture</th><th>n</th>"
         "<th>Hit rate</th><th>Base rate</th><th>Edge</th></tr></thead><tbody>"
         + body + "</tbody></table>"
@@ -284,8 +292,13 @@ def _gauge_evidence(con, horizon: int = 10) -> str:
         "WHERE band = 'Strong Buy' AND horizon = ?", [horizon]).fetchone()
     if six:
         six_sb = (six[0] - six[1]) * 100
-    labels = {"summary": "Summary (all 26)", "moving_averages": "Moving averages (15)",
-              "oscillators": "Oscillators (11)"}
+    # derived, never written: the prune from 26 to 21 indicators silently
+    # falsified these captions the last time they were hardcoded
+    labels = {"summary": f"Summary (all {n_ma + n_osc})",
+              "moving_averages": f"Moving averages ({n_ma})",
+              "oscillators": f"Oscillators ({n_osc})"}
+    osc_ss = _edge("oscillators", "Strong Sell")
+    osc_buy = _edge("oscillators", "Buy")
     body = "".join(
         f"<tr><td>{_esc(labels.get(g, g))}</td><td>{_esc(b)}</td>"
         f"<td class='num'>{n:,}</td><td class='num'>{hit:.1%}</td>"
@@ -305,8 +318,11 @@ def _gauge_evidence(con, horizon: int = 10) -> str:
            if (sum_sb is not None and six_sb is not None) else "")
         + "Two results deserve scepticism rather "
         "than excitement: the oscillator gauge beats the base rate at "
-        "<i>both</i> extremes, and its Strong Sell (+12.6pp) reads better than "
-        "its Buy. That is not directional skill — a stock whose oscillators "
+        "<i>both</i> extremes"
+        + (f", and its Strong Sell ({osc_ss:+.1f}pp) reads better than its "
+           f"Buy ({osc_buy:+.1f}pp)"
+           if (osc_ss is not None and osc_buy is not None) else "")
+        + ". That is not directional skill — a stock whose oscillators "
         "are screaming in either direction is simply a volatile stock, and "
         "this label only asks whether price <i>touched</i> +5%. Read the "
         "oscillator gauge as a volatility flag; read the moving-average gauge "

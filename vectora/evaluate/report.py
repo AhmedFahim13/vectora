@@ -74,6 +74,81 @@ def cohort_stats(rows: list[tuple]) -> dict:
 
 
 
+def _volatility_map(con) -> dict:
+    """Trailing 20-day return volatility per (symbol, date).
+
+    Needed as the control: the target rewards any stock that MOVES, so a
+    lift has to be shown against volatility, not just against the base rate.
+    Computed in SQL so the report never loads the million-row panel.
+    """
+    rows = con.execute(
+        """
+        WITH scope AS (
+            SELECT DISTINCT p.symbol,
+                   min(p.date) OVER () - INTERVAL 120 DAY AS from_date
+            FROM predictions p
+        ), px AS (
+            SELECT pr.symbol, pr.date, pr.close
+            FROM prices pr JOIN scope s ON s.symbol = pr.symbol
+            WHERE pr.date >= s.from_date
+        ), r AS (
+            SELECT symbol, date,
+                   close / lag(close) OVER (PARTITION BY symbol
+                                            ORDER BY date) - 1 AS ret
+            FROM px
+        )
+        SELECT symbol, CAST(date AS VARCHAR),
+               stddev_samp(ret) OVER (PARTITION BY symbol ORDER BY date
+                                      ROWS BETWEEN 20 PRECEDING AND
+                                      1 PRECEDING) AS vol20
+        FROM r
+        """).fetchall()
+    return {(s, d): v for s, d, v in rows if v is not None}
+
+
+def _control_section(scores, hits, vols) -> list[str]:
+    """The naive lift beside the volatility-matched one.
+
+    Added after discovering that ranking by trailing volatility alone beat
+    the gauge on the production label (+10.8pp against +7.9pp). The base
+    rate alone could never have shown that.
+    """
+    from vectora import control
+    if len(hits) < control.N_STRATA * 100:
+        return []
+    cmp_ = control.compare(scores, hits, vols)
+    matched = control.matched_lift(scores, hits, vols)
+    if not matched["per_stratum"]:
+        return []
+    return ["### Is it the signal, or just volatility?", "",
+            control.render(cmp_, matched)]
+
+
+def _selective_section(probs, hits, dates) -> list[str]:
+    """What the model is worth when it is allowed to abstain.
+
+    Reported here rather than as a headline because the acted-on rate is
+    only meaningful beside its coverage — and because a slice drawn from
+    two good days would show the same number while meaning nothing, which
+    is why the date spread sits in the same table.
+    """
+    from vectora import selective
+    rows = selective.sweep(probs, hits, dates)
+    if not rows:
+        return []
+    best = next((r for r in reversed(rows) if r["beats_base"]), None)
+    lines = ["### Acting only on the confident calls", ""]
+    lines.append(selective.render(rows, "Coverage vs acted-on hit rate"))
+    if best:
+        lines += [
+            "", f"Tightest slice whose interval still clears the base rate: "
+            f"**{best['coverage']:.0%} coverage**, acted-on "
+            f"**{best['acted_hit_rate']:.1%}** against a "
+            f"{best['base_rate']:.1%} base, drawn from "
+            f"{best['cohorts']} of {best['total_cohorts']} dates.", ""]
+    return lines
+
+
 def _cohort_section(c: dict) -> list[str]:
     """How much evidence there actually is, stated in cohorts."""
     if not c or c["cohorts"] == 0:
@@ -117,6 +192,7 @@ def evaluate(con, reports_dir: Path = REPORTS_DIR,
         """).fetchall()
     if not rows:
         return {"resolved": 0}
+    volmap = _volatility_map(con)
 
     targets: dict = {}
     seg_lines = []
@@ -177,6 +253,19 @@ def evaluate(con, reports_dir: Path = REPORTS_DIR,
                   for b in m["reliability"]]
         lines.append("")
         lines += _cohort_section(m["cohorts"])
+        lines += _selective_section(
+            [r[4] for r in rows if r[3] == tgt],
+            [int(r[5]) for r in rows if r[3] == tgt],
+            [str(r[2]) for r in rows if r[3] == tgt])
+        # rows whose volatility is unknown are dropped rather than filled:
+        # a made-up control value would weaken the very check it performs
+        paired = [(r[4], int(r[5]), volmap[(r[1], str(r[2]))])
+                  for r in rows
+                  if r[3] == tgt and (r[1], str(r[2])) in volmap]
+        if paired:
+            lines += _control_section([p[0] for p in paired],
+                                      [p[1] for p in paired],
+                                      [p[2] for p in paired])
     if seg_lines:
         lines += [f"## Segments (n>={seg_min})", "",
                   "| target | segment | n | hit rate |", "|---|---|---|---|"]
