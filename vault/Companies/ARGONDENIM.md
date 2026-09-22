@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # ARGONDENIM
 
-#posture/hold #sector/textile #category/a
+#posture/sell #sector/textile #category/a
 
-**Textile** | category A | as of [[Journal/2026-08-25|2026-08-25]]
+**Textile** | category A | as of [[Journal/2026-09-21|2026-09-21]]
 
 Sector view: [[Sectors/Textile|Textile]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Textile|Textile]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Hold** | |
-| Moving averages | Hold | 7 up / 6 down |
-| Oscillators | Sell | 2 up / 3 down |
-| Six-family score | Sell | -4 |
+| Summary (26 indicators) | **Sell** | |
+| Moving averages | Sell | 4 up / 9 down |
+| Oscillators | Sell | 0 up / 2 down |
+| Six-family score | Strong Sell | -9 |
 
-RSI 44 | SuperTrend down
+RSI 43 | SuperTrend down
 
 ## Levels
 
-- Monthly pivot: 23.97
-- Nearest resistance: 23.97 (+10.4% away)
-- Nearest support: 21.00 (3.2% away)
+- Monthly pivot: 23.20
+- Nearest resistance: 23.20 (+10.5% away)
+- Nearest support: 20.50 (2.4% away)
 - 52-week range: 14.60 to 25.90
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 44 | SuperTrend down
 
 ## Track record
 
-4/13 resolved predictions reached their target
+13/41 resolved predictions reached their target
 <!-- vectora:end -->

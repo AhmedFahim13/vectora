@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # BAYLEASING
 
-#posture/hold #sector/financial-institutions #category/z
+#posture/sell #sector/financial-institutions #category/z
 
-**Financial Institutions** | category Z | as of [[Journal/2026-08-25|2026-08-25]]
+**Financial Institutions** | category Z | as of [[Journal/2026-09-21|2026-09-21]]
 
 Sector view: [[Sectors/Financial Institutions|Financial Institutions]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Financial Institutions|Financial Institutions]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Hold** | |
-| Moving averages | Hold | 7 up / 6 down |
-| Oscillators | Sell | 2 up / 4 down |
-| Six-family score | Sell | -4 |
+| Summary (26 indicators) | **Sell** | |
+| Moving averages | Sell | 3 up / 9 down |
+| Oscillators | Sell | 0 up / 2 down |
+| Six-family score | Strong Sell | -7 |
 
-RSI 44 | SuperTrend down
+RSI 41 | SuperTrend down
 
 ## Levels
 
 - Monthly pivot: 5.07
-- Nearest resistance: 5.07 (+7.8% away)
-- Nearest support: 4.60 (2.1% away)
+- Nearest resistance: 5.07 (+12.6% away)
+- Nearest support: 4.40 (2.2% away)
 - 52-week range: 2.50 to 6.50
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 44 | SuperTrend down
 
 ## Track record
 
-5/13 resolved predictions reached their target
+6/41 resolved predictions reached their target
 <!-- vectora:end -->

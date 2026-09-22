@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # SONARGAON
 
-#posture/buy #sector/textile #category/b
+#posture/strong-buy #sector/textile #category/b
 
-**Textile** | category B | as of [[Journal/2026-08-25|2026-08-25]]
+**Textile** | category B | as of [[Journal/2026-09-21|2026-09-21]]
 
 Sector view: [[Sectors/Textile|Textile]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Textile|Textile]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Buy** | |
-| Moving averages | Hold | 7 up / 6 down |
-| Oscillators | Buy | 2 up / 1 down |
-| Six-family score | Buy | +2 |
+| Summary (26 indicators) | **Strong Buy** | |
+| Moving averages | Strong Buy | 12 up / 1 down |
+| Oscillators | Buy | 2 up / 0 down |
+| Six-family score | Sell | -3 |
 
-RSI 55 | SuperTrend up
+RSI 54 | SuperTrend down
 
 ## Levels
 
-- Monthly pivot: 101.03
-- Nearest resistance: 121.07 (+13.3% away)
-- Nearest support: 101.03 (5.5% away)
+- Monthly pivot: 108.50
+- Nearest resistance: 108.50 (+7.6% away)
+- Nearest support: 92.50 (8.2% away)
 - 52-week range: 20.70 to 124.50
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 55 | SuperTrend up
 
 ## Track record
 
-12/13 resolved predictions reached their target
+24/41 resolved predictions reached their target
 <!-- vectora:end -->

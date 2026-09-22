@@ -1,7 +1,7 @@
 <!-- vectora:begin -->
 # Impaired
 
-86 companies | as of [[Journal/2026-08-25|2026-08-25]]
+87 companies | as of [[Journal/2026-09-21|2026-09-21]]
 
 Carrying accumulated losses instead of reserves.
 
@@ -20,6 +20,7 @@ Carrying accumulated losses instead of reserves.
 | [[BAYLEASING]] | accumulated losses of 5,080 mn |
 | [[BDAUTOCA]] | accumulated losses of 11 mn |
 | [[BDFINANCE]] | accumulated losses of 7,354 mn |
+| [[BDSERVICE]] | accumulated losses of 27,344 mn |
 | [[BIFC]] | accumulated losses of 13,704 mn |
 | [[CAPITECGBF]] | accumulated losses of 60 mn |
 | [[CAPMBDBLMF]] | accumulated losses of 117 mn |

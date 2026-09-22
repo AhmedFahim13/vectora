@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # DHAKABANK
 
-#posture/sell #sector/bank #category/a
+#posture/strong-sell #sector/bank #category/a
 
-**Bank** | category A | as of [[Journal/2026-08-25|2026-08-25]]
+**Bank** | category A | as of [[Journal/2026-09-21|2026-09-21]]
 
 Sector view: [[Sectors/Bank|Bank]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Bank|Bank]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Sell** | |
-| Moving averages | Sell | 5 up / 7 down |
-| Oscillators | Sell | 1 up / 2 down |
-| Six-family score | Sell | -2 |
+| Summary (26 indicators) | **Strong Sell** | |
+| Moving averages | Strong Sell | 0 up / 13 down |
+| Oscillators | Strong Sell | 0 up / 4 down |
+| Six-family score | Sell | -5 |
 
-RSI 47 | SuperTrend up
+RSI 28 | SuperTrend down
 
 ## Levels
 
-- Monthly pivot: 12.30
-- Nearest resistance: 12.30 (+1.7% away)
-- Nearest support: 12.00 (0.8% away)
+- Monthly pivot: 12.17
+- Nearest resistance: 12.17 (+5.8% away)
+- Nearest support: 11.37 (1.2% away)
 - 52-week range: 9.60 to 13.50
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 47 | SuperTrend up
 
 ## Track record
 
-0/13 resolved predictions reached their target
+0/41 resolved predictions reached their target
 <!-- vectora:end -->

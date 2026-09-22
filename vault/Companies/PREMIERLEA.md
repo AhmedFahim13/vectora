@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # PREMIERLEA
 
-#posture/sell #sector/financial-institutions #category/z
+#posture/hold #sector/financial-institutions #category/z
 
-**Financial Institutions** | category Z | as of [[Journal/2026-08-25|2026-08-25]]
+**Financial Institutions** | category Z | as of [[Journal/2026-09-21|2026-09-21]]
 
 Sector view: [[Sectors/Financial Institutions|Financial Institutions]]
 
@@ -11,19 +11,19 @@ Sector view: [[Sectors/Financial Institutions|Financial Institutions]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Sell** | |
-| Moving averages | Hold | 7 up / 6 down |
-| Oscillators | Strong Sell | 0 up / 4 down |
-| Six-family score | Sell | -4 |
+| Summary (26 indicators) | **Hold** | |
+| Moving averages | Buy | 8 up / 4 down |
+| Oscillators | Sell | 0 up / 2 down |
+| Six-family score | Sell | -5 |
 
-RSI 44 | SuperTrend down
+RSI 48 | SuperTrend down
 
 ## Levels
 
-- Monthly pivot: 2.70
-- Nearest resistance: 2.70 (+28.6% away)
-- Nearest support: 1.50 (28.6% away)
-- 52-week range: 0.30 to 3.90
+- Monthly pivot: 2.47
+- Nearest resistance: 2.40 (+14.3% away)
+- Nearest support: 1.90 (9.5% away)
+- 52-week range: 0.30 to 3.70
 
 ## Fundamentals
 
@@ -34,5 +34,5 @@ RSI 44 | SuperTrend down
 
 ## Track record
 
-5/12 resolved predictions reached their target
+12/39 resolved predictions reached their target
 <!-- vectora:end -->

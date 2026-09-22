@@ -3,17 +3,17 @@
 
 #sector-note #phase/improving
 
-Phase: **Improving** | as of [[Journal/2026-08-25|2026-08-25]]
+Phase: **Improving** | as of [[Journal/2026-09-21|2026-09-21]]
 
 | measure | value |
 |---|---|
-| 21-day return | -6.43% |
-| vs market, 21 days | -4.33% |
-| momentum | +3.43% |
-| 63-day return | -10.07% |
+| 21-day return | -6.49% |
+| vs market, 21 days | -0.61% |
+| momentum | +7.78% |
+| 63-day return | -9.64% |
 | constituents | 4 |
 
 ## Members, strongest first
 
-[[BESTHLDNG]] · [[PENINSULA]] · [[SEAPEARL]] · [[UNIQUEHRL]]
+[[BDSERVICE]] · [[BESTHLDNG]] · [[SEAPEARL]] · [[PENINSULA]] · [[UNIQUEHRL]]
 <!-- vectora:end -->

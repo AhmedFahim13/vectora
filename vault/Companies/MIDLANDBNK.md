@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # MIDLANDBNK
 
-#posture/sell #sector/bank #category/b #risk/thin-float
+#posture/hold #sector/bank #category/b #risk/thin-float
 
-**Bank** | category B | as of [[Journal/2026-08-25|2026-08-25]]
+**Bank** | category B | as of [[Journal/2026-09-21|2026-09-21]]
 
 Sector view: [[Sectors/Bank|Bank]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Bank|Bank]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Sell** | |
-| Moving averages | Strong Sell | 1 up / 12 down |
-| Oscillators | Buy | 3 up / 2 down |
+| Summary (26 indicators) | **Hold** | |
+| Moving averages | Hold | 6 up / 7 down |
+| Oscillators | Buy | 2 up / 0 down |
 | Six-family score | Hold | -1 |
 
-RSI 44 | SuperTrend up
+RSI 51 | SuperTrend down
 
 ## Levels
 
-- Monthly pivot: 18.20
-- Nearest resistance: 18.20 (+2.8% away)
-- Nearest support: 17.40 (1.7% away)
+- Monthly pivot: 17.63
+- Nearest resistance: 17.63 (+2.5% away)
+- Nearest support: 16.00 (7.0% away)
 - 52-week range: 14.60 to 29.40
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 44 | SuperTrend up
 
 ## Track record
 
-4/13 resolved predictions reached their target
+4/41 resolved predictions reached their target
 <!-- vectora:end -->

@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # PUBALIBANK
 
-#posture/hold #sector/bank #category/a
+#posture/strong-buy #sector/bank #category/a
 
-**Bank** | category A | as of [[Journal/2026-08-25|2026-08-25]]
+**Bank** | category A | as of [[Journal/2026-09-21|2026-09-21]]
 
 Sector view: [[Sectors/Bank|Bank]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Bank|Bank]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Hold** | |
-| Moving averages | Hold | 7 up / 6 down |
-| Oscillators | Hold | 1 up / 1 down |
-| Six-family score | Hold | +1 |
+| Summary (26 indicators) | **Strong Buy** | |
+| Moving averages | Strong Buy | 13 up / 0 down |
+| Oscillators | Buy | 2 up / 0 down |
+| Six-family score | Buy | +3 |
 
-RSI 50 | SuperTrend up
+RSI 65 | SuperTrend up
 
 ## Levels
 
-- Monthly pivot: 38.17
-- Nearest resistance: 40.63 (+5.5% away)
-- Nearest support: 38.17 (0.9% away)
+- Monthly pivot: 38.73
+- Nearest resistance: 40.00 (+0.3% away)
+- Nearest support: 38.73 (2.9% away)
 - 52-week range: 23.90 to 40.70
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 50 | SuperTrend up
 
 ## Track record
 
-1/13 resolved predictions reached their target
+1/41 resolved predictions reached their target
 <!-- vectora:end -->

@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # DACCADYE
 
-#posture/strong-sell #sector/textile #category/z
+#posture/sell #sector/textile #category/z
 
-**Textile** | category Z | as of [[Journal/2026-08-25|2026-08-25]]
+**Textile** | category Z | as of [[Journal/2026-09-21|2026-09-21]]
 
 Sector view: [[Sectors/Textile|Textile]]
 
@@ -11,19 +11,19 @@ Sector view: [[Sectors/Textile|Textile]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Strong Sell** | |
+| Summary (26 indicators) | **Sell** | |
 | Moving averages | Strong Sell | 0 up / 13 down |
-| Oscillators | Sell | 2 up / 3 down |
+| Oscillators | Buy | 1 up / 0 down |
 | Six-family score | Sell | -3 |
 
-RSI 23 | SuperTrend down
+RSI 45 | SuperTrend down
 
 ## Levels
 
-- Monthly pivot: 17.27
-- Nearest resistance: 17.27 (+12.1% away)
-- Nearest support: 14.33 (6.9% away)
-- 52-week range: 15.50 to 23.50
+- Monthly pivot: 16.70
+- Nearest resistance: 16.70 (+5.7% away)
+- Nearest support: 15.20 (3.8% away)
+- 52-week range: 15.10 to 23.50
 
 ## Fundamentals
 
@@ -34,5 +34,5 @@ RSI 23 | SuperTrend down
 
 ## Track record
 
-0/13 resolved predictions reached their target
+3/41 resolved predictions reached their target
 <!-- vectora:end -->

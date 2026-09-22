@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # NURANI
 
-#posture/hold #sector/textile #category/z
+#posture/sell #sector/textile #category/z
 
-**Textile** | category Z | as of [[Journal/2026-08-25|2026-08-25]]
+**Textile** | category Z | as of [[Journal/2026-09-21|2026-09-21]]
 
 Sector view: [[Sectors/Textile|Textile]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Textile|Textile]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Hold** | |
-| Moving averages | Hold | 7 up / 6 down |
-| Oscillators | Sell | 1 up / 2 down |
-| Six-family score | Sell | -2 |
+| Summary (26 indicators) | **Sell** | |
+| Moving averages | Hold | 6 up / 6 down |
+| Oscillators | Sell | 0 up / 2 down |
+| Six-family score | Strong Sell | -6 |
 
-RSI 51 | SuperTrend down
+RSI 46 | SuperTrend down
 
 ## Levels
 
-- Monthly pivot: 2.93
-- Nearest resistance: 3.43 (+4.0% away)
-- Nearest support: 2.93 (11.1% away)
+- Monthly pivot: 3.60
+- Nearest resistance: 3.60 (+20.0% away)
+- Nearest support: 2.70 (10.0% away)
 - 52-week range: 1.10 to 4.60
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 51 | SuperTrend down
 
 ## Track record
 
-0/0 resolved predictions reached their target
+2/9 resolved predictions reached their target
 <!-- vectora:end -->

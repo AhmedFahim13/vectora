@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # BARKAPOWER
 
-#posture/buy #sector/fuel-power #category/z
+#posture/sell #sector/fuel-power #category/z
 
-**Fuel & Power** | category Z | as of [[Journal/2026-08-25|2026-08-25]]
+**Fuel & Power** | category Z | as of [[Journal/2026-09-21|2026-09-21]]
 
 Sector view: [[Sectors/Fuel & Power|Fuel & Power]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Fuel & Power|Fuel & Power]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Buy** | |
-| Moving averages | Buy | 9 up / 4 down |
-| Oscillators | Buy | 2 up / 1 down |
-| Six-family score | Buy | +2 |
+| Summary (26 indicators) | **Sell** | |
+| Moving averages | Hold | 6 up / 6 down |
+| Oscillators | Sell | 0 up / 3 down |
+| Six-family score | Sell | -5 |
 
-RSI 55 | SuperTrend up
+RSI 45 | SuperTrend down
 
 ## Levels
 
-- Monthly pivot: 8.53
-- Nearest resistance: 10.17 (+0.7% away)
-- Nearest support: 8.53 (15.5% away)
+- Monthly pivot: 10.53
+- Nearest resistance: 10.53 (+8.6% away)
+- Nearest support: 9.60 (1.0% away)
 - 52-week range: 5.20 to 13.50
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 55 | SuperTrend up
 
 ## Track record
 
-13/13 resolved predictions reached their target
+28/41 resolved predictions reached their target
 <!-- vectora:end -->

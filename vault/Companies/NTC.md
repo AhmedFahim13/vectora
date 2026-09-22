@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # NTC
 
-#posture/strong-sell #sector/food-allied #category/z
+#posture/hold #sector/food-allied #category/z
 
-**Food & Allied** | category Z | as of [[Journal/2026-08-25|2026-08-25]]
+**Food & Allied** | category Z | as of [[Journal/2026-09-21|2026-09-21]]
 
 Sector view: [[Sectors/Food & Allied|Food & Allied]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Food & Allied|Food & Allied]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Strong Sell** | |
-| Moving averages | Strong Sell | 0 up / 13 down |
-| Oscillators | Sell | 1 up / 2 down |
-| Six-family score | Strong Sell | -8 |
+| Summary (26 indicators) | **Hold** | |
+| Moving averages | Hold | 6 up / 7 down |
+| Oscillators | Buy | 2 up / 0 down |
+| Six-family score | Sell | -2 |
 
-RSI 38 | SuperTrend down
+RSI 48 | SuperTrend down
 
 ## Levels
 
-- Monthly pivot: 177.60
-- Nearest resistance: 177.60 (+9.8% away)
-- Nearest support: 159.30 (1.5% away)
+- Monthly pivot: 163.40
+- Nearest resistance: 163.40 (+4.5% away)
+- Nearest support: 149.30 (4.5% away)
 - 52-week range: 134.00 to 222.00
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 38 | SuperTrend down
 
 ## Track record
 
-0/13 resolved predictions reached their target
+0/32 resolved predictions reached their target
 <!-- vectora:end -->

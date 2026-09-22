@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # UNIONCAP
 
-#posture/hold #sector/financial-institutions #category/z
+#posture/sell #sector/financial-institutions #category/z
 
-**Financial Institutions** | category Z | as of [[Journal/2026-08-25|2026-08-25]]
+**Financial Institutions** | category Z | as of [[Journal/2026-09-21|2026-09-21]]
 
 Sector view: [[Sectors/Financial Institutions|Financial Institutions]]
 
@@ -11,19 +11,19 @@ Sector view: [[Sectors/Financial Institutions|Financial Institutions]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Hold** | |
-| Moving averages | Hold | 7 up / 6 down |
-| Oscillators | Sell | 2 up / 3 down |
-| Six-family score | Hold | +1 |
+| Summary (26 indicators) | **Sell** | |
+| Moving averages | Sell | 3 up / 9 down |
+| Oscillators | Sell | 0 up / 3 down |
+| Six-family score | Strong Sell | -7 |
 
-RSI 48 | SuperTrend up
+RSI 44 | SuperTrend down
 
 ## Levels
 
-- Monthly pivot: 4.83
-- Nearest resistance: 4.83 (+7.4% away)
-- Nearest support: 4.37 (3.0% away)
-- 52-week range: 2.50 to 6.60
+- Monthly pivot: 4.67
+- Nearest resistance: 4.67 (+8.5% away)
+- Nearest support: 4.20 (2.3% away)
+- 52-week range: 2.50 to 6.30
 
 ## Fundamentals
 
@@ -34,5 +34,5 @@ RSI 48 | SuperTrend up
 
 ## Track record
 
-4/13 resolved predictions reached their target
+5/41 resolved predictions reached their target
 <!-- vectora:end -->

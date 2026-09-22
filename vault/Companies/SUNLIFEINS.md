@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # SUNLIFEINS
 
-#posture/strong-sell #sector/insurance #category/b
+#posture/sell #sector/insurance #category/b
 
-**Insurance** | category B | as of [[Journal/2026-08-25|2026-08-25]]
+**Insurance** | category B | as of [[Journal/2026-09-21|2026-09-21]]
 
 Sector view: [[Sectors/Insurance|Insurance]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Insurance|Insurance]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Strong Sell** | |
-| Moving averages | Strong Sell | 0 up / 13 down |
-| Oscillators | Strong Sell | 0 up / 4 down |
-| Six-family score | Hold | -1 |
+| Summary (26 indicators) | **Sell** | |
+| Moving averages | Sell | 5 up / 8 down |
+| Oscillators | Hold | 1 up / 1 down |
+| Six-family score | Sell | -3 |
 
-RSI 28 | SuperTrend down
+RSI 45 | SuperTrend down
 
 ## Levels
 
-- Monthly pivot: 72.17
-- Nearest resistance: 71.50 (+36.2% away)
-- Nearest support: 50.60 (3.6% away)
+- Monthly pivot: 57.80
+- Nearest resistance: 57.80 (+14.9% away)
+- Nearest support: 45.10 (10.3% away)
 - 52-week range: 40.20 to 81.90
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 28 | SuperTrend down
 
 ## Track record
 
-0/13 resolved predictions reached their target
+2/41 resolved predictions reached their target
 <!-- vectora:end -->

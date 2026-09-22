@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # GPHISPAT
 
-#posture/strong-sell #sector/engineering #category/b
+#posture/sell #sector/engineering #category/b
 
-**Engineering** | category B | as of [[Journal/2026-08-25|2026-08-25]]
+**Engineering** | category B | as of [[Journal/2026-09-21|2026-09-21]]
 
 Sector view: [[Sectors/Engineering|Engineering]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Engineering|Engineering]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Strong Sell** | |
-| Moving averages | Strong Sell | 0 up / 13 down |
-| Oscillators | Sell | 1 up / 4 down |
-| Six-family score | Strong Sell | -6 |
+| Summary (26 indicators) | **Sell** | |
+| Moving averages | Strong Sell | 3 up / 10 down |
+| Oscillators | Hold | 1 up / 1 down |
+| Six-family score | Sell | -3 |
 
-RSI 32 | SuperTrend down
+RSI 44 | SuperTrend down
 
 ## Levels
 
-- Monthly pivot: 19.63
-- Nearest resistance: 19.63 (+14.1% away)
-- Nearest support: 16.57 (3.7% away)
+- Monthly pivot: 18.03
+- Nearest resistance: 18.03 (+9.3% away)
+- Nearest support: 16.37 (0.8% away)
 - 52-week range: 14.60 to 23.30
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 32 | SuperTrend down
 
 ## Track record
 
-0/13 resolved predictions reached their target
+0/41 resolved predictions reached their target
 <!-- vectora:end -->

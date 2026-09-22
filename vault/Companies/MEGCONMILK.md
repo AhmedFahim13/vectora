@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # MEGCONMILK
 
-#posture/buy #sector/food-allied #category/z
+#posture/sell #sector/food-allied #category/z
 
-**Food & Allied** | category Z | as of [[Journal/2026-08-25|2026-08-25]]
+**Food & Allied** | category Z | as of [[Journal/2026-09-21|2026-09-21]]
 
 Sector view: [[Sectors/Food & Allied|Food & Allied]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Food & Allied|Food & Allied]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Buy** | |
-| Moving averages | Strong Buy | 13 up / 0 down |
-| Oscillators | Sell | 1 up / 2 down |
-| Six-family score | Hold | +0 |
+| Summary (26 indicators) | **Sell** | |
+| Moving averages | Hold | 6 up / 7 down |
+| Oscillators | Sell | 0 up / 1 down |
+| Six-family score | Strong Sell | -8 |
 
-RSI 70 | SuperTrend up
+RSI 48 | SuperTrend down
 
 ## Levels
 
-- Monthly pivot: 36.77
-- Nearest resistance: 40.53 (+5.3% away)
-- Nearest support: 36.77 (4.5% away)
+- Monthly pivot: 36.00
+- Nearest resistance: 36.00 (+9.8% away)
+- Nearest support: 31.50 (4.0% away)
 - 52-week range: 11.50 to 41.40
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 70 | SuperTrend up
 
 ## Track record
 
-3/13 resolved predictions reached their target
+18/41 resolved predictions reached their target
 <!-- vectora:end -->

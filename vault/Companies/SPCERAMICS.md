@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # SPCERAMICS
 
-#posture/sell #sector/ceramics-sector #category/b
+#posture/buy #sector/ceramics-sector #category/b
 
-**Ceramics Sector** | category B | as of [[Journal/2026-08-25|2026-08-25]]
+**Ceramics Sector** | category B | as of [[Journal/2026-09-21|2026-09-21]]
 
 Sector view: [[Sectors/Ceramics Sector|Ceramics Sector]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Ceramics Sector|Ceramics Sector]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Sell** | |
-| Moving averages | Sell | 4 up / 8 down |
-| Oscillators | Sell | 2 up / 4 down |
-| Six-family score | Sell | -3 |
+| Summary (26 indicators) | **Buy** | |
+| Moving averages | Strong Buy | 11 up / 1 down |
+| Oscillators | Hold | 1 up / 1 down |
+| Six-family score | Buy | +4 |
 
-RSI 34 | SuperTrend down
+RSI 54 | SuperTrend up
 
 ## Levels
 
-- Monthly pivot: 23.73
-- Nearest resistance: 23.73 (+20.5% away)
-- Nearest support: 19.43 (1.4% away)
+- Monthly pivot: 20.43
+- Nearest resistance: 21.80 (+2.3% away)
+- Nearest support: 20.43 (4.1% away)
 - 52-week range: 11.50 to 29.60
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 34 | SuperTrend down
 
 ## Track record
 
-1/13 resolved predictions reached their target
+8/41 resolved predictions reached their target
 <!-- vectora:end -->

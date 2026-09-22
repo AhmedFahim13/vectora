@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # DBH1STMF
 
-#posture/strong-sell #sector/mutual-funds #category/a
+#posture/buy #sector/mutual-funds #category/a
 
-**Mutual Funds** | category A | as of [[Journal/2026-08-25|2026-08-25]]
+**Mutual Funds** | category A | as of [[Journal/2026-09-21|2026-09-21]]
 
 Sector view: [[Sectors/Mutual Funds|Mutual Funds]]
 
@@ -11,19 +11,19 @@ Sector view: [[Sectors/Mutual Funds|Mutual Funds]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Strong Sell** | |
-| Moving averages | Strong Sell | 0 up / 13 down |
-| Oscillators | Sell | 0 up / 2 down |
-| Six-family score | Sell | -3 |
+| Summary (26 indicators) | **Buy** | |
+| Moving averages | Strong Buy | 10 up / 3 down |
+| Oscillators | Buy | 2 up / 1 down |
+| Six-family score | Hold | +1 |
 
-RSI 36 | SuperTrend up
+RSI 59 | SuperTrend down
 
 ## Levels
 
-- Monthly pivot: 5.60
-- Nearest resistance: 5.60 (+7.7% away)
-- Nearest support: 4.90 (5.8% away)
-- 52-week range: 3.50 to 7.70
+- Monthly pivot: 5.47
+- Nearest resistance: 5.90 (+3.5% away)
+- Nearest support: 5.47 (4.1% away)
+- 52-week range: 3.70 to 7.70
 
 ## Fundamentals
 

@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # HFL
 
-#posture/hold #sector/textile #category/z
+#posture/sell #sector/textile #category/z
 
-**Textile** | category Z | as of [[Journal/2026-08-25|2026-08-25]]
+**Textile** | category Z | as of [[Journal/2026-09-21|2026-09-21]]
 
 Sector view: [[Sectors/Textile|Textile]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Textile|Textile]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Hold** | |
-| Moving averages | Hold | 7 up / 6 down |
-| Oscillators | Hold | 2 up / 2 down |
-| Six-family score | Sell | -3 |
+| Summary (26 indicators) | **Sell** | |
+| Moving averages | Sell | 4 up / 8 down |
+| Oscillators | Sell | 0 up / 2 down |
+| Six-family score | Strong Sell | -8 |
 
-RSI 47 | SuperTrend down
+RSI 32 | SuperTrend down
 
 ## Levels
 
-- Monthly pivot: 14.70
-- Nearest resistance: 14.70 (+3.5% away)
-- Nearest support: 13.80 (2.8% away)
+- Monthly pivot: 14.83
+- Nearest resistance: 14.83 (+22.6% away)
+- Nearest support: 11.60 (4.1% away)
 - 52-week range: 3.80 to 17.00
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 47 | SuperTrend down
 
 ## Track record
 
-7/13 resolved predictions reached their target
+8/41 resolved predictions reached their target
 <!-- vectora:end -->

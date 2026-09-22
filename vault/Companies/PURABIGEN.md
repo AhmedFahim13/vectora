@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # PURABIGEN
 
-#posture/hold #sector/insurance #category/a
+#posture/buy #sector/insurance #category/a
 
-**Insurance** | category A | as of [[Journal/2026-08-25|2026-08-25]]
+**Insurance** | category A | as of [[Journal/2026-09-21|2026-09-21]]
 
 Sector view: [[Sectors/Insurance|Insurance]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Insurance|Insurance]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Hold** | |
-| Moving averages | Hold | 7 up / 6 down |
-| Oscillators | Sell | 1 up / 3 down |
-| Six-family score | Hold | +1 |
+| Summary (26 indicators) | **Buy** | |
+| Moving averages | Buy | 9 up / 3 down |
+| Oscillators | Sell | 0 up / 2 down |
+| Six-family score | Sell | -5 |
 
-RSI 50 | SuperTrend up
+RSI 49 | SuperTrend down
 
 ## Levels
 
-- Monthly pivot: 32.57
-- Nearest resistance: 32.57 (+6.4% away)
-- Nearest support: 30.00 (2.0% away)
+- Monthly pivot: 30.30
+- Nearest resistance: 30.30 (+5.2% away)
+- Nearest support: 27.20 (5.6% away)
 - 52-week range: 15.30 to 36.10
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 50 | SuperTrend up
 
 ## Track record
 
-4/13 resolved predictions reached their target
+5/41 resolved predictions reached their target
 <!-- vectora:end -->

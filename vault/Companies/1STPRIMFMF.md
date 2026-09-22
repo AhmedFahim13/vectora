@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # 1STPRIMFMF
 
-#posture/sell #sector/mutual-funds #category/a
+#posture/strong-buy #sector/mutual-funds #category/a
 
-**Mutual Funds** | category A | as of [[Journal/2026-08-25|2026-08-25]]
+**Mutual Funds** | category A | as of [[Journal/2026-09-21|2026-09-21]]
 
 Sector view: [[Sectors/Mutual Funds|Mutual Funds]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Mutual Funds|Mutual Funds]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Sell** | |
-| Moving averages | Strong Sell | 2 up / 11 down |
-| Oscillators | Sell | 2 up / 4 down |
-| Six-family score | Sell | -3 |
+| Summary (26 indicators) | **Strong Buy** | |
+| Moving averages | Strong Buy | 13 up / 0 down |
+| Oscillators | Buy | 3 up / 0 down |
+| Six-family score | Hold | +1 |
 
-RSI 37 | SuperTrend down
+RSI 73 | SuperTrend up
 
 ## Levels
 
-- Monthly pivot: 24.33
-- Nearest resistance: 24.33 (+13.2% away)
-- Nearest support: 21.43 (0.3% away)
+- Monthly pivot: 22.70
+- Nearest resistance: 28.70 (+1.1% away)
+- Nearest support: 22.70 (20.1% away)
 - 52-week range: 15.80 to 26.60
 
 ## Fundamentals

@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # CNATEX
 
-#posture/hold #sector/textile #category/z
+#posture/strong-sell #sector/textile #category/z
 
-**Textile** | category Z | as of [[Journal/2026-08-25|2026-08-25]]
+**Textile** | category Z | as of [[Journal/2026-09-21|2026-09-21]]
 
 Sector view: [[Sectors/Textile|Textile]]
 
@@ -11,19 +11,19 @@ Sector view: [[Sectors/Textile|Textile]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Hold** | |
-| Moving averages | Hold | 7 up / 6 down |
-| Oscillators | Sell | 1 up / 3 down |
-| Six-family score | Sell | -2 |
+| Summary (26 indicators) | **Strong Sell** | |
+| Moving averages | Strong Sell | 2 up / 11 down |
+| Oscillators | Sell | 0 up / 3 down |
+| Six-family score | Strong Sell | -8 |
 
-RSI 51 | SuperTrend down
+RSI 38 | SuperTrend down
 
 ## Levels
 
-- Monthly pivot: 3.10
-- Nearest resistance: 3.50 (+9.4% away)
-- Nearest support: 3.10 (3.1% away)
-- 52-week range: 1.70 to 4.70
+- Monthly pivot: 3.33
+- Nearest resistance: 3.33 (+14.9% away)
+- Nearest support: 2.80 (3.4% away)
+- 52-week range: 1.70 to 4.30
 
 ## Fundamentals
 
@@ -34,5 +34,5 @@ RSI 51 | SuperTrend down
 
 ## Track record
 
-13/13 resolved predictions reached their target
+25/41 resolved predictions reached their target
 <!-- vectora:end -->

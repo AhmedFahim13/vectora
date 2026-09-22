@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # GQBALLPEN
 
-#posture/buy #sector/miscellaneous #category/a
+#posture/strong-buy #sector/miscellaneous #category/a
 
-**Miscellaneous** | category A | as of [[Journal/2026-08-25|2026-08-25]]
+**Miscellaneous** | category A | as of [[Journal/2026-09-21|2026-09-21]]
 
 Sector view: [[Sectors/Miscellaneous|Miscellaneous]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Miscellaneous|Miscellaneous]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Buy** | |
-| Moving averages | Strong Buy | 11 up / 2 down |
-| Oscillators | Sell | 0 up / 2 down |
-| Six-family score | Sell | -3 |
+| Summary (26 indicators) | **Strong Buy** | |
+| Moving averages | Strong Buy | 13 up / 0 down |
+| Oscillators | Buy | 2 up / 1 down |
+| Six-family score | Hold | +1 |
 
-RSI 52 | SuperTrend down
+RSI 62 | SuperTrend down
 
 ## Levels
 
-- Monthly pivot: 611.20
-- Nearest resistance: 611.20 (+9.0% away)
-- Nearest support: 543.20 (3.1% away)
+- Monthly pivot: 561.07
+- Nearest resistance: 617.13 (+2.7% away)
+- Nearest support: 561.07 (6.6% away)
 - 52-week range: 144.00 to 646.00
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 52 | SuperTrend down
 
 ## Track record
 
-1/13 resolved predictions reached their target
+10/41 resolved predictions reached their target
 <!-- vectora:end -->

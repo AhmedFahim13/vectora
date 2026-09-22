@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # DUTCHBANGL
 
-#posture/sell #sector/bank #category/a #risk/thin-float
+#posture/buy #sector/bank #category/a #risk/thin-float
 
-**Bank** | category A | as of [[Journal/2026-08-25|2026-08-25]]
+**Bank** | category A | as of [[Journal/2026-09-21|2026-09-21]]
 
 Sector view: [[Sectors/Bank|Bank]]
 
@@ -11,19 +11,19 @@ Sector view: [[Sectors/Bank|Bank]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Sell** | |
-| Moving averages | Sell | 5 up / 8 down |
-| Oscillators | Sell | 1 up / 4 down |
-| Six-family score | Sell | -2 |
+| Summary (26 indicators) | **Buy** | |
+| Moving averages | Strong Buy | 11 up / 1 down |
+| Oscillators | Buy | 2 up / 1 down |
+| Six-family score | Buy | +3 |
 
-RSI 37 | SuperTrend down
+RSI 55 | SuperTrend up
 
 ## Levels
 
-- Monthly pivot: 49.07
-- Nearest resistance: 49.07 (+7.6% away)
-- Nearest support: 45.30 (0.7% away)
-- 52-week range: 36.10 to 53.00
+- Monthly pivot: 47.07
+- Nearest resistance: 47.07 (+1.7% away)
+- Nearest support: 43.73 (5.5% away)
+- 52-week range: 36.10 to 51.70
 
 ## Fundamentals
 
@@ -34,5 +34,5 @@ RSI 37 | SuperTrend down
 
 ## Track record
 
-1/13 resolved predictions reached their target
+4/41 resolved predictions reached their target
 <!-- vectora:end -->

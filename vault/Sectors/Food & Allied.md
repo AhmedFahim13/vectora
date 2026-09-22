@@ -1,19 +1,19 @@
 <!-- vectora:begin -->
 # Food & Allied
 
-#sector-note #phase/lagging
+#sector-note #phase/improving
 
-Phase: **Lagging** | as of [[Journal/2026-08-25|2026-08-25]]
+Phase: **Improving** | as of [[Journal/2026-09-21|2026-09-21]]
 
 | measure | value |
 |---|---|
-| 21-day return | -5.88% |
-| vs market, 21 days | -3.78% |
-| momentum | -0.11% |
-| 63-day return | -10.60% |
+| 21-day return | -7.39% |
+| vs market, 21 days | -1.51% |
+| momentum | +6.00% |
+| 63-day return | -8.44% |
 | constituents | 21 |
 
 ## Members, strongest first
 
-[[EMERALDOIL]] · [[SHYAMPSUG]] · [[BATBC]] · [[BDTHAIFOOD]] · [[MEGCONMILK]] · [[MEGHNAPET]] · [[RAHIMAFOOD]] · [[UNILEVERCL]] · [[FUWANGFOOD]] · [[AMCL(PRAN)]] · [[BANGAS]] · [[FINEFOODS]] · [[LOVELLO]] · [[APEXFOODS]] · [[BEACHHATCH]] · [[GHAIL]] · [[OLYMPIC]] · [[RDFOOD]] · [[ZEALBANGLA]] · [[GEMINISEA]] · [[NTC]]
+[[MEGHNAPET]] · [[LOVELLO]] · [[APEXFOODS]] · [[NTC]] · [[OLYMPIC]] · [[RDFOOD]] · [[BEACHHATCH]] · [[RAHIMAFOOD]] · [[SHYAMPSUG]] · [[UNILEVERCL]] · [[BATBC]] · [[FUWANGFOOD]] · [[GEMINISEA]] · [[ZEALBANGLA]] · [[AMCL(PRAN)]] · [[GHAIL]] · [[BDTHAIFOOD]] · [[BANGAS]] · [[FINEFOODS]] · [[MEGCONMILK]] · [[EMERALDOIL]]
 <!-- vectora:end -->

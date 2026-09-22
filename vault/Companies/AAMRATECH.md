@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # AAMRATECH
 
-#posture/sell #sector/it-sector #category/z
+#posture/hold #sector/it-sector #category/z
 
-**IT Sector** | category Z | as of [[Journal/2026-08-25|2026-08-25]]
+**IT Sector** | category Z | as of [[Journal/2026-09-21|2026-09-21]]
 
 Sector view: [[Sectors/IT Sector|IT Sector]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/IT Sector|IT Sector]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Sell** | |
-| Moving averages | Sell | 5 up / 8 down |
-| Oscillators | Strong Sell | 0 up / 4 down |
-| Six-family score | Sell | -2 |
+| Summary (26 indicators) | **Hold** | |
+| Moving averages | Hold | 7 up / 6 down |
+| Oscillators | Sell | 0 up / 2 down |
+| Six-family score | Strong Sell | -7 |
 
-RSI 35 | SuperTrend down
+RSI 45 | SuperTrend down
 
 ## Levels
 
 - Monthly pivot: 19.00
-- Nearest resistance: 19.00 (+12.4% away)
-- Nearest support: 15.60 (7.7% away)
+- Nearest resistance: 19.00 (+13.8% away)
+- Nearest support: 15.40 (7.8% away)
 - 52-week range: 9.50 to 24.10
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 35 | SuperTrend down
 
 ## Track record
 
-10/13 resolved predictions reached their target
+21/41 resolved predictions reached their target
 <!-- vectora:end -->

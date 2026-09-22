@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # RUPALIINS
 
-#posture/hold #sector/insurance #category/a
+#posture/buy #sector/insurance #category/a
 
-**Insurance** | category A | as of [[Journal/2026-08-25|2026-08-25]]
+**Insurance** | category A | as of [[Journal/2026-09-21|2026-09-21]]
 
 Sector view: [[Sectors/Insurance|Insurance]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Insurance|Insurance]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Hold** | |
-| Moving averages | Hold | 7 up / 6 down |
-| Oscillators | Sell | 1 up / 2 down |
-| Six-family score | Hold | +1 |
+| Summary (26 indicators) | **Buy** | |
+| Moving averages | Strong Buy | 11 up / 1 down |
+| Oscillators | Sell | 0 up / 1 down |
+| Six-family score | Sell | -5 |
 
-RSI 48 | SuperTrend up
+RSI 51 | SuperTrend down
 
 ## Levels
 
-- Monthly pivot: 30.17
-- Nearest resistance: 30.17 (+2.6% away)
-- Nearest support: 28.80 (2.0% away)
+- Monthly pivot: 29.80
+- Nearest resistance: 29.80 (+4.6% away)
+- Nearest support: 26.00 (8.8% away)
 - 52-week range: 17.70 to 33.60
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 48 | SuperTrend up
 
 ## Track record
 
-10/13 resolved predictions reached their target
+14/41 resolved predictions reached their target
 <!-- vectora:end -->

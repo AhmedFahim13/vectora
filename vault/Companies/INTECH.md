@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # INTECH
 
-#posture/strong-sell #sector/it-sector #category/z
+#posture/hold #sector/it-sector #category/z
 
-**IT Sector** | category Z | as of [[Journal/2026-08-25|2026-08-25]]
+**IT Sector** | category Z | as of [[Journal/2026-09-21|2026-09-21]]
 
 Sector view: [[Sectors/IT Sector|IT Sector]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/IT Sector|IT Sector]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Strong Sell** | |
-| Moving averages | Strong Sell | 0 up / 13 down |
-| Oscillators | Strong Sell | 0 up / 4 down |
-| Six-family score | Sell | -3 |
+| Summary (26 indicators) | **Hold** | |
+| Moving averages | Hold | 6 up / 7 down |
+| Oscillators | Buy | 2 up / 1 down |
+| Six-family score | Sell | -2 |
 
-RSI 27 | SuperTrend down
+RSI 50 | SuperTrend down
 
 ## Levels
 
-- Monthly pivot: 27.63
-- Nearest resistance: 27.40 (+15.1% away)
-- Nearest support: 22.73 (4.5% away)
+- Monthly pivot: 25.00
+- Nearest resistance: 25.00 (+2.5% away)
+- Nearest support: 22.60 (7.4% away)
 - 52-week range: 16.20 to 47.40
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 27 | SuperTrend down
 
 ## Track record
 
-1/13 resolved predictions reached their target
+5/41 resolved predictions reached their target
 <!-- vectora:end -->

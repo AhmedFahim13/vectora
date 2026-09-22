@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # AMANFEED
 
-#posture/hold #sector/miscellaneous #category/a
+#posture/sell #sector/miscellaneous #category/a
 
-**Miscellaneous** | category A | as of [[Journal/2026-08-25|2026-08-25]]
+**Miscellaneous** | category A | as of [[Journal/2026-09-21|2026-09-21]]
 
 Sector view: [[Sectors/Miscellaneous|Miscellaneous]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Miscellaneous|Miscellaneous]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Hold** | |
-| Moving averages | Hold | 7 up / 6 down |
-| Oscillators | Sell | 1 up / 2 down |
-| Six-family score | Buy | +2 |
+| Summary (26 indicators) | **Sell** | |
+| Moving averages | Hold | 6 up / 6 down |
+| Oscillators | Sell | 0 up / 2 down |
+| Six-family score | Strong Sell | -6 |
 
-RSI 51 | SuperTrend up
+RSI 42 | SuperTrend down
 
 ## Levels
 
-- Monthly pivot: 37.23
-- Nearest resistance: 37.23 (+1.5% away)
-- Nearest support: 34.47 (6.1% away)
+- Monthly pivot: 35.90
+- Nearest resistance: 35.90 (+13.2% away)
+- Nearest support: 30.40 (4.1% away)
 - 52-week range: 21.20 to 41.40
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 51 | SuperTrend up
 
 ## Track record
 
-1/13 resolved predictions reached their target
+3/41 resolved predictions reached their target
 <!-- vectora:end -->

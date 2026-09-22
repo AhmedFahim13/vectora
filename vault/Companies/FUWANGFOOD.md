@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # FUWANGFOOD
 
-#posture/strong-sell #sector/food-allied #category/z
+#posture/sell #sector/food-allied #category/z
 
-**Food & Allied** | category Z | as of [[Journal/2026-08-25|2026-08-25]]
+**Food & Allied** | category Z | as of [[Journal/2026-09-21|2026-09-21]]
 
 Sector view: [[Sectors/Food & Allied|Food & Allied]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Food & Allied|Food & Allied]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Strong Sell** | |
-| Moving averages | Strong Sell | 0 up / 13 down |
-| Oscillators | Strong Sell | 0 up / 4 down |
-| Six-family score | Hold | -1 |
+| Summary (26 indicators) | **Sell** | |
+| Moving averages | Strong Sell | 2 up / 11 down |
+| Oscillators | Sell | 1 up / 2 down |
+| Six-family score | Sell | -4 |
 
-RSI 19 | SuperTrend down
+RSI 40 | SuperTrend down
 
 ## Levels
 
-- Monthly pivot: 12.93
-- Nearest resistance: 12.93 (+37.6% away)
-- Nearest support: 9.10 (3.2% away)
+- Monthly pivot: 10.57
+- Nearest resistance: 10.57 (+8.9% away)
+- Nearest support: 9.00 (7.2% away)
 - 52-week range: 9.00 to 18.90
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 19 | SuperTrend down
 
 ## Track record
 
-0/13 resolved predictions reached their target
+3/41 resolved predictions reached their target
 <!-- vectora:end -->

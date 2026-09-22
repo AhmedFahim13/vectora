@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # ADVENT
 
-#posture/strong-sell #sector/pharmaceuticals-chemicals #category/z
+#posture/sell #sector/pharmaceuticals-chemicals #category/z
 
-**Pharmaceuticals & Chemicals** | category Z | as of [[Journal/2026-08-25|2026-08-25]]
+**Pharmaceuticals & Chemicals** | category Z | as of [[Journal/2026-09-21|2026-09-21]]
 
 Sector view: [[Sectors/Pharmaceuticals & Chemicals|Pharmaceuticals & Chemicals]]
 
@@ -11,19 +11,19 @@ Sector view: [[Sectors/Pharmaceuticals & Chemicals|Pharmaceuticals & Chemicals]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Strong Sell** | |
-| Moving averages | Strong Sell | 0 up / 12 down |
-| Oscillators | Sell | 1 up / 4 down |
+| Summary (26 indicators) | **Sell** | |
+| Moving averages | Sell | 5 up / 8 down |
+| Oscillators | Sell | 1 up / 2 down |
 | Six-family score | Sell | -3 |
 
-RSI 30 | SuperTrend down
+RSI 46 | SuperTrend down
 
 ## Levels
 
-- Monthly pivot: 15.73
-- Nearest resistance: 15.73 (+10.8% away)
-- Nearest support: 13.87 (2.3% away)
-- 52-week range: 11.50 to 17.30
+- Monthly pivot: 15.13
+- Nearest resistance: 15.13 (+8.1% away)
+- Nearest support: 13.17 (6.0% away)
+- 52-week range: 11.50 to 17.20
 
 ## Fundamentals
 
@@ -34,5 +34,5 @@ RSI 30 | SuperTrend down
 
 ## Track record
 
-4/13 resolved predictions reached their target
+4/41 resolved predictions reached their target
 <!-- vectora:end -->

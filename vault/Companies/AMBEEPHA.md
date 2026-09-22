@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # AMBEEPHA
 
-#posture/strong-sell #sector/pharmaceuticals-chemicals #category/a
+#posture/buy #sector/pharmaceuticals-chemicals #category/a
 
-**Pharmaceuticals & Chemicals** | category A | as of [[Journal/2026-08-25|2026-08-25]]
+**Pharmaceuticals & Chemicals** | category A | as of [[Journal/2026-09-21|2026-09-21]]
 
 Sector view: [[Sectors/Pharmaceuticals & Chemicals|Pharmaceuticals & Chemicals]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Pharmaceuticals & Chemicals|Pharmaceuticals & Chemicals]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Strong Sell** | |
-| Moving averages | Strong Sell | 0 up / 13 down |
-| Oscillators | Sell | 1 up / 4 down |
-| Six-family score | Sell | -4 |
+| Summary (26 indicators) | **Buy** | |
+| Moving averages | Hold | 7 up / 6 down |
+| Oscillators | Buy | 2 up / 1 down |
+| Six-family score | Hold | -1 |
 
-RSI 38 | SuperTrend down
+RSI 50 | SuperTrend down
 
 ## Levels
 
-- Monthly pivot: 805.67
-- Nearest resistance: 805.67 (+6.7% away)
-- Nearest support: 715.67 (5.2% away)
+- Monthly pivot: 775.17
+- Nearest resistance: 775.17 (+1.9% away)
+- Nearest support: 730.33 (4.0% away)
 - 52-week range: 681.00 to 947.90
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 38 | SuperTrend down
 
 ## Track record
 
-0/11 resolved predictions reached their target
+0/22 resolved predictions reached their target
 <!-- vectora:end -->

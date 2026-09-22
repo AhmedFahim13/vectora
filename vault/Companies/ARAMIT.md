@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # ARAMIT
 
-#posture/hold #sector/miscellaneous #category/a
+#posture/strong-sell #sector/miscellaneous #category/a
 
-**Miscellaneous** | category A | as of [[Journal/2026-08-25|2026-08-25]]
+**Miscellaneous** | category A | as of [[Journal/2026-09-21|2026-09-21]]
 
 Sector view: [[Sectors/Miscellaneous|Miscellaneous]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Miscellaneous|Miscellaneous]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Hold** | |
-| Moving averages | Hold | 7 up / 6 down |
-| Oscillators | Hold | 1 up / 1 down |
-| Six-family score | Hold | +1 |
+| Summary (26 indicators) | **Strong Sell** | |
+| Moving averages | Strong Sell | 0 up / 13 down |
+| Oscillators | Sell | 0 up / 2 down |
+| Six-family score | Strong Sell | -9 |
 
-RSI 50 | SuperTrend up
+RSI 39 | SuperTrend down
 
 ## Levels
 
-- Monthly pivot: 209.13
-- Nearest resistance: 209.13 (+0.3% away)
-- Nearest support: 199.50 (4.3% away)
+- Monthly pivot: 212.23
+- Nearest resistance: 212.23 (+17.8% away)
+- Nearest support: 176.73 (1.9% away)
 - 52-week range: 145.00 to 270.50
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 50 | SuperTrend up
 
 ## Track record
 
-8/13 resolved predictions reached their target
+22/41 resolved predictions reached their target
 <!-- vectora:end -->

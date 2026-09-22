@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # LHB
 
-#posture/sell #sector/cement #category/a
+#posture/buy #sector/cement #category/a
 
-**Cement** | category A | as of [[Journal/2026-08-25|2026-08-25]]
+**Cement** | category A | as of [[Journal/2026-09-21|2026-09-21]]
 
 Sector view: [[Sectors/Cement|Cement]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Cement|Cement]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Sell** | |
-| Moving averages | Strong Sell | 3 up / 10 down |
-| Oscillators | Sell | 1 up / 4 down |
-| Six-family score | Strong Sell | -6 |
+| Summary (26 indicators) | **Buy** | |
+| Moving averages | Strong Buy | 11 up / 2 down |
+| Oscillators | Buy | 2 up / 1 down |
+| Six-family score | Hold | -1 |
 
-RSI 34 | SuperTrend down
+RSI 53 | SuperTrend down
 
 ## Levels
 
-- Monthly pivot: 58.83
-- Nearest resistance: 58.83 (+9.8% away)
-- Nearest support: 53.20 (0.7% away)
+- Monthly pivot: 54.90
+- Nearest resistance: 54.90 (+2.2% away)
+- Nearest support: 50.80 (5.4% away)
 - 52-week range: 42.50 to 62.50
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 34 | SuperTrend down
 
 ## Track record
 
-0/13 resolved predictions reached their target
+0/41 resolved predictions reached their target
 <!-- vectora:end -->

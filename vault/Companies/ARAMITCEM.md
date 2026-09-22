@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # ARAMITCEM
 
-#posture/hold #sector/cement #category/z
+#posture/strong-sell #sector/cement #category/z
 
-**Cement** | category Z | as of [[Journal/2026-08-25|2026-08-25]]
+**Cement** | category Z | as of [[Journal/2026-09-21|2026-09-21]]
 
 Sector view: [[Sectors/Cement|Cement]]
 
@@ -11,19 +11,19 @@ Sector view: [[Sectors/Cement|Cement]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Hold** | |
-| Moving averages | Hold | 7 up / 6 down |
-| Oscillators | Sell | 2 up / 3 down |
-| Six-family score | Hold | +1 |
+| Summary (26 indicators) | **Strong Sell** | |
+| Moving averages | Strong Sell | 1 up / 12 down |
+| Oscillators | Sell | 0 up / 2 down |
+| Six-family score | Strong Sell | -7 |
 
-RSI 48 | SuperTrend up
+RSI 40 | SuperTrend down
 
 ## Levels
 
-- Monthly pivot: 12.27
-- Nearest resistance: 12.27 (+2.2% away)
-- Nearest support: 11.53 (3.9% away)
-- 52-week range: 7.60 to 18.10
+- Monthly pivot: 12.47
+- Nearest resistance: 12.47 (+13.3% away)
+- Nearest support: 10.73 (2.4% away)
+- 52-week range: 7.60 to 17.60
 
 ## Fundamentals
 
@@ -34,5 +34,5 @@ RSI 48 | SuperTrend up
 
 ## Track record
 
-0/1 resolved predictions reached their target
+0/2 resolved predictions reached their target
 <!-- vectora:end -->

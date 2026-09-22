@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # ASIAINS
 
-#posture/hold #sector/insurance #category/a
+#posture/buy #sector/insurance #category/a
 
-**Insurance** | category A | as of [[Journal/2026-08-25|2026-08-25]]
+**Insurance** | category A | as of [[Journal/2026-09-21|2026-09-21]]
 
 Sector view: [[Sectors/Insurance|Insurance]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Insurance|Insurance]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Hold** | |
-| Moving averages | Hold | 7 up / 6 down |
-| Oscillators | Hold | 2 up / 2 down |
-| Six-family score | Hold | +1 |
+| Summary (26 indicators) | **Buy** | |
+| Moving averages | Strong Buy | 11 up / 1 down |
+| Oscillators | Sell | 0 up / 1 down |
+| Six-family score | Sell | -4 |
 
-RSI 49 | SuperTrend up
+RSI 51 | SuperTrend down
 
 ## Levels
 
-- Monthly pivot: 43.90
-- Nearest resistance: 43.90 (+3.8% away)
-- Nearest support: 41.80 (1.2% away)
+- Monthly pivot: 43.10
+- Nearest resistance: 43.10 (+3.1% away)
+- Nearest support: 38.10 (8.9% away)
 - 52-week range: 22.50 to 48.40
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 49 | SuperTrend up
 
 ## Track record
 
-11/13 resolved predictions reached their target
+18/41 resolved predictions reached their target
 <!-- vectora:end -->

@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # PRIME1ICBA
 
-#posture/sell #sector/mutual-funds #category/a
+#posture/strong-buy #sector/mutual-funds #category/a
 
-**Mutual Funds** | category A | as of [[Journal/2026-08-25|2026-08-25]]
+**Mutual Funds** | category A | as of [[Journal/2026-09-21|2026-09-21]]
 
 Sector view: [[Sectors/Mutual Funds|Mutual Funds]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Mutual Funds|Mutual Funds]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Sell** | |
-| Moving averages | Hold | 6 up / 7 down |
-| Oscillators | Sell | 0 up / 3 down |
-| Six-family score | Sell | -5 |
+| Summary (26 indicators) | **Strong Buy** | |
+| Moving averages | Strong Buy | 13 up / 0 down |
+| Oscillators | Buy | 1 up / 0 down |
+| Six-family score | Hold | -1 |
 
-RSI 42 | SuperTrend down
+RSI 61 | SuperTrend down
 
 ## Levels
 
-- Monthly pivot: 6.20
-- Nearest resistance: 6.20 (+6.9% away)
-- Nearest support: 5.60 (3.4% away)
+- Monthly pivot: 6.17
+- Nearest resistance: 6.83 (+5.1% away)
+- Nearest support: 6.17 (5.1% away)
 - 52-week range: 3.80 to 7.30
 
 ## Fundamentals

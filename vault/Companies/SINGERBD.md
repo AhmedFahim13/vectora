@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # SINGERBD
 
-#posture/strong-sell #sector/engineering #category/z
+#posture/buy #sector/engineering #category/z
 
-**Engineering** | category Z | as of [[Journal/2026-08-25|2026-08-25]]
+**Engineering** | category Z | as of [[Journal/2026-09-21|2026-09-21]]
 
 Sector view: [[Sectors/Engineering|Engineering]]
 
@@ -11,19 +11,19 @@ Sector view: [[Sectors/Engineering|Engineering]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Strong Sell** | |
-| Moving averages | Strong Sell | 0 up / 13 down |
-| Oscillators | Sell | 1 up / 2 down |
-| Six-family score | Strong Sell | -7 |
+| Summary (26 indicators) | **Buy** | |
+| Moving averages | Buy | 8 up / 5 down |
+| Oscillators | Buy | 2 up / 1 down |
+| Six-family score | Buy | +2 |
 
-RSI 31 | SuperTrend down
+RSI 64 | SuperTrend up
 
 ## Levels
 
-- Monthly pivot: 78.50
-- Nearest resistance: 78.50 (+6.4% away)
-- Nearest support: 72.70 (1.5% away)
-- 52-week range: 72.70 to 125.50
+- Monthly pivot: 74.80
+- Nearest resistance: 81.50 (+4.9% away)
+- Nearest support: 74.80 (3.7% away)
+- 52-week range: 70.80 to 125.50
 
 ## Fundamentals
 
@@ -34,5 +34,5 @@ RSI 31 | SuperTrend down
 
 ## Track record
 
-0/13 resolved predictions reached their target
+2/41 resolved predictions reached their target
 <!-- vectora:end -->

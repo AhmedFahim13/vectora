@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # ACFL
 
-#posture/buy #sector/textile #category/a
+#posture/sell #sector/textile #category/a
 
-**Textile** | category A | as of [[Journal/2026-08-25|2026-08-25]]
+**Textile** | category A | as of [[Journal/2026-09-21|2026-09-21]]
 
 Sector view: [[Sectors/Textile|Textile]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Textile|Textile]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Buy** | |
-| Moving averages | Strong Buy | 11 up / 2 down |
-| Oscillators | Sell | 0 up / 3 down |
-| Six-family score | Buy | +3 |
+| Summary (26 indicators) | **Sell** | |
+| Moving averages | Sell | 4 up / 8 down |
+| Oscillators | Sell | 0 up / 2 down |
+| Six-family score | Strong Sell | -7 |
 
-RSI 56 | SuperTrend up
+RSI 44 | SuperTrend down
 
 ## Levels
 
-- Monthly pivot: 24.00
-- Nearest resistance: 24.00 (+2.6% away)
-- Nearest support: 22.80 (2.6% away)
+- Monthly pivot: 23.30
+- Nearest resistance: 23.30 (+5.9% away)
+- Nearest support: 20.50 (6.8% away)
 - 52-week range: 14.00 to 25.20
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 56 | SuperTrend up
 
 ## Track record
 
-2/13 resolved predictions reached their target
+5/41 resolved predictions reached their target
 <!-- vectora:end -->

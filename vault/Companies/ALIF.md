@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # ALIF
 
-#posture/buy #sector/textile #category/z
+#posture/sell #sector/textile #category/z
 
-**Textile** | category Z | as of [[Journal/2026-08-25|2026-08-25]]
+**Textile** | category Z | as of [[Journal/2026-09-21|2026-09-21]]
 
 Sector view: [[Sectors/Textile|Textile]]
 
@@ -11,19 +11,19 @@ Sector view: [[Sectors/Textile|Textile]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Buy** | |
-| Moving averages | Hold | 7 up / 6 down |
-| Oscillators | Buy | 2 up / 1 down |
-| Six-family score | Hold | +1 |
+| Summary (26 indicators) | **Sell** | |
+| Moving averages | Sell | 4 up / 9 down |
+| Oscillators | Sell | 0 up / 2 down |
+| Six-family score | Strong Sell | -7 |
 
-RSI 50 | SuperTrend up
+RSI 45 | SuperTrend down
 
 ## Levels
 
-- Monthly pivot: 5.60
-- Nearest resistance: 5.60 (+1.8% away)
-- Nearest support: 5.40 (1.8% away)
-- 52-week range: 3.20 to 7.90
+- Monthly pivot: 5.80
+- Nearest resistance: 5.80 (+9.4% away)
+- Nearest support: 5.10 (3.8% away)
+- 52-week range: 3.20 to 7.20
 
 ## Fundamentals
 
@@ -34,5 +34,5 @@ RSI 50 | SuperTrend up
 
 ## Track record
 
-9/13 resolved predictions reached their target
+14/41 resolved predictions reached their target
 <!-- vectora:end -->

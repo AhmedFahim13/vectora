@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # CENTRALINS
 
-#posture/sell #sector/insurance #category/a
+#posture/buy #sector/insurance #category/a
 
-**Insurance** | category A | as of [[Journal/2026-08-25|2026-08-25]]
+**Insurance** | category A | as of [[Journal/2026-09-21|2026-09-21]]
 
 Sector view: [[Sectors/Insurance|Insurance]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Insurance|Insurance]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Sell** | |
-| Moving averages | Sell | 5 up / 8 down |
-| Oscillators | Sell | 0 up / 3 down |
-| Six-family score | Sell | -4 |
+| Summary (26 indicators) | **Buy** | |
+| Moving averages | Strong Buy | 11 up / 2 down |
+| Oscillators | Buy | 1 up / 0 down |
+| Six-family score | Hold | -1 |
 
-RSI 45 | SuperTrend down
+RSI 52 | SuperTrend down
 
 ## Levels
 
-- Monthly pivot: 43.27
-- Nearest resistance: 46.53 (+6.2% away)
-- Nearest support: 43.27 (1.2% away)
+- Monthly pivot: 45.57
+- Nearest resistance: 45.57 (+3.8% away)
+- Nearest support: 40.50 (7.7% away)
 - 52-week range: 24.30 to 51.80
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 45 | SuperTrend down
 
 ## Track record
 
-7/13 resolved predictions reached their target
+15/41 resolved predictions reached their target
 <!-- vectora:end -->

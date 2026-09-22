@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # RELIANCINS
 
-#posture/hold #sector/insurance #category/a
+#posture/buy #sector/insurance #category/a
 
-**Insurance** | category A | as of [[Journal/2026-08-25|2026-08-25]]
+**Insurance** | category A | as of [[Journal/2026-09-21|2026-09-21]]
 
 Sector view: [[Sectors/Insurance|Insurance]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Insurance|Insurance]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Hold** | |
-| Moving averages | Hold | 7 up / 6 down |
-| Oscillators | Sell | 2 up / 3 down |
-| Six-family score | Buy | +3 |
+| Summary (26 indicators) | **Buy** | |
+| Moving averages | Strong Buy | 12 up / 1 down |
+| Oscillators | Buy | 1 up / 0 down |
+| Six-family score | Hold | -1 |
 
-RSI 49 | SuperTrend up
+RSI 52 | SuperTrend down
 
 ## Levels
 
-- Monthly pivot: 115.40
-- Nearest resistance: 115.40 (+6.5% away)
-- Nearest support: 108.00 (0.4% away)
+- Monthly pivot: 110.63
+- Nearest resistance: 110.63 (+2.1% away)
+- Nearest support: 100.27 (7.5% away)
 - 52-week range: 47.70 to 128.20
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 49 | SuperTrend up
 
 ## Track record
 
-0/13 resolved predictions reached their target
+4/41 resolved predictions reached their target
 <!-- vectora:end -->

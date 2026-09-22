@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # APEXFOODS
 
-#posture/sell #sector/food-allied #category/a
+#posture/hold #sector/food-allied #category/a
 
-**Food & Allied** | category A | as of [[Journal/2026-08-25|2026-08-25]]
+**Food & Allied** | category A | as of [[Journal/2026-09-21|2026-09-21]]
 
 Sector view: [[Sectors/Food & Allied|Food & Allied]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Food & Allied|Food & Allied]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Sell** | |
-| Moving averages | Hold | 7 up / 6 down |
-| Oscillators | Strong Sell | 0 up / 4 down |
-| Six-family score | Sell | -4 |
+| Summary (26 indicators) | **Hold** | |
+| Moving averages | Buy | 7 up / 5 down |
+| Oscillators | Sell | 1 up / 2 down |
+| Six-family score | Sell | -2 |
 
-RSI 43 | SuperTrend down
+RSI 46 | SuperTrend down
 
 ## Levels
 
-- Monthly pivot: 290.33
-- Nearest resistance: 290.33 (+6.2% away)
-- Nearest support: 273.00 (0.2% away)
+- Monthly pivot: 283.83
+- Nearest resistance: 283.83 (+7.8% away)
+- Nearest support: 257.67 (2.1% away)
 - 52-week range: 168.00 to 313.90
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 43 | SuperTrend down
 
 ## Track record
 
-9/13 resolved predictions reached their target
+9/41 resolved predictions reached their target
 <!-- vectora:end -->

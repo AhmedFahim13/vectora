@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # TECHNODRUG
 
-#posture/hold #sector/pharmaceuticals-chemicals #category/a
+#posture/sell #sector/pharmaceuticals-chemicals #category/a
 
-**Pharmaceuticals & Chemicals** | category A | as of [[Journal/2026-08-25|2026-08-25]]
+**Pharmaceuticals & Chemicals** | category A | as of [[Journal/2026-09-21|2026-09-21]]
 
 Sector view: [[Sectors/Pharmaceuticals & Chemicals|Pharmaceuticals & Chemicals]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Pharmaceuticals & Chemicals|Pharmaceuticals & Chemicals]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Hold** | |
-| Moving averages | Hold | 7 up / 6 down |
-| Oscillators | Sell | 1 up / 2 down |
-| Six-family score | Hold | +1 |
+| Summary (26 indicators) | **Sell** | |
+| Moving averages | Sell | 4 up / 9 down |
+| Oscillators | Sell | 0 up / 1 down |
+| Six-family score | Strong Sell | -8 |
 
-RSI 50 | SuperTrend up
+RSI 43 | SuperTrend down
 
 ## Levels
 
-- Monthly pivot: 47.77
-- Nearest resistance: 47.77 (+7.8% away)
-- Nearest support: 43.53 (1.7% away)
+- Monthly pivot: 44.73
+- Nearest resistance: 44.73 (+11.6% away)
+- Nearest support: 39.67 (1.1% away)
 - 52-week range: 25.10 to 52.00
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 50 | SuperTrend up
 
 ## Track record
 
-3/13 resolved predictions reached their target
+7/41 resolved predictions reached their target
 <!-- vectora:end -->

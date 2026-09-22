@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # GHCL
 
-#posture/sell #sector/pharmaceuticals-chemicals #category/z
+#posture/strong-sell #sector/pharmaceuticals-chemicals #category/z
 
-**Pharmaceuticals & Chemicals** | category Z | as of [[Journal/2026-08-25|2026-08-25]]
+**Pharmaceuticals & Chemicals** | category Z | as of [[Journal/2026-09-21|2026-09-21]]
 
 Sector view: [[Sectors/Pharmaceuticals & Chemicals|Pharmaceuticals & Chemicals]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Pharmaceuticals & Chemicals|Pharmaceuticals & Chemicals]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Sell** | |
-| Moving averages | Hold | 6 up / 7 down |
+| Summary (26 indicators) | **Strong Sell** | |
+| Moving averages | Strong Sell | 1 up / 12 down |
 | Oscillators | Sell | 0 up / 3 down |
-| Six-family score | Hold | -1 |
+| Six-family score | Strong Sell | -8 |
 
-RSI 44 | SuperTrend up
+RSI 39 | SuperTrend down
 
 ## Levels
 
-- Monthly pivot: 23.53
-- Nearest resistance: 23.53 (+6.5% away)
-- Nearest support: 21.80 (1.4% away)
+- Monthly pivot: 22.73
+- Nearest resistance: 22.73 (+14.8% away)
+- Nearest support: 19.37 (2.2% away)
 - 52-week range: 17.20 to 26.10
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 44 | SuperTrend up
 
 ## Track record
 
-2/13 resolved predictions reached their target
+3/41 resolved predictions reached their target
 <!-- vectora:end -->

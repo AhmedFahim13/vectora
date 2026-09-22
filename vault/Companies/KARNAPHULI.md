@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # KARNAPHULI
 
-#posture/strong-buy #sector/insurance #category/a
+#posture/buy #sector/insurance #category/a
 
-**Insurance** | category A | as of [[Journal/2026-08-25|2026-08-25]]
+**Insurance** | category A | as of [[Journal/2026-09-21|2026-09-21]]
 
 Sector view: [[Sectors/Insurance|Insurance]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Insurance|Insurance]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Strong Buy** | |
-| Moving averages | Strong Buy | 13 up / 0 down |
-| Oscillators | Hold | 1 up / 1 down |
+| Summary (26 indicators) | **Buy** | |
+| Moving averages | Strong Buy | 11 up / 2 down |
+| Oscillators | Sell | 0 up / 1 down |
 | Six-family score | Buy | +2 |
 
-RSI 73 | SuperTrend up
+RSI 53 | SuperTrend up
 
 ## Levels
 
-- Monthly pivot: 48.77
-- Nearest resistance: 61.00 (+5.4% away)
-- Nearest support: 48.77 (15.8% away)
+- Monthly pivot: 54.80
+- Nearest resistance: 60.70 (+10.4% away)
+- Nearest support: 54.80 (0.4% away)
 - 52-week range: 23.00 to 61.00
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 73 | SuperTrend up
 
 ## Track record
 
-12/13 resolved predictions reached their target
+24/41 resolved predictions reached their target
 <!-- vectora:end -->

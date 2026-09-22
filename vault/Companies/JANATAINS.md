@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # JANATAINS
 
-#posture/hold #sector/insurance #category/a
+#posture/buy #sector/insurance #category/a
 
-**Insurance** | category A | as of [[Journal/2026-08-25|2026-08-25]]
+**Insurance** | category A | as of [[Journal/2026-09-21|2026-09-21]]
 
 Sector view: [[Sectors/Insurance|Insurance]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Insurance|Insurance]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Hold** | |
-| Moving averages | Hold | 7 up / 6 down |
-| Oscillators | Hold | 2 up / 2 down |
-| Six-family score | Hold | +1 |
+| Summary (26 indicators) | **Buy** | |
+| Moving averages | Strong Buy | 11 up / 1 down |
+| Oscillators | Sell | 0 up / 2 down |
+| Six-family score | Sell | -4 |
 
-RSI 49 | SuperTrend up
+RSI 53 | SuperTrend down
 
 ## Levels
 
-- Monthly pivot: 34.83
-- Nearest resistance: 34.83 (+3.4% away)
-- Nearest support: 32.60 (3.3% away)
+- Monthly pivot: 34.07
+- Nearest resistance: 34.07 (+2.9% away)
+- Nearest support: 31.33 (5.3% away)
 - 52-week range: 20.80 to 37.90
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 49 | SuperTrend up
 
 ## Track record
 
-4/13 resolved predictions reached their target
+6/41 resolved predictions reached their target
 <!-- vectora:end -->

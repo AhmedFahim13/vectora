@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # SAIFPOWER
 
-#posture/hold #sector/services-real-estate #category/z
+#posture/sell #sector/services-real-estate #category/z
 
-**Services & Real Estate** | category Z | as of [[Journal/2026-08-25|2026-08-25]]
+**Services & Real Estate** | category Z | as of [[Journal/2026-09-21|2026-09-21]]
 
 Sector view: [[Sectors/Services & Real Estate|Services & Real Estate]]
 
@@ -11,19 +11,19 @@ Sector view: [[Sectors/Services & Real Estate|Services & Real Estate]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Hold** | |
-| Moving averages | Hold | 7 up / 6 down |
-| Oscillators | Hold | 1 up / 1 down |
-| Six-family score | Hold | +1 |
+| Summary (26 indicators) | **Sell** | |
+| Moving averages | Strong Sell | 2 up / 10 down |
+| Oscillators | Sell | 0 up / 3 down |
+| Six-family score | Strong Sell | -8 |
 
-RSI 49 | SuperTrend up
+RSI 37 | SuperTrend down
 
 ## Levels
 
-- Monthly pivot: 9.93
-- Nearest resistance: 9.93 (+5.7% away)
-- Nearest support: 9.37 (0.4% away)
-- 52-week range: 3.80 to 12.70
+- Monthly pivot: 9.87
+- Nearest resistance: 9.87 (+24.9% away)
+- Nearest support: 7.40 (6.3% away)
+- 52-week range: 3.80 to 12.10
 
 ## Fundamentals
 
@@ -34,5 +34,5 @@ RSI 49 | SuperTrend up
 
 ## Track record
 
-12/13 resolved predictions reached their target
+16/41 resolved predictions reached their target
 <!-- vectora:end -->

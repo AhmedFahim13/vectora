@@ -1,16 +1,16 @@
 <!-- vectora:begin -->
 # Telecommunication
 
-#sector-note #phase/lagging
+#sector-note #phase/leading
 
-Phase: **Lagging** | as of [[Journal/2026-08-25|2026-08-25]]
+Phase: **Leading** | as of [[Journal/2026-09-21|2026-09-21]]
 
 | measure | value |
 |---|---|
-| 21-day return | -4.57% |
-| vs market, 21 days | -2.46% |
-| momentum | -0.72% |
-| 63-day return | -1.71% |
+| 21-day return | -3.33% |
+| vs market, 21 days | +2.55% |
+| momentum | +7.04% |
+| 63-day return | -2.32% |
 | constituents | 3 |
 
 ## Members, strongest first

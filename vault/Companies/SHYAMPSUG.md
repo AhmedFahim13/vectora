@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # SHYAMPSUG
 
-#posture/strong-buy #sector/food-allied #category/z
+#posture/hold #sector/food-allied #category/z
 
-**Food & Allied** | category Z | as of [[Journal/2026-08-25|2026-08-25]]
+**Food & Allied** | category Z | as of [[Journal/2026-09-21|2026-09-21]]
 
 Sector view: [[Sectors/Food & Allied|Food & Allied]]
 
@@ -11,19 +11,19 @@ Sector view: [[Sectors/Food & Allied|Food & Allied]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Strong Buy** | |
-| Moving averages | Strong Buy | 13 up / 0 down |
+| Summary (26 indicators) | **Hold** | |
+| Moving averages | Hold | 6 up / 7 down |
 | Oscillators | Hold | 1 up / 1 down |
-| Six-family score | Buy | +3 |
+| Six-family score | Sell | -3 |
 
-RSI 57 | SuperTrend up
+RSI 49 | SuperTrend up
 
 ## Levels
 
-- Monthly pivot: 311.00
-- Nearest resistance: 311.00 (+1.8% away)
-- Nearest support: 271.10 (11.2% away)
-- 52-week range: 92.40 to 359.00
+- Monthly pivot: 300.40
+- Nearest resistance: 300.40 (+2.8% away)
+- Nearest support: 283.90 (2.9% away)
+- 52-week range: 103.20 to 359.00
 
 ## Fundamentals
 
@@ -34,5 +34,5 @@ RSI 57 | SuperTrend up
 
 ## Track record
 
-6/13 resolved predictions reached their target
+13/41 resolved predictions reached their target
 <!-- vectora:end -->

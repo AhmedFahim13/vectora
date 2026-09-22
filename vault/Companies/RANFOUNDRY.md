@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # RANFOUNDRY
 
-#posture/strong-sell #sector/engineering #category/a
+#posture/hold #sector/engineering #category/a
 
-**Engineering** | category A | as of [[Journal/2026-08-25|2026-08-25]]
+**Engineering** | category A | as of [[Journal/2026-09-21|2026-09-21]]
 
 Sector view: [[Sectors/Engineering|Engineering]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Engineering|Engineering]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Strong Sell** | |
-| Moving averages | Strong Sell | 0 up / 13 down |
-| Oscillators | Hold | 3 up / 3 down |
-| Six-family score | Sell | -5 |
+| Summary (26 indicators) | **Hold** | |
+| Moving averages | Sell | 5 up / 8 down |
+| Oscillators | Buy | 2 up / 1 down |
+| Six-family score | Sell | -2 |
 
-RSI 39 | SuperTrend down
+RSI 46 | SuperTrend down
 
 ## Levels
 
-- Monthly pivot: 164.53
-- Nearest resistance: 164.53 (+6.9% away)
-- Nearest support: 153.17 (0.5% away)
+- Monthly pivot: 158.60
+- Nearest resistance: 158.60 (+4.9% away)
+- Nearest support: 145.00 (4.1% away)
 - 52-week range: 128.10 to 190.00
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 39 | SuperTrend down
 
 ## Track record
 
-6/13 resolved predictions reached their target
+6/41 resolved predictions reached their target
 <!-- vectora:end -->

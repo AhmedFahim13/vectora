@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # BRACBANK
 
-#posture/strong-sell #sector/bank #category/a
+#posture/buy #sector/bank #category/a
 
-**Bank** | category A | as of [[Journal/2026-08-25|2026-08-25]]
+**Bank** | category A | as of [[Journal/2026-09-21|2026-09-21]]
 
 Sector view: [[Sectors/Bank|Bank]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Bank|Bank]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Strong Sell** | |
-| Moving averages | Strong Sell | 0 up / 13 down |
-| Oscillators | Sell | 0 up / 3 down |
-| Six-family score | Sell | -5 |
+| Summary (26 indicators) | **Buy** | |
+| Moving averages | Buy | 8 up / 5 down |
+| Oscillators | Hold | 2 up / 2 down |
+| Six-family score | Sell | -2 |
 
-RSI 31 | SuperTrend down
+RSI 54 | SuperTrend down
 
 ## Levels
 
-- Monthly pivot: 63.37
-- Nearest resistance: 63.37 (+2.9% away)
-- Nearest support: 60.80 (1.3% away)
+- Monthly pivot: 62.93
+- Nearest resistance: 64.37 (+1.4% away)
+- Nearest support: 62.93 (0.9% away)
 - 52-week range: 45.10 to 79.40
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 31 | SuperTrend down
 
 ## Track record
 
-0/13 resolved predictions reached their target
+0/41 resolved predictions reached their target
 <!-- vectora:end -->

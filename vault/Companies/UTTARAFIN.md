@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # UTTARAFIN
 
-#posture/hold #sector/financial-institutions #category/z
+#posture/strong-sell #sector/financial-institutions #category/z
 
-**Financial Institutions** | category Z | as of [[Journal/2026-08-25|2026-08-25]]
+**Financial Institutions** | category Z | as of [[Journal/2026-09-21|2026-09-21]]
 
 Sector view: [[Sectors/Financial Institutions|Financial Institutions]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Financial Institutions|Financial Institutions]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Hold** | |
-| Moving averages | Hold | 7 up / 6 down |
-| Oscillators | Sell | 2 up / 3 down |
-| Six-family score | Hold | +1 |
+| Summary (26 indicators) | **Strong Sell** | |
+| Moving averages | Strong Sell | 1 up / 11 down |
+| Oscillators | Sell | 0 up / 2 down |
+| Six-family score | Strong Sell | -7 |
 
-RSI 49 | SuperTrend up
+RSI 40 | SuperTrend down
 
 ## Levels
 
-- Monthly pivot: 13.53
-- Nearest resistance: 13.53 (+4.1% away)
-- Nearest support: 12.90 (0.8% away)
+- Monthly pivot: 12.90
+- Nearest resistance: 12.90 (+7.5% away)
+- Nearest support: 11.90 (0.8% away)
 - 52-week range: 8.90 to 19.10
 
 ## Fundamentals

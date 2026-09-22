@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # MIRAKHTER
 
-#posture/sell #sector/engineering #category/a
+#posture/hold #sector/engineering #category/a
 
-**Engineering** | category A | as of [[Journal/2026-08-25|2026-08-25]]
+**Engineering** | category A | as of [[Journal/2026-09-21|2026-09-21]]
 
 Sector view: [[Sectors/Engineering|Engineering]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Engineering|Engineering]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Sell** | |
-| Moving averages | Sell | 5 up / 8 down |
-| Oscillators | Strong Sell | 0 up / 4 down |
-| Six-family score | Sell | -3 |
+| Summary (26 indicators) | **Hold** | |
+| Moving averages | Hold | 7 up / 6 down |
+| Oscillators | Hold | 1 up / 1 down |
+| Six-family score | Sell | -2 |
 
-RSI 33 | SuperTrend down
+RSI 47 | SuperTrend down
 
 ## Levels
 
-- Monthly pivot: 42.40
-- Nearest resistance: 42.40 (+20.5% away)
-- Nearest support: 26.40 (25.0% away)
+- Monthly pivot: 37.37
+- Nearest resistance: 37.37 (+9.9% away)
+- Nearest support: 31.13 (8.4% away)
 - 52-week range: 23.60 to 44.70
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 33 | SuperTrend down
 
 ## Track record
 
-1/13 resolved predictions reached their target
+1/41 resolved predictions reached their target
 <!-- vectora:end -->

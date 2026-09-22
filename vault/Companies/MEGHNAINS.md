@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # MEGHNAINS
 
-#posture/hold #sector/insurance #category/a
+#posture/buy #sector/insurance #category/a
 
-**Insurance** | category A | as of [[Journal/2026-08-25|2026-08-25]]
+**Insurance** | category A | as of [[Journal/2026-09-21|2026-09-21]]
 
 Sector view: [[Sectors/Insurance|Insurance]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Insurance|Insurance]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Hold** | |
-| Moving averages | Hold | 7 up / 6 down |
-| Oscillators | Sell | 2 up / 3 down |
-| Six-family score | Hold | +1 |
+| Summary (26 indicators) | **Buy** | |
+| Moving averages | Strong Buy | 11 up / 1 down |
+| Oscillators | Sell | 0 up / 2 down |
+| Six-family score | Sell | -4 |
 
-RSI 46 | SuperTrend up
+RSI 50 | SuperTrend down
 
 ## Levels
 
-- Monthly pivot: 39.83
-- Nearest resistance: 39.83 (+7.1% away)
-- Nearest support: 34.07 (8.4% away)
+- Monthly pivot: 38.27
+- Nearest resistance: 38.27 (+5.7% away)
+- Nearest support: 34.03 (6.0% away)
 - 52-week range: 19.80 to 45.60
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 46 | SuperTrend up
 
 ## Track record
 
-7/13 resolved predictions reached their target
+9/41 resolved predictions reached their target
 <!-- vectora:end -->

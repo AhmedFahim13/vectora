@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # GREENDELT
 
-#posture/hold #sector/insurance #category/a
+#posture/buy #sector/insurance #category/a
 
-**Insurance** | category A | as of [[Journal/2026-08-25|2026-08-25]]
+**Insurance** | category A | as of [[Journal/2026-09-21|2026-09-21]]
 
 Sector view: [[Sectors/Insurance|Insurance]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Insurance|Insurance]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Hold** | |
-| Moving averages | Hold | 7 up / 6 down |
-| Oscillators | Hold | 1 up / 1 down |
-| Six-family score | Hold | +1 |
+| Summary (26 indicators) | **Buy** | |
+| Moving averages | Strong Buy | 11 up / 1 down |
+| Oscillators | Sell | 0 up / 2 down |
+| Six-family score | Sell | -5 |
 
-RSI 50 | SuperTrend up
+RSI 51 | SuperTrend down
 
 ## Levels
 
-- Monthly pivot: 67.90
-- Nearest resistance: 72.10 (+5.7% away)
-- Nearest support: 67.90 (0.4% away)
+- Monthly pivot: 69.23
+- Nearest resistance: 69.23 (+5.2% away)
+- Nearest support: 62.37 (5.2% away)
 - 52-week range: 37.00 to 76.10
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 50 | SuperTrend up
 
 ## Track record
 
-11/13 resolved predictions reached their target
+17/41 resolved predictions reached their target
 <!-- vectora:end -->

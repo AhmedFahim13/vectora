@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # RECKITTBEN
 
-#posture/sell #sector/pharmaceuticals-chemicals #category/a #risk/thin-float
+#posture/strong-sell #sector/pharmaceuticals-chemicals #category/a #risk/thin-float
 
-**Pharmaceuticals & Chemicals** | category A | as of [[Journal/2026-08-25|2026-08-25]]
+**Pharmaceuticals & Chemicals** | category A | as of [[Journal/2026-09-21|2026-09-21]]
 
 Sector view: [[Sectors/Pharmaceuticals & Chemicals|Pharmaceuticals & Chemicals]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Pharmaceuticals & Chemicals|Pharmaceuticals & Chemicals]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Sell** | |
+| Summary (26 indicators) | **Strong Sell** | |
 | Moving averages | Strong Sell | 0 up / 13 down |
-| Oscillators | Buy | 2 up / 1 down |
+| Oscillators | Hold | 1 up / 1 down |
 | Six-family score | Sell | -4 |
 
-RSI 37 | SuperTrend down
+RSI 43 | SuperTrend down
 
 ## Levels
 
-- Monthly pivot: 3320.80
-- Nearest resistance: 3320.80 (+0.8% away)
-- Nearest support: 3293.00 (0.1% away)
+- Monthly pivot: 3299.77
+- Nearest resistance: 3299.77 (+1.0% away)
+- Nearest support: 3253.77 (0.4% away)
 - 52-week range: 3159.50 to 4257.50
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 37 | SuperTrend down
 
 ## Track record
 
-0/13 resolved predictions reached their target
+0/41 resolved predictions reached their target
 <!-- vectora:end -->

@@ -3,17 +3,17 @@
 
 #sector-note #phase/improving
 
-Phase: **Improving** | as of [[Journal/2026-08-25|2026-08-25]]
+Phase: **Improving** | as of [[Journal/2026-09-21|2026-09-21]]
 
 | measure | value |
 |---|---|
-| 21-day return | -5.19% |
-| vs market, 21 days | -3.09% |
-| momentum | +3.29% |
-| 63-day return | -7.85% |
+| 21-day return | -8.49% |
+| vs market, 21 days | -2.61% |
+| momentum | +1.72% |
+| 63-day return | -11.05% |
 | constituents | 42 |
 
 ## Members, strongest first
 
-[[RUNNERAUTO]] · [[BDLAMPS]] · [[AZIZPIPES]] · [[WMSHIPYARD]] · [[OAL]] · [[APOLOISPAT]] · [[ATLASBANG]] · [[RSRMSTEEL]] · [[BSRMSTEEL]] · [[SHURWID]] · [[OIMEX]] · [[SALAMCRST]] · [[ECABLES]] · [[BSRMLTD]] · [[RENWICKJA]] · [[BBS]] · [[WALTONHIL]] · [[BENGALWTL]] · [[BDAUTOCA]] · [[IFADAUTOS]] · [[KAY&QUE]] · [[YPL]] · [[MIRAKHTER]] · [[BBSCABLES]] · [[NAVANACNG]] · [[ANWARGALV]] · [[NAHEEACP]] · [[SSSTEEL]] · [[KDSALTD]] · [[NTLTUBES]] · [[QUASEMIND]] · [[RANFOUNDRY]] · [[NPOLYMER]] · [[COPPERTECH]] · [[MONNOAGML]] · [[GOLDENSON]] · [[DOMINAGE]] · [[DESHBANDHU]] · [[BDTHAI]] · [[AFTABAUTO]] · [[GPHISPAT]] · [[SINGERBD]]
+[[KAY&QUE]] · [[ANWARGALV]] · [[SINGERBD]] · [[BDLAMPS]] · [[NAHEEACP]] · [[SALAMCRST]] · [[RANFOUNDRY]] · [[MIRAKHTER]] · [[YPL]] · [[KDSALTD]] · [[WMSHIPYARD]] · [[WALTONHIL]] · [[COPPERTECH]] · [[RUNNERAUTO]] · [[BBS]] · [[GPHISPAT]] · [[BBSCABLES]] · [[APOLOISPAT]] · [[NPOLYMER]] · [[MONNOAGML]] · [[AFTABAUTO]] · [[QUASEMIND]] · [[RSRMSTEEL]] · [[BSRMLTD]] · [[IFADAUTOS]] · [[ATLASBANG]] · [[BSRMSTEEL]] · [[BDAUTOCA]] · [[NAVANACNG]] · [[OIMEX]] · [[RENWICKJA]] · [[ECABLES]] · [[DOMINAGE]] · [[DESHBANDHU]] · [[BENGALWTL]] · [[BDTHAI]] · [[NTLTUBES]] · [[OAL]] · [[GOLDENSON]] · [[AZIZPIPES]] · [[SHURWID]] · [[SSSTEEL]]
 <!-- vectora:end -->

@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # PTL
 
-#posture/strong-buy #sector/textile #category/a
+#posture/buy #sector/textile #category/a
 
-**Textile** | category A | as of [[Journal/2026-08-25|2026-08-25]]
+**Textile** | category A | as of [[Journal/2026-09-21|2026-09-21]]
 
 Sector view: [[Sectors/Textile|Textile]]
 
@@ -11,19 +11,19 @@ Sector view: [[Sectors/Textile|Textile]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Strong Buy** | |
-| Moving averages | Strong Buy | 13 up / 0 down |
-| Oscillators | Buy | 2 up / 0 down |
-| Six-family score | Strong Buy | +5 |
+| Summary (26 indicators) | **Buy** | |
+| Moving averages | Strong Buy | 10 up / 3 down |
+| Oscillators | Hold | 1 up / 1 down |
+| Six-family score | Hold | -1 |
 
-RSI 77 | SuperTrend up
+RSI 60 | SuperTrend down
 
 ## Levels
 
-- Monthly pivot: 65.33
-- Nearest resistance: 70.53 (+1.5% away)
-- Nearest support: 65.33 (6.0% away)
-- 52-week range: 37.80 to 69.30
+- Monthly pivot: 69.20
+- Nearest resistance: 79.20 (+3.5% away)
+- Nearest support: 69.20 (9.5% away)
+- 52-week range: 37.80 to 81.90
 
 ## Fundamentals
 
@@ -34,5 +34,5 @@ RSI 77 | SuperTrend up
 
 ## Track record
 
-5/13 resolved predictions reached their target
+33/41 resolved predictions reached their target
 <!-- vectora:end -->

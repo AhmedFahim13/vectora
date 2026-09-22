@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # PHENIXINS
 
-#posture/buy #sector/insurance #category/a
+#posture/hold #sector/insurance #category/a
 
-**Insurance** | category A | as of [[Journal/2026-08-25|2026-08-25]]
+**Insurance** | category A | as of [[Journal/2026-09-21|2026-09-21]]
 
 Sector view: [[Sectors/Insurance|Insurance]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Insurance|Insurance]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Buy** | |
-| Moving averages | Buy | 8 up / 5 down |
-| Oscillators | Hold | 1 up / 1 down |
-| Six-family score | Buy | +3 |
+| Summary (26 indicators) | **Hold** | |
+| Moving averages | Buy | 9 up / 4 down |
+| Oscillators | Sell | 0 up / 2 down |
+| Six-family score | Sell | -3 |
 
-RSI 57 | SuperTrend up
+RSI 50 | SuperTrend down
 
 ## Levels
 
-- Monthly pivot: 45.80
-- Nearest resistance: 51.50 (+2.4% away)
-- Nearest support: 45.80 (8.9% away)
+- Monthly pivot: 50.60
+- Nearest resistance: 50.60 (+5.6% away)
+- Nearest support: 44.90 (6.3% away)
 - 52-week range: 21.00 to 57.20
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 57 | SuperTrend up
 
 ## Track record
 
-12/13 resolved predictions reached their target
+24/41 resolved predictions reached their target
 <!-- vectora:end -->

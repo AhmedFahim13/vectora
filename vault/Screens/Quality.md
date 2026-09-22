@@ -1,7 +1,7 @@
 <!-- vectora:begin -->
 # Quality
 
-89 companies | as of [[Journal/2026-08-25|2026-08-25]]
+89 companies | as of [[Journal/2026-09-21|2026-09-21]]
 
 Reserves above 3x paid-up capital. The textbook bar of 1x is the DSE median, so it selects half the exchange and means nothing.
 

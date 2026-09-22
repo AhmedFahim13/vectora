@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # GENEXIL
 
-#posture/hold #sector/it-sector #category/b
+#posture/sell #sector/it-sector #category/b
 
-**IT Sector** | category B | as of [[Journal/2026-08-25|2026-08-25]]
+**IT Sector** | category B | as of [[Journal/2026-09-21|2026-09-21]]
 
 Sector view: [[Sectors/IT Sector|IT Sector]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/IT Sector|IT Sector]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Hold** | |
-| Moving averages | Hold | 7 up / 6 down |
-| Oscillators | Sell | 1 up / 3 down |
-| Six-family score | Sell | -4 |
+| Summary (26 indicators) | **Sell** | |
+| Moving averages | Sell | 4 up / 8 down |
+| Oscillators | Sell | 0 up / 2 down |
+| Six-family score | Strong Sell | -8 |
 
-RSI 44 | SuperTrend down
+RSI 45 | SuperTrend down
 
 ## Levels
 
-- Monthly pivot: 40.83
-- Nearest resistance: 40.83 (+12.2% away)
-- Nearest support: 35.90 (1.4% away)
+- Monthly pivot: 37.23
+- Nearest resistance: 37.23 (+7.3% away)
+- Nearest support: 32.97 (5.0% away)
 - 52-week range: 19.30 to 44.20
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 44 | SuperTrend down
 
 ## Track record
 
-2/13 resolved predictions reached their target
+2/41 resolved predictions reached their target
 <!-- vectora:end -->

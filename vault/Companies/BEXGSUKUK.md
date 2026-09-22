@@ -3,7 +3,7 @@
 
 #posture/hold #sector/corporate-bond #category/a
 
-**Corporate Bond** | category A | as of [[Journal/2026-08-25|2026-08-25]]
+**Corporate Bond** | category A | as of [[Journal/2026-09-21|2026-09-21]]
 
 Sector view: [[Sectors/Corporate Bond|Corporate Bond]]
 
@@ -12,18 +12,18 @@ Sector view: [[Sectors/Corporate Bond|Corporate Bond]]
 | gauge | verdict | detail |
 |---|---|---|
 | Summary (26 indicators) | **Hold** | |
-| Moving averages | Hold | 7 up / 6 down |
-| Oscillators | Sell | 0 up / 2 down |
-| Six-family score | Hold | +1 |
+| Moving averages | Buy | 7 up / 5 down |
+| Oscillators | Hold | 1 up / 1 down |
+| Six-family score | Hold | +0 |
 
 RSI 51 | SuperTrend up
 
 ## Levels
 
-- Monthly pivot: 70.50
-- Nearest resistance: 70.50 (+1.4% away)
-- Nearest support: 67.50 (2.9% away)
-- 52-week range: 41.00 to 75.00
+- Monthly pivot: 70.17
+- Nearest resistance: 70.17 (+0.2% away)
+- Nearest support: 68.83 (1.7% away)
+- 52-week range: 42.50 to 75.00
 
 ## Fundamentals
 

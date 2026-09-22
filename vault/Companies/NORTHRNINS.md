@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # NORTHRNINS
 
-#posture/sell #sector/insurance #category/a
+#posture/hold #sector/insurance #category/a
 
-**Insurance** | category A | as of [[Journal/2026-08-25|2026-08-25]]
+**Insurance** | category A | as of [[Journal/2026-09-21|2026-09-21]]
 
 Sector view: [[Sectors/Insurance|Insurance]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Insurance|Insurance]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Sell** | |
-| Moving averages | Hold | 7 up / 6 down |
-| Oscillators | Sell | 0 up / 3 down |
-| Six-family score | Hold | +1 |
+| Summary (26 indicators) | **Hold** | |
+| Moving averages | Buy | 8 up / 4 down |
+| Oscillators | Sell | 0 up / 1 down |
+| Six-family score | Sell | -5 |
 
-RSI 47 | SuperTrend up
+RSI 48 | SuperTrend down
 
 ## Levels
 
-- Monthly pivot: 39.73
-- Nearest resistance: 39.73 (+2.9% away)
-- Nearest support: 37.30 (3.4% away)
+- Monthly pivot: 39.93
+- Nearest resistance: 39.93 (+7.1% away)
+- Nearest support: 34.57 (7.3% away)
 - 52-week range: 23.80 to 45.30
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 47 | SuperTrend up
 
 ## Track record
 
-10/13 resolved predictions reached their target
+21/41 resolved predictions reached their target
 <!-- vectora:end -->

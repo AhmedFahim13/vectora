@@ -1,19 +1,19 @@
 <!-- vectora:begin -->
 # Textile
 
-#sector-note #phase/leading
+#sector-note #phase/lagging
 
-Phase: **Leading** | as of [[Journal/2026-08-25|2026-08-25]]
+Phase: **Lagging** | as of [[Journal/2026-09-21|2026-09-21]]
 
 | measure | value |
 |---|---|
-| 21-day return | -0.56% |
-| vs market, 21 days | +1.54% |
-| momentum | +5.41% |
-| 63-day return | +1.96% |
+| 21-day return | -8.93% |
+| vs market, 21 days | -3.06% |
+| momentum | -7.97% |
+| 63-day return | -3.29% |
 | constituents | 58 |
 
 ## Members, strongest first
 
-[[KTL]] · [[ENVOYTEX]] · [[SAIHAMTEX]] · [[PTL]] · [[ESQUIRENIT]] · [[ACFL]] · [[MALEKSPIN]] · [[MITHUNKNIT]] · [[MATINSPINN]] · [[STYLECRAFT]] · [[SONARGAON]] · [[DSHGARME]] · [[GENNEXT]] · [[ALLTEX]] · [[ANLIMAYARN]] · [[TALLUSPIN]] · [[REGENTTEX]] · [[ALIF]] · [[DULAMIACOT]] · [[PDL]] · [[APEXSPINN]] · [[NEWLINE]] · [[HRTEX]] · [[ZAHINTEX]] · [[SAFKOSPINN]] · [[VFSTDL]] · [[SHASHADNIM]] · [[NURANI]] · [[METROSPIN]] · [[HWAWELLTEX]] · [[TUNGHAI]] · [[MAKSONSPIN]] · [[CNATEX]] · [[SAIHAMCOT]] · [[PRIMETEX]] · [[FAMILYTEX]] · [[ETL]] · [[RINGSHINE]] · [[AIL]] · [[FEKDIL]] · [[DELTASPINN]] · [[SQUARETEXT]] · [[DACCADYE]] · [[HFL]] · [[MHSML]] · [[ZAHEENSPIN]] · [[SHARPIND]] · [[ARGONDENIM]] · [[QUEENSOUTH]] · [[RAHIMTEXT]] · [[DSSL]] · [[AL-HAJTEX]] · [[MLDYEING]] · [[SHEPHERD]] · [[SIMTEX]] · [[TAMIJTEX]] · [[TOSRIFA]] · [[MONNOFABR]]
+[[KTL]] · [[ENVOYTEX]] · [[ETL]] · [[ALLTEX]] · [[APEXSPINN]] · [[AL-HAJTEX]] · [[SAFKOSPINN]] · [[SAIHAMCOT]] · [[SAIHAMTEX]] · [[PTL]] · [[MHSML]] · [[VFSTDL]] · [[MALEKSPIN]] · [[SQUARETEXT]] · [[DSSL]] · [[DULAMIACOT]] · [[QUEENSOUTH]] · [[FEKDIL]] · [[SHARPIND]] · [[SONARGAON]] · [[STYLECRAFT]] · [[DACCADYE]] · [[TUNGHAI]] · [[AIL]] · [[TAMIJTEX]] · [[MATINSPINN]] · [[METROSPIN]] · [[MLDYEING]] · [[RAHIMTEXT]] · [[RINGSHINE]] · [[PRIMETEX]] · [[FAMILYTEX]] · [[SHASHADNIM]] · [[ZAHEENSPIN]] · [[NEWLINE]] · [[NURANI]] · [[ZAHINTEX]] · [[ANLIMAYARN]] · [[ACFL]] · [[HWAWELLTEX]] · [[HRTEX]] · [[SHEPHERD]] · [[SIMTEX]] · [[TALLUSPIN]] · [[DELTASPINN]] · [[TOSRIFA]] · [[ALIF]] · [[MONNOFABR]] · [[PDL]] · [[REGENTTEX]] · [[MAKSONSPIN]] · [[HFL]] · [[GENNEXT]] · [[ESQUIRENIT]] · [[DSHGARME]] · [[CNATEX]] · [[MITHUNKNIT]] · [[ARGONDENIM]]
 <!-- vectora:end -->

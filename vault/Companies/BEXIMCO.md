@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # BEXIMCO
 
-#posture/strong-sell #sector/miscellaneous #category/b
+#posture/sell #sector/miscellaneous #category/b
 
-**Miscellaneous** | category B | as of [[Journal/2026-08-25|2026-08-25]]
+**Miscellaneous** | category B | as of [[Journal/2026-09-21|2026-09-21]]
 
 Sector view: [[Sectors/Miscellaneous|Miscellaneous]]
 
@@ -11,19 +11,19 @@ Sector view: [[Sectors/Miscellaneous|Miscellaneous]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Strong Sell** | |
-| Moving averages | Strong Sell | 0 up / 13 down |
+| Summary (26 indicators) | **Sell** | |
+| Moving averages | Sell | 5 up / 8 down |
 | Oscillators | Hold | 1 up / 1 down |
-| Six-family score | Sell | -2 |
+| Six-family score | Sell | -3 |
 
-RSI 24 | SuperTrend down
+RSI 40 | SuperTrend down
 
 ## Levels
 
-- Monthly pivot: 24.30
-- Nearest resistance: 24.30 (+1.3% away)
-- Nearest support: 20.80 (13.3% away)
-- 52-week range: 20.80 to 115.60
+- Monthly pivot: 24.60
+- Nearest resistance: 24.60 (+9.8% away)
+- Nearest support: 20.30 (9.4% away)
+- 52-week range: 19.20 to 115.60
 
 ## Fundamentals
 
@@ -34,5 +34,5 @@ RSI 24 | SuperTrend down
 
 ## Track record
 
-10/13 resolved predictions reached their target
+20/41 resolved predictions reached their target
 <!-- vectora:end -->

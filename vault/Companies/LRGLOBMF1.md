@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # LRGLOBMF1
 
-#posture/sell #sector/mutual-funds #category/a
+#posture/strong-buy #sector/mutual-funds #category/a
 
-**Mutual Funds** | category A | as of [[Journal/2026-08-25|2026-08-25]]
+**Mutual Funds** | category A | as of [[Journal/2026-09-21|2026-09-21]]
 
 Sector view: [[Sectors/Mutual Funds|Mutual Funds]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Mutual Funds|Mutual Funds]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Sell** | |
-| Moving averages | Hold | 7 up / 6 down |
-| Oscillators | Strong Sell | 0 up / 4 down |
-| Six-family score | Sell | -4 |
+| Summary (26 indicators) | **Strong Buy** | |
+| Moving averages | Strong Buy | 13 up / 0 down |
+| Oscillators | Buy | 1 up / 0 down |
+| Six-family score | Hold | -1 |
 
-RSI 42 | SuperTrend down
+RSI 63 | SuperTrend down
 
 ## Levels
 
 - Monthly pivot: 4.40
-- Nearest resistance: 4.40 (+7.3% away)
-- Nearest support: 3.80 (7.3% away)
+- Nearest resistance: 4.90 (+4.3% away)
+- Nearest support: 4.40 (6.4% away)
 - 52-week range: 2.30 to 5.30
 
 ## Fundamentals

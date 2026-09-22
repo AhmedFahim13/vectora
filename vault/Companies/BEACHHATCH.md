@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # BEACHHATCH
 
-#posture/strong-sell #sector/food-allied #category/z
+#posture/sell #sector/food-allied #category/z
 
-**Food & Allied** | category Z | as of [[Journal/2026-08-25|2026-08-25]]
+**Food & Allied** | category Z | as of [[Journal/2026-09-21|2026-09-21]]
 
 Sector view: [[Sectors/Food & Allied|Food & Allied]]
 
@@ -11,19 +11,19 @@ Sector view: [[Sectors/Food & Allied|Food & Allied]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Strong Sell** | |
-| Moving averages | Strong Sell | 0 up / 13 down |
-| Oscillators | Strong Sell | 0 up / 4 down |
-| Six-family score | Sell | -5 |
+| Summary (26 indicators) | **Sell** | |
+| Moving averages | Sell | 4 up / 9 down |
+| Oscillators | Hold | 1 up / 1 down |
+| Six-family score | Sell | -3 |
 
-RSI 26 | SuperTrend down
+RSI 42 | SuperTrend down
 
 ## Levels
 
-- Monthly pivot: 34.47
-- Nearest resistance: 34.47 (+15.7% away)
-- Nearest support: 29.70 (0.3% away)
-- 52-week range: 28.90 to 126.10
+- Monthly pivot: 31.10
+- Nearest resistance: 31.00 (+11.1% away)
+- Nearest support: 26.60 (4.7% away)
+- 52-week range: 25.60 to 122.90
 
 ## Fundamentals
 
@@ -34,5 +34,5 @@ RSI 26 | SuperTrend down
 
 ## Track record
 
-0/13 resolved predictions reached their target
+0/41 resolved predictions reached their target
 <!-- vectora:end -->

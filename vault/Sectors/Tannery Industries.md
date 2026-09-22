@@ -1,19 +1,19 @@
 <!-- vectora:begin -->
 # Tannery Industries
 
-#sector-note #phase/lagging
+#sector-note #phase/improving
 
-Phase: **Lagging** | as of [[Journal/2026-08-25|2026-08-25]]
+Phase: **Improving** | as of [[Journal/2026-09-21|2026-09-21]]
 
 | measure | value |
 |---|---|
-| 21-day return | -4.62% |
-| vs market, 21 days | -2.52% |
-| momentum | -4.81% |
-| 63-day return | +2.60% |
+| 21-day return | -7.76% |
+| vs market, 21 days | -1.89% |
+| momentum | +3.18% |
+| 63-day return | -0.94% |
 | constituents | 6 |
 
 ## Members, strongest first
 
-[[APEXFOOT]] · [[APEXTANRY]] · [[BATASHOE]] · [[LEGACYFOOT]] · [[SAMATALETH]] · [[FORTUNE]]
+[[APEXFOOT]] · [[SAMATALETH]] · [[BATASHOE]] · [[LEGACYFOOT]] · [[FORTUNE]] · [[APEXTANRY]]
 <!-- vectora:end -->

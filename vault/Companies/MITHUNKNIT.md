@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # MITHUNKNIT
 
-#posture/sell #sector/textile #category/z
+#posture/strong-sell #sector/textile #category/z
 
-**Textile** | category Z | as of [[Journal/2026-08-25|2026-08-25]]
+**Textile** | category Z | as of [[Journal/2026-09-21|2026-09-21]]
 
 Sector view: [[Sectors/Textile|Textile]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Textile|Textile]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Sell** | |
-| Moving averages | Strong Sell | 1 up / 11 down |
+| Summary (26 indicators) | **Strong Sell** | |
+| Moving averages | Strong Sell | 0 up / 13 down |
 | Oscillators | Sell | 0 up / 1 down |
-| Six-family score | Buy | +2 |
+| Six-family score | Strong Sell | -8 |
 
-RSI 48 | SuperTrend up
+RSI 42 | SuperTrend down
 
 ## Levels
 
-- Monthly pivot: 14.63
-- Nearest resistance: 14.63 (+0.9% away)
-- Nearest support: 13.47 (7.1% away)
+- Monthly pivot: 15.07
+- Nearest resistance: 15.07 (+11.6% away)
+- Nearest support: 13.10 (3.0% away)
 - 52-week range: 11.00 to 21.90
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 48 | SuperTrend up
 
 ## Track record
 
-8/13 resolved predictions reached their target
+20/40 resolved predictions reached their target
 <!-- vectora:end -->

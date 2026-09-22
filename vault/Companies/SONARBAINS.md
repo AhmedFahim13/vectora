@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # SONARBAINS
 
-#posture/hold #sector/insurance #category/a
+#posture/buy #sector/insurance #category/a
 
-**Insurance** | category A | as of [[Journal/2026-08-25|2026-08-25]]
+**Insurance** | category A | as of [[Journal/2026-09-21|2026-09-21]]
 
 Sector view: [[Sectors/Insurance|Insurance]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Insurance|Insurance]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Hold** | |
-| Moving averages | Hold | 7 up / 6 down |
-| Oscillators | Sell | 2 up / 4 down |
-| Six-family score | Sell | -4 |
+| Summary (26 indicators) | **Buy** | |
+| Moving averages | Strong Buy | 11 up / 1 down |
+| Oscillators | Buy | 1 up / 0 down |
+| Six-family score | Hold | -1 |
 
-RSI 44 | SuperTrend down
+RSI 53 | SuperTrend down
 
 ## Levels
 
-- Monthly pivot: 41.57
-- Nearest resistance: 41.57 (+12.3% away)
-- Nearest support: 36.90 (0.3% away)
+- Monthly pivot: 37.67
+- Nearest resistance: 39.40 (+4.2% away)
+- Nearest support: 37.67 (0.4% away)
 - 52-week range: 19.40 to 47.70
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 44 | SuperTrend down
 
 ## Track record
 
-8/13 resolved predictions reached their target
+14/41 resolved predictions reached their target
 <!-- vectora:end -->

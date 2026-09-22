@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # MONNOFABR
 
-#posture/sell #sector/textile #category/b
+#posture/strong-sell #sector/textile #category/b
 
-**Textile** | category B | as of [[Journal/2026-08-25|2026-08-25]]
+**Textile** | category B | as of [[Journal/2026-09-21|2026-09-21]]
 
 Sector view: [[Sectors/Textile|Textile]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Textile|Textile]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Sell** | |
-| Moving averages | Sell | 4 up / 8 down |
-| Oscillators | Strong Sell | 0 up / 4 down |
-| Six-family score | Sell | -5 |
+| Summary (26 indicators) | **Strong Sell** | |
+| Moving averages | Strong Sell | 1 up / 12 down |
+| Oscillators | Sell | 0 up / 2 down |
+| Six-family score | Strong Sell | -8 |
 
-RSI 35 | SuperTrend down
+RSI 39 | SuperTrend down
 
 ## Levels
 
-- Monthly pivot: 22.97
-- Nearest resistance: 22.97 (+8.3% away)
-- Nearest support: 21.07 (0.6% away)
+- Monthly pivot: 22.60
+- Nearest resistance: 22.60 (+17.1% away)
+- Nearest support: 18.10 (6.2% away)
 - 52-week range: 12.00 to 25.40
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 35 | SuperTrend down
 
 ## Track record
 
-6/13 resolved predictions reached their target
+11/41 resolved predictions reached their target
 <!-- vectora:end -->

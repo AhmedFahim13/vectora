@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # GEMINISEA
 
-#posture/strong-sell #sector/food-allied #category/z
+#posture/sell #sector/food-allied #category/z
 
-**Food & Allied** | category Z | as of [[Journal/2026-08-25|2026-08-25]]
+**Food & Allied** | category Z | as of [[Journal/2026-09-21|2026-09-21]]
 
 Sector view: [[Sectors/Food & Allied|Food & Allied]]
 
@@ -11,19 +11,19 @@ Sector view: [[Sectors/Food & Allied|Food & Allied]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Strong Sell** | |
-| Moving averages | Strong Sell | 0 up / 13 down |
-| Oscillators | Strong Sell | 0 up / 4 down |
-| Six-family score | Strong Sell | -7 |
+| Summary (26 indicators) | **Sell** | |
+| Moving averages | Strong Sell | 2 up / 11 down |
+| Oscillators | Sell | 1 up / 2 down |
+| Six-family score | Sell | -4 |
 
-RSI 34 | SuperTrend down
+RSI 40 | SuperTrend down
 
 ## Levels
 
-- Monthly pivot: 125.63
-- Nearest resistance: 125.63 (+7.9% away)
-- Nearest support: 116.37 (0.0% away)
-- 52-week range: 102.10 to 209.80
+- Monthly pivot: 116.93
+- Nearest resistance: 116.93 (+8.2% away)
+- Nearest support: 103.83 (3.9% away)
+- 52-week range: 102.00 to 209.80
 
 ## Fundamentals
 
@@ -34,5 +34,5 @@ RSI 34 | SuperTrend down
 
 ## Track record
 
-0/13 resolved predictions reached their target
+0/41 resolved predictions reached their target
 <!-- vectora:end -->

@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # HEIDELBCEM
 
-#posture/strong-sell #sector/cement #category/a
+#posture/sell #sector/cement #category/a
 
-**Cement** | category A | as of [[Journal/2026-08-25|2026-08-25]]
+**Cement** | category A | as of [[Journal/2026-09-21|2026-09-21]]
 
 Sector view: [[Sectors/Cement|Cement]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Cement|Cement]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Strong Sell** | |
-| Moving averages | Strong Sell | 0 up / 13 down |
-| Oscillators | Sell | 2 up / 3 down |
-| Six-family score | Strong Sell | -7 |
+| Summary (26 indicators) | **Sell** | |
+| Moving averages | Strong Sell | 2 up / 11 down |
+| Oscillators | Hold | 1 up / 1 down |
+| Six-family score | Sell | -2 |
 
-RSI 36 | SuperTrend down
+RSI 45 | SuperTrend down
 
 ## Levels
 
-- Monthly pivot: 232.53
-- Nearest resistance: 229.00 (+7.9% away)
-- Nearest support: 210.07 (1.1% away)
+- Monthly pivot: 216.10
+- Nearest resistance: 216.10 (+3.2% away)
+- Nearest support: 203.20 (3.0% away)
 - 52-week range: 183.00 to 313.80
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 36 | SuperTrend down
 
 ## Track record
 
-0/13 resolved predictions reached their target
+0/41 resolved predictions reached their target
 <!-- vectora:end -->

@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # CONFIDCEM
 
-#posture/hold #sector/cement #category/a
+#posture/buy #sector/cement #category/a
 
-**Cement** | category A | as of [[Journal/2026-08-25|2026-08-25]]
+**Cement** | category A | as of [[Journal/2026-09-21|2026-09-21]]
 
 Sector view: [[Sectors/Cement|Cement]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Cement|Cement]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Hold** | |
-| Moving averages | Hold | 7 up / 6 down |
-| Oscillators | Hold | 3 up / 3 down |
-| Six-family score | Sell | -5 |
+| Summary (26 indicators) | **Buy** | |
+| Moving averages | Strong Buy | 11 up / 1 down |
+| Oscillators | Hold | 1 up / 1 down |
+| Six-family score | Sell | -2 |
 
-RSI 40 | SuperTrend down
+RSI 50 | SuperTrend down
 
 ## Levels
 
-- Monthly pivot: 69.47
-- Nearest resistance: 69.47 (+10.6% away)
-- Nearest support: 62.20 (1.0% away)
+- Monthly pivot: 65.00
+- Nearest resistance: 65.00 (+4.7% away)
+- Nearest support: 60.30 (2.9% away)
 - 52-week range: 44.00 to 74.60
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 40 | SuperTrend down
 
 ## Track record
 
-0/13 resolved predictions reached their target
+0/41 resolved predictions reached their target
 <!-- vectora:end -->

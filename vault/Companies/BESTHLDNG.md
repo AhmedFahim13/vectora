@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # BESTHLDNG
 
-#posture/sell #sector/travel-leisure #category/z #risk/thin-float
+#posture/buy #sector/travel-leisure #category/z #risk/thin-float
 
-**Travel & Leisure** | category Z | as of [[Journal/2026-08-25|2026-08-25]]
+**Travel & Leisure** | category Z | as of [[Journal/2026-09-21|2026-09-21]]
 
 Sector view: [[Sectors/Travel & Leisure|Travel & Leisure]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Travel & Leisure|Travel & Leisure]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Sell** | |
-| Moving averages | Strong Sell | 3 up / 10 down |
-| Oscillators | Sell | 2 up / 4 down |
-| Six-family score | Sell | -5 |
+| Summary (26 indicators) | **Buy** | |
+| Moving averages | Buy | 9 up / 4 down |
+| Oscillators | Buy | 2 up / 0 down |
+| Six-family score | Hold | +0 |
 
-RSI 34 | SuperTrend down
+RSI 53 | SuperTrend down
 
 ## Levels
 
-- Monthly pivot: 15.43
-- Nearest resistance: 15.43 (+8.7% away)
-- Nearest support: 14.17 (0.2% away)
+- Monthly pivot: 14.73
+- Nearest resistance: 15.67 (+4.4% away)
+- Nearest support: 14.73 (1.8% away)
 - 52-week range: 10.90 to 20.80
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 34 | SuperTrend down
 
 ## Track record
 
-0/13 resolved predictions reached their target
+5/41 resolved predictions reached their target
 <!-- vectora:end -->

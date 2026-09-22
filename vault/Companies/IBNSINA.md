@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # IBNSINA
 
-#posture/sell #sector/pharmaceuticals-chemicals #category/a
+#posture/buy #sector/pharmaceuticals-chemicals #category/a
 
-**Pharmaceuticals & Chemicals** | category A | as of [[Journal/2026-08-25|2026-08-25]]
+**Pharmaceuticals & Chemicals** | category A | as of [[Journal/2026-09-21|2026-09-21]]
 
 Sector view: [[Sectors/Pharmaceuticals & Chemicals|Pharmaceuticals & Chemicals]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Pharmaceuticals & Chemicals|Pharmaceuticals & Chemicals]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Sell** | |
-| Moving averages | Strong Sell | 3 up / 10 down |
-| Oscillators | Sell | 0 up / 3 down |
-| Six-family score | Strong Sell | -7 |
+| Summary (26 indicators) | **Buy** | |
+| Moving averages | Buy | 9 up / 4 down |
+| Oscillators | Hold | 1 up / 1 down |
+| Six-family score | Hold | -1 |
 
-RSI 38 | SuperTrend down
+RSI 52 | SuperTrend down
 
 ## Levels
 
-- Monthly pivot: 327.13
-- Nearest resistance: 325.10 (+3.5% away)
-- Nearest support: 309.27 (1.6% away)
+- Monthly pivot: 316.13
+- Nearest resistance: 316.13 (+0.2% away)
+- Nearest support: 307.27 (2.6% away)
 - 52-week range: 273.80 to 345.00
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 38 | SuperTrend down
 
 ## Track record
 
-0/13 resolved predictions reached their target
+0/41 resolved predictions reached their target
 <!-- vectora:end -->

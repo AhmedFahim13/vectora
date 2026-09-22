@@ -1,19 +1,19 @@
 <!-- vectora:begin -->
 # Insurance
 
-#sector-note #phase/leading
+#sector-note #phase/weakening
 
-Phase: **Leading** | as of [[Journal/2026-08-25|2026-08-25]]
+Phase: **Weakening** | as of [[Journal/2026-09-21|2026-09-21]]
 
 | measure | value |
 |---|---|
-| 21-day return | +2.77% |
-| vs market, 21 days | +4.87% |
-| momentum | +2.96% |
-| 63-day return | +16.18% |
+| 21-day return | -4.62% |
+| vs market, 21 days | +1.26% |
+| momentum | -4.74% |
+| 63-day return | +9.24% |
 | constituents | 58 |
 
 ## Members, strongest first
 
-[[SICL]] · [[NITOLINS]] · [[SIPLC]] · [[RELIANCINS]] · [[PHENIXINS]] · [[PEOPLESINS]] · [[ICICL]] · [[DGIC]] · [[GLOBALINS]] · [[KARNAPHULI]] · [[REPUBLIC]] · [[CITYGENINS]] · [[UNITEDINS]] · [[FEDERALINS]] · [[EASTERNINS]] · [[NORTHRNINS]] · [[PIONEERINS]] · [[DHAKAINS]] · [[EASTLAND]] · [[PURABIGEN]] · [[SONALILIFE]] · [[GREENDELT]] · [[PROVATIINS]] · [[JANATAINS]] · [[MEGHNAINS]] · [[UNIONINS]] · [[MERCINS]] · [[ASIAINS]] · [[ASIAPACINS]] · [[BGIC]] · [[AGRANINS]] · [[PARAMOUNT]] · [[CONTININS]] · [[RUPALIINS]] · [[BNICL]] · [[ISLAMIINS]] · [[EIL]] · [[TAKAFULINS]] · [[SUNLIFEINS]] · [[POPULARLIF]] · [[SANDHANINS]] · [[STANDARINS]] · [[PRIMEINSUR]] · [[NATLIFEINS]] · [[RUPALILIFE]] · [[TILIL]] · [[CRYSTALINS]] · [[FAREASTLIF]] · [[CENTRALINS]] · [[PRAGATIINS]] · [[CLICL]] · [[SONARBAINS]] · [[DELTALIFE]] · [[PADMALIFE]] · [[PRIMELIFE]] · [[MEGHNALIFE]] · [[PROGRESLIF]] · [[PRAGATILIF]]
+[[MERCINS]] · [[ICICL]] · [[NITOLINS]] · [[UNITEDINS]] · [[GLOBALINS]] · [[BNICL]] · [[TAKAFULINS]] · [[CITYGENINS]] · [[CRYSTALINS]] · [[DGIC]] · [[KARNAPHULI]] · [[PIONEERINS]] · [[PARAMOUNT]] · [[STANDARINS]] · [[CENTRALINS]] · [[SONARBAINS]] · [[EIL]] · [[RELIANCINS]] · [[PRAGATIINS]] · [[NATLIFEINS]] · [[ISLAMIINS]] · [[SIPLC]] · [[CLICL]] · [[PHENIXINS]] · [[EASTERNINS]] · [[RUPALILIFE]] · [[SUNLIFEINS]] · [[REPUBLIC]] · [[AGRANINS]] · [[MEGHNALIFE]] · [[PEOPLESINS]] · [[MEGHNAINS]] · [[JANATAINS]] · [[TILIL]] · [[PRAGATILIF]] · [[PRIMEINSUR]] · [[PRIMELIFE]] · [[ASIAINS]] · [[RUPALIINS]] · [[UNIONINS]] · [[GREENDELT]] · [[PROVATIINS]] · [[PURABIGEN]] · [[NORTHRNINS]] · [[FEDERALINS]] · [[EASTLAND]] · [[SICL]] · [[DHAKAINS]] · [[SONALILIFE]] · [[DELTALIFE]] · [[CONTININS]] · [[BGIC]] · [[ASIAPACINS]] · [[FAREASTLIF]] · [[SANDHANINS]] · [[PROGRESLIF]] · [[PADMALIFE]] · [[POPULARLIF]]
 <!-- vectora:end -->

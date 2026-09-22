@@ -3,7 +3,7 @@
 
 #posture/sell #sector/paper-printing #category/a
 
-**Paper & Printing** | category A | as of [[Journal/2026-08-25|2026-08-25]]
+**Paper & Printing** | category A | as of [[Journal/2026-09-21|2026-09-21]]
 
 Sector view: [[Sectors/Paper & Printing|Paper & Printing]]
 
@@ -12,17 +12,17 @@ Sector view: [[Sectors/Paper & Printing|Paper & Printing]]
 | gauge | verdict | detail |
 |---|---|---|
 | Summary (26 indicators) | **Sell** | |
-| Moving averages | Strong Sell | 0 up / 13 down |
-| Oscillators | Buy | 3 up / 2 down |
-| Six-family score | Sell | -5 |
+| Moving averages | Strong Sell | 3 up / 10 down |
+| Oscillators | Sell | 1 up / 2 down |
+| Six-family score | Sell | -3 |
 
-RSI 38 | SuperTrend down
+RSI 43 | SuperTrend down
 
 ## Levels
 
-- Monthly pivot: 93.60
-- Nearest resistance: 93.60 (+7.8% away)
-- Nearest support: 85.40 (1.6% away)
+- Monthly pivot: 87.97
+- Nearest resistance: 87.97 (+7.0% away)
+- Nearest support: 80.63 (1.9% away)
 - 52-week range: 66.20 to 118.00
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 38 | SuperTrend down
 
 ## Track record
 
-0/13 resolved predictions reached their target
+0/41 resolved predictions reached their target
 <!-- vectora:end -->

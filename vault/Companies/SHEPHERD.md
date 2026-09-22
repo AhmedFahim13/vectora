@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # SHEPHERD
 
-#posture/strong-sell #sector/textile #category/b
+#posture/sell #sector/textile #category/b
 
-**Textile** | category B | as of [[Journal/2026-08-25|2026-08-25]]
+**Textile** | category B | as of [[Journal/2026-09-21|2026-09-21]]
 
 Sector view: [[Sectors/Textile|Textile]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Textile|Textile]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Strong Sell** | |
-| Moving averages | Strong Sell | 1 up / 11 down |
-| Oscillators | Sell | 2 up / 4 down |
-| Six-family score | Sell | -5 |
+| Summary (26 indicators) | **Sell** | |
+| Moving averages | Strong Sell | 2 up / 11 down |
+| Oscillators | Sell | 0 up / 2 down |
+| Six-family score | Strong Sell | -7 |
 
-RSI 34 | SuperTrend down
+RSI 38 | SuperTrend down
 
 ## Levels
 
-- Monthly pivot: 17.77
-- Nearest resistance: 17.77 (+19.2% away)
-- Nearest support: 14.70 (1.3% away)
+- Monthly pivot: 16.10
+- Nearest resistance: 15.90 (+21.4% away)
+- Nearest support: 11.90 (9.2% away)
 - 52-week range: 9.80 to 20.50
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 34 | SuperTrend down
 
 ## Track record
 
-4/13 resolved predictions reached their target
+6/41 resolved predictions reached their target
 <!-- vectora:end -->

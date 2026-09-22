@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # RENWICKJA
 
-#posture/hold #sector/engineering #category/z
+#posture/sell #sector/engineering #category/z
 
-**Engineering** | category Z | as of [[Journal/2026-08-25|2026-08-25]]
+**Engineering** | category Z | as of [[Journal/2026-09-21|2026-09-21]]
 
 Sector view: [[Sectors/Engineering|Engineering]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Engineering|Engineering]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Hold** | |
-| Moving averages | Hold | 7 up / 6 down |
-| Oscillators | Sell | 1 up / 2 down |
-| Six-family score | Sell | -3 |
+| Summary (26 indicators) | **Sell** | |
+| Moving averages | Sell | 5 up / 8 down |
+| Oscillators | Sell | 0 up / 1 down |
+| Six-family score | Strong Sell | -7 |
 
-RSI 46 | SuperTrend down
+RSI 42 | SuperTrend down
 
 ## Levels
 
-- Monthly pivot: 868.97
-- Nearest resistance: 868.97 (+10.4% away)
-- Nearest support: 760.00 (3.4% away)
+- Monthly pivot: 812.43
+- Nearest resistance: 812.43 (+10.8% away)
+- Nearest support: 713.30 (2.7% away)
 - 52-week range: 422.50 to 1075.00
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 46 | SuperTrend down
 
 ## Track record
 
-3/13 resolved predictions reached their target
+4/41 resolved predictions reached their target
 <!-- vectora:end -->

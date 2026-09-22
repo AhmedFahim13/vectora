@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # BSCPLC
 
-#posture/sell #sector/telecommunication #category/a
+#posture/buy #sector/telecommunication #category/a
 
-**Telecommunication** | category A | as of [[Journal/2026-08-25|2026-08-25]]
+**Telecommunication** | category A | as of [[Journal/2026-09-21|2026-09-21]]
 
 Sector view: [[Sectors/Telecommunication|Telecommunication]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Telecommunication|Telecommunication]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Sell** | |
-| Moving averages | Hold | 7 up / 6 down |
-| Oscillators | Sell | 0 up / 3 down |
-| Six-family score | Hold | +1 |
+| Summary (26 indicators) | **Buy** | |
+| Moving averages | Strong Buy | 11 up / 1 down |
+| Oscillators | Sell | 1 up / 2 down |
+| Six-family score | Sell | -2 |
 
-RSI 47 | SuperTrend up
+RSI 49 | SuperTrend down
 
 ## Levels
 
-- Monthly pivot: 160.87
-- Nearest resistance: 160.87 (+5.2% away)
-- Nearest support: 152.63 (0.2% away)
+- Monthly pivot: 154.13
+- Nearest resistance: 154.13 (+3.5% away)
+- Nearest support: 145.37 (2.4% away)
 - 52-week range: 110.10 to 169.10
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 47 | SuperTrend up
 
 ## Track record
 
-0/13 resolved predictions reached their target
+0/41 resolved predictions reached their target
 <!-- vectora:end -->

@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # EASTLAND
 
-#posture/hold #sector/insurance #category/a
+#posture/buy #sector/insurance #category/a
 
-**Insurance** | category A | as of [[Journal/2026-08-25|2026-08-25]]
+**Insurance** | category A | as of [[Journal/2026-09-21|2026-09-21]]
 
 Sector view: [[Sectors/Insurance|Insurance]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Insurance|Insurance]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Hold** | |
-| Moving averages | Hold | 7 up / 6 down |
-| Oscillators | Hold | 1 up / 1 down |
-| Six-family score | Hold | +1 |
+| Summary (26 indicators) | **Buy** | |
+| Moving averages | Strong Buy | 12 up / 1 down |
+| Oscillators | Sell | 0 up / 1 down |
+| Six-family score | Strong Sell | -6 |
 
-RSI 51 | SuperTrend up
+RSI 53 | SuperTrend down
 
 ## Levels
 
-- Monthly pivot: 29.10
-- Nearest resistance: 29.10 (+2.1% away)
-- Nearest support: 26.90 (5.6% away)
+- Monthly pivot: 29.07
+- Nearest resistance: 29.07 (+2.3% away)
+- Nearest support: 26.53 (6.6% away)
 - 52-week range: 15.70 to 31.80
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 51 | SuperTrend up
 
 ## Track record
 
-8/13 resolved predictions reached their target
+11/41 resolved predictions reached their target
 <!-- vectora:end -->

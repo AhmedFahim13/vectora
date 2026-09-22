@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # ADNTEL
 
-#posture/strong-sell #sector/it-sector #category/a
+#posture/sell #sector/it-sector #category/a
 
-**IT Sector** | category A | as of [[Journal/2026-08-25|2026-08-25]]
+**IT Sector** | category A | as of [[Journal/2026-09-21|2026-09-21]]
 
 Sector view: [[Sectors/IT Sector|IT Sector]]
 
@@ -11,19 +11,19 @@ Sector view: [[Sectors/IT Sector|IT Sector]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Strong Sell** | |
-| Moving averages | Strong Sell | 1 up / 12 down |
-| Oscillators | Strong Sell | 0 up / 4 down |
+| Summary (26 indicators) | **Sell** | |
+| Moving averages | Strong Sell | 2 up / 11 down |
+| Oscillators | Hold | 1 up / 1 down |
 | Six-family score | Sell | -5 |
 
-RSI 36 | SuperTrend down
+RSI 40 | SuperTrend down
 
 ## Levels
 
-- Monthly pivot: 68.63
-- Nearest resistance: 68.63 (+11.1% away)
-- Nearest support: 61.33 (0.8% away)
-- 52-week range: 50.40 to 96.10
+- Monthly pivot: 62.97
+- Nearest resistance: 62.97 (+8.9% away)
+- Nearest support: 57.13 (1.2% away)
+- 52-week range: 50.40 to 89.00
 
 ## Fundamentals
 
@@ -34,5 +34,5 @@ RSI 36 | SuperTrend down
 
 ## Track record
 
-0/13 resolved predictions reached their target
+0/41 resolved predictions reached their target
 <!-- vectora:end -->

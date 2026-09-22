@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # BERGERPBL
 
-#posture/buy #sector/miscellaneous #category/a #risk/thin-float
+#posture/sell #sector/miscellaneous #category/a #risk/thin-float
 
-**Miscellaneous** | category A | as of [[Journal/2026-08-25|2026-08-25]]
+**Miscellaneous** | category A | as of [[Journal/2026-09-21|2026-09-21]]
 
 Sector view: [[Sectors/Miscellaneous|Miscellaneous]]
 
@@ -11,19 +11,19 @@ Sector view: [[Sectors/Miscellaneous|Miscellaneous]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Buy** | |
-| Moving averages | Buy | 9 up / 4 down |
-| Oscillators | Hold | 1 up / 1 down |
-| Six-family score | Buy | +3 |
+| Summary (26 indicators) | **Sell** | |
+| Moving averages | Hold | 6 up / 6 down |
+| Oscillators | Sell | 0 up / 2 down |
+| Six-family score | Sell | -4 |
 
-RSI 65 | SuperTrend up
+RSI 47 | SuperTrend down
 
 ## Levels
 
-- Monthly pivot: 1468.10
-- Nearest resistance: 1524.00 (+2.0% away)
-- Nearest support: 1468.10 (1.7% away)
-- 52-week range: 1350.00 to 1850.00
+- Monthly pivot: 1489.67
+- Nearest resistance: 1489.67 (+1.8% away)
+- Nearest support: 1455.33 (0.6% away)
+- 52-week range: 1350.00 to 1849.00
 
 ## Fundamentals
 
@@ -34,5 +34,5 @@ RSI 65 | SuperTrend up
 
 ## Track record
 
-4/13 resolved predictions reached their target
+4/41 resolved predictions reached their target
 <!-- vectora:end -->

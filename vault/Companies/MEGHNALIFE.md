@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # MEGHNALIFE
 
-#posture/strong-sell #sector/insurance #category/a
+#posture/sell #sector/insurance #category/a
 
-**Insurance** | category A | as of [[Journal/2026-08-25|2026-08-25]]
+**Insurance** | category A | as of [[Journal/2026-09-21|2026-09-21]]
 
 Sector view: [[Sectors/Insurance|Insurance]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Insurance|Insurance]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Strong Sell** | |
+| Summary (26 indicators) | **Sell** | |
 | Moving averages | Strong Sell | 1 up / 12 down |
-| Oscillators | Sell | 0 up / 3 down |
-| Six-family score | Sell | -5 |
+| Oscillators | Sell | 1 up / 2 down |
+| Six-family score | Sell | -4 |
 
-RSI 33 | SuperTrend down
+RSI 39 | SuperTrend down
 
 ## Levels
 
-- Monthly pivot: 62.10
-- Nearest resistance: 62.10 (+14.6% away)
-- Nearest support: 53.40 (1.5% away)
+- Monthly pivot: 57.30
+- Nearest resistance: 57.30 (+11.3% away)
+- Nearest support: 50.70 (1.6% away)
 - 52-week range: 42.00 to 73.50
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 33 | SuperTrend down
 
 ## Track record
 
-1/13 resolved predictions reached their target
+1/41 resolved predictions reached their target
 <!-- vectora:end -->

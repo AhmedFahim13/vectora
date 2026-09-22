@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # FBFIF
 
-#posture/hold #sector/mutual-funds #category/a
+#posture/buy #sector/mutual-funds #category/a
 
-**Mutual Funds** | category A | as of [[Journal/2026-08-25|2026-08-25]]
+**Mutual Funds** | category A | as of [[Journal/2026-09-21|2026-09-21]]
 
 Sector view: [[Sectors/Mutual Funds|Mutual Funds]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Mutual Funds|Mutual Funds]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Hold** | |
-| Moving averages | Hold | 7 up / 6 down |
-| Oscillators | Hold | 2 up / 2 down |
-| Six-family score | Hold | +1 |
+| Summary (26 indicators) | **Buy** | |
+| Moving averages | Strong Buy | 11 up / 1 down |
+| Oscillators | Buy | 1 up / 0 down |
+| Six-family score | Buy | +3 |
 
-RSI 50 | SuperTrend up
+RSI 55 | SuperTrend up
 
 ## Levels
 
-- Monthly pivot: 3.67
-- Nearest resistance: 3.67 (+1.9% away)
-- Nearest support: 3.50 (2.8% away)
+- Monthly pivot: 3.70
+- Nearest resistance: 3.70 (+2.8% away)
+- Nearest support: 3.30 (8.3% away)
 - 52-week range: 2.20 to 4.40
 
 ## Fundamentals

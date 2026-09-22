@@ -1,19 +1,19 @@
 <!-- vectora:begin -->
 # Fuel & Power
 
-#sector-note #phase/leading
+#sector-note #phase/lagging
 
-Phase: **Leading** | as of [[Journal/2026-08-25|2026-08-25]]
+Phase: **Lagging** | as of [[Journal/2026-09-21|2026-09-21]]
 
 | measure | value |
 |---|---|
-| 21-day return | +1.45% |
-| vs market, 21 days | +3.55% |
-| momentum | +6.55% |
-| 63-day return | +0.87% |
+| 21-day return | -6.06% |
+| vs market, 21 days | -0.19% |
+| momentum | -1.82% |
+| 63-day return | +0.17% |
 | constituents | 23 |
 
 ## Members, strongest first
 
-[[LRBDL]] · [[BARKAPOWER]] · [[DESCO]] · [[INTRACO]] · [[KPCL]] · [[GBBPOWER]] · [[SPCL]] · [[PADMAOIL]] · [[SUMITPOWER]] · [[EASTRNLUB]] · [[AOL]] · [[BDWELDING]] · [[BPPL]] · [[DOREENPWR]] · [[POWERGRID]] · [[CVOPRL]] · [[EPGL]] · [[JAMUNAOIL]] · [[LINDEBD]] · [[MPETROLEUM]] · [[TITASGAS]] · [[MJLBD]] · [[UPGDCL]]
+[[EASTRNLUB]] · [[INTRACO]] · [[MJLBD]] · [[BDWELDING]] · [[GBBPOWER]] · [[JAMUNAOIL]] · [[LRBDL]] · [[PADMAOIL]] · [[SUMITPOWER]] · [[UPGDCL]] · [[CVOPRL]] · [[DESCO]] · [[LINDEBD]] · [[SPCL]] · [[TITASGAS]] · [[MPETROLEUM]] · [[BARKAPOWER]] · [[POWERGRID]] · [[AOL]] · [[KPCL]] · [[BPPL]] · [[DOREENPWR]] · [[EPGL]]
 <!-- vectora:end -->

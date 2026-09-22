@@ -1,19 +1,19 @@
 <!-- vectora:begin -->
 # Mutual Funds
 
-#sector-note #phase/lagging
+#sector-note #phase/leading
 
-Phase: **Lagging** | as of [[Journal/2026-08-25|2026-08-25]]
+Phase: **Leading** | as of [[Journal/2026-09-21|2026-09-21]]
 
 | measure | value |
 |---|---|
-| 21-day return | -2.84% |
-| vs market, 21 days | -0.74% |
-| momentum | -9.58% |
-| 63-day return | +9.52% |
-| constituents | 34 |
+| 21-day return | +5.92% |
+| vs market, 21 days | +11.80% |
+| momentum | +12.30% |
+| 63-day return | +20.73% |
+| constituents | 33 |
 
 ## Members, strongest first
 
-[[MBL1STMF]] · [[CAPMIBBLMF]] · [[RELIANCE1]] · [[GRAMEENS2]] · [[PF1STMF]] · [[EXIM1STMF]] · [[NCCBLMF1]] · [[ABB1STMF]] · [[EBLNRBMF]] · [[FBFIF]] · [[PHPMF1]] · [[VAMLRBBF]] · [[TRUSTB1MF]] · [[POPULAR1MF]] · [[CAPITECGBF]] · [[1STPRIMFMF]] · [[VAMLBDMF1]] · [[DBH1STMF]] · [[SEMLIBBLSF]] · [[IFILISLMF1]] · [[ICBAMCL2ND]] · [[ICBEPMF1S1]] · [[LRGLOBMF1]] · [[IFIC1STMF]] · [[CAPMBDBLMF]] · [[GREENDELMF]] · [[SEMLFBSLGF]] · [[GLDNJMF]] · [[1JANATAMF]] · [[ICBSONALI1]] · [[ICBAGRANI1]] · [[ICB3RDNRB]] · [[PRIME1ICBA]] · [[EBL1STMF]] · [[AIBL1STIMF]]
+[[PF1STMF]] · [[EXIM1STMF]] · [[AIBL1STIMF]] · [[MBL1STMF]] · [[TRUSTB1MF]] · [[CAPMIBBLMF]] · [[EBLNRBMF]] · [[FBFIF]] · [[ICB3RDNRB]] · [[ICBAMCL2ND]] · [[IFILISLMF1]] · [[ICBAGRANI1]] · [[1STPRIMFMF]] · [[DBH1STMF]] · [[EBL1STMF]] · [[RELIANCE1]] · [[ICBSONALI1]] · [[VAMLBDMF1]] · [[NCCBLMF1]] · [[PRIME1ICBA]] · [[IFIC1STMF]] · [[ICBEPMF1S1]] · [[LRGLOBMF1]] · [[SEMLFBSLGF]] · [[GREENDELMF]] · [[CAPITECGBF]] · [[POPULAR1MF]] · [[1JANATAMF]] · [[PHPMF1]] · [[GLDNJMF]] · [[ABB1STMF]] · [[VAMLRBBF]] · [[SEMLIBBLSF]] · [[CAPMBDBLMF]] · [[GRAMEENS2]]
 <!-- vectora:end -->

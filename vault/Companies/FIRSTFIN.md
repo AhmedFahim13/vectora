@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # FIRSTFIN
 
-#posture/hold #sector/financial-institutions #category/z
+#posture/buy #sector/financial-institutions #category/z
 
-**Financial Institutions** | category Z | as of [[Journal/2026-08-25|2026-08-25]]
+**Financial Institutions** | category Z | as of [[Journal/2026-09-21|2026-09-21]]
 
 Sector view: [[Sectors/Financial Institutions|Financial Institutions]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Financial Institutions|Financial Institutions]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Hold** | |
-| Moving averages | Hold | 7 up / 6 down |
-| Oscillators | Hold | 1 up / 1 down |
-| Six-family score | Hold | +1 |
+| Summary (26 indicators) | **Buy** | |
+| Moving averages | Strong Buy | 12 up / 1 down |
+| Oscillators | Sell | 0 up / 2 down |
+| Six-family score | Sell | -5 |
 
-RSI 49 | SuperTrend up
+RSI 52 | SuperTrend down
 
 ## Levels
 
-- Monthly pivot: 4.33
+- Monthly pivot: 4.87
 - Nearest resistance: 4.87 (+5.8% away)
-- Nearest support: 4.33 (5.8% away)
+- Nearest support: 4.20 (8.7% away)
 - 52-week range: 1.90 to 5.70
 
 ## Fundamentals

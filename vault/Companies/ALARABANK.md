@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # ALARABANK
 
-#posture/strong-buy #sector/bank #category/z
+#posture/sell #sector/bank #category/z
 
-**Bank** | category Z | as of [[Journal/2026-08-25|2026-08-25]]
+**Bank** | category Z | as of [[Journal/2026-09-21|2026-09-21]]
 
 Sector view: [[Sectors/Bank|Bank]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Bank|Bank]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Strong Buy** | |
-| Moving averages | Strong Buy | 12 up / 1 down |
-| Oscillators | Buy | 3 up / 0 down |
-| Six-family score | Strong Buy | +7 |
+| Summary (26 indicators) | **Sell** | |
+| Moving averages | Strong Sell | 1 up / 11 down |
+| Oscillators | Sell | 0 up / 1 down |
+| Six-family score | Strong Sell | -8 |
 
-RSI 60 | SuperTrend up
+RSI 44 | SuperTrend down
 
 ## Levels
 
-- Monthly pivot: 16.97
-- Nearest resistance: 18.13 (+2.4% away)
-- Nearest support: 16.97 (4.1% away)
+- Monthly pivot: 17.50
+- Nearest resistance: 17.50 (+12.9% away)
+- Nearest support: 14.50 (6.5% away)
 - 52-week range: 12.00 to 23.80
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 60 | SuperTrend up
 
 ## Track record
 
-4/13 resolved predictions reached their target
+15/41 resolved predictions reached their target
 <!-- vectora:end -->

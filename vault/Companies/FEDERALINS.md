@@ -3,7 +3,7 @@
 
 #posture/buy #sector/insurance #category/a
 
-**Insurance** | category A | as of [[Journal/2026-08-25|2026-08-25]]
+**Insurance** | category A | as of [[Journal/2026-09-21|2026-09-21]]
 
 Sector view: [[Sectors/Insurance|Insurance]]
 
@@ -12,17 +12,17 @@ Sector view: [[Sectors/Insurance|Insurance]]
 | gauge | verdict | detail |
 |---|---|---|
 | Summary (26 indicators) | **Buy** | |
-| Moving averages | Buy | 8 up / 5 down |
-| Oscillators | Hold | 1 up / 1 down |
-| Six-family score | Buy | +2 |
+| Moving averages | Strong Buy | 11 up / 2 down |
+| Oscillators | Sell | 0 up / 1 down |
+| Six-family score | Strong Sell | -6 |
 
-RSI 54 | SuperTrend up
+RSI 52 | SuperTrend down
 
 ## Levels
 
-- Monthly pivot: 28.67
-- Nearest resistance: 31.23 (+6.6% away)
-- Nearest support: 28.67 (2.2% away)
+- Monthly pivot: 29.40
+- Nearest resistance: 29.40 (+4.3% away)
+- Nearest support: 26.20 (7.1% away)
 - 52-week range: 16.10 to 32.60
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 54 | SuperTrend up
 
 ## Track record
 
-12/13 resolved predictions reached their target
+22/41 resolved predictions reached their target
 <!-- vectora:end -->

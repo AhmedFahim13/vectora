@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # ORIONINFU
 
-#posture/strong-sell #sector/pharmaceuticals-chemicals #category/a
+#posture/buy #sector/pharmaceuticals-chemicals #category/a
 
-**Pharmaceuticals & Chemicals** | category A | as of [[Journal/2026-08-25|2026-08-25]]
+**Pharmaceuticals & Chemicals** | category A | as of [[Journal/2026-09-21|2026-09-21]]
 
 Sector view: [[Sectors/Pharmaceuticals & Chemicals|Pharmaceuticals & Chemicals]]
 
@@ -11,19 +11,19 @@ Sector view: [[Sectors/Pharmaceuticals & Chemicals|Pharmaceuticals & Chemicals]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Strong Sell** | |
-| Moving averages | Strong Sell | 0 up / 13 down |
-| Oscillators | Sell | 0 up / 3 down |
-| Six-family score | Sell | -5 |
+| Summary (26 indicators) | **Buy** | |
+| Moving averages | Buy | 8 up / 5 down |
+| Oscillators | Buy | 2 up / 0 down |
+| Six-family score | Buy | +4 |
 
-RSI 25 | SuperTrend down
+RSI 61 | SuperTrend up
 
 ## Levels
 
-- Monthly pivot: 291.37
-- Nearest resistance: 291.00 (+27.9% away)
-- Nearest support: 226.90 (0.3% away)
-- 52-week range: 226.90 to 587.50
+- Monthly pivot: 241.53
+- Nearest resistance: 263.57 (+4.3% away)
+- Nearest support: 241.53 (4.4% away)
+- 52-week range: 159.00 to 587.50
 
 ## Fundamentals
 
@@ -34,5 +34,5 @@ RSI 25 | SuperTrend down
 
 ## Track record
 
-0/13 resolved predictions reached their target
+3/41 resolved predictions reached their target
 <!-- vectora:end -->

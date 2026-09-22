@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # INTRACO
 
-#posture/buy #sector/fuel-power #category/z
+#posture/strong-sell #sector/fuel-power #category/z
 
-**Fuel & Power** | category Z | as of [[Journal/2026-08-25|2026-08-25]]
+**Fuel & Power** | category Z | as of [[Journal/2026-09-21|2026-09-21]]
 
 Sector view: [[Sectors/Fuel & Power|Fuel & Power]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Fuel & Power|Fuel & Power]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Buy** | |
-| Moving averages | Strong Buy | 10 up / 3 down |
-| Oscillators | Sell | 0 up / 1 down |
-| Six-family score | Buy | +2 |
+| Summary (26 indicators) | **Strong Sell** | |
+| Moving averages | Strong Sell | 1 up / 11 down |
+| Oscillators | Sell | 0 up / 2 down |
+| Six-family score | Hold | +1 |
 
-RSI 54 | SuperTrend up
+RSI 41 | SuperTrend up
 
 ## Levels
 
-- Monthly pivot: 21.60
-- Nearest resistance: 23.10 (+2.2% away)
-- Nearest support: 21.60 (4.4% away)
+- Monthly pivot: 22.93
+- Nearest resistance: 22.93 (+4.2% away)
+- Nearest support: 21.27 (3.3% away)
 - 52-week range: 18.60 to 29.60
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 54 | SuperTrend up
 
 ## Track record
 
-9/13 resolved predictions reached their target
+11/41 resolved predictions reached their target
 <!-- vectora:end -->

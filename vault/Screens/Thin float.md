@@ -1,12 +1,13 @@
 <!-- vectora:begin -->
 # Thin float
 
-16 companies | as of [[Journal/2026-08-25|2026-08-25]]
+17 companies | as of [[Journal/2026-09-21|2026-09-21]]
 
 20% or less of the company can actually trade. This is a RISK list, never an opportunity list — a small float is what makes a price easy to push around.
 
 | company | why |
 |---|---|
+| [[BDSERVICE]] | only 0% of the company can trade — easier to move, easier to trap |
 | [[BERGERPBL]] | only 10% of the company can trade — easier to move, easier to trap |
 | [[BESTHLDNG]] | only 13% of the company can trade — easier to move, easier to trap |
 | [[DUTCHBANGL]] | only 16% of the company can trade — easier to move, easier to trap |

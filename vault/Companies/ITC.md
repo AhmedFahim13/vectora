@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # ITC
 
-#posture/buy #sector/it-sector #category/a
+#posture/hold #sector/it-sector #category/a
 
-**IT Sector** | category A | as of [[Journal/2026-08-25|2026-08-25]]
+**IT Sector** | category A | as of [[Journal/2026-09-21|2026-09-21]]
 
 Sector view: [[Sectors/IT Sector|IT Sector]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/IT Sector|IT Sector]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Buy** | |
-| Moving averages | Buy | 9 up / 4 down |
-| Oscillators | Sell | 1 up / 2 down |
-| Six-family score | Sell | -4 |
+| Summary (26 indicators) | **Hold** | |
+| Moving averages | Hold | 7 up / 6 down |
+| Oscillators | Sell | 0 up / 1 down |
+| Six-family score | Strong Sell | -6 |
 
-RSI 47 | SuperTrend down
+RSI 44 | SuperTrend down
 
 ## Levels
 
-- Monthly pivot: 52.17
-- Nearest resistance: 52.17 (+10.3% away)
-- Nearest support: 46.67 (1.3% away)
+- Monthly pivot: 48.13
+- Nearest resistance: 48.13 (+7.4% away)
+- Nearest support: 43.57 (2.8% away)
 - 52-week range: 33.70 to 55.00
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 47 | SuperTrend down
 
 ## Track record
 
-0/13 resolved predictions reached their target
+0/41 resolved predictions reached their target
 <!-- vectora:end -->

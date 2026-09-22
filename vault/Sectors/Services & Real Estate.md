@@ -1,19 +1,19 @@
 <!-- vectora:begin -->
 # Services & Real Estate
 
-#sector-note #phase/leading
+#sector-note #phase/lagging
 
-Phase: **Leading** | as of [[Journal/2026-08-25|2026-08-25]]
+Phase: **Lagging** | as of [[Journal/2026-09-21|2026-09-21]]
 
 | measure | value |
 |---|---|
-| 21-day return | +6.10% |
-| vs market, 21 days | +8.20% |
-| momentum | +14.15% |
-| 63-day return | +7.60% |
+| 21-day return | -11.28% |
+| vs market, 21 days | -5.41% |
+| momentum | -14.20% |
+| 63-day return | -1.18% |
 | constituents | 4 |
 
 ## Members, strongest first
 
-[[SAMORITA]] · [[SAPORTL]] · [[SAIFPOWER]] · [[EHL]]
+[[SAPORTL]] · [[SAMORITA]] · [[EHL]] · [[SAIFPOWER]]
 <!-- vectora:end -->

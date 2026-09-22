@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # ISLAMICFIN
 
-#posture/sell #sector/financial-institutions #category/z
+#posture/hold #sector/financial-institutions #category/z
 
-**Financial Institutions** | category Z | as of [[Journal/2026-08-25|2026-08-25]]
+**Financial Institutions** | category Z | as of [[Journal/2026-09-21|2026-09-21]]
 
 Sector view: [[Sectors/Financial Institutions|Financial Institutions]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Financial Institutions|Financial Institutions]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Sell** | |
-| Moving averages | Sell | 5 up / 8 down |
-| Oscillators | Sell | 2 up / 4 down |
-| Six-family score | Sell | -5 |
+| Summary (26 indicators) | **Hold** | |
+| Moving averages | Sell | 5 up / 7 down |
+| Oscillators | Hold | 1 up / 1 down |
+| Six-family score | Sell | -3 |
 
-RSI 38 | SuperTrend down
+RSI 44 | SuperTrend down
 
 ## Levels
 
-- Monthly pivot: 12.00
-- Nearest resistance: 12.00 (+9.1% away)
-- Nearest support: 10.70 (2.7% away)
+- Monthly pivot: 11.43
+- Nearest resistance: 11.43 (+4.9% away)
+- Nearest support: 10.50 (3.7% away)
 - 52-week range: 5.30 to 12.90
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 38 | SuperTrend down
 
 ## Track record
 
-1/13 resolved predictions reached their target
+3/41 resolved predictions reached their target
 <!-- vectora:end -->

@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # BIFC
 
-#posture/sell #sector/financial-institutions #category/z
+#posture/strong-sell #sector/financial-institutions #category/z
 
-**Financial Institutions** | category Z | as of [[Journal/2026-08-25|2026-08-25]]
+**Financial Institutions** | category Z | as of [[Journal/2026-09-21|2026-09-21]]
 
 Sector view: [[Sectors/Financial Institutions|Financial Institutions]]
 
@@ -11,19 +11,19 @@ Sector view: [[Sectors/Financial Institutions|Financial Institutions]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Sell** | |
-| Moving averages | Hold | 6 up / 7 down |
-| Oscillators | Strong Sell | 0 up / 4 down |
-| Six-family score | Sell | -3 |
+| Summary (26 indicators) | **Strong Sell** | |
+| Moving averages | Strong Sell | 1 up / 11 down |
+| Oscillators | Sell | 0 up / 3 down |
+| Six-family score | Sell | -5 |
 
-RSI 47 | SuperTrend down
+RSI 30 | SuperTrend down
 
 ## Levels
 
-- Monthly pivot: 4.70
-- Nearest resistance: 4.70 (+14.6% away)
-- Nearest support: 4.00 (2.4% away)
-- 52-week range: 0.90 to 8.20
+- Monthly pivot: 4.50
+- Nearest resistance: 4.40 (+22.2% away)
+- Nearest support: 3.60 (0.0% away)
+- 52-week range: 0.90 to 7.40
 
 ## Fundamentals
 
@@ -34,5 +34,5 @@ RSI 47 | SuperTrend down
 
 ## Track record
 
-1/10 resolved predictions reached their target
+2/27 resolved predictions reached their target
 <!-- vectora:end -->

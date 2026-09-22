@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # 1JANATAMF
 
-#posture/sell #sector/mutual-funds #category/a
+#posture/strong-buy #sector/mutual-funds #category/a
 
-**Mutual Funds** | category A | as of [[Journal/2026-08-25|2026-08-25]]
+**Mutual Funds** | category A | as of [[Journal/2026-09-21|2026-09-21]]
 
 Sector view: [[Sectors/Mutual Funds|Mutual Funds]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Mutual Funds|Mutual Funds]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Sell** | |
-| Moving averages | Hold | 7 up / 6 down |
-| Oscillators | Sell | 0 up / 3 down |
-| Six-family score | Sell | -4 |
+| Summary (26 indicators) | **Strong Buy** | |
+| Moving averages | Strong Buy | 13 up / 0 down |
+| Oscillators | Hold | 1 up / 1 down |
+| Six-family score | Sell | -2 |
 
-RSI 45 | SuperTrend down
+RSI 58 | SuperTrend down
 
 ## Levels
 
-- Monthly pivot: 3.73
-- Nearest resistance: 3.73 (+6.7% away)
-- Nearest support: 3.40 (2.9% away)
+- Monthly pivot: 3.67
+- Nearest resistance: 4.03 (+9.0% away)
+- Nearest support: 3.67 (0.9% away)
 - 52-week range: 2.10 to 4.30
 
 ## Fundamentals

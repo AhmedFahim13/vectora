@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # NCCBLMF1
 
-#posture/hold #sector/mutual-funds #category/a
+#posture/strong-buy #sector/mutual-funds #category/a
 
-**Mutual Funds** | category A | as of [[Journal/2026-08-25|2026-08-25]]
+**Mutual Funds** | category A | as of [[Journal/2026-09-21|2026-09-21]]
 
 Sector view: [[Sectors/Mutual Funds|Mutual Funds]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Mutual Funds|Mutual Funds]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Hold** | |
-| Moving averages | Hold | 7 up / 6 down |
-| Oscillators | Sell | 1 up / 2 down |
-| Six-family score | Hold | +1 |
+| Summary (26 indicators) | **Strong Buy** | |
+| Moving averages | Strong Buy | 13 up / 0 down |
+| Oscillators | Buy | 2 up / 0 down |
+| Six-family score | Hold | +0 |
 
-RSI 49 | SuperTrend up
+RSI 59 | SuperTrend down
 
 ## Levels
 
-- Monthly pivot: 6.67
-- Nearest resistance: 6.67 (+4.2% away)
-- Nearest support: 6.20 (3.1% away)
+- Monthly pivot: 6.50
+- Nearest resistance: 7.20 (+2.9% away)
+- Nearest support: 6.50 (7.1% away)
 - 52-week range: 3.10 to 8.00
 
 ## Fundamentals

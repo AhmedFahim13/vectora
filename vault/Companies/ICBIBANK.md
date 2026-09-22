@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # ICBIBANK
 
-#posture/sell #sector/bank #category/z
+#posture/strong-sell #sector/bank #category/z
 
-**Bank** | category Z | as of [[Journal/2026-08-25|2026-08-25]]
+**Bank** | category Z | as of [[Journal/2026-09-21|2026-09-21]]
 
 Sector view: [[Sectors/Bank|Bank]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Bank|Bank]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Sell** | |
-| Moving averages | Sell | 4 up / 9 down |
-| Oscillators | Sell | 0 up / 2 down |
-| Six-family score | Hold | +1 |
+| Summary (26 indicators) | **Strong Sell** | |
+| Moving averages | Strong Sell | 0 up / 12 down |
+| Oscillators | Sell | 0 up / 3 down |
+| Six-family score | Hold | -1 |
 
-RSI 46 | SuperTrend up
+RSI 35 | SuperTrend up
 
 ## Levels
 
-- Monthly pivot: 2.70
-- Nearest resistance: 2.70 (+3.8% away)
-- Nearest support: 2.50 (3.8% away)
+- Monthly pivot: 2.63
+- Nearest resistance: 2.63 (+5.3% away)
+- Nearest support: 2.47 (1.3% away)
 - 52-week range: 2.10 to 3.10
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 46 | SuperTrend up
 
 ## Track record
 
-0/5 resolved predictions reached their target
+0/19 resolved predictions reached their target
 <!-- vectora:end -->

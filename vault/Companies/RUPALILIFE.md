@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # RUPALILIFE
 
-#posture/strong-sell #sector/insurance #category/a
+#posture/sell #sector/insurance #category/a
 
-**Insurance** | category A | as of [[Journal/2026-08-25|2026-08-25]]
+**Insurance** | category A | as of [[Journal/2026-09-21|2026-09-21]]
 
 Sector view: [[Sectors/Insurance|Insurance]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Insurance|Insurance]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Strong Sell** | |
-| Moving averages | Strong Sell | 0 up / 13 down |
-| Oscillators | Sell | 3 up / 4 down |
+| Summary (26 indicators) | **Sell** | |
+| Moving averages | Strong Sell | 2 up / 11 down |
+| Oscillators | Hold | 1 up / 1 down |
 | Six-family score | Sell | -3 |
 
-RSI 31 | SuperTrend down
+RSI 42 | SuperTrend down
 
 ## Levels
 
-- Monthly pivot: 92.07
-- Nearest resistance: 92.07 (+18.2% away)
-- Nearest support: 76.00 (2.4% away)
+- Monthly pivot: 83.07
+- Nearest resistance: 83.07 (+8.0% away)
+- Nearest support: 71.90 (6.5% away)
 - 52-week range: 65.90 to 132.00
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 31 | SuperTrend down
 
 ## Track record
 
-2/13 resolved predictions reached their target
+4/41 resolved predictions reached their target
 <!-- vectora:end -->

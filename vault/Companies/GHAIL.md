@@ -3,7 +3,7 @@
 
 #posture/sell #sector/food-allied #category/b
 
-**Food & Allied** | category B | as of [[Journal/2026-08-25|2026-08-25]]
+**Food & Allied** | category B | as of [[Journal/2026-09-21|2026-09-21]]
 
 Sector view: [[Sectors/Food & Allied|Food & Allied]]
 
@@ -12,17 +12,17 @@ Sector view: [[Sectors/Food & Allied|Food & Allied]]
 | gauge | verdict | detail |
 |---|---|---|
 | Summary (26 indicators) | **Sell** | |
-| Moving averages | Sell | 5 up / 8 down |
-| Oscillators | Sell | 2 up / 4 down |
+| Moving averages | Strong Sell | 3 up / 10 down |
+| Oscillators | Hold | 1 up / 1 down |
 | Six-family score | Sell | -5 |
 
-RSI 38 | SuperTrend down
+RSI 43 | SuperTrend down
 
 ## Levels
 
-- Monthly pivot: 15.83
-- Nearest resistance: 15.83 (+15.6% away)
-- Nearest support: 13.67 (0.2% away)
+- Monthly pivot: 14.50
+- Nearest resistance: 14.50 (+13.3% away)
+- Nearest support: 12.20 (4.7% away)
 - 52-week range: 10.00 to 16.80
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 38 | SuperTrend down
 
 ## Track record
 
-3/13 resolved predictions reached their target
+3/41 resolved predictions reached their target
 <!-- vectora:end -->

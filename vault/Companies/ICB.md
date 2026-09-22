@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # ICB
 
-#posture/strong-sell #sector/financial-institutions #category/b #risk/thin-float
+#posture/sell #sector/financial-institutions #category/b #risk/thin-float
 
-**Financial Institutions** | category B | as of [[Journal/2026-08-25|2026-08-25]]
+**Financial Institutions** | category B | as of [[Journal/2026-09-21|2026-09-21]]
 
 Sector view: [[Sectors/Financial Institutions|Financial Institutions]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Financial Institutions|Financial Institutions]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Strong Sell** | |
-| Moving averages | Strong Sell | 1 up / 12 down |
-| Oscillators | Sell | 2 up / 4 down |
-| Six-family score | Sell | -5 |
+| Summary (26 indicators) | **Sell** | |
+| Moving averages | Strong Sell | 3 up / 10 down |
+| Oscillators | Hold | 1 up / 1 down |
+| Six-family score | Sell | -3 |
 
-RSI 34 | SuperTrend down
+RSI 42 | SuperTrend down
 
 ## Levels
 
-- Monthly pivot: 47.37
-- Nearest resistance: 47.37 (+13.3% away)
-- Nearest support: 41.00 (1.9% away)
+- Monthly pivot: 43.40
+- Nearest resistance: 43.40 (+8.0% away)
+- Nearest support: 39.60 (1.5% away)
 - 52-week range: 33.70 to 59.80
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 34 | SuperTrend down
 
 ## Track record
 
-0/13 resolved predictions reached their target
+0/41 resolved predictions reached their target
 <!-- vectora:end -->

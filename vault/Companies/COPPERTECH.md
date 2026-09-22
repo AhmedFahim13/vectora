@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # COPPERTECH
 
-#posture/sell #sector/engineering #category/b
+#posture/hold #sector/engineering #category/b
 
-**Engineering** | category B | as of [[Journal/2026-08-25|2026-08-25]]
+**Engineering** | category B | as of [[Journal/2026-09-21|2026-09-21]]
 
 Sector view: [[Sectors/Engineering|Engineering]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Engineering|Engineering]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Sell** | |
-| Moving averages | Sell | 5 up / 8 down |
-| Oscillators | Sell | 0 up / 3 down |
-| Six-family score | Sell | -5 |
+| Summary (26 indicators) | **Hold** | |
+| Moving averages | Hold | 6 up / 7 down |
+| Oscillators | Hold | 1 up / 1 down |
+| Six-family score | Sell | -3 |
 
-RSI 38 | SuperTrend down
+RSI 45 | SuperTrend down
 
 ## Levels
 
-- Monthly pivot: 27.30
-- Nearest resistance: 27.30 (+13.3% away)
-- Nearest support: 24.00 (0.4% away)
+- Monthly pivot: 26.00
+- Nearest resistance: 26.00 (+14.0% away)
+- Nearest support: 21.40 (6.1% away)
 - 52-week range: 16.20 to 30.60
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 38 | SuperTrend down
 
 ## Track record
 
-5/13 resolved predictions reached their target
+8/41 resolved predictions reached their target
 <!-- vectora:end -->

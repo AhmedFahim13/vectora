@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # KPCL
 
-#posture/hold #sector/fuel-power #category/z
+#posture/sell #sector/fuel-power #category/z
 
-**Fuel & Power** | category Z | as of [[Journal/2026-08-25|2026-08-25]]
+**Fuel & Power** | category Z | as of [[Journal/2026-09-21|2026-09-21]]
 
 Sector view: [[Sectors/Fuel & Power|Fuel & Power]]
 
@@ -11,19 +11,19 @@ Sector view: [[Sectors/Fuel & Power|Fuel & Power]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Hold** | |
-| Moving averages | Hold | 6 up / 7 down |
-| Oscillators | Hold | 1 up / 1 down |
-| Six-family score | Hold | +1 |
+| Summary (26 indicators) | **Sell** | |
+| Moving averages | Strong Sell | 2 up / 10 down |
+| Oscillators | Sell | 0 up / 1 down |
+| Six-family score | Strong Sell | -6 |
 
-RSI 48 | SuperTrend up
+RSI 45 | SuperTrend down
 
 ## Levels
 
-- Monthly pivot: 10.60
-- Nearest resistance: 11.10 (+1.8% away)
-- Nearest support: 10.60 (2.8% away)
-- 52-week range: 9.00 to 15.50
+- Monthly pivot: 11.47
+- Nearest resistance: 11.47 (+8.2% away)
+- Nearest support: 10.53 (0.6% away)
+- 52-week range: 9.00 to 14.10
 
 ## Fundamentals
 
@@ -34,5 +34,5 @@ RSI 48 | SuperTrend up
 
 ## Track record
 
-11/13 resolved predictions reached their target
+24/41 resolved predictions reached their target
 <!-- vectora:end -->

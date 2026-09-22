@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # CRYSTALINS
 
-#posture/sell #sector/insurance #category/a
+#posture/strong-buy #sector/insurance #category/a
 
-**Insurance** | category A | as of [[Journal/2026-08-25|2026-08-25]]
+**Insurance** | category A | as of [[Journal/2026-09-21|2026-09-21]]
 
 Sector view: [[Sectors/Insurance|Insurance]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Insurance|Insurance]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Sell** | |
-| Moving averages | Sell | 4 up / 8 down |
-| Oscillators | Sell | 1 up / 4 down |
-| Six-family score | Sell | -3 |
+| Summary (26 indicators) | **Strong Buy** | |
+| Moving averages | Strong Buy | 12 up / 0 down |
+| Oscillators | Buy | 2 up / 0 down |
+| Six-family score | Buy | +2 |
 
-RSI 40 | SuperTrend down
+RSI 62 | SuperTrend up
 
 ## Levels
 
-- Monthly pivot: 69.77
-- Nearest resistance: 69.77 (+6.5% away)
-- Nearest support: 65.03 (0.7% away)
+- Monthly pivot: 65.33
+- Nearest resistance: 69.27 (+1.3% away)
+- Nearest support: 65.33 (4.5% away)
 - 52-week range: 36.00 to 82.90
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 40 | SuperTrend down
 
 ## Track record
 
-0/13 resolved predictions reached their target
+2/41 resolved predictions reached their target
 <!-- vectora:end -->

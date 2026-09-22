@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # APEXSPINN
 
-#posture/sell #sector/textile #category/a
+#posture/strong-buy #sector/textile #category/a
 
-**Textile** | category A | as of [[Journal/2026-08-25|2026-08-25]]
+**Textile** | category A | as of [[Journal/2026-09-21|2026-09-21]]
 
 Sector view: [[Sectors/Textile|Textile]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Textile|Textile]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Sell** | |
-| Moving averages | Hold | 7 up / 6 down |
-| Oscillators | Sell | 0 up / 3 down |
-| Six-family score | Hold | +1 |
+| Summary (26 indicators) | **Strong Buy** | |
+| Moving averages | Strong Buy | 11 up / 1 down |
+| Oscillators | Buy | 2 up / 0 down |
+| Six-family score | Buy | +3 |
 
-RSI 47 | SuperTrend up
+RSI 55 | SuperTrend up
 
 ## Levels
 
-- Monthly pivot: 384.10
-- Nearest resistance: 377.90 (+13.8% away)
-- Nearest support: 330.00 (0.6% away)
+- Monthly pivot: 348.77
+- Nearest resistance: 348.77 (+6.2% away)
+- Nearest support: 325.13 (1.0% away)
 - 52-week range: 73.70 to 433.00
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 47 | SuperTrend up
 
 ## Track record
 
-2/13 resolved predictions reached their target
+6/41 resolved predictions reached their target
 <!-- vectora:end -->

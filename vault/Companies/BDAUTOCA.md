@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # BDAUTOCA
 
-#posture/hold #sector/engineering #category/b
+#posture/sell #sector/engineering #category/b
 
-**Engineering** | category B | as of [[Journal/2026-08-25|2026-08-25]]
+**Engineering** | category B | as of [[Journal/2026-09-21|2026-09-21]]
 
 Sector view: [[Sectors/Engineering|Engineering]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Engineering|Engineering]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Hold** | |
-| Moving averages | Hold | 7 up / 6 down |
-| Oscillators | Hold | 2 up / 2 down |
-| Six-family score | Sell | -3 |
+| Summary (26 indicators) | **Sell** | |
+| Moving averages | Hold | 6 up / 6 down |
+| Oscillators | Sell | 0 up / 3 down |
+| Six-family score | Strong Sell | -7 |
 
-RSI 50 | SuperTrend down
+RSI 41 | SuperTrend down
 
 ## Levels
 
-- Monthly pivot: 212.40
-- Nearest resistance: 212.40 (+3.4% away)
-- Nearest support: 203.00 (1.2% away)
+- Monthly pivot: 206.07
+- Nearest resistance: 206.07 (+15.2% away)
+- Nearest support: 177.33 (0.8% away)
 - 52-week range: 80.10 to 234.80
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 50 | SuperTrend down
 
 ## Track record
 
-12/13 resolved predictions reached their target
+16/41 resolved predictions reached their target
 <!-- vectora:end -->

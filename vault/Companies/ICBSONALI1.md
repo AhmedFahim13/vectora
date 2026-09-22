@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # ICBSONALI1
 
-#posture/sell #sector/mutual-funds #category/a
+#posture/strong-buy #sector/mutual-funds #category/a
 
-**Mutual Funds** | category A | as of [[Journal/2026-08-25|2026-08-25]]
+**Mutual Funds** | category A | as of [[Journal/2026-09-21|2026-09-21]]
 
 Sector view: [[Sectors/Mutual Funds|Mutual Funds]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Mutual Funds|Mutual Funds]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Sell** | |
-| Moving averages | Hold | 6 up / 7 down |
-| Oscillators | Strong Sell | 0 up / 4 down |
-| Six-family score | Sell | -5 |
+| Summary (26 indicators) | **Strong Buy** | |
+| Moving averages | Strong Buy | 13 up / 0 down |
+| Oscillators | Buy | 3 up / 1 down |
+| Six-family score | Hold | +1 |
 
-RSI 41 | SuperTrend down
+RSI 73 | SuperTrend up
 
 ## Levels
 
-- Monthly pivot: 6.33
-- Nearest resistance: 6.33 (+9.2% away)
-- Nearest support: 5.77 (0.6% away)
+- Monthly pivot: 6.40
+- Nearest resistance: 8.80 (+7.3% away)
+- Nearest support: 6.40 (22.0% away)
 - 52-week range: 3.80 to 7.90
 
 ## Fundamentals

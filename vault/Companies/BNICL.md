@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # BNICL
 
-#posture/hold #sector/insurance #category/a
+#posture/strong-buy #sector/insurance #category/a
 
-**Insurance** | category A | as of [[Journal/2026-08-25|2026-08-25]]
+**Insurance** | category A | as of [[Journal/2026-09-21|2026-09-21]]
 
 Sector view: [[Sectors/Insurance|Insurance]]
 
@@ -11,19 +11,19 @@ Sector view: [[Sectors/Insurance|Insurance]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Hold** | |
-| Moving averages | Hold | 7 up / 6 down |
-| Oscillators | Sell | 1 up / 2 down |
-| Six-family score | Hold | +1 |
+| Summary (26 indicators) | **Strong Buy** | |
+| Moving averages | Strong Buy | 13 up / 0 down |
+| Oscillators | Buy | 3 up / 2 down |
+| Six-family score | Buy | +3 |
 
-RSI 52 | SuperTrend up
+RSI 77 | SuperTrend up
 
 ## Levels
 
-- Monthly pivot: 114.53
-- Nearest resistance: 114.53 (+4.4% away)
-- Nearest support: 108.90 (0.7% away)
-- 52-week range: 34.00 to 124.70
+- Monthly pivot: 111.17
+- Nearest resistance: 156.90 (+2.1% away)
+- Nearest support: 111.17 (27.7% away)
+- 52-week range: 34.00 to 156.90
 
 ## Fundamentals
 
@@ -34,5 +34,5 @@ RSI 52 | SuperTrend up
 
 ## Track record
 
-2/13 resolved predictions reached their target
+17/41 resolved predictions reached their target
 <!-- vectora:end -->

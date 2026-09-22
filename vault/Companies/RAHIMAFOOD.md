@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # RAHIMAFOOD
 
-#posture/strong-sell #sector/food-allied #category/z
+#posture/sell #sector/food-allied #category/z
 
-**Food & Allied** | category Z | as of [[Journal/2026-08-25|2026-08-25]]
+**Food & Allied** | category Z | as of [[Journal/2026-09-21|2026-09-21]]
 
 Sector view: [[Sectors/Food & Allied|Food & Allied]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Food & Allied|Food & Allied]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Strong Sell** | |
-| Moving averages | Strong Sell | 0 up / 13 down |
+| Summary (26 indicators) | **Sell** | |
+| Moving averages | Sell | 5 up / 8 down |
 | Oscillators | Sell | 1 up / 2 down |
-| Six-family score | Hold | +0 |
+| Six-family score | Sell | -3 |
 
-RSI 27 | SuperTrend down
+RSI 45 | SuperTrend down
 
 ## Levels
 
-- Monthly pivot: 89.53
-- Nearest resistance: 89.53 (+18.1% away)
-- Nearest support: 67.33 (11.2% away)
+- Monthly pivot: 77.50
+- Nearest resistance: 77.50 (+4.7% away)
+- Nearest support: 66.00 (10.8% away)
 - 52-week range: 64.60 to 174.00
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 27 | SuperTrend down
 
 ## Track record
 
-5/13 resolved predictions reached their target
+9/41 resolved predictions reached their target
 <!-- vectora:end -->
