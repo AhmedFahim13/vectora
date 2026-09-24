@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # HAKKANIPUL
 
-#posture/sell #sector/paper-printing #category/b
+#posture/buy #sector/paper-printing #category/b
 
-**Paper & Printing** | category B | as of [[Journal/2026-09-21|2026-09-21]]
+**Paper & Printing** | category B | as of [[Journal/2026-09-23|2026-09-23]]
 
 Sector view: [[Sectors/Paper & Printing|Paper & Printing]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Paper & Printing|Paper & Printing]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Sell** | |
-| Moving averages | Sell | 4 up / 9 down |
-| Oscillators | Sell | 1 up / 2 down |
+| Summary (26 indicators) | **Buy** | |
+| Moving averages | Buy | 8 up / 5 down |
+| Oscillators | Hold | 1 up / 1 down |
 | Six-family score | Sell | -2 |
 
-RSI 46 | SuperTrend down
+RSI 51 | SuperTrend down
 
 ## Levels
 
 - Monthly pivot: 77.87
-- Nearest resistance: 77.87 (+8.9% away)
-- Nearest support: 70.03 (2.1% away)
+- Nearest resistance: 77.30 (+5.9% away)
+- Nearest support: 70.03 (4.1% away)
 - 52-week range: 51.20 to 94.90
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 46 | SuperTrend down
 
 ## Track record
 
-1/41 resolved predictions reached their target
+1/45 resolved predictions reached their target
 <!-- vectora:end -->

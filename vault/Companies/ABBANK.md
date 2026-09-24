@@ -3,7 +3,7 @@
 
 #posture/strong-sell #sector/bank #category/z
 
-**Bank** | category Z | as of [[Journal/2026-09-21|2026-09-21]]
+**Bank** | category Z | as of [[Journal/2026-09-23|2026-09-23]]
 
 Sector view: [[Sectors/Bank|Bank]]
 
@@ -13,10 +13,10 @@ Sector view: [[Sectors/Bank|Bank]]
 |---|---|---|
 | Summary (26 indicators) | **Strong Sell** | |
 | Moving averages | Strong Sell | 0 up / 13 down |
-| Oscillators | Hold | 1 up / 1 down |
-| Six-family score | Sell | -3 |
+| Oscillators | Sell | 1 up / 2 down |
+| Six-family score | Sell | -2 |
 
-RSI 44 | SuperTrend down
+RSI 45 | SuperTrend down
 
 ## Levels
 
@@ -34,5 +34,5 @@ RSI 44 | SuperTrend down
 
 ## Track record
 
-2/41 resolved predictions reached their target
+4/45 resolved predictions reached their target
 <!-- vectora:end -->

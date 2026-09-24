@@ -3,7 +3,7 @@
 
 #posture/hold #sector/debenture #category/a
 
-**Debenture** | category A | as of [[Journal/2026-09-21|2026-09-21]]
+**Debenture** | category A | as of [[Journal/2026-09-23|2026-09-23]]
 
 Sector view: [[Sectors/Debenture|Debenture]]
 

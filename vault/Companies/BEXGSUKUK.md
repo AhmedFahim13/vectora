@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # BEXGSUKUK
 
-#posture/hold #sector/corporate-bond #category/a
+#posture/sell #sector/corporate-bond #category/a
 
-**Corporate Bond** | category A | as of [[Journal/2026-09-21|2026-09-21]]
+**Corporate Bond** | category A | as of [[Journal/2026-09-23|2026-09-23]]
 
 Sector view: [[Sectors/Corporate Bond|Corporate Bond]]
 
@@ -11,9 +11,9 @@ Sector view: [[Sectors/Corporate Bond|Corporate Bond]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Hold** | |
-| Moving averages | Buy | 7 up / 5 down |
-| Oscillators | Hold | 1 up / 1 down |
+| Summary (26 indicators) | **Sell** | |
+| Moving averages | Sell | 5 up / 7 down |
+| Oscillators | Sell | 0 up / 1 down |
 | Six-family score | Hold | +0 |
 
 RSI 51 | SuperTrend up

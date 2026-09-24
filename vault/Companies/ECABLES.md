@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # ECABLES
 
-#posture/strong-sell #sector/engineering #category/b
+#posture/sell #sector/engineering #category/b
 
-**Engineering** | category B | as of [[Journal/2026-09-21|2026-09-21]]
+**Engineering** | category B | as of [[Journal/2026-09-23|2026-09-23]]
 
 Sector view: [[Sectors/Engineering|Engineering]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Engineering|Engineering]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Strong Sell** | |
-| Moving averages | Strong Sell | 0 up / 13 down |
-| Oscillators | Sell | 0 up / 2 down |
+| Summary (26 indicators) | **Sell** | |
+| Moving averages | Strong Sell | 2 up / 11 down |
+| Oscillators | Sell | 0 up / 1 down |
 | Six-family score | Strong Sell | -7 |
 
-RSI 34 | SuperTrend down
+RSI 40 | SuperTrend down
 
 ## Levels
 
 - Monthly pivot: 138.93
-- Nearest resistance: 138.93 (+14.8% away)
-- Nearest support: 119.00 (1.7% away)
+- Nearest resistance: 138.93 (+12.6% away)
+- Nearest support: 123.07 (0.3% away)
 - 52-week range: 99.00 to 157.70
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 34 | SuperTrend down
 
 ## Track record
 
-7/41 resolved predictions reached their target
+7/45 resolved predictions reached their target
 <!-- vectora:end -->

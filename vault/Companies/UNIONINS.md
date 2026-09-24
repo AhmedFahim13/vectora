@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # UNIONINS
 
-#posture/hold #sector/insurance #category/a
+#posture/sell #sector/insurance #category/a
 
-**Insurance** | category A | as of [[Journal/2026-09-21|2026-09-21]]
+**Insurance** | category A | as of [[Journal/2026-09-23|2026-09-23]]
 
 Sector view: [[Sectors/Insurance|Insurance]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Insurance|Insurance]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Hold** | |
-| Moving averages | Buy | 8 up / 4 down |
+| Summary (26 indicators) | **Sell** | |
+| Moving averages | Sell | 5 up / 7 down |
 | Oscillators | Sell | 0 up / 1 down |
 | Six-family score | Sell | -5 |
 
-RSI 48 | SuperTrend down
+RSI 45 | SuperTrend down
 
 ## Levels
 
 - Monthly pivot: 49.97
-- Nearest resistance: 49.97 (+4.5% away)
-- Nearest support: 44.40 (7.1% away)
+- Nearest resistance: 49.97 (+5.9% away)
+- Nearest support: 44.40 (5.9% away)
 - 52-week range: 24.20 to 57.00
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 48 | SuperTrend down
 
 ## Track record
 
-7/41 resolved predictions reached their target
+7/45 resolved predictions reached their target
 <!-- vectora:end -->

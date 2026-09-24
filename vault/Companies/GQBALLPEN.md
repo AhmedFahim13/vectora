@@ -3,7 +3,7 @@
 
 #posture/strong-buy #sector/miscellaneous #category/a
 
-**Miscellaneous** | category A | as of [[Journal/2026-09-21|2026-09-21]]
+**Miscellaneous** | category A | as of [[Journal/2026-09-23|2026-09-23]]
 
 Sector view: [[Sectors/Miscellaneous|Miscellaneous]]
 
@@ -13,16 +13,16 @@ Sector view: [[Sectors/Miscellaneous|Miscellaneous]]
 |---|---|---|
 | Summary (26 indicators) | **Strong Buy** | |
 | Moving averages | Strong Buy | 13 up / 0 down |
-| Oscillators | Buy | 2 up / 1 down |
-| Six-family score | Hold | +1 |
+| Oscillators | Buy | 2 up / 0 down |
+| Six-family score | Buy | +4 |
 
-RSI 62 | SuperTrend down
+RSI 64 | SuperTrend up
 
 ## Levels
 
 - Monthly pivot: 561.07
-- Nearest resistance: 617.13 (+2.7% away)
-- Nearest support: 561.07 (6.6% away)
+- Nearest resistance: 617.13 (+0.8% away)
+- Nearest support: 561.07 (8.3% away)
 - 52-week range: 144.00 to 646.00
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 62 | SuperTrend down
 
 ## Track record
 
-10/41 resolved predictions reached their target
+10/45 resolved predictions reached their target
 <!-- vectora:end -->

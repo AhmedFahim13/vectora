@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # PENINSULA
 
-#posture/sell #sector/travel-leisure #category/b
+#posture/buy #sector/travel-leisure #category/b
 
-**Travel & Leisure** | category B | as of [[Journal/2026-09-21|2026-09-21]]
+**Travel & Leisure** | category B | as of [[Journal/2026-09-23|2026-09-23]]
 
 Sector view: [[Sectors/Travel & Leisure|Travel & Leisure]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Travel & Leisure|Travel & Leisure]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Sell** | |
-| Moving averages | Sell | 4 up / 9 down |
+| Summary (26 indicators) | **Buy** | |
+| Moving averages | Strong Buy | 10 up / 2 down |
 | Oscillators | Hold | 1 up / 1 down |
-| Six-family score | Sell | -4 |
+| Six-family score | Hold | +0 |
 
-RSI 43 | SuperTrend down
+RSI 50 | SuperTrend down
 
 ## Levels
 
 - Monthly pivot: 22.23
-- Nearest resistance: 22.23 (+7.9% away)
-- Nearest support: 19.70 (4.4% away)
+- Nearest resistance: 22.23 (+3.4% away)
+- Nearest support: 19.70 (8.4% away)
 - 52-week range: 10.00 to 26.00
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 43 | SuperTrend down
 
 ## Track record
 
-2/41 resolved predictions reached their target
+2/45 resolved predictions reached their target
 <!-- vectora:end -->

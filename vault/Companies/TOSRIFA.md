@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # TOSRIFA
 
-#posture/strong-sell #sector/textile #category/b
+#posture/buy #sector/textile #category/b
 
-**Textile** | category B | as of [[Journal/2026-09-21|2026-09-21]]
+**Textile** | category B | as of [[Journal/2026-09-23|2026-09-23]]
 
 Sector view: [[Sectors/Textile|Textile]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Textile|Textile]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Strong Sell** | |
-| Moving averages | Strong Sell | 1 up / 12 down |
-| Oscillators | Sell | 0 up / 2 down |
-| Six-family score | Strong Sell | -7 |
+| Summary (26 indicators) | **Buy** | |
+| Moving averages | Strong Buy | 11 up / 2 down |
+| Oscillators | Buy | 2 up / 0 down |
+| Six-family score | Hold | +0 |
 
-RSI 40 | SuperTrend down
+RSI 55 | SuperTrend down
 
 ## Levels
 
 - Monthly pivot: 22.03
-- Nearest resistance: 22.03 (+17.8% away)
-- Nearest support: 17.73 (5.2% away)
+- Nearest resistance: 22.03 (+6.4% away)
+- Nearest support: 19.37 (6.4% away)
 - 52-week range: 13.90 to 26.30
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 40 | SuperTrend down
 
 ## Track record
 
-3/41 resolved predictions reached their target
+4/45 resolved predictions reached their target
 <!-- vectora:end -->

@@ -3,7 +3,7 @@
 
 #posture/sell #sector/miscellaneous #category/z
 
-**Miscellaneous** | category Z | as of [[Journal/2026-09-21|2026-09-21]]
+**Miscellaneous** | category Z | as of [[Journal/2026-09-23|2026-09-23]]
 
 Sector view: [[Sectors/Miscellaneous|Miscellaneous]]
 

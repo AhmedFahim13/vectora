@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # STYLECRAFT
 
-#posture/sell #sector/textile #category/z
+#posture/hold #sector/textile #category/z
 
-**Textile** | category Z | as of [[Journal/2026-09-21|2026-09-21]]
+**Textile** | category Z | as of [[Journal/2026-09-23|2026-09-23]]
 
 Sector view: [[Sectors/Textile|Textile]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Textile|Textile]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Sell** | |
-| Moving averages | Sell | 5 up / 8 down |
+| Summary (26 indicators) | **Hold** | |
+| Moving averages | Hold | 7 up / 6 down |
 | Oscillators | Hold | 1 up / 1 down |
-| Six-family score | Sell | -3 |
+| Six-family score | Sell | -2 |
 
-RSI 48 | SuperTrend down
+RSI 49 | SuperTrend down
 
 ## Levels
 
 - Monthly pivot: 56.73
-- Nearest resistance: 56.73 (+6.0% away)
-- Nearest support: 51.47 (3.8% away)
+- Nearest resistance: 56.73 (+5.6% away)
+- Nearest support: 51.47 (4.2% away)
 - 52-week range: 40.30 to 89.20
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 48 | SuperTrend down
 
 ## Track record
 
-2/41 resolved predictions reached their target
+2/43 resolved predictions reached their target
 <!-- vectora:end -->

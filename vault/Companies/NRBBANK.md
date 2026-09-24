@@ -3,7 +3,7 @@
 
 #posture/buy #sector/bank #category/z #risk/thin-float
 
-**Bank** | category Z | as of [[Journal/2026-09-21|2026-09-21]]
+**Bank** | category Z | as of [[Journal/2026-09-23|2026-09-23]]
 
 Sector view: [[Sectors/Bank|Bank]]
 
@@ -34,5 +34,5 @@ RSI 50 | SuperTrend up
 
 ## Track record
 
-9/41 resolved predictions reached their target
+9/45 resolved predictions reached their target
 <!-- vectora:end -->

@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # DOMINAGE
 
-#posture/sell #sector/engineering #category/b
+#posture/strong-buy #sector/engineering #category/b
 
-**Engineering** | category B | as of [[Journal/2026-09-21|2026-09-21]]
+**Engineering** | category B | as of [[Journal/2026-09-23|2026-09-23]]
 
 Sector view: [[Sectors/Engineering|Engineering]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Engineering|Engineering]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Sell** | |
-| Moving averages | Sell | 4 up / 8 down |
-| Oscillators | Sell | 0 up / 2 down |
-| Six-family score | Strong Sell | -7 |
+| Summary (26 indicators) | **Strong Buy** | |
+| Moving averages | Strong Buy | 11 up / 1 down |
+| Oscillators | Buy | 2 up / 0 down |
+| Six-family score | Sell | -2 |
 
-RSI 40 | SuperTrend down
+RSI 58 | SuperTrend down
 
 ## Levels
 
 - Monthly pivot: 70.33
-- Nearest resistance: 65.20 (+8.5% away)
-- Nearest support: 56.10 (6.7% away)
+- Nearest resistance: 70.33 (+3.9% away)
+- Nearest support: 56.10 (17.1% away)
 - 52-week range: 9.60 to 89.70
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 40 | SuperTrend down
 
 ## Track record
 
-6/41 resolved predictions reached their target
+8/45 resolved predictions reached their target
 <!-- vectora:end -->

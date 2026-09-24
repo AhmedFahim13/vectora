@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # NTLTUBES
 
-#posture/strong-sell #sector/engineering #category/b
+#posture/hold #sector/engineering #category/b
 
-**Engineering** | category B | as of [[Journal/2026-09-21|2026-09-21]]
+**Engineering** | category B | as of [[Journal/2026-09-23|2026-09-23]]
 
 Sector view: [[Sectors/Engineering|Engineering]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Engineering|Engineering]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Strong Sell** | |
-| Moving averages | Strong Sell | 0 up / 13 down |
-| Oscillators | Sell | 0 up / 2 down |
-| Six-family score | Strong Sell | -8 |
+| Summary (26 indicators) | **Hold** | |
+| Moving averages | Hold | 6 up / 7 down |
+| Oscillators | Hold | 1 up / 1 down |
+| Six-family score | Sell | -2 |
 
-RSI 35 | SuperTrend down
+RSI 49 | SuperTrend down
 
 ## Levels
 
 - Monthly pivot: 66.87
-- Nearest resistance: 66.87 (+10.5% away)
-- Nearest support: 60.17 (0.6% away)
+- Nearest resistance: 66.87 (+5.8% away)
+- Nearest support: 62.53 (1.1% away)
 - 52-week range: 56.50 to 91.80
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 35 | SuperTrend down
 
 ## Track record
 
-0/41 resolved predictions reached their target
+0/45 resolved predictions reached their target
 <!-- vectora:end -->

@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # STANCERAM
 
-#posture/sell #sector/ceramics-sector #category/z
+#posture/strong-sell #sector/ceramics-sector #category/z
 
-**Ceramics Sector** | category Z | as of [[Journal/2026-09-21|2026-09-21]]
+**Ceramics Sector** | category Z | as of [[Journal/2026-09-23|2026-09-23]]
 
 Sector view: [[Sectors/Ceramics Sector|Ceramics Sector]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Ceramics Sector|Ceramics Sector]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Sell** | |
-| Moving averages | Strong Sell | 3 up / 10 down |
+| Summary (26 indicators) | **Strong Sell** | |
+| Moving averages | Strong Sell | 0 up / 13 down |
 | Oscillators | Sell | 0 up / 2 down |
-| Six-family score | Sell | -5 |
+| Six-family score | Strong Sell | -7 |
 
-RSI 46 | SuperTrend down
+RSI 42 | SuperTrend down
 
 ## Levels
 
 - Monthly pivot: 69.37
-- Nearest resistance: 69.37 (+4.2% away)
-- Nearest support: 62.10 (6.8% away)
+- Nearest resistance: 69.37 (+6.9% away)
+- Nearest support: 62.10 (4.3% away)
 - 52-week range: 55.60 to 106.50
 
 ## Fundamentals

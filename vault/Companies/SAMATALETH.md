@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # SAMATALETH
 
-#posture/strong-sell #sector/tannery-industries #category/b
+#posture/hold #sector/tannery-industries #category/b
 
-**Tannery Industries** | category B | as of [[Journal/2026-09-21|2026-09-21]]
+**Tannery Industries** | category B | as of [[Journal/2026-09-23|2026-09-23]]
 
 Sector view: [[Sectors/Tannery Industries|Tannery Industries]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Tannery Industries|Tannery Industries]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Strong Sell** | |
-| Moving averages | Strong Sell | 0 up / 13 down |
-| Oscillators | Sell | 1 up / 2 down |
-| Six-family score | Sell | -4 |
+| Summary (26 indicators) | **Hold** | |
+| Moving averages | Hold | 7 up / 6 down |
+| Oscillators | Hold | 1 up / 1 down |
+| Six-family score | Sell | -2 |
 
-RSI 39 | SuperTrend down
+RSI 48 | SuperTrend down
 
 ## Levels
 
 - Monthly pivot: 96.97
-- Nearest resistance: 96.97 (+21.5% away)
-- Nearest support: 72.17 (9.6% away)
+- Nearest resistance: 95.80 (+11.3% away)
+- Nearest support: 81.03 (5.9% away)
 - 52-week range: 41.10 to 127.20
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 39 | SuperTrend down
 
 ## Track record
 
-7/41 resolved predictions reached their target
+7/45 resolved predictions reached their target
 <!-- vectora:end -->

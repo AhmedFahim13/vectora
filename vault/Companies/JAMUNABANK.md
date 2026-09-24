@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # JAMUNABANK
 
-#posture/hold #sector/bank #category/a
+#posture/sell #sector/bank #category/a
 
-**Bank** | category A | as of [[Journal/2026-09-21|2026-09-21]]
+**Bank** | category A | as of [[Journal/2026-09-23|2026-09-23]]
 
 Sector view: [[Sectors/Bank|Bank]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Bank|Bank]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Hold** | |
-| Moving averages | Buy | 7 up / 5 down |
+| Summary (26 indicators) | **Sell** | |
+| Moving averages | Sell | 5 up / 7 down |
 | Oscillators | Sell | 0 up / 2 down |
 | Six-family score | Strong Sell | -7 |
 
-RSI 45 | SuperTrend down
+RSI 40 | SuperTrend down
 
 ## Levels
 
 - Monthly pivot: 24.27
-- Nearest resistance: 24.27 (+4.1% away)
-- Nearest support: 23.03 (1.1% away)
+- Nearest resistance: 24.27 (+5.5% away)
+- Nearest support: 22.40 (2.6% away)
 - 52-week range: 15.60 to 24.70
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 45 | SuperTrend down
 
 ## Track record
 
-0/41 resolved predictions reached their target
+0/45 resolved predictions reached their target
 <!-- vectora:end -->

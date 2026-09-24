@@ -3,7 +3,7 @@
 
 #posture/sell #sector/food-allied #category/z
 
-**Food & Allied** | category Z | as of [[Journal/2026-09-21|2026-09-21]]
+**Food & Allied** | category Z | as of [[Journal/2026-09-23|2026-09-23]]
 
 Sector view: [[Sectors/Food & Allied|Food & Allied]]
 
@@ -12,11 +12,11 @@ Sector view: [[Sectors/Food & Allied|Food & Allied]]
 | gauge | verdict | detail |
 |---|---|---|
 | Summary (26 indicators) | **Sell** | |
-| Moving averages | Strong Sell | 2 up / 11 down |
+| Moving averages | Strong Sell | 3 up / 10 down |
 | Oscillators | Sell | 1 up / 2 down |
-| Six-family score | Sell | -4 |
+| Six-family score | Sell | -2 |
 
-RSI 40 | SuperTrend down
+RSI 41 | SuperTrend down
 
 ## Levels
 
@@ -34,5 +34,5 @@ RSI 40 | SuperTrend down
 
 ## Track record
 
-0/41 resolved predictions reached their target
+0/45 resolved predictions reached their target
 <!-- vectora:end -->

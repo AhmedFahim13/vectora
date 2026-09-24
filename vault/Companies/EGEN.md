@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # EGEN
 
-#posture/sell #sector/it-sector #category/b
+#posture/hold #sector/it-sector #category/b
 
-**IT Sector** | category B | as of [[Journal/2026-09-21|2026-09-21]]
+**IT Sector** | category B | as of [[Journal/2026-09-23|2026-09-23]]
 
 Sector view: [[Sectors/IT Sector|IT Sector]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/IT Sector|IT Sector]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Sell** | |
-| Moving averages | Sell | 4 up / 9 down |
-| Oscillators | Sell | 0 up / 2 down |
-| Six-family score | Strong Sell | -8 |
+| Summary (26 indicators) | **Hold** | |
+| Moving averages | Hold | 7 up / 6 down |
+| Oscillators | Hold | 1 up / 1 down |
+| Six-family score | Sell | -2 |
 
-RSI 42 | SuperTrend down
+RSI 47 | SuperTrend down
 
 ## Levels
 
 - Monthly pivot: 25.30
-- Nearest resistance: 25.30 (+10.0% away)
-- Nearest support: 22.70 (1.3% away)
+- Nearest resistance: 25.20 (+7.2% away)
+- Nearest support: 22.70 (3.4% away)
 - 52-week range: 16.50 to 33.00
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 42 | SuperTrend down
 
 ## Track record
 
-2/41 resolved predictions reached their target
+2/45 resolved predictions reached their target
 <!-- vectora:end -->

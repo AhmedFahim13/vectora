@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # GLOBALINS
 
-#posture/buy #sector/insurance #category/a
+#posture/sell #sector/insurance #category/a
 
-**Insurance** | category A | as of [[Journal/2026-09-21|2026-09-21]]
+**Insurance** | category A | as of [[Journal/2026-09-23|2026-09-23]]
 
 Sector view: [[Sectors/Insurance|Insurance]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Insurance|Insurance]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Buy** | |
-| Moving averages | Strong Buy | 13 up / 0 down |
+| Summary (26 indicators) | **Sell** | |
+| Moving averages | Hold | 5 up / 6 down |
 | Oscillators | Sell | 0 up / 1 down |
-| Six-family score | Buy | +4 |
+| Six-family score | Buy | +2 |
 
-RSI 56 | SuperTrend up
+RSI 50 | SuperTrend up
 
 ## Levels
 
 - Monthly pivot: 45.77
-- Nearest resistance: 48.53 (+5.3% away)
-- Nearest support: 45.77 (0.7% away)
+- Nearest resistance: 45.77 (+2.8% away)
+- Nearest support: 42.60 (4.3% away)
 - 52-week range: 20.80 to 50.20
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 56 | SuperTrend up
 
 ## Track record
 
-24/41 resolved predictions reached their target
+25/45 resolved predictions reached their target
 <!-- vectora:end -->

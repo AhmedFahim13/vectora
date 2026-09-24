@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # CENTRALPHL
 
-#posture/strong-sell #sector/pharmaceuticals-chemicals #category/z
+#posture/sell #sector/pharmaceuticals-chemicals #category/z
 
-**Pharmaceuticals & Chemicals** | category Z | as of [[Journal/2026-09-21|2026-09-21]]
+**Pharmaceuticals & Chemicals** | category Z | as of [[Journal/2026-09-23|2026-09-23]]
 
 Sector view: [[Sectors/Pharmaceuticals & Chemicals|Pharmaceuticals & Chemicals]]
 
@@ -11,19 +11,19 @@ Sector view: [[Sectors/Pharmaceuticals & Chemicals|Pharmaceuticals & Chemicals]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Strong Sell** | |
-| Moving averages | Strong Sell | 0 up / 13 down |
+| Summary (26 indicators) | **Sell** | |
+| Moving averages | Strong Sell | 3 up / 10 down |
 | Oscillators | Sell | 0 up / 2 down |
-| Six-family score | Strong Sell | -8 |
+| Six-family score | Strong Sell | -6 |
 
-RSI 42 | SuperTrend down
+RSI 44 | SuperTrend down
 
 ## Levels
 
 - Monthly pivot: 10.80
-- Nearest resistance: 10.80 (+14.9% away)
-- Nearest support: 9.10 (3.2% away)
-- 52-week range: 7.10 to 13.20
+- Nearest resistance: 10.80 (+13.7% away)
+- Nearest support: 9.10 (4.2% away)
+- 52-week range: 7.10 to 13.00
 
 ## Fundamentals
 
@@ -34,5 +34,5 @@ RSI 42 | SuperTrend down
 
 ## Track record
 
-11/41 resolved predictions reached their target
+11/45 resolved predictions reached their target
 <!-- vectora:end -->

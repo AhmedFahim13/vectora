@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # EMERALDOIL
 
-#posture/sell #sector/food-allied #category/z
+#posture/buy #sector/food-allied #category/z
 
-**Food & Allied** | category Z | as of [[Journal/2026-09-21|2026-09-21]]
+**Food & Allied** | category Z | as of [[Journal/2026-09-23|2026-09-23]]
 
 Sector view: [[Sectors/Food & Allied|Food & Allied]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Food & Allied|Food & Allied]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Sell** | |
-| Moving averages | Hold | 6 up / 7 down |
-| Oscillators | Sell | 0 up / 2 down |
-| Six-family score | Strong Sell | -9 |
+| Summary (26 indicators) | **Buy** | |
+| Moving averages | Buy | 8 up / 4 down |
+| Oscillators | Hold | 1 up / 1 down |
+| Six-family score | Strong Sell | -6 |
 
-RSI 44 | SuperTrend down
+RSI 48 | SuperTrend down
 
 ## Levels
 
 - Monthly pivot: 29.33
-- Nearest resistance: 29.33 (+9.9% away)
-- Nearest support: 25.13 (5.9% away)
+- Nearest resistance: 29.33 (+7.4% away)
+- Nearest support: 26.87 (1.6% away)
 - 52-week range: 10.20 to 31.80
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 44 | SuperTrend down
 
 ## Track record
 
-13/41 resolved predictions reached their target
+13/45 resolved predictions reached their target
 <!-- vectora:end -->

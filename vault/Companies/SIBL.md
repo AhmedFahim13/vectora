@@ -3,7 +3,7 @@
 
 #posture/sell #sector/bank #category/a
 
-**Bank** | category A | as of [[Journal/2026-09-21|2026-09-21]]
+**Bank** | category A | as of [[Journal/2026-09-23|2026-09-23]]
 
 Sector view: [[Sectors/Bank|Bank]]
 
@@ -12,7 +12,7 @@ Sector view: [[Sectors/Bank|Bank]]
 | gauge | verdict | detail |
 |---|---|---|
 | Summary (26 indicators) | **Sell** | |
-| Moving averages | Sell | 2 up / 8 down |
+| Moving averages | Sell | 2 up / 7 down |
 | Oscillators | Sell | 1 up / 2 down |
 | Six-family score | Sell | -3 |
 
@@ -21,7 +21,7 @@ RSI 31 | SuperTrend down
 ## Levels
 
 - Monthly pivot: 3.00
-- Nearest resistance: 3.90 (+30.0% away)
+- Nearest resistance: 3.60 (+20.0% away)
 - Nearest support: none below price
 - 52-week range: 3.00 to 10.60
 

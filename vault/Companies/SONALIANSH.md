@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # SONALIANSH
 
-#posture/buy #sector/jute #category/a
+#posture/strong-buy #sector/jute #category/a
 
-**Jute** | category A | as of [[Journal/2026-09-21|2026-09-21]]
+**Jute** | category A | as of [[Journal/2026-09-23|2026-09-23]]
 
 Sector view: [[Sectors/Jute|Jute]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Jute|Jute]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Buy** | |
-| Moving averages | Strong Buy | 11 up / 1 down |
+| Summary (26 indicators) | **Strong Buy** | |
+| Moving averages | Strong Buy | 12 up / 0 down |
 | Oscillators | Buy | 1 up / 0 down |
-| Six-family score | Sell | -3 |
+| Six-family score | Hold | +0 |
 
-RSI 52 | SuperTrend down
+RSI 56 | SuperTrend down
 
 ## Levels
 
 - Monthly pivot: 219.50
-- Nearest resistance: 219.50 (+3.3% away)
-- Nearest support: 203.10 (4.4% away)
+- Nearest resistance: 219.50 (+1.5% away)
+- Nearest support: 203.10 (6.1% away)
 - 52-week range: 135.00 to 256.80
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 52 | SuperTrend down
 
 ## Track record
 
-7/41 resolved predictions reached their target
+7/45 resolved predictions reached their target
 <!-- vectora:end -->

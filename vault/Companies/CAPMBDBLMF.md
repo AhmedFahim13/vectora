@@ -3,7 +3,7 @@
 
 #posture/strong-sell #sector/mutual-funds #category/a
 
-**Mutual Funds** | category A | as of [[Journal/2026-09-21|2026-09-21]]
+**Mutual Funds** | category A | as of [[Journal/2026-09-23|2026-09-23]]
 
 Sector view: [[Sectors/Mutual Funds|Mutual Funds]]
 
@@ -21,7 +21,7 @@ RSI 33 | SuperTrend down
 ## Levels
 
 - Monthly pivot: 9.43
-- Nearest resistance: 8.80 (+22.2% away)
+- Nearest resistance: 8.60 (+19.4% away)
 - Nearest support: 7.10 (1.4% away)
 - 52-week range: 7.10 to 13.30
 

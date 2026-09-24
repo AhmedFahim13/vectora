@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # FARCHEM
 
-#posture/sell #sector/pharmaceuticals-chemicals #category/b
+#posture/hold #sector/pharmaceuticals-chemicals #category/b
 
-**Pharmaceuticals & Chemicals** | category B | as of [[Journal/2026-09-21|2026-09-21]]
+**Pharmaceuticals & Chemicals** | category B | as of [[Journal/2026-09-23|2026-09-23]]
 
 Sector view: [[Sectors/Pharmaceuticals & Chemicals|Pharmaceuticals & Chemicals]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Pharmaceuticals & Chemicals|Pharmaceuticals & Chemicals]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Sell** | |
-| Moving averages | Sell | 4 up / 9 down |
-| Oscillators | Sell | 1 up / 2 down |
-| Six-family score | Sell | -3 |
+| Summary (26 indicators) | **Hold** | |
+| Moving averages | Hold | 6 up / 7 down |
+| Oscillators | Hold | 1 up / 1 down |
+| Six-family score | Hold | -1 |
 
-RSI 44 | SuperTrend down
+RSI 48 | SuperTrend down
 
 ## Levels
 
 - Monthly pivot: 19.63
-- Nearest resistance: 19.63 (+21.9% away)
-- Nearest support: 14.30 (11.2% away)
+- Nearest resistance: 18.00 (+9.1% away)
+- Nearest support: 14.30 (13.3% away)
 - 52-week range: 11.60 to 28.00
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 44 | SuperTrend down
 
 ## Track record
 
-4/41 resolved predictions reached their target
+6/45 resolved predictions reached their target
 <!-- vectora:end -->

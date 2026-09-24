@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # SEMLIBBLSF
 
-#posture/buy #sector/mutual-funds #category/a
+#posture/strong-buy #sector/mutual-funds #category/a
 
-**Mutual Funds** | category A | as of [[Journal/2026-09-21|2026-09-21]]
+**Mutual Funds** | category A | as of [[Journal/2026-09-23|2026-09-23]]
 
 Sector view: [[Sectors/Mutual Funds|Mutual Funds]]
 
@@ -11,12 +11,12 @@ Sector view: [[Sectors/Mutual Funds|Mutual Funds]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Buy** | |
-| Moving averages | Strong Buy | 13 up / 0 down |
-| Oscillators | Sell | 0 up / 1 down |
-| Six-family score | Sell | -3 |
+| Summary (26 indicators) | **Strong Buy** | |
+| Moving averages | Strong Buy | 12 up / 0 down |
+| Oscillators | Buy | 2 up / 1 down |
+| Six-family score | Hold | +1 |
 
-RSI 60 | SuperTrend down
+RSI 58 | SuperTrend down
 
 ## Levels
 

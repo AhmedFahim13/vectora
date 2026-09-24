@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # TILIL
 
-#posture/strong-sell #sector/insurance #category/b
+#posture/hold #sector/insurance #category/b
 
-**Insurance** | category B | as of [[Journal/2026-09-21|2026-09-21]]
+**Insurance** | category B | as of [[Journal/2026-09-23|2026-09-23]]
 
 Sector view: [[Sectors/Insurance|Insurance]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Insurance|Insurance]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Strong Sell** | |
-| Moving averages | Strong Sell | 0 up / 13 down |
+| Summary (26 indicators) | **Hold** | |
+| Moving averages | Hold | 7 up / 6 down |
 | Oscillators | Hold | 1 up / 1 down |
-| Six-family score | Sell | -4 |
+| Six-family score | Hold | -1 |
 
-RSI 41 | SuperTrend down
+RSI 53 | SuperTrend down
 
 ## Levels
 
 - Monthly pivot: 48.07
-- Nearest resistance: 47.90 (+9.6% away)
-- Nearest support: 41.50 (5.0% away)
+- Nearest resistance: 47.80 (+2.8% away)
+- Nearest support: 41.50 (10.8% away)
 - 52-week range: 34.30 to 95.80
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 41 | SuperTrend down
 
 ## Track record
 
-6/41 resolved predictions reached their target
+6/45 resolved predictions reached their target
 <!-- vectora:end -->

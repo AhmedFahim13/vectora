@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # PRAGATILIF
 
-#posture/sell #sector/insurance #category/a
+#posture/hold #sector/insurance #category/a
 
-**Insurance** | category A | as of [[Journal/2026-09-21|2026-09-21]]
+**Insurance** | category A | as of [[Journal/2026-09-23|2026-09-23]]
 
 Sector view: [[Sectors/Insurance|Insurance]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Insurance|Insurance]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Sell** | |
-| Moving averages | Strong Sell | 3 up / 10 down |
+| Summary (26 indicators) | **Hold** | |
+| Moving averages | Hold | 6 up / 7 down |
 | Oscillators | Hold | 1 up / 1 down |
-| Six-family score | Sell | -4 |
+| Six-family score | Sell | -2 |
 
-RSI 44 | SuperTrend down
+RSI 47 | SuperTrend down
 
 ## Levels
 
 - Monthly pivot: 152.10
-- Nearest resistance: 152.10 (+5.6% away)
-- Nearest support: 132.60 (7.9% away)
+- Nearest resistance: 152.10 (+4.2% away)
+- Nearest support: 132.60 (9.1% away)
 - 52-week range: 75.10 to 283.90
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 44 | SuperTrend down
 
 ## Track record
 
-9/41 resolved predictions reached their target
+9/45 resolved predictions reached their target
 <!-- vectora:end -->

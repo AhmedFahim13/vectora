@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # SQURPHARMA
 
-#posture/buy #sector/pharmaceuticals-chemicals #category/a
+#posture/strong-buy #sector/pharmaceuticals-chemicals #category/a
 
-**Pharmaceuticals & Chemicals** | category A | as of [[Journal/2026-09-21|2026-09-21]]
+**Pharmaceuticals & Chemicals** | category A | as of [[Journal/2026-09-23|2026-09-23]]
 
 Sector view: [[Sectors/Pharmaceuticals & Chemicals|Pharmaceuticals & Chemicals]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Pharmaceuticals & Chemicals|Pharmaceuticals & Chemicals]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Buy** | |
+| Summary (26 indicators) | **Strong Buy** | |
 | Moving averages | Strong Buy | 11 up / 1 down |
-| Oscillators | Hold | 1 up / 1 down |
-| Six-family score | Sell | -2 |
+| Oscillators | Buy | 2 up / 0 down |
+| Six-family score | Hold | +0 |
 
-RSI 49 | SuperTrend down
+RSI 57 | SuperTrend down
 
 ## Levels
 
 - Monthly pivot: 218.20
-- Nearest resistance: 218.20 (+1.1% away)
-- Nearest support: 214.90 (0.4% away)
+- Nearest resistance: 218.20 (+0.5% away)
+- Nearest support: 214.90 (1.0% away)
 - 52-week range: 198.00 to 234.10
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 49 | SuperTrend down
 
 ## Track record
 
-0/41 resolved predictions reached their target
+0/45 resolved predictions reached their target
 <!-- vectora:end -->

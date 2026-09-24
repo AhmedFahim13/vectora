@@ -3,17 +3,17 @@
 
 #sector-note #phase/improving
 
-Phase: **Improving** | as of [[Journal/2026-09-21|2026-09-21]]
+Phase: **Improving** | as of [[Journal/2026-09-23|2026-09-23]]
 
 | measure | value |
 |---|---|
-| 21-day return | -7.51% |
-| vs market, 21 days | -1.63% |
-| momentum | +4.28% |
-| 63-day return | -6.31% |
+| 21-day return | -1.80% |
+| vs market, 21 days | -0.97% |
+| momentum | +3.91% |
+| 63-day return | -5.75% |
 | constituents | 7 |
 
 ## Members, strongest first
 
-[[LHB]] · [[CONFIDCEM]] · [[HEIDELBCEM]] · [[CROWNCEMNT]] · [[MEGHNACEM]] · [[ARAMITCEM]] · [[PREMIERCEM]]
+[[LHB]] · [[HEIDELBCEM]] · [[CONFIDCEM]] · [[CROWNCEMNT]] · [[MEGHNACEM]] · [[PREMIERCEM]] · [[ARAMITCEM]]
 <!-- vectora:end -->

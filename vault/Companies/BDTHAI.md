@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # BDTHAI
 
-#posture/sell #sector/engineering #category/b
+#posture/buy #sector/engineering #category/b
 
-**Engineering** | category B | as of [[Journal/2026-09-21|2026-09-21]]
+**Engineering** | category B | as of [[Journal/2026-09-23|2026-09-23]]
 
 Sector view: [[Sectors/Engineering|Engineering]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Engineering|Engineering]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Sell** | |
-| Moving averages | Strong Sell | 3 up / 10 down |
-| Oscillators | Sell | 0 up / 2 down |
-| Six-family score | Strong Sell | -8 |
+| Summary (26 indicators) | **Buy** | |
+| Moving averages | Strong Buy | 10 up / 2 down |
+| Oscillators | Hold | 1 up / 1 down |
+| Six-family score | Hold | -1 |
 
-RSI 41 | SuperTrend down
+RSI 50 | SuperTrend down
 
 ## Levels
 
 - Monthly pivot: 16.70
-- Nearest resistance: 16.70 (+12.8% away)
-- Nearest support: 13.70 (7.4% away)
+- Nearest resistance: 16.70 (+6.4% away)
+- Nearest support: 13.70 (12.7% away)
 - 52-week range: 8.40 to 20.60
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 41 | SuperTrend down
 
 ## Track record
 
-9/41 resolved predictions reached their target
+9/45 resolved predictions reached their target
 <!-- vectora:end -->

@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # BPML
 
-#posture/sell #sector/paper-printing #category/z
+#posture/buy #sector/paper-printing #category/z
 
-**Paper & Printing** | category Z | as of [[Journal/2026-09-21|2026-09-21]]
+**Paper & Printing** | category Z | as of [[Journal/2026-09-23|2026-09-23]]
 
 Sector view: [[Sectors/Paper & Printing|Paper & Printing]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Paper & Printing|Paper & Printing]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Sell** | |
-| Moving averages | Strong Sell | 3 up / 10 down |
-| Oscillators | Hold | 1 up / 1 down |
-| Six-family score | Sell | -3 |
+| Summary (26 indicators) | **Buy** | |
+| Moving averages | Strong Buy | 10 up / 2 down |
+| Oscillators | Buy | 2 up / 0 down |
+| Six-family score | Buy | +4 |
 
-RSI 42 | SuperTrend down
+RSI 64 | SuperTrend up
 
 ## Levels
 
 - Monthly pivot: 27.70
-- Nearest resistance: 27.70 (+8.2% away)
-- Nearest support: 24.40 (4.7% away)
+- Nearest resistance: 28.40 (+1.4% away)
+- Nearest support: 27.70 (1.1% away)
 - 52-week range: 21.50 to 46.60
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 42 | SuperTrend down
 
 ## Track record
 
-0/41 resolved predictions reached their target
+1/45 resolved predictions reached their target
 <!-- vectora:end -->

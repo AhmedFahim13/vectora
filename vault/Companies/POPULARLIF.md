@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # POPULARLIF
 
-#posture/sell #sector/insurance #category/a
+#posture/hold #sector/insurance #category/a
 
-**Insurance** | category A | as of [[Journal/2026-09-21|2026-09-21]]
+**Insurance** | category A | as of [[Journal/2026-09-23|2026-09-23]]
 
 Sector view: [[Sectors/Insurance|Insurance]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Insurance|Insurance]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Sell** | |
-| Moving averages | Sell | 4 up / 8 down |
+| Summary (26 indicators) | **Hold** | |
+| Moving averages | Buy | 7 up / 5 down |
 | Oscillators | Sell | 0 up / 2 down |
-| Six-family score | Strong Sell | -8 |
+| Six-family score | Sell | -5 |
 
-RSI 41 | SuperTrend down
+RSI 46 | SuperTrend down
 
 ## Levels
 
 - Monthly pivot: 60.43
-- Nearest resistance: 60.43 (+9.3% away)
-- Nearest support: 53.03 (4.1% away)
+- Nearest resistance: 60.43 (+7.0% away)
+- Nearest support: 53.03 (6.1% away)
 - 52-week range: 36.50 to 67.10
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 41 | SuperTrend down
 
 ## Track record
 
-6/41 resolved predictions reached their target
+6/45 resolved predictions reached their target
 <!-- vectora:end -->

@@ -3,7 +3,7 @@
 
 #posture/sell #sector/food-allied #category/a #risk/thin-float
 
-**Food & Allied** | category A | as of [[Journal/2026-09-21|2026-09-21]]
+**Food & Allied** | category A | as of [[Journal/2026-09-23|2026-09-23]]
 
 Sector view: [[Sectors/Food & Allied|Food & Allied]]
 
@@ -12,7 +12,7 @@ Sector view: [[Sectors/Food & Allied|Food & Allied]]
 | gauge | verdict | detail |
 |---|---|---|
 | Summary (26 indicators) | **Sell** | |
-| Moving averages | Strong Sell | 3 up / 10 down |
+| Moving averages | Sell | 4 up / 9 down |
 | Oscillators | Hold | 1 up / 1 down |
 | Six-family score | Sell | -3 |
 

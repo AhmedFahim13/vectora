@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # AMCL(PRAN)
 
-#posture/sell #sector/food-allied #category/a
+#posture/buy #sector/food-allied #category/a
 
-**Food & Allied** | category A | as of [[Journal/2026-09-21|2026-09-21]]
+**Food & Allied** | category A | as of [[Journal/2026-09-23|2026-09-23]]
 
 Sector view: [[Sectors/Food & Allied|Food & Allied]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Food & Allied|Food & Allied]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Sell** | |
-| Moving averages | Strong Sell | 2 up / 11 down |
-| Oscillators | Hold | 1 up / 1 down |
-| Six-family score | Sell | -5 |
+| Summary (26 indicators) | **Buy** | |
+| Moving averages | Strong Buy | 10 up / 3 down |
+| Oscillators | Buy | 1 up / 0 down |
+| Six-family score | Hold | -1 |
 
-RSI 43 | SuperTrend down
+RSI 52 | SuperTrend down
 
 ## Levels
 
 - Monthly pivot: 226.70
-- Nearest resistance: 226.70 (+6.1% away)
-- Nearest support: 209.50 (2.0% away)
+- Nearest resistance: 226.70 (+3.1% away)
+- Nearest support: 209.50 (4.7% away)
 - 52-week range: 194.90 to 255.50
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 43 | SuperTrend down
 
 ## Track record
 
-0/29 resolved predictions reached their target
+0/33 resolved predictions reached their target
 <!-- vectora:end -->

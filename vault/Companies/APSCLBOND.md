@@ -3,7 +3,7 @@
 
 #posture/buy #sector/corporate-bond #category/a
 
-**Corporate Bond** | category A | as of [[Journal/2026-09-21|2026-09-21]]
+**Corporate Bond** | category A | as of [[Journal/2026-09-23|2026-09-23]]
 
 Sector view: [[Sectors/Corporate Bond|Corporate Bond]]
 
@@ -12,7 +12,7 @@ Sector view: [[Sectors/Corporate Bond|Corporate Bond]]
 | gauge | verdict | detail |
 |---|---|---|
 | Summary (26 indicators) | **Buy** | |
-| Moving averages | Hold | 7 up / 6 down |
+| Moving averages | Buy | 7 up / 5 down |
 | Oscillators | Buy | 4 up / 1 down |
 | Six-family score | Buy | +3 |
 

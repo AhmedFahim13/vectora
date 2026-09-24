@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # EXIM1STMF
 
-#posture/strong-buy #sector/mutual-funds #category/a
+#posture/hold #sector/mutual-funds #category/a
 
-**Mutual Funds** | category A | as of [[Journal/2026-09-21|2026-09-21]]
+**Mutual Funds** | category A | as of [[Journal/2026-09-23|2026-09-23]]
 
 Sector view: [[Sectors/Mutual Funds|Mutual Funds]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Mutual Funds|Mutual Funds]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Strong Buy** | |
-| Moving averages | Strong Buy | 12 up / 1 down |
-| Oscillators | Buy | 2 up / 0 down |
-| Six-family score | Strong Buy | +7 |
+| Summary (26 indicators) | **Hold** | |
+| Moving averages | Hold | 7 up / 6 down |
+| Oscillators | Hold | 1 up / 1 down |
+| Six-family score | Buy | +2 |
 
-RSI 59 | SuperTrend up
+RSI 49 | SuperTrend up
 
 ## Levels
 
 - Monthly pivot: 6.27
-- Nearest resistance: 8.00 (+9.6% away)
-- Nearest support: 6.27 (14.2% away)
+- Nearest resistance: 7.03 (+5.0% away)
+- Nearest support: 6.27 (6.5% away)
 - 52-week range: 2.30 to 8.00
 
 ## Fundamentals

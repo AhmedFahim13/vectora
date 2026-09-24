@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # YPL
 
-#posture/hold #sector/engineering #category/z
+#posture/buy #sector/engineering #category/z
 
-**Engineering** | category Z | as of [[Journal/2026-09-21|2026-09-21]]
+**Engineering** | category Z | as of [[Journal/2026-09-23|2026-09-23]]
 
 Sector view: [[Sectors/Engineering|Engineering]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Engineering|Engineering]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Hold** | |
-| Moving averages | Hold | 7 up / 6 down |
+| Summary (26 indicators) | **Buy** | |
+| Moving averages | Strong Buy | 11 up / 1 down |
 | Oscillators | Hold | 1 up / 1 down |
-| Six-family score | Sell | -2 |
+| Six-family score | Buy | +4 |
 
-RSI 48 | SuperTrend down
+RSI 56 | SuperTrend up
 
 ## Levels
 
 - Monthly pivot: 23.67
-- Nearest resistance: 23.60 (+15.7% away)
-- Nearest support: 20.13 (1.3% away)
+- Nearest resistance: 23.60 (+7.8% away)
+- Nearest support: 20.13 (8.1% away)
 - 52-week range: 9.70 to 27.20
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 48 | SuperTrend down
 
 ## Track record
 
-2/41 resolved predictions reached their target
+3/45 resolved predictions reached their target
 <!-- vectora:end -->

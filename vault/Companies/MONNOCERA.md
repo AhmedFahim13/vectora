@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # MONNOCERA
 
-#posture/sell #sector/ceramics-sector #category/b
+#posture/buy #sector/ceramics-sector #category/b
 
-**Ceramics Sector** | category B | as of [[Journal/2026-09-21|2026-09-21]]
+**Ceramics Sector** | category B | as of [[Journal/2026-09-23|2026-09-23]]
 
 Sector view: [[Sectors/Ceramics Sector|Ceramics Sector]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Ceramics Sector|Ceramics Sector]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Sell** | |
-| Moving averages | Strong Sell | 2 up / 11 down |
-| Oscillators | Sell | 1 up / 2 down |
-| Six-family score | Sell | -3 |
+| Summary (26 indicators) | **Buy** | |
+| Moving averages | Strong Buy | 11 up / 2 down |
+| Oscillators | Buy | 1 up / 0 down |
+| Six-family score | Buy | +4 |
 
-RSI 44 | SuperTrend down
+RSI 57 | SuperTrend up
 
 ## Levels
 
 - Monthly pivot: 87.90
-- Nearest resistance: 87.90 (+6.8% away)
-- Nearest support: 77.90 (5.3% away)
+- Nearest resistance: 87.70 (+0.1% away)
+- Nearest support: 77.90 (11.1% away)
 - 52-week range: 67.30 to 103.30
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 44 | SuperTrend down
 
 ## Track record
 
-0/41 resolved predictions reached their target
+1/45 resolved predictions reached their target
 <!-- vectora:end -->

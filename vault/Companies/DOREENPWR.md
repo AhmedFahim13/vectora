@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # DOREENPWR
 
-#posture/sell #sector/fuel-power #category/a
+#posture/strong-buy #sector/fuel-power #category/a
 
-**Fuel & Power** | category A | as of [[Journal/2026-09-21|2026-09-21]]
+**Fuel & Power** | category A | as of [[Journal/2026-09-23|2026-09-23]]
 
 Sector view: [[Sectors/Fuel & Power|Fuel & Power]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Fuel & Power|Fuel & Power]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Sell** | |
-| Moving averages | Strong Sell | 2 up / 11 down |
-| Oscillators | Sell | 0 up / 2 down |
-| Six-family score | Strong Sell | -8 |
+| Summary (26 indicators) | **Strong Buy** | |
+| Moving averages | Strong Buy | 11 up / 1 down |
+| Oscillators | Buy | 2 up / 0 down |
+| Six-family score | Sell | -2 |
 
-RSI 44 | SuperTrend down
+RSI 53 | SuperTrend down
 
 ## Levels
 
 - Monthly pivot: 33.43
-- Nearest resistance: 33.43 (+11.1% away)
-- Nearest support: 28.23 (6.2% away)
+- Nearest resistance: 33.20 (+5.1% away)
+- Nearest support: 30.37 (3.9% away)
 - 52-week range: 20.00 to 36.50
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 44 | SuperTrend down
 
 ## Track record
 
-13/41 resolved predictions reached their target
+13/45 resolved predictions reached their target
 <!-- vectora:end -->

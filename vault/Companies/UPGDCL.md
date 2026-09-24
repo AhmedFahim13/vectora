@@ -3,7 +3,7 @@
 
 #posture/hold #sector/fuel-power #category/a #risk/thin-float
 
-**Fuel & Power** | category A | as of [[Journal/2026-09-21|2026-09-21]]
+**Fuel & Power** | category A | as of [[Journal/2026-09-23|2026-09-23]]
 
 Sector view: [[Sectors/Fuel & Power|Fuel & Power]]
 
@@ -21,8 +21,8 @@ RSI 48 | SuperTrend down
 ## Levels
 
 - Monthly pivot: 119.10
-- Nearest resistance: 119.10 (+3.3% away)
-- Nearest support: 110.60 (4.1% away)
+- Nearest resistance: 119.10 (+3.6% away)
+- Nearest support: 110.60 (3.8% away)
 - 52-week range: 109.70 to 151.80
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 48 | SuperTrend down
 
 ## Track record
 
-0/41 resolved predictions reached their target
+0/45 resolved predictions reached their target
 <!-- vectora:end -->

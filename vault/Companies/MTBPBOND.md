@@ -3,7 +3,7 @@
 
 #posture/hold #sector/corporate-bond #category/a
 
-**Corporate Bond** | category A | as of [[Journal/2026-09-21|2026-09-21]]
+**Corporate Bond** | category A | as of [[Journal/2026-09-23|2026-09-23]]
 
 Sector view: [[Sectors/Corporate Bond|Corporate Bond]]
 

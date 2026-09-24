@@ -3,7 +3,7 @@
 
 #posture/strong-buy #sector/bank #category/a
 
-**Bank** | category A | as of [[Journal/2026-09-21|2026-09-21]]
+**Bank** | category A | as of [[Journal/2026-09-23|2026-09-23]]
 
 Sector view: [[Sectors/Bank|Bank]]
 
@@ -13,8 +13,8 @@ Sector view: [[Sectors/Bank|Bank]]
 |---|---|---|
 | Summary (26 indicators) | **Strong Buy** | |
 | Moving averages | Strong Buy | 13 up / 0 down |
-| Oscillators | Buy | 2 up / 0 down |
-| Six-family score | Buy | +3 |
+| Oscillators | Buy | 4 up / 3 down |
+| Six-family score | Strong Buy | +5 |
 
 RSI 65 | SuperTrend up
 
@@ -34,5 +34,5 @@ RSI 65 | SuperTrend up
 
 ## Track record
 
-1/41 resolved predictions reached their target
+2/45 resolved predictions reached their target
 <!-- vectora:end -->

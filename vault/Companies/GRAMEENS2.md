@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # GRAMEENS2
 
-#posture/sell #sector/mutual-funds #category/a
+#posture/buy #sector/mutual-funds #category/a
 
-**Mutual Funds** | category A | as of [[Journal/2026-09-21|2026-09-21]]
+**Mutual Funds** | category A | as of [[Journal/2026-09-23|2026-09-23]]
 
 Sector view: [[Sectors/Mutual Funds|Mutual Funds]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Mutual Funds|Mutual Funds]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Sell** | |
-| Moving averages | Sell | 5 up / 8 down |
-| Oscillators | Sell | 0 up / 2 down |
-| Six-family score | Sell | -5 |
+| Summary (26 indicators) | **Buy** | |
+| Moving averages | Strong Buy | 11 up / 2 down |
+| Oscillators | Buy | 2 up / 1 down |
+| Six-family score | Buy | +2 |
 
-RSI 49 | SuperTrend down
+RSI 53 | SuperTrend up
 
 ## Levels
 
 - Monthly pivot: 13.53
-- Nearest resistance: 13.50 (+9.8% away)
-- Nearest support: 11.73 (4.6% away)
+- Nearest resistance: 13.50 (+7.1% away)
+- Nearest support: 12.37 (1.9% away)
 - 52-week range: 10.30 to 15.00
 
 ## Fundamentals

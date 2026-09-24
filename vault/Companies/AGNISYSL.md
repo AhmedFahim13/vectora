@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # AGNISYSL
 
-#posture/sell #sector/it-sector #category/b
+#posture/buy #sector/it-sector #category/b
 
-**IT Sector** | category B | as of [[Journal/2026-09-21|2026-09-21]]
+**IT Sector** | category B | as of [[Journal/2026-09-23|2026-09-23]]
 
 Sector view: [[Sectors/IT Sector|IT Sector]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/IT Sector|IT Sector]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Sell** | |
-| Moving averages | Sell | 4 up / 8 down |
+| Summary (26 indicators) | **Buy** | |
+| Moving averages | Strong Buy | 11 up / 1 down |
 | Oscillators | Hold | 1 up / 1 down |
-| Six-family score | Sell | -2 |
+| Six-family score | Hold | -1 |
 
-RSI 47 | SuperTrend down
+RSI 50 | SuperTrend down
 
 ## Levels
 
 - Monthly pivot: 30.23
-- Nearest resistance: 30.23 (+3.5% away)
-- Nearest support: 27.20 (6.8% away)
+- Nearest resistance: 30.23 (+1.8% away)
+- Nearest support: 27.20 (8.4% away)
 - 52-week range: 18.10 to 35.90
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 47 | SuperTrend down
 
 ## Track record
 
-5/41 resolved predictions reached their target
+5/45 resolved predictions reached their target
 <!-- vectora:end -->

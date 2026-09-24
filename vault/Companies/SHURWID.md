@@ -3,7 +3,7 @@
 
 #posture/sell #sector/engineering #category/z
 
-**Engineering** | category Z | as of [[Journal/2026-09-21|2026-09-21]]
+**Engineering** | category Z | as of [[Journal/2026-09-23|2026-09-23]]
 
 Sector view: [[Sectors/Engineering|Engineering]]
 
@@ -14,9 +14,9 @@ Sector view: [[Sectors/Engineering|Engineering]]
 | Summary (26 indicators) | **Sell** | |
 | Moving averages | Sell | 3 up / 9 down |
 | Oscillators | Sell | 0 up / 1 down |
-| Six-family score | Strong Sell | -8 |
+| Six-family score | Strong Sell | -7 |
 
-RSI 44 | SuperTrend down
+RSI 45 | SuperTrend down
 
 ## Levels
 

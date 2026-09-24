@@ -3,7 +3,7 @@
 
 #posture/buy #sector/corporate-bond #category/n
 
-**Corporate Bond** | category N | as of [[Journal/2026-09-21|2026-09-21]]
+**Corporate Bond** | category N | as of [[Journal/2026-09-23|2026-09-23]]
 
 Sector view: [[Sectors/Corporate Bond|Corporate Bond]]
 

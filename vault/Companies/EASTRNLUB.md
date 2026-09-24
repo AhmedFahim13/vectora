@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # EASTRNLUB
 
-#posture/sell #sector/fuel-power #category/a
+#posture/strong-sell #sector/fuel-power #category/a
 
-**Fuel & Power** | category A | as of [[Journal/2026-09-21|2026-09-21]]
+**Fuel & Power** | category A | as of [[Journal/2026-09-23|2026-09-23]]
 
 Sector view: [[Sectors/Fuel & Power|Fuel & Power]]
 
@@ -11,19 +11,19 @@ Sector view: [[Sectors/Fuel & Power|Fuel & Power]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Sell** | |
+| Summary (26 indicators) | **Strong Sell** | |
 | Moving averages | Strong Sell | 1 up / 12 down |
-| Oscillators | Hold | 1 up / 1 down |
-| Six-family score | Buy | +3 |
+| Oscillators | Sell | 0 up / 2 down |
+| Six-family score | Hold | -1 |
 
-RSI 50 | SuperTrend up
+RSI 48 | SuperTrend up
 
 ## Levels
 
 - Monthly pivot: 1956.17
-- Nearest resistance: 2056.33 (+3.5% away)
-- Nearest support: 1956.17 (1.6% away)
-- 52-week range: 1514.10 to 3171.20
+- Nearest resistance: 2056.33 (+3.9% away)
+- Nearest support: 1956.17 (1.1% away)
+- 52-week range: 1581.00 to 3171.20
 
 ## Fundamentals
 
@@ -34,5 +34,5 @@ RSI 50 | SuperTrend up
 
 ## Track record
 
-8/41 resolved predictions reached their target
+8/45 resolved predictions reached their target
 <!-- vectora:end -->

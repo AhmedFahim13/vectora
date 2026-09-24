@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # TRUSTB1MF
 
-#posture/strong-buy #sector/mutual-funds #category/a
+#posture/buy #sector/mutual-funds #category/a
 
-**Mutual Funds** | category A | as of [[Journal/2026-09-21|2026-09-21]]
+**Mutual Funds** | category A | as of [[Journal/2026-09-23|2026-09-23]]
 
 Sector view: [[Sectors/Mutual Funds|Mutual Funds]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Mutual Funds|Mutual Funds]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Strong Buy** | |
-| Moving averages | Strong Buy | 13 up / 0 down |
+| Summary (26 indicators) | **Buy** | |
+| Moving averages | Buy | 9 up / 3 down |
 | Oscillators | Buy | 1 up / 0 down |
 | Six-family score | Buy | +3 |
 
-RSI 55 | SuperTrend up
+RSI 51 | SuperTrend up
 
 ## Levels
 
 - Monthly pivot: 3.77
-- Nearest resistance: 4.00 (+5.3% away)
-- Nearest support: 3.77 (0.9% away)
+- Nearest resistance: 3.77 (+1.8% away)
+- Nearest support: 3.40 (8.1% away)
 - 52-week range: 2.20 to 4.40
 
 ## Fundamentals

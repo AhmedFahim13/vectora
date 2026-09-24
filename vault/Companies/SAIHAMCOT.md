@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # SAIHAMCOT
 
-#posture/buy #sector/textile #category/b
+#posture/hold #sector/textile #category/b
 
-**Textile** | category B | as of [[Journal/2026-09-21|2026-09-21]]
+**Textile** | category B | as of [[Journal/2026-09-23|2026-09-23]]
 
 Sector view: [[Sectors/Textile|Textile]]
 
@@ -11,8 +11,8 @@ Sector view: [[Sectors/Textile|Textile]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Buy** | |
-| Moving averages | Hold | 7 up / 6 down |
+| Summary (26 indicators) | **Hold** | |
+| Moving averages | Hold | 6 up / 6 down |
 | Oscillators | Buy | 2 up / 1 down |
 | Six-family score | Buy | +2 |
 
@@ -34,5 +34,5 @@ RSI 50 | SuperTrend up
 
 ## Track record
 
-27/41 resolved predictions reached their target
+29/45 resolved predictions reached their target
 <!-- vectora:end -->

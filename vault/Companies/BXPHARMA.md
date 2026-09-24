@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # BXPHARMA
 
-#posture/sell #sector/pharmaceuticals-chemicals #category/a
+#posture/buy #sector/pharmaceuticals-chemicals #category/a
 
-**Pharmaceuticals & Chemicals** | category A | as of [[Journal/2026-09-21|2026-09-21]]
+**Pharmaceuticals & Chemicals** | category A | as of [[Journal/2026-09-23|2026-09-23]]
 
 Sector view: [[Sectors/Pharmaceuticals & Chemicals|Pharmaceuticals & Chemicals]]
 
@@ -11,19 +11,19 @@ Sector view: [[Sectors/Pharmaceuticals & Chemicals|Pharmaceuticals & Chemicals]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Sell** | |
-| Moving averages | Hold | 6 up / 7 down |
+| Summary (26 indicators) | **Buy** | |
+| Moving averages | Strong Buy | 13 up / 0 down |
 | Oscillators | Sell | 0 up / 1 down |
-| Six-family score | Sell | -2 |
+| Six-family score | Buy | +4 |
 
-RSI 48 | SuperTrend up
+RSI 55 | SuperTrend up
 
 ## Levels
 
 - Monthly pivot: 145.77
-- Nearest resistance: 150.43 (+2.8% away)
-- Nearest support: 145.77 (0.4% away)
-- 52-week range: 80.60 to 158.40
+- Nearest resistance: 150.43 (+0.7% away)
+- Nearest support: 145.77 (2.4% away)
+- 52-week range: 80.90 to 158.40
 
 ## Fundamentals
 
@@ -34,5 +34,5 @@ RSI 48 | SuperTrend up
 
 ## Track record
 
-5/41 resolved predictions reached their target
+5/45 resolved predictions reached their target
 <!-- vectora:end -->

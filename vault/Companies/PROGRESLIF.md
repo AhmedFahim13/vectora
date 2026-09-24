@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # PROGRESLIF
 
-#posture/strong-sell #sector/insurance #category/z
+#posture/sell #sector/insurance #category/z
 
-**Insurance** | category Z | as of [[Journal/2026-09-21|2026-09-21]]
+**Insurance** | category Z | as of [[Journal/2026-09-23|2026-09-23]]
 
 Sector view: [[Sectors/Insurance|Insurance]]
 
@@ -11,19 +11,19 @@ Sector view: [[Sectors/Insurance|Insurance]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Strong Sell** | |
-| Moving averages | Strong Sell | 0 up / 13 down |
-| Oscillators | Sell | 0 up / 3 down |
-| Six-family score | Strong Sell | -7 |
+| Summary (26 indicators) | **Sell** | |
+| Moving averages | Strong Sell | 2 up / 11 down |
+| Oscillators | Sell | 1 up / 2 down |
+| Six-family score | Sell | -4 |
 
-RSI 38 | SuperTrend down
+RSI 42 | SuperTrend down
 
 ## Levels
 
 - Monthly pivot: 39.53
-- Nearest resistance: 39.53 (+10.1% away)
-- Nearest support: 35.13 (2.1% away)
-- 52-week range: 34.80 to 79.90
+- Nearest resistance: 39.53 (+9.5% away)
+- Nearest support: 35.13 (2.7% away)
+- 52-week range: 34.60 to 79.90
 
 ## Fundamentals
 

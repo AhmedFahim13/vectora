@@ -3,7 +3,7 @@
 
 #posture/sell #sector/textile #category/b
 
-**Textile** | category B | as of [[Journal/2026-09-21|2026-09-21]]
+**Textile** | category B | as of [[Journal/2026-09-23|2026-09-23]]
 
 Sector view: [[Sectors/Textile|Textile]]
 
@@ -21,8 +21,8 @@ RSI 47 | SuperTrend up
 ## Levels
 
 - Monthly pivot: 90.47
-- Nearest resistance: 90.47 (+12.1% away)
-- Nearest support: 77.83 (3.6% away)
+- Nearest resistance: 88.70 (+9.6% away)
+- Nearest support: 77.83 (3.8% away)
 - 52-week range: 63.90 to 187.50
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 47 | SuperTrend up
 
 ## Track record
 
-2/41 resolved predictions reached their target
+4/45 resolved predictions reached their target
 <!-- vectora:end -->

@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # RUPALIBANK
 
-#posture/sell #sector/bank #category/z #risk/thin-float
+#posture/strong-sell #sector/bank #category/z #risk/thin-float
 
-**Bank** | category Z | as of [[Journal/2026-09-21|2026-09-21]]
+**Bank** | category Z | as of [[Journal/2026-09-23|2026-09-23]]
 
 Sector view: [[Sectors/Bank|Bank]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Bank|Bank]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Sell** | |
+| Summary (26 indicators) | **Strong Sell** | |
 | Moving averages | Strong Sell | 1 up / 12 down |
-| Oscillators | Sell | 0 up / 1 down |
+| Oscillators | Sell | 0 up / 3 down |
 | Six-family score | Strong Sell | -7 |
 
-RSI 45 | SuperTrend down
+RSI 43 | SuperTrend down
 
 ## Levels
 
 - Monthly pivot: 17.23
-- Nearest resistance: 17.23 (+1.4% away)
-- Nearest support: 16.60 (2.4% away)
+- Nearest resistance: 17.23 (+2.0% away)
+- Nearest support: 16.60 (1.8% away)
 - 52-week range: 16.00 to 25.90
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 45 | SuperTrend down
 
 ## Track record
 
-0/41 resolved predictions reached their target
+0/45 resolved predictions reached their target
 <!-- vectora:end -->

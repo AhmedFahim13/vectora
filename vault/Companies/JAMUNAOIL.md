@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # JAMUNAOIL
 
-#posture/hold #sector/fuel-power #category/a
+#posture/buy #sector/fuel-power #category/a
 
-**Fuel & Power** | category A | as of [[Journal/2026-09-21|2026-09-21]]
+**Fuel & Power** | category A | as of [[Journal/2026-09-23|2026-09-23]]
 
 Sector view: [[Sectors/Fuel & Power|Fuel & Power]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Fuel & Power|Fuel & Power]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Hold** | |
+| Summary (26 indicators) | **Buy** | |
 | Moving averages | Buy | 7 up / 5 down |
-| Oscillators | Sell | 1 up / 2 down |
-| Six-family score | Sell | -2 |
+| Oscillators | Buy | 2 up / 0 down |
+| Six-family score | Hold | -1 |
 
-RSI 59 | SuperTrend down
+RSI 54 | SuperTrend down
 
 ## Levels
 
 - Monthly pivot: 178.57
-- Nearest resistance: 181.50 (+1.1% away)
-- Nearest support: 178.57 (0.6% away)
+- Nearest resistance: 181.00 (+1.3% away)
+- Nearest support: 178.57 (0.0% away)
 - 52-week range: 164.90 to 199.50
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 59 | SuperTrend down
 
 ## Track record
 
-0/41 resolved predictions reached their target
+0/45 resolved predictions reached their target
 <!-- vectora:end -->

@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # ORIONPHARM
 
-#posture/sell #sector/pharmaceuticals-chemicals #category/z
+#posture/buy #sector/pharmaceuticals-chemicals #category/z
 
-**Pharmaceuticals & Chemicals** | category Z | as of [[Journal/2026-09-21|2026-09-21]]
+**Pharmaceuticals & Chemicals** | category Z | as of [[Journal/2026-09-23|2026-09-23]]
 
 Sector view: [[Sectors/Pharmaceuticals & Chemicals|Pharmaceuticals & Chemicals]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Pharmaceuticals & Chemicals|Pharmaceuticals & Chemicals]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Sell** | |
-| Moving averages | Strong Sell | 2 up / 11 down |
-| Oscillators | Sell | 1 up / 2 down |
-| Six-family score | Sell | -3 |
+| Summary (26 indicators) | **Buy** | |
+| Moving averages | Buy | 8 up / 5 down |
+| Oscillators | Buy | 2 up / 0 down |
+| Six-family score | Buy | +2 |
 
-RSI 39 | SuperTrend down
+RSI 62 | SuperTrend up
 
 ## Levels
 
 - Monthly pivot: 27.07
-- Nearest resistance: 27.07 (+8.3% away)
-- Nearest support: 24.83 (0.7% away)
+- Nearest resistance: 28.33 (+3.0% away)
+- Nearest support: 27.07 (1.6% away)
 - 52-week range: 22.90 to 42.90
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 39 | SuperTrend down
 
 ## Track record
 
-0/41 resolved predictions reached their target
+1/45 resolved predictions reached their target
 <!-- vectora:end -->

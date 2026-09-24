@@ -3,7 +3,7 @@
 
 #posture/strong-sell #sector/insurance #category/z
 
-**Insurance** | category Z | as of [[Journal/2026-09-21|2026-09-21]]
+**Insurance** | category Z | as of [[Journal/2026-09-23|2026-09-23]]
 
 Sector view: [[Sectors/Insurance|Insurance]]
 
@@ -21,8 +21,8 @@ RSI 38 | SuperTrend down
 ## Levels
 
 - Monthly pivot: 20.47
-- Nearest resistance: 20.47 (+14.3% away)
-- Nearest support: 16.90 (5.6% away)
+- Nearest resistance: 20.47 (+15.6% away)
+- Nearest support: 16.90 (4.5% away)
 - 52-week range: 15.40 to 35.60
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 38 | SuperTrend down
 
 ## Track record
 
-3/24 resolved predictions reached their target
+3/26 resolved predictions reached their target
 <!-- vectora:end -->

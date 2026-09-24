@@ -3,7 +3,7 @@
 
 #posture/buy #sector/pharmaceuticals-chemicals #category/a
 
-**Pharmaceuticals & Chemicals** | category A | as of [[Journal/2026-09-21|2026-09-21]]
+**Pharmaceuticals & Chemicals** | category A | as of [[Journal/2026-09-23|2026-09-23]]
 
 Sector view: [[Sectors/Pharmaceuticals & Chemicals|Pharmaceuticals & Chemicals]]
 
@@ -16,13 +16,13 @@ Sector view: [[Sectors/Pharmaceuticals & Chemicals|Pharmaceuticals & Chemicals]]
 | Oscillators | Buy | 2 up / 1 down |
 | Six-family score | Hold | -1 |
 
-RSI 50 | SuperTrend down
+RSI 51 | SuperTrend down
 
 ## Levels
 
 - Monthly pivot: 775.17
-- Nearest resistance: 775.17 (+1.9% away)
-- Nearest support: 730.33 (4.0% away)
+- Nearest resistance: 775.17 (+1.8% away)
+- Nearest support: 730.33 (4.1% away)
 - 52-week range: 681.00 to 947.90
 
 ## Fundamentals

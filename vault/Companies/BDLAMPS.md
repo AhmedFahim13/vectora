@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # BDLAMPS
 
-#posture/hold #sector/engineering #category/a
+#posture/strong-buy #sector/engineering #category/a
 
-**Engineering** | category A | as of [[Journal/2026-09-21|2026-09-21]]
+**Engineering** | category A | as of [[Journal/2026-09-23|2026-09-23]]
 
 Sector view: [[Sectors/Engineering|Engineering]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Engineering|Engineering]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Hold** | |
-| Moving averages | Hold | 7 up / 6 down |
+| Summary (26 indicators) | **Strong Buy** | |
+| Moving averages | Strong Buy | 13 up / 0 down |
 | Oscillators | Hold | 1 up / 1 down |
-| Six-family score | Buy | +2 |
+| Six-family score | Buy | +3 |
 
-RSI 53 | SuperTrend up
+RSI 57 | SuperTrend up
 
 ## Levels
 
 - Monthly pivot: 208.77
-- Nearest resistance: 237.00 (+7.8% away)
-- Nearest support: 208.77 (5.0% away)
+- Nearest resistance: 237.00 (+5.6% away)
+- Nearest support: 208.77 (7.0% away)
 - 52-week range: 105.50 to 237.00
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 53 | SuperTrend up
 
 ## Track record
 
-29/41 resolved predictions reached their target
+31/45 resolved predictions reached their target
 <!-- vectora:end -->

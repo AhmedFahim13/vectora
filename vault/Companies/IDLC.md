@@ -3,7 +3,7 @@
 
 #posture/buy #sector/financial-institutions #category/a
 
-**Financial Institutions** | category A | as of [[Journal/2026-09-21|2026-09-21]]
+**Financial Institutions** | category A | as of [[Journal/2026-09-23|2026-09-23]]
 
 Sector view: [[Sectors/Financial Institutions|Financial Institutions]]
 
@@ -12,17 +12,17 @@ Sector view: [[Sectors/Financial Institutions|Financial Institutions]]
 | gauge | verdict | detail |
 |---|---|---|
 | Summary (26 indicators) | **Buy** | |
-| Moving averages | Buy | 8 up / 4 down |
-| Oscillators | Hold | 1 up / 1 down |
-| Six-family score | Sell | -3 |
+| Moving averages | Strong Buy | 11 up / 1 down |
+| Oscillators | Sell | 1 up / 2 down |
+| Six-family score | Hold | -1 |
 
-RSI 48 | SuperTrend down
+RSI 52 | SuperTrend down
 
 ## Levels
 
 - Monthly pivot: 44.60
-- Nearest resistance: 44.60 (+3.7% away)
-- Nearest support: 41.80 (2.8% away)
+- Nearest resistance: 44.50 (+2.3% away)
+- Nearest support: 41.80 (3.9% away)
 - 52-week range: 25.90 to 48.30
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 48 | SuperTrend down
 
 ## Track record
 
-1/41 resolved predictions reached their target
+1/45 resolved predictions reached their target
 <!-- vectora:end -->

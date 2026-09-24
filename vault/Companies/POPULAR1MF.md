@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # POPULAR1MF
 
-#posture/strong-buy #sector/mutual-funds #category/a
+#posture/buy #sector/mutual-funds #category/a
 
-**Mutual Funds** | category A | as of [[Journal/2026-09-21|2026-09-21]]
+**Mutual Funds** | category A | as of [[Journal/2026-09-23|2026-09-23]]
 
 Sector view: [[Sectors/Mutual Funds|Mutual Funds]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Mutual Funds|Mutual Funds]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Strong Buy** | |
-| Moving averages | Strong Buy | 13 up / 0 down |
-| Oscillators | Hold | 1 up / 1 down |
+| Summary (26 indicators) | **Buy** | |
+| Moving averages | Buy | 7 up / 4 down |
+| Oscillators | Buy | 2 up / 0 down |
 | Six-family score | Hold | -1 |
 
-RSI 61 | SuperTrend down
+RSI 50 | SuperTrend down
 
 ## Levels
 
 - Monthly pivot: 3.73
-- Nearest resistance: 4.17 (+9.6% away)
-- Nearest support: 3.73 (1.8% away)
+- Nearest resistance: 3.73 (+3.7% away)
+- Nearest support: 3.30 (8.3% away)
 - 52-week range: 2.10 to 4.40
 
 ## Fundamentals

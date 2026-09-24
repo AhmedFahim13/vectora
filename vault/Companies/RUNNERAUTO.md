@@ -3,7 +3,7 @@
 
 #posture/buy #sector/engineering #category/a
 
-**Engineering** | category A | as of [[Journal/2026-09-21|2026-09-21]]
+**Engineering** | category A | as of [[Journal/2026-09-23|2026-09-23]]
 
 Sector view: [[Sectors/Engineering|Engineering]]
 
@@ -12,17 +12,17 @@ Sector view: [[Sectors/Engineering|Engineering]]
 | gauge | verdict | detail |
 |---|---|---|
 | Summary (26 indicators) | **Buy** | |
-| Moving averages | Strong Buy | 12 up / 1 down |
-| Oscillators | Hold | 1 up / 1 down |
-| Six-family score | Sell | -3 |
+| Moving averages | Strong Buy | 13 up / 0 down |
+| Oscillators | Sell | 1 up / 2 down |
+| Six-family score | Hold | +0 |
 
 RSI 53 | SuperTrend down
 
 ## Levels
 
 - Monthly pivot: 49.20
-- Nearest resistance: 49.20 (+4.9% away)
-- Nearest support: 44.20 (5.8% away)
+- Nearest resistance: 49.20 (+4.7% away)
+- Nearest support: 44.20 (6.0% away)
 - 52-week range: 23.70 to 54.20
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 53 | SuperTrend down
 
 ## Track record
 
-27/41 resolved predictions reached their target
+31/45 resolved predictions reached their target
 <!-- vectora:end -->

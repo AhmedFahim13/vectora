@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # ALLTEX
 
-#posture/buy #sector/textile #category/z
+#posture/sell #sector/textile #category/z
 
-**Textile** | category Z | as of [[Journal/2026-09-21|2026-09-21]]
+**Textile** | category Z | as of [[Journal/2026-09-23|2026-09-23]]
 
 Sector view: [[Sectors/Textile|Textile]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Textile|Textile]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Buy** | |
-| Moving averages | Strong Buy | 11 up / 2 down |
+| Summary (26 indicators) | **Sell** | |
+| Moving averages | Hold | 7 up / 6 down |
 | Oscillators | Sell | 0 up / 3 down |
-| Six-family score | Buy | +3 |
+| Six-family score | Hold | +1 |
 
-RSI 55 | SuperTrend up
+RSI 50 | SuperTrend up
 
 ## Levels
 
 - Monthly pivot: 23.70
-- Nearest resistance: 26.00 (+8.8% away)
-- Nearest support: 23.70 (0.8% away)
+- Nearest resistance: 23.70 (+1.3% away)
+- Nearest support: 22.00 (6.0% away)
 - 52-week range: 8.50 to 26.00
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 55 | SuperTrend up
 
 ## Track record
 
-25/41 resolved predictions reached their target
+25/45 resolved predictions reached their target
 <!-- vectora:end -->

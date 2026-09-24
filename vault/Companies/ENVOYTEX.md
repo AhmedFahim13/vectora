@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # ENVOYTEX
 
-#posture/strong-buy #sector/textile #category/a
+#posture/buy #sector/textile #category/a
 
-**Textile** | category A | as of [[Journal/2026-09-21|2026-09-21]]
+**Textile** | category A | as of [[Journal/2026-09-23|2026-09-23]]
 
 Sector view: [[Sectors/Textile|Textile]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Textile|Textile]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Strong Buy** | |
-| Moving averages | Strong Buy | 13 up / 0 down |
-| Oscillators | Buy | 2 up / 0 down |
-| Six-family score | Strong Buy | +7 |
+| Summary (26 indicators) | **Buy** | |
+| Moving averages | Strong Buy | 11 up / 2 down |
+| Oscillators | Hold | 1 up / 1 down |
+| Six-family score | Buy | +4 |
 
-RSI 66 | SuperTrend up
+RSI 61 | SuperTrend up
 
 ## Levels
 
 - Monthly pivot: 60.30
-- Nearest resistance: 75.60 (+4.6% away)
-- Nearest support: 60.30 (16.6% away)
+- Nearest resistance: 75.60 (+5.9% away)
+- Nearest support: 60.30 (15.5% away)
 - 52-week range: 39.00 to 76.40
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 66 | SuperTrend up
 
 ## Track record
 
-32/41 resolved predictions reached their target
+35/45 resolved predictions reached their target
 <!-- vectora:end -->

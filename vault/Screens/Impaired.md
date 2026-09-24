@@ -1,7 +1,7 @@
 <!-- vectora:begin -->
 # Impaired
 
-87 companies | as of [[Journal/2026-09-21|2026-09-21]]
+87 companies | as of [[Journal/2026-09-23|2026-09-23]]
 
 Carrying accumulated losses instead of reserves.
 
