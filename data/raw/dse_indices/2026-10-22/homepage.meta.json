@@ -2,8 +2,8 @@
  "source": "dse_indices",
  "run_date": "2026-10-22",
  "url": "https://www.dsebd.org/",
- "fetched_at": "2026-10-25T14:01:57.710412+00:00",
- "bytes": 1298817,
- "compressed_bytes": 113434,
- "sha256": "745a8c1be0312f51c721a7ea336046f4a862419131f5173e05921d003d029a1f"
+ "fetched_at": "2026-10-26T16:26:48.610521+00:00",
+ "bytes": 1234604,
+ "compressed_bytes": 116135,
+ "sha256": "cd9548e15b25a2164a562705c8473f4ac32ad38f8285a250739c6c341cb5b916"
 }
