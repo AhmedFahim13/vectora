@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # RUNNERAUTO
 
-#posture/buy #sector/engineering #category/a
+#posture/sell #sector/engineering #category/a
 
-**Engineering** | category A | as of [[Journal/2026-09-23|2026-09-23]]
+**Engineering** | category A | as of [[Journal/2026-09-30|2026-09-30]]
 
 Sector view: [[Sectors/Engineering|Engineering]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Engineering|Engineering]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Buy** | |
-| Moving averages | Strong Buy | 13 up / 0 down |
-| Oscillators | Sell | 1 up / 2 down |
-| Six-family score | Hold | +0 |
+| Summary (26 indicators) | **Sell** | |
+| Moving averages | Sell | 4 up / 8 down |
+| Oscillators | Sell | 0 up / 2 down |
+| Six-family score | Strong Sell | -8 |
 
-RSI 53 | SuperTrend down
+RSI 41 | SuperTrend down
 
 ## Levels
 
 - Monthly pivot: 49.20
-- Nearest resistance: 49.20 (+4.7% away)
-- Nearest support: 44.20 (6.0% away)
+- Nearest resistance: 49.20 (+10.6% away)
+- Nearest support: 44.20 (0.7% away)
 - 52-week range: 23.70 to 54.20
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 53 | SuperTrend down
 
 ## Track record
 
-31/45 resolved predictions reached their target
+38/55 resolved predictions reached their target
 <!-- vectora:end -->

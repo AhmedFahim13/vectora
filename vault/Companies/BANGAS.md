@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # BANGAS
 
-#posture/sell #sector/food-allied #category/b
+#posture/strong-sell #sector/food-allied #category/b
 
-**Food & Allied** | category B | as of [[Journal/2026-09-23|2026-09-23]]
+**Food & Allied** | category B | as of [[Journal/2026-09-30|2026-09-30]]
 
 Sector view: [[Sectors/Food & Allied|Food & Allied]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Food & Allied|Food & Allied]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Sell** | |
-| Moving averages | Sell | 5 up / 8 down |
-| Oscillators | Hold | 1 up / 1 down |
-| Six-family score | Sell | -3 |
+| Summary (26 indicators) | **Strong Sell** | |
+| Moving averages | Strong Sell | 0 up / 13 down |
+| Oscillators | Sell | 1 up / 2 down |
+| Six-family score | Sell | -4 |
 
-RSI 45 | SuperTrend down
+RSI 36 | SuperTrend down
 
 ## Levels
 
 - Monthly pivot: 130.07
-- Nearest resistance: 128.90 (+6.1% away)
-- Nearest support: 117.63 (3.2% away)
+- Nearest resistance: 128.90 (+11.1% away)
+- Nearest support: 112.20 (3.3% away)
 - 52-week range: 84.20 to 150.00
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 45 | SuperTrend down
 
 ## Track record
 
-0/45 resolved predictions reached their target
+1/55 resolved predictions reached their target
 <!-- vectora:end -->

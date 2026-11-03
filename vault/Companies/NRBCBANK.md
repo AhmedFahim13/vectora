@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # NRBCBANK
 
-#posture/buy #sector/bank #category/z
+#posture/strong-buy #sector/bank #category/z
 
-**Bank** | category Z | as of [[Journal/2026-09-23|2026-09-23]]
+**Bank** | category Z | as of [[Journal/2026-09-30|2026-09-30]]
 
 Sector view: [[Sectors/Bank|Bank]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Bank|Bank]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Buy** | |
+| Summary (26 indicators) | **Strong Buy** | |
 | Moving averages | Strong Buy | 12 up / 0 down |
-| Oscillators | Sell | 0 up / 2 down |
-| Six-family score | Hold | +0 |
+| Oscillators | Buy | 1 up / 0 down |
+| Six-family score | Hold | +1 |
 
-RSI 55 | SuperTrend down
+RSI 63 | SuperTrend down
 
 ## Levels
 
 - Monthly pivot: 9.37
-- Nearest resistance: 9.30 (+2.2% away)
-- Nearest support: 8.40 (7.7% away)
+- Nearest resistance: 10.23 (+8.9% away)
+- Nearest support: 9.37 (0.4% away)
 - 52-week range: 4.90 to 11.00
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 55 | SuperTrend down
 
 ## Track record
 
-24/43 resolved predictions reached their target
+24/53 resolved predictions reached their target
 <!-- vectora:end -->

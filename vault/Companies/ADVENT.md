@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # ADVENT
 
-#posture/sell #sector/pharmaceuticals-chemicals #category/z
+#posture/strong-sell #sector/pharmaceuticals-chemicals #category/z
 
-**Pharmaceuticals & Chemicals** | category Z | as of [[Journal/2026-09-23|2026-09-23]]
+**Pharmaceuticals & Chemicals** | category Z | as of [[Journal/2026-09-30|2026-09-30]]
 
 Sector view: [[Sectors/Pharmaceuticals & Chemicals|Pharmaceuticals & Chemicals]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Pharmaceuticals & Chemicals|Pharmaceuticals & Chemicals]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Sell** | |
-| Moving averages | Sell | 5 up / 8 down |
-| Oscillators | Sell | 1 up / 2 down |
-| Six-family score | Sell | -2 |
+| Summary (26 indicators) | **Strong Sell** | |
+| Moving averages | Strong Sell | 0 up / 13 down |
+| Oscillators | Hold | 2 up / 2 down |
+| Six-family score | Sell | -4 |
 
-RSI 46 | SuperTrend down
+RSI 38 | SuperTrend down
 
 ## Levels
 
 - Monthly pivot: 15.13
-- Nearest resistance: 15.00 (+7.1% away)
-- Nearest support: 13.17 (6.0% away)
+- Nearest resistance: 14.80 (+9.6% away)
+- Nearest support: 13.17 (2.5% away)
 - 52-week range: 11.50 to 17.20
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 46 | SuperTrend down
 
 ## Track record
 
-4/45 resolved predictions reached their target
+6/55 resolved predictions reached their target
 <!-- vectora:end -->

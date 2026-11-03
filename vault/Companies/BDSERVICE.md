@@ -3,7 +3,7 @@
 
 #posture/hold #sector/travel-leisure #category/z #risk/thin-float
 
-**Travel & Leisure** | category Z | as of [[Journal/2026-09-23|2026-09-23]]
+**Travel & Leisure** | category Z | as of [[Journal/2026-09-30|2026-09-30]]
 
 Sector view: [[Sectors/Travel & Leisure|Travel & Leisure]]
 
@@ -14,7 +14,7 @@ Sector view: [[Sectors/Travel & Leisure|Travel & Leisure]]
 | Summary (26 indicators) | **Hold** | |
 | Moving averages | Buy | 2 up / 0 down |
 | Oscillators | Sell | 0 up / 1 down |
-| Six-family score | Buy | +2 |
+| Six-family score | Buy | +4 |
 
 RSI 0 | SuperTrend up
 

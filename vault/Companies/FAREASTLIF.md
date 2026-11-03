@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # FAREASTLIF
 
-#posture/strong-sell #sector/insurance #category/z
+#posture/sell #sector/insurance #category/z
 
-**Insurance** | category Z | as of [[Journal/2026-09-23|2026-09-23]]
+**Insurance** | category Z | as of [[Journal/2026-09-30|2026-09-30]]
 
 Sector view: [[Sectors/Insurance|Insurance]]
 
@@ -11,19 +11,19 @@ Sector view: [[Sectors/Insurance|Insurance]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Strong Sell** | |
-| Moving averages | Strong Sell | 1 up / 12 down |
-| Oscillators | Sell | 0 up / 3 down |
-| Six-family score | Strong Sell | -7 |
+| Summary (26 indicators) | **Sell** | |
+| Moving averages | Strong Sell | 2 up / 11 down |
+| Oscillators | Hold | 1 up / 1 down |
+| Six-family score | Sell | -3 |
 
-RSI 38 | SuperTrend down
+RSI 43 | SuperTrend down
 
 ## Levels
 
 - Monthly pivot: 20.47
-- Nearest resistance: 20.47 (+15.6% away)
-- Nearest support: 16.90 (4.5% away)
-- 52-week range: 15.40 to 35.60
+- Nearest resistance: 20.47 (+15.0% away)
+- Nearest support: 16.90 (5.1% away)
+- 52-week range: 15.40 to 34.80
 
 ## Fundamentals
 
@@ -34,5 +34,5 @@ RSI 38 | SuperTrend down
 
 ## Track record
 
-3/26 resolved predictions reached their target
+3/28 resolved predictions reached their target
 <!-- vectora:end -->

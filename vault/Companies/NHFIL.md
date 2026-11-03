@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # NHFIL
 
-#posture/buy #sector/financial-institutions #category/a
+#posture/sell #sector/financial-institutions #category/a
 
-**Financial Institutions** | category A | as of [[Journal/2026-09-23|2026-09-23]]
+**Financial Institutions** | category A | as of [[Journal/2026-09-30|2026-09-30]]
 
 Sector view: [[Sectors/Financial Institutions|Financial Institutions]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Financial Institutions|Financial Institutions]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Buy** | |
-| Moving averages | Buy | 9 up / 4 down |
-| Oscillators | Sell | 1 up / 2 down |
-| Six-family score | Sell | -2 |
+| Summary (26 indicators) | **Sell** | |
+| Moving averages | Strong Sell | 1 up / 12 down |
+| Oscillators | Hold | 1 up / 1 down |
+| Six-family score | Sell | -4 |
 
-RSI 48 | SuperTrend down
+RSI 43 | SuperTrend down
 
 ## Levels
 
 - Monthly pivot: 27.90
-- Nearest resistance: 27.90 (+3.7% away)
-- Nearest support: 25.00 (7.1% away)
+- Nearest resistance: 27.90 (+6.5% away)
+- Nearest support: 25.00 (4.6% away)
 - 52-week range: 19.90 to 32.90
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 48 | SuperTrend down
 
 ## Track record
 
-1/45 resolved predictions reached their target
+2/55 resolved predictions reached their target
 <!-- vectora:end -->

@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # DESCO
 
-#posture/buy #sector/fuel-power #category/z
+#posture/hold #sector/fuel-power #category/z
 
-**Fuel & Power** | category Z | as of [[Journal/2026-09-23|2026-09-23]]
+**Fuel & Power** | category Z | as of [[Journal/2026-09-30|2026-09-30]]
 
 Sector view: [[Sectors/Fuel & Power|Fuel & Power]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Fuel & Power|Fuel & Power]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Buy** | |
-| Moving averages | Hold | 7 up / 6 down |
-| Oscillators | Buy | 2 up / 0 down |
+| Summary (26 indicators) | **Hold** | |
+| Moving averages | Sell | 5 up / 8 down |
+| Oscillators | Buy | 2 up / 1 down |
 | Six-family score | Sell | -2 |
 
-RSI 47 | SuperTrend down
+RSI 46 | SuperTrend down
 
 ## Levels
 
 - Monthly pivot: 24.27
-- Nearest resistance: 24.27 (+6.4% away)
-- Nearest support: 21.93 (3.8% away)
+- Nearest resistance: 24.27 (+6.9% away)
+- Nearest support: 21.93 (3.4% away)
 - 52-week range: 18.10 to 28.00
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 47 | SuperTrend down
 
 ## Track record
 
-0/45 resolved predictions reached their target
+2/55 resolved predictions reached their target
 <!-- vectora:end -->

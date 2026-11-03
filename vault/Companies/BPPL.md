@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # BPPL
 
-#posture/buy #sector/fuel-power #category/b
+#posture/sell #sector/fuel-power #category/b
 
-**Fuel & Power** | category B | as of [[Journal/2026-09-23|2026-09-23]]
+**Fuel & Power** | category B | as of [[Journal/2026-09-30|2026-09-30]]
 
 Sector view: [[Sectors/Fuel & Power|Fuel & Power]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Fuel & Power|Fuel & Power]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Buy** | |
-| Moving averages | Buy | 9 up / 3 down |
+| Summary (26 indicators) | **Sell** | |
+| Moving averages | Sell | 4 up / 8 down |
 | Oscillators | Sell | 0 up / 2 down |
 | Six-family score | Sell | -5 |
 
-RSI 49 | SuperTrend down
+RSI 46 | SuperTrend down
 
 ## Levels
 
 - Monthly pivot: 20.70
-- Nearest resistance: 20.70 (+6.2% away)
-- Nearest support: 19.00 (2.6% away)
+- Nearest resistance: 20.70 (+8.9% away)
+- Nearest support: 18.00 (5.3% away)
 - 52-week range: 10.00 to 22.40
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 49 | SuperTrend down
 
 ## Track record
 
-5/45 resolved predictions reached their target
+6/55 resolved predictions reached their target
 <!-- vectora:end -->

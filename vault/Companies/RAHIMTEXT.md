@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # RAHIMTEXT
 
-#posture/hold #sector/textile #category/a
+#posture/strong-sell #sector/textile #category/a
 
-**Textile** | category A | as of [[Journal/2026-09-23|2026-09-23]]
+**Textile** | category A | as of [[Journal/2026-09-30|2026-09-30]]
 
 Sector view: [[Sectors/Textile|Textile]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Textile|Textile]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Hold** | |
-| Moving averages | Hold | 6 up / 7 down |
+| Summary (26 indicators) | **Strong Sell** | |
+| Moving averages | Strong Sell | 0 up / 13 down |
 | Oscillators | Hold | 1 up / 1 down |
-| Six-family score | Sell | -2 |
+| Six-family score | Sell | -3 |
 
-RSI 45 | SuperTrend down
+RSI 43 | SuperTrend down
 
 ## Levels
 
 - Monthly pivot: 204.00
-- Nearest resistance: 204.00 (+10.0% away)
-- Nearest support: 182.30 (1.7% away)
+- Nearest resistance: 204.00 (+12.2% away)
+- Nearest support: 171.30 (5.8% away)
 - 52-week range: 99.00 to 271.90
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 45 | SuperTrend down
 
 ## Track record
 
-1/45 resolved predictions reached their target
+4/55 resolved predictions reached their target
 <!-- vectora:end -->

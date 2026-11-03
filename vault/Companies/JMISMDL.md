@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # JMISMDL
 
-#posture/hold #sector/pharmaceuticals-chemicals #category/a
+#posture/sell #sector/pharmaceuticals-chemicals #category/a
 
-**Pharmaceuticals & Chemicals** | category A | as of [[Journal/2026-09-23|2026-09-23]]
+**Pharmaceuticals & Chemicals** | category A | as of [[Journal/2026-09-30|2026-09-30]]
 
 Sector view: [[Sectors/Pharmaceuticals & Chemicals|Pharmaceuticals & Chemicals]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Pharmaceuticals & Chemicals|Pharmaceuticals & Chemicals]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Hold** | |
-| Moving averages | Hold | 6 up / 7 down |
+| Summary (26 indicators) | **Sell** | |
+| Moving averages | Strong Sell | 0 up / 13 down |
 | Oscillators | Buy | 1 up / 0 down |
-| Six-family score | Hold | -1 |
+| Six-family score | Sell | -3 |
 
-RSI 46 | SuperTrend down
+RSI 44 | SuperTrend down
 
 ## Levels
 
 - Monthly pivot: 135.90
-- Nearest resistance: 135.90 (+3.6% away)
-- Nearest support: 125.00 (4.7% away)
+- Nearest resistance: 135.90 (+4.8% away)
+- Nearest support: 125.50 (3.2% away)
 - 52-week range: 105.90 to 172.00
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 46 | SuperTrend down
 
 ## Track record
 
-6/45 resolved predictions reached their target
+7/55 resolved predictions reached their target
 <!-- vectora:end -->

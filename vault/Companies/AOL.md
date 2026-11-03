@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # AOL
 
-#posture/sell #sector/fuel-power #category/z
+#posture/strong-buy #sector/fuel-power #category/z
 
-**Fuel & Power** | category Z | as of [[Journal/2026-09-23|2026-09-23]]
+**Fuel & Power** | category Z | as of [[Journal/2026-09-30|2026-09-30]]
 
 Sector view: [[Sectors/Fuel & Power|Fuel & Power]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Fuel & Power|Fuel & Power]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Sell** | |
-| Moving averages | Strong Sell | 3 up / 10 down |
-| Oscillators | Sell | 0 up / 2 down |
-| Six-family score | Strong Sell | -7 |
+| Summary (26 indicators) | **Strong Buy** | |
+| Moving averages | Strong Buy | 12 up / 0 down |
+| Oscillators | Buy | 2 up / 0 down |
+| Six-family score | Buy | +2 |
 
-RSI 40 | SuperTrend down
+RSI 66 | SuperTrend up
 
 ## Levels
 
 - Monthly pivot: 17.93
-- Nearest resistance: 17.80 (+14.8% away)
-- Nearest support: 14.90 (3.9% away)
+- Nearest resistance: 17.93 (+0.2% away)
+- Nearest support: 15.97 (10.8% away)
 - 52-week range: 12.40 to 19.90
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 40 | SuperTrend down
 
 ## Track record
 
-12/45 resolved predictions reached their target
+16/55 resolved predictions reached their target
 <!-- vectora:end -->

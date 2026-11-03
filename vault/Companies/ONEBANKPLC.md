@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # ONEBANKPLC
 
-#posture/buy #sector/bank #category/z
+#posture/sell #sector/bank #category/z
 
-**Bank** | category Z | as of [[Journal/2026-09-23|2026-09-23]]
+**Bank** | category Z | as of [[Journal/2026-09-30|2026-09-30]]
 
 Sector view: [[Sectors/Bank|Bank]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Bank|Bank]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Buy** | |
-| Moving averages | Strong Buy | 11 up / 1 down |
-| Oscillators | Hold | 1 up / 1 down |
+| Summary (26 indicators) | **Sell** | |
+| Moving averages | Sell | 3 up / 9 down |
+| Oscillators | Buy | 1 up / 0 down |
 | Six-family score | Sell | -2 |
 
-RSI 50 | SuperTrend down
+RSI 46 | SuperTrend down
 
 ## Levels
 
 - Monthly pivot: 7.93
-- Nearest resistance: 7.93 (+3.0% away)
-- Nearest support: 7.57 (1.7% away)
+- Nearest resistance: 7.90 (+3.9% away)
+- Nearest support: 7.57 (0.4% away)
 - 52-week range: 6.30 to 9.10
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 50 | SuperTrend down
 
 ## Track record
 
-0/45 resolved predictions reached their target
+1/55 resolved predictions reached their target
 <!-- vectora:end -->

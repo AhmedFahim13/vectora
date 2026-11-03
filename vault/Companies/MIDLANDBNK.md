@@ -3,7 +3,7 @@
 
 #posture/hold #sector/bank #category/b #risk/thin-float
 
-**Bank** | category B | as of [[Journal/2026-09-23|2026-09-23]]
+**Bank** | category B | as of [[Journal/2026-09-30|2026-09-30]]
 
 Sector view: [[Sectors/Bank|Bank]]
 
@@ -12,11 +12,11 @@ Sector view: [[Sectors/Bank|Bank]]
 | gauge | verdict | detail |
 |---|---|---|
 | Summary (26 indicators) | **Hold** | |
-| Moving averages | Hold | 6 up / 7 down |
-| Oscillators | Hold | 1 up / 1 down |
-| Six-family score | Sell | -2 |
+| Moving averages | Sell | 5 up / 8 down |
+| Oscillators | Buy | 1 up / 0 down |
+| Six-family score | Hold | -1 |
 
-RSI 48 | SuperTrend down
+RSI 49 | SuperTrend down
 
 ## Levels
 
@@ -34,5 +34,5 @@ RSI 48 | SuperTrend down
 
 ## Track record
 
-4/45 resolved predictions reached their target
+7/55 resolved predictions reached their target
 <!-- vectora:end -->

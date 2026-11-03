@@ -3,7 +3,7 @@
 
 #posture/buy #sector/it-sector #category/z
 
-**IT Sector** | category Z | as of [[Journal/2026-09-23|2026-09-23]]
+**IT Sector** | category Z | as of [[Journal/2026-09-30|2026-09-30]]
 
 Sector view: [[Sectors/IT Sector|IT Sector]]
 
@@ -12,17 +12,17 @@ Sector view: [[Sectors/IT Sector|IT Sector]]
 | gauge | verdict | detail |
 |---|---|---|
 | Summary (26 indicators) | **Buy** | |
-| Moving averages | Hold | 7 up / 6 down |
-| Oscillators | Buy | 2 up / 1 down |
-| Six-family score | Sell | -2 |
+| Moving averages | Strong Buy | 10 up / 2 down |
+| Oscillators | Buy | 1 up / 0 down |
+| Six-family score | Hold | +0 |
 
-RSI 49 | SuperTrend down
+RSI 55 | SuperTrend down
 
 ## Levels
 
 - Monthly pivot: 20.50
-- Nearest resistance: 20.50 (+8.5% away)
-- Nearest support: 18.60 (1.6% away)
+- Nearest resistance: 20.40 (+4.6% away)
+- Nearest support: 18.60 (4.6% away)
 - 52-week range: 14.50 to 23.70
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 49 | SuperTrend down
 
 ## Track record
 
-7/45 resolved predictions reached their target
+12/55 resolved predictions reached their target
 <!-- vectora:end -->

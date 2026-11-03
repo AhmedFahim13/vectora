@@ -3,7 +3,7 @@
 
 #posture/strong-buy #sector/food-allied #category/a
 
-**Food & Allied** | category A | as of [[Journal/2026-09-23|2026-09-23]]
+**Food & Allied** | category A | as of [[Journal/2026-09-30|2026-09-30]]
 
 Sector view: [[Sectors/Food & Allied|Food & Allied]]
 
@@ -16,13 +16,13 @@ Sector view: [[Sectors/Food & Allied|Food & Allied]]
 | Oscillators | Buy | 2 up / 0 down |
 | Six-family score | Hold | -1 |
 
-RSI 55 | SuperTrend down
+RSI 52 | SuperTrend down
 
 ## Levels
 
 - Monthly pivot: 451.57
-- Nearest resistance: 478.60 (+5.5% away)
-- Nearest support: 451.57 (0.4% away)
+- Nearest resistance: 451.57 (+0.3% away)
+- Nearest support: 420.40 (6.6% away)
 - 52-week range: 179.10 to 517.70
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 55 | SuperTrend down
 
 ## Track record
 
-9/45 resolved predictions reached their target
+13/55 resolved predictions reached their target
 <!-- vectora:end -->

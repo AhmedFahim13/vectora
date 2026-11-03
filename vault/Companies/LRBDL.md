@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # LRBDL
 
-#posture/hold #sector/fuel-power #category/z
+#posture/strong-sell #sector/fuel-power #category/z
 
-**Fuel & Power** | category Z | as of [[Journal/2026-09-23|2026-09-23]]
+**Fuel & Power** | category Z | as of [[Journal/2026-09-30|2026-09-30]]
 
 Sector view: [[Sectors/Fuel & Power|Fuel & Power]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Fuel & Power|Fuel & Power]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Hold** | |
-| Moving averages | Hold | 6 up / 6 down |
-| Oscillators | Hold | 1 up / 1 down |
-| Six-family score | Sell | -3 |
+| Summary (26 indicators) | **Strong Sell** | |
+| Moving averages | Strong Sell | 1 up / 11 down |
+| Oscillators | Sell | 0 up / 2 down |
+| Six-family score | Strong Sell | -7 |
 
-RSI 45 | SuperTrend down
+RSI 42 | SuperTrend down
 
 ## Levels
 
 - Monthly pivot: 15.30
-- Nearest resistance: 15.20 (+11.8% away)
-- Nearest support: 13.00 (4.4% away)
+- Nearest resistance: 14.90 (+13.7% away)
+- Nearest support: 13.00 (0.8% away)
 - 52-week range: 9.00 to 16.80
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 45 | SuperTrend down
 
 ## Track record
 
-3/45 resolved predictions reached their target
+6/55 resolved predictions reached their target
 <!-- vectora:end -->

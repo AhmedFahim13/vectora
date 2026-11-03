@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # LIBRAINFU
 
-#posture/sell #sector/pharmaceuticals-chemicals #category/z
+#posture/strong-sell #sector/pharmaceuticals-chemicals #category/z
 
-**Pharmaceuticals & Chemicals** | category Z | as of [[Journal/2026-09-23|2026-09-23]]
+**Pharmaceuticals & Chemicals** | category Z | as of [[Journal/2026-09-30|2026-09-30]]
 
 Sector view: [[Sectors/Pharmaceuticals & Chemicals|Pharmaceuticals & Chemicals]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Pharmaceuticals & Chemicals|Pharmaceuticals & Chemicals]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Sell** | |
-| Moving averages | Strong Sell | 3 up / 10 down |
-| Oscillators | Hold | 1 up / 1 down |
+| Summary (26 indicators) | **Strong Sell** | |
+| Moving averages | Strong Sell | 0 up / 13 down |
+| Oscillators | Sell | 1 up / 2 down |
 | Six-family score | Sell | -3 |
 
-RSI 43 | SuperTrend down
+RSI 40 | SuperTrend down
 
 ## Levels
 
 - Monthly pivot: 613.33
-- Nearest resistance: 613.33 (+5.7% away)
-- Nearest support: 563.43 (2.9% away)
+- Nearest resistance: 609.90 (+7.2% away)
+- Nearest support: 563.43 (1.0% away)
 - 52-week range: 550.10 to 850.00
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 43 | SuperTrend down
 
 ## Track record
 
-0/45 resolved predictions reached their target
+0/55 resolved predictions reached their target
 <!-- vectora:end -->

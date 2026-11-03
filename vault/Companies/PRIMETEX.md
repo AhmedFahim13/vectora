@@ -3,7 +3,7 @@
 
 #posture/sell #sector/textile #category/z
 
-**Textile** | category Z | as of [[Journal/2026-09-23|2026-09-23]]
+**Textile** | category Z | as of [[Journal/2026-09-30|2026-09-30]]
 
 Sector view: [[Sectors/Textile|Textile]]
 
@@ -12,9 +12,9 @@ Sector view: [[Sectors/Textile|Textile]]
 | gauge | verdict | detail |
 |---|---|---|
 | Summary (26 indicators) | **Sell** | |
-| Moving averages | Sell | 4 up / 9 down |
+| Moving averages | Strong Sell | 2 up / 11 down |
 | Oscillators | Hold | 1 up / 1 down |
-| Six-family score | Sell | -4 |
+| Six-family score | Sell | -3 |
 
 RSI 44 | SuperTrend down
 

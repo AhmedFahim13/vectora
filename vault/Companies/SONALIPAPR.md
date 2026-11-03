@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # SONALIPAPR
 
-#posture/buy #sector/paper-printing #category/a
+#posture/sell #sector/paper-printing #category/a
 
-**Paper & Printing** | category A | as of [[Journal/2026-09-23|2026-09-23]]
+**Paper & Printing** | category A | as of [[Journal/2026-09-30|2026-09-30]]
 
 Sector view: [[Sectors/Paper & Printing|Paper & Printing]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Paper & Printing|Paper & Printing]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Buy** | |
-| Moving averages | Buy | 8 up / 5 down |
-| Oscillators | Buy | 2 up / 0 down |
-| Six-family score | Hold | -1 |
+| Summary (26 indicators) | **Sell** | |
+| Moving averages | Strong Sell | 3 up / 10 down |
+| Oscillators | Hold | 1 up / 1 down |
+| Six-family score | Sell | -2 |
 
-RSI 53 | SuperTrend down
+RSI 48 | SuperTrend down
 
 ## Levels
 
 - Monthly pivot: 237.77
-- Nearest resistance: 234.00 (+2.6% away)
-- Nearest support: 219.23 (3.8% away)
+- Nearest resistance: 233.40 (+4.6% away)
+- Nearest support: 219.23 (1.8% away)
 - 52-week range: 125.00 to 314.90
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 53 | SuperTrend down
 
 ## Track record
 
-4/45 resolved predictions reached their target
+7/55 resolved predictions reached their target
 <!-- vectora:end -->

@@ -3,7 +3,7 @@
 
 #posture/buy #sector/engineering #category/z
 
-**Engineering** | category Z | as of [[Journal/2026-09-23|2026-09-23]]
+**Engineering** | category Z | as of [[Journal/2026-09-30|2026-09-30]]
 
 Sector view: [[Sectors/Engineering|Engineering]]
 
@@ -13,16 +13,16 @@ Sector view: [[Sectors/Engineering|Engineering]]
 |---|---|---|
 | Summary (26 indicators) | **Buy** | |
 | Moving averages | Buy | 8 up / 4 down |
-| Oscillators | Buy | 3 up / 1 down |
-| Six-family score | Hold | +1 |
+| Oscillators | Buy | 3 up / 0 down |
+| Six-family score | Buy | +4 |
 
-RSI 73 | SuperTrend up
+RSI 64 | SuperTrend up
 
 ## Levels
 
 - Monthly pivot: 74.80
-- Nearest resistance: 81.50 (+0.7% away)
-- Nearest support: 74.80 (7.5% away)
+- Nearest resistance: 81.50 (+1.9% away)
+- Nearest support: 74.80 (6.5% away)
 - 52-week range: 70.80 to 125.50
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 73 | SuperTrend up
 
 ## Track record
 
-4/45 resolved predictions reached their target
+9/55 resolved predictions reached their target
 <!-- vectora:end -->

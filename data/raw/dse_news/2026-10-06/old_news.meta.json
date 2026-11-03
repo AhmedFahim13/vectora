@@ -1,0 +1,9 @@
+{
+ "source": "dse_news",
+ "run_date": "2026-10-06",
+ "url": "https://old.dsebd.org/old_news.php",
+ "fetched_at": "2026-11-03T08:43:42.630781+00:00",
+ "bytes": 363515,
+ "compressed_bytes": 26796,
+ "sha256": "dd8efc7b52bb10b4386ecdff4e7e8cc84bc14979c310a7ddbe70120f8deb8cfd"
+}

@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # PIONEERINS
 
-#posture/buy #sector/insurance #category/a
+#posture/strong-buy #sector/insurance #category/a
 
-**Insurance** | category A | as of [[Journal/2026-09-23|2026-09-23]]
+**Insurance** | category A | as of [[Journal/2026-09-30|2026-09-30]]
 
 Sector view: [[Sectors/Insurance|Insurance]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Insurance|Insurance]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Buy** | |
-| Moving averages | Strong Buy | 11 up / 1 down |
-| Oscillators | Hold | 1 up / 1 down |
-| Six-family score | Hold | -1 |
+| Summary (26 indicators) | **Strong Buy** | |
+| Moving averages | Strong Buy | 12 up / 0 down |
+| Oscillators | Buy | 3 up / 1 down |
+| Six-family score | Strong Buy | +5 |
 
-RSI 54 | SuperTrend down
+RSI 59 | SuperTrend up
 
 ## Levels
 
 - Monthly pivot: 68.80
-- Nearest resistance: 68.80 (+2.5% away)
-- Nearest support: 61.70 (8.0% away)
+- Nearest resistance: 72.70 (+4.9% away)
+- Nearest support: 68.80 (0.7% away)
 - 52-week range: 34.70 to 75.90
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 54 | SuperTrend down
 
 ## Track record
 
-14/45 resolved predictions reached their target
+19/55 resolved predictions reached their target
 <!-- vectora:end -->

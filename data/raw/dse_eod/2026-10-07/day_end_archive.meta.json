@@ -1,0 +1,9 @@
+{
+ "source": "dse_eod",
+ "run_date": "2026-10-07",
+ "url": "https://old.dsebd.org/day_end_archive.php",
+ "fetched_at": "2026-11-03T08:48:00.794000+00:00",
+ "bytes": 706253,
+ "compressed_bytes": 44686,
+ "sha256": "de45945a60a2885a835483e6be316f787f4b69679882a1018d44e3599fa690b0"
+}

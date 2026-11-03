@@ -3,7 +3,7 @@
 
 #posture/sell #sector/telecommunication #category/a #risk/thin-float
 
-**Telecommunication** | category A | as of [[Journal/2026-09-23|2026-09-23]]
+**Telecommunication** | category A | as of [[Journal/2026-09-30|2026-09-30]]
 
 Sector view: [[Sectors/Telecommunication|Telecommunication]]
 
@@ -12,17 +12,17 @@ Sector view: [[Sectors/Telecommunication|Telecommunication]]
 | gauge | verdict | detail |
 |---|---|---|
 | Summary (26 indicators) | **Sell** | |
-| Moving averages | Sell | 4 up / 9 down |
-| Oscillators | Hold | 1 up / 1 down |
+| Moving averages | Strong Sell | 2 up / 11 down |
+| Oscillators | Buy | 2 up / 1 down |
 | Six-family score | Sell | -3 |
 
-RSI 43 | SuperTrend down
+RSI 42 | SuperTrend down
 
 ## Levels
 
 - Monthly pivot: 31.00
-- Nearest resistance: 31.00 (+3.3% away)
-- Nearest support: 29.60 (1.3% away)
+- Nearest resistance: 31.00 (+3.7% away)
+- Nearest support: 29.60 (1.0% away)
 - 52-week range: 22.60 to 33.90
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 43 | SuperTrend down
 
 ## Track record
 
-0/45 resolved predictions reached their target
+0/55 resolved predictions reached their target
 <!-- vectora:end -->

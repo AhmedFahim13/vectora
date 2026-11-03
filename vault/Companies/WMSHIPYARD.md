@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # WMSHIPYARD
 
-#posture/sell #sector/engineering #category/z
+#posture/strong-sell #sector/engineering #category/z
 
-**Engineering** | category Z | as of [[Journal/2026-09-23|2026-09-23]]
+**Engineering** | category Z | as of [[Journal/2026-09-30|2026-09-30]]
 
 Sector view: [[Sectors/Engineering|Engineering]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Engineering|Engineering]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Sell** | |
-| Moving averages | Sell | 4 up / 9 down |
+| Summary (26 indicators) | **Strong Sell** | |
+| Moving averages | Strong Sell | 0 up / 13 down |
 | Oscillators | Hold | 1 up / 1 down |
-| Six-family score | Sell | -3 |
+| Six-family score | Sell | -4 |
 
-RSI 43 | SuperTrend down
+RSI 37 | SuperTrend down
 
 ## Levels
 
 - Monthly pivot: 9.57
-- Nearest resistance: 9.50 (+8.0% away)
-- Nearest support: 8.33 (5.3% away)
+- Nearest resistance: 9.50 (+10.5% away)
+- Nearest support: 8.33 (3.1% away)
 - 52-week range: 6.60 to 10.80
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 43 | SuperTrend down
 
 ## Track record
 
-0/45 resolved predictions reached their target
+0/55 resolved predictions reached their target
 <!-- vectora:end -->

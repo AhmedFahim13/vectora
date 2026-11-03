@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # NATLIFEINS
 
-#posture/hold #sector/insurance #category/a
+#posture/strong-sell #sector/insurance #category/a
 
-**Insurance** | category A | as of [[Journal/2026-09-23|2026-09-23]]
+**Insurance** | category A | as of [[Journal/2026-09-30|2026-09-30]]
 
 Sector view: [[Sectors/Insurance|Insurance]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Insurance|Insurance]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Hold** | |
-| Moving averages | Hold | 6 up / 7 down |
+| Summary (26 indicators) | **Strong Sell** | |
+| Moving averages | Strong Sell | 0 up / 13 down |
 | Oscillators | Hold | 1 up / 1 down |
-| Six-family score | Hold | -1 |
+| Six-family score | Sell | -3 |
 
-RSI 49 | SuperTrend down
+RSI 44 | SuperTrend down
 
 ## Levels
 
 - Monthly pivot: 99.10
-- Nearest resistance: 99.10 (+3.7% away)
-- Nearest support: 91.50 (4.3% away)
+- Nearest resistance: 99.10 (+6.4% away)
+- Nearest support: 91.50 (1.7% away)
 - 52-week range: 82.10 to 134.00
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 49 | SuperTrend down
 
 ## Track record
 
-0/45 resolved predictions reached their target
+2/55 resolved predictions reached their target
 <!-- vectora:end -->

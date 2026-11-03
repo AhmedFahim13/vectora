@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # ESQUIRENIT
 
-#posture/hold #sector/textile #category/a
+#posture/strong-sell #sector/textile #category/a
 
-**Textile** | category A | as of [[Journal/2026-09-23|2026-09-23]]
+**Textile** | category A | as of [[Journal/2026-09-30|2026-09-30]]
 
 Sector view: [[Sectors/Textile|Textile]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Textile|Textile]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Hold** | |
-| Moving averages | Hold | 6 up / 6 down |
-| Oscillators | Sell | 0 up / 1 down |
-| Six-family score | Sell | -5 |
+| Summary (26 indicators) | **Strong Sell** | |
+| Moving averages | Strong Sell | 0 up / 12 down |
+| Oscillators | Sell | 0 up / 3 down |
+| Six-family score | Strong Sell | -6 |
 
-RSI 47 | SuperTrend down
+RSI 44 | SuperTrend down
 
 ## Levels
 
 - Monthly pivot: 26.23
-- Nearest resistance: 26.23 (+9.3% away)
-- Nearest support: 22.87 (4.7% away)
+- Nearest resistance: 26.23 (+12.1% away)
+- Nearest support: 22.87 (2.3% away)
 - 52-week range: 18.30 to 29.90
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 47 | SuperTrend down
 
 ## Track record
 
-9/45 resolved predictions reached their target
+13/55 resolved predictions reached their target
 <!-- vectora:end -->

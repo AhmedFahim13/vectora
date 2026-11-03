@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # SALVO
 
-#posture/hold #sector/pharmaceuticals-chemicals #category/b
+#posture/buy #sector/pharmaceuticals-chemicals #category/b
 
-**Pharmaceuticals & Chemicals** | category B | as of [[Journal/2026-09-23|2026-09-23]]
+**Pharmaceuticals & Chemicals** | category B | as of [[Journal/2026-09-30|2026-09-30]]
 
 Sector view: [[Sectors/Pharmaceuticals & Chemicals|Pharmaceuticals & Chemicals]]
 
@@ -11,12 +11,12 @@ Sector view: [[Sectors/Pharmaceuticals & Chemicals|Pharmaceuticals & Chemicals]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Hold** | |
-| Moving averages | Hold | 6 up / 7 down |
+| Summary (26 indicators) | **Buy** | |
+| Moving averages | Buy | 8 up / 5 down |
 | Oscillators | Hold | 1 up / 1 down |
-| Six-family score | Hold | -1 |
+| Six-family score | Sell | -2 |
 
-RSI 46 | SuperTrend down
+RSI 48 | SuperTrend down
 
 ## Levels
 
@@ -34,5 +34,5 @@ RSI 46 | SuperTrend down
 
 ## Track record
 
-1/45 resolved predictions reached their target
+5/55 resolved predictions reached their target
 <!-- vectora:end -->

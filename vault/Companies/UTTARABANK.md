@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # UTTARABANK
 
-#posture/strong-sell #sector/bank #category/a
+#posture/sell #sector/bank #category/a
 
-**Bank** | category A | as of [[Journal/2026-09-23|2026-09-23]]
+**Bank** | category A | as of [[Journal/2026-09-30|2026-09-30]]
 
 Sector view: [[Sectors/Bank|Bank]]
 
@@ -11,19 +11,19 @@ Sector view: [[Sectors/Bank|Bank]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Strong Sell** | |
+| Summary (26 indicators) | **Sell** | |
 | Moving averages | Strong Sell | 0 up / 13 down |
-| Oscillators | Sell | 1 up / 2 down |
+| Oscillators | Buy | 2 up / 1 down |
 | Six-family score | Sell | -4 |
 
-RSI 32 | SuperTrend down
+RSI 35 | SuperTrend down
 
 ## Levels
 
 - Monthly pivot: 21.00
-- Nearest resistance: 21.00 (+1.9% away)
+- Nearest resistance: 20.90 (+1.5% away)
 - Nearest support: 20.50 (0.5% away)
-- 52-week range: 18.60 to 26.60
+- 52-week range: 18.60 to 25.80
 
 ## Fundamentals
 
@@ -34,5 +34,5 @@ RSI 32 | SuperTrend down
 
 ## Track record
 
-0/45 resolved predictions reached their target
+0/55 resolved predictions reached their target
 <!-- vectora:end -->

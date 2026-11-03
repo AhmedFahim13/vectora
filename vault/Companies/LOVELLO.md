@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # LOVELLO
 
-#posture/hold #sector/food-allied #category/a
+#posture/sell #sector/food-allied #category/a
 
-**Food & Allied** | category A | as of [[Journal/2026-09-23|2026-09-23]]
+**Food & Allied** | category A | as of [[Journal/2026-09-30|2026-09-30]]
 
 Sector view: [[Sectors/Food & Allied|Food & Allied]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Food & Allied|Food & Allied]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Hold** | |
-| Moving averages | Hold | 6 up / 7 down |
-| Oscillators | Buy | 2 up / 1 down |
+| Summary (26 indicators) | **Sell** | |
+| Moving averages | Strong Sell | 3 up / 10 down |
+| Oscillators | Sell | 1 up / 2 down |
 | Six-family score | Buy | +3 |
 
-RSI 50 | SuperTrend up
+RSI 46 | SuperTrend up
 
 ## Levels
 
 - Monthly pivot: 58.47
-- Nearest resistance: 58.47 (+8.5% away)
-- Nearest support: 44.93 (16.6% away)
+- Nearest resistance: 56.50 (+9.5% away)
+- Nearest support: 44.93 (12.9% away)
 - 52-week range: 42.20 to 110.30
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 50 | SuperTrend up
 
 ## Track record
 
-4/45 resolved predictions reached their target
+9/55 resolved predictions reached their target
 <!-- vectora:end -->

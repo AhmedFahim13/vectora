@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # DESHBANDHU
 
-#posture/sell #sector/engineering #category/b
+#posture/strong-sell #sector/engineering #category/b
 
-**Engineering** | category B | as of [[Journal/2026-09-23|2026-09-23]]
+**Engineering** | category B | as of [[Journal/2026-09-30|2026-09-30]]
 
 Sector view: [[Sectors/Engineering|Engineering]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Engineering|Engineering]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Sell** | |
-| Moving averages | Strong Sell | 3 up / 10 down |
-| Oscillators | Hold | 1 up / 1 down |
-| Six-family score | Sell | -3 |
+| Summary (26 indicators) | **Strong Sell** | |
+| Moving averages | Strong Sell | 0 up / 13 down |
+| Oscillators | Sell | 1 up / 2 down |
+| Six-family score | Sell | -5 |
 
-RSI 43 | SuperTrend down
+RSI 37 | SuperTrend down
 
 ## Levels
 
 - Monthly pivot: 20.50
-- Nearest resistance: 19.60 (+12.0% away)
-- Nearest support: 16.60 (5.1% away)
+- Nearest resistance: 19.50 (+16.1% away)
+- Nearest support: 16.60 (1.2% away)
 - 52-week range: 13.20 to 25.10
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 43 | SuperTrend down
 
 ## Track record
 
-4/45 resolved predictions reached their target
+6/55 resolved predictions reached their target
 <!-- vectora:end -->

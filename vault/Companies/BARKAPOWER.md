@@ -3,7 +3,7 @@
 
 #posture/buy #sector/fuel-power #category/z
 
-**Fuel & Power** | category Z | as of [[Journal/2026-09-23|2026-09-23]]
+**Fuel & Power** | category Z | as of [[Journal/2026-09-30|2026-09-30]]
 
 Sector view: [[Sectors/Fuel & Power|Fuel & Power]]
 
@@ -12,17 +12,17 @@ Sector view: [[Sectors/Fuel & Power|Fuel & Power]]
 | gauge | verdict | detail |
 |---|---|---|
 | Summary (26 indicators) | **Buy** | |
-| Moving averages | Buy | 9 up / 3 down |
-| Oscillators | Sell | 0 up / 2 down |
+| Moving averages | Strong Buy | 12 up / 0 down |
+| Oscillators | Sell | 0 up / 1 down |
 | Six-family score | Sell | -3 |
 
-RSI 50 | SuperTrend down
+RSI 52 | SuperTrend down
 
 ## Levels
 
 - Monthly pivot: 10.53
-- Nearest resistance: 10.53 (+6.4% away)
-- Nearest support: 9.60 (3.0% away)
+- Nearest resistance: 10.53 (+5.3% away)
+- Nearest support: 9.60 (4.0% away)
 - 52-week range: 5.20 to 13.50
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 50 | SuperTrend down
 
 ## Track record
 
-30/45 resolved predictions reached their target
+31/55 resolved predictions reached their target
 <!-- vectora:end -->

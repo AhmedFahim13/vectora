@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # BSRMLTD
 
-#posture/buy #sector/engineering #category/a
+#posture/sell #sector/engineering #category/a
 
-**Engineering** | category A | as of [[Journal/2026-09-23|2026-09-23]]
+**Engineering** | category A | as of [[Journal/2026-09-30|2026-09-30]]
 
 Sector view: [[Sectors/Engineering|Engineering]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Engineering|Engineering]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Buy** | |
-| Moving averages | Buy | 8 up / 4 down |
-| Oscillators | Buy | 1 up / 0 down |
-| Six-family score | Hold | -1 |
+| Summary (26 indicators) | **Sell** | |
+| Moving averages | Sell | 4 up / 9 down |
+| Oscillators | Sell | 1 up / 2 down |
+| Six-family score | Strong Sell | -7 |
 
-RSI 48 | SuperTrend down
+RSI 39 | SuperTrend down
 
 ## Levels
 
 - Monthly pivot: 101.73
-- Nearest resistance: 101.70 (+5.1% away)
-- Nearest support: 93.20 (3.7% away)
+- Nearest resistance: 100.90 (+6.7% away)
+- Nearest support: 93.20 (1.5% away)
 - 52-week range: 68.10 to 115.00
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 48 | SuperTrend down
 
 ## Track record
 
-1/45 resolved predictions reached their target
+1/55 resolved predictions reached their target
 <!-- vectora:end -->

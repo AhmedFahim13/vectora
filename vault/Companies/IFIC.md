@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # IFIC
 
-#posture/buy #sector/bank #category/z
+#posture/hold #sector/bank #category/z
 
-**Bank** | category Z | as of [[Journal/2026-09-23|2026-09-23]]
+**Bank** | category Z | as of [[Journal/2026-09-30|2026-09-30]]
 
 Sector view: [[Sectors/Bank|Bank]]
 
@@ -11,10 +11,10 @@ Sector view: [[Sectors/Bank|Bank]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Buy** | |
+| Summary (26 indicators) | **Hold** | |
 | Moving averages | Hold | 7 up / 6 down |
-| Oscillators | Buy | 2 up / 0 down |
-| Six-family score | Buy | +4 |
+| Oscillators | Hold | 1 up / 1 down |
+| Six-family score | Hold | +0 |
 
 RSI 54 | SuperTrend up
 
@@ -23,7 +23,7 @@ RSI 54 | SuperTrend up
 - Monthly pivot: 4.73
 - Nearest resistance: 4.97 (+1.4% away)
 - Nearest support: 4.73 (3.4% away)
-- 52-week range: 3.60 to 7.60
+- 52-week range: 3.60 to 7.20
 
 ## Fundamentals
 
@@ -34,5 +34,5 @@ RSI 54 | SuperTrend up
 
 ## Track record
 
-5/45 resolved predictions reached their target
+9/55 resolved predictions reached their target
 <!-- vectora:end -->

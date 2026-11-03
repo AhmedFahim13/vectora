@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # EPGL
 
-#posture/sell #sector/fuel-power #category/b
+#posture/strong-sell #sector/fuel-power #category/b
 
-**Fuel & Power** | category B | as of [[Journal/2026-09-23|2026-09-23]]
+**Fuel & Power** | category B | as of [[Journal/2026-09-30|2026-09-30]]
 
 Sector view: [[Sectors/Fuel & Power|Fuel & Power]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Fuel & Power|Fuel & Power]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Sell** | |
-| Moving averages | Strong Sell | 3 up / 10 down |
-| Oscillators | Hold | 1 up / 1 down |
-| Six-family score | Sell | -3 |
+| Summary (26 indicators) | **Strong Sell** | |
+| Moving averages | Strong Sell | 0 up / 13 down |
+| Oscillators | Sell | 1 up / 2 down |
+| Six-family score | Sell | -4 |
 
-RSI 43 | SuperTrend down
+RSI 37 | SuperTrend down
 
 ## Levels
 
 - Monthly pivot: 19.27
-- Nearest resistance: 18.90 (+10.5% away)
-- Nearest support: 16.73 (2.1% away)
+- Nearest resistance: 18.90 (+14.5% away)
+- Nearest support: 16.00 (3.0% away)
 - 52-week range: 14.00 to 24.60
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 43 | SuperTrend down
 
 ## Track record
 
-3/45 resolved predictions reached their target
+4/55 resolved predictions reached their target
 <!-- vectora:end -->

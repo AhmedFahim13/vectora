@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # HWAWELLTEX
 
-#posture/sell #sector/textile #category/a
+#posture/buy #sector/textile #category/a
 
-**Textile** | category A | as of [[Journal/2026-09-23|2026-09-23]]
+**Textile** | category A | as of [[Journal/2026-09-30|2026-09-30]]
 
 Sector view: [[Sectors/Textile|Textile]]
 
@@ -11,12 +11,12 @@ Sector view: [[Sectors/Textile|Textile]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Sell** | |
-| Moving averages | Sell | 4 up / 8 down |
-| Oscillators | Sell | 0 up / 1 down |
-| Six-family score | Sell | -4 |
+| Summary (26 indicators) | **Buy** | |
+| Moving averages | Hold | 7 up / 6 down |
+| Oscillators | Buy | 1 up / 0 down |
+| Six-family score | Sell | -2 |
 
-RSI 47 | SuperTrend down
+RSI 48 | SuperTrend down
 
 ## Levels
 
@@ -34,5 +34,5 @@ RSI 47 | SuperTrend down
 
 ## Track record
 
-10/45 resolved predictions reached their target
+10/55 resolved predictions reached their target
 <!-- vectora:end -->

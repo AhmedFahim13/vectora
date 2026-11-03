@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # MATINSPINN
 
-#posture/buy #sector/textile #category/a
+#posture/strong-buy #sector/textile #category/a
 
-**Textile** | category A | as of [[Journal/2026-09-23|2026-09-23]]
+**Textile** | category A | as of [[Journal/2026-09-30|2026-09-30]]
 
 Sector view: [[Sectors/Textile|Textile]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Textile|Textile]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Buy** | |
+| Summary (26 indicators) | **Strong Buy** | |
 | Moving averages | Strong Buy | 13 up / 0 down |
-| Oscillators | Sell | 0 up / 2 down |
-| Six-family score | Hold | +1 |
+| Oscillators | Buy | 2 up / 1 down |
+| Six-family score | Strong Buy | +7 |
 
-RSI 57 | SuperTrend down
+RSI 59 | SuperTrend up
 
 ## Levels
 
 - Monthly pivot: 63.17
-- Nearest resistance: 67.33 (+3.0% away)
-- Nearest support: 63.17 (3.4% away)
+- Nearest resistance: 67.33 (+0.8% away)
+- Nearest support: 63.17 (5.4% away)
 - 52-week range: 42.00 to 68.70
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 57 | SuperTrend down
 
 ## Track record
 
-32/45 resolved predictions reached their target
+34/55 resolved predictions reached their target
 <!-- vectora:end -->

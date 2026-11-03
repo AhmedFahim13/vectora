@@ -3,7 +3,7 @@
 
 #posture/sell #sector/engineering #category/z
 
-**Engineering** | category Z | as of [[Journal/2026-09-23|2026-09-23]]
+**Engineering** | category Z | as of [[Journal/2026-09-30|2026-09-30]]
 
 Sector view: [[Sectors/Engineering|Engineering]]
 
@@ -12,18 +12,18 @@ Sector view: [[Sectors/Engineering|Engineering]]
 | gauge | verdict | detail |
 |---|---|---|
 | Summary (26 indicators) | **Sell** | |
-| Moving averages | Sell | 3 up / 9 down |
-| Oscillators | Sell | 0 up / 1 down |
-| Six-family score | Strong Sell | -7 |
+| Moving averages | Hold | 6 up / 6 down |
+| Oscillators | Sell | 1 up / 3 down |
+| Six-family score | Sell | -5 |
 
-RSI 45 | SuperTrend down
+RSI 46 | SuperTrend down
 
 ## Levels
 
 - Monthly pivot: 6.30
-- Nearest resistance: 6.30 (+8.6% away)
-- Nearest support: 5.70 (1.7% away)
-- 52-week range: 3.20 to 8.80
+- Nearest resistance: 6.20 (+6.9% away)
+- Nearest support: 5.60 (3.4% away)
+- 52-week range: 3.20 to 8.30
 
 ## Fundamentals
 

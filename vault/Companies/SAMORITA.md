@@ -3,7 +3,7 @@
 
 #posture/buy #sector/services-real-estate #category/b
 
-**Services & Real Estate** | category B | as of [[Journal/2026-09-23|2026-09-23]]
+**Services & Real Estate** | category B | as of [[Journal/2026-09-30|2026-09-30]]
 
 Sector view: [[Sectors/Services & Real Estate|Services & Real Estate]]
 
@@ -12,17 +12,17 @@ Sector view: [[Sectors/Services & Real Estate|Services & Real Estate]]
 | gauge | verdict | detail |
 |---|---|---|
 | Summary (26 indicators) | **Buy** | |
-| Moving averages | Buy | 9 up / 3 down |
-| Oscillators | Buy | 2 up / 1 down |
-| Six-family score | Sell | -3 |
+| Moving averages | Buy | 8 up / 5 down |
+| Oscillators | Hold | 1 up / 1 down |
+| Six-family score | Sell | -2 |
 
 RSI 49 | SuperTrend down
 
 ## Levels
 
 - Monthly pivot: 105.30
-- Nearest resistance: 105.30 (+12.1% away)
-- Nearest support: 90.60 (3.5% away)
+- Nearest resistance: 102.50 (+9.0% away)
+- Nearest support: 90.60 (3.6% away)
 - 52-week range: 51.50 to 120.00
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 49 | SuperTrend down
 
 ## Track record
 
-33/45 resolved predictions reached their target
+40/55 resolved predictions reached their target
 <!-- vectora:end -->

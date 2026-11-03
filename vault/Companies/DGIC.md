@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # DGIC
 
-#posture/buy #sector/insurance #category/b
+#posture/strong-buy #sector/insurance #category/b
 
-**Insurance** | category B | as of [[Journal/2026-09-23|2026-09-23]]
+**Insurance** | category B | as of [[Journal/2026-09-30|2026-09-30]]
 
 Sector view: [[Sectors/Insurance|Insurance]]
 
@@ -11,19 +11,19 @@ Sector view: [[Sectors/Insurance|Insurance]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Buy** | |
+| Summary (26 indicators) | **Strong Buy** | |
 | Moving averages | Strong Buy | 13 up / 0 down |
-| Oscillators | Sell | 3 up / 4 down |
-| Six-family score | Hold | +1 |
+| Oscillators | Buy | 3 up / 2 down |
+| Six-family score | Strong Buy | +6 |
 
-RSI 71 | SuperTrend up
+RSI 75 | SuperTrend up
 
 ## Levels
 
 - Monthly pivot: 32.73
-- Nearest resistance: 38.50 (+2.4% away)
-- Nearest support: 32.73 (12.9% away)
-- 52-week range: 16.90 to 38.50
+- Nearest resistance: 41.97 (+1.4% away)
+- Nearest support: 32.73 (20.9% away)
+- 52-week range: 16.90 to 42.40
 
 ## Fundamentals
 
@@ -34,5 +34,5 @@ RSI 71 | SuperTrend up
 
 ## Track record
 
-14/45 resolved predictions reached their target
+24/55 resolved predictions reached their target
 <!-- vectora:end -->

@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # MEGHNAPET
 
-#posture/strong-buy #sector/food-allied #category/z
+#posture/buy #sector/food-allied #category/z
 
-**Food & Allied** | category Z | as of [[Journal/2026-09-23|2026-09-23]]
+**Food & Allied** | category Z | as of [[Journal/2026-09-30|2026-09-30]]
 
 Sector view: [[Sectors/Food & Allied|Food & Allied]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Food & Allied|Food & Allied]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Strong Buy** | |
-| Moving averages | Strong Buy | 12 up / 0 down |
-| Oscillators | Buy | 3 up / 0 down |
-| Six-family score | Strong Buy | +5 |
+| Summary (26 indicators) | **Buy** | |
+| Moving averages | Buy | 8 up / 4 down |
+| Oscillators | Hold | 1 up / 1 down |
+| Six-family score | Buy | +3 |
 
-RSI 61 | SuperTrend up
+RSI 52 | SuperTrend up
 
 ## Levels
 
 - Monthly pivot: 80.63
-- Nearest resistance: 85.90 (+5.7% away)
-- Nearest support: 80.63 (0.8% away)
+- Nearest resistance: 80.63 (+6.0% away)
+- Nearest support: 73.27 (3.7% away)
 - 52-week range: 17.30 to 101.90
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 61 | SuperTrend up
 
 ## Track record
 
-9/45 resolved predictions reached their target
+14/55 resolved predictions reached their target
 <!-- vectora:end -->

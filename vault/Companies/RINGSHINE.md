@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # RINGSHINE
 
-#posture/hold #sector/textile #category/z
+#posture/sell #sector/textile #category/z
 
-**Textile** | category Z | as of [[Journal/2026-09-23|2026-09-23]]
+**Textile** | category Z | as of [[Journal/2026-09-30|2026-09-30]]
 
 Sector view: [[Sectors/Textile|Textile]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Textile|Textile]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Hold** | |
-| Moving averages | Buy | 7 up / 5 down |
+| Summary (26 indicators) | **Sell** | |
+| Moving averages | Sell | 5 up / 8 down |
 | Oscillators | Sell | 1 up / 2 down |
-| Six-family score | Sell | -2 |
+| Six-family score | Sell | -3 |
 
-RSI 46 | SuperTrend down
+RSI 44 | SuperTrend down
 
 ## Levels
 
 - Monthly pivot: 4.47
-- Nearest resistance: 4.40 (+12.8% away)
-- Nearest support: 3.63 (6.8% away)
+- Nearest resistance: 4.40 (+15.8% away)
+- Nearest support: 3.63 (4.4% away)
 - 52-week range: 1.90 to 5.30
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 46 | SuperTrend down
 
 ## Track record
 
-11/45 resolved predictions reached their target
+14/55 resolved predictions reached their target
 <!-- vectora:end -->

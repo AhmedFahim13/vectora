@@ -3,7 +3,7 @@
 
 #posture/buy #sector/corporate-bond #category/n
 
-**Corporate Bond** | category N | as of [[Journal/2026-09-23|2026-09-23]]
+**Corporate Bond** | category N | as of [[Journal/2026-09-30|2026-09-30]]
 
 Sector view: [[Sectors/Corporate Bond|Corporate Bond]]
 
@@ -14,7 +14,7 @@ Sector view: [[Sectors/Corporate Bond|Corporate Bond]]
 | Summary (26 indicators) | **Buy** | |
 | Moving averages | Buy | 7 up / 2 down |
 | Oscillators | Hold | 2 up / 2 down |
-| Six-family score | Strong Buy | +5 |
+| Six-family score | Buy | +4 |
 
 RSI 72 | SuperTrend up
 

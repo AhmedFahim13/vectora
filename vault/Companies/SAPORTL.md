@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # SAPORTL
 
-#posture/strong-buy #sector/services-real-estate #category/a
+#posture/hold #sector/services-real-estate #category/a
 
-**Services & Real Estate** | category A | as of [[Journal/2026-09-23|2026-09-23]]
+**Services & Real Estate** | category A | as of [[Journal/2026-09-30|2026-09-30]]
 
 Sector view: [[Sectors/Services & Real Estate|Services & Real Estate]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Services & Real Estate|Services & Real Estate]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Strong Buy** | |
-| Moving averages | Strong Buy | 13 up / 0 down |
-| Oscillators | Buy | 2 up / 0 down |
-| Six-family score | Buy | +4 |
+| Summary (26 indicators) | **Hold** | |
+| Moving averages | Hold | 7 up / 6 down |
+| Oscillators | Sell | 0 up / 1 down |
+| Six-family score | Sell | -2 |
 
-RSI 60 | SuperTrend down
+RSI 49 | SuperTrend down
 
 ## Levels
 
 - Monthly pivot: 58.43
-- Nearest resistance: 62.20 (+1.0% away)
-- Nearest support: 58.43 (5.1% away)
+- Nearest resistance: 61.57 (+3.1% away)
+- Nearest support: 58.43 (2.1% away)
 - 52-week range: 20.20 to 62.50
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 60 | SuperTrend down
 
 ## Track record
 
-20/45 resolved predictions reached their target
+21/55 resolved predictions reached their target
 <!-- vectora:end -->

@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # SBACBANK
 
-#posture/buy #sector/bank #category/z #risk/thin-float
+#posture/strong-sell #sector/bank #category/z #risk/thin-float
 
-**Bank** | category Z | as of [[Journal/2026-09-23|2026-09-23]]
+**Bank** | category Z | as of [[Journal/2026-09-30|2026-09-30]]
 
 Sector view: [[Sectors/Bank|Bank]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Bank|Bank]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Buy** | |
-| Moving averages | Buy | 9 up / 4 down |
-| Oscillators | Buy | 1 up / 0 down |
-| Six-family score | Hold | -1 |
+| Summary (26 indicators) | **Strong Sell** | |
+| Moving averages | Strong Sell | 1 up / 12 down |
+| Oscillators | Sell | 0 up / 2 down |
+| Six-family score | Sell | -5 |
 
-RSI 51 | SuperTrend down
+RSI 47 | SuperTrend down
 
 ## Levels
 
 - Monthly pivot: 6.97
-- Nearest resistance: 6.97 (+2.5% away)
-- Nearest support: 6.50 (4.4% away)
+- Nearest resistance: 6.97 (+4.0% away)
+- Nearest support: 6.50 (3.0% away)
 - 52-week range: 5.00 to 9.30
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 51 | SuperTrend down
 
 ## Track record
 
-5/32 resolved predictions reached their target
+5/37 resolved predictions reached their target
 <!-- vectora:end -->

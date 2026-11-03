@@ -3,7 +3,7 @@
 
 #posture/hold #sector/it-sector #category/z
 
-**IT Sector** | category Z | as of [[Journal/2026-09-23|2026-09-23]]
+**IT Sector** | category Z | as of [[Journal/2026-09-30|2026-09-30]]
 
 Sector view: [[Sectors/IT Sector|IT Sector]]
 
@@ -12,11 +12,11 @@ Sector view: [[Sectors/IT Sector|IT Sector]]
 | gauge | verdict | detail |
 |---|---|---|
 | Summary (26 indicators) | **Hold** | |
-| Moving averages | Hold | 6 up / 7 down |
+| Moving averages | Hold | 7 up / 6 down |
 | Oscillators | Hold | 1 up / 1 down |
-| Six-family score | Sell | -3 |
+| Six-family score | Sell | -2 |
 
-RSI 44 | SuperTrend down
+RSI 45 | SuperTrend down
 
 ## Levels
 
@@ -34,5 +34,5 @@ RSI 44 | SuperTrend down
 
 ## Track record
 
-21/45 resolved predictions reached their target
+22/55 resolved predictions reached their target
 <!-- vectora:end -->

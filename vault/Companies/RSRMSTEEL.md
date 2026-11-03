@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # RSRMSTEEL
 
-#posture/sell #sector/engineering #category/z
+#posture/strong-sell #sector/engineering #category/z
 
-**Engineering** | category Z | as of [[Journal/2026-09-23|2026-09-23]]
+**Engineering** | category Z | as of [[Journal/2026-09-30|2026-09-30]]
 
 Sector view: [[Sectors/Engineering|Engineering]]
 
@@ -11,19 +11,19 @@ Sector view: [[Sectors/Engineering|Engineering]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Sell** | |
-| Moving averages | Strong Sell | 1 up / 10 down |
-| Oscillators | Sell | 0 up / 2 down |
-| Six-family score | Strong Sell | -7 |
+| Summary (26 indicators) | **Strong Sell** | |
+| Moving averages | Strong Sell | 0 up / 13 down |
+| Oscillators | Hold | 1 up / 1 down |
+| Six-family score | Sell | -5 |
 
-RSI 39 | SuperTrend down
+RSI 28 | SuperTrend down
 
 ## Levels
 
 - Monthly pivot: 7.67
-- Nearest resistance: 7.67 (+11.1% away)
-- Nearest support: 6.67 (3.4% away)
-- 52-week range: 4.30 to 13.60
+- Nearest resistance: 7.67 (+17.9% away)
+- Nearest support: 6.03 (7.2% away)
+- 52-week range: 4.30 to 12.50
 
 ## Fundamentals
 

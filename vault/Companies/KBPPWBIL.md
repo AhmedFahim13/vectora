@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # KBPPWBIL
 
-#posture/buy #sector/miscellaneous #category/a
+#posture/hold #sector/miscellaneous #category/a
 
-**Miscellaneous** | category A | as of [[Journal/2026-09-23|2026-09-23]]
+**Miscellaneous** | category A | as of [[Journal/2026-09-30|2026-09-30]]
 
 Sector view: [[Sectors/Miscellaneous|Miscellaneous]]
 
@@ -11,19 +11,19 @@ Sector view: [[Sectors/Miscellaneous|Miscellaneous]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Buy** | |
-| Moving averages | Buy | 8 up / 5 down |
-| Oscillators | Buy | 3 up / 2 down |
+| Summary (26 indicators) | **Hold** | |
+| Moving averages | Sell | 5 up / 8 down |
+| Oscillators | Buy | 2 up / 0 down |
 | Six-family score | Buy | +4 |
 
-RSI 65 | SuperTrend up
+RSI 54 | SuperTrend up
 
 ## Levels
 
 - Monthly pivot: 36.43
-- Nearest resistance: 40.70 (+2.5% away)
-- Nearest support: 36.43 (8.2% away)
-- 52-week range: 28.10 to 171.00
+- Nearest resistance: 39.27 (+5.8% away)
+- Nearest support: 36.43 (1.8% away)
+- 52-week range: 28.10 to 165.20
 
 ## Fundamentals
 
@@ -34,5 +34,5 @@ RSI 65 | SuperTrend up
 
 ## Track record
 
-10/45 resolved predictions reached their target
+15/55 resolved predictions reached their target
 <!-- vectora:end -->

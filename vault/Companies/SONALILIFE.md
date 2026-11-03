@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # SONALILIFE
 
-#posture/buy #sector/insurance #category/a
+#posture/strong-buy #sector/insurance #category/a
 
-**Insurance** | category A | as of [[Journal/2026-09-23|2026-09-23]]
+**Insurance** | category A | as of [[Journal/2026-09-30|2026-09-30]]
 
 Sector view: [[Sectors/Insurance|Insurance]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Insurance|Insurance]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Buy** | |
-| Moving averages | Strong Buy | 12 up / 0 down |
-| Oscillators | Hold | 1 up / 1 down |
-| Six-family score | Hold | +0 |
+| Summary (26 indicators) | **Strong Buy** | |
+| Moving averages | Strong Buy | 13 up / 0 down |
+| Oscillators | Buy | 2 up / 0 down |
+| Six-family score | Buy | +3 |
 
-RSI 57 | SuperTrend down
+RSI 69 | SuperTrend up
 
 ## Levels
 
 - Monthly pivot: 87.10
-- Nearest resistance: 87.10 (+1.8% away)
-- Nearest support: 80.80 (5.6% away)
+- Nearest resistance: 92.20 (+0.3% away)
+- Nearest support: 87.10 (5.2% away)
 - 52-week range: 42.00 to 93.40
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 57 | SuperTrend down
 
 ## Track record
 
-6/45 resolved predictions reached their target
+10/55 resolved predictions reached their target
 <!-- vectora:end -->

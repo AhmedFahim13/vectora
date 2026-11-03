@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # VFSTDL
 
-#posture/buy #sector/textile #category/b
+#posture/sell #sector/textile #category/b
 
-**Textile** | category B | as of [[Journal/2026-09-23|2026-09-23]]
+**Textile** | category B | as of [[Journal/2026-09-30|2026-09-30]]
 
 Sector view: [[Sectors/Textile|Textile]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Textile|Textile]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Buy** | |
-| Moving averages | Strong Buy | 10 up / 3 down |
-| Oscillators | Hold | 1 up / 1 down |
-| Six-family score | Hold | -1 |
+| Summary (26 indicators) | **Sell** | |
+| Moving averages | Strong Sell | 2 up / 11 down |
+| Oscillators | Sell | 1 up / 2 down |
+| Six-family score | Sell | -4 |
 
-RSI 49 | SuperTrend down
+RSI 42 | SuperTrend down
 
 ## Levels
 
 - Monthly pivot: 15.17
-- Nearest resistance: 15.17 (+7.6% away)
-- Nearest support: 12.50 (11.3% away)
+- Nearest resistance: 15.17 (+14.9% away)
+- Nearest support: 12.50 (5.3% away)
 - 52-week range: 6.20 to 18.30
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 49 | SuperTrend down
 
 ## Track record
 
-7/45 resolved predictions reached their target
+11/55 resolved predictions reached their target
 <!-- vectora:end -->

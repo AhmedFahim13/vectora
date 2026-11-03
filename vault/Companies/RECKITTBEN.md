@@ -3,7 +3,7 @@
 
 #posture/sell #sector/pharmaceuticals-chemicals #category/a #risk/thin-float
 
-**Pharmaceuticals & Chemicals** | category A | as of [[Journal/2026-09-23|2026-09-23]]
+**Pharmaceuticals & Chemicals** | category A | as of [[Journal/2026-09-30|2026-09-30]]
 
 Sector view: [[Sectors/Pharmaceuticals & Chemicals|Pharmaceuticals & Chemicals]]
 
@@ -12,17 +12,17 @@ Sector view: [[Sectors/Pharmaceuticals & Chemicals|Pharmaceuticals & Chemicals]]
 | gauge | verdict | detail |
 |---|---|---|
 | Summary (26 indicators) | **Sell** | |
-| Moving averages | Strong Sell | 0 up / 13 down |
-| Oscillators | Buy | 2 up / 1 down |
-| Six-family score | Sell | -5 |
+| Moving averages | Strong Sell | 3 up / 10 down |
+| Oscillators | Hold | 2 up / 2 down |
+| Six-family score | Sell | -3 |
 
-RSI 42 | SuperTrend down
+RSI 45 | SuperTrend down
 
 ## Levels
 
 - Monthly pivot: 3299.77
-- Nearest resistance: 3299.77 (+1.0% away)
-- Nearest support: 3253.77 (0.4% away)
+- Nearest resistance: 3299.77 (+1.1% away)
+- Nearest support: 3253.77 (0.3% away)
 - 52-week range: 3159.50 to 4257.50
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 42 | SuperTrend down
 
 ## Track record
 
-0/45 resolved predictions reached their target
+0/55 resolved predictions reached their target
 <!-- vectora:end -->

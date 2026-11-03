@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # BATBC
 
-#posture/sell #sector/food-allied #category/a
+#posture/strong-sell #sector/food-allied #category/a
 
-**Food & Allied** | category A | as of [[Journal/2026-09-23|2026-09-23]]
+**Food & Allied** | category A | as of [[Journal/2026-09-30|2026-09-30]]
 
 Sector view: [[Sectors/Food & Allied|Food & Allied]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Food & Allied|Food & Allied]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Sell** | |
-| Moving averages | Strong Sell | 3 up / 10 down |
-| Oscillators | Buy | 1 up / 0 down |
-| Six-family score | Sell | -2 |
+| Summary (26 indicators) | **Strong Sell** | |
+| Moving averages | Strong Sell | 0 up / 13 down |
+| Oscillators | Sell | 1 up / 2 down |
+| Six-family score | Strong Sell | -7 |
 
-RSI 46 | SuperTrend down
+RSI 39 | SuperTrend down
 
 ## Levels
 
 - Monthly pivot: 238.50
-- Nearest resistance: 238.50 (+3.7% away)
-- Nearest support: 223.90 (2.6% away)
+- Nearest resistance: 238.50 (+6.2% away)
+- Nearest support: 223.90 (0.3% away)
 - 52-week range: 217.30 to 345.00
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 46 | SuperTrend down
 
 ## Track record
 
-6/45 resolved predictions reached their target
+6/55 resolved predictions reached their target
 <!-- vectora:end -->

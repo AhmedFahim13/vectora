@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # PHPMF1
 
-#posture/buy #sector/mutual-funds #category/a
+#posture/hold #sector/mutual-funds #category/a
 
-**Mutual Funds** | category A | as of [[Journal/2026-09-23|2026-09-23]]
+**Mutual Funds** | category A | as of [[Journal/2026-09-30|2026-09-30]]
 
 Sector view: [[Sectors/Mutual Funds|Mutual Funds]]
 
@@ -11,12 +11,12 @@ Sector view: [[Sectors/Mutual Funds|Mutual Funds]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Buy** | |
-| Moving averages | Buy | 8 up / 4 down |
+| Summary (26 indicators) | **Hold** | |
+| Moving averages | Hold | 6 up / 6 down |
 | Oscillators | Buy | 1 up / 0 down |
 | Six-family score | Hold | -1 |
 
-RSI 50 | SuperTrend down
+RSI 49 | SuperTrend down
 
 ## Levels
 

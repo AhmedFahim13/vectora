@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # NBL
 
-#posture/sell #sector/bank #category/z
+#posture/strong-sell #sector/bank #category/z
 
-**Bank** | category Z | as of [[Journal/2026-09-23|2026-09-23]]
+**Bank** | category Z | as of [[Journal/2026-09-30|2026-09-30]]
 
 Sector view: [[Sectors/Bank|Bank]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Bank|Bank]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Sell** | |
-| Moving averages | Strong Sell | 2 up / 10 down |
-| Oscillators | Hold | 1 up / 1 down |
-| Six-family score | Sell | -2 |
+| Summary (26 indicators) | **Strong Sell** | |
+| Moving averages | Strong Sell | 0 up / 13 down |
+| Oscillators | Sell | 1 up / 4 down |
+| Six-family score | Strong Sell | -7 |
 
-RSI 45 | SuperTrend down
+RSI 42 | SuperTrend down
 
 ## Levels
 
 - Monthly pivot: 3.60
-- Nearest resistance: 3.60 (+5.9% away)
-- Nearest support: 3.30 (2.9% away)
+- Nearest resistance: 3.60 (+9.1% away)
+- Nearest support: 3.20 (3.0% away)
 - 52-week range: 2.10 to 4.30
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 45 | SuperTrend down
 
 ## Track record
 
-1/45 resolved predictions reached their target
+4/55 resolved predictions reached their target
 <!-- vectora:end -->

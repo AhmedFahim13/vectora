@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # LEGACYFOOT
 
-#posture/sell #sector/tannery-industries #category/b
+#posture/hold #sector/tannery-industries #category/b
 
-**Tannery Industries** | category B | as of [[Journal/2026-09-23|2026-09-23]]
+**Tannery Industries** | category B | as of [[Journal/2026-09-30|2026-09-30]]
 
 Sector view: [[Sectors/Tannery Industries|Tannery Industries]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Tannery Industries|Tannery Industries]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Sell** | |
-| Moving averages | Sell | 4 up / 8 down |
+| Summary (26 indicators) | **Hold** | |
+| Moving averages | Buy | 8 up / 4 down |
 | Oscillators | Sell | 0 up / 1 down |
-| Six-family score | Strong Sell | -6 |
+| Six-family score | Sell | -5 |
 
-RSI 46 | SuperTrend down
+RSI 49 | SuperTrend down
 
 ## Levels
 
 - Monthly pivot: 72.80
-- Nearest resistance: 72.80 (+4.7% away)
-- Nearest support: 67.10 (3.5% away)
+- Nearest resistance: 72.80 (+4.4% away)
+- Nearest support: 67.10 (3.7% away)
 - 52-week range: 42.80 to 79.90
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 46 | SuperTrend down
 
 ## Track record
 
-5/45 resolved predictions reached their target
+6/55 resolved predictions reached their target
 <!-- vectora:end -->

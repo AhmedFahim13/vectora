@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # APSCLBOND
 
-#posture/buy #sector/corporate-bond #category/a
+#posture/strong-sell #sector/corporate-bond #category/a
 
-**Corporate Bond** | category A | as of [[Journal/2026-09-23|2026-09-23]]
+**Corporate Bond** | category A | as of [[Journal/2026-09-30|2026-09-30]]
 
 Sector view: [[Sectors/Corporate Bond|Corporate Bond]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Corporate Bond|Corporate Bond]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Buy** | |
-| Moving averages | Buy | 7 up / 5 down |
-| Oscillators | Buy | 4 up / 1 down |
-| Six-family score | Buy | +3 |
+| Summary (26 indicators) | **Strong Sell** | |
+| Moving averages | Strong Sell | 0 up / 13 down |
+| Oscillators | Sell | 1 up / 3 down |
+| Six-family score | Sell | -4 |
 
-RSI 51 | SuperTrend up
+RSI 31 | SuperTrend down
 
 ## Levels
 
 - Monthly pivot: 1088.67
-- Nearest resistance: 1137.33 (+0.9% away)
-- Nearest support: 1088.67 (3.4% away)
+- Nearest resistance: 1088.67 (+2.7% away)
+- Nearest support: 1057.00 (0.3% away)
 - 52-week range: 1040.00 to 5700.00
 
 ## Fundamentals

@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # AFTABAUTO
 
-#posture/sell #sector/engineering #category/z
+#posture/strong-sell #sector/engineering #category/z
 
-**Engineering** | category Z | as of [[Journal/2026-09-23|2026-09-23]]
+**Engineering** | category Z | as of [[Journal/2026-09-30|2026-09-30]]
 
 Sector view: [[Sectors/Engineering|Engineering]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Engineering|Engineering]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Sell** | |
-| Moving averages | Strong Sell | 3 up / 10 down |
+| Summary (26 indicators) | **Strong Sell** | |
+| Moving averages | Strong Sell | 0 up / 13 down |
 | Oscillators | Hold | 1 up / 1 down |
 | Six-family score | Sell | -3 |
 
-RSI 43 | SuperTrend down
+RSI 41 | SuperTrend down
 
 ## Levels
 
 - Monthly pivot: 29.07
-- Nearest resistance: 29.00 (+8.6% away)
-- Nearest support: 25.67 (3.9% away)
+- Nearest resistance: 28.60 (+8.3% away)
+- Nearest support: 25.67 (2.8% away)
 - 52-week range: 24.60 to 40.30
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 43 | SuperTrend down
 
 ## Track record
 
-0/45 resolved predictions reached their target
+4/55 resolved predictions reached their target
 <!-- vectora:end -->

@@ -3,7 +3,7 @@
 
 #posture/buy #sector/mutual-funds #category/a
 
-**Mutual Funds** | category A | as of [[Journal/2026-09-23|2026-09-23]]
+**Mutual Funds** | category A | as of [[Journal/2026-09-30|2026-09-30]]
 
 Sector view: [[Sectors/Mutual Funds|Mutual Funds]]
 
@@ -12,17 +12,17 @@ Sector view: [[Sectors/Mutual Funds|Mutual Funds]]
 | gauge | verdict | detail |
 |---|---|---|
 | Summary (26 indicators) | **Buy** | |
-| Moving averages | Buy | 8 up / 4 down |
+| Moving averages | Buy | 9 up / 4 down |
 | Oscillators | Buy | 2 up / 0 down |
-| Six-family score | Hold | -1 |
+| Six-family score | Sell | -2 |
 
-RSI 52 | SuperTrend down
+RSI 53 | SuperTrend down
 
 ## Levels
 
 - Monthly pivot: 6.50
-- Nearest resistance: 7.30 (+9.0% away)
-- Nearest support: 6.50 (3.0% away)
+- Nearest resistance: 7.30 (+7.4% away)
+- Nearest support: 6.50 (4.4% away)
 - 52-week range: 3.10 to 8.00
 
 ## Fundamentals

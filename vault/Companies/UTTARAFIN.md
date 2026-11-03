@@ -3,7 +3,7 @@
 
 #posture/strong-sell #sector/financial-institutions #category/z
 
-**Financial Institutions** | category Z | as of [[Journal/2026-09-23|2026-09-23]]
+**Financial Institutions** | category Z | as of [[Journal/2026-09-30|2026-09-30]]
 
 Sector view: [[Sectors/Financial Institutions|Financial Institutions]]
 
@@ -13,16 +13,16 @@ Sector view: [[Sectors/Financial Institutions|Financial Institutions]]
 |---|---|---|
 | Summary (26 indicators) | **Strong Sell** | |
 | Moving averages | Strong Sell | 1 up / 11 down |
-| Oscillators | Sell | 0 up / 2 down |
+| Oscillators | Sell | 1 up / 3 down |
 | Six-family score | Strong Sell | -7 |
 
-RSI 43 | SuperTrend down
+RSI 38 | SuperTrend down
 
 ## Levels
 
 - Monthly pivot: 12.90
-- Nearest resistance: 12.90 (+6.6% away)
-- Nearest support: 11.90 (1.7% away)
+- Nearest resistance: 12.90 (+10.3% away)
+- Nearest support: 11.50 (1.7% away)
 - 52-week range: 8.90 to 19.10
 
 ## Fundamentals

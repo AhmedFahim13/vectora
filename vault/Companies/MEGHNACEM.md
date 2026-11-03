@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # MEGHNACEM
 
-#posture/sell #sector/cement #category/z
+#posture/hold #sector/cement #category/z
 
-**Cement** | category Z | as of [[Journal/2026-09-23|2026-09-23]]
+**Cement** | category Z | as of [[Journal/2026-09-30|2026-09-30]]
 
 Sector view: [[Sectors/Cement|Cement]]
 
@@ -11,12 +11,12 @@ Sector view: [[Sectors/Cement|Cement]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Sell** | |
-| Moving averages | Sell | 4 up / 9 down |
+| Summary (26 indicators) | **Hold** | |
+| Moving averages | Hold | 6 up / 7 down |
 | Oscillators | Buy | 1 up / 0 down |
 | Six-family score | Sell | -2 |
 
-RSI 48 | SuperTrend down
+RSI 49 | SuperTrend down
 
 ## Levels
 

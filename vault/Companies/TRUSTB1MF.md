@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # TRUSTB1MF
 
-#posture/buy #sector/mutual-funds #category/a
+#posture/hold #sector/mutual-funds #category/a
 
-**Mutual Funds** | category A | as of [[Journal/2026-09-23|2026-09-23]]
+**Mutual Funds** | category A | as of [[Journal/2026-09-30|2026-09-30]]
 
 Sector view: [[Sectors/Mutual Funds|Mutual Funds]]
 
@@ -11,12 +11,12 @@ Sector view: [[Sectors/Mutual Funds|Mutual Funds]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Buy** | |
-| Moving averages | Buy | 9 up / 3 down |
-| Oscillators | Buy | 1 up / 0 down |
+| Summary (26 indicators) | **Hold** | |
+| Moving averages | Hold | 6 up / 6 down |
+| Oscillators | Buy | 2 up / 1 down |
 | Six-family score | Buy | +3 |
 
-RSI 51 | SuperTrend up
+RSI 50 | SuperTrend up
 
 ## Levels
 

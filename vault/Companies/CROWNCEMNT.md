@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # CROWNCEMNT
 
-#posture/buy #sector/cement #category/a
+#posture/sell #sector/cement #category/a
 
-**Cement** | category A | as of [[Journal/2026-09-23|2026-09-23]]
+**Cement** | category A | as of [[Journal/2026-09-30|2026-09-30]]
 
 Sector view: [[Sectors/Cement|Cement]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Cement|Cement]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Buy** | |
-| Moving averages | Buy | 9 up / 3 down |
-| Oscillators | Sell | 1 up / 2 down |
-| Six-family score | Sell | -2 |
+| Summary (26 indicators) | **Sell** | |
+| Moving averages | Sell | 4 up / 9 down |
+| Oscillators | Buy | 1 up / 0 down |
+| Six-family score | Sell | -4 |
 
-RSI 47 | SuperTrend down
+RSI 42 | SuperTrend down
 
 ## Levels
 
 - Monthly pivot: 63.50
-- Nearest resistance: 63.50 (+5.0% away)
-- Nearest support: 57.00 (5.8% away)
+- Nearest resistance: 63.50 (+7.8% away)
+- Nearest support: 57.00 (3.2% away)
 - 52-week range: 40.00 to 74.70
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 47 | SuperTrend down
 
 ## Track record
 
-0/35 resolved predictions reached their target
+0/40 resolved predictions reached their target
 <!-- vectora:end -->

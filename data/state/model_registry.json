@@ -131,6 +131,16 @@
  },
  {
   "active": false,
+  "artifact_dir": "models/g10_h30_lgbm_2026-09-25_12f80f",
+  "family": "lgbm",
+  "metrics": "{\"brier\": 0.2176608302939145, \"auc\": 0.6192317721560296, \"n\": 659157, \"base_rate\": 0.3359290730432962, \"reliability\": null, \"holdout_brier\": 0.21938126781710274, \"holdout_start\": \"2025-08-27\"}",
+  "model_id": "g10_h30_lgbm_2026-09-25_12f80f",
+  "target": "g10_h30",
+  "train_end": "2026-08-12",
+  "trained_at": "2026-11-03 14:00:11.869462"
+ },
+ {
+  "active": false,
   "artifact_dir": "models/g10_h30_lgbm_2026-09-25_c89578",
   "family": "lgbm",
   "metrics": "{\"brier\": 0.21798749458019648, \"auc\": 0.6180447688129298, \"n\": 659157, \"base_rate\": 0.3359290730432962, \"reliability\": null, \"holdout_brier\": 0.22287499947160008, \"holdout_start\": \"2025-08-26\"}",
@@ -148,6 +158,26 @@
   "target": "g10_h30",
   "train_end": "2026-08-11",
   "trained_at": "2026-10-02 16:04:33.383790"
+ },
+ {
+  "active": false,
+  "artifact_dir": "models/g10_h30_lgbm_2026-10-02_d9619c",
+  "family": "lgbm",
+  "metrics": "{\"brier\": 0.2175907422421665, \"auc\": 0.613937234416975, \"n\": 652635, \"base_rate\": 0.3360913833919419, \"reliability\": null, \"holdout_brier\": 0.21206512824435053, \"holdout_start\": \"2025-09-03\"}",
+  "model_id": "g10_h30_lgbm_2026-10-02_d9619c",
+  "target": "g10_h30",
+  "train_end": "2026-08-19",
+  "trained_at": "2026-11-03 14:29:59.745951"
+ },
+ {
+  "active": false,
+  "artifact_dir": "models/g10_h30_lgbm_2026-10-09_1c789e",
+  "family": "lgbm",
+  "metrics": "{\"brier\": 0.21760200696310056, \"auc\": 0.6189979831100871, \"n\": 645729, \"base_rate\": 0.3360930049602852, \"reliability\": null, \"holdout_brier\": 0.20810734268885206, \"holdout_start\": \"2025-09-10\"}",
+  "model_id": "g10_h30_lgbm_2026-10-09_1c789e",
+  "target": "g10_h30",
+  "train_end": "2026-08-27",
+  "trained_at": "2026-11-03 15:01:35.862279"
  },
  {
   "active": false,
@@ -171,6 +201,26 @@
  },
  {
   "active": false,
+  "artifact_dir": "models/g10_h30_lgbm_2026-10-16_74285b",
+  "family": "lgbm",
+  "metrics": "{\"brier\": 0.21742032470406358, \"auc\": 0.6155599572481294, \"n\": 639690, \"base_rate\": 0.33657709202895153, \"reliability\": null, \"holdout_brier\": 0.2106033235130323, \"holdout_start\": \"2025-09-17\"}",
+  "model_id": "g10_h30_lgbm_2026-10-16_74285b",
+  "target": "g10_h30",
+  "train_end": "2026-09-03",
+  "trained_at": "2026-11-03 15:37:56.520999"
+ },
+ {
+  "active": false,
+  "artifact_dir": "models/g10_h30_lgbm_2026-10-23_cb31fe",
+  "family": "lgbm",
+  "metrics": "{\"brier\": 0.21749073164621166, \"auc\": 0.6122330646579459, \"n\": 632885, \"base_rate\": 0.33662987746589035, \"reliability\": null, \"holdout_brier\": 0.21286668788005111, \"holdout_start\": \"2025-09-21\"}",
+  "model_id": "g10_h30_lgbm_2026-10-23_cb31fe",
+  "target": "g10_h30",
+  "train_end": "2026-09-07",
+  "trained_at": "2026-11-03 16:03:51.222167"
+ },
+ {
+  "active": false,
   "artifact_dir": "models/g10_h30_lgbm_2026-10-23_d3276d",
   "family": "lgbm",
   "metrics": "{\"brier\": 0.21798749458019648, \"auc\": 0.6180447688129298, \"n\": 659157, \"base_rate\": 0.3359290730432962, \"reliability\": null, \"holdout_brier\": 0.22287499947160008, \"holdout_start\": \"2025-08-26\"}",
@@ -188,6 +238,16 @@
   "target": "g10_h30",
   "train_end": "2026-08-11",
   "trained_at": "2026-10-30 16:22:47.556888"
+ },
+ {
+  "active": false,
+  "artifact_dir": "models/g10_h30_lgbm_2026-10-30_9fe6d8",
+  "family": "lgbm",
+  "metrics": "{\"brier\": 0.21728827148571803, \"auc\": 0.6181784024566401, \"n\": 622853, \"base_rate\": 0.3367680656591523, \"reliability\": null, \"holdout_brier\": 0.21550814258377338, \"holdout_start\": \"2025-09-28\"}",
+  "model_id": "g10_h30_lgbm_2026-10-30_9fe6d8",
+  "target": "g10_h30",
+  "train_end": "2026-09-14",
+  "trained_at": "2026-11-03 16:35:55.466349"
  },
  {
   "active": false,
@@ -331,6 +391,16 @@
  },
  {
   "active": false,
+  "artifact_dir": "models/g10_h30_logistic_2026-09-25_6a70bf",
+  "family": "logistic",
+  "metrics": "{\"brier\": 0.22985786634871375, \"auc\": 0.6332708743554033, \"n\": 659157, \"base_rate\": 0.3359290730432962, \"reliability\": null, \"holdout_brier\": 0.21938126781710274, \"holdout_start\": \"2025-08-27\"}",
+  "model_id": "g10_h30_logistic_2026-09-25_6a70bf",
+  "target": "g10_h30",
+  "train_end": "2025-06-02",
+  "trained_at": "2026-11-03 14:00:11.702582"
+ },
+ {
+  "active": false,
   "artifact_dir": "models/g10_h30_logistic_2026-10-02_2a14e6",
   "family": "logistic",
   "metrics": "{\"brier\": 0.22985233905179064, \"auc\": 0.6332768727011738, \"n\": 659157, \"base_rate\": 0.3359290730432962, \"reliability\": null, \"holdout_brier\": 0.22287499947160008, \"holdout_start\": \"2025-08-26\"}",
@@ -338,6 +408,26 @@
   "target": "g10_h30",
   "train_end": "2025-06-02",
   "trained_at": "2026-10-02 16:04:33.199530"
+ },
+ {
+  "active": false,
+  "artifact_dir": "models/g10_h30_logistic_2026-10-02_ba330f",
+  "family": "logistic",
+  "metrics": "{\"brier\": 0.2297774876824682, \"auc\": 0.6334880727511149, \"n\": 652635, \"base_rate\": 0.3360913833919419, \"reliability\": null, \"holdout_brier\": 0.21206512824435053, \"holdout_start\": \"2025-09-03\"}",
+  "model_id": "g10_h30_logistic_2026-10-02_ba330f",
+  "target": "g10_h30",
+  "train_end": "2025-06-02",
+  "trained_at": "2026-11-03 14:29:59.605683"
+ },
+ {
+  "active": false,
+  "artifact_dir": "models/g10_h30_logistic_2026-10-09_64ea2f",
+  "family": "logistic",
+  "metrics": "{\"brier\": 0.22965505456099553, \"auc\": 0.6339435094426188, \"n\": 645729, \"base_rate\": 0.3360930049602852, \"reliability\": null, \"holdout_brier\": 0.20810734268885206, \"holdout_start\": \"2025-09-10\"}",
+  "model_id": "g10_h30_logistic_2026-10-09_64ea2f",
+  "target": "g10_h30",
+  "train_end": "2025-06-02",
+  "trained_at": "2026-11-03 15:01:35.746240"
  },
  {
   "active": false,
@@ -361,6 +451,26 @@
  },
  {
   "active": false,
+  "artifact_dir": "models/g10_h30_logistic_2026-10-16_b06ebf",
+  "family": "logistic",
+  "metrics": "{\"brier\": 0.2297293861228137, \"auc\": 0.6331136020426726, \"n\": 639690, \"base_rate\": 0.33657709202895153, \"reliability\": null, \"holdout_brier\": 0.2106033235130323, \"holdout_start\": \"2025-09-17\"}",
+  "model_id": "g10_h30_logistic_2026-10-16_b06ebf",
+  "target": "g10_h30",
+  "train_end": "2025-06-02",
+  "trained_at": "2026-11-03 15:37:56.417532"
+ },
+ {
+  "active": false,
+  "artifact_dir": "models/g10_h30_logistic_2026-10-23_db7a0d",
+  "family": "logistic",
+  "metrics": "{\"brier\": 0.22943149464920418, \"auc\": 0.6337177795926783, \"n\": 632885, \"base_rate\": 0.33662987746589035, \"reliability\": null, \"holdout_brier\": 0.21286668788005111, \"holdout_start\": \"2025-09-21\"}",
+  "model_id": "g10_h30_logistic_2026-10-23_db7a0d",
+  "target": "g10_h30",
+  "train_end": "2025-06-02",
+  "trained_at": "2026-11-03 16:03:51.114761"
+ },
+ {
+  "active": false,
   "artifact_dir": "models/g10_h30_logistic_2026-10-23_e20f0f",
   "family": "logistic",
   "metrics": "{\"brier\": 0.22985233905179064, \"auc\": 0.6332768727011738, \"n\": 659157, \"base_rate\": 0.3359290730432962, \"reliability\": null, \"holdout_brier\": 0.22287499947160008, \"holdout_start\": \"2025-08-26\"}",
@@ -378,6 +488,16 @@
   "target": "g10_h30",
   "train_end": "2025-06-02",
   "trained_at": "2026-10-30 16:22:47.367004"
+ },
+ {
+  "active": false,
+  "artifact_dir": "models/g10_h30_logistic_2026-10-30_f3ac9f",
+  "family": "logistic",
+  "metrics": "{\"brier\": 0.22936324489725085, \"auc\": 0.6341398418354617, \"n\": 622853, \"base_rate\": 0.3367680656591523, \"reliability\": null, \"holdout_brier\": 0.21550814258377338, \"holdout_start\": \"2025-09-28\"}",
+  "model_id": "g10_h30_logistic_2026-10-30_f3ac9f",
+  "target": "g10_h30",
+  "train_end": "2025-06-02",
+  "trained_at": "2026-11-03 16:35:55.363174"
  },
  {
   "active": false,
@@ -521,6 +641,26 @@
  },
  {
   "active": false,
+  "artifact_dir": "models/g5_h10_lgbm_2026-09-25_979e42",
+  "family": "lgbm",
+  "metrics": "{\"brier\": 0.20523984865116063, \"auc\": 0.6470148455893399, \"n\": 659157, \"base_rate\": 0.32022416510785745, \"reliability\": null, \"holdout_brier\": 0.2060620621462587, \"holdout_start\": \"2025-09-24\"}",
+  "model_id": "g5_h10_lgbm_2026-09-25_979e42",
+  "target": "g5_h10",
+  "train_end": "2026-09-10",
+  "trained_at": "2026-11-03 13:57:51.049081"
+ },
+ {
+  "active": false,
+  "artifact_dir": "models/g5_h10_lgbm_2026-10-02_c1b9e3",
+  "family": "lgbm",
+  "metrics": "{\"brier\": 0.20479186740095595, \"auc\": 0.648441365231794, \"n\": 652635, \"base_rate\": 0.3203551755575475, \"reliability\": null, \"holdout_brier\": 0.20730529319253543, \"holdout_start\": \"2025-10-05\"}",
+  "model_id": "g5_h10_lgbm_2026-10-02_c1b9e3",
+  "target": "g5_h10",
+  "train_end": "2026-09-17",
+  "trained_at": "2026-11-03 14:27:27.676349"
+ },
+ {
+  "active": false,
   "artifact_dir": "models/g5_h10_lgbm_2026-10-02_e7dd60",
   "family": "lgbm",
   "metrics": "{\"brier\": 0.2048836584014791, \"auc\": 0.6453816161011199, \"n\": 659157, \"base_rate\": 0.32022416510785745, \"reliability\": null, \"holdout_brier\": 0.20576541311596294, \"holdout_start\": \"2025-09-23\"}",
@@ -541,6 +681,16 @@
  },
  {
   "active": false,
+  "artifact_dir": "models/g5_h10_lgbm_2026-10-09_6f08b1",
+  "family": "lgbm",
+  "metrics": "{\"brier\": 0.20474059648553042, \"auc\": 0.6508965213129835, \"n\": 645729, \"base_rate\": 0.32028761291501545, \"reliability\": null, \"holdout_brier\": 0.2087833790494202, \"holdout_start\": \"2025-10-12\"}",
+  "model_id": "g5_h10_lgbm_2026-10-09_6f08b1",
+  "target": "g5_h10",
+  "train_end": "2026-09-24",
+  "trained_at": "2026-11-03 14:59:12.270850"
+ },
+ {
+  "active": false,
   "artifact_dir": "models/g5_h10_lgbm_2026-10-16_a8c597",
   "family": "lgbm",
   "metrics": "{\"brier\": 0.2048836584014791, \"auc\": 0.6453816161011199, \"n\": 659157, \"base_rate\": 0.32022416510785745, \"reliability\": null, \"holdout_brier\": 0.20576541311596294, \"holdout_start\": \"2025-09-23\"}",
@@ -548,6 +698,16 @@
   "target": "g5_h10",
   "train_end": "2026-09-09",
   "trained_at": "2026-10-16 14:24:28.502196"
+ },
+ {
+  "active": false,
+  "artifact_dir": "models/g5_h10_lgbm_2026-10-16_b75325",
+  "family": "lgbm",
+  "metrics": "{\"brier\": 0.2046600278146898, \"auc\": 0.6491182668950604, \"n\": 639690, \"base_rate\": 0.3208304022260783, \"reliability\": null, \"holdout_brier\": 0.20854721401698745, \"holdout_start\": \"2025-10-19\"}",
+  "model_id": "g5_h10_lgbm_2026-10-16_b75325",
+  "target": "g5_h10",
+  "train_end": "2026-10-01",
+  "trained_at": "2026-11-03 15:35:34.389380"
  },
  {
   "active": false,
@@ -561,6 +721,16 @@
  },
  {
   "active": false,
+  "artifact_dir": "models/g5_h10_lgbm_2026-10-23_b58a32",
+  "family": "lgbm",
+  "metrics": "{\"brier\": 0.20442915771887016, \"auc\": 0.6510267893260159, \"n\": 632885, \"base_rate\": 0.3208118378536385, \"reliability\": null, \"holdout_brier\": 0.20753858975240713, \"holdout_start\": \"2025-10-21\"}",
+  "model_id": "g5_h10_lgbm_2026-10-23_b58a32",
+  "target": "g5_h10",
+  "train_end": "2026-10-05",
+  "trained_at": "2026-11-03 16:00:53.695591"
+ },
+ {
+  "active": false,
   "artifact_dir": "models/g5_h10_lgbm_2026-10-30_f1665f",
   "family": "lgbm",
   "metrics": "{\"brier\": 0.2048836584014791, \"auc\": 0.6453816161011199, \"n\": 659157, \"base_rate\": 0.32022416510785745, \"reliability\": null, \"holdout_brier\": 0.20576541311596294, \"holdout_start\": \"2025-09-23\"}",
@@ -568,6 +738,16 @@
   "target": "g5_h10",
   "train_end": "2026-09-09",
   "trained_at": "2026-10-30 16:20:09.304393"
+ },
+ {
+  "active": false,
+  "artifact_dir": "models/g5_h10_lgbm_2026-10-30_fd93d8",
+  "family": "lgbm",
+  "metrics": "{\"brier\": 0.2049611135017044, \"auc\": 0.6492033814111717, \"n\": 622853, \"base_rate\": 0.32069043578500867, \"reliability\": null, \"holdout_brier\": 0.20543059270791972, \"holdout_start\": \"2025-10-28\"}",
+  "model_id": "g5_h10_lgbm_2026-10-30_fd93d8",
+  "target": "g5_h10",
+  "train_end": "2026-10-12",
+  "trained_at": "2026-11-03 16:33:37.270075"
  },
  {
   "active": false,
@@ -711,6 +891,16 @@
  },
  {
   "active": false,
+  "artifact_dir": "models/g5_h10_logistic_2026-09-25_100a85",
+  "family": "logistic",
+  "metrics": "{\"brier\": 0.22417341991770565, \"auc\": 0.6548524783538608, \"n\": 659157, \"base_rate\": 0.32022416510785745, \"reliability\": null, \"holdout_brier\": 0.2060620621462587, \"holdout_start\": \"2025-09-24\"}",
+  "model_id": "g5_h10_logistic_2026-09-25_100a85",
+  "target": "g5_h10",
+  "train_end": "2025-06-02",
+  "trained_at": "2026-11-03 13:57:50.927393"
+ },
+ {
+  "active": false,
   "artifact_dir": "models/g5_h10_logistic_2026-10-02_3579bc",
   "family": "logistic",
   "metrics": "{\"brier\": 0.22417150918407114, \"auc\": 0.6548633934432758, \"n\": 659157, \"base_rate\": 0.32022416510785745, \"reliability\": null, \"holdout_brier\": 0.20576541311596294, \"holdout_start\": \"2025-09-23\"}",
@@ -718,6 +908,26 @@
   "target": "g5_h10",
   "train_end": "2025-06-02",
   "trained_at": "2026-10-02 16:01:58.183863"
+ },
+ {
+  "active": false,
+  "artifact_dir": "models/g5_h10_logistic_2026-10-02_6c3ba4",
+  "family": "logistic",
+  "metrics": "{\"brier\": 0.22395516458183948, \"auc\": 0.6551705572817637, \"n\": 652635, \"base_rate\": 0.3203551755575475, \"reliability\": null, \"holdout_brier\": 0.20730529319253543, \"holdout_start\": \"2025-10-05\"}",
+  "model_id": "g5_h10_logistic_2026-10-02_6c3ba4",
+  "target": "g5_h10",
+  "train_end": "2025-06-02",
+  "trained_at": "2026-11-03 14:27:27.555961"
+ },
+ {
+  "active": false,
+  "artifact_dir": "models/g5_h10_logistic_2026-10-09_3e7cd5",
+  "family": "logistic",
+  "metrics": "{\"brier\": 0.2238147548820064, \"auc\": 0.655727026129574, \"n\": 645729, \"base_rate\": 0.32028761291501545, \"reliability\": null, \"holdout_brier\": 0.2087833790494202, \"holdout_start\": \"2025-10-12\"}",
+  "model_id": "g5_h10_logistic_2026-10-09_3e7cd5",
+  "target": "g5_h10",
+  "train_end": "2025-06-02",
+  "trained_at": "2026-11-03 14:59:12.132671"
  },
  {
   "active": false,
@@ -731,6 +941,16 @@
  },
  {
   "active": false,
+  "artifact_dir": "models/g5_h10_logistic_2026-10-16_4373cb",
+  "family": "logistic",
+  "metrics": "{\"brier\": 0.22406177920649722, \"auc\": 0.6550110352358471, \"n\": 639690, \"base_rate\": 0.3208304022260783, \"reliability\": null, \"holdout_brier\": 0.20854721401698745, \"holdout_start\": \"2025-10-19\"}",
+  "model_id": "g5_h10_logistic_2026-10-16_4373cb",
+  "target": "g5_h10",
+  "train_end": "2025-06-02",
+  "trained_at": "2026-11-03 15:35:34.248303"
+ },
+ {
+  "active": false,
   "artifact_dir": "models/g5_h10_logistic_2026-10-16_637fb2",
   "family": "logistic",
   "metrics": "{\"brier\": 0.2241715091840738, \"auc\": 0.6548633934432758, \"n\": 659157, \"base_rate\": 0.32022416510785745, \"reliability\": null, \"holdout_brier\": 0.20576541311596294, \"holdout_start\": \"2025-09-23\"}",
@@ -738,6 +958,16 @@
   "target": "g5_h10",
   "train_end": "2025-06-02",
   "trained_at": "2026-10-16 14:24:28.360356"
+ },
+ {
+  "active": false,
+  "artifact_dir": "models/g5_h10_logistic_2026-10-23_291208",
+  "family": "logistic",
+  "metrics": "{\"brier\": 0.22402050957571604, \"auc\": 0.6551489275452934, \"n\": 632885, \"base_rate\": 0.3208118378536385, \"reliability\": null, \"holdout_brier\": 0.20753858975240713, \"holdout_start\": \"2025-10-21\"}",
+  "model_id": "g5_h10_logistic_2026-10-23_291208",
+  "target": "g5_h10",
+  "train_end": "2025-06-02",
+  "trained_at": "2026-11-03 16:00:53.552566"
  },
  {
   "active": false,
@@ -758,5 +988,15 @@
   "target": "g5_h10",
   "train_end": "2025-06-02",
   "trained_at": "2026-10-30 16:20:09.157395"
+ },
+ {
+  "active": false,
+  "artifact_dir": "models/g5_h10_logistic_2026-10-30_fb96fa",
+  "family": "logistic",
+  "metrics": "{\"brier\": 0.22393759979418815, \"auc\": 0.6553076233673323, \"n\": 622853, \"base_rate\": 0.32069043578500867, \"reliability\": null, \"holdout_brier\": 0.20543059270791972, \"holdout_start\": \"2025-10-28\"}",
+  "model_id": "g5_h10_logistic_2026-10-30_fb96fa",
+  "target": "g5_h10",
+  "train_end": "2025-06-02",
+  "trained_at": "2026-11-03 16:33:37.147903"
  }
 ]

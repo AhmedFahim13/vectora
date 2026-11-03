@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # NFML
 
-#posture/buy #sector/miscellaneous #category/b
+#posture/sell #sector/miscellaneous #category/b
 
-**Miscellaneous** | category B | as of [[Journal/2026-09-23|2026-09-23]]
+**Miscellaneous** | category B | as of [[Journal/2026-09-30|2026-09-30]]
 
 Sector view: [[Sectors/Miscellaneous|Miscellaneous]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Miscellaneous|Miscellaneous]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Buy** | |
-| Moving averages | Strong Buy | 10 up / 3 down |
+| Summary (26 indicators) | **Sell** | |
+| Moving averages | Strong Sell | 2 up / 11 down |
 | Oscillators | Sell | 1 up / 2 down |
-| Six-family score | Sell | -2 |
+| Six-family score | Sell | -3 |
 
-RSI 47 | SuperTrend down
+RSI 41 | SuperTrend down
 
 ## Levels
 
 - Monthly pivot: 18.03
-- Nearest resistance: 17.70 (+9.9% away)
-- Nearest support: 14.37 (10.8% away)
+- Nearest resistance: 17.70 (+15.7% away)
+- Nearest support: 14.37 (6.1% away)
 - 52-week range: 8.60 to 22.10
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 47 | SuperTrend down
 
 ## Track record
 
-5/45 resolved predictions reached their target
+9/55 resolved predictions reached their target
 <!-- vectora:end -->

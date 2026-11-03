@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # ACMEPL
 
-#posture/strong-buy #sector/pharmaceuticals-chemicals #category/b
+#posture/buy #sector/pharmaceuticals-chemicals #category/b
 
-**Pharmaceuticals & Chemicals** | category B | as of [[Journal/2026-09-23|2026-09-23]]
+**Pharmaceuticals & Chemicals** | category B | as of [[Journal/2026-09-30|2026-09-30]]
 
 Sector view: [[Sectors/Pharmaceuticals & Chemicals|Pharmaceuticals & Chemicals]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Pharmaceuticals & Chemicals|Pharmaceuticals & Chemicals]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Strong Buy** | |
-| Moving averages | Strong Buy | 13 up / 0 down |
-| Oscillators | Buy | 3 up / 0 down |
-| Six-family score | Strong Buy | +5 |
+| Summary (26 indicators) | **Buy** | |
+| Moving averages | Buy | 9 up / 4 down |
+| Oscillators | Sell | 0 up / 1 down |
+| Six-family score | Buy | +2 |
 
-RSI 62 | SuperTrend up
+RSI 52 | SuperTrend up
 
 ## Levels
 
 - Monthly pivot: 24.93
-- Nearest resistance: 26.60 (+1.1% away)
-- Nearest support: 24.93 (5.2% away)
+- Nearest resistance: 26.70 (+6.8% away)
+- Nearest support: 24.93 (0.3% away)
 - 52-week range: 11.00 to 26.80
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 62 | SuperTrend up
 
 ## Track record
 
-23/45 resolved predictions reached their target
+29/55 resolved predictions reached their target
 <!-- vectora:end -->

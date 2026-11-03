@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # ANLIMAYARN
 
-#posture/sell #sector/textile #category/z
+#posture/strong-sell #sector/textile #category/z
 
-**Textile** | category Z | as of [[Journal/2026-09-23|2026-09-23]]
+**Textile** | category Z | as of [[Journal/2026-09-30|2026-09-30]]
 
 Sector view: [[Sectors/Textile|Textile]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Textile|Textile]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Sell** | |
-| Moving averages | Strong Sell | 3 up / 10 down |
+| Summary (26 indicators) | **Strong Sell** | |
+| Moving averages | Strong Sell | 1 up / 12 down |
 | Oscillators | Sell | 0 up / 3 down |
 | Six-family score | Strong Sell | -7 |
 
-RSI 39 | SuperTrend down
+RSI 34 | SuperTrend down
 
 ## Levels
 
 - Monthly pivot: 31.53
-- Nearest resistance: 31.53 (+18.1% away)
-- Nearest support: 25.40 (4.9% away)
+- Nearest resistance: 30.80 (+23.2% away)
+- Nearest support: 21.63 (13.5% away)
 - 52-week range: 15.10 to 37.90
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 39 | SuperTrend down
 
 ## Track record
 
-6/45 resolved predictions reached their target
+9/55 resolved predictions reached their target
 <!-- vectora:end -->

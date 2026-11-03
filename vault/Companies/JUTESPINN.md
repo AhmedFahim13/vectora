@@ -3,7 +3,7 @@
 
 #posture/sell #sector/jute #category/z
 
-**Jute** | category Z | as of [[Journal/2026-09-23|2026-09-23]]
+**Jute** | category Z | as of [[Journal/2026-09-30|2026-09-30]]
 
 Sector view: [[Sectors/Jute|Jute]]
 
@@ -12,17 +12,17 @@ Sector view: [[Sectors/Jute|Jute]]
 | gauge | verdict | detail |
 |---|---|---|
 | Summary (26 indicators) | **Sell** | |
-| Moving averages | Strong Sell | 1 up / 12 down |
-| Oscillators | Sell | 0 up / 1 down |
-| Six-family score | Strong Sell | -7 |
+| Moving averages | Sell | 5 up / 8 down |
+| Oscillators | Hold | 1 up / 1 down |
+| Six-family score | Sell | -2 |
 
-RSI 42 | SuperTrend down
+RSI 48 | SuperTrend down
 
 ## Levels
 
 - Monthly pivot: 219.93
-- Nearest resistance: 219.93 (+6.6% away)
-- Nearest support: 205.87 (0.3% away)
+- Nearest resistance: 219.93 (+5.5% away)
+- Nearest support: 205.87 (1.2% away)
 - 52-week range: 171.00 to 260.00
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 42 | SuperTrend down
 
 ## Track record
 
-1/27 resolved predictions reached their target
+1/28 resolved predictions reached their target
 <!-- vectora:end -->

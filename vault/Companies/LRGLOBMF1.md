@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # LRGLOBMF1
 
-#posture/strong-buy #sector/mutual-funds #category/a
+#posture/buy #sector/mutual-funds #category/a
 
-**Mutual Funds** | category A | as of [[Journal/2026-09-23|2026-09-23]]
+**Mutual Funds** | category A | as of [[Journal/2026-09-30|2026-09-30]]
 
 Sector view: [[Sectors/Mutual Funds|Mutual Funds]]
 
@@ -11,12 +11,12 @@ Sector view: [[Sectors/Mutual Funds|Mutual Funds]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Strong Buy** | |
-| Moving averages | Strong Buy | 12 up / 0 down |
-| Oscillators | Buy | 2 up / 1 down |
-| Six-family score | Hold | +1 |
+| Summary (26 indicators) | **Buy** | |
+| Moving averages | Buy | 9 up / 3 down |
+| Oscillators | Buy | 3 up / 0 down |
+| Six-family score | Hold | -1 |
 
-RSI 55 | SuperTrend down
+RSI 53 | SuperTrend down
 
 ## Levels
 

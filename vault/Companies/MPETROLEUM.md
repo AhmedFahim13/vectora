@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # MPETROLEUM
 
-#posture/sell #sector/fuel-power #category/a
+#posture/buy #sector/fuel-power #category/a
 
-**Fuel & Power** | category A | as of [[Journal/2026-09-23|2026-09-23]]
+**Fuel & Power** | category A | as of [[Journal/2026-09-30|2026-09-30]]
 
 Sector view: [[Sectors/Fuel & Power|Fuel & Power]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Fuel & Power|Fuel & Power]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Sell** | |
-| Moving averages | Strong Sell | 0 up / 12 down |
-| Oscillators | Hold | 1 up / 1 down |
-| Six-family score | Sell | -4 |
+| Summary (26 indicators) | **Buy** | |
+| Moving averages | Buy | 7 up / 5 down |
+| Oscillators | Buy | 1 up / 0 down |
+| Six-family score | Hold | -1 |
 
-RSI 37 | SuperTrend down
+RSI 49 | SuperTrend down
 
 ## Levels
 
 - Monthly pivot: 209.37
-- Nearest resistance: 209.37 (+2.2% away)
-- Nearest support: 204.10 (0.4% away)
+- Nearest resistance: 208.70 (+1.1% away)
+- Nearest support: 203.80 (1.3% away)
 - 52-week range: 187.30 to 218.80
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 37 | SuperTrend down
 
 ## Track record
 
-0/45 resolved predictions reached their target
+0/55 resolved predictions reached their target
 <!-- vectora:end -->

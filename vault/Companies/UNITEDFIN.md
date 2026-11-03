@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # UNITEDFIN
 
-#posture/hold #sector/financial-institutions #category/a
+#posture/buy #sector/financial-institutions #category/a
 
-**Financial Institutions** | category A | as of [[Journal/2026-09-23|2026-09-23]]
+**Financial Institutions** | category A | as of [[Journal/2026-09-30|2026-09-30]]
 
 Sector view: [[Sectors/Financial Institutions|Financial Institutions]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Financial Institutions|Financial Institutions]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Hold** | |
-| Moving averages | Buy | 8 up / 4 down |
-| Oscillators | Sell | 0 up / 2 down |
-| Six-family score | Sell | -5 |
+| Summary (26 indicators) | **Buy** | |
+| Moving averages | Strong Buy | 11 up / 1 down |
+| Oscillators | Buy | 1 up / 0 down |
+| Six-family score | Sell | -2 |
 
-RSI 48 | SuperTrend down
+RSI 51 | SuperTrend down
 
 ## Levels
 
 - Monthly pivot: 17.80
-- Nearest resistance: 17.80 (+6.0% away)
-- Nearest support: 15.70 (6.5% away)
+- Nearest resistance: 17.80 (+4.7% away)
+- Nearest support: 15.70 (7.6% away)
 - 52-week range: 10.40 to 19.90
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 48 | SuperTrend down
 
 ## Track record
 
-14/45 resolved predictions reached their target
+15/55 resolved predictions reached their target
 <!-- vectora:end -->

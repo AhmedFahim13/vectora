@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # DBH
 
-#posture/hold #sector/financial-institutions #category/a
+#posture/sell #sector/financial-institutions #category/a
 
-**Financial Institutions** | category A | as of [[Journal/2026-09-23|2026-09-23]]
+**Financial Institutions** | category A | as of [[Journal/2026-09-30|2026-09-30]]
 
 Sector view: [[Sectors/Financial Institutions|Financial Institutions]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Financial Institutions|Financial Institutions]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Hold** | |
-| Moving averages | Buy | 7 up / 5 down |
-| Oscillators | Hold | 1 up / 1 down |
-| Six-family score | Sell | -2 |
+| Summary (26 indicators) | **Sell** | |
+| Moving averages | Sell | 4 up / 8 down |
+| Oscillators | Sell | 1 up / 2 down |
+| Six-family score | Sell | -4 |
 
-RSI 46 | SuperTrend down
+RSI 43 | SuperTrend down
 
 ## Levels
 
 - Monthly pivot: 42.00
-- Nearest resistance: 42.00 (+3.7% away)
-- Nearest support: 39.20 (3.2% away)
+- Nearest resistance: 42.00 (+5.3% away)
+- Nearest support: 39.20 (1.8% away)
 - 52-week range: 30.10 to 45.20
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 46 | SuperTrend down
 
 ## Track record
 
-1/45 resolved predictions reached their target
+1/55 resolved predictions reached their target
 <!-- vectora:end -->

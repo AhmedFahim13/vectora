@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # GENNEXT
 
-#posture/sell #sector/textile #category/z
+#posture/hold #sector/textile #category/z
 
-**Textile** | category Z | as of [[Journal/2026-09-23|2026-09-23]]
+**Textile** | category Z | as of [[Journal/2026-09-30|2026-09-30]]
 
 Sector view: [[Sectors/Textile|Textile]]
 
@@ -11,12 +11,12 @@ Sector view: [[Sectors/Textile|Textile]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Sell** | |
-| Moving averages | Sell | 4 up / 7 down |
+| Summary (26 indicators) | **Hold** | |
+| Moving averages | Hold | 6 up / 6 down |
 | Oscillators | Sell | 0 up / 1 down |
-| Six-family score | Strong Sell | -8 |
+| Six-family score | Sell | -5 |
 
-RSI 42 | SuperTrend down
+RSI 46 | SuperTrend down
 
 ## Levels
 
@@ -34,5 +34,5 @@ RSI 42 | SuperTrend down
 
 ## Track record
 
-26/45 resolved predictions reached their target
+26/55 resolved predictions reached their target
 <!-- vectora:end -->

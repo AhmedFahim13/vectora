@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # SAFKOSPINN
 
-#posture/sell #sector/textile #category/z
+#posture/buy #sector/textile #category/z
 
-**Textile** | category Z | as of [[Journal/2026-09-23|2026-09-23]]
+**Textile** | category Z | as of [[Journal/2026-09-30|2026-09-30]]
 
 Sector view: [[Sectors/Textile|Textile]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Textile|Textile]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Sell** | |
-| Moving averages | Hold | 6 up / 6 down |
+| Summary (26 indicators) | **Buy** | |
+| Moving averages | Strong Buy | 13 up / 0 down |
 | Oscillators | Sell | 0 up / 2 down |
-| Six-family score | Hold | +1 |
+| Six-family score | Hold | -1 |
 
-RSI 48 | SuperTrend up
+RSI 54 | SuperTrend up
 
 ## Levels
 
 - Monthly pivot: 21.00
-- Nearest resistance: 21.00 (+2.9% away)
-- Nearest support: 20.00 (2.0% away)
+- Nearest resistance: 21.00 (+1.0% away)
+- Nearest support: 20.00 (3.8% away)
 - 52-week range: 8.80 to 23.00
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 48 | SuperTrend up
 
 ## Track record
 
-10/45 resolved predictions reached their target
+13/55 resolved predictions reached their target
 <!-- vectora:end -->

@@ -3,7 +3,7 @@
 
 #posture/strong-sell #sector/bank #category/z
 
-**Bank** | category Z | as of [[Journal/2026-09-23|2026-09-23]]
+**Bank** | category Z | as of [[Journal/2026-09-30|2026-09-30]]
 
 Sector view: [[Sectors/Bank|Bank]]
 
@@ -16,7 +16,7 @@ Sector view: [[Sectors/Bank|Bank]]
 | Oscillators | Sell | 1 up / 2 down |
 | Six-family score | Sell | -4 |
 
-RSI 42 | SuperTrend down
+RSI 43 | SuperTrend down
 
 ## Levels
 
@@ -34,5 +34,5 @@ RSI 42 | SuperTrend down
 
 ## Track record
 
-1/45 resolved predictions reached their target
+1/55 resolved predictions reached their target
 <!-- vectora:end -->

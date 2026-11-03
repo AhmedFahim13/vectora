@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # GSPFINANCE
 
-#posture/hold #sector/financial-institutions #category/z
+#posture/sell #sector/financial-institutions #category/z
 
-**Financial Institutions** | category Z | as of [[Journal/2026-09-23|2026-09-23]]
+**Financial Institutions** | category Z | as of [[Journal/2026-09-30|2026-09-30]]
 
 Sector view: [[Sectors/Financial Institutions|Financial Institutions]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Financial Institutions|Financial Institutions]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Hold** | |
-| Moving averages | Buy | 7 up / 5 down |
-| Oscillators | Sell | 0 up / 1 down |
-| Six-family score | Sell | -5 |
+| Summary (26 indicators) | **Sell** | |
+| Moving averages | Sell | 3 up / 9 down |
+| Oscillators | Buy | 1 up / 0 down |
+| Six-family score | Sell | -4 |
 
-RSI 48 | SuperTrend down
+RSI 44 | SuperTrend down
 
 ## Levels
 
 - Monthly pivot: 4.13
-- Nearest resistance: 4.00 (+11.1% away)
-- Nearest support: 3.30 (8.3% away)
+- Nearest resistance: 3.90 (+11.4% away)
+- Nearest support: 3.30 (5.7% away)
 - 52-week range: 1.10 to 6.50
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 48 | SuperTrend down
 
 ## Track record
 
-12/41 resolved predictions reached their target
+15/51 resolved predictions reached their target
 <!-- vectora:end -->

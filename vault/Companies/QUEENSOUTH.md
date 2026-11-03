@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # QUEENSOUTH
 
-#posture/buy #sector/textile #category/b
+#posture/sell #sector/textile #category/b
 
-**Textile** | category B | as of [[Journal/2026-09-23|2026-09-23]]
+**Textile** | category B | as of [[Journal/2026-09-30|2026-09-30]]
 
 Sector view: [[Sectors/Textile|Textile]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Textile|Textile]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Buy** | |
-| Moving averages | Buy | 8 up / 5 down |
+| Summary (26 indicators) | **Sell** | |
+| Moving averages | Strong Sell | 2 up / 11 down |
 | Oscillators | Hold | 1 up / 1 down |
-| Six-family score | Sell | -2 |
+| Six-family score | Sell | -4 |
 
-RSI 48 | SuperTrend down
+RSI 42 | SuperTrend down
 
 ## Levels
 
 - Monthly pivot: 17.20
-- Nearest resistance: 16.80 (+13.5% away)
-- Nearest support: 13.30 (10.1% away)
+- Nearest resistance: 16.80 (+20.0% away)
+- Nearest support: 13.30 (5.0% away)
 - 52-week range: 8.50 to 21.10
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 48 | SuperTrend down
 
 ## Track record
 
-17/45 resolved predictions reached their target
+21/55 resolved predictions reached their target
 <!-- vectora:end -->

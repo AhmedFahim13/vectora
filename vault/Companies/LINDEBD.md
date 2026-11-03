@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # LINDEBD
 
-#posture/sell #sector/fuel-power #category/a
+#posture/strong-sell #sector/fuel-power #category/a
 
-**Fuel & Power** | category A | as of [[Journal/2026-09-23|2026-09-23]]
+**Fuel & Power** | category A | as of [[Journal/2026-09-30|2026-09-30]]
 
 Sector view: [[Sectors/Fuel & Power|Fuel & Power]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Fuel & Power|Fuel & Power]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Sell** | |
-| Moving averages | Sell | 4 up / 9 down |
-| Oscillators | Sell | 1 up / 2 down |
-| Six-family score | Sell | -2 |
+| Summary (26 indicators) | **Strong Sell** | |
+| Moving averages | Strong Sell | 0 up / 13 down |
+| Oscillators | Sell | 2 up / 3 down |
+| Six-family score | Sell | -5 |
 
-RSI 43 | SuperTrend down
+RSI 31 | SuperTrend down
 
 ## Levels
 
 - Monthly pivot: 701.00
-- Nearest resistance: 700.00 (+2.6% away)
-- Nearest support: 672.00 (1.5% away)
+- Nearest resistance: 699.00 (+5.7% away)
+- Nearest support: 659.00 (0.4% away)
 - 52-week range: 659.00 to 1040.00
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 43 | SuperTrend down
 
 ## Track record
 
-0/45 resolved predictions reached their target
+0/55 resolved predictions reached their target
 <!-- vectora:end -->
