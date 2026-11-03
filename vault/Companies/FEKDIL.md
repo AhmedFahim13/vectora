@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # FEKDIL
 
-#posture/hold #sector/textile #category/a
+#posture/buy #sector/textile #category/a
 
-**Textile** | category A | as of [[Journal/2026-09-30|2026-09-30]]
+**Textile** | category A | as of [[Journal/2026-11-03|2026-11-03]]
 
 Sector view: [[Sectors/Textile|Textile]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Textile|Textile]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Hold** | |
-| Moving averages | Hold | 6 up / 6 down |
-| Oscillators | Buy | 1 up / 0 down |
-| Six-family score | Sell | -2 |
+| Summary (26 indicators) | **Buy** | |
+| Moving averages | Buy | 8 up / 5 down |
+| Oscillators | Buy | 2 up / 0 down |
+| Six-family score | Hold | -1 |
 
-RSI 48 | SuperTrend down
+RSI 51 | SuperTrend down
 
 ## Levels
 
-- Monthly pivot: 24.50
-- Nearest resistance: 24.50 (+10.4% away)
-- Nearest support: 21.70 (2.3% away)
+- Monthly pivot: 19.83
+- Nearest resistance: 21.97 (+8.2% away)
+- Nearest support: 19.83 (2.3% away)
 - 52-week range: 13.10 to 27.90
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 48 | SuperTrend down
 
 ## Track record
 
-19/55 resolved predictions reached their target
+26/96 resolved predictions reached their target
 <!-- vectora:end -->

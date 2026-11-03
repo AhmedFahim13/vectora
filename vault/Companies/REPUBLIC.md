@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # REPUBLIC
 
-#posture/buy #sector/insurance #category/a
+#posture/sell #sector/insurance #category/a
 
-**Insurance** | category A | as of [[Journal/2026-09-30|2026-09-30]]
+**Insurance** | category A | as of [[Journal/2026-11-03|2026-11-03]]
 
 Sector view: [[Sectors/Insurance|Insurance]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Insurance|Insurance]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Buy** | |
-| Moving averages | Strong Buy | 10 up / 2 down |
-| Oscillators | Buy | 1 up / 0 down |
+| Summary (26 indicators) | **Sell** | |
+| Moving averages | Strong Sell | 2 up / 11 down |
+| Oscillators | Hold | 1 up / 1 down |
 | Six-family score | Sell | -3 |
 
-RSI 50 | SuperTrend down
+RSI 42 | SuperTrend down
 
 ## Levels
 
-- Monthly pivot: 40.47
-- Nearest resistance: 40.47 (+3.8% away)
-- Nearest support: 36.20 (7.2% away)
+- Monthly pivot: 36.13
+- Nearest resistance: 36.13 (+4.4% away)
+- Nearest support: 33.00 (4.6% away)
 - 52-week range: 23.00 to 46.00
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 50 | SuperTrend down
 
 ## Track record
 
-29/55 resolved predictions reached their target
+32/96 resolved predictions reached their target
 <!-- vectora:end -->

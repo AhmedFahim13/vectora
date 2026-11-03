@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # ISLAMIINS
 
-#posture/strong-buy #sector/insurance #category/a
+#posture/sell #sector/insurance #category/a
 
-**Insurance** | category A | as of [[Journal/2026-09-30|2026-09-30]]
+**Insurance** | category A | as of [[Journal/2026-11-03|2026-11-03]]
 
 Sector view: [[Sectors/Insurance|Insurance]]
 
@@ -11,19 +11,19 @@ Sector view: [[Sectors/Insurance|Insurance]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Strong Buy** | |
-| Moving averages | Strong Buy | 13 up / 0 down |
-| Oscillators | Buy | 3 up / 0 down |
-| Six-family score | Strong Buy | +5 |
+| Summary (26 indicators) | **Sell** | |
+| Moving averages | Sell | 5 up / 8 down |
+| Oscillators | Sell | 0 up / 1 down |
+| Six-family score | Sell | -4 |
 
-RSI 76 | SuperTrend up
+RSI 42 | SuperTrend down
 
 ## Levels
 
-- Monthly pivot: 61.43
-- Nearest resistance: 71.83 (+2.8% away)
-- Nearest support: 61.43 (12.1% away)
-- 52-week range: 34.00 to 67.80
+- Monthly pivot: 67.90
+- Nearest resistance: 67.90 (+5.9% away)
+- Nearest support: 63.10 (1.6% away)
+- 52-week range: 34.70 to 72.70
 
 ## Fundamentals
 
@@ -34,5 +34,5 @@ RSI 76 | SuperTrend up
 
 ## Track record
 
-20/55 resolved predictions reached their target
+56/96 resolved predictions reached their target
 <!-- vectora:end -->

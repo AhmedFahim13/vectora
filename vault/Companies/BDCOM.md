@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # BDCOM
 
-#posture/sell #sector/it-sector #category/a
+#posture/hold #sector/it-sector #category/a
 
-**IT Sector** | category A | as of [[Journal/2026-09-30|2026-09-30]]
+**IT Sector** | category A | as of [[Journal/2026-11-03|2026-11-03]]
 
 Sector view: [[Sectors/IT Sector|IT Sector]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/IT Sector|IT Sector]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Sell** | |
-| Moving averages | Strong Sell | 2 up / 11 down |
-| Oscillators | Buy | 1 up / 0 down |
-| Six-family score | Sell | -3 |
+| Summary (26 indicators) | **Hold** | |
+| Moving averages | Hold | 6 up / 7 down |
+| Oscillators | Buy | 2 up / 1 down |
+| Six-family score | Hold | -1 |
 
-RSI 44 | SuperTrend down
+RSI 50 | SuperTrend down
 
 ## Levels
 
-- Monthly pivot: 30.40
-- Nearest resistance: 30.40 (+7.0% away)
-- Nearest support: 26.60 (6.3% away)
+- Monthly pivot: 26.87
+- Nearest resistance: 28.70 (+6.3% away)
+- Nearest support: 26.87 (0.5% away)
 - 52-week range: 20.50 to 36.80
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 44 | SuperTrend down
 
 ## Track record
 
-5/55 resolved predictions reached their target
+7/96 resolved predictions reached their target
 <!-- vectora:end -->

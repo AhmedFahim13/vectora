@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # KOHINOOR
 
-#posture/sell #sector/pharmaceuticals-chemicals #category/a
+#posture/strong-sell #sector/pharmaceuticals-chemicals #category/a
 
-**Pharmaceuticals & Chemicals** | category A | as of [[Journal/2026-09-30|2026-09-30]]
+**Pharmaceuticals & Chemicals** | category A | as of [[Journal/2026-11-03|2026-11-03]]
 
 Sector view: [[Sectors/Pharmaceuticals & Chemicals|Pharmaceuticals & Chemicals]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Pharmaceuticals & Chemicals|Pharmaceuticals & Chemicals]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Sell** | |
-| Moving averages | Strong Sell | 1 up / 12 down |
-| Oscillators | Hold | 1 up / 1 down |
-| Six-family score | Strong Sell | -6 |
+| Summary (26 indicators) | **Strong Sell** | |
+| Moving averages | Strong Sell | 0 up / 13 down |
+| Oscillators | Sell | 0 up / 2 down |
+| Six-family score | Strong Sell | -8 |
 
-RSI 42 | SuperTrend down
+RSI 38 | SuperTrend down
 
 ## Levels
 
-- Monthly pivot: 541.00
-- Nearest resistance: 541.00 (+3.6% away)
-- Nearest support: 518.00 (0.8% away)
+- Monthly pivot: 508.53
+- Nearest resistance: 508.53 (+1.6% away)
+- Nearest support: 496.10 (0.8% away)
 - 52-week range: 465.00 to 598.00
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 42 | SuperTrend down
 
 ## Track record
 
-4/55 resolved predictions reached their target
+4/96 resolved predictions reached their target
 <!-- vectora:end -->

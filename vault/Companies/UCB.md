@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # UCB
 
-#posture/strong-sell #sector/bank #category/z
+#posture/sell #sector/bank #category/z
 
-**Bank** | category Z | as of [[Journal/2026-09-30|2026-09-30]]
+**Bank** | category Z | as of [[Journal/2026-11-03|2026-11-03]]
 
 Sector view: [[Sectors/Bank|Bank]]
 
@@ -11,19 +11,19 @@ Sector view: [[Sectors/Bank|Bank]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Strong Sell** | |
-| Moving averages | Strong Sell | 0 up / 13 down |
-| Oscillators | Sell | 0 up / 2 down |
-| Six-family score | Strong Sell | -7 |
+| Summary (26 indicators) | **Sell** | |
+| Moving averages | Strong Sell | 1 up / 12 down |
+| Oscillators | Buy | 2 up / 1 down |
+| Six-family score | Buy | +2 |
 
-RSI 43 | SuperTrend down
+RSI 47 | SuperTrend up
 
 ## Levels
 
-- Monthly pivot: 9.40
-- Nearest resistance: 9.40 (+5.6% away)
-- Nearest support: 8.80 (1.1% away)
-- 52-week range: 8.60 to 12.50
+- Monthly pivot: 8.83
+- Nearest resistance: 8.83 (+3.9% away)
+- Nearest support: 8.07 (5.1% away)
+- 52-week range: 7.80 to 12.50
 
 ## Fundamentals
 
@@ -34,5 +34,5 @@ RSI 43 | SuperTrend down
 
 ## Track record
 
-5/55 resolved predictions reached their target
+11/96 resolved predictions reached their target
 <!-- vectora:end -->

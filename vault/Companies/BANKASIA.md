@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # BANKASIA
 
-#posture/strong-sell #sector/bank #category/a
+#posture/hold #sector/bank #category/a
 
-**Bank** | category A | as of [[Journal/2026-09-30|2026-09-30]]
+**Bank** | category A | as of [[Journal/2026-11-03|2026-11-03]]
 
 Sector view: [[Sectors/Bank|Bank]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Bank|Bank]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Strong Sell** | |
-| Moving averages | Strong Sell | 0 up / 13 down |
-| Oscillators | Sell | 1 up / 4 down |
-| Six-family score | Sell | -3 |
+| Summary (26 indicators) | **Hold** | |
+| Moving averages | Sell | 4 up / 9 down |
+| Oscillators | Buy | 3 up / 0 down |
+| Six-family score | Buy | +3 |
 
-RSI 22 | SuperTrend down
+RSI 51 | SuperTrend up
 
 ## Levels
 
-- Monthly pivot: 17.27
-- Nearest resistance: 17.10 (+5.6% away)
-- Nearest support: 15.67 (3.3% away)
+- Monthly pivot: 16.80
+- Nearest resistance: 17.50 (+4.2% away)
+- Nearest support: 16.80 (0.0% away)
 - 52-week range: 14.60 to 20.40
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 22 | SuperTrend down
 
 ## Track record
 
-0/55 resolved predictions reached their target
+2/96 resolved predictions reached their target
 <!-- vectora:end -->

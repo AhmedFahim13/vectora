@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # EBL
 
-#posture/strong-sell #sector/bank #category/a
+#posture/sell #sector/bank #category/a
 
-**Bank** | category A | as of [[Journal/2026-09-30|2026-09-30]]
+**Bank** | category A | as of [[Journal/2026-11-03|2026-11-03]]
 
 Sector view: [[Sectors/Bank|Bank]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Bank|Bank]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Strong Sell** | |
-| Moving averages | Strong Sell | 0 up / 12 down |
-| Oscillators | Sell | 1 up / 2 down |
-| Six-family score | Sell | -2 |
+| Summary (26 indicators) | **Sell** | |
+| Moving averages | Strong Sell | 0 up / 13 down |
+| Oscillators | Buy | 2 up / 0 down |
+| Six-family score | Buy | +3 |
 
-RSI 42 | SuperTrend down
+RSI 46 | SuperTrend up
 
 ## Levels
 
-- Monthly pivot: 24.17
-- Nearest resistance: 24.00 (+4.8% away)
-- Nearest support: 22.87 (0.1% away)
+- Monthly pivot: 23.53
+- Nearest resistance: 23.53 (+1.9% away)
+- Nearest support: 22.77 (1.4% away)
 - 52-week range: 20.70 to 27.40
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 42 | SuperTrend down
 
 ## Track record
 
-0/55 resolved predictions reached their target
+8/96 resolved predictions reached their target
 <!-- vectora:end -->

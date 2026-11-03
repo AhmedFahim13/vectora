@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # BSRMSTEEL
 
-#posture/sell #sector/engineering #category/a
+#posture/buy #sector/engineering #category/a
 
-**Engineering** | category A | as of [[Journal/2026-09-30|2026-09-30]]
+**Engineering** | category A | as of [[Journal/2026-11-03|2026-11-03]]
 
 Sector view: [[Sectors/Engineering|Engineering]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Engineering|Engineering]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Sell** | |
-| Moving averages | Sell | 4 up / 8 down |
-| Oscillators | Sell | 1 up / 4 down |
-| Six-family score | Strong Sell | -7 |
+| Summary (26 indicators) | **Buy** | |
+| Moving averages | Buy | 9 up / 3 down |
+| Oscillators | Buy | 2 up / 0 down |
+| Six-family score | Strong Buy | +6 |
 
-RSI 37 | SuperTrend down
+RSI 54 | SuperTrend up
 
 ## Levels
 
-- Monthly pivot: 93.77
-- Nearest resistance: 92.20 (+10.8% away)
-- Nearest support: 81.50 (2.0% away)
+- Monthly pivot: 88.87
+- Nearest resistance: 94.00 (+4.9% away)
+- Nearest support: 88.87 (0.8% away)
 - 52-week range: 50.00 to 102.00
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 37 | SuperTrend down
 
 ## Track record
 
-3/55 resolved predictions reached their target
+15/96 resolved predictions reached their target
 <!-- vectora:end -->

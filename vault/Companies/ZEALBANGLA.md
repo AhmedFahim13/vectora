@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # ZEALBANGLA
 
-#posture/hold #sector/food-allied #category/z
+#posture/sell #sector/food-allied #category/z
 
-**Food & Allied** | category Z | as of [[Journal/2026-09-30|2026-09-30]]
+**Food & Allied** | category Z | as of [[Journal/2026-11-03|2026-11-03]]
 
 Sector view: [[Sectors/Food & Allied|Food & Allied]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Food & Allied|Food & Allied]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Hold** | |
-| Moving averages | Hold | 6 up / 7 down |
-| Oscillators | Hold | 1 up / 1 down |
-| Six-family score | Sell | -2 |
+| Summary (26 indicators) | **Sell** | |
+| Moving averages | Strong Sell | 2 up / 11 down |
+| Oscillators | Sell | 1 up / 3 down |
+| Six-family score | Strong Sell | -7 |
 
-RSI 47 | SuperTrend down
+RSI 37 | SuperTrend down
 
 ## Levels
 
-- Monthly pivot: 196.90
-- Nearest resistance: 194.90 (+10.7% away)
-- Nearest support: 160.00 (9.1% away)
+- Monthly pivot: 172.37
+- Nearest resistance: 172.37 (+8.8% away)
+- Nearest support: 156.00 (1.5% away)
 - 52-week range: 77.80 to 251.40
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 47 | SuperTrend down
 
 ## Track record
 
-12/55 resolved predictions reached their target
+28/96 resolved predictions reached their target
 <!-- vectora:end -->

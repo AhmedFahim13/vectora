@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # UNIQUEHRL
 
-#posture/strong-buy #sector/travel-leisure #category/a
+#posture/strong-sell #sector/travel-leisure #category/a
 
-**Travel & Leisure** | category A | as of [[Journal/2026-09-30|2026-09-30]]
+**Travel & Leisure** | category A | as of [[Journal/2026-11-03|2026-11-03]]
 
 Sector view: [[Sectors/Travel & Leisure|Travel & Leisure]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Travel & Leisure|Travel & Leisure]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Strong Buy** | |
-| Moving averages | Strong Buy | 12 up / 1 down |
-| Oscillators | Buy | 3 up / 0 down |
-| Six-family score | Strong Buy | +5 |
+| Summary (26 indicators) | **Strong Sell** | |
+| Moving averages | Strong Sell | 0 up / 13 down |
+| Oscillators | Sell | 0 up / 2 down |
+| Six-family score | Strong Sell | -7 |
 
-RSI 55 | SuperTrend up
+RSI 36 | SuperTrend down
 
 ## Levels
 
-- Monthly pivot: 43.63
-- Nearest resistance: 43.63 (+1.0% away)
-- Nearest support: 41.17 (4.7% away)
+- Monthly pivot: 40.20
+- Nearest resistance: 40.20 (+5.2% away)
+- Nearest support: 38.00 (0.5% away)
 - 52-week range: 31.30 to 49.40
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 55 | SuperTrend up
 
 ## Track record
 
-6/55 resolved predictions reached their target
+15/96 resolved predictions reached their target
 <!-- vectora:end -->

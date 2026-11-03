@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # GREENDELMF
 
-#posture/buy #sector/mutual-funds #category/a
+#posture/sell #sector/mutual-funds #category/a
 
-**Mutual Funds** | category A | as of [[Journal/2026-09-30|2026-09-30]]
+**Mutual Funds** | category A | as of [[Journal/2026-11-03|2026-11-03]]
 
 Sector view: [[Sectors/Mutual Funds|Mutual Funds]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Mutual Funds|Mutual Funds]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Buy** | |
-| Moving averages | Strong Buy | 10 up / 3 down |
-| Oscillators | Buy | 1 up / 0 down |
-| Six-family score | Buy | +4 |
+| Summary (26 indicators) | **Sell** | |
+| Moving averages | Sell | 4 up / 9 down |
+| Oscillators | Sell | 0 up / 2 down |
+| Six-family score | Sell | -4 |
 
-RSI 54 | SuperTrend up
+RSI 43 | SuperTrend up
 
 ## Levels
 
-- Monthly pivot: 4.63
-- Nearest resistance: 5.27 (+7.5% away)
-- Nearest support: 4.63 (5.4% away)
+- Monthly pivot: 4.60
+- Nearest resistance: 4.60 (+4.5% away)
+- Nearest support: 4.30 (2.3% away)
 - 52-week range: 2.50 to 5.80
 
 ## Fundamentals

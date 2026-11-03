@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # RELIANCE1
 
-#posture/buy #sector/mutual-funds #category/a
+#posture/sell #sector/mutual-funds #category/a
 
-**Mutual Funds** | category A | as of [[Journal/2026-09-30|2026-09-30]]
+**Mutual Funds** | category A | as of [[Journal/2026-11-03|2026-11-03]]
 
 Sector view: [[Sectors/Mutual Funds|Mutual Funds]]
 
@@ -11,19 +11,19 @@ Sector view: [[Sectors/Mutual Funds|Mutual Funds]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Buy** | |
-| Moving averages | Buy | 7 up / 5 down |
-| Oscillators | Buy | 1 up / 0 down |
-| Six-family score | Strong Buy | +6 |
+| Summary (26 indicators) | **Sell** | |
+| Moving averages | Sell | 5 up / 8 down |
+| Oscillators | Sell | 1 up / 2 down |
+| Six-family score | Sell | -2 |
 
-RSI 53 | SuperTrend up
+RSI 50 | SuperTrend down
 
 ## Levels
 
-- Monthly pivot: 13.00
-- Nearest resistance: 14.00 (+7.7% away)
-- Nearest support: 11.60 (10.8% away)
-- 52-week range: 11.20 to 22.80
+- Monthly pivot: 11.73
+- Nearest resistance: 12.97 (+9.9% away)
+- Nearest support: 11.73 (0.6% away)
+- 52-week range: 10.50 to 21.30
 
 ## Fundamentals
 

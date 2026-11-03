@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # PBLPBOND
 
-#posture/buy #sector/corporate-bond #category/a
+#posture/hold #sector/corporate-bond #category/a
 
-**Corporate Bond** | category A | as of [[Journal/2026-09-30|2026-09-30]]
+**Corporate Bond** | category A | as of [[Journal/2026-11-03|2026-11-03]]
 
 Sector view: [[Sectors/Corporate Bond|Corporate Bond]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Corporate Bond|Corporate Bond]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Buy** | |
-| Moving averages | Buy | 8 up / 2 down |
-| Oscillators | Buy | 2 up / 0 down |
-| Six-family score | Buy | +4 |
+| Summary (26 indicators) | **Hold** | |
+| Moving averages | Buy | 7 up / 4 down |
+| Oscillators | Sell | 0 up / 2 down |
+| Six-family score | Sell | -2 |
 
-RSI 68 | SuperTrend down
+RSI 63 | SuperTrend down
 
 ## Levels
 
-- Monthly pivot: 4608.67
-- Nearest resistance: 4931.33 (+0.6% away)
-- Nearest support: 4608.67 (5.9% away)
+- Monthly pivot: 4893.33
+- Nearest resistance: 4893.33 (+0.1% away)
+- Nearest support: 4886.67 (0.1% away)
 - 52-week range: 4528.00 to 5000.00
 
 ## Fundamentals

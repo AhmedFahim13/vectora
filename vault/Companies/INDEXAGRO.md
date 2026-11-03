@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # INDEXAGRO
 
-#posture/hold #sector/miscellaneous #category/a
+#posture/strong-sell #sector/miscellaneous #category/a
 
-**Miscellaneous** | category A | as of [[Journal/2026-09-30|2026-09-30]]
+**Miscellaneous** | category A | as of [[Journal/2026-11-03|2026-11-03]]
 
 Sector view: [[Sectors/Miscellaneous|Miscellaneous]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Miscellaneous|Miscellaneous]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Hold** | |
-| Moving averages | Hold | 6 up / 6 down |
-| Oscillators | Buy | 1 up / 0 down |
-| Six-family score | Buy | +3 |
+| Summary (26 indicators) | **Strong Sell** | |
+| Moving averages | Strong Sell | 0 up / 13 down |
+| Oscillators | Sell | 1 up / 2 down |
+| Six-family score | Strong Sell | -7 |
 
-RSI 52 | SuperTrend up
+RSI 35 | SuperTrend down
 
 ## Levels
 
-- Monthly pivot: 71.83
-- Nearest resistance: 71.83 (+0.9% away)
-- Nearest support: 64.67 (9.2% away)
+- Monthly pivot: 67.70
+- Nearest resistance: 67.70 (+9.4% away)
+- Nearest support: 61.80 (0.2% away)
 - 52-week range: 57.00 to 93.00
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 52 | SuperTrend up
 
 ## Track record
 
-6/55 resolved predictions reached their target
+24/96 resolved predictions reached their target
 <!-- vectora:end -->

@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # CVOPRL
 
-#posture/sell #sector/fuel-power #category/a
+#posture/strong-sell #sector/fuel-power #category/a
 
-**Fuel & Power** | category A | as of [[Journal/2026-09-30|2026-09-30]]
+**Fuel & Power** | category A | as of [[Journal/2026-11-03|2026-11-03]]
 
 Sector view: [[Sectors/Fuel & Power|Fuel & Power]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Fuel & Power|Fuel & Power]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Sell** | |
-| Moving averages | Hold | 6 up / 7 down |
-| Oscillators | Sell | 1 up / 2 down |
-| Six-family score | Buy | +2 |
+| Summary (26 indicators) | **Strong Sell** | |
+| Moving averages | Strong Sell | 0 up / 13 down |
+| Oscillators | Strong Sell | 0 up / 4 down |
+| Six-family score | Sell | -5 |
 
-RSI 48 | SuperTrend up
+RSI 28 | SuperTrend down
 
 ## Levels
 
-- Monthly pivot: 171.20
-- Nearest resistance: 170.50 (+7.2% away)
-- Nearest support: 157.40 (1.1% away)
+- Monthly pivot: 152.03
+- Nearest resistance: 152.03 (+13.0% away)
+- Nearest support: 126.13 (6.2% away)
 - 52-week range: 119.50 to 216.80
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 48 | SuperTrend up
 
 ## Track record
 
-8/55 resolved predictions reached their target
+15/96 resolved predictions reached their target
 <!-- vectora:end -->

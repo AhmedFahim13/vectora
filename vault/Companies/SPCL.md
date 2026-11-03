@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # SPCL
 
-#posture/buy #sector/fuel-power #category/a
+#posture/strong-buy #sector/fuel-power #category/a
 
-**Fuel & Power** | category A | as of [[Journal/2026-09-30|2026-09-30]]
+**Fuel & Power** | category A | as of [[Journal/2026-11-03|2026-11-03]]
 
 Sector view: [[Sectors/Fuel & Power|Fuel & Power]]
 
@@ -11,19 +11,19 @@ Sector view: [[Sectors/Fuel & Power|Fuel & Power]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Buy** | |
-| Moving averages | Buy | 9 up / 4 down |
-| Oscillators | Hold | 1 up / 1 down |
-| Six-family score | Hold | -1 |
+| Summary (26 indicators) | **Strong Buy** | |
+| Moving averages | Strong Buy | 13 up / 0 down |
+| Oscillators | Buy | 2 up / 0 down |
+| Six-family score | Strong Buy | +9 |
 
-RSI 51 | SuperTrend down
+RSI 68 | SuperTrend up
 
 ## Levels
 
-- Monthly pivot: 54.37
-- Nearest resistance: 53.60 (+4.5% away)
-- Nearest support: 49.83 (2.9% away)
-- 52-week range: 30.10 to 60.60
+- Monthly pivot: 53.80
+- Nearest resistance: 58.90 (+2.4% away)
+- Nearest support: 53.80 (6.4% away)
+- 52-week range: 34.40 to 60.60
 
 ## Fundamentals
 
@@ -34,5 +34,5 @@ RSI 51 | SuperTrend down
 
 ## Track record
 
-4/55 resolved predictions reached their target
+20/96 resolved predictions reached their target
 <!-- vectora:end -->

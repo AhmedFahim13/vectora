@@ -3,7 +3,7 @@
 
 #posture/hold #sector/travel-leisure #category/z #risk/thin-float
 
-**Travel & Leisure** | category Z | as of [[Journal/2026-09-30|2026-09-30]]
+**Travel & Leisure** | category Z | as of [[Journal/2026-11-03|2026-11-03]]
 
 Sector view: [[Sectors/Travel & Leisure|Travel & Leisure]]
 

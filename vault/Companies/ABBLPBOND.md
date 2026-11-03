@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # ABBLPBOND
 
-#posture/buy #sector/corporate-bond #category/a
+#posture/strong-sell #sector/corporate-bond #category/a
 
-**Corporate Bond** | category A | as of [[Journal/2026-09-30|2026-09-30]]
+**Corporate Bond** | category A | as of [[Journal/2026-11-03|2026-11-03]]
 
 Sector view: [[Sectors/Corporate Bond|Corporate Bond]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Corporate Bond|Corporate Bond]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Buy** | |
-| Moving averages | Strong Buy | 8 up / 0 down |
-| Oscillators | Sell | 1 up / 3 down |
-| Six-family score | Hold | +0 |
+| Summary (26 indicators) | **Strong Sell** | |
+| Moving averages | Strong Sell | 0 up / 12 down |
+| Oscillators | Sell | 1 up / 4 down |
+| Six-family score | Sell | -5 |
 
-RSI 76 | SuperTrend up
+RSI 1 | SuperTrend down
 
 ## Levels
 
-- Monthly pivot: 1060.00
-- Nearest resistance: -
-- Nearest support: 950.00 (10.4% away)
+- Monthly pivot: 1006.67
+- Nearest resistance: 1006.67 (+2.7% away)
+- Nearest support: 953.33 (2.7% away)
 - 52-week range: 797.50 to 1060.00
 
 ## Fundamentals

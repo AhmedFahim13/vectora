@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # MAGURAPLEX
 
-#posture/sell #sector/paper-printing #category/a
+#posture/strong-sell #sector/paper-printing #category/a
 
-**Paper & Printing** | category A | as of [[Journal/2026-09-30|2026-09-30]]
+**Paper & Printing** | category A | as of [[Journal/2026-11-03|2026-11-03]]
 
 Sector view: [[Sectors/Paper & Printing|Paper & Printing]]
 
@@ -11,19 +11,19 @@ Sector view: [[Sectors/Paper & Printing|Paper & Printing]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Sell** | |
-| Moving averages | Strong Sell | 2 up / 11 down |
-| Oscillators | Sell | 1 up / 2 down |
-| Six-family score | Sell | -2 |
+| Summary (26 indicators) | **Strong Sell** | |
+| Moving averages | Strong Sell | 0 up / 13 down |
+| Oscillators | Sell | 1 up / 3 down |
+| Six-family score | Sell | -5 |
 
-RSI 47 | SuperTrend down
+RSI 28 | SuperTrend down
 
 ## Levels
 
-- Monthly pivot: 87.97
-- Nearest resistance: 87.40 (+5.3% away)
-- Nearest support: 80.63 (2.9% away)
-- 52-week range: 66.20 to 118.00
+- Monthly pivot: 77.13
+- Nearest resistance: 77.13 (+7.3% away)
+- Nearest support: 70.27 (2.3% away)
+- 52-week range: 72.30 to 118.00
 
 ## Fundamentals
 
@@ -34,5 +34,5 @@ RSI 47 | SuperTrend down
 
 ## Track record
 
-6/55 resolved predictions reached their target
+8/96 resolved predictions reached their target
 <!-- vectora:end -->

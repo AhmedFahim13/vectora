@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # KPPL
 
-#posture/sell #sector/paper-printing #category/z
+#posture/strong-sell #sector/paper-printing #category/z
 
-**Paper & Printing** | category Z | as of [[Journal/2026-09-30|2026-09-30]]
+**Paper & Printing** | category Z | as of [[Journal/2026-11-03|2026-11-03]]
 
 Sector view: [[Sectors/Paper & Printing|Paper & Printing]]
 
@@ -11,19 +11,19 @@ Sector view: [[Sectors/Paper & Printing|Paper & Printing]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Sell** | |
-| Moving averages | Strong Sell | 2 up / 11 down |
-| Oscillators | Buy | 2 up / 1 down |
-| Six-family score | Buy | +2 |
+| Summary (26 indicators) | **Strong Sell** | |
+| Moving averages | Strong Sell | 0 up / 13 down |
+| Oscillators | Sell | 1 up / 2 down |
+| Six-family score | Strong Sell | -7 |
 
-RSI 49 | SuperTrend up
+RSI 33 | SuperTrend down
 
 ## Levels
 
-- Monthly pivot: 14.27
-- Nearest resistance: 14.27 (+6.5% away)
-- Nearest support: 12.53 (6.5% away)
-- 52-week range: 7.90 to 27.90
+- Monthly pivot: 13.13
+- Nearest resistance: 13.13 (+11.3% away)
+- Nearest support: 11.47 (2.8% away)
+- 52-week range: 7.90 to 21.40
 
 ## Fundamentals
 
@@ -34,5 +34,5 @@ RSI 49 | SuperTrend up
 
 ## Track record
 
-8/55 resolved predictions reached their target
+19/96 resolved predictions reached their target
 <!-- vectora:end -->

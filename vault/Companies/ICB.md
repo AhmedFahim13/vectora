@@ -3,7 +3,7 @@
 
 #posture/strong-sell #sector/financial-institutions #category/b #risk/thin-float
 
-**Financial Institutions** | category B | as of [[Journal/2026-09-30|2026-09-30]]
+**Financial Institutions** | category B | as of [[Journal/2026-11-03|2026-11-03]]
 
 Sector view: [[Sectors/Financial Institutions|Financial Institutions]]
 
@@ -13,17 +13,17 @@ Sector view: [[Sectors/Financial Institutions|Financial Institutions]]
 |---|---|---|
 | Summary (26 indicators) | **Strong Sell** | |
 | Moving averages | Strong Sell | 0 up / 13 down |
-| Oscillators | Sell | 1 up / 4 down |
+| Oscillators | Sell | 2 up / 3 down |
 | Six-family score | Strong Sell | -7 |
 
-RSI 32 | SuperTrend down
+RSI 33 | SuperTrend down
 
 ## Levels
 
-- Monthly pivot: 43.40
-- Nearest resistance: 43.40 (+13.3% away)
-- Nearest support: 38.00 (0.8% away)
-- 52-week range: 33.70 to 59.80
+- Monthly pivot: 36.83
+- Nearest resistance: 36.83 (+12.3% away)
+- Nearest support: 31.30 (4.6% away)
+- 52-week range: 31.30 to 59.80
 
 ## Fundamentals
 
@@ -34,5 +34,5 @@ RSI 32 | SuperTrend down
 
 ## Track record
 
-0/55 resolved predictions reached their target
+9/96 resolved predictions reached their target
 <!-- vectora:end -->

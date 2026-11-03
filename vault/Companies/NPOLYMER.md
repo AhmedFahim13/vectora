@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # NPOLYMER
 
-#posture/strong-buy #sector/engineering #category/b
+#posture/strong-sell #sector/engineering #category/b
 
-**Engineering** | category B | as of [[Journal/2026-09-30|2026-09-30]]
+**Engineering** | category B | as of [[Journal/2026-11-03|2026-11-03]]
 
 Sector view: [[Sectors/Engineering|Engineering]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Engineering|Engineering]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Strong Buy** | |
-| Moving averages | Strong Buy | 12 up / 0 down |
-| Oscillators | Buy | 3 up / 0 down |
-| Six-family score | Buy | +3 |
+| Summary (26 indicators) | **Strong Sell** | |
+| Moving averages | Strong Sell | 0 up / 13 down |
+| Oscillators | Sell | 0 up / 2 down |
+| Six-family score | Strong Sell | -7 |
 
-RSI 63 | SuperTrend up
+RSI 33 | SuperTrend down
 
 ## Levels
 
-- Monthly pivot: 33.80
-- Nearest resistance: 36.50 (+6.7% away)
-- Nearest support: 33.80 (1.2% away)
+- Monthly pivot: 28.87
+- Nearest resistance: 28.87 (+12.3% away)
+- Nearest support: 25.30 (1.6% away)
 - 52-week range: 23.50 to 38.90
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 63 | SuperTrend up
 
 ## Track record
 
-6/55 resolved predictions reached their target
+17/96 resolved predictions reached their target
 <!-- vectora:end -->

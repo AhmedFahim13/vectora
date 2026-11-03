@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # MEGHNACEM
 
-#posture/hold #sector/cement #category/z
+#posture/strong-sell #sector/cement #category/z
 
-**Cement** | category Z | as of [[Journal/2026-09-30|2026-09-30]]
+**Cement** | category Z | as of [[Journal/2026-11-03|2026-11-03]]
 
 Sector view: [[Sectors/Cement|Cement]]
 
@@ -11,19 +11,19 @@ Sector view: [[Sectors/Cement|Cement]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Hold** | |
-| Moving averages | Hold | 6 up / 7 down |
-| Oscillators | Buy | 1 up / 0 down |
-| Six-family score | Sell | -2 |
+| Summary (26 indicators) | **Strong Sell** | |
+| Moving averages | Strong Sell | 0 up / 13 down |
+| Oscillators | Strong Sell | 0 up / 4 down |
+| Six-family score | Strong Sell | -7 |
 
-RSI 49 | SuperTrend down
+RSI 38 | SuperTrend down
 
 ## Levels
 
-- Monthly pivot: 30.47
-- Nearest resistance: 30.47 (+4.0% away)
-- Nearest support: 28.03 (4.3% away)
-- 52-week range: 26.10 to 58.00
+- Monthly pivot: 27.70
+- Nearest resistance: 27.70 (+2.2% away)
+- Nearest support: 25.60 (5.5% away)
+- 52-week range: 25.60 to 58.00
 
 ## Fundamentals
 

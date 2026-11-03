@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # ASIAPACINS
 
-#posture/strong-buy #sector/insurance #category/a
+#posture/strong-sell #sector/insurance #category/a
 
-**Insurance** | category A | as of [[Journal/2026-09-30|2026-09-30]]
+**Insurance** | category A | as of [[Journal/2026-11-03|2026-11-03]]
 
 Sector view: [[Sectors/Insurance|Insurance]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Insurance|Insurance]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Strong Buy** | |
-| Moving averages | Strong Buy | 12 up / 0 down |
-| Oscillators | Buy | 1 up / 0 down |
-| Six-family score | Hold | -1 |
+| Summary (26 indicators) | **Strong Sell** | |
+| Moving averages | Strong Sell | 2 up / 11 down |
+| Oscillators | Strong Sell | 0 up / 4 down |
+| Six-family score | Strong Sell | -7 |
 
-RSI 54 | SuperTrend down
+RSI 35 | SuperTrend down
 
 ## Levels
 
-- Monthly pivot: 49.97
-- Nearest resistance: 49.97 (+2.4% away)
-- Nearest support: 45.00 (7.8% away)
+- Monthly pivot: 45.40
+- Nearest resistance: 45.40 (+6.3% away)
+- Nearest support: 41.80 (2.1% away)
 - 52-week range: 27.10 to 55.70
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 54 | SuperTrend down
 
 ## Track record
 
-16/55 resolved predictions reached their target
+16/96 resolved predictions reached their target
 <!-- vectora:end -->

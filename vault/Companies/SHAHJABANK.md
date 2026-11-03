@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # SHAHJABANK
 
-#posture/buy #sector/bank #category/a
+#posture/strong-sell #sector/bank #category/a
 
-**Bank** | category A | as of [[Journal/2026-09-30|2026-09-30]]
+**Bank** | category A | as of [[Journal/2026-11-03|2026-11-03]]
 
 Sector view: [[Sectors/Bank|Bank]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Bank|Bank]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Buy** | |
-| Moving averages | Strong Buy | 12 up / 0 down |
-| Oscillators | Sell | 1 up / 2 down |
-| Six-family score | Buy | +4 |
+| Summary (26 indicators) | **Strong Sell** | |
+| Moving averages | Strong Sell | 0 up / 13 down |
+| Oscillators | Sell | 0 up / 3 down |
+| Six-family score | Sell | -2 |
 
-RSI 52 | SuperTrend up
+RSI 46 | SuperTrend up
 
 ## Levels
 
-- Monthly pivot: 17.50
-- Nearest resistance: 17.80 (+1.7% away)
-- Nearest support: 17.20 (1.7% away)
+- Monthly pivot: 17.30
+- Nearest resistance: 17.30 (+0.6% away)
+- Nearest support: 17.10 (0.6% away)
 - 52-week range: 15.90 to 19.60
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 52 | SuperTrend up
 
 ## Track record
 
-0/55 resolved predictions reached their target
+0/96 resolved predictions reached their target
 <!-- vectora:end -->

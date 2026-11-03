@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # PRIMELIFE
 
-#posture/strong-buy #sector/insurance #category/b
+#posture/strong-sell #sector/insurance #category/b
 
-**Insurance** | category B | as of [[Journal/2026-09-30|2026-09-30]]
+**Insurance** | category B | as of [[Journal/2026-11-03|2026-11-03]]
 
 Sector view: [[Sectors/Insurance|Insurance]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Insurance|Insurance]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Strong Buy** | |
-| Moving averages | Strong Buy | 12 up / 0 down |
-| Oscillators | Buy | 2 up / 1 down |
-| Six-family score | Hold | +0 |
+| Summary (26 indicators) | **Strong Sell** | |
+| Moving averages | Strong Sell | 0 up / 13 down |
+| Oscillators | Strong Sell | 0 up / 4 down |
+| Six-family score | Strong Sell | -7 |
 
-RSI 59 | SuperTrend down
+RSI 34 | SuperTrend down
 
 ## Levels
 
-- Monthly pivot: 39.77
-- Nearest resistance: 39.77 (+1.4% away)
-- Nearest support: 34.53 (11.9% away)
+- Monthly pivot: 36.50
+- Nearest resistance: 36.50 (+7.7% away)
+- Nearest support: 33.60 (0.9% away)
 - 52-week range: 27.00 to 54.60
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 59 | SuperTrend down
 
 ## Track record
 
-14/55 resolved predictions reached their target
+23/96 resolved predictions reached their target
 <!-- vectora:end -->

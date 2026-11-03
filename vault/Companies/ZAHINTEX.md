@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # ZAHINTEX
 
-#posture/strong-sell #sector/textile #category/z
+#posture/sell #sector/textile #category/z
 
-**Textile** | category Z | as of [[Journal/2026-09-30|2026-09-30]]
+**Textile** | category Z | as of [[Journal/2026-11-03|2026-11-03]]
 
 Sector view: [[Sectors/Textile|Textile]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Textile|Textile]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Strong Sell** | |
+| Summary (26 indicators) | **Sell** | |
 | Moving averages | Strong Sell | 2 up / 11 down |
-| Oscillators | Strong Sell | 0 up / 4 down |
-| Six-family score | Strong Sell | -7 |
+| Oscillators | Hold | 1 up / 1 down |
+| Six-family score | Sell | -4 |
 
-RSI 36 | SuperTrend down
+RSI 43 | SuperTrend down
 
 ## Levels
 
-- Monthly pivot: 8.43
-- Nearest resistance: 8.43 (+17.1% away)
-- Nearest support: 6.63 (7.9% away)
+- Monthly pivot: 7.50
+- Nearest resistance: 7.50 (+2.7% away)
+- Nearest support: 7.00 (4.1% away)
 - 52-week range: 3.80 to 10.10
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 36 | SuperTrend down
 
 ## Track record
 
-8/45 resolved predictions reached their target
+8/54 resolved predictions reached their target
 <!-- vectora:end -->

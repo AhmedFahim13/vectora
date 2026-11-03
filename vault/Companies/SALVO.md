@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # SALVO
 
-#posture/buy #sector/pharmaceuticals-chemicals #category/b
+#posture/strong-sell #sector/pharmaceuticals-chemicals #category/b
 
-**Pharmaceuticals & Chemicals** | category B | as of [[Journal/2026-09-30|2026-09-30]]
+**Pharmaceuticals & Chemicals** | category B | as of [[Journal/2026-11-03|2026-11-03]]
 
 Sector view: [[Sectors/Pharmaceuticals & Chemicals|Pharmaceuticals & Chemicals]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Pharmaceuticals & Chemicals|Pharmaceuticals & Chemicals]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Buy** | |
-| Moving averages | Buy | 8 up / 5 down |
+| Summary (26 indicators) | **Strong Sell** | |
+| Moving averages | Strong Sell | 0 up / 13 down |
 | Oscillators | Hold | 1 up / 1 down |
-| Six-family score | Sell | -2 |
+| Six-family score | Sell | -4 |
 
-RSI 48 | SuperTrend down
+RSI 39 | SuperTrend down
 
 ## Levels
 
-- Monthly pivot: 34.50
-- Nearest resistance: 34.50 (+9.9% away)
-- Nearest support: 30.60 (2.5% away)
+- Monthly pivot: 28.63
+- Nearest resistance: 28.63 (+5.3% away)
+- Nearest support: 26.20 (3.7% away)
 - 52-week range: 17.90 to 40.80
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 48 | SuperTrend down
 
 ## Track record
 
-5/55 resolved predictions reached their target
+10/96 resolved predictions reached their target
 <!-- vectora:end -->

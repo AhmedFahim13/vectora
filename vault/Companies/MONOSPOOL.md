@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # MONOSPOOL
 
-#posture/sell #sector/paper-printing #category/a
+#posture/strong-sell #sector/paper-printing #category/a
 
-**Paper & Printing** | category A | as of [[Journal/2026-09-30|2026-09-30]]
+**Paper & Printing** | category A | as of [[Journal/2026-11-03|2026-11-03]]
 
 Sector view: [[Sectors/Paper & Printing|Paper & Printing]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Paper & Printing|Paper & Printing]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Sell** | |
-| Moving averages | Strong Sell | 2 up / 11 down |
-| Oscillators | Sell | 1 up / 2 down |
-| Six-family score | Sell | -2 |
+| Summary (26 indicators) | **Strong Sell** | |
+| Moving averages | Strong Sell | 0 up / 13 down |
+| Oscillators | Strong Sell | 0 up / 4 down |
+| Six-family score | Sell | -3 |
 
-RSI 48 | SuperTrend down
+RSI 29 | SuperTrend down
 
 ## Levels
 
-- Monthly pivot: 110.40
-- Nearest resistance: 110.40 (+4.2% away)
-- Nearest support: 99.60 (6.0% away)
+- Monthly pivot: 102.90
+- Nearest resistance: 102.90 (+8.5% away)
+- Nearest support: 93.10 (1.8% away)
 - 52-week range: 74.80 to 305.60
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 48 | SuperTrend down
 
 ## Track record
 
-4/55 resolved predictions reached their target
+5/96 resolved predictions reached their target
 <!-- vectora:end -->

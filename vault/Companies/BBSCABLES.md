@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # BBSCABLES
 
-#posture/strong-sell #sector/engineering #category/b
+#posture/hold #sector/engineering #category/b
 
-**Engineering** | category B | as of [[Journal/2026-09-30|2026-09-30]]
+**Engineering** | category B | as of [[Journal/2026-11-03|2026-11-03]]
 
 Sector view: [[Sectors/Engineering|Engineering]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Engineering|Engineering]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Strong Sell** | |
-| Moving averages | Strong Sell | 0 up / 13 down |
-| Oscillators | Hold | 1 up / 1 down |
-| Six-family score | Sell | -3 |
+| Summary (26 indicators) | **Hold** | |
+| Moving averages | Hold | 6 up / 7 down |
+| Oscillators | Buy | 2 up / 1 down |
+| Six-family score | Buy | +3 |
 
-RSI 42 | SuperTrend down
+RSI 54 | SuperTrend up
 
 ## Levels
 
-- Monthly pivot: 20.03
-- Nearest resistance: 19.40 (+15.5% away)
-- Nearest support: 16.17 (3.8% away)
+- Monthly pivot: 15.53
+- Nearest resistance: 17.07 (+6.7% away)
+- Nearest support: 15.53 (2.9% away)
 - 52-week range: 11.60 to 24.00
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 42 | SuperTrend down
 
 ## Track record
 
-7/55 resolved predictions reached their target
+15/96 resolved predictions reached their target
 <!-- vectora:end -->

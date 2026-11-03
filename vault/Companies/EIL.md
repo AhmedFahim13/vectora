@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # EIL
 
-#posture/strong-buy #sector/insurance #category/b
+#posture/strong-sell #sector/insurance #category/b
 
-**Insurance** | category B | as of [[Journal/2026-09-30|2026-09-30]]
+**Insurance** | category B | as of [[Journal/2026-11-03|2026-11-03]]
 
 Sector view: [[Sectors/Insurance|Insurance]]
 
@@ -11,19 +11,19 @@ Sector view: [[Sectors/Insurance|Insurance]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Strong Buy** | |
-| Moving averages | Strong Buy | 12 up / 1 down |
-| Oscillators | Buy | 2 up / 0 down |
-| Six-family score | Hold | -1 |
+| Summary (26 indicators) | **Strong Sell** | |
+| Moving averages | Strong Sell | 0 up / 13 down |
+| Oscillators | Sell | 0 up / 2 down |
+| Six-family score | Strong Sell | -7 |
 
-RSI 61 | SuperTrend down
+RSI 39 | SuperTrend down
 
 ## Levels
 
-- Monthly pivot: 32.63
-- Nearest resistance: 33.60 (+0.6% away)
-- Nearest support: 32.63 (2.3% away)
-- 52-week range: 23.60 to 54.80
+- Monthly pivot: 31.47
+- Nearest resistance: 31.47 (+5.2% away)
+- Nearest support: 29.80 (0.3% away)
+- 52-week range: 23.60 to 53.80
 
 ## Fundamentals
 
@@ -34,5 +34,5 @@ RSI 61 | SuperTrend down
 
 ## Track record
 
-15/55 resolved predictions reached their target
+24/96 resolved predictions reached their target
 <!-- vectora:end -->

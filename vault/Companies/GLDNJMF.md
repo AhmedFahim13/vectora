@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # GLDNJMF
 
-#posture/strong-buy #sector/mutual-funds #category/a
+#posture/sell #sector/mutual-funds #category/a
 
-**Mutual Funds** | category A | as of [[Journal/2026-09-30|2026-09-30]]
+**Mutual Funds** | category A | as of [[Journal/2026-11-03|2026-11-03]]
 
 Sector view: [[Sectors/Mutual Funds|Mutual Funds]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Mutual Funds|Mutual Funds]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Strong Buy** | |
-| Moving averages | Strong Buy | 11 up / 1 down |
-| Oscillators | Buy | 2 up / 0 down |
-| Six-family score | Strong Buy | +5 |
+| Summary (26 indicators) | **Sell** | |
+| Moving averages | Sell | 4 up / 9 down |
+| Oscillators | Buy | 1 up / 0 down |
+| Six-family score | Hold | +0 |
 
-RSI 56 | SuperTrend up
+RSI 45 | SuperTrend up
 
 ## Levels
 
-- Monthly pivot: 8.73
-- Nearest resistance: 9.57 (+4.0% away)
-- Nearest support: 8.73 (5.1% away)
+- Monthly pivot: 8.60
+- Nearest resistance: 8.60 (+4.9% away)
+- Nearest support: 7.90 (3.7% away)
 - 52-week range: 5.80 to 10.30
 
 ## Fundamentals

@@ -3,7 +3,7 @@
 
 #posture/sell #sector/textile #category/z
 
-**Textile** | category Z | as of [[Journal/2026-09-30|2026-09-30]]
+**Textile** | category Z | as of [[Journal/2026-11-03|2026-11-03]]
 
 Sector view: [[Sectors/Textile|Textile]]
 
@@ -20,10 +20,10 @@ RSI 43 | SuperTrend down
 
 ## Levels
 
-- Monthly pivot: 19.63
-- Nearest resistance: 19.50 (+14.7% away)
-- Nearest support: 16.53 (2.7% away)
-- 52-week range: 12.40 to 37.60
+- Monthly pivot: 16.00
+- Nearest resistance: 16.00 (+2.6% away)
+- Nearest support: 14.90 (4.5% away)
+- 52-week range: 12.40 to 34.10
 
 ## Fundamentals
 
@@ -34,5 +34,5 @@ RSI 43 | SuperTrend down
 
 ## Track record
 
-1/49 resolved predictions reached their target
+1/62 resolved predictions reached their target
 <!-- vectora:end -->

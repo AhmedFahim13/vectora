@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # OLYMPIC
 
-#posture/strong-sell #sector/food-allied #category/a
+#posture/sell #sector/food-allied #category/a
 
-**Food & Allied** | category A | as of [[Journal/2026-09-30|2026-09-30]]
+**Food & Allied** | category A | as of [[Journal/2026-11-03|2026-11-03]]
 
 Sector view: [[Sectors/Food & Allied|Food & Allied]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Food & Allied|Food & Allied]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Strong Sell** | |
-| Moving averages | Strong Sell | 0 up / 13 down |
-| Oscillators | Hold | 1 up / 1 down |
-| Six-family score | Sell | -3 |
+| Summary (26 indicators) | **Sell** | |
+| Moving averages | Strong Sell | 3 up / 10 down |
+| Oscillators | Sell | 0 up / 2 down |
+| Six-family score | Strong Sell | -6 |
 
 RSI 42 | SuperTrend down
 
 ## Levels
 
-- Monthly pivot: 148.03
-- Nearest resistance: 148.03 (+3.4% away)
-- Nearest support: 140.77 (1.7% away)
+- Monthly pivot: 138.23
+- Nearest resistance: 138.23 (+1.0% away)
+- Nearest support: 133.00 (2.8% away)
 - 52-week range: 128.00 to 176.90
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 42 | SuperTrend down
 
 ## Track record
 
-0/55 resolved predictions reached their target
+0/96 resolved predictions reached their target
 <!-- vectora:end -->

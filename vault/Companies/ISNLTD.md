@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # ISNLTD
 
-#posture/hold #sector/it-sector #category/b
+#posture/strong-sell #sector/it-sector #category/b
 
-**IT Sector** | category B | as of [[Journal/2026-09-30|2026-09-30]]
+**IT Sector** | category B | as of [[Journal/2026-11-03|2026-11-03]]
 
 Sector view: [[Sectors/IT Sector|IT Sector]]
 
@@ -11,19 +11,19 @@ Sector view: [[Sectors/IT Sector|IT Sector]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Hold** | |
-| Moving averages | Sell | 4 up / 9 down |
-| Oscillators | Buy | 2 up / 0 down |
-| Six-family score | Buy | +3 |
+| Summary (26 indicators) | **Strong Sell** | |
+| Moving averages | Strong Sell | 0 up / 13 down |
+| Oscillators | Sell | 1 up / 3 down |
+| Six-family score | Strong Sell | -7 |
 
-RSI 49 | SuperTrend up
+RSI 31 | SuperTrend down
 
 ## Levels
 
-- Monthly pivot: 59.17
-- Nearest resistance: 59.17 (+12.1% away)
-- Nearest support: 52.33 (0.9% away)
-- 52-week range: 33.20 to 131.10
+- Monthly pivot: 43.97
+- Nearest resistance: 43.97 (+17.6% away)
+- Nearest support: 36.40 (2.7% away)
+- 52-week range: 35.90 to 131.10
 
 ## Fundamentals
 
@@ -34,5 +34,5 @@ RSI 49 | SuperTrend up
 
 ## Track record
 
-19/55 resolved predictions reached their target
+35/96 resolved predictions reached their target
 <!-- vectora:end -->

@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # IDLC
 
-#posture/hold #sector/financial-institutions #category/a
+#posture/strong-sell #sector/financial-institutions #category/a
 
-**Financial Institutions** | category A | as of [[Journal/2026-09-30|2026-09-30]]
+**Financial Institutions** | category A | as of [[Journal/2026-11-03|2026-11-03]]
 
 Sector view: [[Sectors/Financial Institutions|Financial Institutions]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Financial Institutions|Financial Institutions]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Hold** | |
-| Moving averages | Buy | 7 up / 5 down |
-| Oscillators | Sell | 1 up / 2 down |
-| Six-family score | Sell | -2 |
+| Summary (26 indicators) | **Strong Sell** | |
+| Moving averages | Strong Sell | 1 up / 12 down |
+| Oscillators | Sell | 1 up / 3 down |
+| Six-family score | Strong Sell | -7 |
 
-RSI 48 | SuperTrend down
+RSI 38 | SuperTrend down
 
 ## Levels
 
-- Monthly pivot: 44.60
-- Nearest resistance: 44.20 (+3.0% away)
-- Nearest support: 41.80 (2.6% away)
+- Monthly pivot: 41.73
+- Nearest resistance: 41.73 (+3.8% away)
+- Nearest support: 39.97 (0.6% away)
 - 52-week range: 25.90 to 48.30
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 48 | SuperTrend down
 
 ## Track record
 
-3/55 resolved predictions reached their target
+3/96 resolved predictions reached their target
 <!-- vectora:end -->

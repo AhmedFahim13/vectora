@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # PRIMEFIN
 
-#posture/sell #sector/financial-institutions #category/z
+#posture/buy #sector/financial-institutions #category/z
 
-**Financial Institutions** | category Z | as of [[Journal/2026-09-30|2026-09-30]]
+**Financial Institutions** | category Z | as of [[Journal/2026-11-03|2026-11-03]]
 
 Sector view: [[Sectors/Financial Institutions|Financial Institutions]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Financial Institutions|Financial Institutions]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Sell** | |
-| Moving averages | Strong Sell | 2 up / 10 down |
-| Oscillators | Sell | 0 up / 3 down |
-| Six-family score | Strong Sell | -7 |
+| Summary (26 indicators) | **Buy** | |
+| Moving averages | Strong Buy | 10 up / 3 down |
+| Oscillators | Buy | 3 up / 1 down |
+| Six-family score | Hold | +0 |
 
-RSI 39 | SuperTrend down
+RSI 54 | SuperTrend down
 
 ## Levels
 
-- Monthly pivot: 3.40
-- Nearest resistance: 3.30 (+22.2% away)
-- Nearest support: 2.70 (0.0% away)
+- Monthly pivot: 2.67
+- Nearest resistance: 3.00 (+7.1% away)
+- Nearest support: 2.67 (4.8% away)
 - 52-week range: 0.73 to 5.00
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 39 | SuperTrend down
 
 ## Track record
 
-8/55 resolved predictions reached their target
+17/96 resolved predictions reached their target
 <!-- vectora:end -->

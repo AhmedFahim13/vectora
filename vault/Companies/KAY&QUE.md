@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # KAY&QUE
 
-#posture/strong-buy #sector/engineering #category/b
+#posture/strong-sell #sector/engineering #category/b
 
-**Engineering** | category B | as of [[Journal/2026-09-30|2026-09-30]]
+**Engineering** | category B | as of [[Journal/2026-11-03|2026-11-03]]
 
 Sector view: [[Sectors/Engineering|Engineering]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Engineering|Engineering]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Strong Buy** | |
-| Moving averages | Strong Buy | 12 up / 0 down |
-| Oscillators | Buy | 3 up / 1 down |
-| Six-family score | Strong Buy | +5 |
+| Summary (26 indicators) | **Strong Sell** | |
+| Moving averages | Strong Sell | 0 up / 13 down |
+| Oscillators | Sell | 1 up / 4 down |
+| Six-family score | Sell | -5 |
 
-RSI 61 | SuperTrend up
+RSI 31 | SuperTrend down
 
 ## Levels
 
-- Monthly pivot: 407.13
-- Nearest resistance: 424.00 (+3.5% away)
-- Nearest support: 407.13 (0.7% away)
+- Monthly pivot: 382.33
+- Nearest resistance: 382.33 (+9.8% away)
+- Nearest support: 347.00 (0.3% away)
 - 52-week range: 182.10 to 498.20
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 61 | SuperTrend up
 
 ## Track record
 
-9/55 resolved predictions reached their target
+26/96 resolved predictions reached their target
 <!-- vectora:end -->

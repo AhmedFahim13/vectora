@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # BGIC
 
-#posture/buy #sector/insurance #category/a
+#posture/sell #sector/insurance #category/a
 
-**Insurance** | category A | as of [[Journal/2026-09-30|2026-09-30]]
+**Insurance** | category A | as of [[Journal/2026-11-03|2026-11-03]]
 
 Sector view: [[Sectors/Insurance|Insurance]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Insurance|Insurance]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Buy** | |
-| Moving averages | Strong Buy | 12 up / 0 down |
-| Oscillators | Hold | 1 up / 1 down |
-| Six-family score | Hold | -1 |
+| Summary (26 indicators) | **Sell** | |
+| Moving averages | Sell | 5 up / 8 down |
+| Oscillators | Sell | 1 up / 2 down |
+| Six-family score | Sell | -2 |
 
-RSI 52 | SuperTrend down
+RSI 48 | SuperTrend down
 
 ## Levels
 
-- Monthly pivot: 41.83
-- Nearest resistance: 41.83 (+0.1% away)
-- Nearest support: 38.80 (7.2% away)
+- Monthly pivot: 38.70
+- Nearest resistance: 42.90 (+10.0% away)
+- Nearest support: 38.70 (0.8% away)
 - 52-week range: 26.70 to 46.40
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 52 | SuperTrend down
 
 ## Track record
 
-23/55 resolved predictions reached their target
+28/96 resolved predictions reached their target
 <!-- vectora:end -->

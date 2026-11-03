@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # APOLOISPAT
 
-#posture/sell #sector/engineering #category/z
+#posture/strong-sell #sector/engineering #category/z
 
-**Engineering** | category Z | as of [[Journal/2026-09-30|2026-09-30]]
+**Engineering** | category Z | as of [[Journal/2026-11-03|2026-11-03]]
 
 Sector view: [[Sectors/Engineering|Engineering]]
 
@@ -11,19 +11,19 @@ Sector view: [[Sectors/Engineering|Engineering]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Sell** | |
-| Moving averages | Strong Sell | 2 up / 10 down |
-| Oscillators | Sell | 1 up / 4 down |
+| Summary (26 indicators) | **Strong Sell** | |
+| Moving averages | Strong Sell | 0 up / 13 down |
+| Oscillators | Sell | 0 up / 3 down |
 | Six-family score | Strong Sell | -7 |
 
-RSI 30 | SuperTrend down
+RSI 31 | SuperTrend down
 
 ## Levels
 
-- Monthly pivot: 3.17
-- Nearest resistance: 3.10 (+14.8% away)
-- Nearest support: 2.67 (1.2% away)
-- 52-week range: 1.30 to 4.00
+- Monthly pivot: 2.47
+- Nearest resistance: 2.47 (+12.1% away)
+- Nearest support: 2.13 (3.0% away)
+- 52-week range: 1.30 to 3.60
 
 ## Fundamentals
 
@@ -34,5 +34,5 @@ RSI 30 | SuperTrend down
 
 ## Track record
 
-4/55 resolved predictions reached their target
+5/96 resolved predictions reached their target
 <!-- vectora:end -->

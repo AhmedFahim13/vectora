@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # PRIMEINSUR
 
-#posture/hold #sector/insurance #category/a
+#posture/sell #sector/insurance #category/a
 
-**Insurance** | category A | as of [[Journal/2026-09-30|2026-09-30]]
+**Insurance** | category A | as of [[Journal/2026-11-03|2026-11-03]]
 
 Sector view: [[Sectors/Insurance|Insurance]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Insurance|Insurance]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Hold** | |
-| Moving averages | Hold | 6 up / 6 down |
-| Oscillators | Hold | 1 up / 1 down |
-| Six-family score | Sell | -2 |
+| Summary (26 indicators) | **Sell** | |
+| Moving averages | Strong Sell | 2 up / 11 down |
+| Oscillators | Sell | 1 up / 2 down |
+| Six-family score | Sell | -4 |
 
-RSI 49 | SuperTrend down
+RSI 40 | SuperTrend down
 
 ## Levels
 
-- Monthly pivot: 55.73
-- Nearest resistance: 55.73 (+7.6% away)
-- Nearest support: 48.50 (6.4% away)
+- Monthly pivot: 45.23
+- Nearest resistance: 45.23 (+6.2% away)
+- Nearest support: 38.00 (10.8% away)
 - 52-week range: 25.00 to 66.90
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 49 | SuperTrend down
 
 ## Track record
 
-22/55 resolved predictions reached their target
+26/96 resolved predictions reached their target
 <!-- vectora:end -->

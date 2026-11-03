@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # CAPITECGBF
 
-#posture/buy #sector/mutual-funds #category/a
+#posture/strong-sell #sector/mutual-funds #category/a
 
-**Mutual Funds** | category A | as of [[Journal/2026-09-30|2026-09-30]]
+**Mutual Funds** | category A | as of [[Journal/2026-11-03|2026-11-03]]
 
 Sector view: [[Sectors/Mutual Funds|Mutual Funds]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Mutual Funds|Mutual Funds]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Buy** | |
-| Moving averages | Buy | 9 up / 4 down |
-| Oscillators | Buy | 2 up / 1 down |
-| Six-family score | Hold | +0 |
+| Summary (26 indicators) | **Strong Sell** | |
+| Moving averages | Strong Sell | 0 up / 13 down |
+| Oscillators | Hold | 1 up / 1 down |
+| Six-family score | Sell | -4 |
 
-RSI 51 | SuperTrend down
+RSI 41 | SuperTrend down
 
 ## Levels
 
-- Monthly pivot: 9.43
-- Nearest resistance: 9.43 (+4.8% away)
-- Nearest support: 8.00 (11.1% away)
+- Monthly pivot: 8.10
+- Nearest resistance: 8.10 (+5.2% away)
+- Nearest support: 7.50 (2.6% away)
 - 52-week range: 6.30 to 11.50
 
 ## Fundamentals

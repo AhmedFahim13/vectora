@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # IPDC
 
-#posture/strong-buy #sector/financial-institutions #category/a
+#posture/sell #sector/financial-institutions #category/a
 
-**Financial Institutions** | category A | as of [[Journal/2026-09-30|2026-09-30]]
+**Financial Institutions** | category A | as of [[Journal/2026-11-03|2026-11-03]]
 
 Sector view: [[Sectors/Financial Institutions|Financial Institutions]]
 
@@ -11,19 +11,19 @@ Sector view: [[Sectors/Financial Institutions|Financial Institutions]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Strong Buy** | |
-| Moving averages | Strong Buy | 13 up / 0 down |
-| Oscillators | Buy | 3 up / 2 down |
-| Six-family score | Strong Buy | +7 |
+| Summary (26 indicators) | **Sell** | |
+| Moving averages | Strong Sell | 2 up / 11 down |
+| Oscillators | Sell | 0 up / 1 down |
+| Six-family score | Strong Sell | -7 |
 
-RSI 68 | SuperTrend up
+RSI 38 | SuperTrend down
 
 ## Levels
 
-- Monthly pivot: 32.10
-- Nearest resistance: 36.40 (+2.8% away)
-- Nearest support: 32.10 (9.3% away)
-- 52-week range: 13.50 to 36.40
+- Monthly pivot: 31.33
+- Nearest resistance: 31.33 (+9.6% away)
+- Nearest support: 26.97 (5.7% away)
+- 52-week range: 13.50 to 36.50
 
 ## Fundamentals
 
@@ -34,5 +34,5 @@ RSI 68 | SuperTrend up
 
 ## Track record
 
-20/55 resolved predictions reached their target
+41/96 resolved predictions reached their target
 <!-- vectora:end -->

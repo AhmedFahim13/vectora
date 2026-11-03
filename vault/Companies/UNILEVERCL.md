@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # UNILEVERCL
 
-#posture/sell #sector/food-allied #category/a #risk/thin-float
+#posture/strong-sell #sector/food-allied #category/a #risk/thin-float
 
-**Food & Allied** | category A | as of [[Journal/2026-09-30|2026-09-30]]
+**Food & Allied** | category A | as of [[Journal/2026-11-03|2026-11-03]]
 
 Sector view: [[Sectors/Food & Allied|Food & Allied]]
 
@@ -11,19 +11,19 @@ Sector view: [[Sectors/Food & Allied|Food & Allied]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Sell** | |
+| Summary (26 indicators) | **Strong Sell** | |
 | Moving averages | Strong Sell | 0 up / 13 down |
-| Oscillators | Buy | 1 up / 0 down |
-| Six-family score | Sell | -4 |
+| Oscillators | Sell | 2 up / 4 down |
+| Six-family score | Sell | -3 |
 
-RSI 39 | SuperTrend down
+RSI 10 | SuperTrend down
 
 ## Levels
 
-- Monthly pivot: 1998.87
-- Nearest resistance: 1998.87 (+1.0% away)
-- Nearest support: 1970.00 (0.5% away)
-- 52-week range: 1961.00 to 2550.00
+- Monthly pivot: 1990.63
+- Nearest resistance: 1990.63 (+14.9% away)
+- Nearest support: none below price
+- 52-week range: 1780.00 to 2550.00
 
 ## Fundamentals
 

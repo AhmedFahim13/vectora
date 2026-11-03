@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # MIRACLEIND
 
-#posture/sell #sector/miscellaneous #category/z
+#posture/buy #sector/miscellaneous #category/z
 
-**Miscellaneous** | category Z | as of [[Journal/2026-09-30|2026-09-30]]
+**Miscellaneous** | category Z | as of [[Journal/2026-11-03|2026-11-03]]
 
 Sector view: [[Sectors/Miscellaneous|Miscellaneous]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Miscellaneous|Miscellaneous]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Sell** | |
-| Moving averages | Strong Sell | 0 up / 13 down |
-| Oscillators | Buy | 1 up / 0 down |
-| Six-family score | Sell | -4 |
+| Summary (26 indicators) | **Buy** | |
+| Moving averages | Strong Buy | 12 up / 1 down |
+| Oscillators | Buy | 3 up / 2 down |
+| Six-family score | Strong Buy | +5 |
 
-RSI 36 | SuperTrend down
+RSI 64 | SuperTrend up
 
 ## Levels
 
-- Monthly pivot: 29.23
-- Nearest resistance: 29.23 (+11.2% away)
-- Nearest support: 25.80 (1.9% away)
+- Monthly pivot: 28.37
+- Nearest resistance: 32.20 (+8.1% away)
+- Nearest support: 28.37 (4.8% away)
 - 52-week range: 22.60 to 40.90
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 36 | SuperTrend down
 
 ## Track record
 
-9/55 resolved predictions reached their target
+23/96 resolved predictions reached their target
 <!-- vectora:end -->

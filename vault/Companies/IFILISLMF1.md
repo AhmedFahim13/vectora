@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # IFILISLMF1
 
-#posture/buy #sector/mutual-funds #category/a
+#posture/sell #sector/mutual-funds #category/a
 
-**Mutual Funds** | category A | as of [[Journal/2026-09-30|2026-09-30]]
+**Mutual Funds** | category A | as of [[Journal/2026-11-03|2026-11-03]]
 
 Sector view: [[Sectors/Mutual Funds|Mutual Funds]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Mutual Funds|Mutual Funds]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Buy** | |
-| Moving averages | Buy | 9 up / 4 down |
-| Oscillators | Buy | 2 up / 0 down |
-| Six-family score | Strong Buy | +6 |
+| Summary (26 indicators) | **Sell** | |
+| Moving averages | Sell | 4 up / 9 down |
+| Oscillators | Sell | 0 up / 1 down |
+| Six-family score | Strong Sell | -7 |
 
-RSI 55 | SuperTrend up
+RSI 45 | SuperTrend down
 
 ## Levels
 
 - Monthly pivot: 5.53
-- Nearest resistance: 5.97 (+1.1% away)
-- Nearest support: 5.53 (6.2% away)
+- Nearest resistance: 5.53 (+2.5% away)
+- Nearest support: 5.07 (6.2% away)
 - 52-week range: 3.00 to 6.60
 
 ## Fundamentals

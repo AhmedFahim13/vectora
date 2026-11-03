@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # AIBLPBOND
 
-#posture/strong-buy #sector/corporate-bond #category/a
+#posture/sell #sector/corporate-bond #category/a
 
-**Corporate Bond** | category A | as of [[Journal/2026-09-30|2026-09-30]]
+**Corporate Bond** | category A | as of [[Journal/2026-11-03|2026-11-03]]
 
 Sector view: [[Sectors/Corporate Bond|Corporate Bond]]
 
@@ -11,19 +11,19 @@ Sector view: [[Sectors/Corporate Bond|Corporate Bond]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Strong Buy** | |
-| Moving averages | Strong Buy | 10 up / 0 down |
-| Oscillators | Buy | 4 up / 1 down |
-| Six-family score | Strong Buy | +5 |
+| Summary (26 indicators) | **Sell** | |
+| Moving averages | Sell | 3 up / 8 down |
+| Oscillators | Sell | 2 up / 4 down |
+| Six-family score | Sell | -2 |
 
-RSI 93 | SuperTrend up
+RSI 24 | SuperTrend down
 
 ## Levels
 
-- Monthly pivot: 4033.33
-- Nearest resistance: 4233.33 (+0.8% away)
-- Nearest support: 4100.00 (2.4% away)
-- 52-week range: 3900.00 to 4200.00
+- Monthly pivot: 4287.50
+- Nearest resistance: 4287.50 (+4.6% away)
+- Nearest support: 4075.00 (0.6% away)
+- 52-week range: 3900.00 to 4350.00
 
 ## Fundamentals
 

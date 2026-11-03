@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # MAKSONSPIN
 
-#posture/strong-sell #sector/textile #category/z
+#posture/sell #sector/textile #category/z
 
-**Textile** | category Z | as of [[Journal/2026-09-30|2026-09-30]]
+**Textile** | category Z | as of [[Journal/2026-11-03|2026-11-03]]
 
 Sector view: [[Sectors/Textile|Textile]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Textile|Textile]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Strong Sell** | |
-| Moving averages | Strong Sell | 0 up / 13 down |
-| Oscillators | Sell | 0 up / 2 down |
-| Six-family score | Strong Sell | -7 |
+| Summary (26 indicators) | **Sell** | |
+| Moving averages | Strong Sell | 3 up / 10 down |
+| Oscillators | Hold | 1 up / 1 down |
+| Six-family score | Sell | -3 |
 
-RSI 43 | SuperTrend down
+RSI 37 | SuperTrend down
 
 ## Levels
 
-- Monthly pivot: 6.30
-- Nearest resistance: 6.30 (+10.5% away)
-- Nearest support: 5.60 (1.8% away)
+- Monthly pivot: 4.97
+- Nearest resistance: 4.97 (+5.7% away)
+- Nearest support: 4.50 (4.3% away)
 - 52-week range: 3.80 to 7.70
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 43 | SuperTrend down
 
 ## Track record
 
-17/55 resolved predictions reached their target
+17/96 resolved predictions reached their target
 <!-- vectora:end -->

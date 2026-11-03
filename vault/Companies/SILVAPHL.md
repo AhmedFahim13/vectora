@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # SILVAPHL
 
-#posture/sell #sector/pharmaceuticals-chemicals #category/b
+#posture/hold #sector/pharmaceuticals-chemicals #category/b
 
-**Pharmaceuticals & Chemicals** | category B | as of [[Journal/2026-09-30|2026-09-30]]
+**Pharmaceuticals & Chemicals** | category B | as of [[Journal/2026-11-03|2026-11-03]]
 
 Sector view: [[Sectors/Pharmaceuticals & Chemicals|Pharmaceuticals & Chemicals]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Pharmaceuticals & Chemicals|Pharmaceuticals & Chemicals]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Sell** | |
-| Moving averages | Strong Sell | 3 up / 10 down |
-| Oscillators | Hold | 1 up / 1 down |
-| Six-family score | Sell | -3 |
+| Summary (26 indicators) | **Hold** | |
+| Moving averages | Hold | 6 up / 7 down |
+| Oscillators | Hold | 2 up / 2 down |
+| Six-family score | Buy | +3 |
 
-RSI 44 | SuperTrend down
+RSI 53 | SuperTrend up
 
 ## Levels
 
-- Monthly pivot: 14.80
-- Nearest resistance: 13.90 (+8.6% away)
-- Nearest support: 11.80 (7.8% away)
+- Monthly pivot: 10.77
+- Nearest resistance: 12.53 (+13.9% away)
+- Nearest support: 10.77 (2.1% away)
 - 52-week range: 7.60 to 18.00
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 44 | SuperTrend down
 
 ## Track record
 
-7/55 resolved predictions reached their target
+13/96 resolved predictions reached their target
 <!-- vectora:end -->

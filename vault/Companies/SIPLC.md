@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # SIPLC
 
-#posture/strong-buy #sector/insurance #category/a
+#posture/sell #sector/insurance #category/a
 
-**Insurance** | category A | as of [[Journal/2026-09-30|2026-09-30]]
+**Insurance** | category A | as of [[Journal/2026-11-03|2026-11-03]]
 
 Sector view: [[Sectors/Insurance|Insurance]]
 
@@ -11,19 +11,19 @@ Sector view: [[Sectors/Insurance|Insurance]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Strong Buy** | |
-| Moving averages | Strong Buy | 13 up / 0 down |
-| Oscillators | Hold | 2 up / 2 down |
-| Six-family score | Strong Buy | +7 |
+| Summary (26 indicators) | **Sell** | |
+| Moving averages | Sell | 4 up / 9 down |
+| Oscillators | Sell | 0 up / 2 down |
+| Six-family score | Sell | -3 |
 
-RSI 60 | SuperTrend up
+RSI 43 | SuperTrend up
 
 ## Levels
 
-- Monthly pivot: 142.50
-- Nearest resistance: 166.20 (+6.9% away)
-- Nearest support: 142.50 (8.4% away)
-- 52-week range: 38.90 to 166.20
+- Monthly pivot: 138.63
+- Nearest resistance: 138.63 (+7.4% away)
+- Nearest support: 124.00 (4.0% away)
+- 52-week range: 40.00 to 166.20
 
 ## Fundamentals
 
@@ -34,5 +34,5 @@ RSI 60 | SuperTrend up
 
 ## Track record
 
-38/55 resolved predictions reached their target
+62/96 resolved predictions reached their target
 <!-- vectora:end -->

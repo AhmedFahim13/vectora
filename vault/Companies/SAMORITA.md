@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # SAMORITA
 
-#posture/buy #sector/services-real-estate #category/b
+#posture/sell #sector/services-real-estate #category/b
 
-**Services & Real Estate** | category B | as of [[Journal/2026-09-30|2026-09-30]]
+**Services & Real Estate** | category B | as of [[Journal/2026-11-03|2026-11-03]]
 
 Sector view: [[Sectors/Services & Real Estate|Services & Real Estate]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Services & Real Estate|Services & Real Estate]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Buy** | |
-| Moving averages | Buy | 8 up / 5 down |
-| Oscillators | Hold | 1 up / 1 down |
-| Six-family score | Sell | -2 |
+| Summary (26 indicators) | **Sell** | |
+| Moving averages | Strong Sell | 2 up / 11 down |
+| Oscillators | Sell | 0 up / 2 down |
+| Six-family score | Strong Sell | -7 |
 
-RSI 49 | SuperTrend down
+RSI 39 | SuperTrend down
 
 ## Levels
 
-- Monthly pivot: 105.30
-- Nearest resistance: 102.50 (+9.0% away)
-- Nearest support: 90.60 (3.6% away)
+- Monthly pivot: 87.53
+- Nearest resistance: 87.53 (+5.6% away)
+- Nearest support: 81.70 (1.4% away)
 - 52-week range: 51.50 to 120.00
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 49 | SuperTrend down
 
 ## Track record
 
-40/55 resolved predictions reached their target
+46/96 resolved predictions reached their target
 <!-- vectora:end -->

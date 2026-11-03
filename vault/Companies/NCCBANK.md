@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # NCCBANK
 
-#posture/sell #sector/bank #category/a
+#posture/hold #sector/bank #category/a
 
-**Bank** | category A | as of [[Journal/2026-09-30|2026-09-30]]
+**Bank** | category A | as of [[Journal/2026-11-03|2026-11-03]]
 
 Sector view: [[Sectors/Bank|Bank]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Bank|Bank]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Sell** | |
-| Moving averages | Sell | 4 up / 8 down |
-| Oscillators | Sell | 0 up / 1 down |
-| Six-family score | Strong Sell | -7 |
+| Summary (26 indicators) | **Hold** | |
+| Moving averages | Hold | 6 up / 7 down |
+| Oscillators | Buy | 2 up / 0 down |
+| Six-family score | Buy | +3 |
 
-RSI 39 | SuperTrend down
+RSI 48 | SuperTrend up
 
 ## Levels
 
-- Monthly pivot: 15.27
-- Nearest resistance: 15.27 (+6.8% away)
-- Nearest support: 14.07 (1.6% away)
+- Monthly pivot: 14.97
+- Nearest resistance: 14.97 (+2.5% away)
+- Nearest support: 14.43 (1.1% away)
 - 52-week range: 9.60 to 16.20
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 39 | SuperTrend down
 
 ## Track record
 
-0/55 resolved predictions reached their target
+7/96 resolved predictions reached their target
 <!-- vectora:end -->

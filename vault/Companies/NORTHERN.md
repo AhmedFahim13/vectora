@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # NORTHERN
 
-#posture/hold #sector/jute #category/z
+#posture/strong-sell #sector/jute #category/z
 
-**Jute** | category Z | as of [[Journal/2026-09-30|2026-09-30]]
+**Jute** | category Z | as of [[Journal/2026-11-03|2026-11-03]]
 
 Sector view: [[Sectors/Jute|Jute]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Jute|Jute]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Hold** | |
-| Moving averages | Hold | 6 up / 7 down |
-| Oscillators | Buy | 1 up / 0 down |
-| Six-family score | Sell | -2 |
+| Summary (26 indicators) | **Strong Sell** | |
+| Moving averages | Strong Sell | 0 up / 13 down |
+| Oscillators | Sell | 0 up / 3 down |
+| Six-family score | Strong Sell | -7 |
 
-RSI 48 | SuperTrend down
+RSI 39 | SuperTrend down
 
 ## Levels
 
-- Monthly pivot: 108.40
-- Nearest resistance: 107.90 (+8.7% away)
-- Nearest support: 97.00 (2.3% away)
+- Monthly pivot: 95.57
+- Nearest resistance: 95.57 (+3.1% away)
+- Nearest support: 91.10 (1.7% away)
 - 52-week range: 75.10 to 136.10
 
 ## Fundamentals

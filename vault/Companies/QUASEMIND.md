@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # QUASEMIND
 
-#posture/strong-sell #sector/engineering #category/a
+#posture/hold #sector/engineering #category/a
 
-**Engineering** | category A | as of [[Journal/2026-09-30|2026-09-30]]
+**Engineering** | category A | as of [[Journal/2026-11-03|2026-11-03]]
 
 Sector view: [[Sectors/Engineering|Engineering]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Engineering|Engineering]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Strong Sell** | |
-| Moving averages | Strong Sell | 0 up / 13 down |
-| Oscillators | Sell | 1 up / 2 down |
-| Six-family score | Sell | -5 |
+| Summary (26 indicators) | **Hold** | |
+| Moving averages | Sell | 5 up / 8 down |
+| Oscillators | Buy | 2 up / 0 down |
+| Six-family score | Hold | -1 |
 
-RSI 41 | SuperTrend down
+RSI 49 | SuperTrend down
 
 ## Levels
 
-- Monthly pivot: 43.00
-- Nearest resistance: 42.60 (+9.0% away)
-- Nearest support: 39.00 (0.3% away)
+- Monthly pivot: 38.43
+- Nearest resistance: 38.43 (+0.3% away)
+- Nearest support: 36.57 (4.5% away)
 - 52-week range: 29.50 to 50.40
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 41 | SuperTrend down
 
 ## Track record
 
-3/55 resolved predictions reached their target
+9/96 resolved predictions reached their target
 <!-- vectora:end -->

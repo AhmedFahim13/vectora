@@ -1,19 +1,19 @@
 <!-- vectora:begin -->
 # Insurance
 
-#sector-note #phase/weakening
+#sector-note #phase/lagging
 
-Phase: **Weakening** | as of [[Journal/2026-09-23|2026-09-23]]
+Phase: **Lagging** | as of [[Journal/2026-11-03|2026-11-03]]
 
 | measure | value |
 |---|---|
-| 21-day return | -0.03% |
-| vs market, 21 days | +0.80% |
-| momentum | -6.39% |
-| 63-day return | +9.29% |
-| constituents | 58 |
+| 21-day return | -8.39% |
+| vs market, 21 days | -1.45% |
+| momentum | -6.67% |
+| 63-day return | -7.55% |
+| constituents | 57 |
 
 ## Members, strongest first
 
-[[MERCINS]] · [[ICICL]] · [[BNICL]] · [[PARAMOUNT]] · [[CITYGENINS]] · [[CRYSTALINS]] · [[GLOBALINS]] · [[TAKAFULINS]] · [[UNITEDINS]] · [[NITOLINS]] · [[STANDARINS]] · [[DGIC]] · [[KARNAPHULI]] · [[SONALILIFE]] · [[AGRANINS]] · [[PIONEERINS]] · [[TILIL]] · [[SUNLIFEINS]] · [[CENTRALINS]] · [[SANDHANINS]] · [[PRIMELIFE]] · [[PADMALIFE]] · [[NATLIFEINS]] · [[ISLAMIINS]] · [[CLICL]] · [[DELTALIFE]] · [[RUPALIINS]] · [[GREENDELT]] · [[JANATAINS]] · [[MEGHNAINS]] · [[DHAKAINS]] · [[ASIAINS]] · [[EASTLAND]] · [[PEOPLESINS]] · [[BGIC]] · [[SONARBAINS]] · [[PRAGATIINS]] · [[PRAGATILIF]] · [[EIL]] · [[EASTERNINS]] · [[SIPLC]] · [[RUPALILIFE]] · [[PURABIGEN]] · [[RELIANCINS]] · [[NORTHRNINS]] · [[REPUBLIC]] · [[MEGHNALIFE]] · [[PROGRESLIF]] · [[PROVATIINS]] · [[POPULARLIF]] · [[CONTININS]] · [[UNIONINS]] · [[PRIMEINSUR]] · [[ASIAPACINS]] · [[FEDERALINS]] · [[FAREASTLIF]] · [[SICL]] · [[PHENIXINS]]
+[[AGRANINS]] · [[NITOLINS]] · [[DGIC]] · [[PROVATIINS]] · [[CITYGENINS]] · [[PURABIGEN]] · [[KARNAPHULI]] · [[JANATAINS]] · [[PEOPLESINS]] · [[PARAMOUNT]] · [[SONARBAINS]] · [[CLICL]] · [[PROGRESLIF]] · [[EASTLAND]] · [[RUPALIINS]] · [[ICICL]] · [[CONTININS]] · [[CENTRALINS]] · [[BGIC]] · [[ASIAINS]] · [[STANDARINS]] · [[SONALILIFE]] · [[UNIONINS]] · [[SICL]] · [[GLOBALINS]] · [[REPUBLIC]] · [[CRYSTALINS]] · [[POPULARLIF]] · [[SIPLC]] · [[NORTHRNINS]] · [[DELTALIFE]] · [[PHENIXINS]] · [[TAKAFULINS]] · [[NATLIFEINS]] · [[PRAGATIINS]] · [[PRAGATILIF]] · [[PRIMEINSUR]] · [[DHAKAINS]] · [[FAREASTLIF]] · [[MEGHNAINS]] · [[FEDERALINS]] · [[ISLAMIINS]] · [[SANDHANINS]] · [[SUNLIFEINS]] · [[RUPALILIFE]] · [[PADMALIFE]] · [[GREENDELT]] · [[PRIMELIFE]] · [[RELIANCINS]] · [[EIL]] · [[EASTERNINS]] · [[MEGHNALIFE]] · [[PIONEERINS]] · [[TILIL]] · [[ASIAPACINS]] · [[UNITEDINS]] · [[MERCINS]]
 <!-- vectora:end -->

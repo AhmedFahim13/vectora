@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # PROVATIINS
 
-#posture/hold #sector/insurance #category/a
+#posture/strong-buy #sector/insurance #category/a
 
-**Insurance** | category A | as of [[Journal/2026-09-30|2026-09-30]]
+**Insurance** | category A | as of [[Journal/2026-11-03|2026-11-03]]
 
 Sector view: [[Sectors/Insurance|Insurance]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Insurance|Insurance]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Hold** | |
-| Moving averages | Sell | 5 up / 7 down |
-| Oscillators | Hold | 1 up / 1 down |
-| Six-family score | Sell | -2 |
+| Summary (26 indicators) | **Strong Buy** | |
+| Moving averages | Strong Buy | 13 up / 0 down |
+| Oscillators | Buy | 3 up / 1 down |
+| Six-family score | Strong Buy | +5 |
 
-RSI 47 | SuperTrend down
+RSI 60 | SuperTrend up
 
 ## Levels
 
-- Monthly pivot: 56.60
-- Nearest resistance: 56.60 (+6.2% away)
-- Nearest support: 50.90 (4.5% away)
+- Monthly pivot: 53.20
+- Nearest resistance: 60.00 (+3.4% away)
+- Nearest support: 53.20 (8.3% away)
 - 52-week range: 22.90 to 67.80
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 47 | SuperTrend down
 
 ## Track record
 
-12/55 resolved predictions reached their target
+27/96 resolved predictions reached their target
 <!-- vectora:end -->

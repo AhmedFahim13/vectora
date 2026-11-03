@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # UPGDCL
 
-#posture/sell #sector/fuel-power #category/a #risk/thin-float
+#posture/strong-sell #sector/fuel-power #category/a #risk/thin-float
 
-**Fuel & Power** | category A | as of [[Journal/2026-09-30|2026-09-30]]
+**Fuel & Power** | category A | as of [[Journal/2026-11-03|2026-11-03]]
 
 Sector view: [[Sectors/Fuel & Power|Fuel & Power]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Fuel & Power|Fuel & Power]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Sell** | |
-| Moving averages | Strong Sell | 3 up / 10 down |
-| Oscillators | Buy | 1 up / 0 down |
-| Six-family score | Hold | -1 |
+| Summary (26 indicators) | **Strong Sell** | |
+| Moving averages | Strong Sell | 0 up / 13 down |
+| Oscillators | Sell | 2 up / 3 down |
+| Six-family score | Sell | -5 |
 
-RSI 46 | SuperTrend down
+RSI 32 | SuperTrend down
 
 ## Levels
 
-- Monthly pivot: 119.10
-- Nearest resistance: 117.80 (+3.1% away)
-- Nearest support: 110.60 (3.2% away)
+- Monthly pivot: 112.83
+- Nearest resistance: 112.83 (+2.6% away)
+- Nearest support: 109.70 (0.3% away)
 - 52-week range: 109.70 to 151.80
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 46 | SuperTrend down
 
 ## Track record
 
-2/55 resolved predictions reached their target
+2/96 resolved predictions reached their target
 <!-- vectora:end -->

@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # BATASHOE
 
-#posture/buy #sector/tannery-industries #category/a
+#posture/sell #sector/tannery-industries #category/a
 
-**Tannery Industries** | category A | as of [[Journal/2026-09-30|2026-09-30]]
+**Tannery Industries** | category A | as of [[Journal/2026-11-03|2026-11-03]]
 
 Sector view: [[Sectors/Tannery Industries|Tannery Industries]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Tannery Industries|Tannery Industries]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Buy** | |
-| Moving averages | Buy | 8 up / 4 down |
-| Oscillators | Buy | 1 up / 0 down |
-| Six-family score | Sell | -2 |
+| Summary (26 indicators) | **Sell** | |
+| Moving averages | Sell | 4 up / 9 down |
+| Oscillators | Sell | 0 up / 3 down |
+| Six-family score | Strong Sell | -7 |
 
-RSI 47 | SuperTrend down
+RSI 41 | SuperTrend down
 
 ## Levels
 
-- Monthly pivot: 904.10
-- Nearest resistance: 904.10 (+2.1% away)
-- Nearest support: 879.20 (0.7% away)
+- Monthly pivot: 888.67
+- Nearest resistance: 888.67 (+1.0% away)
+- Nearest support: 870.00 (1.1% away)
 - 52-week range: 725.00 to 936.00
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 47 | SuperTrend down
 
 ## Track record
 
-0/29 resolved predictions reached their target
+0/30 resolved predictions reached their target
 <!-- vectora:end -->

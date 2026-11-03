@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # PDL
 
-#posture/buy #sector/textile #category/z
+#posture/sell #sector/textile #category/z
 
-**Textile** | category Z | as of [[Journal/2026-09-30|2026-09-30]]
+**Textile** | category Z | as of [[Journal/2026-11-03|2026-11-03]]
 
 Sector view: [[Sectors/Textile|Textile]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Textile|Textile]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Buy** | |
-| Moving averages | Buy | 7 up / 5 down |
-| Oscillators | Buy | 2 up / 0 down |
-| Six-family score | Sell | -2 |
+| Summary (26 indicators) | **Sell** | |
+| Moving averages | Strong Sell | 2 up / 11 down |
+| Oscillators | Sell | 0 up / 2 down |
+| Six-family score | Strong Sell | -6 |
 
-RSI 50 | SuperTrend down
+RSI 41 | SuperTrend down
 
 ## Levels
 
-- Monthly pivot: 5.87
-- Nearest resistance: 5.80 (+5.5% away)
-- Nearest support: 5.13 (6.7% away)
+- Monthly pivot: 5.07
+- Nearest resistance: 5.07 (+3.4% away)
+- Nearest support: 4.60 (6.1% away)
 - 52-week range: 2.80 to 7.40
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 50 | SuperTrend down
 
 ## Track record
 
-23/55 resolved predictions reached their target
+28/96 resolved predictions reached their target
 <!-- vectora:end -->

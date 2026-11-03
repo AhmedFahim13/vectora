@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # PRIMETEX
 
-#posture/sell #sector/textile #category/z
+#posture/strong-buy #sector/textile #category/z
 
-**Textile** | category Z | as of [[Journal/2026-09-30|2026-09-30]]
+**Textile** | category Z | as of [[Journal/2026-11-03|2026-11-03]]
 
 Sector view: [[Sectors/Textile|Textile]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Textile|Textile]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Sell** | |
-| Moving averages | Strong Sell | 2 up / 11 down |
-| Oscillators | Hold | 1 up / 1 down |
-| Six-family score | Sell | -3 |
+| Summary (26 indicators) | **Strong Buy** | |
+| Moving averages | Strong Buy | 13 up / 0 down |
+| Oscillators | Buy | 1 up / 0 down |
+| Six-family score | Buy | +2 |
 
-RSI 44 | SuperTrend down
+RSI 68 | SuperTrend up
 
 ## Levels
 
-- Monthly pivot: 16.00
-- Nearest resistance: 16.00 (+10.3% away)
-- Nearest support: 13.90 (4.1% away)
+- Monthly pivot: 13.80
+- Nearest resistance: 16.80 (+5.0% away)
+- Nearest support: 13.80 (13.8% away)
 - 52-week range: 9.90 to 18.50
 
 ## Fundamentals

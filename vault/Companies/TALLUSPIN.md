@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # TALLUSPIN
 
-#posture/strong-sell #sector/textile #category/z
+#posture/sell #sector/textile #category/z
 
-**Textile** | category Z | as of [[Journal/2026-09-30|2026-09-30]]
+**Textile** | category Z | as of [[Journal/2026-11-03|2026-11-03]]
 
 Sector view: [[Sectors/Textile|Textile]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Textile|Textile]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Strong Sell** | |
-| Moving averages | Strong Sell | 1 up / 12 down |
-| Oscillators | Sell | 1 up / 3 down |
-| Six-family score | Strong Sell | -7 |
+| Summary (26 indicators) | **Sell** | |
+| Moving averages | Strong Sell | 2 up / 11 down |
+| Oscillators | Sell | 1 up / 2 down |
+| Six-family score | Sell | -3 |
 
-RSI 34 | SuperTrend down
+RSI 32 | SuperTrend down
 
 ## Levels
 
-- Monthly pivot: 8.03
-- Nearest resistance: 8.00 (+19.4% away)
-- Nearest support: 6.63 (1.0% away)
+- Monthly pivot: 6.10
+- Nearest resistance: 6.10 (+7.0% away)
+- Nearest support: 5.60 (1.8% away)
 - 52-week range: 4.30 to 8.90
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 34 | SuperTrend down
 
 ## Track record
 
-5/55 resolved predictions reached their target
+5/92 resolved predictions reached their target
 <!-- vectora:end -->

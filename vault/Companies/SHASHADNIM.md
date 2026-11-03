@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # SHASHADNIM
 
-#posture/buy #sector/textile #category/b
+#posture/sell #sector/textile #category/b
 
-**Textile** | category B | as of [[Journal/2026-09-30|2026-09-30]]
+**Textile** | category B | as of [[Journal/2026-11-03|2026-11-03]]
 
 Sector view: [[Sectors/Textile|Textile]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Textile|Textile]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Buy** | |
-| Moving averages | Strong Buy | 10 up / 2 down |
-| Oscillators | Sell | 0 up / 1 down |
+| Summary (26 indicators) | **Sell** | |
+| Moving averages | Sell | 4 up / 9 down |
+| Oscillators | Sell | 1 up / 3 down |
 | Six-family score | Sell | -5 |
 
-RSI 52 | SuperTrend down
+RSI 35 | SuperTrend down
 
 ## Levels
 
-- Monthly pivot: 27.87
-- Nearest resistance: 27.87 (+1.7% away)
-- Nearest support: 25.90 (5.5% away)
+- Monthly pivot: 26.77
+- Nearest resistance: 26.77 (+5.8% away)
+- Nearest support: 25.00 (1.2% away)
 - 52-week range: 13.80 to 30.60
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 52 | SuperTrend down
 
 ## Track record
 
-3/55 resolved predictions reached their target
+4/96 resolved predictions reached their target
 <!-- vectora:end -->

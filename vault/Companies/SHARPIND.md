@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # SHARPIND
 
-#posture/sell #sector/textile #category/b
+#posture/strong-sell #sector/textile #category/b
 
-**Textile** | category B | as of [[Journal/2026-09-30|2026-09-30]]
+**Textile** | category B | as of [[Journal/2026-11-03|2026-11-03]]
 
 Sector view: [[Sectors/Textile|Textile]]
 
@@ -11,19 +11,19 @@ Sector view: [[Sectors/Textile|Textile]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Sell** | |
-| Moving averages | Strong Sell | 3 up / 10 down |
+| Summary (26 indicators) | **Strong Sell** | |
+| Moving averages | Strong Sell | 0 up / 13 down |
 | Oscillators | Hold | 1 up / 1 down |
-| Six-family score | Sell | -3 |
+| Six-family score | Sell | -2 |
 
-RSI 40 | SuperTrend down
+RSI 27 | SuperTrend down
 
 ## Levels
 
-- Monthly pivot: 30.97
-- Nearest resistance: 25.10 (+30.7% away)
-- Nearest support: 17.20 (10.4% away)
-- 52-week range: 10.10 to 45.50
+- Monthly pivot: 10.60
+- Nearest resistance: 19.20 (+74.5% away)
+- Nearest support: 10.60 (3.6% away)
+- 52-week range: 1.70 to 45.50
 
 ## Fundamentals
 
@@ -34,5 +34,5 @@ RSI 40 | SuperTrend down
 
 ## Track record
 
-28/55 resolved predictions reached their target
+35/96 resolved predictions reached their target
 <!-- vectora:end -->

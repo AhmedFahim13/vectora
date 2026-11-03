@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # SOUTHEASTB
 
-#posture/sell #sector/bank #category/a
+#posture/buy #sector/bank #category/a
 
-**Bank** | category A | as of [[Journal/2026-09-30|2026-09-30]]
+**Bank** | category A | as of [[Journal/2026-11-03|2026-11-03]]
 
 Sector view: [[Sectors/Bank|Bank]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Bank|Bank]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Sell** | |
-| Moving averages | Hold | 6 up / 7 down |
-| Oscillators | Sell | 0 up / 3 down |
-| Six-family score | Sell | -4 |
+| Summary (26 indicators) | **Buy** | |
+| Moving averages | Buy | 7 up / 5 down |
+| Oscillators | Buy | 2 up / 0 down |
+| Six-family score | Hold | -1 |
 
-RSI 41 | SuperTrend down
+RSI 50 | SuperTrend down
 
 ## Levels
 
-- Monthly pivot: 11.30
-- Nearest resistance: 12.20 (+7.0% away)
-- Nearest support: 11.30 (0.9% away)
+- Monthly pivot: 11.63
+- Nearest resistance: 11.63 (+0.3% away)
+- Nearest support: 11.27 (2.9% away)
 - 52-week range: 6.60 to 12.90
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 41 | SuperTrend down
 
 ## Track record
 
-40/55 resolved predictions reached their target
+51/96 resolved predictions reached their target
 <!-- vectora:end -->

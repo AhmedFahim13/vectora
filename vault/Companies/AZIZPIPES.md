@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # AZIZPIPES
 
-#posture/hold #sector/engineering #category/z
+#posture/buy #sector/engineering #category/z
 
-**Engineering** | category Z | as of [[Journal/2026-09-30|2026-09-30]]
+**Engineering** | category Z | as of [[Journal/2026-11-03|2026-11-03]]
 
 Sector view: [[Sectors/Engineering|Engineering]]
 
@@ -11,19 +11,19 @@ Sector view: [[Sectors/Engineering|Engineering]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Hold** | |
-| Moving averages | Sell | 5 up / 7 down |
-| Oscillators | Buy | 1 up / 0 down |
-| Six-family score | Sell | -2 |
+| Summary (26 indicators) | **Buy** | |
+| Moving averages | Buy | 9 up / 4 down |
+| Oscillators | Hold | 1 up / 1 down |
+| Six-family score | Buy | +3 |
 
-RSI 48 | SuperTrend down
+RSI 56 | SuperTrend up
 
 ## Levels
 
-- Monthly pivot: 79.20
-- Nearest resistance: 79.20 (+4.8% away)
-- Nearest support: 74.10 (2.0% away)
-- 52-week range: 35.80 to 84.30
+- Monthly pivot: 92.50
+- Nearest resistance: 107.70 (+14.2% away)
+- Nearest support: 92.50 (1.9% away)
+- 52-week range: 35.80 to 107.70
 
 ## Fundamentals
 
@@ -34,5 +34,5 @@ RSI 48 | SuperTrend down
 
 ## Track record
 
-15/55 resolved predictions reached their target
+46/96 resolved predictions reached their target
 <!-- vectora:end -->

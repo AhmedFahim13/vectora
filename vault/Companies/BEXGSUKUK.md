@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # BEXGSUKUK
 
-#posture/buy #sector/corporate-bond #category/a
+#posture/strong-buy #sector/corporate-bond #category/a
 
-**Corporate Bond** | category A | as of [[Journal/2026-09-30|2026-09-30]]
+**Corporate Bond** | category A | as of [[Journal/2026-11-03|2026-11-03]]
 
 Sector view: [[Sectors/Corporate Bond|Corporate Bond]]
 
@@ -11,19 +11,19 @@ Sector view: [[Sectors/Corporate Bond|Corporate Bond]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Buy** | |
-| Moving averages | Strong Buy | 12 up / 0 down |
-| Oscillators | Hold | 1 up / 1 down |
-| Six-family score | Buy | +2 |
+| Summary (26 indicators) | **Strong Buy** | |
+| Moving averages | Strong Buy | 13 up / 0 down |
+| Oscillators | Buy | 2 up / 1 down |
+| Six-family score | Strong Buy | +5 |
 
-RSI 55 | SuperTrend up
+RSI 71 | SuperTrend up
 
 ## Levels
 
-- Monthly pivot: 70.17
-- Nearest resistance: 71.00 (+0.7% away)
-- Nearest support: 70.17 (0.5% away)
-- 52-week range: 43.50 to 75.00
+- Monthly pivot: 76.50
+- Nearest resistance: 81.00 (+3.8% away)
+- Nearest support: 76.50 (1.9% away)
+- 52-week range: 45.00 to 81.00
 
 ## Fundamentals
 

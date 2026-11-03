@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # BANKASI1PB
 
-#posture/buy #sector/corporate-bond #category/n
+#posture/sell #sector/corporate-bond #category/n
 
-**Corporate Bond** | category N | as of [[Journal/2026-09-30|2026-09-30]]
+**Corporate Bond** | category N | as of [[Journal/2026-11-03|2026-11-03]]
 
 Sector view: [[Sectors/Corporate Bond|Corporate Bond]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Corporate Bond|Corporate Bond]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Buy** | |
-| Moving averages | Strong Buy | 7 up / 0 down |
-| Oscillators | Sell | 1 up / 3 down |
-| Six-family score | Hold | -1 |
+| Summary (26 indicators) | **Sell** | |
+| Moving averages | Strong Sell | 1 up / 10 down |
+| Oscillators | Sell | 2 up / 4 down |
+| Six-family score | Sell | -3 |
 
-RSI 93 | SuperTrend up
+RSI 1 | SuperTrend down
 
 ## Levels
 
-- Monthly pivot: 8650.00
-- Nearest resistance: -
-- Nearest support: 4650.00 (46.2% away)
+- Monthly pivot: 8150.00
+- Nearest resistance: 8150.00 (+15.4% away)
+- Nearest support: 6900.00 (2.3% away)
 - 52-week range: 4650.00 to 8650.00
 
 ## Fundamentals

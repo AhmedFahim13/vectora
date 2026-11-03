@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # ANWARGALV
 
-#posture/strong-buy #sector/engineering #category/a
+#posture/sell #sector/engineering #category/a
 
-**Engineering** | category A | as of [[Journal/2026-09-30|2026-09-30]]
+**Engineering** | category A | as of [[Journal/2026-11-03|2026-11-03]]
 
 Sector view: [[Sectors/Engineering|Engineering]]
 
@@ -11,19 +11,19 @@ Sector view: [[Sectors/Engineering|Engineering]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Strong Buy** | |
-| Moving averages | Strong Buy | 12 up / 1 down |
-| Oscillators | Buy | 2 up / 0 down |
-| Six-family score | Strong Buy | +8 |
+| Summary (26 indicators) | **Sell** | |
+| Moving averages | Sell | 4 up / 9 down |
+| Oscillators | Sell | 0 up / 2 down |
+| Six-family score | Hold | -1 |
 
-RSI 59 | SuperTrend up
+RSI 41 | SuperTrend up
 
 ## Levels
 
-- Monthly pivot: 108.33
-- Nearest resistance: 123.50 (+5.5% away)
-- Nearest support: 108.33 (7.5% away)
-- 52-week range: 51.60 to 123.60
+- Monthly pivot: 116.70
+- Nearest resistance: 116.70 (+5.5% away)
+- Nearest support: 108.40 (2.0% away)
+- 52-week range: 51.60 to 125.00
 
 ## Fundamentals
 
@@ -34,5 +34,5 @@ RSI 59 | SuperTrend up
 
 ## Track record
 
-15/55 resolved predictions reached their target
+34/96 resolved predictions reached their target
 <!-- vectora:end -->

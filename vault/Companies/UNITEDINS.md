@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # UNITEDINS
 
-#posture/strong-buy #sector/insurance #category/a
+#posture/sell #sector/insurance #category/a
 
-**Insurance** | category A | as of [[Journal/2026-09-30|2026-09-30]]
+**Insurance** | category A | as of [[Journal/2026-11-03|2026-11-03]]
 
 Sector view: [[Sectors/Insurance|Insurance]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Insurance|Insurance]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Strong Buy** | |
-| Moving averages | Strong Buy | 13 up / 0 down |
-| Oscillators | Buy | 2 up / 1 down |
-| Six-family score | Strong Buy | +6 |
+| Summary (26 indicators) | **Sell** | |
+| Moving averages | Strong Sell | 2 up / 11 down |
+| Oscillators | Sell | 0 up / 2 down |
+| Six-family score | Strong Sell | -7 |
 
-RSI 54 | SuperTrend up
+RSI 35 | SuperTrend down
 
 ## Levels
 
-- Monthly pivot: 63.80
-- Nearest resistance: 63.80 (+1.9% away)
-- Nearest support: 57.20 (8.6% away)
+- Monthly pivot: 57.17
+- Nearest resistance: 57.17 (+8.5% away)
+- Nearest support: 52.60 (0.2% away)
 - 52-week range: 33.20 to 72.70
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 54 | SuperTrend up
 
 ## Track record
 
-23/55 resolved predictions reached their target
+27/96 resolved predictions reached their target
 <!-- vectora:end -->

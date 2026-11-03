@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # FORTUNE
 
-#posture/strong-sell #sector/tannery-industries #category/z
+#posture/sell #sector/tannery-industries #category/z
 
-**Tannery Industries** | category Z | as of [[Journal/2026-09-30|2026-09-30]]
+**Tannery Industries** | category Z | as of [[Journal/2026-11-03|2026-11-03]]
 
 Sector view: [[Sectors/Tannery Industries|Tannery Industries]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Tannery Industries|Tannery Industries]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Strong Sell** | |
-| Moving averages | Strong Sell | 0 up / 13 down |
+| Summary (26 indicators) | **Sell** | |
+| Moving averages | Strong Sell | 1 up / 12 down |
 | Oscillators | Hold | 1 up / 1 down |
 | Six-family score | Sell | -4 |
 
-RSI 38 | SuperTrend down
+RSI 36 | SuperTrend down
 
 ## Levels
 
-- Monthly pivot: 17.63
-- Nearest resistance: 17.63 (+18.3% away)
-- Nearest support: 14.87 (0.2% away)
+- Monthly pivot: 13.83
+- Nearest resistance: 13.83 (+5.6% away)
+- Nearest support: 12.70 (3.1% away)
 - 52-week range: 10.00 to 21.90
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 38 | SuperTrend down
 
 ## Track record
 
-8/55 resolved predictions reached their target
+8/96 resolved predictions reached their target
 <!-- vectora:end -->

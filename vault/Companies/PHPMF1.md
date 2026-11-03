@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # PHPMF1
 
-#posture/hold #sector/mutual-funds #category/a
+#posture/strong-sell #sector/mutual-funds #category/a
 
-**Mutual Funds** | category A | as of [[Journal/2026-09-30|2026-09-30]]
+**Mutual Funds** | category A | as of [[Journal/2026-11-03|2026-11-03]]
 
 Sector view: [[Sectors/Mutual Funds|Mutual Funds]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Mutual Funds|Mutual Funds]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Hold** | |
-| Moving averages | Hold | 6 up / 6 down |
-| Oscillators | Buy | 1 up / 0 down |
-| Six-family score | Hold | -1 |
+| Summary (26 indicators) | **Strong Sell** | |
+| Moving averages | Strong Sell | 1 up / 12 down |
+| Oscillators | Sell | 0 up / 3 down |
+| Six-family score | Strong Sell | -7 |
 
-RSI 49 | SuperTrend down
+RSI 37 | SuperTrend down
 
 ## Levels
 
-- Monthly pivot: 3.73
-- Nearest resistance: 3.73 (+3.7% away)
-- Nearest support: 3.40 (5.6% away)
+- Monthly pivot: 3.43
+- Nearest resistance: 3.43 (+7.3% away)
+- Nearest support: 3.17 (1.0% away)
 - 52-week range: 2.10 to 4.40
 
 ## Fundamentals

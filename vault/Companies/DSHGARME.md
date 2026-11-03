@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # DSHGARME
 
-#posture/sell #sector/textile #category/b
+#posture/strong-sell #sector/textile #category/b
 
-**Textile** | category B | as of [[Journal/2026-09-30|2026-09-30]]
+**Textile** | category B | as of [[Journal/2026-11-03|2026-11-03]]
 
 Sector view: [[Sectors/Textile|Textile]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Textile|Textile]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Sell** | |
-| Moving averages | Sell | 4 up / 9 down |
-| Oscillators | Sell | 0 up / 3 down |
-| Six-family score | Sell | -5 |
+| Summary (26 indicators) | **Strong Sell** | |
+| Moving averages | Strong Sell | 0 up / 13 down |
+| Oscillators | Sell | 1 up / 2 down |
+| Six-family score | Strong Sell | -8 |
 
-RSI 46 | SuperTrend down
+RSI 31 | SuperTrend down
 
 ## Levels
 
-- Monthly pivot: 175.47
-- Nearest resistance: 175.47 (+15.1% away)
-- Nearest support: 144.30 (5.3% away)
+- Monthly pivot: 131.13
+- Nearest resistance: 131.13 (+13.1% away)
+- Nearest support: 112.00 (3.4% away)
 - 52-week range: 59.00 to 197.00
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 46 | SuperTrend down
 
 ## Track record
 
-29/55 resolved predictions reached their target
+30/96 resolved predictions reached their target
 <!-- vectora:end -->

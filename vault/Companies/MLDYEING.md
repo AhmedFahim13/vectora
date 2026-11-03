@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # MLDYEING
 
-#posture/sell #sector/textile #category/b
+#posture/buy #sector/textile #category/b
 
-**Textile** | category B | as of [[Journal/2026-09-30|2026-09-30]]
+**Textile** | category B | as of [[Journal/2026-11-03|2026-11-03]]
 
 Sector view: [[Sectors/Textile|Textile]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Textile|Textile]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Sell** | |
-| Moving averages | Strong Sell | 2 up / 11 down |
-| Oscillators | Sell | 1 up / 2 down |
-| Six-family score | Sell | -3 |
+| Summary (26 indicators) | **Buy** | |
+| Moving averages | Hold | 7 up / 6 down |
+| Oscillators | Buy | 2 up / 1 down |
+| Six-family score | Hold | -1 |
 
-RSI 40 | SuperTrend down
+RSI 51 | SuperTrend down
 
 ## Levels
 
-- Monthly pivot: 14.83
-- Nearest resistance: 13.70 (+20.2% away)
-- Nearest support: 10.50 (7.9% away)
+- Monthly pivot: 10.17
+- Nearest resistance: 11.43 (+5.9% away)
+- Nearest support: 10.17 (5.9% away)
 - 52-week range: 6.70 to 19.30
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 40 | SuperTrend down
 
 ## Track record
 
-13/55 resolved predictions reached their target
+19/96 resolved predictions reached their target
 <!-- vectora:end -->

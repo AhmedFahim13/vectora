@@ -1,19 +1,19 @@
 <!-- vectora:begin -->
 # Bank
 
-#sector-note #phase/lagging
+#sector-note #phase/leading
 
-Phase: **Lagging** | as of [[Journal/2026-09-23|2026-09-23]]
+Phase: **Leading** | as of [[Journal/2026-11-03|2026-11-03]]
 
 | measure | value |
 |---|---|
-| 21-day return | -1.60% |
-| vs market, 21 days | -0.76% |
-| momentum | -1.02% |
-| 63-day return | -2.09% |
+| 21-day return | -1.92% |
+| vs market, 21 days | +5.02% |
+| momentum | +5.61% |
+| 63-day return | -7.73% |
 | constituents | 31 |
 
 ## Members, strongest first
 
-[[MTB]] · [[PUBALIBANK]] · [[SHAHJABANK]] · [[IFIC]] · [[NRBBANK]] · [[BRACBANK]] · [[DUTCHBANGL]] · [[PREMIERBAN]] · [[SOUTHEASTB]] · [[NRBCBANK]] · [[GIB]] · [[SBACBANK]] · [[FIRSTSBANK]] · [[ICBIBANK]] · [[ABBANK]] · [[MIDLANDBNK]] · [[NBL]] · [[ONEBANKPLC]] · [[PRIMEBANK]] · [[BANKASIA]] · [[ISLAMIBANK]] · [[EXIMBANK]] · [[SIBL]] · [[UNIONBANK]] · [[CITYBANK]] · [[STANDBANKL]] · [[TRUSTBANK]] · [[UTTARABANK]] · [[DHAKABANK]] · [[NCCBANK]] · [[EBL]] · [[MERCANBANK]] · [[JAMUNABANK]] · [[RUPALIBANK]] · [[UCB]] · [[ALARABANK]]
+[[IFIC]] · [[UTTARABANK]] · [[DUTCHBANGL]] · [[PUBALIBANK]] · [[BANKASIA]] · [[NCCBANK]] · [[MIDLANDBNK]] · [[EBL]] · [[JAMUNABANK]] · [[NBL]] · [[UCB]] · [[NRBBANK]] · [[TRUSTBANK]] · [[DHAKABANK]] · [[SOUTHEASTB]] · [[MERCANBANK]] · [[PRIMEBANK]] · [[FIRSTSBANK]] · [[GIB]] · [[SHAHJABANK]] · [[PREMIERBAN]] · [[CITYBANK]] · [[SIBL]] · [[EXIMBANK]] · [[ICBIBANK]] · [[UNIONBANK]] · [[NRBCBANK]] · [[ONEBANKPLC]] · [[ISLAMIBANK]] · [[BRACBANK]] · [[MTB]] · [[SBACBANK]] · [[STANDBANKL]] · [[RUPALIBANK]] · [[ABBANK]] · [[ALARABANK]]
 <!-- vectora:end -->

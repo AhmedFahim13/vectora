@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # PRAGATIINS
 
-#posture/buy #sector/insurance #category/a
+#posture/sell #sector/insurance #category/a
 
-**Insurance** | category A | as of [[Journal/2026-09-30|2026-09-30]]
+**Insurance** | category A | as of [[Journal/2026-11-03|2026-11-03]]
 
 Sector view: [[Sectors/Insurance|Insurance]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Insurance|Insurance]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Buy** | |
-| Moving averages | Strong Buy | 11 up / 2 down |
-| Oscillators | Hold | 1 up / 1 down |
-| Six-family score | Hold | -1 |
+| Summary (26 indicators) | **Sell** | |
+| Moving averages | Strong Sell | 0 up / 13 down |
+| Oscillators | Buy | 1 up / 0 down |
+| Six-family score | Sell | -4 |
 
-RSI 51 | SuperTrend down
+RSI 39 | SuperTrend down
 
 ## Levels
 
-- Monthly pivot: 77.50
-- Nearest resistance: 77.50 (+3.1% away)
-- Nearest support: 70.30 (6.5% away)
+- Monthly pivot: 71.60
+- Nearest resistance: 71.60 (+4.4% away)
+- Nearest support: 67.80 (1.2% away)
 - 52-week range: 43.80 to 87.60
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 51 | SuperTrend down
 
 ## Track record
 
-8/55 resolved predictions reached their target
+8/96 resolved predictions reached their target
 <!-- vectora:end -->

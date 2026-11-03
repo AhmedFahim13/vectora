@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # KTL
 
-#posture/buy #sector/textile #category/z
+#posture/sell #sector/textile #category/z
 
-**Textile** | category Z | as of [[Journal/2026-09-30|2026-09-30]]
+**Textile** | category Z | as of [[Journal/2026-11-03|2026-11-03]]
 
 Sector view: [[Sectors/Textile|Textile]]
 
@@ -11,19 +11,19 @@ Sector view: [[Sectors/Textile|Textile]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Buy** | |
-| Moving averages | Strong Buy | 11 up / 2 down |
-| Oscillators | Sell | 0 up / 1 down |
-| Six-family score | Buy | +3 |
+| Summary (26 indicators) | **Sell** | |
+| Moving averages | Sell | 5 up / 8 down |
+| Oscillators | Sell | 0 up / 2 down |
+| Six-family score | Sell | -5 |
 
-RSI 55 | SuperTrend up
+RSI 43 | SuperTrend down
 
 ## Levels
 
-- Monthly pivot: 12.17
-- Nearest resistance: 13.13 (+2.6% away)
-- Nearest support: 12.17 (4.9% away)
-- 52-week range: 8.50 to 14.70
+- Monthly pivot: 13.53
+- Nearest resistance: 13.53 (+7.4% away)
+- Nearest support: 12.50 (0.8% away)
+- 52-week range: 8.50 to 14.80
 
 ## Fundamentals
 
@@ -34,5 +34,5 @@ RSI 55 | SuperTrend up
 
 ## Track record
 
-37/55 resolved predictions reached their target
+66/96 resolved predictions reached their target
 <!-- vectora:end -->

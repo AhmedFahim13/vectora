@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # BSC
 
-#posture/sell #sector/miscellaneous #category/a
+#posture/strong-sell #sector/miscellaneous #category/a
 
-**Miscellaneous** | category A | as of [[Journal/2026-09-30|2026-09-30]]
+**Miscellaneous** | category A | as of [[Journal/2026-11-03|2026-11-03]]
 
 Sector view: [[Sectors/Miscellaneous|Miscellaneous]]
 
@@ -11,19 +11,19 @@ Sector view: [[Sectors/Miscellaneous|Miscellaneous]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Sell** | |
-| Moving averages | Strong Sell | 3 up / 10 down |
-| Oscillators | Buy | 1 up / 0 down |
-| Six-family score | Sell | -2 |
+| Summary (26 indicators) | **Strong Sell** | |
+| Moving averages | Strong Sell | 0 up / 13 down |
+| Oscillators | Strong Sell | 0 up / 4 down |
+| Six-family score | Sell | -3 |
 
-RSI 47 | SuperTrend down
+RSI 27 | SuperTrend down
 
 ## Levels
 
-- Monthly pivot: 116.17
-- Nearest resistance: 115.50 (+4.1% away)
-- Nearest support: 107.93 (2.8% away)
-- 52-week range: 84.10 to 131.40
+- Monthly pivot: 105.33
+- Nearest resistance: 105.33 (+7.3% away)
+- Nearest support: 94.23 (4.0% away)
+- 52-week range: 85.00 to 131.40
 
 ## Fundamentals
 
@@ -34,5 +34,5 @@ RSI 47 | SuperTrend down
 
 ## Track record
 
-2/55 resolved predictions reached their target
+2/96 resolved predictions reached their target
 <!-- vectora:end -->

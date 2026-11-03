@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # PEOPLESINS
 
-#posture/strong-buy #sector/insurance #category/a
+#posture/buy #sector/insurance #category/a
 
-**Insurance** | category A | as of [[Journal/2026-09-30|2026-09-30]]
+**Insurance** | category A | as of [[Journal/2026-11-03|2026-11-03]]
 
 Sector view: [[Sectors/Insurance|Insurance]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Insurance|Insurance]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Strong Buy** | |
-| Moving averages | Strong Buy | 12 up / 0 down |
-| Oscillators | Buy | 2 up / 1 down |
-| Six-family score | Hold | +1 |
+| Summary (26 indicators) | **Buy** | |
+| Moving averages | Buy | 9 up / 4 down |
+| Oscillators | Sell | 1 up / 2 down |
+| Six-family score | Buy | +2 |
 
-RSI 55 | SuperTrend down
+RSI 50 | SuperTrend up
 
 ## Levels
 
-- Monthly pivot: 62.90
-- Nearest resistance: 62.90 (+0.6% away)
-- Nearest support: 55.30 (11.5% away)
+- Monthly pivot: 58.13
+- Nearest resistance: 58.13 (+0.1% away)
+- Nearest support: 53.30 (8.3% away)
 - 52-week range: 24.00 to 70.50
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 55 | SuperTrend down
 
 ## Track record
 
-25/55 resolved predictions reached their target
+33/96 resolved predictions reached their target
 <!-- vectora:end -->

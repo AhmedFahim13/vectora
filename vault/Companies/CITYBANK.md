@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # CITYBANK
 
-#posture/buy #sector/bank #category/a
+#posture/sell #sector/bank #category/a
 
-**Bank** | category A | as of [[Journal/2026-09-30|2026-09-30]]
+**Bank** | category A | as of [[Journal/2026-11-03|2026-11-03]]
 
 Sector view: [[Sectors/Bank|Bank]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Bank|Bank]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Buy** | |
-| Moving averages | Strong Buy | 11 up / 1 down |
-| Oscillators | Hold | 1 up / 1 down |
-| Six-family score | Hold | +0 |
+| Summary (26 indicators) | **Sell** | |
+| Moving averages | Strong Sell | 2 up / 11 down |
+| Oscillators | Sell | 0 up / 2 down |
+| Six-family score | Sell | -3 |
 
-RSI 52 | SuperTrend down
+RSI 27 | SuperTrend down
 
 ## Levels
 
-- Monthly pivot: 30.33
-- Nearest resistance: 30.30 (+0.7% away)
-- Nearest support: 29.20 (3.0% away)
+- Monthly pivot: 29.83
+- Nearest resistance: 29.83 (+6.2% away)
+- Nearest support: 17.90 (36.3% away)
 - 52-week range: 17.90 to 32.20
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 52 | SuperTrend down
 
 ## Track record
 
-0/55 resolved predictions reached their target
+0/96 resolved predictions reached their target
 <!-- vectora:end -->

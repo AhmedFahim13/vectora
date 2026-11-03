@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # RENATA
 
-#posture/hold #sector/pharmaceuticals-chemicals #category/a
+#posture/strong-sell #sector/pharmaceuticals-chemicals #category/a
 
-**Pharmaceuticals & Chemicals** | category A | as of [[Journal/2026-09-30|2026-09-30]]
+**Pharmaceuticals & Chemicals** | category A | as of [[Journal/2026-11-03|2026-11-03]]
 
 Sector view: [[Sectors/Pharmaceuticals & Chemicals|Pharmaceuticals & Chemicals]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Pharmaceuticals & Chemicals|Pharmaceuticals & Chemicals]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Hold** | |
-| Moving averages | Buy | 7 up / 5 down |
-| Oscillators | Sell | 0 up / 1 down |
-| Six-family score | Sell | -5 |
+| Summary (26 indicators) | **Strong Sell** | |
+| Moving averages | Strong Sell | 0 up / 13 down |
+| Oscillators | Sell | 2 up / 4 down |
+| Six-family score | Sell | -3 |
 
-RSI 48 | SuperTrend down
+RSI 21 | SuperTrend down
 
 ## Levels
 
-- Monthly pivot: 465.00
-- Nearest resistance: 465.00 (+2.6% away)
-- Nearest support: 453.00 (0.1% away)
+- Monthly pivot: 436.13
+- Nearest resistance: 436.13 (+3.9% away)
+- Nearest support: 414.27 (1.3% away)
 - 52-week range: 372.00 to 548.00
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 48 | SuperTrend down
 
 ## Track record
 
-0/55 resolved predictions reached their target
+0/96 resolved predictions reached their target
 <!-- vectora:end -->

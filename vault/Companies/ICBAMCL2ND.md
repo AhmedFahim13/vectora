@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # ICBAMCL2ND
 
-#posture/strong-buy #sector/mutual-funds #category/a
+#posture/hold #sector/mutual-funds #category/a
 
-**Mutual Funds** | category A | as of [[Journal/2026-09-30|2026-09-30]]
+**Mutual Funds** | category A | as of [[Journal/2026-11-03|2026-11-03]]
 
 Sector view: [[Sectors/Mutual Funds|Mutual Funds]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Mutual Funds|Mutual Funds]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Strong Buy** | |
-| Moving averages | Strong Buy | 13 up / 0 down |
-| Oscillators | Buy | 3 up / 1 down |
-| Six-family score | Strong Buy | +8 |
+| Summary (26 indicators) | **Hold** | |
+| Moving averages | Hold | 7 up / 6 down |
+| Oscillators | Hold | 1 up / 1 down |
+| Six-family score | Sell | -2 |
 
-RSI 70 | SuperTrend up
+RSI 52 | SuperTrend down
 
 ## Levels
 
-- Monthly pivot: 7.87
-- Nearest resistance: 10.27 (+2.7% away)
-- Nearest support: 7.87 (21.3% away)
+- Monthly pivot: 9.47
+- Nearest resistance: 9.47 (+0.7% away)
+- Nearest support: 8.70 (7.4% away)
 - 52-week range: 5.00 to 11.20
 
 ## Fundamentals

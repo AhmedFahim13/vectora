@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # GBBPOWER
 
-#posture/hold #sector/fuel-power #category/z
+#posture/buy #sector/fuel-power #category/z
 
-**Fuel & Power** | category Z | as of [[Journal/2026-09-30|2026-09-30]]
+**Fuel & Power** | category Z | as of [[Journal/2026-11-03|2026-11-03]]
 
 Sector view: [[Sectors/Fuel & Power|Fuel & Power]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Fuel & Power|Fuel & Power]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Hold** | |
-| Moving averages | Hold | 6 up / 6 down |
+| Summary (26 indicators) | **Buy** | |
+| Moving averages | Strong Buy | 12 up / 0 down |
 | Oscillators | Hold | 2 up / 2 down |
-| Six-family score | Sell | -3 |
+| Six-family score | Strong Buy | +5 |
 
-RSI 48 | SuperTrend down
+RSI 60 | SuperTrend up
 
 ## Levels
 
-- Monthly pivot: 13.67
-- Nearest resistance: 13.67 (+4.3% away)
-- Nearest support: 12.70 (3.1% away)
+- Monthly pivot: 12.37
+- Nearest resistance: 13.93 (+2.5% away)
+- Nearest support: 12.37 (9.1% away)
 - 52-week range: 5.30 to 17.60
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 48 | SuperTrend down
 
 ## Track record
 
-41/55 resolved predictions reached their target
+50/96 resolved predictions reached their target
 <!-- vectora:end -->

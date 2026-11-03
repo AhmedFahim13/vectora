@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # IBBL2PBOND
 
-#posture/buy #sector/corporate-bond #category/n
+#posture/strong-sell #sector/corporate-bond #category/n
 
-**Corporate Bond** | category N | as of [[Journal/2026-09-30|2026-09-30]]
+**Corporate Bond** | category N | as of [[Journal/2026-11-03|2026-11-03]]
 
 Sector view: [[Sectors/Corporate Bond|Corporate Bond]]
 
@@ -11,19 +11,19 @@ Sector view: [[Sectors/Corporate Bond|Corporate Bond]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Buy** | |
-| Moving averages | Buy | 7 up / 2 down |
-| Oscillators | Hold | 2 up / 2 down |
-| Six-family score | Buy | +4 |
+| Summary (26 indicators) | **Strong Sell** | |
+| Moving averages | Strong Sell | 0 up / 11 down |
+| Oscillators | Sell | 0 up / 3 down |
+| Six-family score | Sell | -3 |
 
-RSI 72 | SuperTrend up
+RSI 34 | SuperTrend up
 
 ## Levels
 
-- Monthly pivot: 3916.00
-- Nearest resistance: 3968.00 (+0.5% away)
-- Nearest support: 3916.00 (0.9% away)
-- 52-week range: 3898.00 to 4103.00
+- Monthly pivot: 3802.17
+- Nearest resistance: 3802.17 (+1.4% away)
+- Nearest support: 3657.50 (2.5% away)
+- 52-week range: 3657.50 to 4103.00
 
 ## Fundamentals
 

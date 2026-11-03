@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # NITOLINS
 
-#posture/strong-buy #sector/insurance #category/a
+#posture/buy #sector/insurance #category/a
 
-**Insurance** | category A | as of [[Journal/2026-09-30|2026-09-30]]
+**Insurance** | category A | as of [[Journal/2026-11-03|2026-11-03]]
 
 Sector view: [[Sectors/Insurance|Insurance]]
 
@@ -11,19 +11,19 @@ Sector view: [[Sectors/Insurance|Insurance]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Strong Buy** | |
-| Moving averages | Strong Buy | 13 up / 0 down |
-| Oscillators | Buy | 2 up / 1 down |
-| Six-family score | Hold | +0 |
+| Summary (26 indicators) | **Buy** | |
+| Moving averages | Strong Buy | 10 up / 3 down |
+| Oscillators | Buy | 2 up / 0 down |
+| Six-family score | Strong Buy | +6 |
 
-RSI 75 | SuperTrend up
+RSI 54 | SuperTrend up
 
 ## Levels
 
-- Monthly pivot: 44.80
-- Nearest resistance: 68.10 (+11.3% away)
-- Nearest support: 48.00 (21.6% away)
-- 52-week range: 22.00 to 59.30
+- Monthly pivot: 56.93
+- Nearest resistance: 56.93 (+0.6% away)
+- Nearest support: 52.37 (7.5% away)
+- 52-week range: 22.00 to 61.70
 
 ## Fundamentals
 
@@ -34,5 +34,5 @@ RSI 75 | SuperTrend up
 
 ## Track record
 
-45/55 resolved predictions reached their target
+75/96 resolved predictions reached their target
 <!-- vectora:end -->

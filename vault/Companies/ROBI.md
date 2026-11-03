@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # ROBI
 
-#posture/sell #sector/telecommunication #category/a #risk/thin-float
+#posture/strong-sell #sector/telecommunication #category/a #risk/thin-float
 
-**Telecommunication** | category A | as of [[Journal/2026-09-30|2026-09-30]]
+**Telecommunication** | category A | as of [[Journal/2026-11-03|2026-11-03]]
 
 Sector view: [[Sectors/Telecommunication|Telecommunication]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Telecommunication|Telecommunication]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Sell** | |
-| Moving averages | Strong Sell | 2 up / 11 down |
-| Oscillators | Buy | 2 up / 1 down |
+| Summary (26 indicators) | **Strong Sell** | |
+| Moving averages | Strong Sell | 0 up / 13 down |
+| Oscillators | Sell | 0 up / 3 down |
 | Six-family score | Sell | -3 |
 
-RSI 42 | SuperTrend down
+RSI 30 | SuperTrend down
 
 ## Levels
 
-- Monthly pivot: 31.00
-- Nearest resistance: 31.00 (+3.7% away)
-- Nearest support: 29.60 (1.0% away)
+- Monthly pivot: 29.83
+- Nearest resistance: 29.83 (+2.9% away)
+- Nearest support: 28.57 (1.5% away)
 - 52-week range: 22.60 to 33.90
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 42 | SuperTrend down
 
 ## Track record
 
-0/55 resolved predictions reached their target
+0/96 resolved predictions reached their target
 <!-- vectora:end -->

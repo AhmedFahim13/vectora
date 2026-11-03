@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # FAMILYTEX
 
-#posture/sell #sector/textile #category/z
+#posture/strong-sell #sector/textile #category/z
 
-**Textile** | category Z | as of [[Journal/2026-09-30|2026-09-30]]
+**Textile** | category Z | as of [[Journal/2026-11-03|2026-11-03]]
 
 Sector view: [[Sectors/Textile|Textile]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Textile|Textile]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Sell** | |
-| Moving averages | Sell | 4 up / 8 down |
-| Oscillators | Sell | 0 up / 2 down |
+| Summary (26 indicators) | **Strong Sell** | |
+| Moving averages | Strong Sell | 0 up / 13 down |
+| Oscillators | Sell | 1 up / 3 down |
 | Six-family score | Sell | -5 |
 
-RSI 35 | SuperTrend down
+RSI 30 | SuperTrend down
 
 ## Levels
 
-- Monthly pivot: 2.63
-- Nearest resistance: 2.60 (+18.2% away)
-- Nearest support: 2.17 (1.5% away)
+- Monthly pivot: 2.10
+- Nearest resistance: 2.10 (+10.5% away)
+- Nearest support: 1.80 (5.3% away)
 - 52-week range: 0.90 to 3.10
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 35 | SuperTrend down
 
 ## Track record
 
-9/55 resolved predictions reached their target
+11/96 resolved predictions reached their target
 <!-- vectora:end -->

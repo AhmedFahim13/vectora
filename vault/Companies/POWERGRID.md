@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # POWERGRID
 
-#posture/buy #sector/fuel-power #category/z #risk/thin-float
+#posture/sell #sector/fuel-power #category/z #risk/thin-float
 
-**Fuel & Power** | category Z | as of [[Journal/2026-09-30|2026-09-30]]
+**Fuel & Power** | category Z | as of [[Journal/2026-11-03|2026-11-03]]
 
 Sector view: [[Sectors/Fuel & Power|Fuel & Power]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Fuel & Power|Fuel & Power]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Buy** | |
-| Moving averages | Buy | 8 up / 4 down |
-| Oscillators | Buy | 1 up / 0 down |
-| Six-family score | Sell | -2 |
+| Summary (26 indicators) | **Sell** | |
+| Moving averages | Hold | 6 up / 7 down |
+| Oscillators | Sell | 0 up / 1 down |
+| Six-family score | Buy | +3 |
 
-RSI 49 | SuperTrend down
+RSI 48 | SuperTrend up
 
 ## Levels
 
-- Monthly pivot: 38.90
-- Nearest resistance: 38.90 (+2.6% away)
-- Nearest support: 37.00 (2.4% away)
+- Monthly pivot: 38.10
+- Nearest resistance: 40.50 (+6.3% away)
+- Nearest support: 35.70 (6.3% away)
 - 52-week range: 25.60 to 42.80
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 49 | SuperTrend down
 
 ## Track record
 
-5/55 resolved predictions reached their target
+14/96 resolved predictions reached their target
 <!-- vectora:end -->

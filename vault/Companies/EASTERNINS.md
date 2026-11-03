@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # EASTERNINS
 
-#posture/strong-buy #sector/insurance #category/a
+#posture/sell #sector/insurance #category/a
 
-**Insurance** | category A | as of [[Journal/2026-09-30|2026-09-30]]
+**Insurance** | category A | as of [[Journal/2026-11-03|2026-11-03]]
 
 Sector view: [[Sectors/Insurance|Insurance]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Insurance|Insurance]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Strong Buy** | |
-| Moving averages | Strong Buy | 13 up / 0 down |
-| Oscillators | Buy | 3 up / 0 down |
-| Six-family score | Strong Buy | +5 |
+| Summary (26 indicators) | **Sell** | |
+| Moving averages | Strong Sell | 2 up / 11 down |
+| Oscillators | Sell | 0 up / 2 down |
+| Six-family score | Strong Sell | -7 |
 
-RSI 64 | SuperTrend up
+RSI 41 | SuperTrend down
 
 ## Levels
 
-- Monthly pivot: 63.10
-- Nearest resistance: 66.70 (+3.6% away)
-- Nearest support: 63.10 (2.0% away)
+- Monthly pivot: 58.03
+- Nearest resistance: 58.03 (+5.5% away)
+- Nearest support: 53.30 (3.1% away)
 - 52-week range: 35.60 to 69.30
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 64 | SuperTrend up
 
 ## Track record
 
-19/55 resolved predictions reached their target
+34/96 resolved predictions reached their target
 <!-- vectora:end -->

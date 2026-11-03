@@ -3,7 +3,7 @@
 
 #posture/strong-sell #sector/pharmaceuticals-chemicals #category/z
 
-**Pharmaceuticals & Chemicals** | category Z | as of [[Journal/2026-09-30|2026-09-30]]
+**Pharmaceuticals & Chemicals** | category Z | as of [[Journal/2026-11-03|2026-11-03]]
 
 Sector view: [[Sectors/Pharmaceuticals & Chemicals|Pharmaceuticals & Chemicals]]
 
@@ -13,17 +13,17 @@ Sector view: [[Sectors/Pharmaceuticals & Chemicals|Pharmaceuticals & Chemicals]]
 |---|---|---|
 | Summary (26 indicators) | **Strong Sell** | |
 | Moving averages | Strong Sell | 0 up / 13 down |
-| Oscillators | Sell | 1 up / 2 down |
-| Six-family score | Sell | -3 |
+| Oscillators | Hold | 1 up / 1 down |
+| Six-family score | Sell | -2 |
 
-RSI 40 | SuperTrend down
+RSI 47 | SuperTrend down
 
 ## Levels
 
-- Monthly pivot: 613.33
-- Nearest resistance: 609.90 (+7.2% away)
-- Nearest support: 563.43 (1.0% away)
-- 52-week range: 550.10 to 850.00
+- Monthly pivot: 573.80
+- Nearest resistance: 573.80 (+5.1% away)
+- Nearest support: 523.80 (4.1% away)
+- 52-week range: 498.00 to 850.00
 
 ## Fundamentals
 
@@ -34,5 +34,5 @@ RSI 40 | SuperTrend down
 
 ## Track record
 
-0/55 resolved predictions reached their target
+6/96 resolved predictions reached their target
 <!-- vectora:end -->

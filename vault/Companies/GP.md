@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # GP
 
-#posture/sell #sector/telecommunication #category/a #risk/thin-float
+#posture/strong-sell #sector/telecommunication #category/a #risk/thin-float
 
-**Telecommunication** | category A | as of [[Journal/2026-09-30|2026-09-30]]
+**Telecommunication** | category A | as of [[Journal/2026-11-03|2026-11-03]]
 
 Sector view: [[Sectors/Telecommunication|Telecommunication]]
 
@@ -11,19 +11,19 @@ Sector view: [[Sectors/Telecommunication|Telecommunication]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Sell** | |
-| Moving averages | Strong Sell | 2 up / 11 down |
-| Oscillators | Sell | 1 up / 2 down |
-| Six-family score | Sell | -3 |
+| Summary (26 indicators) | **Strong Sell** | |
+| Moving averages | Strong Sell | 0 up / 13 down |
+| Oscillators | Sell | 2 up / 3 down |
+| Six-family score | Sell | -4 |
 
-RSI 43 | SuperTrend down
+RSI 19 | SuperTrend down
 
 ## Levels
 
-- Monthly pivot: 248.23
-- Nearest resistance: 245.40 (+1.6% away)
-- Nearest support: 236.60 (2.1% away)
-- 52-week range: 236.60 to 328.00
+- Monthly pivot: 239.40
+- Nearest resistance: 239.40 (+4.5% away)
+- Nearest support: 225.00 (1.7% away)
+- 52-week range: 229.00 to 328.00
 
 ## Fundamentals
 
@@ -34,5 +34,5 @@ RSI 43 | SuperTrend down
 
 ## Track record
 
-0/55 resolved predictions reached their target
+0/96 resolved predictions reached their target
 <!-- vectora:end -->

@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # SSSTEEL
 
-#posture/sell #sector/engineering #category/z
+#posture/strong-sell #sector/engineering #category/z
 
-**Engineering** | category Z | as of [[Journal/2026-09-30|2026-09-30]]
+**Engineering** | category Z | as of [[Journal/2026-11-03|2026-11-03]]
 
 Sector view: [[Sectors/Engineering|Engineering]]
 
@@ -11,19 +11,19 @@ Sector view: [[Sectors/Engineering|Engineering]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Sell** | |
-| Moving averages | Strong Sell | 2 up / 10 down |
-| Oscillators | Sell | 0 up / 2 down |
-| Six-family score | Strong Sell | -8 |
+| Summary (26 indicators) | **Strong Sell** | |
+| Moving averages | Strong Sell | 0 up / 13 down |
+| Oscillators | Strong Sell | 0 up / 4 down |
+| Six-family score | Sell | -5 |
 
-RSI 33 | SuperTrend down
+RSI 24 | SuperTrend down
 
 ## Levels
 
-- Monthly pivot: 6.77
-- Nearest resistance: 6.77 (+18.7% away)
-- Nearest support: 5.17 (9.4% away)
-- 52-week range: 3.10 to 8.20
+- Monthly pivot: 5.27
+- Nearest resistance: 5.27 (+9.7% away)
+- Nearest support: 4.63 (3.5% away)
+- 52-week range: 3.10 to 7.70
 
 ## Fundamentals
 
@@ -34,5 +34,5 @@ RSI 33 | SuperTrend down
 
 ## Track record
 
-5/55 resolved predictions reached their target
+5/96 resolved predictions reached their target
 <!-- vectora:end -->

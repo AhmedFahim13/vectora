@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # CLICL
 
-#posture/buy #sector/insurance #category/b
+#posture/strong-sell #sector/insurance #category/b
 
-**Insurance** | category B | as of [[Journal/2026-09-30|2026-09-30]]
+**Insurance** | category B | as of [[Journal/2026-11-03|2026-11-03]]
 
 Sector view: [[Sectors/Insurance|Insurance]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Insurance|Insurance]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Buy** | |
-| Moving averages | Buy | 9 up / 4 down |
-| Oscillators | Buy | 3 up / 1 down |
-| Six-family score | Buy | +3 |
+| Summary (26 indicators) | **Strong Sell** | |
+| Moving averages | Strong Sell | 0 up / 13 down |
+| Oscillators | Sell | 0 up / 2 down |
+| Six-family score | Hold | -1 |
 
-RSI 62 | SuperTrend up
+RSI 44 | SuperTrend up
 
 ## Levels
 
-- Monthly pivot: 47.03
-- Nearest resistance: 51.07 (+4.9% away)
-- Nearest support: 47.03 (3.4% away)
+- Monthly pivot: 45.70
+- Nearest resistance: 45.70 (+5.1% away)
+- Nearest support: 42.60 (2.1% away)
 - 52-week range: 38.10 to 69.80
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 62 | SuperTrend up
 
 ## Track record
 
-8/55 resolved predictions reached their target
+30/96 resolved predictions reached their target
 <!-- vectora:end -->

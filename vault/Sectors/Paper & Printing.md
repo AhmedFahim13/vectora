@@ -1,19 +1,19 @@
 <!-- vectora:begin -->
 # Paper & Printing
 
-#sector-note #phase/leading
+#sector-note #phase/lagging
 
-Phase: **Leading** | as of [[Journal/2026-09-23|2026-09-23]]
+Phase: **Lagging** | as of [[Journal/2026-11-03|2026-11-03]]
 
 | measure | value |
 |---|---|
-| 21-day return | -0.32% |
-| vs market, 21 days | +0.51% |
-| momentum | +5.09% |
-| 63-day return | -8.63% |
+| 21-day return | -10.70% |
+| vs market, 21 days | -3.76% |
+| momentum | -2.89% |
+| 63-day return | -19.83% |
 | constituents | 6 |
 
 ## Members, strongest first
 
-[[BPML]] · [[MONOSPOOL]] · [[MAGURAPLEX]] · [[SONALIPAPR]] · [[HAKKANIPUL]] · [[KPPL]]
+[[HAKKANIPUL]] · [[MONOSPOOL]] · [[SONALIPAPR]] · [[MAGURAPLEX]] · [[BPML]] · [[KPPL]]
 <!-- vectora:end -->

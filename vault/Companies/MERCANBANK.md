@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # MERCANBANK
 
-#posture/strong-sell #sector/bank #category/z
+#posture/hold #sector/bank #category/z
 
-**Bank** | category Z | as of [[Journal/2026-09-30|2026-09-30]]
+**Bank** | category Z | as of [[Journal/2026-11-03|2026-11-03]]
 
 Sector view: [[Sectors/Bank|Bank]]
 
@@ -11,19 +11,19 @@ Sector view: [[Sectors/Bank|Bank]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Strong Sell** | |
-| Moving averages | Strong Sell | 0 up / 13 down |
-| Oscillators | Sell | 0 up / 2 down |
-| Six-family score | Strong Sell | -8 |
+| Summary (26 indicators) | **Hold** | |
+| Moving averages | Hold | 6 up / 7 down |
+| Oscillators | Buy | 3 up / 1 down |
+| Six-family score | Hold | -1 |
 
-RSI 35 | SuperTrend down
+RSI 51 | SuperTrend down
 
 ## Levels
 
-- Monthly pivot: 7.10
-- Nearest resistance: 7.10 (+12.7% away)
-- Nearest support: 6.20 (1.6% away)
-- 52-week range: 6.20 to 10.90
+- Monthly pivot: 6.30
+- Nearest resistance: 6.60 (+3.1% away)
+- Nearest support: 6.30 (1.6% away)
+- 52-week range: 6.00 to 10.90
 
 ## Fundamentals
 
@@ -34,5 +34,5 @@ RSI 35 | SuperTrend down
 
 ## Track record
 
-0/55 resolved predictions reached their target
+1/96 resolved predictions reached their target
 <!-- vectora:end -->

@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # SANDHANINS
 
-#posture/buy #sector/insurance #category/a
+#posture/strong-sell #sector/insurance #category/a
 
-**Insurance** | category A | as of [[Journal/2026-09-30|2026-09-30]]
+**Insurance** | category A | as of [[Journal/2026-11-03|2026-11-03]]
 
 Sector view: [[Sectors/Insurance|Insurance]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Insurance|Insurance]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Buy** | |
-| Moving averages | Buy | 9 up / 3 down |
-| Oscillators | Hold | 1 up / 1 down |
-| Six-family score | Hold | -1 |
+| Summary (26 indicators) | **Strong Sell** | |
+| Moving averages | Strong Sell | 0 up / 13 down |
+| Oscillators | Strong Sell | 0 up / 4 down |
+| Six-family score | Sell | -5 |
 
-RSI 48 | SuperTrend down
+RSI 30 | SuperTrend down
 
 ## Levels
 
-- Monthly pivot: 26.50
-- Nearest resistance: 26.30 (+6.5% away)
-- Nearest support: 23.70 (4.0% away)
+- Monthly pivot: 22.97
+- Nearest resistance: 22.97 (+7.3% away)
+- Nearest support: 21.03 (1.7% away)
 - 52-week range: 17.00 to 30.30
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 48 | SuperTrend down
 
 ## Track record
 
-6/55 resolved predictions reached their target
+6/96 resolved predictions reached their target
 <!-- vectora:end -->

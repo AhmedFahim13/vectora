@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # USMANIAGL
 
-#posture/sell #sector/miscellaneous #category/z
+#posture/strong-buy #sector/miscellaneous #category/z
 
-**Miscellaneous** | category Z | as of [[Journal/2026-09-30|2026-09-30]]
+**Miscellaneous** | category Z | as of [[Journal/2026-11-03|2026-11-03]]
 
 Sector view: [[Sectors/Miscellaneous|Miscellaneous]]
 
@@ -11,18 +11,18 @@ Sector view: [[Sectors/Miscellaneous|Miscellaneous]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Sell** | |
-| Moving averages | Sell | 4 up / 9 down |
-| Oscillators | Strong Sell | 0 up / 4 down |
-| Six-family score | Strong Sell | -7 |
+| Summary (26 indicators) | **Strong Buy** | |
+| Moving averages | Strong Buy | 12 up / 1 down |
+| Oscillators | Buy | 3 up / 1 down |
+| Six-family score | Hold | +1 |
 
-RSI 39 | SuperTrend down
+RSI 56 | SuperTrend down
 
 ## Levels
 
-- Monthly pivot: 65.43
-- Nearest resistance: 63.20 (+19.9% away)
-- Nearest support: 50.10 (4.9% away)
+- Monthly pivot: 54.13
+- Nearest resistance: 60.20 (+7.3% away)
+- Nearest support: 54.13 (3.5% away)
 - 52-week range: 27.70 to 84.70
 
 ## Fundamentals
@@ -34,5 +34,5 @@ RSI 39 | SuperTrend down
 
 ## Track record
 
-16/55 resolved predictions reached their target
+25/96 resolved predictions reached their target
 <!-- vectora:end -->

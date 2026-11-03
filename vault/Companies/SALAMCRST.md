@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # SALAMCRST
 
-#posture/hold #sector/engineering #category/z
+#posture/strong-sell #sector/engineering #category/z
 
-**Engineering** | category Z | as of [[Journal/2026-09-30|2026-09-30]]
+**Engineering** | category Z | as of [[Journal/2026-11-03|2026-11-03]]
 
 Sector view: [[Sectors/Engineering|Engineering]]
 
@@ -11,19 +11,19 @@ Sector view: [[Sectors/Engineering|Engineering]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Hold** | |
-| Moving averages | Sell | 4 up / 8 down |
-| Oscillators | Buy | 2 up / 0 down |
-| Six-family score | Hold | -1 |
+| Summary (26 indicators) | **Strong Sell** | |
+| Moving averages | Strong Sell | 0 up / 13 down |
+| Oscillators | Sell | 1 up / 3 down |
+| Six-family score | Strong Sell | -7 |
 
-RSI 50 | SuperTrend down
+RSI 42 | SuperTrend down
 
 ## Levels
 
-- Monthly pivot: 13.03
-- Nearest resistance: 13.03 (+6.8% away)
-- Nearest support: 11.57 (5.2% away)
-- 52-week range: 11.00 to 31.20
+- Monthly pivot: 12.00
+- Nearest resistance: 12.00 (+6.2% away)
+- Nearest support: 11.00 (2.7% away)
+- 52-week range: 11.00 to 25.60
 
 ## Fundamentals
 
@@ -34,5 +34,5 @@ RSI 50 | SuperTrend down
 
 ## Track record
 
-15/55 resolved predictions reached their target
+30/96 resolved predictions reached their target
 <!-- vectora:end -->

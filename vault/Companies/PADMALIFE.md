@@ -1,9 +1,9 @@
 <!-- vectora:begin -->
 # PADMALIFE
 
-#posture/sell #sector/insurance #category/z
+#posture/strong-sell #sector/insurance #category/z
 
-**Insurance** | category Z | as of [[Journal/2026-09-30|2026-09-30]]
+**Insurance** | category Z | as of [[Journal/2026-11-03|2026-11-03]]
 
 Sector view: [[Sectors/Insurance|Insurance]]
 
@@ -11,19 +11,19 @@ Sector view: [[Sectors/Insurance|Insurance]]
 
 | gauge | verdict | detail |
 |---|---|---|
-| Summary (26 indicators) | **Sell** | |
+| Summary (26 indicators) | **Strong Sell** | |
 | Moving averages | Strong Sell | 0 up / 13 down |
-| Oscillators | Buy | 2 up / 1 down |
-| Six-family score | Sell | -3 |
+| Oscillators | Sell | 1 up / 3 down |
+| Six-family score | Strong Sell | -7 |
 
-RSI 41 | SuperTrend down
+RSI 33 | SuperTrend down
 
 ## Levels
 
-- Monthly pivot: 17.23
-- Nearest resistance: 17.23 (+9.8% away)
-- Nearest support: 15.67 (0.2% away)
-- 52-week range: 13.80 to 26.70
+- Monthly pivot: 15.37
+- Nearest resistance: 15.37 (+7.5% away)
+- Nearest support: 13.93 (2.6% away)
+- 52-week range: 13.80 to 26.00
 
 ## Fundamentals
 
@@ -34,5 +34,5 @@ RSI 41 | SuperTrend down
 
 ## Track record
 
-2/39 resolved predictions reached their target
+2/42 resolved predictions reached their target
 <!-- vectora:end -->
