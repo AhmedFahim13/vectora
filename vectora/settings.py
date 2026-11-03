@@ -10,12 +10,13 @@ HOLIDAYS_CSV = REFERENCE_DIR / "holidays.csv"
 
 # DSE moved to www.dse.com.bd on 2026-09-24; www.dsebd.org now 410s every
 # legacy page. The same pages still live on old.dsebd.org (verified
-# 2026-11-03). It throws the odd 500, which PoliteSession retries.
+# 2026-11-03). It answers about 3 requests in 10 with a 500, sometimes several
+# in a row, hence the deeper retry budget (backoff 5 s, 10 s, ... 25 s).
 DSE_BASE = "https://old.dsebd.org"
 USER_AGENT = "VectoraResearch/0.1 (personal academic research)"
 REQUEST_DELAY_S = 1.5
 REQUEST_TIMEOUT_S = 90
-MAX_RETRIES = 3
+MAX_RETRIES = 6
 
 # Data-quality alert floor (spec §5.3)
 MIN_QUALITY_SCORE = 80

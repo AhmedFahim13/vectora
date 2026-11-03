@@ -22,6 +22,13 @@ class RecordingSession:
         return ""
 
 
+def test_retry_budget_rides_out_the_legacy_hosts_500s():
+    """old.dsebd.org answered 500 to about 3 requests in 10, sometimes several
+    in a row (measured 2026-11-03); three attempts lost whole days."""
+    from vectora.http import PoliteSession
+    assert PoliteSession().max_retries >= 6
+
+
 def test_base_is_the_legacy_host():
     assert settings.DSE_BASE == LEGACY
 
