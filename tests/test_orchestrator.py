@@ -109,6 +109,21 @@ def test_dates_to_run_skips_weekend_and_holiday():
     assert dates == [date(2026, 7, 9)]  # Fri/Sat weekend, Sun holiday
 
 
+def test_gap_fill_resumes_from_the_older_of_the_eod_and_news_watermarks(test_db):
+    """old.dsebd.org can 500 a page six times running. A day whose prices landed but
+    whose news did not must be retried by the next run, not skipped for good."""
+    from vectora import db as vdb
+    vdb.set_watermark(test_db, "collect", "eod", "2026-07-09")
+    vdb.set_watermark(test_db, "collect", "news", "2026-07-07")
+    assert orchestrator._resume_watermark(test_db) == "2026-07-07"
+
+
+def test_resume_watermark_without_news_falls_back_to_eod(test_db):
+    from vectora import db as vdb
+    vdb.set_watermark(test_db, "collect", "eod", "2026-07-09")
+    assert orchestrator._resume_watermark(test_db) == "2026-07-09"
+
+
 def test_dates_to_run_nothing_new():
     assert orchestrator._dates_to_run(
         "2026-07-09", date(2026, 7, 9), holidays=set(), explicit=False) == []

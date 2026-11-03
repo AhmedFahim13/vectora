@@ -75,6 +75,17 @@ def _dates_to_run(watermark: str | None, target: date,
     return out
 
 
+def _resume_watermark(con) -> str | None:
+    """Where gap-fill resumes: the older of the price and news watermarks.
+
+    Each advances only when its own page landed, so a day whose prices came in
+    but whose news page failed is collected again (idempotently) next run.
+    """
+    marks = [w for w in (vdb.get_watermark(con, "collect", k) for k in ("eod", "news"))
+             if w is not None]
+    return min(marks) if marks else None
+
+
 def run_eod_live(date_str: str | None) -> list[dict]:
     """Wire real dependencies and run pending EOD cycles (used by CLI/CI)."""
     holidays = cal.load_holidays()
@@ -82,7 +93,7 @@ def run_eod_live(date_str: str | None) -> list[dict]:
     con = vdb.connect(DB_PATH)
     try:
         vdb.init_schema(con)
-        watermark = vdb.get_watermark(con, "collect", "eod")
+        watermark = _resume_watermark(con)
         dates = _dates_to_run(watermark, target, holidays, explicit=bool(date_str))
         if not dates:
             return [{"date": target.isoformat(),
