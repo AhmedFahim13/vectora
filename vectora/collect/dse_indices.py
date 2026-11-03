@@ -50,7 +50,10 @@ def parse_homepage(html: str) -> dict:
             name = _clean_name(name_div.get_text())
             if name and value is not None and name not in seen:
                 seen.add(name)
-                indices.append({"index_name": name, "value": value, "change": change})
+                # old.dsebd.org sometimes renders a live index as 0.00; no
+                # index is ever 0, and the prior-day block must not stand in
+                if value > 0:
+                    indices.append({"index_name": name, "value": value, "change": change})
             continue
         # totals are anchored on the labeled header row: other 3-number
         # m_col-wid rows exist (e.g. Issues Advanced/Declined/Unchanged),

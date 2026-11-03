@@ -30,6 +30,18 @@ def test_one_entry_per_index_and_current_day_wins(fixtures_dir):
     assert dsex["change"] == 33.78998
 
 
+def test_zero_index_is_dropped_not_replaced_by_the_prior_day():
+    """old.dsebd.org sometimes renders a live index as 0.00 (seen 2026-11-03,
+    one fetch in five). No index is ever really 0, and the prior-day value
+    further down the page must not stand in for today's."""
+    row = ('<div class="midrow"><div class="m_col-1">{0} Index</div>'
+           '<div class="m_col-2">{1}</div><div class="m_col-3">{2}</div></div>')
+    html = (row.format("DSEX", "0.00", "0.00") + row.format("DS30", "2016.59", "-25.5")
+            + row.format("DSEX", "5333.58", "-11.0"))  # "Preceding Trade Date"
+    idx = dse_indices.parse_homepage(html)["indices"]
+    assert idx == [{"index_name": "DS30", "value": 2016.59, "change": -25.5}]
+
+
 def test_signed_change_parsing():
     # DSMEX-style negative change (comment-wrapped in the fixture, so pinned
     # here with a synthetic midrow instead)
