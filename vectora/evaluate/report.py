@@ -177,7 +177,8 @@ def _cohort_section(c: dict) -> list[str]:
 
 
 def evaluate(con, reports_dir: Path = REPORTS_DIR,
-             vault_dir: Path = VAULT_DIR, seg_min: int = 5) -> dict:
+             vault_dir: Path = VAULT_DIR, seg_min: int = 5,
+             run_date: str | None = None) -> dict:
     rows = con.execute(
         """
         SELECT p.id, p.symbol, p.date, p.target, p.probability,
@@ -240,7 +241,7 @@ def evaluate(con, reports_dir: Path = REPORTS_DIR,
     if tags:
         vdb.upsert(con, "outcome_tags", tags)
 
-    today = dt.date.today().isoformat()
+    today = run_date or dt.date.today().isoformat()
     lines = [f"# Evaluation {today}", "",
              f"{len(rows)} resolved predictions", ""]
     for tgt, m in targets.items():

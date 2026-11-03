@@ -62,15 +62,17 @@ def load_entries(con, min_prob: float = 0.0,
 
 
 def run(con, costs: CostModel | None = None,
-        reports_dir: Path = REPORTS_DIR, min_prob: float = 0.40) -> dict:
+        reports_dir: Path = REPORTS_DIR, min_prob: float = 0.40,
+        run_date: str | None = None) -> dict:
     costs = costs or CostModel()
+    run_date = run_date or dt.date.today().isoformat()
     panel = load_panel(con)
     entries = load_entries(con, min_prob=min_prob)
     out: dict = {}
     if entries.height == 0:
         return {"entries": 0}
 
-    lines = [f"# Backtest {dt.date.today().isoformat()}", "",
+    lines = [f"# Backtest {run_date}", "",
              f"{entries.height} candidate entries at probability >= "
              f"{min_prob:.2f}, priced on the real path.", "",
              "Entry is the NEXT session's open, never the close the "
@@ -93,7 +95,7 @@ def run(con, costs: CostModel | None = None,
         lines.append("")
 
     reports_dir.mkdir(parents=True, exist_ok=True)
-    path = reports_dir / f"backtest_{dt.date.today().isoformat()}.md"
+    path = reports_dir / f"backtest_{run_date}.md"
     path.write_text("\n".join(lines), encoding="utf-8")
     out["_report"] = str(path)
     out["entries"] = entries.height

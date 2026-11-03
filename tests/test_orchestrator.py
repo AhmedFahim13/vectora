@@ -46,7 +46,8 @@ def _session():
 
 def test_run_eod_full_cycle(test_db, tmp_path):
     summary = orchestrator.run_eod(
-        test_db, _session(), date(2026, 7, 9), raw_dir=tmp_path, holidays=set())
+        test_db, _session(), date(2026, 7, 9), raw_dir=tmp_path, holidays=set(),
+        today=date(2026, 7, 9))
     assert summary == {
         "date": "2026-07-09",
         "skipped": None,
@@ -58,6 +59,18 @@ def test_run_eod_full_cycle(test_db, tmp_path):
     # all four stages actually wrote
     for table in ("prices_raw", "events", "indices", "data_quality"):
         assert test_db.execute(f"SELECT count(*) FROM {table}").fetchone()[0] >= 1
+
+
+def test_run_eod_past_date_skips_homepage_indices(test_db, tmp_path):
+    """The homepage shows only the current session. Gap-filling 2026-09-24
+    on 2026-11-03 must not file November's index values under September."""
+    summary = orchestrator.run_eod(
+        test_db, _session(), date(2026, 7, 9), raw_dir=tmp_path, holidays=set(),
+        today=date(2026, 7, 12))
+    assert summary["eod_rows"] == 1
+    assert summary["index_rows"] is None
+    assert "errors" not in summary
+    assert test_db.execute("SELECT count(*) FROM indices").fetchone()[0] == 0
 
 
 def test_run_eod_skips_non_trading_day(test_db, tmp_path):

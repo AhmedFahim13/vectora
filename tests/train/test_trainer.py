@@ -41,11 +41,15 @@ def test_trainer_end_to_end_writes_report_registry_and_artifacts(test_db, tmp_pa
         models_dir=tmp_path / "models", reports_dir=tmp_path / "reports",
         features_path=tmp_path / "features.parquet",
         min_train_days=500, test_days=120, embargo_days=10,
-        min_median_value_mn=0.1)
+        min_median_value_mn=0.1, run_date="2026-10-02")
     assert result["folds"] >= 2
     assert 0 < result["lgbm_brier"] < 1 and 0 < result["logistic_brier"] < 1
+    # a replayed Friday files under its own date, not the day it was replayed
     report = list((tmp_path / "reports").glob("train_g5_h10_*.md"))
-    assert len(report) == 1
+    assert [p.name for p in report] == ["train_g5_h10_2026-10-02.md"]
+    ids = [r[0] for r in test_db.execute(
+        "SELECT model_id FROM model_registry").fetchall()]
+    assert ids and all("_2026-10-02_" in i for i in ids)
     text = report[0].read_text(encoding="utf-8")
     assert "Brier" in text and "reliability" in text.lower()
     n = test_db.execute("SELECT count(*) FROM model_registry").fetchone()[0]

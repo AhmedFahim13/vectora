@@ -8,7 +8,10 @@ REFERENCE_DIR = DATA_DIR / "reference"
 DB_PATH = DATA_DIR / "vectora.duckdb"
 HOLIDAYS_CSV = REFERENCE_DIR / "holidays.csv"
 
-DSE_BASE = "https://www.dsebd.org"
+# DSE moved to www.dse.com.bd on 2026-09-24; www.dsebd.org now 410s every
+# legacy page. The same pages still live on old.dsebd.org (verified
+# 2026-11-03). It throws the odd 500, which PoliteSession retries.
+DSE_BASE = "https://old.dsebd.org"
 USER_AGENT = "VectoraResearch/0.1 (personal academic research)"
 REQUEST_DELAY_S = 1.5
 REQUEST_TIMEOUT_S = 90

@@ -51,6 +51,16 @@ def test_evaluate_metrics_and_report(test_db, tmp_path):
     assert (tmp_path / "vault" / "Evaluations").exists()
 
 
+def test_evaluate_report_is_named_by_run_date(test_db, tmp_path):
+    """A replayed Friday files under its own date, not the day it was replayed."""
+    _seed(test_db)
+    report.evaluate(test_db, reports_dir=tmp_path, vault_dir=tmp_path / "vault",
+                    seg_min=2, run_date="2026-10-02")
+    text = (tmp_path / "eval_2026-10-02.md").read_text(encoding="utf-8")
+    assert text.startswith("# Evaluation 2026-10-02")
+    assert (tmp_path / "vault" / "Evaluations" / "2026-10-02.md").exists()
+
+
 def test_autopsy_tags_misses(test_db, tmp_path):
     _seed(test_db)
     # ZZZ miss: exit_days 9 -> liquidity tag; AAA 06-02 miss: no risk row,

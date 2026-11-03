@@ -29,7 +29,8 @@ _TARGET_RE = re.compile(r"^g(\d+)_h(\d+)$")
 def run(con, target: str = "g5_h10",
         models_dir=MODELS_DIR, reports_dir=REPORTS_DIR,
         features_path=None, min_train_days: int = 750, test_days: int = 126,
-        embargo_days: int = 30, min_median_value_mn: float = 1.0) -> dict:
+        embargo_days: int = 30, min_median_value_mn: float = 1.0,
+        run_date: str | None = None) -> dict:
     m = _TARGET_RE.match(target)
     if not m:
         raise ValueError(f"bad target '{target}', expected like g5_h10")
@@ -160,7 +161,7 @@ def run(con, target: str = "g5_h10",
     prod_train_end = all_dates[-1]
     last_models["lgbm"] = prod_model
 
-    run_id = dt.date.today().isoformat()
+    run_id = run_date or dt.date.today().isoformat()
     registered: list[tuple[str, str]] = []
     for fam in ("logistic", "lgbm"):
         model_id = f"{target}_{fam}_{run_id}_{uuid.uuid4().hex[:6]}"

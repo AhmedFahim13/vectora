@@ -33,7 +33,9 @@ def main(argv: list[str] | None = None) -> int:
                               "vault", "regime", "events", "zscan", "intraday", "evaluate",
                               "health", "dashboard", "ta", "maintenance", "backtest"])
     run.add_argument("--date", default=None,
-                     help="YYYY-MM-DD (default: gap-fill up to today)")
+                     help="YYYY-MM-DD (default: gap-fill up to today); for "
+                          "train/evaluate/backtest it dates the run's "
+                          "reports and model ids (default: today)")
     run.add_argument("--target", default="g5_h10",
                      help="label target for train, e.g. g5_h10")
     args = parser.parse_args(argv)
@@ -51,7 +53,7 @@ def main(argv: list[str] | None = None) -> int:
         try:
             vdb.init_schema(con)
             state.restore_state(con)
-            result = trainer.run(con, target=args.target)
+            result = trainer.run(con, target=args.target, run_date=args.date)
             state.export_state(con)
         finally:
             con.close()
@@ -195,7 +197,7 @@ def main(argv: list[str] | None = None) -> int:
         con = vdb.connect(DB_PATH)
         try:
             vdb.init_schema(con)
-            result = report.evaluate(con)
+            result = report.evaluate(con, run_date=args.date)
             # re-test the live calibration correction every evaluation: it
             # installs itself only when it beats doing nothing on cohorts it
             # has never seen, so this is safe to run unattended
@@ -219,7 +221,7 @@ def main(argv: list[str] | None = None) -> int:
         con = vdb.connect(DB_PATH)
         try:
             vdb.init_schema(con)
-            result = btrunner.run(con)
+            result = btrunner.run(con, run_date=args.date)
         finally:
             con.close()
         print(json.dumps(result, indent=1, default=str))

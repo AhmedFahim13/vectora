@@ -17,7 +17,8 @@ from vectora.validate import checks
 
 
 def run_eod(con, session, run_date: date, raw_dir: Path = RAW_DIR,
-            holidays: set[date] | None = None) -> dict:
+            holidays: set[date] | None = None,
+            today: date | None = None) -> dict:
     summary: dict = {
         "date": run_date.isoformat(), "skipped": None,
         "eod_rows": None, "news_items": None, "index_rows": None,
@@ -40,8 +41,11 @@ def run_eod(con, session, run_date: date, raw_dir: Path = RAW_DIR,
         "eod", lambda: runner.collect_eod(con, session, run_date, raw_dir=raw_dir))
     summary["news_items"] = _stage(
         "news", lambda: runner.collect_news(con, session, run_date, raw_dir=raw_dir))
-    summary["index_rows"] = _stage(
-        "indices", lambda: runner.collect_indices(con, session, run_date, raw_dir=raw_dir))
+    # the homepage shows only the current session: collecting it while
+    # gap-filling an older date would file today's values under that date
+    if run_date == (today or date.today()):
+        summary["index_rows"] = _stage(
+            "indices", lambda: runner.collect_indices(con, session, run_date, raw_dir=raw_dir))
 
     prev = cal.previous_trading_day(run_date, holidays)
     result = _stage("validate", lambda: checks.validate_day(con, run_date, prev=prev))
