@@ -35,6 +35,23 @@ def test_all_green_when_fresh(test_db, tmp_path):
     assert {"freshness", "quality", "tables", "watermark"} <= names
 
 
+def test_a_run_started_after_midnight_expects_the_last_closed_day(test_db, tmp_path):
+    """GitHub started the 17:30 check at 00:44 the next day (2026-11-05). Sunday's prices cannot
+    exist before Sunday's close, so a check on Sunday expects Thursday's."""
+    _seed_fresh(test_db)   # Thu 2026-07-16
+    from vectora import state
+    state.export_state(test_db, tmp_path)
+    sunday = dt.date(2026, 7, 19)
+    assert health.check(test_db, today=sunday, holidays=set(), state_root=tmp_path)["ok"] is True
+    # but a day further behind is still caught
+    _seed_fresh(test_db, d="2026-07-15")
+    test_db.execute("DELETE FROM prices_raw WHERE date = '2026-07-16'")
+    test_db.execute("DELETE FROM predictions WHERE date = '2026-07-16'")
+    vdb.set_watermark(test_db, "collect", "eod", "2026-07-15")
+    stale = health.check(test_db, today=sunday, holidays=set(), state_root=tmp_path)
+    assert next(c for c in stale["checks"] if c["name"] == "freshness")["ok"] is False
+
+
 def test_stale_prices_fail_freshness(test_db):
     _seed_fresh(test_db, d="2026-07-09")   # a week old
     result = health.check(test_db, today=dt.date(2026, 7, 18),

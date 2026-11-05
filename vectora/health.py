@@ -18,8 +18,10 @@ def check(con, today: dt.date | None = None,
           state_root=None) -> dict:
     today = today or dt.date.today()
     hs = cal.load_holidays() if holidays is None else holidays
-    expected = today if cal.is_trading_day(today, hs) \
-        else cal.previous_trading_day(today, hs)
+    # The last trading day before today. GitHub starts this 17:30 job hours late (00:44 the next
+    # day on 2026-11-05), when today's prices cannot exist yet, and expecting them made every such
+    # run fail. One day's lag still catches an outage like 2026-09-24's within a day.
+    expected = cal.previous_trading_day(today, hs)
     checks = []
 
     max_date = con.execute(
