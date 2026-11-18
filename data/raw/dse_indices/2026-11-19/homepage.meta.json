@@ -1,0 +1,9 @@
+{
+ "source": "dse_indices",
+ "run_date": "2026-11-19",
+ "url": "https://old.dsebd.org/",
+ "fetched_at": "2026-11-18T18:18:00.952749+00:00",
+ "bytes": 385765,
+ "compressed_bytes": 39328,
+ "sha256": "063d6e586b0f881251894e26b380a1ca31eb0e9d37a071c0beb14822bd543e5d"
+}
