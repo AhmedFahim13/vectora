@@ -638,5 +638,37 @@
   "t_stat": -2.382457448061063,
   "target": "g5_h10",
   "verdict": "installed: 40/60 cohorts improved, t=-2.38"
+ },
+ {
+  "brier_base": 0.1583926874948092,
+  "brier_corrected": 0.12571851592510527,
+  "cohorts": 45,
+  "cohorts_improved": 42,
+  "delta_mean": -0.03214033090911301,
+  "delta_se": 0.004900115950965869,
+  "fit_regimes": "[\"Bear\", \"Sideways\"]",
+  "fitted_at": "2026-11-13 17:32:09.298304",
+  "installed": true,
+  "n": 14678,
+  "t_critical": -1.6802299765721171,
+  "t_stat": -6.559095995019829,
+  "target": "g10_h30",
+  "verdict": "installed: 42/45 cohorts improved, t=-6.56"
+ },
+ {
+  "brier_base": 0.1722239007135577,
+  "brier_corrected": 0.1675134637456836,
+  "cohorts": 65,
+  "cohorts_improved": 42,
+  "delta_mean": -0.004445096066669594,
+  "delta_se": 0.002015895392374591,
+  "fit_regimes": "[\"Bear\", \"Sideways\"]",
+  "fitted_at": "2026-11-13 17:32:09.605463",
+  "installed": true,
+  "n": 20795,
+  "t_critical": -1.66901302502409,
+  "t_stat": -2.205023179021986,
+  "target": "g5_h10",
+  "verdict": "installed: 42/65 cohorts improved, t=-2.21"
  }
 ]
